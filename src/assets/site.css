@@ -686,3 +686,10 @@ html:not(.js) .js-only{display:none!important}
 .drawer .dh .icon-btn{position:absolute;right:6px;top:4px}
 .js-recent .sg{margin-top:24px}
 .side .tagcloud,.drawer .tagcloud{margin-bottom:6px}
+/* phones: logo centered in the top bar, menu button left, theme button right */
+@media(max-width:899px){
+  .top-in{position:relative;justify-content:space-between}
+  .top-in>.logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
+  .top-in>.spacer{display:none}
+  #theme{margin-left:auto}
+}
