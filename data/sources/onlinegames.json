@@ -21,16 +21,6 @@
       "slug": "love-tester",
       "at": "2026-10-11"
     },
-    "https://www.onlinegames.io/gta-simulator/": {
-      "status": "skipped",
-      "reason": "marked as mature content",
-      "at": "2026-10-11"
-    },
-    "https://www.onlinegames.io/masked-special-forces/": {
-      "status": "skipped",
-      "reason": "marked as mature content",
-      "at": "2026-10-11"
-    },
     "https://www.onlinegames.io/stickman-parkour/": {
       "status": "imported",
       "slug": "stickman-parkour",
@@ -39,11 +29,6 @@
     "https://www.onlinegames.io/escape-car-2/": {
       "status": "imported",
       "slug": "escape-car-2",
-      "at": "2026-10-11"
-    },
-    "https://www.onlinegames.io/stickman-gta-city/": {
-      "status": "skipped",
-      "reason": "marked as mature content",
       "at": "2026-10-11"
     },
     "https://www.onlinegames.io/guerrillas-io/": {

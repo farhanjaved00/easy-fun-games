@@ -23,5 +23,9 @@
     "title": "Halloween picks",
     "sub": "Spooky games for the season.",
     "until": "2026-11-01"
+  },
+  "importRules": {
+    "skipMature": false,
+    "skipTrademarkNames": false
   }
 }

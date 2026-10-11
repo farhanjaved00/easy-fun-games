@@ -647,3 +647,4 @@ body.menu-open .drawer{visibility:visible}
 [hidden]{display:none!important}
 html:not(.js) .js-only{display:none!important}
 .nopromo .promo{display:none}
+.advisory{background:color-mix(in srgb,var(--sun) 18%,var(--surface));border:1px solid color-mix(in srgb,var(--sun) 55%,transparent);border-radius:14px;padding:10px 14px;margin:6px 0 12px;font-size:14px;font-weight:600}

@@ -276,7 +276,7 @@ ${player}
 <button class="pill" id="share">🔗 Share</button>
 <button class="pill" id="fs">⛶ Fullscreen</button>
 <a class="pill" href="/contact/#report" aria-label="Report a problem with this game">⚠ Report</a></div></div>
-<div class="meta"><a href="${c.url}">${c.emoji} ${esc(c.name)}</a><span>Free</span><span>Added ${fmtDate(g.addedAt)}</span>${g.developer ? `<span>By ${esc(g.developer)}</span>` : ''}</div>
+${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game includes mature elements such as intense action or strong language. Player discretion is advised.</p>' : ''}<div class="meta"><a href="${c.url}">${c.emoji} ${esc(c.name)}</a><span>Free</span><span>Added ${fmtDate(g.addedAt)}</span>${g.developer ? `<span>By ${esc(g.developer)}</span>` : ''}</div>
 <div class="chips" style="padding:12px 0 0;margin:0;flex-wrap:wrap;overflow:visible">${g.tagList.map(t => `<a class="chip" href="${m.tagBySlug.get(t.slug).url}">${esc(t.name)}</a>`).join('')}</div>
 <div class="gstats"><div class="stat"><b>Free</b><span>to play</span></div><div class="stat"><b>#${g.catRank}</b><span>in ${esc(c.name)}</span></div><div class="stat"><b>0</b><span>downloads needed</span></div><div class="stat"><b>All</b><span>phone, tablet, PC</span></div></div>
 <section class="card" aria-labelledby="s-g1"><h2 id="s-g1">About ${esc(g.name)}</h2>${about.map(p => `<p>${esc(p)}</p>`).join('')}${ct.highlights?.length ? `<h3>Highlights</h3><ul>${ct.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}${ct.goodFor ? `<h3>Who will enjoy it</h3><p>${esc(ct.goodFor)}</p>` : ''}</section>

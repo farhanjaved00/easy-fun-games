@@ -30,6 +30,7 @@ const COUNT = Math.max(0, Math.min(10, opt('count') === null ? 3 : +opt('count')
 const DRY = !!opt('dry-run');
 const FACTS_OUT = opt('facts');
 const CONTENT_IN = opt('content');
+const RULES = { skipMature: true, skipTrademarkNames: true, ...((JSON.parse(fs.readFileSync(path.join(DATA, 'site.json'), 'utf8')).importRules) || {}) };
 const today = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
 
 const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
@@ -95,9 +96,10 @@ async function readGame(url) {
   const headings = boxes.flatMap(b => [...b.matchAll(/<h[23][^>]*>([\s\S]*?)<\/h[23]>/g)].map(h => text(h[1])));
   if (!name) return { skip: 'no game name' };
   // EasyGameFun is an all-ages site: skip games the source marks as mature.
-  if (/Content Advisory|mature (elements|content)|player discretion/i.test(html)) return { skip: 'marked as mature content' };
-  if (TRADEMARKS.test(name)) return { skip: `name uses another company's trademark (${name.match(TRADEMARKS)[0]})` };
-  return { url, name, embedUrl: embed, image, tags, paragraphs, controls, headings };
+  const mature = /Content Advisory|mature (elements|content)|player discretion/i.test(html);
+  if (mature && RULES.skipMature) return { skip: 'marked as mature content' };
+  if (RULES.skipTrademarkNames && TRADEMARKS.test(name)) return { skip: `name uses another company's trademark (${name.match(TRADEMARKS)[0]})` };
+  return { url, name, embedUrl: embed, image, tags, paragraphs, controls, headings, mature };
 }
 
 /* ---------------- mapping to our site ---------------- */
@@ -115,7 +117,7 @@ const categoryOf = tags => {
   return 'arcade';
 };
 const tidyTag = t => t.name.replace(/\s+games?$/i, '').replace(/\b\w/g, c => c.toUpperCase());
-const usefulTags = tags => [...new Set(tags.filter(t => !SKIP_TAGS.has(t.slug) && !TRADEMARKS.test(t.name)).map(tidyTag))].slice(0, 4);
+const usefulTags = tags => [...new Set(tags.filter(t => !SKIP_TAGS.has(t.slug) && !(RULES.skipTrademarkNames && TRADEMARKS.test(t.name))).map(tidyTag))].slice(0, 4);
 const slugOf = url => url.replace(/\/$/, '').split('/').pop();
 
 /* ---------------- images ---------------- */
@@ -181,6 +183,8 @@ Write ONLY from the facts you are given. Never invent facts: no player counts, r
 Do not copy sentences or long phrases from the source text. Rewrite everything in your own words with a fresh structure.
 Never say the game is "the best", "#1", "award-winning", "official" or "most popular".
 
+If the facts say the game has mature content (violence, strong language), describe it plainly and never suggest it for young children.
+
 Return JSON with:
 - description: one sentence, 90 to 140 characters, that says what you do in the game.
 - category: the single best category slug from the allowed list.
@@ -209,7 +213,7 @@ function qualityProblems(c, facts) {
   if (!c.goodFor || c.goodFor.length < 40) p.push('goodFor is missing or too short');
   if (/\b(dive into|embark|unleash|thrilling adventure|look no further)\b/i.test([c.description, ...c.about].join(' '))) p.push('uses filler phrases');
   const every = [c.description, ...c.about, ...(c.highlights || []), c.goodFor || '', c.howToPlay, ...c.tips, ...c.faq.flatMap(f => [f.q, f.a]), c.metaDescription].join(' ');
-  const brand = every.match(BRANDS);
+  const brand = every.split(facts.name).join(' ').match(BRANDS); // the game's own name may contain a brand word
   if (brand) p.push(`mentions another brand or game: "${brand[0]}"`);
   if (/\b(the|these|game|given) (facts|source( text)?)\b|according to the (facts|description)/i.test(every)) p.push('refers to "the facts" or the source');
   if (c.description.length < 70 || c.description.length > 150) p.push(`description is ${c.description.length} characters`);
@@ -234,7 +238,7 @@ async function writeContent(facts, cat, tags) {
     client = new OpenAI();
   }
   const { zodTextFormat } = await import('openai/helpers/zod');
-  const brief = { name: facts.name, suggestedCategory: cat, allowedCategories: CATS, suggestedTags: tags, sourceTags: facts.tags.map(t => t.name), controls: facts.controls, sourceHeadings: facts.headings, sourceText: facts.paragraphs.join('\n\n').slice(0, 6000) };
+  const brief = { matureContent: !!facts.mature, name: facts.name, suggestedCategory: cat, allowedCategories: CATS, suggestedTags: tags, sourceTags: facts.tags.map(t => t.name), controls: facts.controls, sourceHeadings: facts.headings, sourceText: facts.paragraphs.join('\n\n').slice(0, 6000) };
   let input = `Write the EasyGameFun page for this game. Facts:\n${JSON.stringify(brief, null, 2)}`;
   let previous;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -311,7 +315,8 @@ for (const url of fresh) {
 
   const record = {
     id: 'og-' + slug, source: 'onlinegames.io', sourceUrl: url, embedUrl: g.embedUrl, slug, name: g.name,
-    category: CATS.includes(c.category) ? c.category : cat,
+    category: (() => { const k = CATS.includes(c.category) ? c.category : cat; return g.mature && k === 'kids' ? 'arcade' : k; })(),
+    mature: !!g.mature,
     tags: (c.tags && c.tags.length ? c.tags : tags).slice(0, 4),
     developer: '', orientation: 'landscape',
     input: g.controls.some(([k]) => /mouse|click/i.test(k)) ? ['mouse', 'keyboard', 'touch'] : ['keyboard', 'touch'],
