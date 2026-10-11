@@ -693,3 +693,14 @@ html:not(.js) .js-only{display:none!important}
   .top-in>.spacer{display:none}
   #theme{margin-left:auto}
 }
+/* phones: slightly larger logo in the top bar and side menu */
+@media(max-width:899px){
+  .top-in>.logo .lt,.drawer .dh .logo .lt{font-size:23px}
+  .top-in>.logo i,.drawer .dh .logo i{width:38px;height:38px;border-radius:12px}
+  .top-in>.logo i svg,.drawer .dh .logo i svg{width:28px;height:28px}
+  .top-in>.logo,.drawer .dh .logo{gap:9px}
+}
+@media(max-width:340px){
+  .top-in>.logo .lt{font-size:20px}
+  .top-in>.logo i{width:34px;height:34px}
+}
