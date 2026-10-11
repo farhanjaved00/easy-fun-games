@@ -60,6 +60,7 @@ export function home(m) {
 <h2 style="margin-top:18px">Questions</h2>${faqHTML(HOME_FAQ)}</section>`;
 
   return {
+    keywords: 'free online games, play games online, browser games, no download games, mobile games, ' + m.cats.map(c => gamesOfLower(c)).join(', '),
     path: '/', top: 'home', title: 'EasyGameFun: Free Online Games to Play Now (No Download)',
     desc: fitDesc('Play free online games on your phone or computer. Puzzle, racing, shooter, .io, 2 player and kids games. New games every day. No download.'),
     body, scripts: [],
@@ -149,6 +150,7 @@ ${relatedCats(m, c.slug)}`;
     }
     return {
       path, top: 'cats', side: 'cat:' + c.slug, bottom: 'cats', noindex: c.games.length < (m.site.thinMin || 3),
+      keywords: [`free ${gamesOfLower(c)}`, `${gamesOfLower(c)} online`, `play ${gamesOfLower(c)}`, ...c.games.slice(0, 5).map(g => g.name)].join(', '),
       title: n === 1 ? fitTitle(`Free ${GamesOf(c)}: Play Online Now`) : fitTitle(`Free ${GamesOf(c)}`, `: Page ${n}`),
       desc: n === 1 ? fitDesc(`Play ${c.games.length} free ${gamesOfLower(c)} online. ${c.intro}`) : fitDesc(`Page ${n} of free ${gamesOfLower(c)} on EasyGameFun. Browse ${list.length} more games, from ${list[0].name} to ${list[list.length - 1].name}.`),
       body, scripts: [],
@@ -294,6 +296,7 @@ ${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game incl
   const desc = ct.metaDescription || fitDesc(`Play ${g.name} free online. ${g.description} No download, works on mobile.`);
   return {
     path: g.url, top: '', side: 'cat:' + c.slug, ogType: 'website', noindex: g.tier === 'C',
+    keywords: [g.name, `${g.name} online`, `play ${g.name} free`, ...g.tags.map(t => `${t.toLowerCase()} games`), gamesOfLower(c), 'free online games'].join(', '),
     title: ct.title || fitTitle(`${g.name}: Play Free Online`), desc,
     body, scripts: [assets.play], ogImage: g.thumb.generated ? null : g.thumb.url,
     ld: [

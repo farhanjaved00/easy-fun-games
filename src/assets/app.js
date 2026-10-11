@@ -63,7 +63,7 @@
   if (megaBtn) megaBtn.addEventListener('click', function (e) { if (!wide()) return; e.preventDefault(); e.stopPropagation(); var o = mega.hidden; mega.hidden = !o; megaBtn.setAttribute('aria-expanded', o); });
 
   /* ---------- saved badge ---------- */
-  function updateBadge() { var b = $('#sb'); if (b) b.textContent = EGF.favs().length || ''; }
+  function updateBadge() { var n = EGF.favs().length || ''; var b = $('#sb'); if (b) b.textContent = n; $$('.bottom .sb').forEach(function (x) { x.textContent = n; }); }
   updateBadge();
 
   /* ---------- header search + suggestions ---------- */
@@ -104,7 +104,7 @@
     if (t.closest('[data-top]')) window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
     if (t.closest('#drawer a')) openMenu(false);
     if (t.closest('[data-focus-search]')) { e.preventDefault(); if (wide()) qi.focus(); else searchOpen(true); }
-    if (t.closest('[data-rnd]')) { EGF.index().then(function (d) { if (d.list.length) location.href = d.list[Math.random() * d.list.length | 0].url; }); }
+    if (t.closest('[data-rnd]')) { e.preventDefault(); EGF.index().then(function (d) { if (d.list.length) location.href = d.list[Math.random() * d.list.length | 0].url; }); }
   });
   addEventListener('keydown', function (e) {
     if (e.key === 'Escape') { openMenu(false); closeMega(); if (sug) sug.hidden = true; }

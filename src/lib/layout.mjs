@@ -51,7 +51,14 @@ export function makeChrome(m) {
 }
 
 const TOP = [['/', 'home', 'Home'], ['/new/', 'new', 'New'], ['/trending/', 'trending', 'Trending'], ['/best/', 'best', 'Best ever']];
-const BOTTOM = [['/', 'home', '🏠', 'Home'], ['/cats/', 'cats', '🧩', 'Categories'], ['/search/', 'search', '🔍', 'Search'], ['/favs/', 'favs', '❤️', 'Saved']];
+const ICON = {
+  home: '<path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',
+  cats: '<rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',
+  favs: '<path d="M12 20.5s-8-4.6-8-10.4A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8 3.1c0 5.8-8 10.4-8 10.4z"/>'
+};
+const svg = k => `<svg class="bi" viewBox="0 0 24 24" aria-hidden="true">${ICON[k]}</svg>`;
+const BOTTOM = [['/', 'home', 'Home'], ['/cats/', 'cats', 'Categories'], null, ['/search/', 'search', 'Search'], ['/favs/', 'favs', 'Saved']];
 
 export function layout(m, chrome, assets, p) {
   const { site } = m;
@@ -70,6 +77,8 @@ export function layout(m, chrome, assets, p) {
 <title>${esc(p.title)}</title>
 <meta name="description" content="${esc(p.desc)}">
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large'}">
+${p.keywords ? `<meta name="keywords" content="${esc(p.keywords)}">\n` : ''}<meta name="author" content="EasyGameFun">
+<meta name="publisher" content="EasyGameFun">
 ${p.path === null ? '' : `<link rel="canonical" href="${esc(url)}">\n`}<meta name="theme-color" content="#0A0918" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F4F5FF" media="(prefers-color-scheme: light)">
 <meta property="og:site_name" content="EasyGameFun">
@@ -111,7 +120,7 @@ ${p.body}
 <footer class="foot">${chrome.foot}</footer>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu" aria-hidden="true"><div class="dh"><a class="logo" href="/" aria-label="EasyGameFun home">${LOGO}</a><button class="icon-btn" id="close" aria-label="Close menu">✕</button></div><div>${chrome.sideFor(sideKey)}</div></aside>
-<nav class="bottom" aria-label="Main">${BOTTOM.map(([h, k, e, t]) => `<a href="${h}"${(p.bottom || top) === k ? ' class="on" aria-current="page"' : ''}><b>${e}</b>${t}</a>`).join('')}</nav>
+<nav class="bottom" aria-label="Main">${BOTTOM.map(b => b ? `<a href="${b[0]}"${(p.bottom || top) === b[1] ? ' class="on" aria-current="page"' : ''}>${svg(b[1])}${b[1] === 'favs' ? '<span class="badge sb"></span>' : ''}<span>${b[2]}</span></a>` : '<a class="rnd" href="/trending/" data-rnd aria-label="Surprise me: play a random game"><span class="rb">🎲</span><span>Surprise</span></a>').join('')}</nav>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

@@ -648,3 +648,34 @@ body.menu-open .drawer{visibility:visible}
 html:not(.js) .js-only{display:none!important}
 .nopromo .promo{display:none}
 .advisory{background:color-mix(in srgb,var(--sun) 18%,var(--surface));border:1px solid color-mix(in srgb,var(--sun) 55%,transparent);border-radius:14px;padding:10px 14px;margin:6px 0 12px;font-size:14px;font-weight:600}
+
+/* v7: mobile polish */
+.bottom{padding:6px 6px calc(8px + env(safe-area-inset-bottom,0px));align-items:flex-end;box-shadow:0 -10px 30px -18px rgba(0,0,0,.45)}
+.bottom a{position:relative;gap:3px;font-size:11px;font-weight:600;min-height:54px;padding:6px 0 2px;letter-spacing:.01em}
+.bottom a .bi{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;padding:3px 14px;box-sizing:content-box;border-radius:999px;transition:background .15s,color .15s}
+.bottom a.on{color:var(--pri)}
+.bottom a.on .bi{background:color-mix(in srgb,var(--pri) 16%,transparent);fill:color-mix(in srgb,var(--pri) 22%,transparent)}
+.bottom a:active .bi{transform:scale(.92)}
+.bottom .badge.sb{position:absolute;top:2px;left:calc(50% + 8px);border-color:var(--surface)}
+.bottom a.rnd{flex:none;width:74px;color:var(--ink)}
+.bottom a.rnd .rb{width:56px;height:56px;margin-top:-30px;border-radius:50%;display:grid;place-items:center;font-size:26px;background:linear-gradient(135deg,var(--pri),var(--hot));box-shadow:0 10px 24px -8px rgba(108,77,255,.8);border:4px solid var(--bg)}
+.bottom a.rnd:active .rb{transform:scale(.94)}
+@media(max-width:599px){
+  .hero{padding:18px 16px 16px;gap:14px;border-radius:24px}
+  .hero h1{font-size:30px;letter-spacing:-.03em}
+  .hero .eyebrow{font-size:12px;padding:4px 12px;margin-bottom:10px}
+  .hero .lead{font-size:15px;margin:8px 0 14px;line-height:1.5}
+  .hero .trust{display:none}
+  .hsearch{min-height:46px;margin-bottom:12px;font-size:15px}
+  .hero .cta-row{flex-wrap:nowrap;gap:10px}
+  .hero .cta-row .btn{flex:1;padding:0 12px;min-height:46px;font-size:15px}
+  .fl{aspect-ratio:16/9;border-radius:18px}
+  .fl .lb{padding:24px 12px 10px}
+  .fdots{margin-top:8px}
+  .quick{margin-bottom:16px}
+  .stats{gap:8px;margin-bottom:24px}
+  .stat{padding:10px 12px;border-radius:14px}
+  .stat b{font-size:22px}
+  .sec{margin-bottom:26px}
+  .preview,.promo{font-size:13px}
+}
