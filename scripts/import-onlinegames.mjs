@@ -172,7 +172,8 @@ const SYSTEM = `You write game pages for EasyGameFun, a free browser games site 
 The same games also appear on big portals such as Poki, CrazyGames, Friv, Coolmath Games, Kizi, Agame, Miniclip and Armor Games.
 Their pages are usually a few generic lines. Your page must be the most useful page on the web for this game:
 specific, accurate, easy to scan, and genuinely helpful to a player deciding whether to play and how to get good at it.
-Never mention other websites.
+Never mention other websites, other games, or other brands and trademarks (for example Counter-Strike, Minecraft, Roblox, GTA), even if the facts compare the game to them.
+Write as the site, for players. Never refer to "the facts", "the source", "the description" or how the text was written.
 
 Voice: friendly, clear, short sentences, simple words. American English. No emojis. No marketing hype or filler like "dive into" or "embark".
 
@@ -194,6 +195,7 @@ Return JSON with:
 - faq: 4 to 5 questions people actually search for, with answers of 1 to 3 sentences. Always include "Is <name> free to play?" and one about playing on a phone or computer. Use the facts for the rest (goal, controls, levels, cars, modes).
 - metaDescription: 140 to 155 characters, starts with "Play <name>", includes "free" and one specific detail.`;
 
+const BRANDS = /\b(Counter[- ]?Strike|CS:?GO|Valorant|Overwatch|Minecraft|Roblox|Fortnite|GTA|Grand Theft Auto|Call of Duty|PUBG|Free Fire|Among Us|Mario|Sonic|Pok[eé]mon|Agar\.io|Slither\.io|Poki|CrazyGames|Friv|Coolmath|Miniclip|Kizi)\b/i;
 const BANNED = /\b(million|billion|award|best game|#1|number one|official|guaranteed|world'?s? (best|top)|most popular)\b/i;
 const shingles = (s, n = 6) => { const w = s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean); const out = new Set(); for (let i = 0; i + n <= w.length; i++) out.add(w.slice(i, i + n).join(' ')); return out; };
 
@@ -206,6 +208,10 @@ function qualityProblems(c, facts) {
   if (c.highlights && c.highlights.some(h => h.length > 100)) p.push('a highlight is too long');
   if (!c.goodFor || c.goodFor.length < 40) p.push('goodFor is missing or too short');
   if (/\b(dive into|embark|unleash|thrilling adventure|look no further)\b/i.test([c.description, ...c.about].join(' '))) p.push('uses filler phrases');
+  const every = [c.description, ...c.about, ...(c.highlights || []), c.goodFor || '', c.howToPlay, ...c.tips, ...c.faq.flatMap(f => [f.q, f.a]), c.metaDescription].join(' ');
+  const brand = every.match(BRANDS);
+  if (brand) p.push(`mentions another brand or game: "${brand[0]}"`);
+  if (/\b(the|these|game|given) (facts|source( text)?)\b|according to the (facts|description)/i.test(every)) p.push('refers to "the facts" or the source');
   if (c.description.length < 70 || c.description.length > 150) p.push(`description is ${c.description.length} characters`);
   if (c.metaDescription.length < 135 || c.metaDescription.length > 158) p.push(`metaDescription is ${c.metaDescription.length} characters (need 140 to 155)`);
   if (c.faq.length < 3) p.push('need 4 FAQ items');

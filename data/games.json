@@ -505,13 +505,13 @@
     },
     "content": {
       "metaDescription": "Play Guerrillas io free in your browser, join or create 3D shooter rooms with Team Deathmatch, Capture the Flag, Gun Game, bots, and custom maps.",
-      "about": "Guerrillas io is an online multiplayer first-person shooter where you play as an elite fighter with weapons and gear ready for battle. Matches take place on 3D maps inspired by Counter-Strike, with familiar-looking combat spaces and fast gunfights. You can join an open room or create your own room from the menu. When you host, you can choose the player limit, game mode, round time, goal, bots, and map.\nEach round depends on the mode you pick. Team Deathmatch splits players into two sides, Free for All makes every player fight alone, and Capture the Flag asks your team to steal the enemy flag and bring it home. Gun Game starts you with a basic weapon and lets you unlock stronger weapons as you progress. Arcade Doom gives you powerful guns and grenade launchers while making you invincible. The fun comes from choosing the right room, using the Armoury to adjust weapons, and reacting quickly in busy firefights. Guerrillas io plays free in the browser.",
+      "about": "Guerrillas io is an online multiplayer first-person shooter where you play as an elite fighter with weapons and gear ready for battle. Matches take place on detailed 3D maps built for close, fast gunfights. You can join an open room or create your own room from the menu. When you host, you can choose the player limit, game mode, round time, goal, bots, and map.\nEach round depends on the mode you pick. Team Deathmatch splits players into two sides, Free for All makes every player fight alone, and Capture the Flag asks your team to steal the enemy flag and bring it home. Gun Game starts you with a basic weapon and lets you unlock stronger weapons as you progress. Arcade Doom gives you powerful guns and grenade launchers while making you invincible. The fun comes from choosing the right room, using the Armoury to adjust weapons, and reacting quickly in busy firefights. Guerrillas io plays free in the browser.",
       "highlights": [
         "Create rooms with custom mode, goal, bots, time, and map",
         "Five modes, including Team Deathmatch and Capture the Flag",
         "Armoury for guns, scopes, silencers, looks, and new weapons",
         "Perks and custom kill messages from the main menu",
-        "Counter-Strike-inspired 3D maps"
+        "Detailed 3D maps made for close, fast gunfights"
       ],
       "goodFor": "Good for players who like online shooters with quick room joining and several rule sets. It also suits players who enjoy tuning weapons before a fight.",
       "howToPlay": "Join an available room or create one, then pick a mode and enter the match. Fight enemies, support your team when the mode calls for it, and follow the goal shown by the room settings. Use the Armoury, Perks, and Kill Message menus between matches to adjust your setup.",
@@ -605,13 +605,13 @@
     },
     "content": {
       "metaDescription": "Play Snaker io free in your browser. Grow your snake with neon pellets while avoiding other snakes and your own tail in a crowded arena game.",
-      "about": "Snaker io is a multiplayer snake arena game with a bright 2D look. You control a small snake in a field filled with neon food pellets. The main goal is simple: collect as many pellets as you can so your snake grows. At the same time, the arena is packed with many other snakes, so every path can become risky fast. It keeps the classic snake idea, then adds the pressure of sharing the space with other players.\nA round is all about movement, spacing, and quick choices. Pellets help you grow, but chasing them without looking ahead can send you into another snake or your own tail. The fun comes from balancing greed with survival: take safe food when you can, steer away from crowded lanes, and keep enough room to turn. Snaker io plays free in the browser, with HTML5 support and mobile-friendly play noted in the game facts.",
+      "about": "Snaker io is a multiplayer snake arena game with a bright 2D look. You control a small snake in a field filled with neon food pellets. The main goal is simple: collect as many pellets as you can so your snake grows. At the same time, the arena is packed with many other snakes, so every path can become risky fast. It keeps the classic snake idea, then adds the pressure of sharing the space with other players.\nA round is all about movement, spacing, and quick choices. Pellets help you grow, but chasing them without looking ahead can send you into another snake or your own tail. The fun comes from balancing greed with survival: take safe food when you can, steer away from crowded lanes, and keep enough room to turn. Snaker io plays free in the browser on phones, tablets and computers.",
       "highlights": [
         "Multiplayer snake arena with many other snakes",
         "Neon food pellets make your snake grow",
         "Avoid rivals and your own tail to live longer",
         "Endless arcade play with a battle royale feel",
-        "HTML5 game with mobile and mouse support"
+        "Plays on phones, tablets and computers"
       ],
       "goodFor": "Snaker io is good for players who like fast arcade rounds and simple snake survival. It is also a good pick if you enjoy arena games where space control matters.",
       "howToPlay": "Guide your snake around the arena and collect neon pellets to grow. Avoid crashing into other snakes, and do not run into your own tail. Try to survive longer by choosing safe routes through the crowded arena.",
@@ -642,7 +642,7 @@
         },
         {
           "q": "What happens if I crash in Snaker io?",
-          "a": "The game facts say you must avoid crashing into other snakes or your own tail to live longer. Staying clear of collisions is the key to a strong run."
+          "a": "Crashing into another snake or your own tail ends your run, so steer carefully and leave yourself room to turn. Staying clear of collisions is the key to a strong run."
         }
       ],
       "model": "gpt-5.5"
