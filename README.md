@@ -49,6 +49,14 @@ It also compares the game count with the live site and stops if more than 5% of 
 Needs the `OPENAI_API_KEY` repository secret; without it the import does nothing and the site still deploys.
 Run it by hand: Actions > Deploy > Run workflow, and set how many games to import.
 
+## New categories (automatic)
+
+When an imported game fits none of the categories, the AI may propose a new genre (for example Simulator, Horror, Cooking).
+`scripts/lib/categories.mjs` checks the name (1-2 clean words, no brands, not a synonym of an existing category such as
+Shooting → Shooter, at most 24 categories, at most one new category per run), then the AI writes the intro, reasons, FAQ,
+controls and icon, which are quality-checked. The category is saved in `data/categories.json` and appears everywhere
+(menus, footer, categories page, home, search). Its page is shown to Google once it has 3 games.
+
 ## Daily health check (report only)
 
 `scripts/health-check.mjs` runs first in the daily workflow. It loads every game's embed URL and checks that it works and still allows embedding.

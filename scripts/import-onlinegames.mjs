@@ -16,6 +16,7 @@ import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import { makeSmallThumb } from './lib/thumbs.mjs';
 import { makeCover } from './lib/art.mjs';
+import { readCats, writeCats, checkNewCategory, writeCategory } from './lib/categories.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -158,10 +159,12 @@ async function saveThumb(slug, url) {
 }
 
 /* ---------------- AI writing ---------------- */
-const CATS = readJson(path.join(DATA, 'categories.json'), []).map(c => c.slug);
+let CATS = readJson(path.join(DATA, 'categories.json'), []).map(c => c.slug);
+let newCatsThisRun = 0;
 const ContentSchema = z.object({
   description: z.string(),
-  category: z.enum(CATS.length ? CATS : ['arcade']),
+  category: z.string(),
+  newCategory: z.string(),
   tags: z.array(z.string()),
   about: z.array(z.string()),
   highlights: z.array(z.string()),
@@ -191,7 +194,8 @@ If the facts say the game has mature content (violence, strong language), descri
 
 Return JSON with:
 - description: one sentence, 90 to 140 characters, that says what you do in the game.
-- category: the single best category slug from the allowed list.
+- category: the single best category slug from the allowed list. Prefer an existing category whenever it reasonably fits.
+- newCategory: usually an empty string. Only if the game's main genre is clearly different from every allowed category and is a common game portal genre (for example Simulator, Horror, Cooking, Card, Board, Fighting, Strategy, Rhythm, Idle, Word), give that genre as a 1-2 word name without the word "games". In that case still fill category with the closest existing slug.
 - tags: 2 to 4 short tags in Title Case (for example "Driving", "Stickman", "Physics"), taken from the facts.
 - about: exactly 2 paragraphs, 150 to 240 words in total. Paragraph 1: what the game is, the setting and the goal, with concrete details from the facts. Paragraph 2: how a round plays out, what makes it fun or tricky, and that it plays free in the browser.
 - highlights: 3 to 5 short bullet points (under 90 characters each), each a concrete feature from the facts (for example "30 levels that get harder step by step").
@@ -271,6 +275,29 @@ async function writeContent(facts, cat, tags) {
   throw new Error('content failed the quality checks 3 times');
 }
 
+// Picks the category: an existing one, or a brand-new one when the game clearly needs it (max 1 per run).
+async function chooseCategory(c, fallback, g) {
+  let k = CATS.includes(c.category) ? c.category : fallback;
+  const proposed = (c.newCategory || '').trim();
+  if (proposed && !prewritten) {
+    const cats = readCats(ROOT);
+    const verdict = checkNewCategory(proposed, cats);
+    if (verdict.mapTo) { k = verdict.mapTo; console.log(`  category idea "${proposed}" matches existing "${k}"`); }
+    else if (verdict.reject) console.log(`  category idea "${proposed}" not used: ${verdict.reject}`);
+    else if (newCatsThisRun >= 1) console.log(`  category idea "${proposed}" waits: one new category per run`);
+    else {
+      try {
+        const cat = await writeCategory(client, MODEL, verdict.name, { description: c.description }, cats);
+        cats.push(cat); writeCats(ROOT, cats); CATS = cats.map(x => x.slug); newCatsThisRun++;
+        k = cat.slug;
+        console.log(`  ★ new category created: ${cat.emoji} ${cat.name} (/category/${cat.slug}/)`);
+      } catch (e) { console.log(`  new category not created: ${e.message}`); }
+    }
+  }
+  if (g.mature && k === 'kids') k = 'arcade';
+  return k;
+}
+
 /* ---------------- main ---------------- */
 const games = readJson(path.join(DATA, 'games.json'), []);
 // Text of every page we already publish, for the uniqueness check.
@@ -328,7 +355,7 @@ for (const url of fresh) {
 
   const record = {
     id: 'og-' + slug, source: 'onlinegames.io', sourceUrl: url, embedUrl: g.embedUrl, slug, name: g.name,
-    category: (() => { const k = CATS.includes(c.category) ? c.category : cat; return g.mature && k === 'kids' ? 'arcade' : k; })(),
+    category: await chooseCategory(c, cat, g),
     mature: !!g.mature,
     tags: (c.tags && c.tags.length ? c.tags : tags).slice(0, 4),
     developer: '', orientation: 'landscape',
