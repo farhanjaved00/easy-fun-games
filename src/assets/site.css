@@ -681,3 +681,8 @@ html:not(.js) .js-only{display:none!important}
 }
 /* phones: the bottom menu has Search, so the header search icon is not needed */
 @media(max-width:899px){#stog{display:none!important}}
+/* side menu (drawer) polish */
+.drawer .dh{position:relative;display:flex;justify-content:center;align-items:center;min-height:56px;padding:0 52px 12px}
+.drawer .dh .icon-btn{position:absolute;right:6px;top:4px}
+.js-recent .sg{margin-top:24px}
+.side .tagcloud,.drawer .tagcloud{margin-bottom:6px}
