@@ -19,14 +19,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/stack-fire-ball.jpg",
+      "url": "/thumbs/stack-fire-ball-d0522af3.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/stack-fire-ball.webp",
+        "url": "/thumbs/sm/stack-fire-ball-d0522af3.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -114,14 +117,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/drift-king.jpg",
+      "url": "/thumbs/drift-king-f6110f18.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/drift-king.webp",
+        "url": "/thumbs/sm/drift-king-f6110f18.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -207,14 +213,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/love-tester.jpg",
+      "url": "/thumbs/love-tester-566b121e.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/love-tester.webp",
+        "url": "/thumbs/sm/love-tester-566b121e.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -304,14 +313,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/stickman-parkour.jpg",
+      "url": "/thumbs/stickman-parkour-e98eddaf.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/stickman-parkour.webp",
+        "url": "/thumbs/sm/stickman-parkour-e98eddaf.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -402,14 +414,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/escape-car-2.webp",
+      "url": "/thumbs/escape-car-2-19cf7a85.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/escape-car-2.webp",
+        "url": "/thumbs/sm/escape-car-2-19cf7a85.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -501,14 +516,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/guerrillas-io.jpg",
+      "url": "/thumbs/guerrillas-io-634403c5.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/guerrillas-io.webp",
+        "url": "/thumbs/sm/guerrillas-io-634403c5.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -606,14 +624,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/snaker-io.webp",
+      "url": "/thumbs/snaker-io-2aeea260.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/snaker-io.webp",
+        "url": "/thumbs/sm/snaker-io-2aeea260.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -704,14 +725,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/steal-brainrots-multiplayer.webp",
+      "url": "/thumbs/steal-brainrots-multiplayer-4da9307d.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/steal-brainrots-multiplayer.webp",
+        "url": "/thumbs/sm/steal-brainrots-multiplayer-4da9307d.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -810,14 +834,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/gta-simulator.jpg",
+      "url": "/thumbs/gta-simulator-e8d50454.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/gta-simulator.webp",
+        "url": "/thumbs/sm/gta-simulator-e8d50454.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -915,14 +942,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/masked-special-forces.jpg",
+      "url": "/thumbs/masked-special-forces-8d72b5cb.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/masked-special-forces.webp",
+        "url": "/thumbs/sm/masked-special-forces-8d72b5cb.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
@@ -1021,14 +1051,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/stickman-gta-city.jpg",
+      "url": "/thumbs/stickman-gta-city-a8a07759.webp",
       "width": 512,
       "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/stickman-gta-city.webp",
+        "url": "/thumbs/sm/stickman-gta-city-a8a07759.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-10-11"
     },
     "emoji": "🎮",
     "colors": [
