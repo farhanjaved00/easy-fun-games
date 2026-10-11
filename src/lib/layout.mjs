@@ -33,8 +33,8 @@ function footHTML(m) {
 <div class="foot-in"><div class="fb"><a class="logo" href="/" aria-label="EasyGameFun home">${LOGO}</a><p>Free online games for phone, tablet and desktop. Pick a game and play in one tap.</p><div class="badges"><span>100% free</span><span>No download</span><span>Mobile ready</span><span>Updated daily</span></div></div>
 <nav aria-label="Game categories"><h3>Play by category</h3><div class="two">${m.cats.map(c => `<a href="${c.url}">${esc(c.name)}</a>`).join('')}</div></nav>
 <nav aria-label="Discover"><h3>Discover</h3><a href="/new/">New games</a><a href="/trending/">Trending games</a><a href="/best/">Best of all time</a><a href="/games/">All games A to Z</a><a href="/cats/">All categories</a></nav>
-<nav aria-label="Company"><h3>Company</h3><a href="/about/">About us</a><a href="/contact/">Contact</a><a href="/contact/#submit">Submit your game</a><a href="/contact/#report">Report a problem</a></nav>
-<nav aria-label="Legal"><h3>Legal</h3><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of use</a><a href="/copyright/">Copyright (DMCA)</a></nav></div>
+<nav aria-label="Company"><h3>Help</h3><a href="/about/">About us</a><a href="/faq/">FAQ</a><a href="/parents/">For parents</a><a href="/contact/">Contact</a><a href="/contact/#submit">Submit your game</a><a href="/contact/#report">Report a problem</a></nav>
+<nav aria-label="Legal"><h3>Legal</h3><a href="/privacy/">Privacy policy</a><a href="/cookies/">Cookie policy</a><a href="/terms/">Terms of use</a><a href="/disclaimer/">Disclaimer</a><a href="/copyright/">Copyright (DMCA)</a></nav></div>
 <div class="foot-tags"><h3>Popular games</h3><div>${m.collections.map(c => `<a href="${c.url}">${esc(c.name)}</a>`).join('')}${m.cats.slice(0, 4).map(c => `<a href="${c.url}">Free ${esc(c.name.toLowerCase())} games</a>`).join('')}</div></div>
 <div class="foot-bot"><span>© ${m.today.slice(0, 4)} EasyGameFun. Game names and trademarks belong to their owners.</span><button class="js-only" data-top aria-label="Back to top">↑ Back to top</button></div>`;
 }

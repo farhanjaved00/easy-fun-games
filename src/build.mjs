@@ -7,6 +7,7 @@ import { loadData } from './lib/data.mjs';
 import { layout, makeChrome, INLINE_BOOT } from './lib/layout.mjs';
 import { esc } from './lib/util.mjs';
 import * as P from './lib/pages.mjs';
+import { infoPages } from './lib/info-pages.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -51,7 +52,7 @@ for (const g of m.games) {
 /* ---------- pages ---------- */
 const pages = [
   P.home(m), P.catsIndex(m), P.newPage(m), P.trendingPage(m), P.bestPage(m), P.azHub(m),
-  P.searchPage(m), P.favsPage(m), P.notFoundPage(m), ...P.staticPages(m),
+  P.searchPage(m), P.favsPage(m), P.notFoundPage(m), ...infoPages(m),
   ...m.cats.filter(c => c.games.length).flatMap(c => P.categoryPages(m, c)),
   ...m.tags.flatMap(t => P.tagPages(m, t)),
   ...m.collections.flatMap(c => P.collectionPages(m, c)),
