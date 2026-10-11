@@ -41,10 +41,10 @@ jobs:
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: npm ci
 
-      # Tests every game; repairs broken embed URLs from sources that allow embedding.
-      # Games that cannot be repaired are hidden (not deleted) and listed in REVIEW.md.
+      # Tests every game and lists problems in REVIEW.md. Report only: no page is changed.
       - name: Check game health
         if: github.event_name != 'push'
+        continue-on-error: true
         run: node scripts/health-check.mjs
 
       # Runs daily, on manual runs, and on pushes whose commit message contains [import].
@@ -78,10 +78,10 @@ jobs:
               gh issue create --title "Games needing review" --body-file REVIEW.md
             else
               gh issue edit "$num" --body-file REVIEW.md
-              if grep -q "| $today |" REVIEW.md; then gh issue comment "$num" --body "New game(s) hidden today ($today). See the list above."; fi
+              if grep -q "| $today |" REVIEW.md; then gh issue comment "$num" --body "New problem(s) found today ($today). See the list above."; fi
             fi
           elif [ -n "$num" ]; then
-            gh issue close "$num" --comment "All games are working again."
+            gh issue close "$num" --comment "All games loaded fine on the latest check."
           fi
 
       - name: Build

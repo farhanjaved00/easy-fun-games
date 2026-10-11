@@ -49,16 +49,12 @@ It also compares the game count with the live site and stops if more than 5% of 
 Needs the `OPENAI_API_KEY` repository secret; without it the import does nothing and the site still deploys.
 Run it by hand: Actions > Deploy > Run workflow, and set how many games to import.
 
-## Daily health check
+## Daily health check (report only)
 
 `scripts/health-check.mjs` runs first in the daily workflow. It loads every game's embed URL and checks that it works and still allows embedding.
-A broken game is repaired when possible: first from its own onlinegames.io page (games sometimes move), then from the GameDistribution
-catalog, but only when the developer matches, so a different game with the same name is never swapped in.
-
-If it cannot be repaired, the game is **hidden, not deleted**: its status becomes `review`, it disappears from the site and the sitemap,
-its address redirects temporarily (302) to its category, and it is listed in `REVIEW.md` and in the GitHub issue "Games needing review"
-(you get an email). A hidden game comes back by itself when it works again. If more than 20% of games fail at once, nothing is changed
-(likely an outage) and the run fails so you get an email.
+It **never changes, hides or removes a page.** Problems are listed in `REVIEW.md` and in the GitHub issue "Games needing review" (you get an email).
+For a broken game it also looks for a working replacement link from sources that allow embedding (the game's own onlinegames.io page, then
+GameDistribution when the developer matches) and lists it as a suggestion. If many games fail at once, the list says it is probably an outage.
 
 ## Pages
 

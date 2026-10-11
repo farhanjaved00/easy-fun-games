@@ -147,9 +147,7 @@ const redirects = [
   '/collections /cats/#collections 301',
   '/collections/ /cats/#collections 301',
   '# Removed games (data/removed.json)',
-  ...m.removed.map(r => `/game/${r.slug}/ ${r.to || '/'} 301`),
-  '# Games hidden for review (temporary, see REVIEW.md)',
-  ...m.hidden.map(h => `/game/${h.slug}/ ${m.catBySlug.get(h.category)?.games.length ? `/category/${h.category}/` : '/'} 302`)
+  ...m.removed.map(r => `/game/${r.slug}/ ${r.to || '/'} 301`)
 ];
 write('/_redirects', redirects.join('\n') + '\n');
 

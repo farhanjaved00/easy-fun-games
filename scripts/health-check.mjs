@@ -1,10 +1,9 @@
 // Daily health check for every published game.
 // 1. Tests that the game's embed URL loads and allows embedding.
-// 2. If it is broken, tries to repair it from sources that allow embedding:
-//    the game's own source page (onlinegames.io), then the GameDistribution catalog.
-// 3. If it cannot be repaired, the game is hidden from visitors (status "review", temporary 302 redirect)
-//    and listed in REVIEW.md. Nothing is deleted. A hidden game comes back by itself when it works again.
-// Safety brake: if more than 20% of games fail in one run (likely a partner outage), nothing is changed.
+// 2. REPORT ONLY: it never changes, hides or removes a page. Problems are listed in REVIEW.md
+//    (and in the GitHub issue "Games needing review") for the owner to review.
+// 3. For a broken game it looks for a working replacement link from sources that allow embedding
+//    (the game's own onlinegames.io page, then GameDistribution when the developer matches) and lists it as a suggestion.
 //
 // Usage: node scripts/health-check.mjs [--dry-run] [--lookup "Game Name"]
 import fs from 'node:fs';
@@ -105,85 +104,50 @@ if (args.includes('--lookup')) {
 
 const games = readJson('games.json', []);
 const health = readJson('health.json', {});
-// Published games, plus hidden ones waiting for review (they come back by themselves if they start working).
-const checked = games.filter(g => (g.status === 'published' || g.status === 'review') && g.embedUrl);
-const published = checked.filter(g => g.status === 'published');
-console.log(`Checking ${published.length} published and ${checked.length - published.length} hidden games…`);
+const live = games.filter(g => g.status === 'published' && g.embedUrl);
+console.log(`Checking ${live.length} games… (report only: no page is changed)`);
 
 const results = [];
-for (let i = 0; i < checked.length; i += 6) {
-  const batch = checked.slice(i, i + 6);
+for (let i = 0; i < live.length; i += 6) {
+  const batch = live.slice(i, i + 6);
   results.push(...await Promise.all(batch.map(async g => ({ g, problem: await checkEmbed(g.embedUrl) }))));
 }
-const failingLive = results.filter(r => r.problem && r.g.status === 'published');
-console.log(`${published.length - failingLive.length} of ${published.length} published games are healthy.`);
-results.filter(r => r.problem).forEach(r => console.log(`  ✗ ${r.g.slug}${r.g.status === 'review' ? ' (hidden)' : ''}: ${r.problem}`));
+const failing = results.filter(r => r.problem);
+console.log(`${results.length - failing.length} healthy, ${failing.length} with a problem.`);
+const outage = live.length >= 5 && failing.length / live.length > 0.2;
 
-if (published.length >= 5 && failingLive.length / published.length > 0.2) {
-  console.error(`Safety brake: ${failingLive.length} of ${published.length} games failed at once. This looks like a partner or network outage, so nothing was changed.`);
-  process.exit(1);
-}
-
-let changed = 0;
 for (const { g, problem } of results) {
   const prev = health[g.slug] || {};
-  if (!problem) {
-    if (g.status === 'review') {
-      g.status = 'published'; delete g.review; changed++;
-      console.log(`  ✓ ${g.slug} works again and is visible again`);
-      health[g.slug] = { lastOk: today, lastCheck: today, restored: today };
-    } else health[g.slug] = { ...prev, lastOk: today, lastCheck: today, fails: 0 };
-    continue;
-  }
-
-  // Try to repair from a source that allows embedding.
+  if (!problem) { health[g.slug] = { lastOk: today, lastCheck: today }; continue; }
+  // Look for a working replacement from a source that allows embedding, as a suggestion only.
   let fix = null;
-  try { fix = await fromSource(g); if (fix && await checkEmbed(fix.embedUrl)) fix = null; } catch { fix = null; }
-  if (!fix) { try { fix = await fromGameDistribution(g); if (fix && await checkEmbed(fix.embedUrl)) fix = null; } catch { fix = null; } }
-  if (fix) {
-    console.log(`  ↻ ${g.slug}: repaired with a working ${fix.partner} embed URL`);
-    g.embedUrl = fix.embedUrl;
-    g.licence = { ...(g.licence || {}), partner: fix.partner, checkedAt: today, allowedEmbed: true };
-    if (fix.developer && !g.developer) g.developer = fix.developer;
-    g.updatedAt = today;
-    if (g.status === 'review') { g.status = 'published'; delete g.review; }
-    health[g.slug] = { lastOk: today, lastCheck: today, repaired: today, repairedFrom: fix.partner };
-    changed++;
-    continue;
+  if (!outage) {
+    try { fix = await fromSource(g); if (fix && await checkEmbed(fix.embedUrl)) fix = null; } catch { fix = null; }
+    if (!fix) { try { fix = await fromGameDistribution(g); if (fix && await checkEmbed(fix.embedUrl)) fix = null; } catch { fix = null; } }
   }
-
-  // Not repairable: hide it from visitors and put it on the review list. Nothing is deleted.
-  health[g.slug] = { ...prev, lastCheck: today, fails: (prev.fails || 0) + 1, lastError: problem };
-  if (g.status === 'published') {
-    g.status = 'review';
-    g.review = { since: today, reason: problem };
-    changed++;
-    console.log(`  ⚑ ${g.slug}: hidden and added to the review list`);
-  } else g.review = { ...(g.review || { since: today }), reason: problem };
+  health[g.slug] = { ...prev, lastCheck: today, problem, since: prev.since || today, suggestion: fix ? fix.embedUrl : null };
+  console.log(`  ✗ ${g.slug}: ${problem}${fix ? ` (possible fix: ${fix.embedUrl})` : ''}`);
 }
 
-// The review list, readable on GitHub (also posted as an issue by the workflow).
+// The review list, readable on GitHub (the workflow also keeps an issue in sync).
 const B = 'https://easygamefun.com';
-const pending = games.filter(g => g.status === 'review');
-const restored = Object.entries(health).filter(([, h]) => h.restored === today || h.repaired === today).map(([slug, h]) => ({ slug, ...h }));
+const issues = results.filter(r => r.problem).map(r => ({ g: r.g, h: health[r.g.slug] }));
 const lines = [
   '# Games needing review', '',
-  pending.length ? `${pending.length} game(s) are hidden from visitors because the game does not load. Nothing was deleted.` : 'No games need review right now. 🎉',
+  issues.length ? `${issues.length} game(s) may not be loading. Their pages are unchanged and still live; review them when you have time.` : 'All games loaded fine on the last check. 🎉',
   '', `Last check: ${today}`, ''
 ];
-if (pending.length) {
-  lines.push('| Game | Problem | Hidden since | Source page | Embed URL |', '|---|---|---|---|---|');
-  for (const g of pending) lines.push(`| ${g.name} (\`${g.slug}\`) | ${g.review.reason} | ${g.review.since} | ${g.sourceUrl ? `[open](${g.sourceUrl})` : '-'} | [test](${g.embedUrl}) |`);
-  lines.push('', '## How to fix one',
+if (outage) lines.push(`⚠ ${failing.length} of ${live.length} games failed at the same time. This usually means a partner or network outage, not broken games. Check again tomorrow before changing anything.`, '');
+if (issues.length) {
+  lines.push('| Game | Problem | Since | Our page | Source page | Possible fix |', '|---|---|---|---|---|---|');
+  for (const { g, h } of issues) lines.push(`| ${g.name} (\`${g.slug}\`) | ${h.problem} | ${h.since} | [open](${B}${g.url || `/game/${g.slug}/`}) | ${g.sourceUrl ? `[open](${g.sourceUrl})` : '-'} | ${h.suggestion ? `[new embed URL](${h.suggestion})` : '-'} |`);
+  lines.push('', '## How to fix one (only when you want to)',
     '1. Open `data/games.json` on GitHub and find the game by its slug.',
-    '2. If you have a new working embed URL, replace `embedUrl` and set `"status": "published"`.',
-    '3. To remove it for good, set `"status": "removed"` and add `{ "slug": "the-slug", "to": "/" }` to `data/removed.json`.',
-    '4. Commit. The site updates by itself. A hidden game also comes back automatically if it starts working again.');
+    '2. If there is a possible fix, test the link, then paste it as the new `embedUrl`, and commit.',
+    '3. Or simply leave it: nothing on the site is changed automatically.');
 }
-if (restored.length) lines.push('', '## Fixed automatically today', ...restored.map(r => `- \`${r.slug}\` ${r.repaired ? `repaired with a new ${r.repairedFrom} link` : 'works again'} → ${B}/game/${r.slug}/`));
 
-if (DRY) { console.log('Dry run: no files changed.'); console.log(lines.join('\n')); process.exit(0); }
+if (DRY) { console.log(lines.join('\n')); process.exit(0); }
 writeJson('health.json', health);
-if (changed) writeJson('games.json', games);
 fs.writeFileSync(path.join(ROOT, 'REVIEW.md'), lines.join('\n') + '\n');
-console.log(`Done. ${changed} change(s). ${pending.length} game(s) on the review list.`);
+console.log(`Done. ${issues.length} game(s) on the review list. No pages were changed.`);
