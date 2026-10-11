@@ -1,12 +1,12 @@
 // Reusable HTML blocks shared by the page templates.
 import { esc, slugify } from './util.mjs';
-import { img } from './layout.mjs';
+import { img, BIG } from './layout.mjs';
 
 const badge = g => (g.featured ? '<span class="hot">Hot</span>' : g.isNew ? '<span class="hot newb">New</span>' : '');
 
 // Game tile. v: '' | 'big' | 'xl' | 'wd'. attrs adds data-* used by client-side sorting.
 export const tile = (g, v = '', { eager = false, attrs = '' } = {}) =>
-  `<a class="tile${v ? ' ' + v : ''}" href="${g.url}" aria-label="Play ${esc(g.name)}"${attrs}>${img(g, '', eager)}` +
+  `<a class="tile${v ? ' ' + v : ''}" href="${g.url}"${attrs}>${img(g, '', eager, v === 'xl' || v === 'big' ? '(min-width: 700px) 360px, 92vw' : v === 'wd' ? '(min-width: 700px) 360px, 92vw' : '(min-width: 600px) 170px, 136px')}` +
   `${v === 'xl' ? '<span class="xl-badge">⭐ Editor\'s pick</span>' : badge(g)}` +
   `<span class="nm">${esc(g.name)}<small>${esc(g.cat.name)}</small>${v === 'xl' ? `<span class="xd">${esc(g.description)}</span><span class="xb">▶ Play now</span>` : ''}</span></a>`;
 
@@ -53,7 +53,7 @@ export const hofBlock = (list, n) => {
   const g = list[0];
   if (!g) return '';
   const cols = [['#E8EAF6', '#9AA0BD'], ['#F6B98A', '#B8693A'], ['#8E8BB8', '#8E8BB8']];
-  return `<div class="hof"><a class="hof1" href="${g.url}">${img(g, 'bg')}<div class="in"><span class="crown">👑 #1 of all time</span><h3>${esc(g.name)}</h3><p>${esc(g.description)}</p><div class="mi" style="color:rgba(255,255,255,.92)"><span>${esc(g.cat.name)}</span><span>${esc(g.tags.slice(0, 2).join(' · '))}</span></div><span class="btn btn-mint">▶ Play now</span></div></a>` +
+  return `<div class="hof"><a class="hof1" href="${g.url}">${img(g, 'bg', false, BIG)}<div class="in"><span class="crown">👑 #1 of all time</span><h3>${esc(g.name)}</h3><p>${esc(g.description)}</p><div class="mi" style="color:rgba(255,255,255,.92)"><span>${esc(g.cat.name)}</span><span>${esc(g.tags.slice(0, 2).join(' · '))}</span></div><span class="btn btn-mint">▶ Play now</span></div></a>` +
     `<ol class="hofl">${list.slice(1, n).map((x, i) => { const c = cols[Math.min(i, 2)]; return `<li><a href="${x.url}"><span class="n" style="--c1:${c[0]};--c2:${c[1]}">${i + 2}</span><span class="tile" style="display:block">${img(x)}</span><span class="rt"><b>${esc(x.name)}</b><span>${esc(x.cat.name)} · ${esc(x.tags.slice(0, 2).join(', '))}</span></span><span class="go">Play ▶</span></a></li>`; }).join('')}</ol></div>`;
 };
 

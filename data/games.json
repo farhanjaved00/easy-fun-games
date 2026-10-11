@@ -21,7 +21,12 @@
     "thumb": {
       "url": "/thumbs/stack-fire-ball.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/stack-fire-ball.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -111,7 +116,12 @@
     "thumb": {
       "url": "/thumbs/drift-king.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/drift-king.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -199,7 +209,12 @@
     "thumb": {
       "url": "/thumbs/love-tester.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/love-tester.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -291,7 +306,12 @@
     "thumb": {
       "url": "/thumbs/stickman-parkour.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/stickman-parkour.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -384,7 +404,12 @@
     "thumb": {
       "url": "/thumbs/escape-car-2.webp",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/escape-car-2.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -478,7 +503,12 @@
     "thumb": {
       "url": "/thumbs/guerrillas-io.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/guerrillas-io.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -578,7 +608,12 @@
     "thumb": {
       "url": "/thumbs/snaker-io.webp",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/snaker-io.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -671,7 +706,12 @@
     "thumb": {
       "url": "/thumbs/steal-brainrots-multiplayer.webp",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/steal-brainrots-multiplayer.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -772,7 +812,12 @@
     "thumb": {
       "url": "/thumbs/gta-simulator.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/gta-simulator.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -872,7 +917,12 @@
     "thumb": {
       "url": "/thumbs/masked-special-forces.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/masked-special-forces.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [
@@ -973,7 +1023,12 @@
     "thumb": {
       "url": "/thumbs/stickman-gta-city.jpg",
       "width": 512,
-      "height": 512
+      "height": 512,
+      "small": {
+        "url": "/thumbs/sm/stickman-gta-city.webp",
+        "width": 320,
+        "height": 320
+      }
     },
     "emoji": "🎮",
     "colors": [

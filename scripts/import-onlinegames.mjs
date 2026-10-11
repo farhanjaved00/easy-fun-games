@@ -14,6 +14,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
+import { makeSmallThumb } from './lib/thumbs.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -150,7 +151,9 @@ async function saveThumb(slug, url) {
   const file = `${slug}.${size.ext}`;
   fs.writeFileSync(path.join(THUMBS, file), buf);
   if (buf.length > 400 * 1024) console.warn(`  note: thumbnail is ${Math.round(buf.length / 1024)} KB`);
-  return { url: `/thumbs/${file}`, width: size.w, height: size.h };
+  const thumb = { url: `/thumbs/${file}`, width: size.w, height: size.h };
+  thumb.small = await makeSmallThumb(ROOT, thumb, slug);
+  return thumb;
 }
 
 /* ---------------- AI writing ---------------- */

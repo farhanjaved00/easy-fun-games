@@ -1,6 +1,6 @@
 // Page templates. Each returns { path, title, desc, body, ld, ... } for layout().
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
-import { img } from './layout.mjs';
+import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
 import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, catCards, collSection, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
@@ -30,12 +30,12 @@ export function home(m) {
 <a class="hsearch" href="/search/" data-focus-search>${SEARCH_ICON}Search ${N} free games</a>
 <div class="cta-row"><a class="btn btn-mint" href="/trending/">▶ Start playing</a><button class="btn btn-ghost js-only" data-rnd>🎲 Surprise me</button></div>
 <ul class="trust"><li>100% free</li><li>No download</li><li>Works on mobile</li><li>New games daily</li></ul></div>
-<div><a class="fl" id="fl" href="${feat[0].url}" aria-label="Play ${esc(feat[0].name)}" data-feat="${featJson}">${img(feat[0], '', true)}<span class="pill-live">FEATURED</span><span class="lb"><span><b id="fl-n">${esc(feat[0].name)}</b><small id="fl-c">${esc(feat[0].cat.name)}</small></span><span class="pb play-btn" style="min-height:40px;padding:0 16px;font-size:15px">Play ▶</span></span></a>
+<div><a class="fl" id="fl" href="${feat[0].url}" data-feat="${featJson}">${img(feat[0], '', true, BIG)}<span class="pill-live">FEATURED</span><span class="lb"><span><b id="fl-n">${esc(feat[0].name)}</b><small id="fl-c">${esc(feat[0].cat.name)}</small></span><span class="pb play-btn" style="min-height:40px;padding:0 16px;font-size:15px">Play ▶</span></span></a>
 <div class="fdots js-only" id="fdots" role="group" aria-label="Featured games">${feat.map((g, i) => `<button aria-label="Show ${esc(g.name)}"${i ? '' : ' class="on"'}></button>`).join('')}</div></div>
 </section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 <section class="stats" aria-label="EasyGameFun in numbers"><div class="stat"><b>${N}</b><span>free games</span></div><div class="stat"><b>${m.cats.length}</b><span>categories</span></div><div class="stat"><b>${m.collections.length}</b><span>collections</span></div><div class="stat"><b>0</b><span>downloads needed</span></div></section>
-<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${m.trending.slice(0, 8).map(g => `<a class="lv" href="${g.url}" aria-label="Play ${esc(g.name)}">${img(g)}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>
+<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${m.trending.slice(0, 8).map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>
 <section class="sec" aria-labelledby="s-ed"><div class="sec-h"><div><h2 id="s-ed">Editor's picks</h2><p class="sub">Hand-picked games to start with today.</p></div><a href="/best/">See all</a></div><div class="bento">${picks.map((g, i) => tile(g, i === 0 ? 'xl' : i === 5 ? 'wd' : '')).join('')}</div></section>
 <div id="personal"></div>` +
     wrow('New games', m.newest.slice(0, 6), '/new/', 'The latest games on EasyGameFun.') +
@@ -48,7 +48,7 @@ export function home(m) {
     `<section class="cta js-only"><div><h2>Can't decide what to play?</h2><p>Let us pick a random game for you. It takes one tap.</p></div><button class="play-btn" data-rnd>🎲 Surprise me</button></section>` +
     (season && season.length >= 3 ? wrow(m.seasonal.title, season.slice(0, 6), m.collections.find(c => c.rule.tag === m.seasonal.tag)?.url || null, m.seasonal.sub) : '') +
     (relax && relax.games.length >= 3 ? row('Relax and unwind', relax.games.slice(0, 8), m.collections.find(c => c.rule.tag === 'Relaxing')?.url || relax.url) : '') +
-    `<section class="sec" aria-labelledby="s-az"><div class="sec-h"><h2 id="s-az">All games A to Z</h2><a href="/games/">See all</a></div><div class="icons">${az.map(g => `<a class="ico" href="${g.url}" aria-label="Play ${esc(g.name)}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>
+    `<section class="sec" aria-labelledby="s-az"><div class="sec-h"><h2 id="s-az">All games A to Z</h2><a href="/games/">See all</a></div><div class="icons">${az.map(g => `<a class="ico" href="${g.url}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>
 <section class="sec" aria-labelledby="s-why"><div class="sec-h"><h2 id="s-why">Why people play on EasyGameFun</h2></div><div class="why">
 <div><i aria-hidden="true">⚡</i><h3>Instant play</h3><p>Games load in seconds and start with one tap. Nothing to install.</p></div>
 <div><i aria-hidden="true">📱</i><h3>Made for every screen</h3><p>The same games work on phones, tablets and computers.</p></div>
@@ -127,7 +127,7 @@ export function categoryPages(m, c) {
       body = `<section class="chero has-f" style="--a:${c.colors[0]};--b:${c.colors[1]}">${floaters(c.games)}<div>${crumbs(crumbItems)}
 <h1>Free ${esc(gamesOf(c))}</h1><p>${esc(c.intro)}</p>
 <div class="facts"><span>${c.games.length} games</span><span>Free</span><span>No download</span></div></div>
-<a class="cfeat" href="${top.url}" aria-label="Play ${esc(top.name)}">${img(top, '', true)}<span class="badge2">⭐ Top pick</span><span class="lb"><span><b>${esc(top.name)}</b><small>${esc(top.tags.slice(0, 2).join(' · '))}</small></span><span class="play-btn" style="min-height:42px;padding:0 18px;font-size:15px">Play ▶</span></span></a></section>
+<a class="cfeat" href="${top.url}">${img(top, '', true, BIG)}<span class="badge2">⭐ Top pick</span><span class="lb"><span><b>${esc(top.name)}</b><small>${esc(top.tags.slice(0, 2).join(' · '))}</small></span><span class="play-btn" style="min-height:42px;padding:0 18px;font-size:15px">Play ▶</span></span></a></section>
 <nav class="chips subnav" aria-label="Other categories">${m.cats.map(x => `<a class="chip${x === c ? ' on' : ''}" href="${x.url}"${x === c ? ' aria-current="page"' : ''}>${x.emoji} ${esc(x.name)}</a>`).join('')}</nav>
 ${best.length >= 3 ? `<section class="sec" aria-labelledby="s-top3"><div class="sec-h"><div><h2 id="s-top3">Best ${esc(gamesOfLower(c))}</h2><p class="sub">Our editors' top ${esc(gamesOfLower(c))} right now.</p></div></div><div class="wrow">${best.slice(0, 3).map((g, k) => wcard(g, k + 1)).join('')}</div></section>` : ''}
 ${toolbar('All ' + gamesOfLower(c), list.length, c.games.length, tags)}
@@ -236,7 +236,7 @@ export function azHub(m) {
 <h1 style="font-size:clamp(28px,5vw,40px);margin-bottom:8px">All games A to Z</h1>
 <p class="sub" style="margin-bottom:18px">Every free game on EasyGameFun, sorted by name. Pick a letter to jump in.</p>
 ${letterNav(m, '')}
-${[...m.letters].map(([l, list]) => `<section class="sec" aria-labelledby="az-${l}"><div class="sec-h"><h2 id="az-${l}">${letterLabel(l)}</h2><a href="/games/${l}/">All ${list.length} games</a></div><div class="icons">${list.slice(0, 8).map(g => `<a class="ico" href="${g.url}" aria-label="Play ${esc(g.name)}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>`).join('')}`;
+${[...m.letters].map(([l, list]) => `<section class="sec" aria-labelledby="az-${l}"><div class="sec-h"><h2 id="az-${l}">${letterLabel(l)}</h2><a href="/games/${l}/">All ${list.length} games</a></div><div class="icons">${list.slice(0, 8).map(g => `<a class="ico" href="${g.url}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>`).join('')}`;
   return {
     path: '/games/', top: '', side: 'az', title: 'All Free Games A to Z | EasyGameFun',
     desc: fitDesc(`Browse all ${m.games.length} free online games on EasyGameFun from A to Z. Find any game by name and play it in your browser.`),
@@ -267,7 +267,7 @@ export function gamePage(m, g, assets) {
   let embedOrigin = '';
   try { embedOrigin = g.embedUrl ? new URL(g.embedUrl).origin : ''; } catch { embedOrigin = ''; }
   const player = `<div class="player" id="player" data-slug="${g.slug}" data-name="${esc(g.name)}" data-embed="${esc(g.embedUrl || '')}" data-origin="${esc(embedOrigin)}" data-kind="${g.kind}" data-emoji="${esc(g.emoji || '🎮')}" data-c1="${esc(g.colors?.[0] || '#6C4DFF')}" data-c2="${esc(g.colors?.[1] || '#FF3F6C')}" data-hint="${esc(hint)}" data-demo="${assets.demo}" data-next="${esc(JSON.stringify(next3))}">` +
-    `<div class="ov" id="ov">${img(g, 'bg', true).replace('alt=""', `alt="${esc(g.name)}"`)}${g.thumb.generated ? `<div class="em" aria-hidden="true">${g.emoji || '🎮'}</div>` : ''}<div class="ovt">${esc(g.name)}</div><small>${esc(hint)}</small><button class="btn btn-mint js-only" id="go">▶ Play now</button><noscript><small>Turn on JavaScript to play this game.</small></noscript></div></div>`;
+    `<div class="ov" id="ov">${img(g, 'bg', true, BIG).replace('alt=""', `alt="${esc(g.name)}"`)}${g.thumb.generated ? `<div class="em" aria-hidden="true">${g.emoji || '🎮'}</div>` : ''}<div class="ovt">${esc(g.name)}</div><small>${esc(hint)}</small><button class="btn btn-mint js-only" id="go">▶ Play now</button><noscript><small>Turn on JavaScript to play this game.</small></noscript></div></div>`;
   const body = `${crumbs([['Home', '/'], [gamesOf(c), c.url], [g.name, '']])}
 <article class="gp"><div class="gmain">
 ${player}

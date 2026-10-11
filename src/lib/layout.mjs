@@ -8,8 +8,14 @@ const LOGO_MARK = '<i><svg viewBox="0 0 40 40" width="26" height="26" aria-hidde
 export const LOGO = `${LOGO_MARK}<span class="lt">Easy<b>Game</b><em>Fun</em></span>`;
 const SEARCH_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>';
 
-export const img = (g, cls = '', eager = false) =>
-  `<img${cls ? ` class="${cls}"` : ''} src="${esc(g.thumb.url)}" alt="" width="${g.thumb.width}" height="${g.thumb.height}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
+// sizes: how wide the image is shown. Small tiles get the 320px copy; big images can pick the original.
+export const BIG = '(min-width: 900px) 520px, 92vw';
+export const img = (g, cls = '', eager = false, sizes = '180px') => {
+  const t = g.thumb, sm = t.small;
+  const src = sm ? `src="${esc(sm.url)}" srcset="${esc(sm.url)} ${sm.width}w, ${esc(t.url)} ${t.width}w" sizes="${sizes}"` : `src="${esc(t.url)}"`;
+  const w = sm ? sm.width : t.width, h = sm ? sm.height : t.height;
+  return `<img${cls ? ` class="${cls}"` : ''} ${src} alt="" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
+};
 
 function sideHTML(m, key) {
   const L = (href, ico, txt, k) => `<a class="sl${key === k ? ' on' : ''}" href="${href}" title="${txt}"${key === k ? ' aria-current="page"' : ''}><span class="cb" style="background:var(--surface2)">${ico}</span><span class="nm">${txt}</span></a>`;

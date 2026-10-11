@@ -29,8 +29,8 @@
     }).catch(function () { indexP = null; return { list: [], bySlug: {}, cats: {} }; });
     return indexP;
   };
-  var imgTag = function (g) { return '<img src="' + esc(g.thumb) + '" alt="" width="200" height="200" loading="lazy" decoding="async">'; };
-  EGF.tile = function (g) { return '<a class="tile" href="' + g.url + '" aria-label="Play ' + esc(g.name) + '">' + imgTag(g) + '<span class="nm">' + esc(g.name) + '<small>' + esc(g.catName) + '</small></span></a>'; };
+  var imgTag = function (g) { return '<img src="' + esc(g.thumb) + '" alt="" width="320" height="320" loading="lazy" decoding="async">'; };
+  EGF.tile = function (g) { return '<a class="tile" href="' + g.url + '">' + imgTag(g) + '<span class="nm">' + esc(g.name) + '<small>' + esc(g.catName) + '</small></span></a>'; };
 
   /* ---------- theme ---------- */
   var themeBtn = $('#theme');
@@ -144,7 +144,7 @@
     var feat = JSON.parse(fl.getAttribute('data-feat') || '[]'), dots = $$('#fdots button'), fi = 0, timer = null;
     var show = function (n) {
       fi = (n + feat.length) % feat.length; var f = feat[fi];
-      fl.href = f[0]; fl.setAttribute('aria-label', 'Play ' + f[1]); $('img', fl).src = f[3]; $('#fl-n').textContent = f[1]; $('#fl-c').textContent = f[2];
+      fl.href = f[0]; var im = $('img', fl); im.removeAttribute('srcset'); im.src = f[3]; $('#fl-n').textContent = f[1]; $('#fl-c').textContent = f[2];
       dots.forEach(function (d, k) { d.classList.toggle('on', k === fi); });
     };
     if (!reduced && feat.length > 1) timer = setInterval(function () { if (!document.hidden) show(fi + 1); }, 6000);
