@@ -976,5 +976,86 @@
       "score": 84,
       "checks": {}
     }
+  },
+  {
+    "id": "gd-862f0addba124583b47dce850a7ccff9",
+    "source": "gamedistribution",
+    "embedUrl": "https://html5.gamedistribution.com/862f0addba124583b47dce850a7ccff9/",
+    "slug": "memevo-io",
+    "name": "Memevo.io",
+    "category": "io",
+    "tags": [
+      "Arena",
+      "Upgrades",
+      "Mobile"
+    ],
+    "developer": "Karma Arcade",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "https://img.gamedistribution.com/862f0addba124583b47dce850a7ccff9-512x512.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🧬",
+    "colors": [
+      "#7B5CFF",
+      "#2EE6A6"
+    ],
+    "licence": {
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Collect pellets, evolve your meme character and battle rivals and bosses in a fast neon arena.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "source": "partner catalog",
+        "review": "manual"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Memevo.io free online. Collect pellets, evolve meme characters, pick boost cards and defeat bosses in a neon arena. Works on phone and PC.",
+      "about": "Memevo.io is a fast arena survival game with a bright neon look. You start small, collect pellets to grow, and evolve your meme character into stronger forms as your score climbs.\nAlong the way you pick boost cards to power up, dodge hazards, fight rival characters and take on bosses. Every run is a race for a new high score, and it plays on both phones and computers right in your browser.",
+      "howToPlay": "Move around the arena to collect pellets and evolve. Charge your attack, then release it to fire at rivals and bosses.",
+      "touchHint": "Drag the virtual joystick to move, release to fire",
+      "tips": [
+        "Collect pellets early to evolve before you take on bigger rivals.",
+        "Pick boost cards that match how you like to play, attack or survival.",
+        "Keep moving. Standing still makes it easier for hazards and rivals to hit you.",
+        "Charge your shot fully before a boss fight for more damage."
+      ],
+      "faq": [
+        {
+          "q": "Is Memevo.io free to play?",
+          "a": "Yes. Memevo.io is free to play in your browser. There is nothing to download and no account to create."
+        },
+        {
+          "q": "How do you play Memevo.io on a computer?",
+          "a": "Use W A S D or the arrow keys to move. Hold Space to charge your attack and release it to fire."
+        },
+        {
+          "q": "Can I play Memevo.io on my phone?",
+          "a": "Yes. Touch and drag the virtual joystick to move, then release to fire. It works on iPhone and Android."
+        },
+        {
+          "q": "Who made Memevo.io?",
+          "a": "Memevo.io is made by Karma Arcade."
+        }
+      ],
+      "keys": [
+        "W A S D / Arrows: Move",
+        "Hold Space: Charge",
+        "Release Space: Fire"
+      ]
+    }
   }
 ]

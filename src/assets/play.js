@@ -16,7 +16,7 @@
   ['pointerenter', 'touchstart', 'focus'].forEach(function (ev) { go.addEventListener(ev, warm, { passive: true }); });
 
   var loadingHTML = function () {
-    return $('#ov img').outerHTML + '<div class="em" aria-hidden="true">' + EGF.esc(d.emoji) + '</div><div class="ovt">Loading ' + EGF.esc(d.name) + '…</div><div class="loadbar" role="progressbar" aria-label="Loading game"><i></i></div><small>Getting your game ready</small>';
+    return $('#ov img').outerHTML + ($('#ov .em') ? '<div class="em" aria-hidden="true">' + EGF.esc(d.emoji) + '</div>' : '') + '<div class="ovt">Loading ' + EGF.esc(d.name) + '…</div><div class="loadbar" role="progressbar" aria-label="Loading game"><i></i></div><small>Getting your game ready</small>';
   };
 
   go.onclick = function () {
@@ -28,7 +28,10 @@
 
   function startIframe() {
     var f = document.createElement('iframe');
-    f.src = d.embed;
+    var src = d.embed;
+    // GameDistribution's embed code passes the page URL so the play is credited to this site.
+    if (/(^|\.)gamedistribution\.com$/.test(new URL(src).hostname)) src += (src.indexOf('?') < 0 ? '?' : '&') + 'gd_sdk_referrer_url=' + encodeURIComponent(location.origin + location.pathname);
+    f.src = src;
     f.title = d.name;
     f.allow = 'fullscreen; autoplay; gamepad';
     f.setAttribute('allowfullscreen', '');
@@ -39,6 +42,12 @@
     setTimeout(function () { var ov = $('#ov'); if (ov) ov.remove(); }, 8000);
     box.appendChild(f);
     started = true;
+    // While the game has focus, keep the page still. Keys the game does not use
+    // (Space, arrows) would otherwise scroll the page under the player.
+    var lockY = null;
+    addEventListener('blur', function () { setTimeout(function () { if (document.activeElement === f) lockY = scrollY; }, 0); });
+    addEventListener('focus', function () { lockY = null; });
+    addEventListener('scroll', function () { if (lockY !== null && document.activeElement === f && Math.abs(scrollY - lockY) > 2) scrollTo(0, lockY); }, { passive: true });
   }
 
   // Sample games (no partner embed yet): run the built-in demo mini-game.
