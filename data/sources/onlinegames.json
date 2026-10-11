@@ -45,6 +45,21 @@
       "status": "imported",
       "slug": "steal-brainrots-multiplayer",
       "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/gta-simulator/": {
+      "status": "imported",
+      "slug": "gta-simulator",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/masked-special-forces/": {
+      "status": "imported",
+      "slug": "masked-special-forces",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/stickman-gta-city/": {
+      "status": "imported",
+      "slug": "stickman-gta-city",
+      "at": "2026-10-11"
     }
   }
 }

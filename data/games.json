@@ -747,5 +747,300 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-gta-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/gta-simulator/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html",
+    "slug": "gta-simulator",
+    "name": "GTA Simulator",
+    "category": "action",
+    "mature": true,
+    "tags": [
+      "Action",
+      "Car",
+      "Driving",
+      "Shooting"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/gta-simulator.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Complete island missions, fight armed gangsters, drive cars, and upgrade your hero in this 3D action simulator.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play GTA Simulator free in your browser. Follow Jackson’s mission texts, drive across the island, fight gangsters, and upgrade skills with map markers.",
+      "about": "GTA Simulator is a 3D action simulator about taking jobs on an island under threat. Jackson contacts you by text, asks you to come to him, and then sends you on missions tied to a fight over the mayor’s plan to sell the island. Your job is to help stop the deal, defeat armed gangsters, earn rewards and diamonds, and grow stronger as you level up. The game has mature themes, including violence and possible strong language, so it is meant for players who are comfortable with intense content.\nA round is built around checking messages, finding the next marked place on the map, traveling there, and handling the task. Pink exclamation marks show where to go, and you can enlarge the map or place a green marker to guide yourself. You will need weapons and bullets from the shopping icon, plus cars to cover the island quickly. Cars can come from Jackson’s garage or from traffic, but drivers may fight back. Between tasks, spend upgrades on health, stamina, defense, knife attacks, gun attacks, driving, and acceleration. GTA Simulator plays free in the browser with no download.",
+      "highlights": [
+        "Island missions guided by Jackson’s text messages",
+        "Cars from Jackson’s garage or vehicles on the road",
+        "Map markers, zoom, and custom green waypoints",
+        "Upgrades for health, defense, attacks, driving, and acceleration",
+        "Mature themes with violence and possible strong language"
+      ],
+      "goodFor": "This game is for players who like mission-based action with driving, shooting, and upgrades. It is better for players who are comfortable with mature themes and intense moments.",
+      "howToPlay": "Read Jackson’s messages, follow the map markers, and travel across the island to complete each task. Buy guns and bullets from the shopping icon when needed, use cars to reach distant places, and defeat gangsters to progress. Completing tasks gives rewards, diamonds, levels, and skill upgrades.",
+      "touchHint": "Tap icons to run, fight, swap weapons, and shop",
+      "keys": [
+        "WASD / Arrow keys: Move",
+        "Left Shift: Run fast",
+        "E: Punch or shoot",
+        "F: Enter a car",
+        "Esc: Menu"
+      ],
+      "tips": [
+        "Click the map to make it larger if the pink mission marks are hard to see.",
+        "Click a place on the map to add a green marker, then follow it after you shrink the map.",
+        "Stock up on guns and bullets from the shopping icon before heading into fights.",
+        "Use cars to cross the island faster, but be ready for armed drivers if you take a road vehicle."
+      ],
+      "faq": [
+        {
+          "q": "Is GTA Simulator free to play?",
+          "a": "Yes. GTA Simulator is free to play in your browser, and it does not require a download."
+        },
+        {
+          "q": "Can I play GTA Simulator on a phone or computer?",
+          "a": "Yes. On a computer, use the keyboard controls for moving, running, fighting, entering cars, and opening the menu. On a phone, use the on-screen icons for actions like running, fighting, changing weapons, and shopping."
+        },
+        {
+          "q": "What is the goal in GTA Simulator?",
+          "a": "Your goal is to complete Jackson’s missions, fight gangsters, and help stop the island from being sold. As you finish tasks, you earn rewards, diamonds, and levels."
+        },
+        {
+          "q": "How do I find my next mission?",
+          "a": "Watch for Jackson’s text messages and follow the marked locations on the map. Pink exclamation marks show important places, and you can set your own green marker by clicking the map."
+        },
+        {
+          "q": "How do upgrades work in GTA Simulator?",
+          "a": "Completing tasks and leveling up gives you chances to improve skills. You can upgrade health and stamina, defense, knife attacks, gun attacks, driving skill, and car acceleration."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-masked-special-forces",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/masked-special-forces/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity2/masked-special-forces/index.html",
+    "slug": "masked-special-forces",
+    "name": "Masked Special Forces",
+    "category": "shooter",
+    "mature": true,
+    "tags": [
+      "Action",
+      "Battle Royale",
+      "First Person Shooter",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/masked-special-forces.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Join or create rooms in a multiplayer FPS, customize your loadout, and eliminate enemies across 3D maps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Masked Special Forces free in your browser, a multiplayer FPS with custom rooms, 6 game modes, 4 maps, perks, and two weapon load-outs.",
+      "about": "Masked Special Forces is a multiplayer first-person shooter set in 3D battle arenas. You play as a commander and fight other players in rooms you can join or create. When making a room, you can choose the room name, maximum players, game mode, round time, bot count, and map. Maps include Abandoned House, Factory, Killhouse, and Warehouse. The game includes intense gun combat, violent sequences, and strong language, so player discretion is advised.\nRounds start fast once you enter a room. Take position, use your weapon loadout, watch the HUD, and try to eliminate enemies before they get you. You can build two load-outs with weapons such as rifles, shotguns, melee weapons, grenades, and more, plus armor, helmets, perks, kill messages, and emotes. The challenge comes from quick aiming, smart movement, and choosing the right mode, from Team Death Match to Free For All and Capture the Flag. Masked Special Forces plays free in the browser.",
+      "highlights": [
+        "Join existing rooms or create your own match settings",
+        "6 game modes, including Team Death Match and Capture the Flag",
+        "4 maps: Abandoned House, Factory, Killhouse, and Warehouse",
+        "Two load-outs with guns, melee weapons, armor, and perks",
+        "HUD shows health, kill feed, map, ammo, and scoreboard"
+      ],
+      "goodFor": "Good for players who like fast online shooting rounds, custom rooms, and detailed loadouts. It is a mature action game with gun combat and strong language, not a game for young children.",
+      "howToPlay": "Join a room or create one with your preferred mode, map, round time, player limit, and bot count. Once the match starts, move through the arena, aim carefully, and eliminate enemies while watching your health, ammo, and map. Use weapons, dynamite, medkits, armor, and perks to help your team or survive longer.",
+      "touchHint": "Use mouse and keyboard to play",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Left mouse button: Fire",
+        "Right mouse button: Aim",
+        "Space: Jump",
+        "Left Shift: Run",
+        "1, 2, 3 or Mouse Wheel: Change weapon"
+      ],
+      "tips": [
+        "Check the map in the top right often so you do not walk into enemies blindly.",
+        "Build both load-outs before fighting so you can cover close, mid, or long range.",
+        "Use run, slide, and crouch to make yourself harder to hit while moving between cover.",
+        "Watch your ammo and health on the HUD, then use medkits when you have them available."
+      ],
+      "faq": [
+        {
+          "q": "Is Masked Special Forces free to play?",
+          "a": "Yes. Masked Special Forces is free to play in the browser."
+        },
+        {
+          "q": "Can I play Masked Special Forces on a phone or computer?",
+          "a": "The listed controls use a keyboard and mouse, so a computer is the clearest way to play. The game runs in the browser."
+        },
+        {
+          "q": "What is the goal in Masked Special Forces?",
+          "a": "The goal is to enter a battle room and eliminate enemies. Depending on the mode, you may fight in teams, free-for-all battles, Capture the Flag, Gun Game, Arcade Doom, or PvP."
+        },
+        {
+          "q": "What maps are in Masked Special Forces?",
+          "a": "The game has four maps: Abandoned House, Factory, Killhouse, and Warehouse. You can choose a map when creating your own room."
+        },
+        {
+          "q": "Does Masked Special Forces have mature content?",
+          "a": "Yes. It includes intense action, gun violence, and strong language, so player discretion is advised."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-stickman-gta-city",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/stickman-gta-city/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/unity3/stickman-gta-city/index-og.html",
+    "slug": "stickman-gta-city",
+    "name": "Stickman GTA City",
+    "category": "action",
+    "mature": true,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Car",
+      "Shooting"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/stickman-gta-city.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Steal cars, dodge police, and explore a 3D stickman city while taking orders from your Mafia Boss.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Stickman GTA City free in your browser. Steal cars, dodge police, explore a 3D stickman city, and use tanks and helicopters during open-world action.",
+      "about": "Stickman GTA City is a 3D action adventure game set in an open stickman city built for crime, driving, and chaos. You can steal cars, drive through traffic, avoid the police, and use guns or other attacks as trouble spreads through the streets. The city also includes heavier vehicles, such as tanks and helicopters. You can follow orders from your Mafia Boss for direction, or ignore the pressure and explore the open world at your own pace.\nEach round gives you room to choose what happens next. You might grab a car, speed away from cops, move through traffic, or get into fights while roaming the city. The tricky part is staying mobile when police are nearby and the streets are crowded with vehicles and pedestrians. The fun comes from switching between driving, shooting, attacking, and free exploration without a fixed path. Stickman GTA City plays free in your browser. It includes crime, weapons, and violent actions, so it is better for older players.",
+      "highlights": [
+        "3D open city with stickman characters",
+        "Steal cars and drive through traffic",
+        "Dodge police while exploring",
+        "Guns, weapons, shooting, and attacks",
+        "Tanks and helicopters appear in the city"
+      ],
+      "goodFor": "Good for players who like open-city action with driving, police chases, and weapon combat. It has violent crime themes, so it is not meant for young children.",
+      "howToPlay": "Explore the city, take vehicles, and decide whether to follow Mafia Boss orders or roam freely. Use driving to get around, avoid police when they chase you, and fight with shooting or attacks when danger starts.",
+      "touchHint": "Use keyboard and mouse on computer",
+      "keys": [],
+      "tips": [
+        "Grab a vehicle early so you can move faster through the city and escape police pressure.",
+        "Watch traffic and pedestrians, because crashes can slow you down when you need to get away.",
+        "If police attention gets intense, focus on driving first instead of fighting in one place.",
+        "Use the open world to choose your pace: follow orders for direction or explore when you want freedom."
+      ],
+      "faq": [
+        {
+          "q": "Is Stickman GTA City free to play?",
+          "a": "Yes. Stickman GTA City is free to play in your browser."
+        },
+        {
+          "q": "Can I play Stickman GTA City on a phone or computer?",
+          "a": "Stickman GTA City plays in a browser. Phone controls are not provided, so a computer with keyboard and mouse is the safer choice."
+        },
+        {
+          "q": "What do you do in Stickman GTA City?",
+          "a": "You explore a 3D stickman city, steal cars, dodge police, and use shooting or attacks. You can also follow orders from your Mafia Boss or roam the open world."
+        },
+        {
+          "q": "Does Stickman GTA City have cars and other vehicles?",
+          "a": "Yes. The game includes cars, traffic, tanks, and helicopters."
+        },
+        {
+          "q": "Is Stickman GTA City violent?",
+          "a": "Yes. It includes crime, weapons, shooting, attacking, police chases, and pedestrians who can be hit. It is better for older players."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
