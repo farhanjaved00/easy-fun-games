@@ -19,6 +19,7 @@ export function loadData(dataDir, today) {
   const site = read(dataDir, 'site.json');
   const overrides = read(dataDir, 'overrides.json');
   const removed = read(dataDir, 'removed.json');
+  const hidden = read(dataDir, 'games.json').filter(g => g.status === 'review').map(g => ({ slug: g.slug, category: g.category }));
   const cats = read(dataDir, 'categories.json').map(c => ({ ...c, url: `/category/${c.slug}/`, games: [] }));
   const catBySlug = new Map(cats.map(c => [c.slug, c]));
 
@@ -107,7 +108,7 @@ export function loadData(dataDir, today) {
   return {
     site, today, cats: activeCats, catBySlug, games, bySlug: new Map(games.map(g => [g.slug, g])),
     newest, trending: games, best: [...games].sort(byBest), az, letters,
-    tags, tagBySlug: tagMap, collections, removed, promo: promoActive ? site.promo : null, seasonal,
+    tags, tagBySlug: tagMap, collections, removed, hidden, promo: promoActive ? site.promo : null, seasonal,
     sorters: { byPopular, byNew, byBest }
   };
 }

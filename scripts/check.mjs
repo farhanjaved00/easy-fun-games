@@ -145,7 +145,7 @@ if (process.env.CHECK_LIVE === '1') {
   try {
     const res = await fetch(B + '/search-index.json', { signal: AbortSignal.timeout(10000) });
     if (res.ok) {
-      const removedSlugs = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/removed.json'), 'utf8')).map(r => r.slug));
+      const removedSlugs = new Set([...JSON.parse(fs.readFileSync(path.join(ROOT, 'data/removed.json'), 'utf8')).map(r => r.slug), ...JSON.parse(fs.readFileSync(path.join(ROOT, 'data/games.json'), 'utf8')).filter(g => g.status !== 'published').map(g => g.slug)]);
       const live = (await res.json()).games.filter(g => !removedSlugs.has(g[0])).length; // removed on purpose = not a drop
       const drop = live ? (live - man.games) / live : 0;
       console.log(`Live site has ${live} games, this build has ${man.games}.`);

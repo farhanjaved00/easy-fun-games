@@ -53,9 +53,12 @@ Run it by hand: Actions > Deploy > Run workflow, and set how many games to impor
 
 `scripts/health-check.mjs` runs first in the daily workflow. It loads every game's embed URL and checks that it works and still allows embedding.
 A broken game is repaired when possible: first from its own onlinegames.io page (games sometimes move), then from the GameDistribution
-catalog, but only when the developer matches, so a different game with the same name is never swapped in. A game broken 3 days in a row is
-unpublished and redirected (301) to its category. If more than 20% of games fail at once, nothing is changed (likely an outage) and the run fails
-so you get an email. History is kept in `data/health.json`.
+catalog, but only when the developer matches, so a different game with the same name is never swapped in.
+
+If it cannot be repaired, the game is **hidden, not deleted**: its status becomes `review`, it disappears from the site and the sitemap,
+its address redirects temporarily (302) to its category, and it is listed in `REVIEW.md` and in the GitHub issue "Games needing review"
+(you get an email). A hidden game comes back by itself when it works again. If more than 20% of games fail at once, nothing is changed
+(likely an outage) and the run fails so you get an email.
 
 ## Pages
 

@@ -21,6 +21,7 @@ on:
 
 permissions:
   contents: write # lets the daily import save new games to the repo
+  issues: write # keeps the "Games needing review" issue up to date
 
 concurrency:
   group: deploy-production
@@ -40,8 +41,8 @@ jobs:
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: npm ci
 
-      # Tests every game; repairs broken embed URLs from sources that allow embedding,
-      # and unpublishes (with a 301 redirect) games broken 3 days in a row.
+      # Tests every game; repairs broken embed URLs from sources that allow embedding.
+      # Games that cannot be repaired are hidden (not deleted) and listed in REVIEW.md.
       - name: Check game health
         if: github.event_name != 'push'
         run: node scripts/health-check.mjs
@@ -56,12 +57,32 @@ jobs:
       - name: Save game changes to the repo
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: |
-          git add data src/static/thumbs
+          git add data src/static/thumbs REVIEW.md
           if git diff --cached --quiet; then echo "No new games."; exit 0; fi
           git config user.name "EasyGameFun bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Daily games update $(date -u +%F)"
           git push
+
+      - name: Update the "Games needing review" issue
+        if: github.event_name != 'push' && hashFiles('REVIEW.md') != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(grep -c '^| .*(`' REVIEW.md || true)
+          today=$(date -u +%F)
+          num=$(gh issue list --state open --search 'Games needing review in:title' --json number --jq '.[0].number // empty')
+          if [ "$count" -gt 0 ]; then
+            if [ -z "$num" ]; then
+              gh issue create --title "Games needing review" --body-file REVIEW.md
+            else
+              gh issue edit "$num" --body-file REVIEW.md
+              if grep -q "| $today |" REVIEW.md; then gh issue comment "$num" --body "New game(s) hidden today ($today). See the list above."; fi
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "All games are working again."
+          fi
 
       - name: Build
         run: npm run build
