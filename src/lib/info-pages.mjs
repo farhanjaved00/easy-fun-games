@@ -22,7 +22,8 @@ export const SITE_FAQ = [
 
 export function infoPages(m) {
   const B = m.site.baseUrl, mail = esc(m.site.email);
-  const mailLink = `<a href="mailto:${mail}">${mail}</a>`;
+  // email_off stops Cloudflare from rewriting the address into a /cdn-cgi/ link that crawlers report as 404.
+  const mailLink = `<!--email_off--><a href="mailto:${mail}">${mail}</a><!--/email_off-->`;
   const updated = `<p class="sub">Last updated: ${UPDATED}</p>`;
 
   const P = [

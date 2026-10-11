@@ -85,6 +85,8 @@ for (const f of htmlFiles) {
       if (it['@context'] !== 'https://schema.org' || !it['@type']) err(r, 'JSON-LD item without @context or @type');
       if (it['@type'] === 'FAQPage' && !/<details>/.test(html)) err(r, 'FAQPage schema but no visible FAQ');
       if (it['@type'] === 'BreadcrumbList' && !/class="crumbs"/.test(html)) err(r, 'BreadcrumbList schema but no visible breadcrumbs');
+      // Google reports SoftwareApplication/VideoGame without ratings as an error in Search Console.
+      if (['VideoGame', 'SoftwareApplication', 'MobileApplication', 'WebApplication'].includes(it['@type']) && !it.aggregateRating && !it.review) err(r, `${it['@type']} schema without ratings (Search Console error)`);
     }
     if (/aggregateRating/i.test(m[1])) err(r, 'aggregateRating found (not allowed without real ratings)');
   }
@@ -93,6 +95,9 @@ for (const f of htmlFiles) {
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(x => x[1]);
   const dupIds = ids.filter((x, i) => ids.indexOf(x) !== i);
   if (dupIds.length) err(r, 'duplicate ids: ' + [...new Set(dupIds)].join(', '));
+
+  // Cloudflare email obfuscation turns bare addresses into /cdn-cgi/ links that crawlers report as 404
+  for (const mm of html.matchAll(/mailto:/g)) { const before = html.lastIndexOf('<!--email_off-->', mm.index), after = html.lastIndexOf('<!--/email_off-->', mm.index); if (before < 0 || after > before) { err(r, 'mailto link without <!--email_off--> wrapper'); break; } }
 
   // Images need alt
   for (const m of html.matchAll(/<img\b[^>]*>/g)) if (!/\salt="/.test(m[0])) err(r, 'img without alt: ' + m[0].slice(0, 80));

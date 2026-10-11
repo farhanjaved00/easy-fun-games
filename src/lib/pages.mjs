@@ -148,7 +148,7 @@ ${pager(c.url, n, pages.length)}
 ${relatedCats(m, c.slug)}`;
     }
     return {
-      path, top: 'cats', side: 'cat:' + c.slug, bottom: 'cats',
+      path, top: 'cats', side: 'cat:' + c.slug, bottom: 'cats', noindex: c.games.length < (m.site.thinMin || 3),
       title: n === 1 ? fitTitle(`Free ${GamesOf(c)}: Play Online Now`) : fitTitle(`Free ${GamesOf(c)}`, `: Page ${n}`),
       desc: n === 1 ? fitDesc(`Play ${c.games.length} free ${gamesOfLower(c)} online. ${c.intro}`) : fitDesc(`Page ${n} of free ${gamesOfLower(c)} on EasyGameFun. Browse ${list.length} more games, from ${list[0].name} to ${list[list.length - 1].name}.`),
       body, scripts: [],
@@ -187,7 +187,7 @@ export const tagPages = (m, t) => listPages(m, {
 });
 
 export const collectionPages = (m, c) => listPages(m, {
-  base: c.url, h1: c.name, titleText: `${c.name}: Hand-Picked Free Games`,list: c.games, colors: c.colors, intro: c.intro,
+  noindex: c.games.length < (m.site.thinMin || 3), base: c.url, h1: c.name, titleText: `${c.name}: Hand-Picked Free Games`,list: c.games, colors: c.colors, intro: c.intro,
   metaDesc: `${c.intro} ${c.games.length} free games, hand-picked by EasyGameFun.`,
   crumbsBase: [['Home', '/'], ['Categories', '/cats/']]
 });
@@ -245,7 +245,7 @@ ${[...m.letters].map(([l, list]) => `<section class="sec" aria-labelledby="az-${
 }
 
 export const azLetterPages = (m, l, list) => listPages(m, {
-  base: `/games/${l}/`, h1: `Games starting with ${letterLabel(l)}`, titleText: `Free Games Starting With ${letterLabel(l)}`, list, colors: ['#2F9BFF', '#6C4DFF'], side: 'az',
+  noindex: list.length < (m.site.thinMin || 3), base: `/games/${l}/`, h1: `Games starting with ${letterLabel(l)}`, titleText: `Free Games Starting With ${letterLabel(l)}`, list, colors: ['#2F9BFF', '#6C4DFF'], side: 'az',
   intro: `All free games on EasyGameFun whose name starts with ${letterLabel(l)}.`,
   metaDesc: `Play ${list.length} free online games starting with ${letterLabel(l)} on EasyGameFun, from ${list[0].name} to ${list[list.length - 1].name}.`,
   crumbsBase: [['Home', '/'], ['All games A to Z', '/games/']]
@@ -267,7 +267,7 @@ export function gamePage(m, g, assets) {
   let embedOrigin = '';
   try { embedOrigin = g.embedUrl ? new URL(g.embedUrl).origin : ''; } catch { embedOrigin = ''; }
   const player = `<div class="player" id="player" data-slug="${g.slug}" data-name="${esc(g.name)}" data-embed="${esc(g.embedUrl || '')}" data-origin="${esc(embedOrigin)}" data-kind="${g.kind}" data-emoji="${esc(g.emoji || '🎮')}" data-c1="${esc(g.colors?.[0] || '#6C4DFF')}" data-c2="${esc(g.colors?.[1] || '#FF3F6C')}" data-hint="${esc(hint)}" data-demo="${assets.demo}" data-next="${esc(JSON.stringify(next3))}">` +
-    `<div class="ov" id="ov">${img(g, 'bg', true)}${g.thumb.generated ? `<div class="em" aria-hidden="true">${g.emoji || '🎮'}</div>` : ''}<div class="ovt">${esc(g.name)}</div><small>${esc(hint)}</small><button class="btn btn-mint js-only" id="go">▶ Play now</button><noscript><small>Turn on JavaScript to play this game.</small></noscript></div></div>`;
+    `<div class="ov" id="ov">${img(g, 'bg', true).replace('alt=""', `alt="${esc(g.name)}"`)}${g.thumb.generated ? `<div class="em" aria-hidden="true">${g.emoji || '🎮'}</div>` : ''}<div class="ovt">${esc(g.name)}</div><small>${esc(hint)}</small><button class="btn btn-mint js-only" id="go">▶ Play now</button><noscript><small>Turn on JavaScript to play this game.</small></noscript></div></div>`;
   const body = `${crumbs([['Home', '/'], [gamesOf(c), c.url], [g.name, '']])}
 <article class="gp"><div class="gmain">
 ${player}
@@ -298,7 +298,7 @@ ${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game incl
     body, scripts: [assets.play], ogImage: g.thumb.generated ? null : g.thumb.url,
     ld: [
       crumbLD(B, [['Home', '/'], [gamesOf(c), c.url], [g.name, g.url]]),
-      { '@type': 'VideoGame', name: g.name, description: g.description, url: B + g.url, image: g.thumb.url.startsWith('http') ? g.thumb.url : B + g.thumb.url, genre: c.name, keywords: g.tags.join(', '), gamePlatform: ['Web browser', 'Mobile', 'Desktop'], applicationCategory: 'Game', operatingSystem: 'Any', ...(g.developer ? { author: { '@type': 'Organization', name: g.developer } } : {}), offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' } },
+      { '@type': 'WebPage', name: g.name, url: B + g.url, mainEntity: { '@type': 'Game', name: g.name, description: g.description, url: B + g.url, image: g.thumb.url.startsWith('http') ? g.thumb.url : B + g.thumb.url, genre: c.name, keywords: g.tags.join(', '), ...(g.developer ? { author: { '@type': 'Organization', name: g.developer } } : {}), isAccessibleForFree: true } },
       faqLD(faq)
     ]
   };
