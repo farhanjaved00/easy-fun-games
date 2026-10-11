@@ -228,6 +228,13 @@ function qualityProblems(c, facts) {
   let shared = 0; for (const s of mine) if (src.has(s)) shared++;
   const overlap = mine.size ? shared / mine.size : 0;
   if (overlap > 0.08) p.push(`too close to the source text (${Math.round(overlap * 100)}% of 6-word phrases copied)`);
+  // Unique across our own site: compare the main text with every page we already have.
+  const body = shingles([...c.about, ...(c.highlights || []), c.goodFor || '', c.howToPlay, ...c.tips].join(' ').split(facts.name).join(' '));
+  for (const other of OUR_PAGES) {
+    let same = 0; for (const s of body) if (other.sh.has(s)) same++;
+    const r = body.size ? same / body.size : 0;
+    if (r > 0.1) { p.push(`too similar to our page for ${other.name} (${Math.round(r * 100)}% shared phrases)`); break; }
+  }
   return p;
 }
 
@@ -262,6 +269,8 @@ async function writeContent(facts, cat, tags) {
 
 /* ---------------- main ---------------- */
 const games = readJson(path.join(DATA, 'games.json'), []);
+// Text of every page we already publish, for the uniqueness check.
+const OUR_PAGES = games.filter(g => g.content).map(g => ({ name: g.name, sh: shingles([g.content.about, ...(g.content.highlights || []), g.content.goodFor || '', g.content.howToPlay || '', ...(g.content.tips || [])].join(' ').split(g.name).join(' ')) }));
 const state = readJson(STATE_FILE, { source: LIST, games: {} });
 const haveSlug = new Set(games.map(g => g.slug));
 const prewritten = CONTENT_IN ? readJson(CONTENT_IN, {}) : null;
@@ -331,6 +340,7 @@ for (const url of fresh) {
   haveSlug.add(slug);
   state.games[url] = { status: 'imported', slug, at: today };
   added.push(record);
+  OUR_PAGES.push({ name: record.name, sh: shingles([record.content.about, ...record.content.highlights, record.content.goodFor, record.content.howToPlay, ...record.content.tips].join(' ').split(record.name).join(' ')) });
   console.log(`  imported "${g.name}" → /game/${slug}/ (${record.category})`);
 }
 
