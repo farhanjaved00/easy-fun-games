@@ -679,3 +679,5 @@ html:not(.js) .js-only{display:none!important}
   .sec{margin-bottom:26px}
   .preview,.promo{font-size:13px}
 }
+/* phones: the bottom menu has Search, so the header search icon is not needed */
+@media(max-width:899px){#stog{display:none!important}}

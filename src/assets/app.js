@@ -103,7 +103,7 @@
     if (sug && !t.closest('.top .search') && !t.closest('#stog')) sug.hidden = true;
     if (t.closest('[data-top]')) window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
     if (t.closest('#drawer a')) openMenu(false);
-    if (t.closest('[data-focus-search]')) { e.preventDefault(); if (wide()) qi.focus(); else searchOpen(true); }
+    if (t.closest('[data-focus-search]') && wide()) { e.preventDefault(); qi.focus(); } // phones follow the link to the search page
     if (t.closest('[data-rnd]')) { e.preventDefault(); EGF.index().then(function (d) { if (d.list.length) location.href = d.list[Math.random() * d.list.length | 0].url; }); }
   });
   addEventListener('keydown', function (e) {
