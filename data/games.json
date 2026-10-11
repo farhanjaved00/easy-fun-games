@@ -1,1012 +1,35 @@
 [
   {
-    "id": "sample-001",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "pumpkin-patch-panic",
-    "name": "Pumpkin Patch Panic",
-    "category": "adventure",
+    "id": "og-stack-fire-ball",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/stack-fire-ball/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity/stack-fire-ball/index.html",
+    "slug": "stack-fire-ball",
+    "name": "Stack Fire Ball",
+    "category": "arcade",
     "tags": [
-      "Halloween",
-      "Mobile",
-      "Skill"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🎃",
-    "colors": [
-      "#FF8A00",
-      "#C2185B"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-17",
-    "status": "published",
-    "featured": true,
-    "popularity": 1200000,
-    "description": "Dodge ghosts and smash pumpkins in a spooky field before the lantern fades.",
-    "quality": {
-      "score": 86,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-002",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "sky-hopper",
-    "name": "Sky Hopper",
-    "category": "kids",
-    "tags": [
-      "One Tap",
-      "Cute",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "any",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🐸",
-    "colors": [
-      "#3DA9FC",
-      "#7B5CFF"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-18",
-    "status": "published",
-    "featured": true,
-    "popularity": 4800000,
-    "description": "Help a tiny frog hop across floating clouds to reach the rainbow.",
-    "quality": {
-      "score": 88,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-003",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "turbo-drift-rush",
-    "name": "Turbo Drift Rush",
-    "category": "racing",
-    "tags": [
-      "Drifting",
-      "Neon",
-      "Skill"
-    ],
-    "developer": "",
-    "orientation": "portrait",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🏎️",
-    "colors": [
-      "#FF5C7A",
-      "#FF9A3C"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-19",
-    "status": "published",
-    "featured": true,
-    "popularity": 9100000,
-    "description": "Slide around tight corners, grab boosts, and beat the clock on neon tracks.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-004",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "gem-match-garden",
-    "name": "Gem Match Garden",
-    "category": "puzzle",
-    "tags": [
-      "Match 3",
-      "Relaxing",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "💎",
-    "colors": [
-      "#1FD39A",
-      "#3DA9FC"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-20",
-    "status": "published",
-    "featured": false,
-    "popularity": 6300000,
-    "description": "Match shiny gems to grow a garden, with new levels every day.",
-    "quality": {
-      "score": 90,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-005",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "blob-arena-io",
-    "name": "Blob Arena.io",
-    "category": "io",
-    "tags": [
-      "Multiplayer",
+      "Ball",
       "Skill",
       "Mobile"
     ],
     "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🟣",
-    "colors": [
-      "#7B5CFF",
-      "#FF5C7A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-21",
-    "status": "published",
-    "featured": true,
-    "popularity": 12400000,
-    "description": "Eat smaller blobs, grow huge, and rule the arena against players worldwide.",
-    "quality": {
-      "score": 82,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-006",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "tiny-archer-duel",
-    "name": "Tiny Archer Duel",
-    "category": "2-player",
-    "tags": [
-      "Duel",
-      "Local",
-      "Skill"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "keyboard",
-      "touch"
-    ],
-    "thumb": null,
-    "emoji": "🏹",
-    "colors": [
-      "#FFC93C",
-      "#FF5C7A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-22",
-    "status": "published",
-    "featured": false,
-    "popularity": 3200000,
-    "description": "Aim, pull back, and fire in a fast duel with a friend on the same screen.",
-    "quality": {
-      "score": 80,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-007",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "penalty-kings",
-    "name": "Penalty Kings",
-    "category": "sports",
-    "tags": [
-      "Football",
-      "One Tap",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "⚽",
-    "colors": [
-      "#1FD39A",
-      "#0B8F5F"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-23",
-    "status": "published",
-    "featured": false,
-    "popularity": 5500000,
-    "description": "Pick your corner and score the winning penalty in the cup final.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-008",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "zombie-rooftop",
-    "name": "Zombie Rooftop",
-    "category": "shooter",
-    "tags": [
-      "Zombies",
-      "Halloween",
-      "Upgrades"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🧟",
-    "colors": [
-      "#6A4CFF",
-      "#1B1740"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-24",
-    "status": "published",
-    "featured": false,
-    "popularity": 7700000,
-    "description": "Hold the rooftop against waves of zombies with upgradeable weapons.",
-    "quality": {
-      "score": 86,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-009",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "cupcake-factory",
-    "name": "Cupcake Factory",
-    "category": "kids",
-    "tags": [
-      "Cooking",
-      "Cute",
-      "Relaxing"
-    ],
-    "developer": "",
-    "orientation": "any",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🧁",
-    "colors": [
-      "#FF8FB1",
-      "#FFC93C"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-25",
-    "status": "published",
-    "featured": false,
-    "popularity": 2900000,
-    "description": "Bake, frost, and decorate cupcakes for hungry customers.",
-    "quality": {
-      "score": 82,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-010",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "maze-moles",
-    "name": "Maze Moles",
-    "category": "puzzle",
-    "tags": [
-      "Maze",
-      "Cute",
-      "Relaxing"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🐹",
-    "colors": [
-      "#B07A4F",
-      "#FFC93C"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-26",
-    "status": "published",
-    "featured": false,
-    "popularity": 2100000,
-    "description": "Dig tunnels and lead the mole family to the carrot stash.",
-    "quality": {
-      "score": 78,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-011",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "snow-rider-dash",
-    "name": "Snow Rider Dash",
-    "category": "racing",
-    "tags": [
-      "Winter",
-      "One Tap",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "portrait",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🛷",
-    "colors": [
-      "#7FD6FF",
-      "#3D6BFF"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-27",
-    "status": "published",
-    "featured": true,
-    "popularity": 8000000,
-    "description": "Race a sled down a snowy mountain and dodge trees and rocks.",
-    "quality": {
-      "score": 86,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-012",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "worm-royale-io",
-    "name": "Worm Royale.io",
-    "category": "io",
-    "tags": [
-      "Multiplayer",
-      "Snake",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🪱",
-    "colors": [
-      "#FF5C7A",
-      "#7B5CFF"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-28",
-    "status": "published",
-    "featured": false,
-    "popularity": 10200000,
-    "description": "Slither, boost, and trap rivals in this massive online worm battle.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-013",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "pixel-dungeon-quest",
-    "name": "Pixel Dungeon Quest",
-    "category": "adventure",
-    "tags": [
-      "Pixel Art",
-      "Upgrades",
-      "RPG"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🗡️",
-    "colors": [
-      "#4A3AFF",
-      "#1FD39A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-29",
-    "status": "published",
-    "featured": false,
-    "popularity": 3800000,
-    "description": "Explore pixel dungeons, collect loot, and defeat the cave boss.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-014",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "basket-flick",
-    "name": "Basket Flick",
-    "category": "sports",
-    "tags": [
-      "Basketball",
-      "One Tap",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🏀",
-    "colors": [
-      "#FF8A00",
-      "#FF5C7A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-09-30",
-    "status": "published",
-    "featured": false,
-    "popularity": 4400000,
-    "description": "Flick the ball and swish it in as the hoop moves around.",
-    "quality": {
-      "score": 80,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-015",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "tank-pals-2p",
-    "name": "Tank Pals 2P",
-    "category": "2-player",
-    "tags": [
-      "Local",
-      "Tanks",
-      "Skill"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "keyboard",
-      "touch"
-    ],
-    "thumb": null,
-    "emoji": "🛡️",
-    "colors": [
-      "#2EC4B6",
-      "#3D6BFF"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-01",
-    "status": "published",
-    "featured": false,
-    "popularity": 2600000,
-    "description": "Two tanks, one maze. Bounce shots off walls and outsmart your friend.",
-    "quality": {
-      "score": 82,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-016",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "ghost-mansion-escape",
-    "name": "Ghost Mansion Escape",
-    "category": "puzzle",
-    "tags": [
-      "Halloween",
-      "Escape",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "👻",
-    "colors": [
-      "#5B3FD6",
-      "#14112B"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "popularity": 3300000,
-    "description": "Solve clever room puzzles to escape the haunted mansion before midnight.",
-    "quality": {
-      "score": 88,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-017",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "color-sort-pop",
-    "name": "Color Sort Pop",
-    "category": "puzzle",
-    "tags": [
-      "Sorting",
-      "Relaxing",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🧪",
-    "colors": [
-      "#FF5CB8",
-      "#7B5CFF"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-03",
-    "status": "published",
-    "featured": false,
-    "popularity": 5900000,
-    "description": "Pour and sort bright liquids until every tube is one color.",
-    "quality": {
-      "score": 86,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-018",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "cat-cafe-tycoon",
-    "name": "Cat Cafe Tycoon",
-    "category": "kids",
-    "tags": [
-      "Cute",
-      "Cooking",
-      "Relaxing"
-    ],
-    "developer": "",
-    "orientation": "any",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🐱",
-    "colors": [
-      "#FFB36B",
-      "#FF5C7A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-04",
-    "status": "published",
-    "featured": false,
-    "popularity": 3400000,
-    "description": "Serve snacks to cute cats and grow your cozy little cafe.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-019",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "moto-sky-jump",
-    "name": "Moto Sky Jump",
-    "category": "racing",
-    "tags": [
-      "Stunts",
-      "Skill",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "portrait",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🏍️",
-    "colors": [
-      "#3DA9FC",
-      "#1FD39A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-05",
-    "status": "published",
-    "featured": false,
-    "popularity": 4100000,
-    "description": "Launch off huge ramps and land stunts on a mountain bike track.",
-    "quality": {
-      "score": 82,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-020",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "sniper-shadow",
-    "name": "Sniper Shadow",
-    "category": "shooter",
-    "tags": [
-      "Sniper",
-      "Skill",
-      "Upgrades"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "🔫",
-    "colors": [
-      "#2B2D6B",
-      "#FF5C7A"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-06",
-    "status": "published",
-    "featured": false,
-    "popularity": 6000000,
-    "description": "Line up the shot and take out targets from the shadows.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-021",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "alien-defense",
-    "name": "Alien Defense",
-    "category": "shooter",
-    "tags": [
-      "Space",
-      "Upgrades",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "👾",
-    "colors": [
-      "#2EE6A6",
-      "#5B3FD6"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-07",
-    "status": "published",
-    "featured": false,
-    "popularity": 5100000,
-    "description": "Defend your base from waves of aliens with turrets and power-ups.",
-    "quality": {
-      "score": 82,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-022",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "slime-rush-io",
-    "name": "Slime Rush.io",
-    "category": "io",
-    "tags": [
-      "Multiplayer",
-      "Cute",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🟢",
-    "colors": [
-      "#1FD39A",
-      "#3DA9FC"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-08",
-    "status": "published",
-    "featured": false,
-    "popularity": 7200000,
-    "description": "Absorb smaller slimes, dodge giants, and climb the live leaderboard.",
-    "quality": {
-      "score": 80,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-023",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "sumo-duel-2p",
-    "name": "Sumo Duel 2P",
-    "category": "2-player",
-    "tags": [
-      "Duel",
-      "Local",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "keyboard",
-      "touch"
-    ],
-    "thumb": null,
-    "emoji": "🥋",
-    "colors": [
-      "#FF5C7A",
-      "#FFC93C"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-09",
-    "status": "published",
-    "featured": false,
-    "popularity": 1900000,
-    "description": "Push your friend out of the ring in a quick two-player sumo match.",
-    "quality": {
-      "score": 78,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-024",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "mini-golf-world",
-    "name": "Mini Golf World",
-    "category": "sports",
-    "tags": [
-      "Golf",
-      "Relaxing",
-      "Skill"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "mouse"
-    ],
-    "thumb": null,
-    "emoji": "⛳",
-    "colors": [
-      "#6BD66B",
-      "#1FA3A3"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-10",
-    "status": "published",
-    "featured": false,
-    "popularity": 3600000,
-    "description": "Putt through wild courses with loops, ramps, and windmills.",
-    "quality": {
-      "score": 86,
-      "checks": {}
-    }
-  },
-  {
-    "id": "sample-025",
-    "source": "sample",
-    "embedUrl": "",
-    "slug": "island-builder",
-    "name": "Island Builder",
-    "category": "adventure",
-    "tags": [
-      "Building",
-      "Relaxing",
-      "Mobile"
-    ],
-    "developer": "",
-    "orientation": "landscape",
-    "input": [
-      "touch",
-      "keyboard"
-    ],
-    "thumb": null,
-    "emoji": "🏝️",
-    "colors": [
-      "#3DD6C6",
-      "#FFC93C"
-    ],
-    "licence": {
-      "partner": null,
-      "checkedAt": null,
-      "allowedEmbed": false
-    },
-    "addedAt": "2026-10-11",
-    "status": "published",
-    "featured": false,
-    "popularity": 2400000,
-    "description": "Gather resources and build a tropical island, one hut at a time.",
-    "quality": {
-      "score": 84,
-      "checks": {}
-    }
-  },
-  {
-    "id": "gd-862f0addba124583b47dce850a7ccff9",
-    "source": "gamedistribution",
-    "embedUrl": "https://html5.gamedistribution.com/862f0addba124583b47dce850a7ccff9/",
-    "slug": "memevo-io",
-    "name": "Memevo.io",
-    "category": "io",
-    "tags": [
-      "Arena",
-      "Upgrades",
-      "Mobile"
-    ],
-    "developer": "Karma Arcade",
     "orientation": "landscape",
     "input": [
       "keyboard",
       "touch"
     ],
     "thumb": {
-      "url": "https://img.gamedistribution.com/862f0addba124583b47dce850a7ccff9-512x512.jpg",
+      "url": "/thumbs/stack-fire-ball.jpg",
       "width": 512,
       "height": 512
     },
-    "emoji": "🧬",
+    "emoji": "🎮",
     "colors": [
-      "#7B5CFF",
-      "#2EE6A6"
+      "#6C4DFF",
+      "#FF3F6C"
     ],
     "licence": {
-      "partner": "gamedistribution",
+      "partner": "onlinegames.io",
       "checkedAt": "2026-10-11",
       "allowedEmbed": true
     },
@@ -1014,48 +37,382 @@
     "status": "published",
     "featured": false,
     "popularity": 0,
-    "description": "Collect pellets, evolve your meme character and battle rivals and bosses in a fast neon arena.",
+    "description": "Drop a fireball through a spinning tower, smash the colored rings and keep clear of the black pieces.",
     "quality": {
       "score": 80,
       "checks": {
-        "source": "partner catalog",
-        "review": "manual"
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "manual"
       }
     },
     "content": {
-      "metaDescription": "Play Memevo.io free online. Collect pellets, evolve meme characters, pick boost cards and defeat bosses in a neon arena. Works on phone and PC.",
-      "about": "Memevo.io is a fast arena survival game with a bright neon look. You start small, collect pellets to grow, and evolve your meme character into stronger forms as your score climbs.\nAlong the way you pick boost cards to power up, dodge hazards, fight rival characters and take on bosses. Every run is a race for a new high score, and it plays on both phones and computers right in your browser.",
-      "howToPlay": "Move around the arena to collect pellets and evolve. Charge your attack, then release it to fire at rivals and bosses.",
-      "touchHint": "Drag the virtual joystick to move, release to fire",
+      "metaDescription": "Play Stack Fire Ball free online. Drop a fireball through a spinning tower, smash colored rings and avoid black pieces. Works on phone and PC.",
+      "about": "Stack Fire Ball gives you a flaming ball perched on top of a tall, turning tower. Every ring of the tower is built from bright colored pieces with a few black ones mixed in. Drop the ball to crash down through the colors, ring after ring, and hold back the moment a black piece rolls underneath you, because touching black ends the run on the spot.\nThe fun is all in the timing. The tower spins at changing speeds and the ball builds speed on the way down, so each drop is a quick choice between pushing on and waiting a beat. Breaking several rings in a row lifts your score, and every new run is a chance to beat your last one. It is free to play in your browser on a phone or a computer, which makes it a great pick for a short break.",
+      "howToPlay": "Tap or click to let the fireball fall through the spinning tower. Break the colored rings and never land on a black section.",
+      "touchHint": "Tap the screen to drop the fireball",
+      "keys": [
+        "Click: Drop the fireball"
+      ],
       "tips": [
-        "Collect pellets early to evolve before you take on bigger rivals.",
-        "Pick boost cards that match how you like to play, attack or survival.",
-        "Keep moving. Standing still makes it easier for hazards and rivals to hit you.",
-        "Charge your shot fully before a boss fight for more damage."
+        "Watch the tower turn once before your first drop.",
+        "If a black piece is coming, pause and let it spin past.",
+        "Chain several rings together for a bigger score.",
+        "Take more care near the bottom, where the ball moves faster."
       ],
       "faq": [
         {
-          "q": "Is Memevo.io free to play?",
-          "a": "Yes. Memevo.io is free to play in your browser. There is nothing to download and no account to create."
+          "q": "Is Stack Fire Ball free to play?",
+          "a": "Yes. It is free to play in your browser, with nothing to download and no account needed."
         },
         {
-          "q": "How do you play Memevo.io on a computer?",
-          "a": "Use W A S D or the arrow keys to move. Hold Space to charge your attack and release it to fire."
+          "q": "Can I play Stack Fire Ball on my phone?",
+          "a": "Yes. A single tap drops the fireball, so it works well on phones and tablets as well as computers."
         },
         {
-          "q": "Can I play Memevo.io on my phone?",
-          "a": "Yes. Touch and drag the virtual joystick to move, then release to fire. It works on iPhone and Android."
+          "q": "What ends a run in Stack Fire Ball?",
+          "a": "Landing on a black piece of the tower. Only the colored pieces can be broken."
         },
         {
-          "q": "Who made Memevo.io?",
-          "a": "Memevo.io is made by Karma Arcade."
+          "q": "Does the game get harder?",
+          "a": "Yes. The patterns on the tower get trickier and the ball speeds up as you go deeper, so timing matters more and more."
         }
       ],
+      "model": "manual"
+    }
+  },
+  {
+    "id": "og-drift-king",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/drift-king/",
+    "embedUrl": "https://www.onlinegames.io/games/2024/unity/drift-king/index.html",
+    "slug": "drift-king",
+    "name": "Drift King",
+    "category": "racing",
+    "tags": [
+      "Drift",
+      "Car",
+      "Driving"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/drift-king.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Pick a sports car, tune it to your taste and slide sideways through corners across six 3D maps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "manual"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Drift King free online. Choose from 10 sports cars, tune them your way and slide through corners on 6 detailed 3D maps. No download needed.",
+      "about": "Drift King is a 3D drifting game where the goal is not just speed but style. You choose from 10 sports cars, head out onto one of 6 maps and throw your car sideways through the bends, leaving trails of tire smoke behind you. A neat touch is the rear-view window, where you can actually watch that smoke pour out as you slide.\nEach car can be tuned, so you can change how it handles until the drifts feel just right. The detailed 3D look makes every corner feel real, and switching between cars and maps keeps sessions fresh. It plays free in your browser with nothing to install. If you enjoy car games where control and timing matter more than finishing first, this one is worth a spin.",
+      "howToPlay": "Choose a car and a map, then build up speed and turn into corners so the car slides. Hold long, smooth drifts and adjust the tuning to suit your style.",
+      "touchHint": "Follow the on-screen controls to steer and drift",
+      "keys": [],
+      "tips": [
+        "Try a few different cars, since each one slides in its own way.",
+        "Change one tuning setting at a time so you can feel the difference.",
+        "Start each drift a little before the corner rather than in it.",
+        "Practice on one map until your drifts feel smooth, then try the others."
+      ],
+      "faq": [
+        {
+          "q": "Is Drift King free to play?",
+          "a": "Yes. Drift King is free to play in your browser with nothing to download."
+        },
+        {
+          "q": "What do I need to play Drift King?",
+          "a": "Just a modern web browser. The game runs on the page, so there is nothing to install."
+        },
+        {
+          "q": "How many cars and maps are in Drift King?",
+          "a": "There are 10 sports cars to choose from and 6 maps to drive on."
+        },
+        {
+          "q": "Can I tune my car in Drift King?",
+          "a": "Yes. Each car has tuning options, so you can change how it handles while drifting."
+        }
+      ],
+      "model": "manual"
+    }
+  },
+  {
+    "id": "og-love-tester",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/love-tester/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/3/love-tester/index.html",
+    "slug": "love-tester",
+    "name": "Love Tester",
+    "category": "kids",
+    "tags": [
+      "Love",
+      "Funny",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/love-tester.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Type two names, tap the big heart and get a just-for-fun love score with a playful message.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "manual"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Love Tester free online. Type two names, tap the heart and get a just-for-fun love score with a cheeky message. Works on phone, tablet and PC.",
+      "about": "Love Tester is a light, silly game for checking how well two names match. Type your own name, add the name of someone you like, then press the big heart in the middle of the screen. The love calculator answers right away with a percentage and a short, cheeky comment about your chances.\nThere is no way to win or lose, which is part of the charm. Try your name with friends, family, favorite characters or anyone you can think of, and compare the results. It is meant purely for laughs, so nobody should take the numbers seriously. It is free to play in your browser on a phone, tablet or computer, and a round takes only a few seconds.",
+      "howToPlay": "Enter two names, then click or tap the heart to see the love percentage and a funny message. Change the names and try again as often as you like.",
+      "touchHint": "Tap to type the names, then tap the heart",
       "keys": [
-        "W A S D / Arrows: Move",
-        "Hold Space: Charge",
-        "Release Space: Fire"
-      ]
+        "Keyboard: Type both names",
+        "Click the heart: See the result"
+      ],
+      "tips": [
+        "Try nicknames as well as full names and compare the scores.",
+        "Test names of friends or family for a quick laugh together.",
+        "Swap the order of the two names and see what changes.",
+        "Remember it is just for fun, so enjoy the silly messages."
+      ],
+      "faq": [
+        {
+          "q": "Is Love Tester free to play?",
+          "a": "Yes. Love Tester is free in your browser with no download and no account."
+        },
+        {
+          "q": "Can I play Love Tester on my phone?",
+          "a": "Yes. Tap to type the names and tap the heart. It works on phones, tablets and computers."
+        },
+        {
+          "q": "Is the love score real?",
+          "a": "No. The result is made for fun and is not a real test of anything, so enjoy it as a joke."
+        },
+        {
+          "q": "How many times can I try?",
+          "a": "As many times as you like. Change the names and press the heart again for a new result."
+        }
+      ],
+      "model": "manual"
+    }
+  },
+  {
+    "id": "og-stickman-parkour",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/stickman-parkour/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/construct/219/stickman-parkour/index-og.html",
+    "slug": "stickman-parkour",
+    "name": "Stickman Parkour",
+    "category": "adventure",
+    "tags": [
+      "Stickman",
+      "Parkour",
+      "Platformer",
+      "Mobile"
+    ],
+    "developer": "FreezeNova Games Studio",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/stickman-parkour.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Run, jump and slide a tiny stickman through 30 levels to collect golden keys and unlock each gate.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "manual"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Stickman Parkour free online. Run, jump and slide through 30 levels, dodge spikes and swing on ropes to find every golden key. Phone and PC.",
+      "about": "Stickman Parkour is a platform game from FreezeNova Games Studio. You guide a small stick figure through 30 levels, and in each one you need to find a golden key that opens an old gate to the next stage. On the way you will leap over sharp spikes, swing across gaps on ropes and swim through stretches of water.\nThe controls are only move, jump and slide, so anyone can start in seconds. The challenge grows level by level, with tighter jumps and harder mixes of obstacles that ask for good timing. That steady climb makes it a fine choice for players who like precise platform games. It runs free in your browser, with keyboard controls on a computer and on-screen buttons on a phone.",
+      "howToPlay": "Move, jump and slide past spikes, ropes and water to grab the golden key in each level, then reach the gate to move on.",
+      "touchHint": "Use the on-screen buttons to move, jump and slide",
+      "keys": [
+        "Left / Right or A / D: Move",
+        "Up or W: Jump",
+        "Down or S: Slide"
+      ],
+      "tips": [
+        "Look at the whole level before you start running.",
+        "Use slides to slip under low obstacles without slowing down.",
+        "Time rope swings so you let go near the top of the swing.",
+        "If a jump keeps failing, start it one step earlier."
+      ],
+      "faq": [
+        {
+          "q": "Is Stickman Parkour free to play?",
+          "a": "Yes. Stickman Parkour is free to play in your browser with nothing to install."
+        },
+        {
+          "q": "Can I play Stickman Parkour on my phone?",
+          "a": "Yes. On phones and tablets you use on-screen buttons. On a computer you use the keyboard."
+        },
+        {
+          "q": "How many levels does Stickman Parkour have?",
+          "a": "There are 30 levels, and each one gets a bit harder than the last."
+        },
+        {
+          "q": "Who made Stickman Parkour?",
+          "a": "Stickman Parkour is made by FreezeNova Games Studio."
+        }
+      ],
+      "model": "manual"
+    }
+  },
+  {
+    "id": "og-escape-car-2",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/escape-car-2/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/escape-car-2/game.html",
+    "slug": "escape-car-2",
+    "name": "Escape Car 2",
+    "category": "racing",
+    "tags": [
+      "Car",
+      "Driving",
+      "Police",
+      "Escape"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/escape-car-2.webp",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Race away from police cars and helicopters, grab cash on the road and unlock faster cars in the garage.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "manual"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Escape Car 2 free online. Outrun police cars and helicopters, grab cash, fire rockets and unlock faster cars in this 3D chase. No download.",
+      "about": "Escape Car 2 is a 3D chase game where the police are always right behind you. Speed along desert highways and through city streets while patrol cars, armored trucks and helicopters try to box you in. Pick up the cash lying on the road, fire rockets to shake off the cars on your tail and keep going for as long as you can.\nA star meter shows how wanted you are, and the chase gets more intense the longer you stay free. When things look bad you can jump into another car in the middle of the chase. Cash you collect goes toward faster cars in the garage, so each run helps the next one. It is free to play in your browser, and it suits anyone who likes fast driving games with plenty going on.",
+      "howToPlay": "Steer through traffic, grab cash and use your boost and rockets to stay ahead of the police. Spend your cash on faster cars between runs.",
+      "touchHint": "Follow the on-screen controls to steer and boost",
+      "keys": [
+        "A / D or Arrows: Steer",
+        "Shift: Boost",
+        "F or Left click: Fire rocket",
+        "Space or Right click (hold): Switch cars"
+      ],
+      "tips": [
+        "Save your boost for moments when the police get close.",
+        "Collect cash early so you can unlock a faster car sooner.",
+        "Switch to a new car before your current one is wrecked.",
+        "Use rockets on the cars right behind you first."
+      ],
+      "faq": [
+        {
+          "q": "Is Escape Car 2 free to play?",
+          "a": "Yes. Escape Car 2 is free to play in your browser with no download."
+        },
+        {
+          "q": "How do I play Escape Car 2 on a computer?",
+          "a": "Steer with A and D or the arrow keys, press Shift to boost, and press F or left click to fire a rocket. Hold Space or right click to switch cars."
+        },
+        {
+          "q": "What does the star meter mean?",
+          "a": "It shows your wanted level. The higher it climbs, the more police join the chase."
+        },
+        {
+          "q": "Can I unlock new cars in Escape Car 2?",
+          "a": "Yes. Use the cash you collect on the road to buy faster cars in the garage."
+        }
+      ],
+      "model": "manual"
     }
   }
 ]

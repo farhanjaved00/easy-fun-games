@@ -51,6 +51,7 @@ export const pager = (base, page, pages) => {
 
 export const hofBlock = (list, n) => {
   const g = list[0];
+  if (!g) return '';
   const cols = [['#E8EAF6', '#9AA0BD'], ['#F6B98A', '#B8693A'], ['#8E8BB8', '#8E8BB8']];
   return `<div class="hof"><a class="hof1" href="${g.url}">${img(g, 'bg')}<div class="in"><span class="crown">👑 #1 of all time</span><h3>${esc(g.name)}</h3><p>${esc(g.description)}</p><div class="mi" style="color:rgba(255,255,255,.92)"><span>${esc(g.cat.name)}</span><span>${esc(g.tags.slice(0, 2).join(' · '))}</span></div><span class="btn btn-mint">▶ Play now</span></div></a>` +
     `<ol class="hofl">${list.slice(1, n).map((x, i) => { const c = cols[Math.min(i, 2)]; return `<li><a href="${x.url}"><span class="n" style="--c1:${c[0]};--c2:${c[1]}">${i + 2}</span><span class="tile" style="display:block">${img(x)}</span><span class="rt"><b>${esc(x.name)}</b><span>${esc(x.cat.name)} · ${esc(x.tags.slice(0, 2).join(', '))}</span></span><span class="go">Play ▶</span></a></li>`; }).join('')}</ol></div>`;
@@ -59,7 +60,7 @@ export const hofBlock = (list, n) => {
 export const catCards = m =>
   `<section class="sec" aria-labelledby="s-cats"><div class="sec-h"><h2 id="s-cats">Browse by category</h2><a href="/cats/">All categories</a></div><div class="catgrid">${m.cats.map(c => `<a class="catcard" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}"><i aria-hidden="true">${c.emoji}</i><b>${esc(c.name)}</b><span>${c.games.length} games</span></a>`).join('')}</div></section>`;
 
-export const collSection = m =>
+export const collSection = m => !m.collections.length ? '' :
   `<section class="sec" id="collections" aria-labelledby="s-coll"><div class="sec-h"><div><h2 id="s-coll">Collections</h2><p class="sub">Hand-picked lists for every mood.</p></div></div><div class="collgrid">${m.collections.map(c => `<a class="coll" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}"><i aria-hidden="true">${c.emoji}</i><b>${esc(c.name)}</b><span class="cd2">${esc(c.short)}</span><small>${c.games.length} games</small></a>`).join('')}</div></section>`;
 
 export const relatedCats = (m, skip) =>

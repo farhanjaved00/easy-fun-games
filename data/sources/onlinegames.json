@@ -1,0 +1,45 @@
+{
+  "source": "https://www.onlinegames.io/t/embeddable-games-for-websites/",
+  "games": {
+    "https://www.onlinegames.io/new-games/": {
+      "status": "skipped",
+      "reason": "not tagged Embeddable",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/stack-fire-ball/": {
+      "status": "imported",
+      "slug": "stack-fire-ball",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/drift-king/": {
+      "status": "imported",
+      "slug": "drift-king",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/love-tester/": {
+      "status": "imported",
+      "slug": "love-tester",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/gta-simulator/": {
+      "status": "skipped",
+      "reason": "marked as mature content",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/masked-special-forces/": {
+      "status": "skipped",
+      "reason": "marked as mature content",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/stickman-parkour/": {
+      "status": "imported",
+      "slug": "stickman-parkour",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/escape-car-2/": {
+      "status": "imported",
+      "slug": "escape-car-2",
+      "at": "2026-10-11"
+    }
+  }
+}

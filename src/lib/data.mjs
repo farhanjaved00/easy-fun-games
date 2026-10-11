@@ -96,11 +96,16 @@ export function loadData(dataDir, today) {
   const letters = new Map();
   for (const g of az) { const l = letterOf(g); if (!letters.has(l)) letters.set(l, []); letters.get(l).push(g); }
 
-  const promoActive = site.promo && (!site.promo.until || today < site.promo.until);
+  // The announcement bar hides itself if it links to a collection or tag that has no games.
+  const linkLive = l => !l || (l.startsWith('/collection/') ? collections.some(c => c.url === l) : l.startsWith('/tag/') ? tagMap.has(l.split('/')[2]) : true);
+  const promoActive = site.promo && (!site.promo.until || today < site.promo.until) && linkLive(site.promo.link);
   const seasonal = site.seasonal && (!site.seasonal.until || today < site.seasonal.until) ? site.seasonal : null;
 
+  // Only categories that have games are shown anywhere on the site.
+  const activeCats = cats.filter(c => c.games.length);
+
   return {
-    site, today, cats, catBySlug, games, bySlug: new Map(games.map(g => [g.slug, g])),
+    site, today, cats: activeCats, catBySlug, games, bySlug: new Map(games.map(g => [g.slug, g])),
     newest, trending: games, best: [...games].sort(byBest), az, letters,
     tags, tagBySlug: tagMap, collections, removed, promo: promoActive ? site.promo : null, seasonal,
     sorters: { byPopular, byNew, byBest }

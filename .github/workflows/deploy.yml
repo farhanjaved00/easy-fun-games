@@ -1,6 +1,7 @@
 name: Deploy
 
-# Builds, checks and deploys to Cloudflare Pages.
+# Daily (and on demand): imports new games from onlinegames.io with AI-written pages.
+# Then, and on every push to main: builds, checks and deploys to Cloudflare Pages.
 # If any check fails, nothing is deployed and the current live site stays up.
 on:
   push:
@@ -9,13 +10,17 @@ on:
     - cron: "17 3 * * *" # every day at 03:17 UTC
   workflow_dispatch:
     inputs:
+      import_count:
+        description: "How many new games to import (0 = none)"
+        type: number
+        default: 3
       allow_shrink:
         description: "Allow the game count to drop more than 5%"
         type: boolean
         default: false
 
 permissions:
-  contents: read
+  contents: write # lets the daily import save new games to the repo
 
 concurrency:
   group: deploy-production
@@ -30,6 +35,26 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 22
+
+      - name: Install packages
+        if: github.event_name != 'push'
+        run: npm ci
+
+      - name: Import new games
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'schedule' && 3 || inputs.import_count }}
+
+      - name: Save new games to the repo
+        if: github.event_name != 'push'
+        run: |
+          git add data src/static/thumbs
+          if git diff --cached --quiet; then echo "No new games."; exit 0; fi
+          git config user.name "EasyGameFun bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Import new games $(date -u +%F)"
+          git push
 
       - name: Build
         run: npm run build

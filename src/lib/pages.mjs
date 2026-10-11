@@ -56,7 +56,7 @@ export function home(m) {
 <div><i aria-hidden="true">🆓</i><h3>Free, always</h3><p>No account, no paywall. Your saved games stay on your device.</p></div></div></section>
 <section class="card" aria-labelledby="s-about"><h2 id="s-about">Play free online games on EasyGameFun</h2>
 <p>EasyGameFun is a free game site for anyone who wants to play in a few seconds. Every game runs in your browser, so you can play on a phone, a tablet, or a computer without installing anything.</p>
-<p>Start with a <a href="/category/puzzle/">puzzle game</a> for a quick break, race a friend in a <a href="/category/2-player/">2 player game</a>, or join a live match in an <a href="/category/io/">.io game</a>. We add new games every day.</p>
+<p>Pick a category to start: ${m.cats.map(c => `<a href="${c.url}">${esc(gamesOfLower(c))}</a>`).join(', ')}. We add new games every day.</p>
 <h2 style="margin-top:18px">Questions</h2>${faqHTML(HOME_FAQ)}</section>`;
 
   return {
@@ -262,7 +262,7 @@ export function gamePage(m, g, assets) {
     { q: `What kind of game is ${g.name}?`, a: `It is a ${shortCat(c).toLowerCase()} game. If you like it, browse more in the ${c.name} category.` }
   ];
   const about = ct.about ? ct.about.split(/\n+/) : [g.description, `${g.name} is a free ${shortCat(c).toLowerCase()} game that loads fast and runs right in your browser. Short rounds make it easy to jump in for a minute or stay for an hour, on any device.`];
-  const nx = g.related[0];
+  const nx = g.related[0] || g;
   const next3 = g.related.slice(0, 3).map(x => [x.url, x.name, x.thumb.url]);
   let embedOrigin = '';
   try { embedOrigin = g.embedUrl ? new URL(g.embedUrl).origin : ''; } catch { embedOrigin = ''; }

@@ -4,12 +4,19 @@
   "private": true,
   "type": "module",
   "description": "EasyGameFun static site generator (easygamefun.com)",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node src/build.mjs",
     "check": "node scripts/check.mjs",
     "test": "node src/build.mjs && node scripts/check.mjs",
     "serve": "node scripts/serve.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "import": "node scripts/import-onlinegames.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.133.0",
+    "zod": "4.6.5"
   }
 }

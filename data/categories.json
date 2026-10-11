@@ -199,5 +199,55 @@
       "Jump: Space",
       "Tap on mobile"
     ]
+  },
+  {
+    "slug": "action",
+    "name": "Action",
+    "emoji": "💥",
+    "colors": [
+      "#FF3F6C",
+      "#6C4DFF"
+    ],
+    "intro": "Jump, fight and survive in free action games. Fast rounds, big moments and quick restarts when things go wrong.",
+    "why": [
+      "Short rounds packed with action",
+      "Easy controls with room to get better",
+      "Restart in a second and try again"
+    ],
+    "faq": [
+      {
+        "q": "Are action games here suitable for kids?",
+        "a": "Most use cartoon visuals, but some have fighting or battle scenes. Read the game description first, and use the Kids category for younger players."
+      }
+    ],
+    "controls": [
+      "Move: Arrow keys / W A S D",
+      "Action: Space or click"
+    ]
+  },
+  {
+    "slug": "arcade",
+    "name": "Arcade",
+    "emoji": "🕹️",
+    "colors": [
+      "#FFB800",
+      "#FF3F6C"
+    ],
+    "intro": "Simple rules, fast fun. Free arcade games you can learn in seconds and keep playing to beat your best score.",
+    "why": [
+      "Learn the rules in a few seconds",
+      "Perfect for a quick break",
+      "Chase a new high score every run"
+    ],
+    "faq": [
+      {
+        "q": "What is an arcade game?",
+        "a": "An arcade game is a quick game with simple controls and a clear goal, like dodging, jumping or scoring as many points as you can."
+      }
+    ],
+    "controls": [
+      "Tap / Click",
+      "Arrow keys or Space"
+    ]
   }
 ]
