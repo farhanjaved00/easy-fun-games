@@ -15,6 +15,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import { makeSmallThumb } from './lib/thumbs.mjs';
+import { makeCover } from './lib/art.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -339,6 +340,11 @@ for (const url of fresh) {
     quality: { score: 80, checks: { embeddableTag: true, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
     content: { metaDescription: c.metaDescription, about: c.about.join('\n'), highlights: c.highlights, goodFor: c.goodFor, howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
   };
+  // Our own AI cover replaces the partner image; if it fails, the partner image stays and the daily cover step retries.
+  if (!prewritten) {
+    try { record.thumb = await makeCover(ROOT, record); console.log(`  cover: ${record.thumb.url}`); }
+    catch (e) { console.log(`  cover not made yet (${e.message}); keeping the partner image for now`); }
+  }
   games.push(record);
   haveSlug.add(slug);
   state.games[url] = { status: 'imported', slug, at: today };

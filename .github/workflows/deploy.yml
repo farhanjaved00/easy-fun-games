@@ -38,7 +38,7 @@ jobs:
           node-version: 22
 
       - name: Install packages
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
         run: npm ci
 
       # Tests every game and lists problems in REVIEW.md. Report only: no page is changed.
@@ -54,8 +54,16 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '5' }}
 
+      # Replaces partner thumbnails with original AI covers, a few games per run.
+      - name: Make AI covers
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/make-covers.mjs --limit 15
+
       - name: Save game changes to the repo
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
         run: |
           git add data src/static/thumbs REVIEW.md
           if git diff --cached --quiet; then echo "No new games."; exit 0; fi
