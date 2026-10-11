@@ -145,7 +145,8 @@ if (process.env.CHECK_LIVE === '1') {
   try {
     const res = await fetch(B + '/search-index.json', { signal: AbortSignal.timeout(10000) });
     if (res.ok) {
-      const live = (await res.json()).games.length;
+      const removedSlugs = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/removed.json'), 'utf8')).map(r => r.slug));
+      const live = (await res.json()).games.filter(g => !removedSlugs.has(g[0])).length; // removed on purpose = not a drop
       const drop = live ? (live - man.games) / live : 0;
       console.log(`Live site has ${live} games, this build has ${man.games}.`);
       if (drop > 0.05 && process.env.ALLOW_SHRINK !== '1') err('games', `game count drops ${Math.round(drop * 100)}% (${live} → ${man.games}). Set ALLOW_SHRINK=1 if this is on purpose.`);

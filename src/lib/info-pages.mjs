@@ -25,6 +25,8 @@ export function infoPages(m) {
   // email_off stops Cloudflare from rewriting the address into a /cdn-cgi/ link that crawlers report as 404.
   const mailLink = `<!--email_off--><a href="mailto:${mail}">${mail}</a><!--/email_off-->`;
   const updated = `<p class="sub">Last updated: ${UPDATED}</p>`;
+  const kids = m.cats.find(c => c.slug === 'kids');
+  const kidsLink = kids ? `<a href="${kids.url}">Kids category</a>` : 'Kids category (coming soon)';
 
   const P = [
     {
@@ -73,7 +75,7 @@ ${faqHTML(SITE_FAQ)}`
       html: `<h1>Information for parents</h1>
 <p>EasyGameFun is a general audience games website. We want families to be able to choose games with confidence, so here is how the site works.</p>
 <h2>Choosing games for younger players</h2>
-<p>The <a href="/category/kids/">Kids category</a> is the best place to start. Each game page also lists its category and tags and explains how the game is played, so you can check a game before your child plays it.</p>
+<p>The ${kidsLink} is the best place to start. Each game page also lists its category and tags and explains how the game is played, so you can check a game before your child plays it.</p>
 <h2>Content notices</h2>
 <p>Some games include fighting, shooting, crime themes or strong language. When a game is marked as having mature content, a content notice appears above the game, and the game is never placed in the Kids category. We suggest playing these games together or choosing another game for younger children.</p>
 <h2>No accounts, no chat on our site</h2>

@@ -40,6 +40,12 @@ jobs:
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: npm ci
 
+      # Tests every game; repairs broken embed URLs from sources that allow embedding,
+      # and unpublishes (with a 301 redirect) games broken 3 days in a row.
+      - name: Check game health
+        if: github.event_name != 'push'
+        run: node scripts/health-check.mjs
+
       # Runs daily, on manual runs, and on pushes whose commit message contains [import].
       - name: Import new games
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
@@ -47,14 +53,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '5' }}
 
-      - name: Save new games to the repo
+      - name: Save game changes to the repo
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: |
           git add data src/static/thumbs
           if git diff --cached --quiet; then echo "No new games."; exit 0; fi
           git config user.name "EasyGameFun bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Import new games $(date -u +%F)"
+          git commit -m "Daily games update $(date -u +%F)"
           git push
 
       - name: Build
