@@ -158,6 +158,8 @@ const ContentSchema = z.object({
   category: z.enum(CATS.length ? CATS : ['arcade']),
   tags: z.array(z.string()),
   about: z.array(z.string()),
+  highlights: z.array(z.string()),
+  goodFor: z.string(),
   howToPlay: z.string(),
   touchHint: z.string(),
   keys: z.array(z.string()),
@@ -167,7 +169,12 @@ const ContentSchema = z.object({
 });
 
 const SYSTEM = `You write game pages for EasyGameFun, a free browser games site for all ages (10 and up).
-Voice: friendly, clear, short sentences, simple words. American English. No emojis. No marketing hype.
+The same games also appear on big portals such as Poki, CrazyGames, Friv, Coolmath Games, Kizi, Agame, Miniclip and Armor Games.
+Their pages are usually a few generic lines. Your page must be the most useful page on the web for this game:
+specific, accurate, easy to scan, and genuinely helpful to a player deciding whether to play and how to get good at it.
+Never mention other websites.
+
+Voice: friendly, clear, short sentences, simple words. American English. No emojis. No marketing hype or filler like "dive into" or "embark".
 
 Write ONLY from the facts you are given. Never invent facts: no player counts, ratings, awards, release dates, prices, version numbers, levels, modes, characters or features that the facts do not mention. If the facts do not say something, leave it out.
 Do not copy sentences or long phrases from the source text. Rewrite everything in your own words with a fresh structure.
@@ -177,13 +184,15 @@ Return JSON with:
 - description: one sentence, 90 to 140 characters, that says what you do in the game.
 - category: the single best category slug from the allowed list.
 - tags: 2 to 4 short tags in Title Case (for example "Driving", "Stickman", "Physics"), taken from the facts.
-- about: exactly 2 paragraphs, 120 to 180 words in total. Paragraph 1: what the game is and the goal. Paragraph 2: what makes it fun and who it suits. Mention once that it plays free in the browser.
-- howToPlay: 1 to 2 sentences about the core loop.
+- about: exactly 2 paragraphs, 150 to 240 words in total. Paragraph 1: what the game is, the setting and the goal, with concrete details from the facts. Paragraph 2: how a round plays out, what makes it fun or tricky, and that it plays free in the browser.
+- highlights: 3 to 5 short bullet points (under 90 characters each), each a concrete feature from the facts (for example "30 levels that get harder step by step").
+- goodFor: 1 to 2 sentences on who will enjoy this game and why (for example players who like quick rounds, puzzles, racing with friends).
+- howToPlay: 2 to 3 sentences that explain the core loop and how to win or score.
 - touchHint: under 60 characters, how to play on a phone (only if the facts suggest touch or mobile play, otherwise a mouse/keyboard hint), no final period.
-- keys: 2 to 5 entries like "Arrow keys: Steer" or "Space: Jump", only from the given controls. Empty list if no controls are given.
-- tips: 3 to 4 practical tips that follow logically from the facts.
-- faq: 4 questions and answers. Always include "Is <name> free to play?" and one about playing on a phone or computer. Answers 1 to 3 sentences.
-- metaDescription: 140 to 155 characters, starts with "Play <name>", includes "free" and one key detail.`;
+- keys: 2 to 6 entries like "Arrow keys: Steer" or "Space: Jump", only from the given controls. Empty list if no controls are given.
+- tips: 4 practical, specific tips that follow logically from the facts (not generic advice like "practice makes perfect").
+- faq: 4 to 5 questions people actually search for, with answers of 1 to 3 sentences. Always include "Is <name> free to play?" and one about playing on a phone or computer. Use the facts for the rest (goal, controls, levels, cars, modes).
+- metaDescription: 140 to 155 characters, starts with "Play <name>", includes "free" and one specific detail.`;
 
 const BANNED = /\b(million|billion|award|best game|#1|number one|official|guaranteed|world'?s? (best|top)|most popular)\b/i;
 const shingles = (s, n = 6) => { const w = s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean); const out = new Set(); for (let i = 0; i + n <= w.length; i++) out.add(w.slice(i, i + n).join(' ')); return out; };
@@ -192,13 +201,17 @@ function qualityProblems(c, facts) {
   const p = [];
   const words = c.about.join(' ').split(/\s+/).length;
   if (c.about.length !== 2) p.push('about must have exactly 2 paragraphs');
-  if (words < 100 || words > 200) p.push(`about has ${words} words (need 120 to 180)`);
+  if (words < 140 || words > 260) p.push(`about has ${words} words (need 150 to 240)`);
+  if (!c.highlights || c.highlights.length < 3 || c.highlights.length > 5) p.push('need 3 to 5 highlights');
+  if (c.highlights && c.highlights.some(h => h.length > 100)) p.push('a highlight is too long');
+  if (!c.goodFor || c.goodFor.length < 40) p.push('goodFor is missing or too short');
+  if (/\b(dive into|embark|unleash|thrilling adventure|look no further)\b/i.test([c.description, ...c.about].join(' '))) p.push('uses filler phrases');
   if (c.description.length < 70 || c.description.length > 150) p.push(`description is ${c.description.length} characters`);
   if (c.metaDescription.length < 135 || c.metaDescription.length > 158) p.push(`metaDescription is ${c.metaDescription.length} characters (need 140 to 155)`);
   if (c.faq.length < 3) p.push('need 4 FAQ items');
   if (c.tips.length < 3) p.push('need 3 to 4 tips');
   if (c.touchHint.length > 70) p.push('touchHint too long');
-  const all = [c.description, ...c.about, c.howToPlay, ...c.tips, ...c.faq.flatMap(f => [f.q, f.a]), c.metaDescription].join(' ');
+  const all = [c.description, ...c.about, ...(c.highlights || []), c.goodFor || '', c.howToPlay, ...c.tips, ...c.faq.flatMap(f => [f.q, f.a]), c.metaDescription].join(' ');
   if (BANNED.test(all)) p.push(`contains a banned claim: "${all.match(BANNED)[0]}"`);
   const src = shingles(facts.paragraphs.join(' '));
   const mine = shingles(all);
@@ -301,7 +314,7 @@ for (const url of fresh) {
     addedAt: today, status: 'published', featured: false, popularity: 0,
     description: c.description,
     quality: { score: 80, checks: { embeddableTag: true, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
-    content: { metaDescription: c.metaDescription, about: c.about.join('\n'), howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
+    content: { metaDescription: c.metaDescription, about: c.about.join('\n'), highlights: c.highlights, goodFor: c.goodFor, howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
   };
   games.push(record);
   haveSlug.add(slug);

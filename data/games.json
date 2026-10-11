@@ -78,7 +78,15 @@
           "a": "Yes. The patterns on the tower get trickier and the ball speeds up as you go deeper, so timing matters more and more."
         }
       ],
-      "model": "manual"
+      "model": "manual",
+      "highlights": [
+        "One tap or click is all you need to play",
+        "Colored rings break, black pieces end the run",
+        "The tower spins at changing speeds",
+        "The ball speeds up the deeper you go",
+        "Endless play with a score to beat"
+      ],
+      "goodFor": "Players who like quick one-button games and chasing a high score in short breaks."
     }
   },
   {
@@ -158,7 +166,15 @@
           "a": "Yes. Each car has tuning options, so you can change how it handles while drifting."
         }
       ],
-      "model": "manual"
+      "model": "manual",
+      "highlights": [
+        "10 sports cars to choose from",
+        "6 different maps to drift on",
+        "Tuning options for every car",
+        "Detailed 3D graphics",
+        "Watch your tire smoke in the rear-view window"
+      ],
+      "goodFor": "Car fans who care more about smooth, stylish drifts than about crossing a finish line first."
     }
   },
   {
@@ -241,7 +257,15 @@
           "a": "As many times as you like. Change the names and press the heart again for a new result."
         }
       ],
-      "model": "manual"
+      "model": "manual",
+      "highlights": [
+        "Type any two names and get a love percentage",
+        "A short, funny message with every result",
+        "No winning or losing, just laughs",
+        "Try as many name pairs as you like",
+        "Works with keyboard, mouse or touch"
+      ],
+      "goodFor": "Friends who want a quick laugh together, and anyone curious what a silly love score says about two names."
     }
   },
   {
@@ -326,7 +350,15 @@
           "a": "Stickman Parkour is made by FreezeNova Games Studio."
         }
       ],
-      "model": "manual"
+      "model": "manual",
+      "highlights": [
+        "30 levels that get harder step by step",
+        "Find a golden key in each level to open the gate",
+        "Spikes, rope swings and water sections",
+        "Simple controls: move, jump and slide",
+        "Keyboard on computers, on-screen buttons on phones"
+      ],
+      "goodFor": "Players who enjoy precise platform games and the feeling of finally clearing a tricky jump."
     }
   },
   {
@@ -412,7 +444,15 @@
           "a": "Yes. Use the cash you collect on the road to buy faster cars in the garage."
         }
       ],
-      "model": "manual"
+      "model": "manual",
+      "highlights": [
+        "3D police chases on highways and city streets",
+        "Police cars, armored trucks and helicopters",
+        "Fire rockets and use a speed boost",
+        "Switch to another car during the chase",
+        "Spend collected cash on faster cars"
+      ],
+      "goodFor": "Players who like fast driving games with lots going on and a garage full of cars to unlock."
     }
   }
 ]

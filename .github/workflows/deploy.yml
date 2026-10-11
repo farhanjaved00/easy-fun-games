@@ -37,17 +37,18 @@ jobs:
           node-version: 22
 
       - name: Install packages
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: npm ci
 
+      # Runs daily, on manual runs, and on pushes whose commit message contains [import].
       - name: Import new games
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'schedule' && 3 || inputs.import_count }}
+        run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '3' }}
 
       - name: Save new games to the repo
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         run: |
           git add data src/static/thumbs
           if git diff --cached --quiet; then echo "No new games."; exit 0; fi
@@ -63,7 +64,7 @@ jobs:
         run: npm run check
         env:
           CHECK_LIVE: "1"
-          ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '0' }}
+          ALLOW_SHRINK: ${{ (inputs.allow_shrink || contains(github.event.head_commit.message, '[allow-shrink]')) && '1' || '0' }}
 
       - name: Create the Pages project (first run only)
         run: npx --yes wrangler@4 pages project create easy-fun-games --production-branch=main || echo "Project already exists, continuing."
