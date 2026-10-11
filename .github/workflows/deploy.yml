@@ -43,7 +43,7 @@ jobs:
       - name: Import new games
         if: github.event_name != 'push'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'schedule' && 3 || inputs.import_count }}
 
       - name: Save new games to the repo

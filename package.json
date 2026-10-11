@@ -16,7 +16,7 @@
     "import": "node scripts/import-onlinegames.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "0.133.0",
+    "openai": "7.32.0",
     "zod": "4.6.5"
   }
 }

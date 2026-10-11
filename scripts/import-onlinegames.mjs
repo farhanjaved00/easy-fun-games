@@ -1,11 +1,11 @@
-// Imports new embeddable games from onlinegames.io, writes original page text with Claude,
+// Imports new embeddable games from onlinegames.io, writes original page text with OpenAI,
 // checks it, and adds the games to data/games.json.
 //
 // onlinegames.io allows publishers to embed games tagged "Embeddable"
 // (https://www.onlinegames.io/t/embeddable-games-for-websites/). Games without that tag are skipped.
 //
 // Usage:
-//   node scripts/import-onlinegames.mjs                 import 3 new games (needs ANTHROPIC_API_KEY)
+//   node scripts/import-onlinegames.mjs                 import 3 new games (needs OPENAI_API_KEY)
 //   node scripts/import-onlinegames.mjs --count 2
 //   node scripts/import-onlinegames.mjs --facts out.json    only collect facts for the next games, no AI
 //   node scripts/import-onlinegames.mjs --content in.json   use prewritten content (keyed by slug) instead of AI
@@ -21,7 +21,7 @@ const STATE_FILE = path.join(DATA, 'sources/onlinegames.json');
 const THUMBS = path.join(ROOT, 'src/static/thumbs');
 const SITE = 'https://www.onlinegames.io';
 const LIST = `${SITE}/t/embeddable-games-for-websites/`;
-const MODEL = 'claude-opus-5-5';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-5.5';
 const UA = 'EasyGameFunBot/1.0 (+https://easygamefun.com/contact/)';
 
 const args = process.argv.slice(2);
@@ -211,31 +211,28 @@ function qualityProblems(c, facts) {
 let client = null;
 async function writeContent(facts, cat, tags) {
   if (!client) {
-    const { default: Anthropic } = await import('@anthropic-ai/sdk');
-    client = new Anthropic();
+    const { default: OpenAI } = await import('openai');
+    client = new OpenAI();
   }
-  const { zodOutputFormat } = await import('@anthropic-ai/sdk/helpers/zod');
+  const { zodTextFormat } = await import('openai/helpers/zod');
   const brief = { name: facts.name, suggestedCategory: cat, allowedCategories: CATS, suggestedTags: tags, sourceTags: facts.tags.map(t => t.name), controls: facts.controls, sourceHeadings: facts.headings, sourceText: facts.paragraphs.join('\n\n').slice(0, 6000) };
-  const messages = [{ role: 'user', content: `Write the EasyGameFun page for this game. Facts:\n${JSON.stringify(brief, null, 2)}` }];
+  let input = `Write the EasyGameFun page for this game. Facts:\n${JSON.stringify(brief, null, 2)}`;
+  let previous;
   for (let attempt = 1; attempt <= 3; attempt++) {
-    const res = await client.messages.parse({
+    const res = await client.responses.parse({
       model: MODEL,
-      max_tokens: 16000,
-      system: SYSTEM,
-      thinking: { type: 'adaptive' },
-      output_config: { effort: 'medium', format: zodOutputFormat(ContentSchema) },
-      // Server-side fallback if a safety classifier declines the request.
-      fallbacks: 'default',
-      messages
-    }, { headers: { 'anthropic-beta': 'server-side-fallback-2026-07-01' } });
-    if (res.stop_reason === 'refusal') throw new Error('model declined to write this page');
-    const c = res.parsed_output;
-    if (!c) throw new Error(`no structured output (stop_reason ${res.stop_reason})`);
+      instructions: SYSTEM,
+      input,
+      ...(previous ? { previous_response_id: previous } : {}),
+      text: { format: zodTextFormat(ContentSchema, 'game_page') }
+    });
+    const c = res.output_parsed;
+    if (!c) throw new Error(`no structured output (status ${res.status})`);
     const problems = qualityProblems(c, facts);
-    console.log(`  AI attempt ${attempt}: ${problems.length ? problems.join('; ') : 'passed checks'} (${res.usage.input_tokens} in / ${res.usage.output_tokens} out tokens)`);
+    console.log(`  AI attempt ${attempt}: ${problems.length ? problems.join('; ') : 'passed checks'} (${res.usage?.input_tokens} in / ${res.usage?.output_tokens} out tokens)`);
     if (!problems.length) return c;
-    messages.push({ role: 'assistant', content: res.content }); // sent back unchanged (append-only history)
-    messages.push({ role: 'user', content: `Please fix these problems and return the full JSON again: ${problems.join('; ')}.` });
+    previous = res.id;
+    input = `Please fix these problems and return the full JSON again: ${problems.join('; ')}.`;
   }
   throw new Error('content failed the quality checks 3 times');
 }
@@ -247,8 +244,8 @@ const haveSlug = new Set(games.map(g => g.slug));
 const prewritten = CONTENT_IN ? readJson(CONTENT_IN, {}) : null;
 
 if (COUNT === 0) { console.log('Import count is 0, nothing to do.'); process.exit(0); }
-if (!FACTS_OUT && !DRY && !prewritten && !process.env.ANTHROPIC_API_KEY) {
-  console.log('ANTHROPIC_API_KEY is not set, so no games were imported. Add it as a GitHub secret to turn on the daily import.');
+if (!FACTS_OUT && !DRY && !prewritten && !process.env.OPENAI_API_KEY) {
+  console.log('OPENAI_API_KEY is not set, so no games were imported. Add it as a GitHub secret to turn on the daily import.');
   process.exit(0);
 }
 
@@ -281,8 +278,8 @@ for (const url of fresh) {
     if (problems.length) throw new Error('quality: ' + problems.join('; '));
   } catch (e) {
     // A bad or missing API key, or no credit, will fail for every game: stop instead of trying them all.
-    if ([401, 403].includes(e.status) || /credit balance|authentication/i.test(e.message)) {
-      console.error(`Claude API error (${e.status || 'auth'}): ${e.message}\nCheck the ANTHROPIC_API_KEY secret and your API credit. No games were changed.`);
+    if ([401, 403].includes(e.status) || e.code === 'insufficient_quota' || /quota|billing|authentication|api key/i.test(e.message)) {
+      console.error(`OpenAI API error (${e.status || 'auth'}): ${e.message}\nCheck the OPENAI_API_KEY secret and your API credit. No games were changed.`);
       process.exit(1);
     }
     console.log(`  not imported: ${e.message}`);
