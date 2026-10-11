@@ -40,6 +40,26 @@
       "status": "imported",
       "slug": "escape-car-2",
       "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/stickman-gta-city/": {
+      "status": "skipped",
+      "reason": "marked as mature content",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/guerrillas-io/": {
+      "status": "imported",
+      "slug": "guerrillas-io",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/snaker-io/": {
+      "status": "imported",
+      "slug": "snaker-io",
+      "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/steal-brainrots-multiplayer/": {
+      "status": "imported",
+      "slug": "steal-brainrots-multiplayer",
+      "at": "2026-10-11"
     }
   }
 }

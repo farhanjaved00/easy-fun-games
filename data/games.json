@@ -454,5 +454,298 @@
       ],
       "goodFor": "Players who like fast driving games with lots going on and a garage full of cars to unlock."
     }
+  },
+  {
+    "id": "og-guerrillas-io",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/guerrillas-io/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity2/guerrillas-io/index.html",
+    "slug": "guerrillas-io",
+    "name": "Guerrillas io",
+    "category": "io",
+    "tags": [
+      "Action",
+      "Army",
+      "First Person Shooter",
+      "Shooting"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/guerrillas-io.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Join rooms or create battles in a 3D multiplayer shooter with teams, flags, gun upgrades, and custom weapons.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Guerrillas io free in your browser, join or create 3D shooter rooms with Team Deathmatch, Capture the Flag, Gun Game, bots, and custom maps.",
+      "about": "Guerrillas io is an online multiplayer first-person shooter where you play as an elite fighter with weapons and gear ready for battle. Matches take place on 3D maps inspired by Counter-Strike, with familiar-looking combat spaces and fast gunfights. You can join an open room or create your own room from the menu. When you host, you can choose the player limit, game mode, round time, goal, bots, and map.\nEach round depends on the mode you pick. Team Deathmatch splits players into two sides, Free for All makes every player fight alone, and Capture the Flag asks your team to steal the enemy flag and bring it home. Gun Game starts you with a basic weapon and lets you unlock stronger weapons as you progress. Arcade Doom gives you powerful guns and grenade launchers while making you invincible. The fun comes from choosing the right room, using the Armoury to adjust weapons, and reacting quickly in busy firefights. Guerrillas io plays free in the browser.",
+      "highlights": [
+        "Create rooms with custom mode, goal, bots, time, and map",
+        "Five modes, including Team Deathmatch and Capture the Flag",
+        "Armoury for guns, scopes, silencers, looks, and new weapons",
+        "Perks and custom kill messages from the main menu",
+        "Counter-Strike-inspired 3D maps"
+      ],
+      "goodFor": "Good for players who like online shooters with quick room joining and several rule sets. It also suits players who enjoy tuning weapons before a fight.",
+      "howToPlay": "Join an available room or create one, then pick a mode and enter the match. Fight enemies, support your team when the mode calls for it, and follow the goal shown by the room settings. Use the Armoury, Perks, and Kill Message menus between matches to adjust your setup.",
+      "touchHint": "Best played with mouse and keyboard",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Left mouse: Fire",
+        "Right mouse: Aim",
+        "Space: Jump",
+        "Left Shift / Q / C: Run, slide while running, crouch",
+        "1, 2, 3 / E or F / G / H: Switch weapons, pick up weapons, throw grenades, use medkit"
+      ],
+      "tips": [
+        "Check the room settings before joining so you know the mode, goal, bots, time, and map.",
+        "Use Capture the Flag as a team mode: focus on taking the enemy flag and returning it to your base.",
+        "In Gun Game, stay active so you can move beyond the simplest starting weapon and unlock better ones.",
+        "Visit the Armoury before a match to change weapon appearance, scope, silencer, or buy new weapons."
+      ],
+      "faq": [
+        {
+          "q": "Is Guerrillas io free to play?",
+          "a": "Yes. Guerrillas io is free to play in your browser."
+        },
+        {
+          "q": "Can I play Guerrillas io on a phone or computer?",
+          "a": "The given controls are for mouse and keyboard, so it is best suited for a computer. No touch controls are listed."
+        },
+        {
+          "q": "What is the goal in Guerrillas io?",
+          "a": "The goal depends on the mode and room settings. You may fight in teams, survive alone, capture the enemy flag, unlock weapons in Gun Game, or play Arcade Doom with powerful weapons."
+        },
+        {
+          "q": "How do I create a room in Guerrillas io?",
+          "a": "Open the Rooms box on the menu and choose to create a new room. You can set the player limit, mode, round time, goal, bots, and map."
+        },
+        {
+          "q": "Can I customize weapons in Guerrillas io?",
+          "a": "Yes. The Armoury lets you view guns, buy new weapons, change a weapon's look, adjust the scope, and add a silencer."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-snaker-io",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/snaker-io/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/more/snaker-io/game.html",
+    "slug": "snaker-io",
+    "name": "Snaker io",
+    "category": "io",
+    "tags": [
+      "Arcade",
+      "Arena",
+      "Avoid",
+      "Snake"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/snaker-io.webp",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Guide a neon snake, eat pellets to grow, and avoid other snakes and your own tail in a crowded arena.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Snaker io free in your browser. Grow your snake with neon pellets while avoiding other snakes and your own tail in a crowded arena game.",
+      "about": "Snaker io is a multiplayer snake arena game with a bright 2D look. You control a small snake in a field filled with neon food pellets. The main goal is simple: collect as many pellets as you can so your snake grows. At the same time, the arena is packed with many other snakes, so every path can become risky fast. It keeps the classic snake idea, then adds the pressure of sharing the space with other players.\nA round is all about movement, spacing, and quick choices. Pellets help you grow, but chasing them without looking ahead can send you into another snake or your own tail. The fun comes from balancing greed with survival: take safe food when you can, steer away from crowded lanes, and keep enough room to turn. Snaker io plays free in the browser, with HTML5 support and mobile-friendly play noted in the game facts.",
+      "highlights": [
+        "Multiplayer snake arena with many other snakes",
+        "Neon food pellets make your snake grow",
+        "Avoid rivals and your own tail to live longer",
+        "Endless arcade play with a battle royale feel",
+        "HTML5 game with mobile and mouse support"
+      ],
+      "goodFor": "Snaker io is good for players who like fast arcade rounds and simple snake survival. It is also a good pick if you enjoy arena games where space control matters.",
+      "howToPlay": "Guide your snake around the arena and collect neon pellets to grow. Avoid crashing into other snakes, and do not run into your own tail. Try to survive longer by choosing safe routes through the crowded arena.",
+      "touchHint": "Use touch on mobile or mouse on computer",
+      "keys": [],
+      "tips": [
+        "Collect pellets in open space first instead of rushing into crowded areas.",
+        "Keep room on both sides of your snake so you can turn away from danger.",
+        "Do not cut too close to other snakes unless you have a clear escape path.",
+        "Watch your own tail after you grow, because tight loops become riskier."
+      ],
+      "faq": [
+        {
+          "q": "Is Snaker io free to play?",
+          "a": "Yes. Snaker io is free to play in your browser."
+        },
+        {
+          "q": "Can I play Snaker io on a phone or computer?",
+          "a": "Yes. The game is listed as HTML5 with mobile and mouse support, so it is made for browser play on both mobile devices and computers."
+        },
+        {
+          "q": "What is the goal in Snaker io?",
+          "a": "Collect neon food pellets to grow your snake while staying alive in the arena. You need to avoid other snakes and your own tail."
+        },
+        {
+          "q": "Is Snaker io a multiplayer game?",
+          "a": "Yes. Snaker io is a multiplayer snake game with many other snakes sharing the same arena."
+        },
+        {
+          "q": "What happens if I crash in Snaker io?",
+          "a": "The game facts say you must avoid crashing into other snakes or your own tail to live longer. Staying clear of collisions is the key to a strong run."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-steal-brainrots-multiplayer",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/steal-brainrots-multiplayer/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/steal-brainrots-multiplayer/game.html",
+    "slug": "steal-brainrots-multiplayer",
+    "name": "Steal Brainrots Multiplayer",
+    "category": "io",
+    "tags": [
+      "Brainrot",
+      "Defense",
+      "Idle",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/steal-brainrots-multiplayer.webp",
+      "width": 512,
+      "height": 512
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Grow a cash-making Brainrot base, defend your rare units, and raid other players before they raid you.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Steal Brainrots Multiplayer free in your browser. Build a cash-earning Brainrot base, raid rivals, use shields, and defend rare units well.",
+      "about": "Steal Brainrots Multiplayer is a free online multiplayer game about growing a base and keeping it safe. Your base holds Brainrot characters on collection pads, and those characters earn cash automatically over time. The goal is not only to build up your own income, but also to protect your best units while looking for chances to take valuable Brainrots from other players. Rarity matters, with Common, Rare, Epic, Mythic, Brainrot God, and Secret units all offering different cash-per-second rates.\nA round mixes idle income with live PvP pressure. Your Brainrots keep earning, but an unguarded base can become an easy target for a rival. You can move around, collect or steal with the hand ability, use a lightning ability for speed, and activate a shield when you need defense. Spawn timers and random Lucky Blocks help keep new chances appearing. Steal Brainrots Multiplayer plays free in the browser with no download or account required, on desktop and mobile devices.",
+      "highlights": [
+        "Build a base full of cash-earning Brainrots",
+        "Steal valuable units from other players' bases",
+        "Defend your rarest Brainrots from raids",
+        "Rarity ladder from Common to Secret units",
+        "Spawn timers and Lucky Blocks add new chances"
+      ],
+      "goodFor": "This game is good for players who like multiplayer raids, base defense, and idle-style income. It suits short sessions because your goal is easy to understand, but other players make each run risky.",
+      "howToPlay": "Grow your base with Brainrots that earn cash per second on collection pads. Move into other players' bases to steal valuable units, then return focus to defending your own rare Brainrots. Use speed for fast movement and shield when you need protection.",
+      "touchHint": "Use touch controls to move and use abilities",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Hand ability: Steal / collect",
+        "Lightning ability: Speed boost",
+        "Defensive ability: Shield",
+        "Enter: Chat",
+        "Mouse click: Menus"
+      ],
+      "tips": [
+        "Protect high-rarity Brainrots first, since rarities have different cash-per-second rates.",
+        "Do not leave your base unguarded for long after collecting or stealing; rivals can raid it too.",
+        "Use the lightning ability when you need to cross space quickly during a raid or retreat.",
+        "Watch for spawn timers and Lucky Blocks, since they can create new chances to improve your base."
+      ],
+      "faq": [
+        {
+          "q": "Is Steal Brainrots Multiplayer free to play?",
+          "a": "Yes. Steal Brainrots Multiplayer is free to play in the browser, with no download or account required."
+        },
+        {
+          "q": "Can I play Steal Brainrots Multiplayer on a phone or computer?",
+          "a": "Yes. The game works on desktop and mobile devices directly in the browser."
+        },
+        {
+          "q": "What is the goal in Steal Brainrots Multiplayer?",
+          "a": "Build a base of Brainrots that earn cash, steal valuable units from other players, and defend your own rare Brainrots from being taken."
+        },
+        {
+          "q": "What controls does Steal Brainrots Multiplayer use?",
+          "a": "Move with WASD or the Arrow keys. Use the hand ability to steal or collect, the lightning ability for speed, the defensive ability for shield, Enter for chat, and mouse clicks for menus."
+        },
+        {
+          "q": "What Brainrot rarities are in the game?",
+          "a": "Brainrots can be Common, Rare, Epic, Mythic, Brainrot God, or Secret. Each rarity can generate a different cash-per-second rate."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
