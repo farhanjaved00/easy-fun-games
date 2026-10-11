@@ -1,0 +1,14 @@
+[
+  { "slug": "relaxing-games", "name": "Relaxing games", "short": "Calm games with no pressure", "emoji": "🧘", "colors": ["#1FD39A", "#3DA9FC"], "rule": { "tag": "Relaxing" },
+    "intro": "Slow down with calm games that never rush you. Sort colors, grow a garden or build a cozy cafe at your own pace." },
+  { "slug": "two-player-games", "name": "Games for two players", "short": "Share one screen with a friend", "emoji": "👯", "colors": ["#FF8A00", "#FF3F6C"], "rule": { "category": "2-player" },
+    "intro": "Grab a friend and share one keyboard or one phone. These games are quick to learn and end in a few minutes, so rematches are easy." },
+  { "slug": "one-tap-games", "name": "One tap games", "short": "Easy to learn, hard to put down", "emoji": "👆", "colors": ["#7B5CFF", "#3DA9FC"], "rule": { "tag": "One Tap" },
+    "intro": "Every game here uses a single tap or click. Perfect for playing with one hand on your phone." },
+  { "slug": "halloween-games", "name": "Halloween games", "short": "Spooky fun for the season", "emoji": "🎃", "colors": ["#FF8A00", "#7B5CFF"], "rule": { "tag": "Halloween" },
+    "intro": "Pumpkins, ghosts and haunted houses. Spooky games that are more fun than scary." },
+  { "slug": "best-mobile-games", "name": "Best on mobile", "short": "Made for touch screens", "emoji": "📱", "colors": ["#2F9BFF", "#6C4DFF"], "rule": { "tag": "Mobile" },
+    "intro": "Games that feel great on a touch screen. Tap, swipe and play in your phone browser." },
+  { "slug": "skill-games", "name": "Skill challenges", "short": "Test your reflexes", "emoji": "🎯", "colors": ["#FF3F6C", "#FFB800"], "rule": { "tag": "Skill" },
+    "intro": "Fast reactions and good timing win here. Try to beat your own best run." }
+]

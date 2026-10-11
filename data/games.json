@@ -1,0 +1,980 @@
+[
+  {
+    "id": "sample-001",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "pumpkin-patch-panic",
+    "name": "Pumpkin Patch Panic",
+    "category": "adventure",
+    "tags": [
+      "Halloween",
+      "Mobile",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🎃",
+    "colors": [
+      "#FF8A00",
+      "#C2185B"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-17",
+    "status": "published",
+    "featured": true,
+    "popularity": 1200000,
+    "description": "Dodge ghosts and smash pumpkins in a spooky field before the lantern fades.",
+    "quality": {
+      "score": 86,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-002",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "sky-hopper",
+    "name": "Sky Hopper",
+    "category": "kids",
+    "tags": [
+      "One Tap",
+      "Cute",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "any",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🐸",
+    "colors": [
+      "#3DA9FC",
+      "#7B5CFF"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-18",
+    "status": "published",
+    "featured": true,
+    "popularity": 4800000,
+    "description": "Help a tiny frog hop across floating clouds to reach the rainbow.",
+    "quality": {
+      "score": 88,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-003",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "turbo-drift-rush",
+    "name": "Turbo Drift Rush",
+    "category": "racing",
+    "tags": [
+      "Drifting",
+      "Neon",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🏎️",
+    "colors": [
+      "#FF5C7A",
+      "#FF9A3C"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-19",
+    "status": "published",
+    "featured": true,
+    "popularity": 9100000,
+    "description": "Slide around tight corners, grab boosts, and beat the clock on neon tracks.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-004",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "gem-match-garden",
+    "name": "Gem Match Garden",
+    "category": "puzzle",
+    "tags": [
+      "Match 3",
+      "Relaxing",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "💎",
+    "colors": [
+      "#1FD39A",
+      "#3DA9FC"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-20",
+    "status": "published",
+    "featured": false,
+    "popularity": 6300000,
+    "description": "Match shiny gems to grow a garden, with new levels every day.",
+    "quality": {
+      "score": 90,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-005",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "blob-arena-io",
+    "name": "Blob Arena.io",
+    "category": "io",
+    "tags": [
+      "Multiplayer",
+      "Skill",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🟣",
+    "colors": [
+      "#7B5CFF",
+      "#FF5C7A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-21",
+    "status": "published",
+    "featured": true,
+    "popularity": 12400000,
+    "description": "Eat smaller blobs, grow huge, and rule the arena against players worldwide.",
+    "quality": {
+      "score": 82,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-006",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "tiny-archer-duel",
+    "name": "Tiny Archer Duel",
+    "category": "2-player",
+    "tags": [
+      "Duel",
+      "Local",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": null,
+    "emoji": "🏹",
+    "colors": [
+      "#FFC93C",
+      "#FF5C7A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-22",
+    "status": "published",
+    "featured": false,
+    "popularity": 3200000,
+    "description": "Aim, pull back, and fire in a fast duel with a friend on the same screen.",
+    "quality": {
+      "score": 80,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-007",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "penalty-kings",
+    "name": "Penalty Kings",
+    "category": "sports",
+    "tags": [
+      "Football",
+      "One Tap",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "⚽",
+    "colors": [
+      "#1FD39A",
+      "#0B8F5F"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-23",
+    "status": "published",
+    "featured": false,
+    "popularity": 5500000,
+    "description": "Pick your corner and score the winning penalty in the cup final.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-008",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "zombie-rooftop",
+    "name": "Zombie Rooftop",
+    "category": "shooter",
+    "tags": [
+      "Zombies",
+      "Halloween",
+      "Upgrades"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🧟",
+    "colors": [
+      "#6A4CFF",
+      "#1B1740"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-24",
+    "status": "published",
+    "featured": false,
+    "popularity": 7700000,
+    "description": "Hold the rooftop against waves of zombies with upgradeable weapons.",
+    "quality": {
+      "score": 86,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-009",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "cupcake-factory",
+    "name": "Cupcake Factory",
+    "category": "kids",
+    "tags": [
+      "Cooking",
+      "Cute",
+      "Relaxing"
+    ],
+    "developer": "",
+    "orientation": "any",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🧁",
+    "colors": [
+      "#FF8FB1",
+      "#FFC93C"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-25",
+    "status": "published",
+    "featured": false,
+    "popularity": 2900000,
+    "description": "Bake, frost, and decorate cupcakes for hungry customers.",
+    "quality": {
+      "score": 82,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-010",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "maze-moles",
+    "name": "Maze Moles",
+    "category": "puzzle",
+    "tags": [
+      "Maze",
+      "Cute",
+      "Relaxing"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🐹",
+    "colors": [
+      "#B07A4F",
+      "#FFC93C"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-26",
+    "status": "published",
+    "featured": false,
+    "popularity": 2100000,
+    "description": "Dig tunnels and lead the mole family to the carrot stash.",
+    "quality": {
+      "score": 78,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-011",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "snow-rider-dash",
+    "name": "Snow Rider Dash",
+    "category": "racing",
+    "tags": [
+      "Winter",
+      "One Tap",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🛷",
+    "colors": [
+      "#7FD6FF",
+      "#3D6BFF"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "popularity": 8000000,
+    "description": "Race a sled down a snowy mountain and dodge trees and rocks.",
+    "quality": {
+      "score": 86,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-012",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "worm-royale-io",
+    "name": "Worm Royale.io",
+    "category": "io",
+    "tags": [
+      "Multiplayer",
+      "Snake",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🪱",
+    "colors": [
+      "#FF5C7A",
+      "#7B5CFF"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-28",
+    "status": "published",
+    "featured": false,
+    "popularity": 10200000,
+    "description": "Slither, boost, and trap rivals in this massive online worm battle.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-013",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "pixel-dungeon-quest",
+    "name": "Pixel Dungeon Quest",
+    "category": "adventure",
+    "tags": [
+      "Pixel Art",
+      "Upgrades",
+      "RPG"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🗡️",
+    "colors": [
+      "#4A3AFF",
+      "#1FD39A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-29",
+    "status": "published",
+    "featured": false,
+    "popularity": 3800000,
+    "description": "Explore pixel dungeons, collect loot, and defeat the cave boss.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-014",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "basket-flick",
+    "name": "Basket Flick",
+    "category": "sports",
+    "tags": [
+      "Basketball",
+      "One Tap",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🏀",
+    "colors": [
+      "#FF8A00",
+      "#FF5C7A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-09-30",
+    "status": "published",
+    "featured": false,
+    "popularity": 4400000,
+    "description": "Flick the ball and swish it in as the hoop moves around.",
+    "quality": {
+      "score": 80,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-015",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "tank-pals-2p",
+    "name": "Tank Pals 2P",
+    "category": "2-player",
+    "tags": [
+      "Local",
+      "Tanks",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": null,
+    "emoji": "🛡️",
+    "colors": [
+      "#2EC4B6",
+      "#3D6BFF"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-01",
+    "status": "published",
+    "featured": false,
+    "popularity": 2600000,
+    "description": "Two tanks, one maze. Bounce shots off walls and outsmart your friend.",
+    "quality": {
+      "score": 82,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-016",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "ghost-mansion-escape",
+    "name": "Ghost Mansion Escape",
+    "category": "puzzle",
+    "tags": [
+      "Halloween",
+      "Escape",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "👻",
+    "colors": [
+      "#5B3FD6",
+      "#14112B"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-02",
+    "status": "published",
+    "featured": true,
+    "popularity": 3300000,
+    "description": "Solve clever room puzzles to escape the haunted mansion before midnight.",
+    "quality": {
+      "score": 88,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-017",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "color-sort-pop",
+    "name": "Color Sort Pop",
+    "category": "puzzle",
+    "tags": [
+      "Sorting",
+      "Relaxing",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🧪",
+    "colors": [
+      "#FF5CB8",
+      "#7B5CFF"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-03",
+    "status": "published",
+    "featured": false,
+    "popularity": 5900000,
+    "description": "Pour and sort bright liquids until every tube is one color.",
+    "quality": {
+      "score": 86,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-018",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "cat-cafe-tycoon",
+    "name": "Cat Cafe Tycoon",
+    "category": "kids",
+    "tags": [
+      "Cute",
+      "Cooking",
+      "Relaxing"
+    ],
+    "developer": "",
+    "orientation": "any",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🐱",
+    "colors": [
+      "#FFB36B",
+      "#FF5C7A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-04",
+    "status": "published",
+    "featured": false,
+    "popularity": 3400000,
+    "description": "Serve snacks to cute cats and grow your cozy little cafe.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-019",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "moto-sky-jump",
+    "name": "Moto Sky Jump",
+    "category": "racing",
+    "tags": [
+      "Stunts",
+      "Skill",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🏍️",
+    "colors": [
+      "#3DA9FC",
+      "#1FD39A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-05",
+    "status": "published",
+    "featured": false,
+    "popularity": 4100000,
+    "description": "Launch off huge ramps and land stunts on a mountain bike track.",
+    "quality": {
+      "score": 82,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-020",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "sniper-shadow",
+    "name": "Sniper Shadow",
+    "category": "shooter",
+    "tags": [
+      "Sniper",
+      "Skill",
+      "Upgrades"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "🔫",
+    "colors": [
+      "#2B2D6B",
+      "#FF5C7A"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-06",
+    "status": "published",
+    "featured": false,
+    "popularity": 6000000,
+    "description": "Line up the shot and take out targets from the shadows.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-021",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "alien-defense",
+    "name": "Alien Defense",
+    "category": "shooter",
+    "tags": [
+      "Space",
+      "Upgrades",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "👾",
+    "colors": [
+      "#2EE6A6",
+      "#5B3FD6"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-07",
+    "status": "published",
+    "featured": false,
+    "popularity": 5100000,
+    "description": "Defend your base from waves of aliens with turrets and power-ups.",
+    "quality": {
+      "score": 82,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-022",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "slime-rush-io",
+    "name": "Slime Rush.io",
+    "category": "io",
+    "tags": [
+      "Multiplayer",
+      "Cute",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🟢",
+    "colors": [
+      "#1FD39A",
+      "#3DA9FC"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-08",
+    "status": "published",
+    "featured": false,
+    "popularity": 7200000,
+    "description": "Absorb smaller slimes, dodge giants, and climb the live leaderboard.",
+    "quality": {
+      "score": 80,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-023",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "sumo-duel-2p",
+    "name": "Sumo Duel 2P",
+    "category": "2-player",
+    "tags": [
+      "Duel",
+      "Local",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": null,
+    "emoji": "🥋",
+    "colors": [
+      "#FF5C7A",
+      "#FFC93C"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-09",
+    "status": "published",
+    "featured": false,
+    "popularity": 1900000,
+    "description": "Push your friend out of the ring in a quick two-player sumo match.",
+    "quality": {
+      "score": 78,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-024",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "mini-golf-world",
+    "name": "Mini Golf World",
+    "category": "sports",
+    "tags": [
+      "Golf",
+      "Relaxing",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "mouse"
+    ],
+    "thumb": null,
+    "emoji": "⛳",
+    "colors": [
+      "#6BD66B",
+      "#1FA3A3"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-10",
+    "status": "published",
+    "featured": false,
+    "popularity": 3600000,
+    "description": "Putt through wild courses with loops, ramps, and windmills.",
+    "quality": {
+      "score": 86,
+      "checks": {}
+    }
+  },
+  {
+    "id": "sample-025",
+    "source": "sample",
+    "embedUrl": "",
+    "slug": "island-builder",
+    "name": "Island Builder",
+    "category": "adventure",
+    "tags": [
+      "Building",
+      "Relaxing",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "touch",
+      "keyboard"
+    ],
+    "thumb": null,
+    "emoji": "🏝️",
+    "colors": [
+      "#3DD6C6",
+      "#FFC93C"
+    ],
+    "licence": {
+      "partner": null,
+      "checkedAt": null,
+      "allowedEmbed": false
+    },
+    "addedAt": "2026-10-11",
+    "status": "published",
+    "featured": false,
+    "popularity": 2400000,
+    "description": "Gather resources and build a tropical island, one hut at a time.",
+    "quality": {
+      "score": 84,
+      "checks": {}
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "EasyGameFun",
+  "baseUrl": "https://easygamefun.com",
+  "email": "hello@easygamefun.com",
+  "indexing": false,
+  "indexNowKey": "85d4c8b4d962e62bccb90beeddd04f81",
+  "pageSize": 48,
+  "listLimit": 96,
+  "tagIndexMin": 8,
+  "promo": {
+    "text": "🎃 Halloween games are live.",
+    "link": "/collection/halloween-games/",
+    "linkText": "Play spooky games now",
+    "until": "2026-11-01"
+  },
+  "editorPicks": [
+    "pumpkin-patch-panic",
+    "gem-match-garden",
+    "ghost-mansion-escape",
+    "sky-hopper",
+    "color-sort-pop",
+    "mini-golf-world",
+    "zombie-rooftop",
+    "turbo-drift-rush"
+  ],
+  "spotlights": [
+    "puzzle",
+    "racing"
+  ],
+  "seasonal": {
+    "tag": "Halloween",
+    "title": "Halloween picks",
+    "sub": "Spooky games for the season.",
+    "until": "2026-11-01"
+  }
+}

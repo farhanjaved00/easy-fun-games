@@ -1,0 +1,203 @@
+[
+  {
+    "slug": "puzzle",
+    "name": "Puzzle",
+    "emoji": "🧩",
+    "colors": [
+      "#1FD39A",
+      "#3DA9FC"
+    ],
+    "intro": "Match, slide, and solve your way through free puzzle games. Short levels, clear goals, and a satisfying click when it all fits together.",
+    "why": [
+      "Quick levels you can finish in a minute",
+      "Easy to learn, hard to put down",
+      "A calm way to take a short break on your phone"
+    ],
+    "faq": [
+      {
+        "q": "What are the best puzzle games for beginners?",
+        "a": "Start with match-three and sorting games like Gem Match Garden or Color Sort Pop. The rules are simple and the early levels teach you as you go."
+      }
+    ],
+    "controls": [
+      "Tap / Click",
+      "Drag"
+    ]
+  },
+  {
+    "slug": "racing",
+    "name": "Racing",
+    "emoji": "🏎️",
+    "colors": [
+      "#FF5C7A",
+      "#FF9A3C"
+    ],
+    "intro": "Floor it. Drift around corners, grab boosts, and chase the best time in free racing games that load in seconds.",
+    "why": [
+      "Fast restarts, so you never wait",
+      "One-thumb steering on mobile",
+      "Beat your own best time every run"
+    ],
+    "faq": [
+      {
+        "q": "Can I play racing games with touch controls?",
+        "a": "Yes. Tap the left and right side of the screen to steer. On a keyboard, use the arrow keys or W A S D."
+      }
+    ],
+    "controls": [
+      "← →",
+      "↑ Boost",
+      "Tap sides"
+    ]
+  },
+  {
+    "slug": "shooter",
+    "name": "Shooter",
+    "emoji": "🎯",
+    "colors": [
+      "#6A4CFF",
+      "#FF5C7A"
+    ],
+    "intro": "Aim, shoot, and survive. Free shooting games from zombie defense to sniper practice, playable on any device.",
+    "why": [
+      "Short sessions with clear goals",
+      "Upgrades that reward every round",
+      "Smooth touch aiming on phones"
+    ],
+    "faq": [
+      {
+        "q": "Are shooting games here safe for kids?",
+        "a": "Most use cartoon visuals, but some have zombies or action scenes. Read the description first, and use the Kids category for the youngest players."
+      }
+    ],
+    "controls": [
+      "Aim: Mouse",
+      "Tap to fire"
+    ]
+  },
+  {
+    "slug": "io",
+    "name": ".io Games",
+    "emoji": "🌐",
+    "colors": [
+      "#7B5CFF",
+      "#3DA9FC"
+    ],
+    "intro": "Jump into massive multiplayer .io games. Pick a name, join a match, and grow from tiny to the top of the leaderboard.",
+    "why": [
+      "No sign-up, play in seconds",
+      "Real players from around the world",
+      "Simple rules and endless rematches"
+    ],
+    "faq": [
+      {
+        "q": "What is an .io game?",
+        "a": "An .io game is a simple multiplayer game that runs in your browser. You join a shared arena and compete live with other players."
+      }
+    ],
+    "controls": [
+      "Move: Mouse / Touch",
+      "Space: Boost"
+    ]
+  },
+  {
+    "slug": "2-player",
+    "name": "2 Player",
+    "emoji": "👯",
+    "colors": [
+      "#FFB400",
+      "#FF5C7A"
+    ],
+    "intro": "Two players, one screen. Challenge a friend to duels, races, and head-to-head battles with no extra gear.",
+    "why": [
+      "Share one keyboard or one phone",
+      "Rounds that end in under two minutes",
+      "Instant rematches"
+    ],
+    "faq": [
+      {
+        "q": "How do I play 2 player games on one device?",
+        "a": "One player uses W A S D and the other uses the arrow keys. On a phone, each player taps their own side of the screen."
+      }
+    ],
+    "controls": [
+      "P1: W A S D",
+      "P2: Arrow keys"
+    ]
+  },
+  {
+    "slug": "kids",
+    "name": "Kids",
+    "emoji": "🧸",
+    "colors": [
+      "#FF8FB1",
+      "#FFC93C"
+    ],
+    "intro": "Colorful, friendly, and easy to play. Free kids games with gentle goals, bright art, and simple one-tap controls.",
+    "why": [
+      "Simple controls for small hands",
+      "Bright, friendly characters",
+      "No downloads and no sign-ups"
+    ],
+    "faq": [
+      {
+        "q": "Are these games suitable for young children?",
+        "a": "They use simple controls and friendly themes. We still suggest playing together with younger children."
+      }
+    ],
+    "controls": [
+      "Tap / Click"
+    ]
+  },
+  {
+    "slug": "sports",
+    "name": "Sports",
+    "emoji": "⚽",
+    "colors": [
+      "#1FD39A",
+      "#0B8F5F"
+    ],
+    "intro": "Score goals, sink baskets, and win the cup. Free sports games with quick matches and easy controls.",
+    "why": [
+      "Fast matches with no season to commit to",
+      "Swipe and tap controls that feel natural",
+      "Chase a high score or a winning streak"
+    ],
+    "faq": [
+      {
+        "q": "Can I play sports games on mobile?",
+        "a": "Yes. Swipe to aim and tap to shoot or kick. Every sports game here runs in a mobile browser."
+      }
+    ],
+    "controls": [
+      "Swipe to aim",
+      "Tap to shoot"
+    ]
+  },
+  {
+    "slug": "adventure",
+    "name": "Adventure",
+    "emoji": "🗺️",
+    "colors": [
+      "#FF8A00",
+      "#C2185B"
+    ],
+    "intro": "Explore spooky fields, pixel dungeons, and hidden islands. Free adventure games with quests, loot, and surprises.",
+    "why": [
+      "Worlds to explore at your own pace",
+      "Collect items and unlock new areas",
+      "Story-style fun in short sessions"
+    ],
+    "faq": [
+      {
+        "q": "Do I need to download adventure games?",
+        "a": "No. They run in your browser, so you can start right away and come back anytime."
+      }
+    ],
+    "controls": [
+      "Move: Arrow keys",
+      "Jump: Space",
+      "Tap on mobile"
+    ]
+  }
+]
