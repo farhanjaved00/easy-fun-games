@@ -6,12 +6,10 @@ name: Deploy
 on:
   push:
     branches: [main]
-  # GitHub sometimes delays or skips scheduled runs, so there are three daily attempts.
-  # Each one only adds the games still missing for the day, so the total stays at 5 a day.
+  # The main daily start comes from the Cloudflare timer (cron/worker.js, 03:20 and 13:20 UTC).
+  # This GitHub schedule is only a backup. Every run adds just the games still missing for the day.
   schedule:
-    - cron: "17 3 * * *"
-    - cron: "17 9 * * *"
-    - cron: "17 15 * * *"
+    - cron: "17 6 * * *"
   workflow_dispatch:
     inputs:
       import_count:

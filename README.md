@@ -52,7 +52,7 @@ Run it by hand: Actions > Deploy > Run workflow, and set how many games to impor
 ## Daily timer (Cloudflare Worker)
 
 GitHub's own schedule can be late or skipped, so `cron/worker.js` (a Cloudflare Worker with Cron Triggers at 03:20 and
-13:20 UTC) starts the Deploy workflow in daily mode. GitHub's three schedules stay as a backup. Every daily start only adds
+13:20 UTC) starts the Deploy workflow in daily mode. One GitHub schedule (06:17 UTC) stays as a backup. Every daily start only adds
 the games still missing for the day, so the total stays at 5. The Worker is installed by `.github/workflows/cron-worker.yml`
 and needs two secrets: `DISPATCH_TOKEN` (a fine-grained GitHub token for this repo with Actions: Read and write) and a
 Cloudflare token that also has Workers Scripts: Edit. Renew the GitHub token before it expires.
