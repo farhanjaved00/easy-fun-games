@@ -69,10 +69,12 @@ jobs:
         run: node scripts/make-covers.mjs --limit 15
 
       - name: Save game changes to the repo
+        id: save
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
         run: |
           git add data src/static/thumbs REVIEW.md
-          if git diff --cached --quiet; then echo "No new games."; exit 0; fi
+          if git diff --cached --quiet; then echo "Nothing changed, so there is nothing to publish."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
           git config user.name "EasyGameFun bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Daily games update $(date -u +%F)"
@@ -99,21 +101,25 @@ jobs:
           fi
 
       - name: Build
+        if: github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily)
         run: npm run build
 
       - name: Check
+        if: github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily)
         run: npm run check
         env:
           CHECK_LIVE: "1"
           ALLOW_SHRINK: ${{ (inputs.allow_shrink || contains(github.event.head_commit.message, '[allow-shrink]')) && '1' || '0' }}
 
       - name: Create the Pages project (first run only)
+        if: github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily)
         run: npx --yes wrangler@4 pages project create easy-fun-games --production-branch=main || echo "Project already exists, continuing."
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Deploy to Cloudflare Pages
+        if: github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily)
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -122,6 +128,6 @@ jobs:
           command: pages deploy dist --project-name=easy-fun-games --branch=main --commit-dirty=true
 
       - name: Ping IndexNow
-        if: success()
+        if: success() && (github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily))
         continue-on-error: true
         run: npm run indexnow
