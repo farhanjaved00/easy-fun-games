@@ -169,4 +169,4 @@ jobs:
           git config user.name "EasyGameFun bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Social posts $(date -u +%F)"
-          git pull --rebase -q && git push
+          git pull --rebase --autostash -q && git push
