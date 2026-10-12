@@ -1,0 +1,15 @@
+# Cloudflare Worker that starts the daily GitHub workflow on time.
+# Deployed automatically by .github/workflows/cron-worker.yml.
+name = "easygamefun-daily-timer"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+workers_dev = false # no public address: it only runs on its timer
+
+[triggers]
+crons = ["20 3 * * *", "20 13 * * *"]
+
+[vars]
+REPO = "farhanjaved00/easy-fun-games"
+
+[observability]
+enabled = true

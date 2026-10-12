@@ -49,6 +49,14 @@ It also compares the game count with the live site and stops if more than 5% of 
 Needs the `OPENAI_API_KEY` repository secret; without it the import does nothing and the site still deploys.
 Run it by hand: Actions > Deploy > Run workflow, and set how many games to import.
 
+## Daily timer (Cloudflare Worker)
+
+GitHub's own schedule can be late or skipped, so `cron/worker.js` (a Cloudflare Worker with Cron Triggers at 03:20 and
+13:20 UTC) starts the Deploy workflow in daily mode. GitHub's three schedules stay as a backup. Every daily start only adds
+the games still missing for the day, so the total stays at 5. The Worker is installed by `.github/workflows/cron-worker.yml`
+and needs two secrets: `DISPATCH_TOKEN` (a fine-grained GitHub token for this repo with Actions: Read and write) and a
+Cloudflare token that also has Workers Scripts: Edit. Renew the GitHub token before it expires.
+
 ## New categories (automatic)
 
 When an imported game fits none of the categories, the AI may propose a new genre (for example Simulator, Horror, Cooking).

@@ -1,0 +1,30 @@
+name: Daily timer (Cloudflare)
+
+# Installs or updates the Cloudflare Worker that starts the daily run on time.
+on:
+  push:
+    branches: [main]
+    paths: ["cron/**", ".github/workflows/cron-worker.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-timer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Deploy the timer Worker
+        uses: cloudflare/wrangler-action@v4
+        env:
+          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          workingDirectory: cron
+          command: deploy
+          secrets: |
+            GH_TOKEN
