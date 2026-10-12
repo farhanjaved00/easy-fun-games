@@ -58,7 +58,7 @@ function footHTML(m) {
 <nav aria-label="Company"><h3>Help</h3><a href="/about/">About us</a><a href="/faq/">FAQ</a><a href="/parents/">For parents</a><a href="/contact/">Contact</a><a href="/contact/#submit">Submit your game</a><a href="/contact/#report">Report a problem</a></nav>
 <nav aria-label="Legal"><h3>Legal</h3><a href="/privacy/">Privacy policy</a><a href="/cookies/">Cookie policy</a><a href="/terms/">Terms of use</a><a href="/disclaimer/">Disclaimer</a><a href="/copyright/">Copyright (DMCA)</a></nav></div>
 ${m.collections.length ? `<div class="foot-tags"><h3>Collections</h3><div>${m.collections.map(c => `<a href="${c.url}">${esc(c.name)}</a>`).join('')}</div></div>` : ''}
-<div class="foot-bot"><span>© ${m.today.slice(0, 4)} EasyGameFun. Game names and trademarks belong to their owners.</span><button class="js-only" data-top aria-label="Back to top">↑ Back to top</button></div>`;
+<div class="foot-bot"><span>© ${m.today.slice(0, 4)} EasyGameFun. Game names and trademarks belong to their owners.</span></div>`;
 }
 
 // Pre-rendered once per build and reused on every page.

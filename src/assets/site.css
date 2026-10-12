@@ -804,3 +804,8 @@ html:not(.js) .js-only{display:none!important}
   .top-in>.logo i{width:clamp(27px,8.6vw,36px);height:clamp(27px,8.6vw,36px);border-radius:10px}
 }
 .socials{gap:7px}.socials a{width:40px;height:40px;border-radius:12px}
+/* phones: center the logo in the space between the buttons (equal gaps), not on the screen */
+@media(max-width:899px){
+  .top-in>.logo{position:static;transform:none;margin:0 auto;left:auto;top:auto}
+  #bell{margin-left:0!important}
+}
