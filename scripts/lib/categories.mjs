@@ -47,6 +47,7 @@ export function checkNewCategory(name, cats) {
 const CategorySchema = z.object({
   emoji: z.string(),
   intro: z.string(),
+  about: z.array(z.string()),
   why: z.array(z.string()),
   faqQuestion: z.string(),
   faqAnswer: z.string(),
@@ -60,6 +61,7 @@ Never mention other websites, brands, franchises or specific game titles.
 Return JSON with:
 - emoji: ONE emoji that represents the category (no text).
 - intro: exactly 2 sentences, 120 to 220 characters in total, saying what these games are and why they are fun. Mention that they are free in the browser.
+- about: exactly 2 paragraphs, 90 to 140 words in total, unique to this category: what these games are like, how they are usually played and controlled, and who enjoys them. Concrete, helpful, no hype.
 - why: 3 short reasons people enjoy this kind of game (each under 60 characters, no final period).
 - faqQuestion: one question players often ask about this kind of game (not "are they free").
 - faqAnswer: a helpful 1 to 2 sentence answer.
@@ -71,9 +73,11 @@ function categoryProblems(c) {
   if (seg.length !== 1 || !/\p{Extended_Pictographic}/u.test(c.emoji)) p.push('emoji must be exactly one emoji');
   if (c.intro.length < 100 || c.intro.length > 240) p.push(`intro is ${c.intro.length} characters (need 120 to 220)`);
   if (c.why.length !== 3 || c.why.some(w => w.length > 70)) p.push('need exactly 3 short reasons');
+  const aboutWords = (c.about || []).join(' ').split(/\s+/).filter(Boolean).length;
+  if ((c.about || []).length !== 2 || aboutWords < 80 || aboutWords > 160) p.push(`about must be 2 paragraphs, 90 to 140 words (has ${aboutWords})`);
   if (c.faqAnswer.length < 30) p.push('FAQ answer too short');
   if (c.controls.length < 2 || c.controls.length > 3) p.push('need 2 or 3 controls');
-  const all = [c.intro, ...c.why, c.faqQuestion, c.faqAnswer, ...c.controls].join(' ');
+  const all = [c.intro, ...(c.about || []), ...c.why, c.faqQuestion, c.faqAnswer, ...c.controls].join(' ');
   if (BRANDS.test(all)) p.push('mentions a brand');
   if (/\b(best|#1|ultimate|dive into|embark|award)\b/i.test(all)) p.push('uses hype or filler words');
   return p;
@@ -92,7 +96,7 @@ export async function writeCategory(client, model, name, exampleGame, cats) {
     console.log(`  category "${name}" attempt ${attempt}: ${problems.length ? problems.join('; ') : 'passed checks'}`);
     if (!problems.length) {
       const colors = PALETTE[cats.length % PALETTE.length];
-      return { slug: slugify(name), name, emoji: c.emoji.trim(), colors, intro: c.intro, why: c.why, faq: [{ q: c.faqQuestion, a: c.faqAnswer }], controls: c.controls, auto: true, createdAt: new Date().toISOString().slice(0, 10), model };
+      return { slug: slugify(name), name, emoji: c.emoji.trim(), colors, intro: c.intro, about: c.about, why: c.why, faq: [{ q: c.faqQuestion, a: c.faqAnswer }], controls: c.controls, auto: true, createdAt: new Date().toISOString().slice(0, 10), model };
     }
     previous = res.id;
     input = `Please fix these problems and return the full JSON again: ${problems.join('; ')}.`;

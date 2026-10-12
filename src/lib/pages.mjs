@@ -87,6 +87,7 @@ export function catsIndex(m) {
 <section class="chero" style="--a:#7B5CFF;--b:#FF3F6C">${floaters(m.games)}<div><h1>Game categories</h1><p>Pick a style and start playing. Every category has free games that load fast on phone and computer.</p><div class="facts"><span>${m.cats.length} categories</span><span>${m.games.length} games</span><span>Free</span></div></div></section>
 <div class="cpgrid">${m.cats.map(c => `<a class="cpanel" href="${c.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}"><span class="ci" aria-hidden="true">${c.emoji}</span><span class="cb2"><b>${esc(gamesOf(c))}</b><span class="cd">${esc(c.intro.split('. ')[0])}.</span><span class="cth">${c.games.slice(0, 4).map(g => `<span class="tile">${img(g)}</span>`).join('')}<em>${c.games.length} games →</em></span></span></a>`).join('')}</div>
 <div style="margin-top:34px">${collSection(m)}</div>
+<section class="card" aria-labelledby="s-cabout"><h2 id="s-cabout">Find the right kind of game</h2><p>Every game on EasyGameFun belongs to one main category, so you can jump straight to the kind of play you enjoy. Racing and shooter games are about speed and quick reactions, puzzle games ask you to think, .io games put you in a live arena with other players, and arcade games are perfect for a quick break.</p><p>New games are added every day, and new categories appear when a new kind of game arrives. Each category page explains what its games are like and lists them all, with filters for style and a sort by newest or top rated.</p></section>
 <section class="sec" aria-labelledby="s-tg"><div class="sec-h"><h2 id="s-tg">Browse by tag</h2></div><div class="chips" style="flex-wrap:wrap;overflow:visible;margin:0;padding:0">${m.tags.map(t => `<a class="chip" href="${t.url}">${esc(t.name)}<small>${t.games.length}</small></a>`).join('')}</div></section>`;
   return {
     path: '/cats/', top: 'cats', bottom: 'cats', title: 'All Game Categories | EasyGameFun',
@@ -115,8 +116,7 @@ export function categoryPages(m, c) {
   const top = best[0];
   const faq = [
     { q: `Are ${gamesOfLower(c)} on EasyGameFun free?`, a: `Yes. All ${gamesOfLower(c)} are free to play in your browser, with no download and no sign-up.` },
-    ...c.faq,
-    { q: `Can I play ${gamesOfLower(c)} on my phone?`, a: 'Yes. Every game in this category works on phones, tablets, and computers.' }
+    ...c.faq
   ];
   const tags = pageTags(c.games);
   return pages.map((list, i) => {
@@ -137,10 +137,10 @@ ${pager(c.url, n, pages.length)}
 <section class="card" aria-labelledby="s-ab"><h2 id="s-ab">About ${esc(gamesOfLower(c))}</h2>
 <p>${esc(c.intro)} EasyGameFun has ${c.games.length} free ${esc(gamesOfLower(c))} right now, including ${c.games.slice(0, 3).map(g => `<a href="${g.url}">${esc(g.name)}</a>`).join(', ')}. Our top pick is <a href="${top.url}">${esc(top.name)}</a>.</p>
 <h3>Why people like ${esc(gamesOfLower(c))}</h3><ul>${c.why.map(w => `<li>${esc(w)}</li>`).join('')}</ul>
-<h3>How to pick one</h3><p>Sort by Top rated to find the best games first, or use the tags above to narrow down by style, like ${esc(tags.slice(0, 3).map(t => t.name).join(', ').toLowerCase())}.</p></section>
+${(c.about || []).map(t => `<p>${esc(t)}</p>`).join('')}</section>
 <section class="card" aria-labelledby="s-q"><h2 id="s-q">${esc(shortCat(c))} game questions</h2>${faqHTML(faq)}</section>
 ${relatedCats(m, c.slug)}
-<div style="margin-top:30px">${wrow('You might also like', m.best.filter(g => g.cat !== c).slice(0, 6), '/best/')}</div>`;
+<div style="margin-top:30px">${row('You might also like', m.best.filter(g => g.cat !== c).slice(0, 8), '/best/')}</div>`;
     } else {
       body = `<section class="chero" style="--a:${c.colors[0]};--b:${c.colors[1]}">${floaters(list)}<div>${crumbs(crumbItems)}<h1>Free ${esc(gamesOf(c))}: page ${n}</h1><p>More free ${esc(gamesOfLower(c))}, sorted by popularity. Page ${n} of ${pages.length}.</p><div class="facts"><span>${c.games.length} games</span><span>Free</span></div></div></section>
 ${toolbar(`${gamesOf(c)}, page ${n}`, list.length, c.games.length, pageTags(list))}
@@ -189,40 +189,45 @@ export const tagPages = (m, t) => listPages(m, {
 });
 
 export const collectionPages = (m, c) => listPages(m, {
-  noindex: c.games.length < (m.site.thinMin || 3), base: c.url, h1: c.name, titleText: `${c.name}: Hand-Picked Free Games`,list: c.games, colors: c.colors, intro: c.intro,
+  noindex: c.games.length < (m.site.collectionIndexMin || 8), base: c.url, h1: c.name, titleText: `${c.name}: Hand-Picked Free Games`,list: c.games, colors: c.colors, intro: c.intro,
   metaDesc: `${c.intro} ${c.games.length} free games, hand-picked by EasyGameFun.`,
   crumbsBase: [['Home', '/'], ['Categories', '/cats/']]
 });
 
 /* ---------------- lists: new, trending, best ---------------- */
-function simpleList(m, { path, key, h1, intro, list, colors, title, desc }) {
+function simpleList(m, { path, key, h1, intro, list, colors, title, desc, more }) {
   const B = m.site.baseUrl;
   const body = `<section class="chero" style="--a:${colors[0]};--b:${colors[1]}">${floaters(list)}<div>${crumbs([['Home', '/'], [h1, '']])}<h1>${esc(h1)}</h1><p>${esc(intro)}</p><div class="facts"><span>${list.length} games</span><span>Free</span></div></div></section>
 <div class="grid">${list.map((g, i) => tile(g, i === 0 && list.length >= 3 ? 'big' : '')).join('')}</div>
+${more ? `<section class="card" aria-labelledby="s-more"><h2 id="s-more">${esc(more[0])}</h2>${more.slice(1).map(t => `<p>${esc(t)}</p>`).join('')}</section>` : ''}
 ${relatedCats(m, '')}`;
-  return { path, top: key, side: key, title, desc: fitDesc(desc), body, ld: [crumbLD(B, [['Home', '/'], [h1, path]]), listLD(B, h1, list)] };
+  // While the catalog is small, New / Trending / Best show the same games, so they stay out of Google until it grows.
+  return { path, top: key, side: key, title, desc: fitDesc(desc), body, noindex: m.games.length < (m.site.listIndexMin || 30), ld: [crumbLD(B, [['Home', '/'], [h1, path]]), listLD(B, h1, list)] };
 }
 
 export const newPage = m => simpleList(m, {
   path: '/new/', key: 'new', h1: 'New games', colors: ['#FF3F6C', '#7B5CFF'], list: m.newest.slice(0, m.site.listLimit),
   intro: 'The newest free games on EasyGameFun, added every day.', title: 'New Free Online Games | EasyGameFun',
-  desc: 'The newest free online games on EasyGameFun, added every day. Be the first to play them in your browser on phone, tablet or computer.'
+  desc: 'The newest free online games on EasyGameFun, added every day. Be the first to play them in your browser on phone, tablet or computer.',
+  more: ['How new games are added', 'New games arrive on EasyGameFun every day. Each one is checked before it goes live: it has to load properly, allow play on other websites, and come with clear information about how it is played.', 'This page always shows the latest arrivals first, so it is the quickest way to find something you have not tried yet. Tap the bell at the top of the site to see how many games were added since your last visit.']
 });
 
 export const trendingPage = m => simpleList(m, {
   path: '/trending/', key: 'trending', h1: 'Trending games', colors: ['#FF8A00', '#FF3F6C'], list: m.trending.slice(0, m.site.listLimit),
   intro: 'The most played free games on EasyGameFun right now.', title: 'Trending Free Online Games | EasyGameFun',
-  desc: 'The most played free online games on EasyGameFun right now. See what everyone is playing and jump in with one tap.'
+  desc: 'The most played free online games on EasyGameFun right now. See what everyone is playing and jump in with one tap.',
+  more: ['What trending means here', 'Trending games are the ones being played the most right now. The list changes as new games arrive and as players move on to new favorites, so it is worth checking back.', 'If you are not sure where to start, the top of this list is a safe pick: these games have already won over a lot of players. For something calmer or more specific, browse by category instead.']
 });
 
 export function bestPage(m) {
   const B = m.site.baseUrl, l = m.best.slice(0, m.site.listLimit);
   const body = `<section class="chero" style="--a:#FFB800;--b:#FF3F6C">${floaters(l)}<div>${crumbs([['Home', '/'], ['Best games of all time', '']])}<h1>Best games of all time</h1><p>The most loved free games on EasyGameFun, ranked by our editors' score and how often each game is played. Start at number one and work your way down.</p><div class="facts"><span>${l.length} games ranked</span><span>Free</span></div></div></section>
 ${hofBlock(l, 6)}
+<section class="card" aria-labelledby="s-how"><h2 id="s-how">How we rank games</h2><p>This ranking combines our editors' score for each game, based on how well it plays, how clear its controls are and how well it works on phones, with how often the game is played on EasyGameFun.</p><p>The list updates as new games arrive and as players discover new favorites, so a great new game can climb quickly. Every game here is free to play in your browser.</p></section>
 ${l.length > 6 ? `<section class="sec" style="margin-top:30px" aria-labelledby="s-full"><div class="sec-h"><h2 id="s-full">Full ranking</h2></div><div class="rank off" style="counter-reset:r 6">${l.slice(6).map(g => `<a href="${g.url}"><span class="tile" style="display:block">${img(g)}</span><span class="rt"><b>${esc(g.name)}</b><span>${esc(g.cat.name)} · ${esc(g.tags.slice(0, 2).join(', '))}</span></span><span class="go">Play ▶</span></a>`).join('')}</div></section>` : ''}
 ${relatedCats(m, '')}`;
   return {
-    path: '/best/', top: 'best', side: 'best', title: 'Best Online Games of All Time | EasyGameFun',
+    path: '/best/', top: 'best', side: 'best', title: 'Best Online Games of All Time | EasyGameFun', noindex: m.games.length < (m.site.listIndexMin || 30),
     desc: fitDesc('The best free online games of all time on EasyGameFun, ranked by our editors and by how often they are played. Play them free in your browser.'),
     body, ld: [crumbLD(B, [['Home', '/'], ['Best games of all time', '/best/']]), listLD(B, 'Best games of all time', l)]
   };
@@ -240,14 +245,15 @@ export function azHub(m) {
 ${letterNav(m, '')}
 ${[...m.letters].map(([l, list]) => `<section class="sec" aria-labelledby="az-${l}"><div class="sec-h"><h2 id="az-${l}">${letterLabel(l)}</h2><a href="/games/${l}/">All ${list.length} games</a></div><div class="icons">${list.slice(0, 8).map(g => `<a class="ico" href="${g.url}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>`).join('')}`;
   return {
-    path: '/games/', top: '', side: 'az', title: 'All Free Games A to Z | EasyGameFun',
+    path: '/games/', top: '', side: 'az', title: 'All Free Games A to Z | EasyGameFun', noindex: m.games.length < (m.site.listIndexMin || 30),
     desc: fitDesc(`Browse all ${m.games.length} free online games on EasyGameFun from A to Z. Find any game by name and play it in your browser.`),
     body, ld: [crumbLD(B, [['Home', '/'], ['All games A to Z', '/games/']])]
   };
 }
 
 export const azLetterPages = (m, l, list) => listPages(m, {
-  noindex: list.length < (m.site.thinMin || 3), base: `/games/${l}/`, h1: `Games starting with ${letterLabel(l)}`, titleText: `Free Games Starting With ${letterLabel(l)}`, list, colors: ['#2F9BFF', '#6C4DFF'], side: 'az',
+  // Letter pages are for browsing only, never indexed.
+  noindex: true, base: `/games/${l}/`, h1: `Games starting with ${letterLabel(l)}`, titleText: `Free Games Starting With ${letterLabel(l)}`, list, colors: ['#2F9BFF', '#6C4DFF'], side: 'az',
   intro: `All free games on EasyGameFun whose name starts with ${letterLabel(l)}.`,
   metaDesc: `Play ${list.length} free online games starting with ${letterLabel(l)} on EasyGameFun, from ${list[0].name} to ${list[list.length - 1].name}.`,
   crumbsBase: [['Home', '/'], ['All games A to Z', '/games/']]

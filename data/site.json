@@ -27,5 +27,7 @@
   "importRules": {
     "skipMature": false,
     "skipTrademarkNames": false
-  }
+  },
+  "listIndexMin": 30,
+  "collectionIndexMin": 8
 }

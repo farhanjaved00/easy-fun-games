@@ -22,6 +22,10 @@
     "controls": [
       "Tap / Click",
       "Drag"
+    ],
+    "about": [
+      "Puzzle games ask you to stop, look and think before you move. You might match colors, slide blocks into place, sort pieces or find the one route through a maze. Most rounds are short, so you can solve a level in a minute and still feel clever.",
+      "They are a good fit for quiet moments, like a coffee break or a bus ride, because there is no rush unless you want one. Many puzzle games start gently and add one new idea at a time, so you learn the rules by playing. If you get stuck, stepping away for a moment often shows you the answer when you come back."
     ]
   },
   {
@@ -48,6 +52,10 @@
       "← →",
       "↑ Boost",
       "Tap sides"
+    ],
+    "about": [
+      "Racing games are about speed, control and the feeling of nailing a corner. Some are about crossing the line first, others are about drifting with style, escaping a chase or landing stunts off huge ramps. Cars, bikes and trucks each handle in their own way, and that is half the fun.",
+      "On a computer you usually steer with the arrow keys or W A S D, and on a phone you tap or tilt. Short races make it easy to try again after a crash, and many games let you earn coins to unlock faster cars or tune the ones you have. Start slow on a new track, learn where the tight turns are, then push for a better time."
     ]
   },
   {
@@ -73,6 +81,10 @@
     "controls": [
       "Aim: Mouse",
       "Tap to fire"
+    ],
+    "about": [
+      "Shooter games put you in charge of aiming and timing. You might defend a base from waves of enemies, take a careful long-range shot, or join an online match where teams compete to win the round. Good aim matters, but so does knowing when to move and when to take cover.",
+      "Many shooters let you upgrade weapons or gear between rounds, which keeps every match a little different. On a computer you aim with the mouse and move with W A S D; some games also work with touch on phones. Some shooters include intense action, so check the content notice on the game page before letting younger players start."
     ]
   },
   {
@@ -98,6 +110,10 @@
     "controls": [
       "Move: Mouse / Touch",
       "Space: Boost"
+    ],
+    "about": [
+      ".io games are simple online games where you join a shared arena and play live against other people. You usually start small, as a snake, a blob or a fighter, and grow stronger by collecting things and outplaying rivals. When you lose, you can jump straight back in with a new name.",
+      "The rules fit in one sentence, but every match is different because the other players are real. That makes them easy to start and hard to put down. Most .io games run well on phones and computers, need no account, and are best enjoyed in short rounds where you try to beat your own high score or top the live leaderboard."
     ]
   },
   {
@@ -123,6 +139,10 @@
     "controls": [
       "P1: W A S D",
       "P2: Arrow keys"
+    ],
+    "about": [
+      "Two player games are made for sharing one screen with a friend or family member. You might race each other, play a quick duel, or team up to finish a level together. One player usually uses W A S D and the other uses the arrow keys, so there is nothing extra to set up.",
+      "Rounds are short, which makes rematches easy and arguments about who really won even easier. They are great for siblings, friends at a sleepover or anyone who wants a quick game side by side. On phones and tablets, many two player games split the screen so each person taps their own half."
     ]
   },
   {
@@ -147,6 +167,10 @@
     ],
     "controls": [
       "Tap / Click"
+    ],
+    "about": [
+      "Kids games use bright colors, friendly characters and simple controls that small hands can manage. Goals are easy to understand, like popping bubbles, cooking a treat or helping a character reach home, and there is usually no harsh penalty for a mistake.",
+      "They are a good way for younger children to practice timing, matching and following simple steps while having fun. We still suggest that parents play along with younger kids and check the game page first. Every game here is free, needs no account and runs in the browser on tablets, phones and computers."
     ]
   },
   {
@@ -172,6 +196,10 @@
     "controls": [
       "Swipe to aim",
       "Tap to shoot"
+    ],
+    "about": [
+      "Sports games turn a match into a quick, satisfying challenge. Take a penalty, sink a basket, putt the ball through a tricky course or play a short game of pool. You do not need to know every rule of the real sport to enjoy them; the controls usually come down to aiming and timing.",
+      "Matches are short, so you can play a full game in a few minutes and then go again to beat your score or win a streak. Swipe and tap controls feel natural on a phone, and the mouse works well on a computer. They are a fun pick for sports fans and for anyone who likes a clear goal and instant feedback."
     ]
   },
   {
@@ -198,6 +226,10 @@
       "Move: Arrow keys",
       "Jump: Space",
       "Tap on mobile"
+    ],
+    "about": [
+      "Adventure games are about exploring a world and moving forward through it. You might guide a small hero through tricky platforms, collect keys to open new areas, solve simple puzzles along the way or uncover a short story as you go.",
+      "They reward patience and curiosity more than fast reflexes, though many include jumps and obstacles that take a few tries. Progress usually comes level by level, so it is easy to stop and come back later. Look carefully at each new area before you rush in; hidden paths and items are part of the fun."
     ]
   },
   {
@@ -223,6 +255,10 @@
     "controls": [
       "Move: Arrow keys / W A S D",
       "Action: Space or click"
+    ],
+    "about": [
+      "Action games are fast and full of movement. You run, jump, fight or race through busy scenes where quick reactions make the difference. Some are short arcade challenges, while others give you missions, upgrades and bigger worlds to roam.",
+      "They suit players who like energy and constant challenge. Expect to fail a few times while you learn the patterns, then improve quickly. Some action games include fighting or weapons; when a game has mature content, a content notice appears on its page so you can decide if it is right for you or your family."
     ]
   },
   {
@@ -248,6 +284,10 @@
     "controls": [
       "Tap / Click",
       "Arrow keys or Space"
+    ],
+    "about": [
+      "Arcade games keep things simple: one clear goal, easy controls and a score to beat. Tap at the right moment, dodge what is coming, or keep a run going as long as you can. You can learn most of them in a few seconds.",
+      "That simplicity is what makes them so replayable. Each attempt takes a minute or less, so it is easy to say just one more try. They are perfect for short breaks on a phone, and many get faster or trickier the longer you survive, so there is always a new best score to chase."
     ]
   }
 ]
