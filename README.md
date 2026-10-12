@@ -12,6 +12,7 @@ Every page is pre-built HTML (fast, good for SEO). No server, no database, no de
 | `npm test` | Build + check |
 | `npm run serve` | Preview `dist/` at http://localhost:8080 |
 | `npm run import -- --count 3` | Import new games from onlinegames.io with AI-written pages (needs `OPENAI_API_KEY`) |
+| `node scripts/social-post.mjs prepare` / `post` | Make branded social images / post new games to Facebook, Instagram, Pinterest (setup: [SOCIAL-SETUP.md](SOCIAL-SETUP.md)) |
 | `node scripts/make-icons.mjs` | Re-render icons and the social image from `brand/` (needs Chrome; only when the logo changes) |
 
 Node 20 or newer. Nothing to install.

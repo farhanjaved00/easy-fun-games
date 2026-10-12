@@ -68,11 +68,25 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/make-covers.mjs --limit 15
 
+      # Branded images for the next games to post; they go live with this deploy.
+      - name: Prepare social images
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+        run: node scripts/social-post.mjs prepare
+
       - name: Save game changes to the repo
         id: save
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
         run: |
-          git add data src/static/thumbs REVIEW.md
+          git add data src/static/thumbs src/static/social REVIEW.md
           if git diff --cached --quiet; then echo "Nothing changed, so there is nothing to publish."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
           git config user.name "EasyGameFun bot"
@@ -131,3 +145,28 @@ jobs:
         if: success() && (github.event_name == 'push' || steps.save.outputs.changed == 'true' || (github.event_name == 'workflow_dispatch' && !inputs.daily))
         continue-on-error: true
         run: npm run indexnow
+
+      # Posts games whose images are live; nothing is posted twice (data/social.json).
+      - name: Post to social media
+        id: social
+        if: github.event_name != 'push'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+        run: node scripts/social-post.mjs post
+
+      - name: Save social media log
+        if: always() && github.event_name != 'push'
+        run: |
+          git add data/social.json data/sources 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No social changes."; exit 0; fi
+          git config user.name "EasyGameFun bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Social posts $(date -u +%F)"
+          git pull --rebase -q && git push
