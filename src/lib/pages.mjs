@@ -273,14 +273,16 @@ export function gamePage(m, g, assets) {
   const body = `${crumbs([['Home', '/'], [gamesOf(c), c.url], [g.name, '']])}
 <article class="gp"><div class="gmain">
 ${player}
-<div class="gbar"><h1>${esc(g.name)}</h1><div class="acts js-only">
-<button class="pill fav" id="fav" aria-pressed="false">🤍 Save</button>
-<button class="pill" id="share">🔗 Share</button>
-<button class="pill" id="fs">⛶ Fullscreen</button>
-<a class="pill" href="/contact/#report" aria-label="Report a problem with this game">⚠ Report</a></div></div>
-${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game includes mature elements such as intense action or strong language. Player discretion is advised.</p>' : ''}<div class="meta"><a href="${c.url}">${c.emoji} ${esc(c.name)}</a><span>Free</span><span>Added ${fmtDate(g.addedAt)}</span>${g.developer ? `<span>By ${esc(g.developer)}</span>` : ''}</div>
-<div class="chips" style="padding:12px 0 0;margin:0;flex-wrap:wrap;overflow:visible">${g.tagList.map(t => `<a class="chip" href="${m.tagBySlug.get(t.slug).url}">${esc(t.name)}</a>`).join('')}</div>
-<div class="gstats"><div class="stat"><b>Free</b><span>to play</span></div><div class="stat"><b>#${g.catRank}</b><span>in ${esc(c.name)}</span></div><div class="stat"><b>0</b><span>downloads needed</span></div><div class="stat"><b>All</b><span>phone, tablet, PC</span></div></div>
+<div class="gbar"><h1>${esc(g.name)}</h1>
+<div class="gmeta"><a class="gcat" href="${c.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}">${c.emoji} ${esc(c.name)}</a><span>Free</span><span>Added ${fmtDate(g.addedAt)}</span>${g.developer ? `<span>By ${esc(g.developer)}</span>` : ''}</div></div>
+<div class="acts js-only">
+<button class="act" id="fav" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-8-4.6-8-10.4A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8 3.1c0 5.8-8 10.4-8 10.4z"/></svg><span>Save</span></button>
+<button class="act" id="share"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Share</span></button>
+<button class="act" id="fs"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/></svg><span>Fullscreen</span></button>
+<a class="act" href="/contact/#report" aria-label="Report a problem with this game"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V4M4 4h12l-2 4 2 4H4"/></svg><span>Report</span></a></div>
+${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game includes mature elements such as intense action or strong language. Player discretion is advised.</p>' : ''}
+<ul class="gfacts" aria-label="Game facts"><li><b>Free</b><span>to play</span></li><li><b>#${g.catRank}</b><span>in ${esc(c.name)}</span></li><li><b>No</b><span>download</span></li><li><b>All</b><span>devices</span></li></ul>
+<div class="gtags" aria-label="Tags">${g.tagList.map(t => `<a href="${m.tagBySlug.get(t.slug).url}">#${esc(t.name)}</a>`).join('')}</div>
 <section class="card" aria-labelledby="s-g1"><h2 id="s-g1">About ${esc(g.name)}</h2>${about.map(p => `<p>${esc(p)}</p>`).join('')}${ct.highlights?.length ? `<h3>Highlights</h3><ul>${ct.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}${ct.goodFor ? `<h3>Who will enjoy it</h3><p>${esc(ct.goodFor)}</p>` : ''}</section>
 <section class="card" aria-labelledby="s-g2"><h2 id="s-g2">How to play ${esc(g.name)}</h2>${ct.howToPlay ? `<p>${esc(ct.howToPlay)}</p>` : ''}<div class="ctl"><div><h3>📱 Touch controls</h3><p>${esc(hint)}.</p></div><div><h3>⌨️ Keyboard and mouse</h3><div class="keys">${(ct.keys || c.controls || []).map(k => `<span>${esc(k)}</span>`).join('')}</div></div></div>${ct.tips?.length ? `<h3>Tips</h3><ul>${ct.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}</section>
 <section class="card" aria-labelledby="s-g4"><h2 id="s-g4">Game details</h2><dl class="dl"><dt>Category</dt><dd><a href="${c.url}">${esc(c.name)}</a></dd><dt>Tags</dt><dd>${g.tagList.map(t => `<a href="${m.tagBySlug.get(t.slug).url}">${esc(t.name)}</a>`).join(', ')}</dd>${g.developer ? `<dt>Developer</dt><dd>${esc(g.developer)}</dd>` : ''}<dt>Controls</dt><dd>${esc(g.inputNames.join(', '))}</dd><dt>Screen</dt><dd>${g.orientation === 'portrait' ? 'Portrait' : g.orientation === 'landscape' ? 'Landscape' : 'Any'}</dd><dt>Works on</dt><dd>Phone, tablet and desktop</dd><dt>Added</dt><dd>${fmtDate(g.addedAt)}</dd><dt>Price</dt><dd>Free</dd></dl></section>

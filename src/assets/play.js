@@ -86,7 +86,7 @@
 
   // Save
   var fav = $('#fav');
-  var paintFav = function (on) { fav.classList.toggle('on', on); fav.textContent = on ? '❤️ Saved' : '🤍 Save'; fav.setAttribute('aria-pressed', on); };
+  var paintFav = function (on) { fav.classList.toggle('on', on); fav.querySelector('span').textContent = on ? 'Saved' : 'Save'; fav.setAttribute('aria-pressed', on); };
   paintFav(EGF.favs().indexOf(d.slug) >= 0);
   fav.onclick = function () { var on = EGF.toggleFav(d.slug); paintFav(on); EGF.toast(on ? 'Saved' : 'Removed from saved'); };
 
