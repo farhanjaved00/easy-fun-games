@@ -1,57 +1,66 @@
 {
   "stack-fire-ball": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "drift-king": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "love-tester": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "stickman-parkour": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "escape-car-2": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "guerrillas-io": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "snaker-io": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "steal-brainrots-multiplayer": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "gta-simulator": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "masked-special-forces": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   },
   "stickman-gta-city": {
-    "fails": 0,
-    "lastOk": "2026-10-11",
-    "lastCheck": "2026-10-11"
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
+  },
+  "madalin-stunt-cars-pro": {
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
+  },
+  "drift-hunters-pro": {
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
+  },
+  "cs-online": {
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
+  },
+  "escape-car": {
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
+  },
+  "fps-strike": {
+    "lastOk": "2026-10-12",
+    "lastCheck": "2026-10-12"
   }
 }
