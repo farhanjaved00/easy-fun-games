@@ -124,6 +124,7 @@ ${p.body}
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu" aria-hidden="true"><div class="dh"><a class="logo" href="/" aria-label="EasyGameFun home">${LOGO}</a><button class="icon-btn" id="close" aria-label="Close menu">✕</button></div><div>${chrome.sideFor(sideKey)}</div></aside>
 <nav class="bottom" aria-label="Main">${BOTTOM.map(b => b ? `<a href="${b[0]}"${(p.bottom || top) === b[1] ? ' class="on" aria-current="page"' : ''}>${svg(b[1])}${b[1] === 'favs' ? '<span class="badge sb"></span>' : ''}<span>${b[2]}</span></a>` : '<a class="rnd" href="/trending/" data-rnd aria-label="Surprise me: play a random game"><span class="rb">🎲</span><span>Surprise</span></a>').join('')}</nav>
+<button class="totop js-only" id="totop" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

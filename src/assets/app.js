@@ -46,6 +46,16 @@
   var rail = $('#railtog');
   if (rail) { rail.setAttribute('aria-pressed', root.classList.contains('rail')); rail.onclick = function () { var on = root.classList.toggle('rail'); lsSet('egf_rail', on ? '1' : '0'); rail.setAttribute('aria-pressed', on); }; }
 
+  /* ---------- back to top ---------- */
+  var totop = $('#totop');
+  if (totop) {
+    var ticking = false;
+    var paintTop = function () { ticking = false; totop.classList.toggle('show', scrollY > 600); };
+    addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(paintTop); } }, { passive: true });
+    paintTop();
+    totop.onclick = function () { window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); };
+  }
+
   /* ---------- drawer menu ---------- */
   var menu = $('#menu'), drawer = $('#drawer');
   var openMenu = function (o) {
