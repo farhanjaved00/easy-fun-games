@@ -226,7 +226,7 @@ function qualityProblems(c, facts) {
   if (brand) p.push(`mentions another brand or game: "${brand[0]}"`);
   if (/\b(the|these|game|given) (facts|source( text)?)\b|according to the (facts|description)/i.test(every)) p.push('refers to "the facts" or the source');
   if (c.description.length < 70 || c.description.length > 150) p.push(`description is ${c.description.length} characters`);
-  if (c.metaDescription.length < 135 || c.metaDescription.length > 158) p.push(`metaDescription is ${c.metaDescription.length} characters (need 140 to 155)`);
+  if (c.metaDescription.length < 140 || c.metaDescription.length > 155) p.push(`metaDescription is ${c.metaDescription.length} characters (need 140 to 155)`);
   if (c.faq.length < 3) p.push('need 4 FAQ items');
   if (c.tips.length < 3) p.push('need 3 to 4 tips');
   if (c.touchHint.length > 70) p.push('touchHint too long');
