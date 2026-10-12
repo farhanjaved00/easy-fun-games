@@ -71,7 +71,8 @@ for (const p of pages) {
 /* ---------- search index (used by search, saved, recent, surprise me) ---------- */
 write('/search-index.json', JSON.stringify({
   cats: Object.fromEntries(m.cats.map(c => [c.slug, [c.name, c.emoji]])),
-  games: m.games.map(g => [g.slug, g.name, g.category, g.tags.join(','), g.thumb.small?.url || g.thumb.url])
+  // [slug, name, category, tags, thumbnail, published time] — the time drives the "new games" bell
+  games: m.games.map(g => [g.slug, g.name, g.category, g.tags.join(','), g.thumb.small?.url || g.thumb.url, g.publishedAt || `${g.addedAt}T03:20:00Z`])
 }));
 
 /* ---------- sitemaps (only indexable pages; tier C games and thin tags left out) ---------- */

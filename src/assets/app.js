@@ -36,7 +36,9 @@
   var themeBtn = $('#theme');
   var paintTheme = function () { if (themeBtn) themeBtn.textContent = root.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙'; };
   paintTheme();
-  if (themeBtn) themeBtn.onclick = function () { var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; root.setAttribute('data-theme', t); lsSet('egf_theme', t); paintTheme(); };
+  var toggleTheme = function () { var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; root.setAttribute('data-theme', t); lsSet('egf_theme', t); paintTheme(); };
+  if (themeBtn) themeBtn.onclick = toggleTheme;
+  $$('[data-theme-toggle]').forEach(function (b) { b.onclick = toggleTheme; });
 
   /* ---------- promo, rail, back to top ---------- */
   var px = $('#promoX');
@@ -104,12 +106,47 @@
     if (t.closest('[data-top]')) window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
     if (t.closest('#drawer a')) openMenu(false);
     if (t.closest('[data-focus-search]') && wide()) { e.preventDefault(); qi.focus(); } // phones follow the link to the search page
+    var dice = t.closest('.bottom .rnd');
+    if (dice && !reduced) {
+      // Roll the dice first, then open the random game.
+      e.preventDefault(); dice.classList.remove('spin'); void dice.offsetWidth; dice.classList.add('spin');
+      EGF.index().then(function (d) { setTimeout(function () { if (d.list.length) location.href = d.list[Math.random() * d.list.length | 0].url; }, 650); });
+      return;
+    }
     if (t.closest('[data-rnd]')) { e.preventDefault(); EGF.index().then(function (d) { if (d.list.length) location.href = d.list[Math.random() * d.list.length | 0].url; }); }
   });
   addEventListener('keydown', function (e) {
     if (e.key === 'Escape') { openMenu(false); closeMega(); if (sug) sug.hidden = true; }
     if (e.key === '/' && qi && wide() && !/INPUT|TEXTAREA|SELECT/.test((document.activeElement || {}).tagName || '')) { e.preventDefault(); qi.focus(); }
   });
+
+  /* ---------- "new games" bell ---------- */
+  // First visit: remember the time. Later: count games published after it. Opening the list resets the count.
+  var bell = $('#bell'), nb = $('#nb'), panel = $('#newpanel');
+  // Stored as a JSON string so lsGet can read it back.
+  var seen = lsGet('egf_seen', null);
+  if (!seen) { seen = new Date().toISOString(); lsSet('egf_seen', JSON.stringify(seen)); }
+  var newGames = [];
+  var paintBell = function () { if (nb) nb.textContent = newGames.length ? (newGames.length > 99 ? '99+' : newGames.length) : ''; if (bell) bell.setAttribute('aria-label', newGames.length ? newGames.length + ' new games' : 'New games'); };
+  EGF.index().then(function (d) {
+    d.list.forEach(function (g, i) { g.at = (d.games[i] || [])[5] || ''; });
+    newGames = d.list.filter(function (g) { return g.at && g.at > seen; }).sort(function (a, b) { return a.at < b.at ? 1 : -1; });
+    paintBell();
+  });
+  var closePanel = function () { if (panel && !panel.hidden) { panel.hidden = true; bell.setAttribute('aria-expanded', 'false'); } };
+  if (bell) bell.onclick = function (e) {
+    e.stopPropagation();
+    if (!panel.hidden) return closePanel();
+    var list = newGames.slice(0, 10);
+    panel.innerHTML = '<div class="nph"><b>' + (list.length ? newGames.length + ' new game' + (newGames.length > 1 ? 's' : '') + ' since your last visit' : "You're all caught up") + '</b></div>' +
+      (list.length ? list.map(function (g) { return '<a class="rowl" href="' + g.url + '"><span class="tile" style="display:block">' + imgTag(g) + '</span><span><b>' + esc(g.name) + '</b><span class="s">' + esc(g.catName) + '</span></span></a>'; }).join('') : '<p class="npe">New games are added every day. Check back tomorrow.</p>') +
+      '<a class="npall" href="/new/">See all new games →</a>';
+    panel.hidden = false; bell.setAttribute('aria-expanded', 'true');
+    // Reset the count: everything up to now has been seen.
+    seen = new Date().toISOString(); lsSet('egf_seen', JSON.stringify(seen)); newGames = []; paintBell();
+  };
+  document.addEventListener('click', function (e) { if (panel && !e.target.closest('#newpanel') && !e.target.closest('#bell')) closePanel(); });
+  addEventListener('keydown', function (e) { if (e.key === 'Escape') closePanel(); });
 
   /* ---------- recently played in sidebar + drawer ---------- */
   var recent = EGF.recent();

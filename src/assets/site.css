@@ -704,3 +704,15 @@ html:not(.js) .js-only{display:none!important}
   .top-in>.logo .lt{font-size:20px}
   .top-in>.logo i{width:34px;height:34px}
 }
+/* new games bell */
+#bell svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.newpanel{position:absolute;right:12px;top:calc(100% + 6px);width:min(340px,calc(100vw - 24px));max-height:70vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 50px -20px rgba(0,0,0,.6);padding:8px;z-index:80}
+.newpanel .nph{padding:8px 10px 6px;font-family:var(--display);font-size:15px}
+.newpanel .npe{color:var(--muted);font-size:14px;padding:4px 10px 10px}
+.newpanel .npall{display:block;text-align:center;color:var(--pri);font-weight:700;padding:10px;border-top:1px solid var(--line);margin-top:4px}
+.themerow{width:100%;border:0;background:none;text-align:left;font:inherit;color:inherit;cursor:pointer}
+@media(min-width:900px){.themerow{display:none!important}}
+@media(max-width:899px){#theme{display:none!important}#bell{margin-left:auto}}
+/* dice roll on the bottom menu */
+@keyframes diceroll{0%{transform:rotate(0) scale(1)}40%{transform:rotate(300deg) scale(1.18)}75%{transform:rotate(560deg) scale(.96)}100%{transform:rotate(720deg) scale(1)}}
+.bottom a.rnd.spin .rb{animation:diceroll .65s cubic-bezier(.3,.7,.3,1)}

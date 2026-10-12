@@ -26,6 +26,7 @@ function sideHTML(m, key) {
     m.cats.map(c => `<a class="sl${key === 'cat:' + c.slug ? ' on' : ''}" href="${c.url}" title="${esc(c.name)}"${key === 'cat:' + c.slug ? ' aria-current="page"' : ''}><span class="cb" style="background:linear-gradient(135deg,${c.colors[0]},${c.colors[1]})">${c.emoji}</span><span class="nm">${esc(c.name)}</span><em>${c.games.length}</em></a>`).join('') +
     `<div class="sg"><span>Popular tags</span></div><div class="tagcloud">${m.tags.slice(0, 10).map(t => `<a${key === 'tag:' + t.slug ? ' class="on"' : ''} href="${t.url}">${esc(t.name)}</a>`).join('')}</div>` +
     `<div class="js-recent" hidden><div class="sg"><span>Recently played</span></div><div class="recent"></div></div>` +
+    `<button class="sl themerow js-only" data-theme-toggle><span class="cb" style="background:var(--surface2)">🌗</span><span class="nm">Light or dark mode</span></button>` +
     `<div class="sidecard js-only"><small>Feeling lucky?</small><b>Play a random game</b><button class="btn" data-rnd>🎲 Surprise me</button></div>`;
 }
 
@@ -108,7 +109,9 @@ ${site.indexing ? '' : '<div class="preview">Preview site. The games shown are s
 <button class="btn btn-pri btn-sm hide-md js-only" data-rnd>🎲 Surprise me</button>
 <a class="icon-btn" id="stog" href="/search/" aria-label="Search games" aria-expanded="false">${SEARCH_ICON}</a>
 <a class="icon-btn hide-sm" id="savedBtn" href="/favs/" aria-label="Saved games">❤️<span class="badge" id="sb"></span></a>
+<button class="icon-btn js-only" id="bell" aria-label="New games" aria-expanded="false" aria-controls="newpanel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="badge" id="nb"></span></button>
 <button class="icon-btn js-only" id="theme" aria-label="Switch light or dark theme">🌙</button>
+<div class="newpanel" id="newpanel" hidden></div>
 <div class="mega" id="mega" hidden>${chrome.mega}</div>
 </div></header>
 <div class="shell">

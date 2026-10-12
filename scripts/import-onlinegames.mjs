@@ -369,7 +369,7 @@ for (const url of fresh) {
     input: g.controls.some(([k]) => /mouse|click/i.test(k)) ? ['mouse', 'keyboard', 'touch'] : ['keyboard', 'touch'],
     thumb, emoji: '🎮', colors: ['#6C4DFF', '#FF3F6C'],
     licence: { partner: 'onlinegames.io', checkedAt: today, allowedEmbed: true },
-    addedAt: today, status: 'published', featured: false, popularity: 0,
+    addedAt: today, publishedAt: new Date().toISOString(), status: 'published', featured: false, popularity: 0,
     description: c.description,
     quality: { score: 80, checks: { embeddableTag: true, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
     content: { metaDescription: c.metaDescription, about: c.about.join('\n'), highlights: c.highlights, goodFor: c.goodFor, howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
