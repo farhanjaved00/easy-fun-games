@@ -65,7 +65,7 @@ export function home(m) {
     desc: fitDesc('Play free online games on your phone or computer. Puzzle, racing, shooter, .io, 2 player and kids games. New games every day. No download.'),
     body, scripts: [],
     ld: [
-      { '@type': 'Organization', name: 'EasyGameFun', url: B + '/', logo: B + '/icons/icon-512.png', email: m.site.email },
+      { '@type': 'Organization', name: 'EasyGameFun', url: B + '/', logo: B + '/icons/icon-512.png', email: m.site.email, ...(Object.values(m.site.social || {}).some(Boolean) ? { sameAs: Object.values(m.site.social).filter(Boolean) } : {}) },
       { '@type': 'WebSite', name: 'EasyGameFun', url: B + '/', potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: B + '/search/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' } },
       faqLD(HOME_FAQ), listLD(B, 'New games', m.newest.slice(0, 10))
     ]

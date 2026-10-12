@@ -17,6 +17,21 @@ export const img = (g, cls = '', eager = false, sizes = '180px') => {
   return `<img${cls ? ` class="${cls}"` : ''} ${src} alt="" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
 };
 
+const SOCIAL = {
+  facebook: ['Facebook', '<path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V8.5z"/>'],
+  x: ['X', '<path d="M4 4l16 16M20 4 4 20"/>'],
+  instagram: ['Instagram', '<rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/>'],
+  youtube: ['YouTube', '<rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/>'],
+  tiktok: ['TikTok', '<path d="M14 3v11.5a4 4 0 1 1-4-4"/><path d="M14 3c.6 2.7 2.6 4.4 5.5 4.6"/>'],
+  discord: ['Discord', '<path d="M7 7.5c3.3-1.4 6.7-1.4 10 0 1.6 2.5 2.4 5.2 2.3 8.2-1.4 1-2.8 1.7-4.3 2.1l-1-1.6M7 7.5C5.4 10 4.6 12.7 4.7 15.7c1.4 1 2.8 1.7 4.3 2.1l1-1.6M8.5 15.5c2.3 1 4.7 1 7 0"/><circle cx="9.5" cy="12" r="1"/><circle cx="14.5" cy="12" r="1"/>']
+};
+// Only networks with a link in data/site.json "social" are shown.
+export const socialLinks = m => Object.entries(m.site.social || {}).filter(([k, u]) => u && SOCIAL[k]);
+const socialHTML = m => {
+  const l = socialLinks(m);
+  return l.length ? `<div class="social"><div class="sg"><span>Follow us</span></div><div class="socials">${l.map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener me" aria-label="EasyGameFun on ${SOCIAL[k][0]}" title="${SOCIAL[k][0]}"><svg viewBox="0 0 24 24" aria-hidden="true">${SOCIAL[k][1]}</svg></a>`).join('')}</div></div>` : '';
+};
+
 function sideHTML(m, key) {
   const L = (href, ico, txt, k) => `<a class="sl${key === k ? ' on' : ''}" href="${href}" title="${txt}"${key === k ? ' aria-current="page"' : ''}><span class="cb" style="background:var(--surface2)">${ico}</span><span class="nm">${txt}</span></a>`;
   return `<div class="sg"><span>Menu</span></div>` +
@@ -26,8 +41,8 @@ function sideHTML(m, key) {
     m.cats.map(c => `<a class="sl${key === 'cat:' + c.slug ? ' on' : ''}" href="${c.url}" title="${esc(c.name)}"${key === 'cat:' + c.slug ? ' aria-current="page"' : ''}><span class="cb" style="background:linear-gradient(135deg,${c.colors[0]},${c.colors[1]})">${c.emoji}</span><span class="nm">${esc(c.name)}</span><em>${c.games.length}</em></a>`).join('') +
     `<div class="sg"><span>Popular tags</span></div><div class="tagcloud">${m.tags.slice(0, 10).map(t => `<a${key === 'tag:' + t.slug ? ' class="on"' : ''} href="${t.url}">${esc(t.name)}</a>`).join('')}</div>` +
     `<div class="js-recent" hidden><div class="sg"><span>Recently played</span></div><div class="recent"></div></div>` +
-    `<button class="sl themerow js-only" data-theme-toggle><span class="cb" style="background:var(--surface2)">🌗</span><span class="nm">Light or dark mode</span></button>` +
-    `<div class="sidecard js-only"><small>Feeling lucky?</small><b>Play a random game</b><button class="btn" data-rnd>🎲 Surprise me</button></div>`;
+    `<div class="sidecard js-only"><small>Feeling lucky?</small><b>Play a random game</b><button class="btn" data-rnd>🎲 Surprise me</button></div>` +
+    socialHTML(m);
 }
 
 function megaHTML(m) {

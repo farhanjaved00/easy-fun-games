@@ -29,5 +29,13 @@
     "skipTrademarkNames": false
   },
   "listIndexMin": 30,
-  "collectionIndexMin": 8
+  "collectionIndexMin": 8,
+  "social": {
+    "facebook": "",
+    "x": "",
+    "instagram": "",
+    "youtube": "",
+    "tiktok": "",
+    "discord": ""
+  }
 }

@@ -773,3 +773,34 @@ html:not(.js) .js-only{display:none!important}
 .snone p{margin-top:6px}
 #scount{margin:6px 0 10px}
 @media(max-width:599px){.hs{scrollbar-width:none}}
+/* v8: side menu header, phone theme toggle, social icons */
+.drawer .dh{justify-content:space-between;padding:0 4px 12px 6px}
+.drawer .dh .icon-btn{position:static}
+@media(max-width:899px){
+  .drawer .dh .logo .lt{font-size:21px}
+  .drawer .dh .logo i{width:36px;height:36px}
+  #theme{display:grid!important}
+  #bell{margin-left:auto}
+  .top-in>.icon-btn{width:40px;height:40px}
+  .top-in{gap:6px}
+  .top-in>.logo .lt{font-size:clamp(17px,5.3vw,23px)}
+  .top-in>.logo i{width:clamp(30px,9.4vw,38px);height:clamp(30px,9.4vw,38px)}
+  .top-in>.logo i svg{width:72%;height:72%}
+}
+.social{margin-top:18px}
+.socials{display:flex;flex-wrap:wrap;gap:8px;padding:0 6px}
+.socials a{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:var(--surface);border:1px solid var(--line);color:var(--muted);transition:color .15s,border-color .15s,transform .15s}
+.socials a:hover{color:var(--pri);border-color:var(--pri);transform:translateY(-2px)}
+.socials svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.rail .side .social{display:none}
+@media(max-width:899px){.top-in{justify-content:flex-start}#bell{margin-left:auto!important}#theme{margin-left:0!important}}
+/* phones: compact top bar so the centered logo fits between ☰ and the two buttons on the right */
+@media(max-width:899px){
+  .top-in{padding-left:10px;padding-right:10px;gap:4px}
+  .top-in>.icon-btn{width:36px;height:36px;border-radius:12px}
+  .top-in>.icon-btn svg{width:19px;height:19px}
+  .top-in>.logo{gap:clamp(5px,1.8vw,9px)}
+  .top-in>.logo .lt{font-size:clamp(15px,4.9vw,22px)}
+  .top-in>.logo i{width:clamp(27px,8.6vw,36px);height:clamp(27px,8.6vw,36px);border-radius:10px}
+}
+.socials{gap:7px}.socials a{width:40px;height:40px;border-radius:12px}
