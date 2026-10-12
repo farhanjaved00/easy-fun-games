@@ -6,8 +6,12 @@ name: Deploy
 on:
   push:
     branches: [main]
+  # GitHub sometimes delays or skips scheduled runs, so there are three daily attempts.
+  # Each one only adds the games still missing for the day, so the total stays at 5 a day.
   schedule:
-    - cron: "17 3 * * *" # every day at 03:17 UTC
+    - cron: "17 3 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 15 * * *"
   workflow_dispatch:
     inputs:
       import_count:
@@ -52,7 +56,7 @@ jobs:
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '5' }}
+        run: node scripts/import-onlinegames.mjs --count ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '5' }} ${{ github.event_name == 'schedule' && '--daily' || '' }}
 
       # Replaces partner thumbnails with original AI covers, a few games per run.
       - name: Make AI covers

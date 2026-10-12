@@ -31,6 +31,7 @@ const args = process.argv.slice(2);
 const opt = name => { const i = args.indexOf('--' + name); return i < 0 ? null : (args[i + 1] && !args[i + 1].startsWith('--') ? args[i + 1] : true); };
 const COUNT = Math.max(0, Math.min(10, opt('count') === null ? 3 : +opt('count') || 0));
 const DRY = !!opt('dry-run');
+const DAILY = !!opt('daily'); // scheduled runs: only add what is missing to reach the daily count
 const FACTS_OUT = opt('facts');
 const CONTENT_IN = opt('content');
 const RULES = { skipMature: true, skipTrademarkNames: true, ...((JSON.parse(fs.readFileSync(path.join(DATA, 'site.json'), 'utf8')).importRules) || {}) };
@@ -306,7 +307,13 @@ const state = readJson(STATE_FILE, { source: LIST, games: {} });
 const haveSlug = new Set(games.map(g => g.slug));
 const prewritten = CONTENT_IN ? readJson(CONTENT_IN, {}) : null;
 
-if (COUNT === 0) { console.log('Import count is 0, nothing to do.'); process.exit(0); }
+let TODO = COUNT;
+if (DAILY) {
+  const already = readJson(path.join(DATA, 'games.json'), []).filter(g => g.source === 'onlinegames.io' && g.addedAt === today).length;
+  TODO = Math.max(0, COUNT - already);
+  console.log(`Daily target ${COUNT}, already added today ${already}, adding ${TODO} now.`);
+}
+if (TODO === 0) { console.log('Nothing to import right now.'); process.exit(0); }
 if (!FACTS_OUT && !DRY && !prewritten && !process.env.OPENAI_API_KEY) {
   console.log('OPENAI_API_KEY is not set, so no games were imported. Add it as a GitHub secret to turn on the daily import.');
   process.exit(0);
@@ -321,7 +328,7 @@ const facts = [];
 const added = [];
 let failures = 0;
 for (const url of fresh) {
-  if (added.length + facts.length >= COUNT) break;
+  if (added.length + facts.length >= TODO) break;
   if (failures >= 3) { console.log('Stopping: 3 games failed in this run.'); break; }
   console.log(`- ${url}`);
   let g;
