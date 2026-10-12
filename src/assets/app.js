@@ -244,18 +244,57 @@
   /* ---------- search page ---------- */
   var results = $('#results');
   if (results) {
-    var sq = $('#sq'), q0 = new URLSearchParams(location.search).get('q') || '';
+    var sq = $('#sq'), clr = $('#sclear'), filters = $('#sfilters'), explore = $('#sexplore'), count = $('#scount');
+    var q0 = new URLSearchParams(location.search).get('q') || '', catFilter = '', timer = null;
     sq.value = q0; if (qi) qi.value = q0;
+    var chip = function (href, label, extra) { return '<a class="chip" href="' + href + '">' + label + (extra ? '<small>' + extra + '</small>' : '') + '</a>'; };
+    var exploreHTML = function (d) {
+      var tagCount = {};
+      d.list.forEach(function (g) { g.tags.forEach(function (t) { tagCount[t] = (tagCount[t] || 0) + 1; }); });
+      var tags = Object.keys(tagCount).sort(function (a, b) { return tagCount[b] - tagCount[a]; }).slice(0, 8);
+      var rec = EGF.recent().map(function (s) { return d.bySlug[s]; }).filter(Boolean).slice(0, 8);
+      var cats = Object.keys(d.cats);
+      return '<section class="sx"><h2>Popular searches</h2><div class="sxchips">' + tags.map(function (t) { return '<button type="button" class="chip" data-q="' + esc(t) + '">🔎 ' + esc(t) + '</button>'; }).join('') + '</div></section>' +
+        (rec.length ? '<section class="sx"><h2>Recently played</h2><div class="hs">' + rec.map(EGF.tile).join('') + '</div></section>' : '') +
+        '<section class="sx"><h2>Browse categories</h2><div class="scats">' + cats.map(function (k) { var c = d.cats[k]; return '<a class="scat" href="/category/' + k + '/" style="--a:' + (c[2] || '#6C4DFF') + ';--b:' + (c[3] || '#FF3F6C') + '"><i aria-hidden="true">' + c[1] + '</i><b>' + esc(c[0]) + '</b><span>' + (c[4] || '') + ' games</span></a>'; }).join('') + '</div></section>' +
+        '<section class="sx"><h2>All games</h2></section>';
+    };
     var run = function () {
       EGF.index().then(function (d) {
-        var q = sq.value.trim(), l = q ? EGF.hits(d, q) : d.list;
-        $('#scount').textContent = q ? l.length + ' result' + (l.length === 1 ? '' : 's') + ' for “' + q + '”' : 'Showing all ' + d.list.length + ' games';
-        results.innerHTML = l.length ? '<div class="grid">' + l.slice(0, 96).map(EGF.tile).join('') + '</div>' : '<div class="empty"><b>No games found</b>Try a shorter word like "race", "puzzle", or "cute".</div>';
+        var q = sq.value.trim();
+        clr.hidden = !q;
+        if (!q) {
+          catFilter = ''; filters.hidden = true; count.textContent = '';
+          explore.innerHTML = exploreHTML(d);
+          results.innerHTML = '<div class="grid">' + d.list.slice(0, 96).map(EGF.tile).join('') + '</div>';
+          return;
+        }
+        explore.innerHTML = '';
+        var all = EGF.hits(d, q);
+        // Category filter chips for the current results
+        var byCat = {};
+        all.forEach(function (g) { byCat[g.cat] = (byCat[g.cat] || 0) + 1; });
+        var keys = Object.keys(byCat).sort(function (a, b) { return byCat[b] - byCat[a]; });
+        if (catFilter && !byCat[catFilter]) catFilter = '';
+        filters.hidden = keys.length < 2;
+        filters.innerHTML = '<button type="button" class="chip' + (catFilter ? '' : ' on') + '" data-cf="">All<small>' + all.length + '</small></button>' + keys.map(function (k) { var c = d.cats[k] || [k, '']; return '<button type="button" class="chip' + (catFilter === k ? ' on' : '') + '" data-cf="' + k + '">' + c[1] + ' ' + esc(c[0]) + '<small>' + byCat[k] + '</small></button>'; }).join('');
+        var l = catFilter ? all.filter(function (g) { return g.cat === catFilter; }) : all;
+        count.textContent = all.length ? l.length + ' game' + (l.length === 1 ? '' : 's') + ' for “' + q + '”' : '';
+        results.innerHTML = l.length ? '<div class="grid">' + l.slice(0, 96).map(EGF.tile).join('') + '</div>' :
+          '<div class="empty snone"><b>No games found for “' + esc(q) + '”</b><p>Check the spelling or try a shorter word.</p></div><section class="sx"><h2>Try one of these</h2><div class="sxchips">' + Object.keys(d.cats).map(function (k) { return chip('/category/' + k + '/', d.cats[k][1] + ' ' + esc(d.cats[k][0])); }).join('') + '</div></section>';
       });
     };
-    sq.addEventListener('input', function () { history.replaceState(null, '', sq.value.trim() ? '?q=' + encodeURIComponent(sq.value.trim()) : location.pathname); run(); });
+    var setUrl = function () { history.replaceState(null, '', sq.value.trim() ? '?q=' + encodeURIComponent(sq.value.trim()) : location.pathname); };
+    sq.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(function () { setUrl(); run(); }, 120); });
+    $('.sform').addEventListener('submit', function (e) { e.preventDefault(); sq.blur(); setUrl(); run(); });
+    clr.onclick = function () { sq.value = ''; setUrl(); run(); sq.focus(); };
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-q]'), f = e.target.closest('[data-cf]');
+      if (t) { sq.value = t.getAttribute('data-q'); setUrl(); run(); window.scrollTo(0, 0); }
+      if (f) { catFilter = f.getAttribute('data-cf'); run(); }
+    });
     run();
-    if (!q0 && wide()) sq.focus();
+    if (!q0) sq.focus({ preventScroll: true });
   }
 
   /* ---------- saved page ---------- */

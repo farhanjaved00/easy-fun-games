@@ -313,11 +313,13 @@ ${g.mature ? '<p class="advisory" role="note">⚠ Content notice: this game incl
 export const searchPage = m => ({
   path: '/search/', top: '', bottom: 'search', noindex: true, title: 'Search Games | EasyGameFun',
   desc: fitDesc('Search all free online games on EasyGameFun by name, category or tag. Find a game and start playing it in your browser right away.'),
-  body: `<h1 style="font-size:clamp(28px,5vw,38px);margin-bottom:6px">Search games</h1>
-<form class="search" role="search" action="/search/" method="get" style="display:block;max-width:560px;margin:10px 0 6px"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="sq" name="q" type="search" placeholder="Try race, puzzle or cute" aria-label="Search games" autocomplete="off" enterkeyhint="search"></form>
-<p class="count" id="scount" aria-live="polite"></p><div id="results" style="margin-top:14px"></div>
-<noscript><p>Search needs JavaScript. Browse by category instead:</p></noscript>
-<div class="sr-chips" id="srbrowse"><div class="chips">${m.cats.map(c => `<a class="chip" href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}${m.collections.map(c => `<a class="chip" href="${c.url}">${esc(c.name)}</a>`).join('')}</div></div>`,
+  body: `<h1 class="shead">Search games</h1>
+<div class="sbar"><form class="sform" role="search" action="/search/" method="get"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="sq" name="q" type="search" placeholder="Search ${m.games.length} free games" aria-label="Search games" autocomplete="off" enterkeyhint="search"><button type="button" class="sclear" id="sclear" aria-label="Clear search" hidden>✕</button></form>
+<div class="chips sfilters" id="sfilters" role="group" aria-label="Filter results by category" hidden></div></div>
+<p class="count" id="scount" aria-live="polite"></p>
+<div id="sexplore"></div>
+<div id="results"></div>
+<noscript><p>Search needs JavaScript. Browse by category instead:</p><div class="chips">${m.cats.map(c => `<a class="chip" href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}</div></noscript>`,
   ld: []
 });
 

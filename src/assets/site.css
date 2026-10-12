@@ -746,3 +746,30 @@ html:not(.js) .js-only{display:none!important}
   .totop{right:14px;bottom:calc(84px + env(safe-area-inset-bottom,0px));width:46px;height:46px}
   body:has(.stickplay:not([hidden])) .totop{bottom:calc(140px + env(safe-area-inset-bottom,0px))}
 }
+/* search page v2 */
+.shead{font-size:clamp(24px,5vw,34px);margin:2px 0 10px}
+.sbar{position:sticky;top:calc(var(--hh) + env(safe-area-inset-top,0px));z-index:30;background:var(--bg);margin:0 -16px;padding:6px 16px 8px}
+@media(min-width:900px){.sbar{margin:0;padding:6px 0 8px}}
+.sform{position:relative;max-width:640px}
+.sform>svg{position:absolute;left:16px;top:15px;width:21px;height:21px;stroke:var(--muted);fill:none;stroke-width:2.2;stroke-linecap:round;pointer-events:none}
+.sform input{width:100%;height:52px;border-radius:16px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0 48px 0 48px;font:600 16px var(--body)}
+.sform input::placeholder{color:var(--muted)}
+.sform input:focus{outline:none;border-color:var(--pri);box-shadow:0 0 0 3px color-mix(in srgb,var(--pri) 28%,transparent)}
+.sform input::-webkit-search-cancel-button{display:none}
+.sclear{position:absolute;right:8px;top:8px;width:36px;height:36px;border-radius:12px;border:0;background:var(--surface2);color:var(--muted);font-size:15px}
+.sfilters{margin:8px -16px 0;padding:2px 16px 4px}
+@media(min-width:900px){.sfilters{margin:8px 0 0;padding:2px 0 4px}}
+.sx{margin:16px 0 4px}
+.sx h2{font-size:17px;margin-bottom:10px}
+.sxchips{display:flex;flex-wrap:wrap;gap:8px}
+.sxchips .chip{min-height:38px;font-size:14px}
+.scats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media(min-width:700px){.scats{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.scat{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:84px;padding:12px 14px;border-radius:18px;color:#fff;overflow:hidden;background:linear-gradient(135deg,var(--a),var(--b));box-shadow:var(--shadow)}
+.scat i{position:absolute;right:8px;top:4px;font-style:normal;font-size:36px;line-height:1.2}
+.scat b{font-family:var(--display);font-size:16px;line-height:1.1;text-shadow:0 2px 0 rgba(0,0,0,.15)}
+.scat span{font-size:12px;font-weight:600;opacity:.95}
+.snone{padding:30px 10px 10px}
+.snone p{margin-top:6px}
+#scount{margin:6px 0 10px}
+@media(max-width:599px){.hs{scrollbar-width:none}}
