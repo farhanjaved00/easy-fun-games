@@ -809,3 +809,15 @@ html:not(.js) .js-only{display:none!important}
   .top-in>.logo{position:static;transform:none;margin:0 auto;left:auto;top:auto}
   #bell{margin-left:0!important}
 }
+/* desktop top bar: always one line */
+@media(min-width:900px){
+  .top-in{flex-wrap:nowrap}
+  .top .search{flex:1 1 260px;min-width:150px;max-width:520px;margin-left:auto}
+  .top-in>.icon-btn,.top-in>.btn{flex:none}
+  .topnav{flex:none}
+}
+@media(min-width:900px) and (max-width:1279px){
+  .topnav a[href="/new/"],.topnav a[href="/trending/"],.topnav a[href="/best/"]{display:none}
+  .topnav{margin-left:4px}
+}
+@media(max-width:1359px){.top-in>.hide-md{display:none!important}}
