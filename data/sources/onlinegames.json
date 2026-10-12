@@ -60,6 +60,31 @@
       "status": "imported",
       "slug": "stickman-gta-city",
       "at": "2026-10-11"
+    },
+    "https://www.onlinegames.io/madalin-stunt-cars-pro/": {
+      "status": "imported",
+      "slug": "madalin-stunt-cars-pro",
+      "at": "2026-10-12"
+    },
+    "https://www.onlinegames.io/drift-hunters-pro/": {
+      "status": "imported",
+      "slug": "drift-hunters-pro",
+      "at": "2026-10-12"
+    },
+    "https://www.onlinegames.io/cs-online/": {
+      "status": "imported",
+      "slug": "cs-online",
+      "at": "2026-10-12"
+    },
+    "https://www.onlinegames.io/escape-car/": {
+      "status": "imported",
+      "slug": "escape-car",
+      "at": "2026-10-12"
+    },
+    "https://www.onlinegames.io/fps-strike/": {
+      "status": "imported",
+      "slug": "fps-strike",
+      "at": "2026-10-12"
     }
   }
 }

@@ -1130,5 +1130,546 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-madalin-stunt-cars-pro",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/madalin-stunt-cars-pro/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity/madalin-stunt-cars-pro/index.html",
+    "slug": "madalin-stunt-cars-pro",
+    "name": "Madalin Stunt Cars Pro",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/madalin-stunt-cars-pro-f1260855.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/madalin-stunt-cars-pro-f1260855.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-12",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive luxury supercars across open 3D stunt maps, hit ramps, drift, use nitro, and play solo or with friends.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Madalin Stunt Cars Pro free in your browser. Drive luxury supercars, use nitro, and try ramps, loops, and open stunt maps solo or with friends.",
+      "about": "Madalin Stunt Cars Pro is a free 3D driving game built around open stunt play instead of races or lap times. You choose a high-end supercar or a police cruiser, then head into one of three large map areas. Each map gives you room to speed up, drift, and test the car on ramps, loops, highways, and open roads. There is no strict mission to finish. The goal is to pick a car, pick a map, and see what kind of jumps, slides, and near misses you can pull off.\nA round is simple: start the engine, build speed, use nitro on long stretches, and aim for stunt spots around the map. The challenge comes from controlling the car after big launches, using the handbrake without spinning out, and finding clean lines through each area. You can play solo, or create a multiplayer room and drive around the same maps with friends. It runs free in the browser with no download or install needed.",
+      "highlights": [
+        "Three open map areas with stunt terrain",
+        "Ramps, loops, highways, and wide roads",
+        "Solo play or multiplayer rooms with friends",
+        "Nitro, handbrake, camera, and reset controls",
+        "Police cruiser with police lights"
+      ],
+      "goodFor": "Madalin Stunt Cars Pro is good for players who like open driving, drifting, and stunt jumps without a timer. It also fits players who want a simple multiplayer room to cruise and experiment with friends.",
+      "howToPlay": "Choose a car and a map, then drive freely through the open area. Use speed, nitro, ramps, loops, and the handbrake to create stunts and control drifts. There is no race to win, so your main goal is to explore and pull off clean jumps and smooth driving lines.",
+      "touchHint": "Use a keyboard for steering, nitro, and reset",
+      "keys": [
+        "Arrow keys or WASD: Steer",
+        "Space: Handbrake",
+        "Shift: Nitro",
+        "Ctrl: Change car",
+        "C: Change camera view",
+        "R: Reset car"
+      ],
+      "tips": [
+        "Use nitro on long open roads so you have enough speed before ramps and loops.",
+        "Tap the handbrake for drifts; holding it too long can make the car slide too far.",
+        "Line up straight before big ramps to make landings easier to control.",
+        "Use reset if the car gets stuck or lands badly, then try the stunt again from a cleaner angle."
+      ],
+      "faq": [
+        {
+          "q": "Is Madalin Stunt Cars Pro free to play?",
+          "a": "Yes. Madalin Stunt Cars Pro is free to play in the browser, with no download or install required."
+        },
+        {
+          "q": "Can I play Madalin Stunt Cars Pro on a phone or computer?",
+          "a": "The game runs in a browser and uses keyboard controls, so a computer with a keyboard is the clear way to play."
+        },
+        {
+          "q": "What is the goal in Madalin Stunt Cars Pro?",
+          "a": "There is no strict race objective. Choose a car and a map, then drive, drift, use ramps, and try to pull off stunts around the open areas."
+        },
+        {
+          "q": "Does Madalin Stunt Cars Pro have multiplayer?",
+          "a": "Yes. You can play alone or create a multiplayer room to explore the same open stunt maps with friends."
+        },
+        {
+          "q": "How many maps are in Madalin Stunt Cars Pro?",
+          "a": "The game has three separate map areas. Each one offers different terrain with open roads, ramps, loops, and stunt spots."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-drift-hunters-pro",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/drift-hunters-pro/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity/drift-hunters-pro/index.html",
+    "slug": "drift-hunters-pro",
+    "name": "Drift Hunters Pro",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/drift-hunters-pro-4dea95da.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/drift-hunters-pro-4dea95da.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-12",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Slide through six 3D tracks, earn cash from clean drifts, and upgrade 10 cars for solo or multiplayer runs.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Drift Hunters Pro free in your browser. Drift on six 3D tracks, earn in-game cash, upgrade 10 cars, and join multiplayer rooms with no download.",
+      "about": "Drift Hunters Pro is a free 3D drifting and racing game about keeping your car sideways through corners. You can play alone and chase high scores across six tracks, or enter a multiplayer room and drift on the same server with other drivers. The garage includes 10 vehicles, and each one can be upgraded with the in-game currency you earn from successful drifts. New cars give you another way to attack familiar corners and find a style that fits your driving.\nA run is all about control. Steer into a corner, use the handbrake when you need it, and try to hold a smooth slide without overcorrecting or spinning out. The handling is physics-driven, so small inputs matter more than mashing buttons, and clean throttle and steering make a real difference. Earn more, improve your car, test the tuning menu, and try a new track or setup. Drift Hunters Pro plays free in your browser with no download, install, or account needed, on desktop and mobile devices.",
+      "highlights": [
+        "Six tracks for solo high-score drifting",
+        "Multiplayer rooms on the same server",
+        "10 upgradable vehicles in the garage",
+        "Tuning menu for testing different setups",
+        "No download, install, or account needed"
+      ],
+      "goodFor": "Good for players who like skill-based driving, smooth car control, and improving lap by lap. It also fits players who want solo score chasing and multiplayer drifting in the same browser game.",
+      "howToPlay": "Pick a car, choose a track or multiplayer room, then drift through corners to earn in-game currency. Use your earnings to upgrade vehicles, unlock new cars, and try different tuning setups. In solo play, your main goal is to build higher drift scores.",
+      "touchHint": "Open on mobile and use the on-screen controls",
+      "keys": [
+        "WASD or Arrow keys: Steer",
+        "Space: Handbrake",
+        "C: Change camera",
+        "R: Reset vehicle",
+        "U: Switch KMH / MPH",
+        "I: Start / stop engine"
+      ],
+      "tips": [
+        "Use solo runs to learn the six tracks before joining multiplayer rooms.",
+        "Tap the handbrake to start a slide, then steer smoothly to keep it going.",
+        "If a car feels hard to control, use earned currency on upgrades and test again.",
+        "Try different vehicles and tuning setups; each car can change how a track feels."
+      ],
+      "faq": [
+        {
+          "q": "Is Drift Hunters Pro free to play?",
+          "a": "Yes. Drift Hunters Pro is free to play in your browser with no download, install, or account required."
+        },
+        {
+          "q": "Can I play Drift Hunters Pro on a phone or computer?",
+          "a": "Yes. The game works on both desktop and mobile devices in the browser."
+        },
+        {
+          "q": "How many tracks and cars are in Drift Hunters Pro?",
+          "a": "There are six tracks and a garage of 10 upgradable vehicles."
+        },
+        {
+          "q": "Does Drift Hunters Pro have multiplayer?",
+          "a": "Yes. You can play solo or join a multiplayer room and drift on the same server with other drivers."
+        },
+        {
+          "q": "What are the main controls in Drift Hunters Pro?",
+          "a": "Use WASD or the Arrow keys to steer, Space for the handbrake, C to change camera, and R to reset your vehicle."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-cs-online",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/cs-online/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity2/cs-online/index.html",
+    "slug": "cs-online",
+    "name": "CS Online",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "3D",
+      "Multiplayer",
+      "First Person Shooter",
+      "Shooting"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/cs-online-adcbab8d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/cs-online-adcbab8d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-12",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Join online rooms, pick a map and weapon rules, then fight in first-person team or free-for-all matches.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play CS Online free in your browser, join multiplayer shooter rooms, pick maps like Sanctum, and fight in Free for All or Team Deathmatch.",
+      "about": "CS Online is a 3D multiplayer first-person shooter played in browser rooms. You create a profile, open the room list, and choose a match by map and mode. Maps include Sanctum, Yarimar, and Sumerra. Rooms can use different weapon rules, such as all weapons, crazy mode, or all no RPG. You can also make your own room, set the maximum number of players, and decide how the match will run before anyone joins.\nA match is about moving fast, aiming well, and using the right weapon at the right time. You can play Free for All, where every player is a target, or Team Deathmatch, where your side works together against the other team. Weapons are selected with number keys, so you can swap between options like a knife, pistols, rifles, launchers, and grenades. The action can change quickly as players reload, crouch, run, jump, and chat. CS Online plays free in your web browser with no download needed.",
+      "highlights": [
+        "Online multiplayer rooms with custom match settings",
+        "Maps include Sanctum, Yarimar, and Sumerra",
+        "Free for All and Team Deathmatch modes",
+        "Weapon rules include all weapons and all no RPG",
+        "Nine weapon slots selected with number keys"
+      ],
+      "goodFor": "CS Online is for players who like fast browser shooters with real online rooms. It is a good fit if you enjoy picking a map, choosing match rules, and jumping into quick gunfights.",
+      "howToPlay": "Join an available room or create your own, then choose the map, mode, weapon policy, and player limit if you are hosting. Move around the 3D map, aim with the mouse, and shoot opponents while managing your reloads and weapon switches. In Free for All you fight everyone, while Team Deathmatch is about helping your team win fights.",
+      "touchHint": "Use a mouse and keyboard for full control",
+      "keys": [
+        "WASD / Arrow keys: Move",
+        "Left mouse button: Shoot",
+        "Right mouse button: Aim",
+        "R: Reload",
+        "Space: Jump",
+        "1-9: Change weapon"
+      ],
+      "tips": [
+        "Check the room list before joining so you know the map and mode you are entering.",
+        "Create your own room if you want control over the map, weapon policy, and player limit.",
+        "Reload after a fight when you have cover instead of waiting until your weapon is empty.",
+        "Use the number keys to switch weapons quickly when the fight range changes."
+      ],
+      "faq": [
+        {
+          "q": "Is CS Online free to play?",
+          "a": "Yes. CS Online is free to play in your web browser, with no download or purchase needed."
+        },
+        {
+          "q": "Can I play CS Online on a phone or computer?",
+          "a": "CS Online runs in a web browser. The listed controls use a keyboard and mouse, so a computer is the clear way to play with full control."
+        },
+        {
+          "q": "What is the goal in CS Online?",
+          "a": "The goal is to join an online shooting match and defeat opponents. You can play Free for All or Team Deathmatch, depending on the room you choose."
+        },
+        {
+          "q": "What maps are in CS Online?",
+          "a": "The available maps in CS Online are Sanctum, Yarimar, and Sumerra. You can choose a room by map or select a map when creating your own room."
+        },
+        {
+          "q": "What weapons can I use in CS Online?",
+          "a": "Weapons are selected with keys 1 through 9. The weapon list includes Ballistic Knife, Deagle, MP5KA4, STW-25, M87T, Blaser R93, RPG, M79, and M67."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-escape-car",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/escape-car/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity2/escape-car/index-og.html",
+    "slug": "escape-car",
+    "name": "Escape Car",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Police"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/escape-car-16cd7c2b.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/escape-car-16cd7c2b.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-12",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Steer through a mini-city chase, grab cash, drift around danger, and escape police cars, tanks, and helicopters.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Escape Car free in your browser, steer through a mini-city chase, grab stacks of cash, and dodge fast police cars, tanks, and helicopters.",
+      "about": "Escape Car is a top-down 3D driving game set in a compact city full of traffic and danger. You control a car with simple left and right steering, then try to stay ahead of the chase for as long as you can. Police cars close in behind you, while tanks and helicopters add more pressure. Along the way, you pick up stacks of cash and build your score with sharp drifts, quick fake-outs, and wrecked police cruisers.\nEach round is fast and easy to start, but it gets harder the longer you last. The fun comes from reading the chase, turning at the right moment, and using the city space to make pursuers miss. The two-button controls are simple, yet the timing can be tricky when several threats crowd the screen. Escape Car plays free in your browser with no download, install, or account needed.",
+      "highlights": [
+        "Top-down 3D chase through a mini-city",
+        "Dodge police cars, tanks, and helicopters",
+        "Collect stacks of cash while you drive",
+        "Simple two-button steering",
+        "Score with drifts, fake-outs, and crashes"
+      ],
+      "goodFor": "Escape Car is good for players who like quick driving rounds with simple controls and rising pressure. It fits anyone who enjoys drifting, dodging traffic, and chasing a higher score.",
+      "howToPlay": "Steer left or right through the city, collect cash, and avoid being caught by police cars, tanks, and helicopters. Your score goes up when you pull off tight drifts, trick pursuers, and cause police cruisers to crash. Stay alive as long as possible to earn more score and money.",
+      "touchHint": "Use touch steering to turn left or right",
+      "keys": [
+        "A / Left Arrow: Steer left",
+        "D / Right Arrow: Steer right"
+      ],
+      "tips": [
+        "Do not drive straight for too long; quick direction changes help make pursuers miss.",
+        "Use tight drifts near corners to turn away from danger without losing your route.",
+        "Go for cash when there is space around it, not when police cars are closing in.",
+        "Watch for tanks and helicopters early so you do not steer into a trap while escaping cars."
+      ],
+      "faq": [
+        {
+          "q": "Is Escape Car free to play?",
+          "a": "Yes. Escape Car is free to play in your browser, with no download, install, or account needed."
+        },
+        {
+          "q": "Can I play Escape Car on a phone or computer?",
+          "a": "Yes. Escape Car is an HTML5 browser game and is listed for mobile play. On a computer, use A or the Left Arrow to steer left and D or the Right Arrow to steer right."
+        },
+        {
+          "q": "What is the goal in Escape Car?",
+          "a": "The goal is to survive the chase as long as you can. Collect cash, avoid police cars, tanks, and helicopters, and build your score while staying on the road."
+        },
+        {
+          "q": "What are the controls for Escape Car?",
+          "a": "Use A or the Left Arrow to steer left. Use D or the Right Arrow to steer right."
+        },
+        {
+          "q": "How do you get a higher score in Escape Car?",
+          "a": "You score by lasting longer, collecting cash, making tight drifts, tricking pursuers, and causing police cruisers to crash."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-fps-strike",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/fps-strike/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/unity2/fps-strike/index-og.html",
+    "slug": "fps-strike",
+    "name": "FPS Strike",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Action",
+      "Arena",
+      "Army",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/fps-strike-20a4a478.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/fps-strike-20a4a478.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-12",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Enter fast first-person shooter matches, fight in arenas, and switch between 18+ weapons across five maps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play FPS Strike free in your browser. Join quick multiplayer shooter matches with Free-for-All, Team Deathmatch, five maps, and 18+ weapons.",
+      "about": "FPS Strike is a free browser shooter built around quick multiplayer battles. You join first-person combat rooms and start fighting without a long setup or a download. Matches take place on five different maps, with two match types: Free-for-All and Team Deathmatch. The weapon list has more than 18 options, including pistols for precise shots and sniper rifles that can take down a target with one strong hit. The action is seen from a first-person view, so aiming, movement, and timing matter in every fight.\nA round is fast and direct. Move through the arena, aim carefully, fire, reload, and change weapons when the fight shifts. You can jump over danger, crouch behind cover, check the scoreboard, pause, and open the weapon shop during play. Free-for-All pushes you to watch every direction, while Team Deathmatch gives you a side to fight with. The challenge comes from reacting quickly while choosing the right weapon for the distance and the situation. FPS Strike plays free in the browser with no download required.",
+      "highlights": [
+        "Free-for-All and Team Deathmatch modes",
+        "Five unique multiplayer maps",
+        "18+ weapons, from pistols to sniper rifles",
+        "Browser play with no download required",
+        "Scoreboard, crouch, reload, and weapon shop controls"
+      ],
+      "goodFor": "FPS Strike is good for players who want short, direct multiplayer shooter matches. It fits players who like arena combat, fast aiming, and switching weapons during a fight.",
+      "howToPlay": "Join a multiplayer room, move through the map, and shoot enemy players. In Free-for-All, fight for yourself; in Team Deathmatch, work with your side to beat the other team. Use aiming, reloading, crouching, jumping, and weapon swaps to stay alive and get more eliminations.",
+      "touchHint": "Use keyboard to move and mouse to aim and shoot",
+      "keys": [
+        "WASD or Arrow Keys: Move",
+        "Left Mouse Click: Fire",
+        "Right Mouse Click: Aim",
+        "Space: Jump",
+        "1, 2, 3, 4 or Mouse Scroll: Change weapon",
+        "R: Reload"
+      ],
+      "tips": [
+        "Use the right mouse button before firing at distant targets, especially with sniper rifles.",
+        "Switch weapons with number keys or the mouse wheel when a reload would take too long.",
+        "Reload after a fight so you do not run out of ammo in the next duel.",
+        "Learn the five maps so you can expect where close fights and long shots happen."
+      ],
+      "faq": [
+        {
+          "q": "Is FPS Strike free to play?",
+          "a": "Yes. FPS Strike is free to play in your browser, and no download is required."
+        },
+        {
+          "q": "Can I play FPS Strike on a phone or computer?",
+          "a": "FPS Strike is a browser game with keyboard and mouse controls listed. A computer is the safest choice because no touch controls are provided in the controls list."
+        },
+        {
+          "q": "What modes are in FPS Strike?",
+          "a": "FPS Strike includes Free-for-All and Team Deathmatch. Free-for-All is every player for themselves, while Team Deathmatch puts players on opposing teams."
+        },
+        {
+          "q": "How many maps and weapons does FPS Strike have?",
+          "a": "The game has five maps and more than 18 weapons. The weapon range includes pistols and sniper rifles."
+        },
+        {
+          "q": "What are the main controls in FPS Strike?",
+          "a": "Move with WASD or the arrow keys, fire with the left mouse button, and aim with the right mouse button. You can also jump with Space, reload with R, and change weapons with 1 through 4 or the mouse wheel."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
