@@ -131,25 +131,27 @@
   });
 
   /* ---------- "new games" bell ---------- */
-  // First visit: remember the time. Later: count games published after it. Opening the list resets the count.
+  // Counts games published since the last time the list was opened. A first visit counts the last 3 days.
   var bell = $('#bell'), nb = $('#nb'), panel = $('#newpanel');
   // Stored as a JSON string so lsGet can read it back.
   var seen = lsGet('egf_seen', null);
-  if (!seen) { seen = new Date().toISOString(); lsSet('egf_seen', JSON.stringify(seen)); }
-  var newGames = [];
+  if (!seen) { seen = new Date(Date.now() - 3 * 864e5).toISOString(); lsSet('egf_seen', JSON.stringify(seen)); }
+  var newGames = [], latest = [];
   var paintBell = function () { if (nb) nb.textContent = newGames.length ? (newGames.length > 99 ? '99+' : newGames.length) : ''; if (bell) bell.setAttribute('aria-label', newGames.length ? newGames.length + ' new games' : 'New games'); };
   EGF.index().then(function (d) {
     d.list.forEach(function (g, i) { g.at = (d.games[i] || [])[5] || ''; });
-    newGames = d.list.filter(function (g) { return g.at && g.at > seen; }).sort(function (a, b) { return a.at < b.at ? 1 : -1; });
+    latest = d.list.filter(function (g) { return g.at; }).sort(function (a, b) { return a.at < b.at ? 1 : -1; });
+    newGames = latest.filter(function (g) { return g.at > seen; });
     paintBell();
   });
   var closePanel = function () { if (panel && !panel.hidden) { panel.hidden = true; bell.setAttribute('aria-expanded', 'false'); } };
   if (bell) bell.onclick = function (e) {
     e.stopPropagation();
     if (!panel.hidden) return closePanel();
-    var list = newGames.slice(0, 10);
-    panel.innerHTML = '<div class="nph"><b>' + (list.length ? newGames.length + ' new game' + (newGames.length > 1 ? 's' : '') + ' since your last visit' : "You're all caught up") + '</b></div>' +
-      (list.length ? list.map(function (g) { return '<a class="rowl" href="' + g.url + '"><span class="tile" style="display:block">' + imgTag(g) + '</span><span><b>' + esc(g.name) + '</b><span class="s">' + esc(g.catName) + '</span></span></a>'; }).join('') : '<p class="npe">New games are added every day. Check back tomorrow.</p>') +
+    // Nothing new: still show the latest arrivals.
+    var list = (newGames.length ? newGames : latest).slice(0, newGames.length ? 10 : 5);
+    panel.innerHTML = '<div class="nph"><b>' + (newGames.length ? newGames.length + ' new game' + (newGames.length > 1 ? 's' : '') + ' since your last visit' : "You're all caught up. Latest games:") + '</b></div>' +
+      list.map(function (g) { return '<a class="rowl" href="' + g.url + '"><span class="tile" style="display:block">' + imgTag(g) + '</span><span><b>' + esc(g.name) + '</b><span class="s">' + esc(g.catName) + '</span></span></a>'; }).join('') +
       '<a class="npall" href="/new/">See all new games →</a>';
     panel.hidden = false; bell.setAttribute('aria-expanded', 'true');
     // Reset the count: everything up to now has been seen.
