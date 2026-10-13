@@ -85,6 +85,31 @@
       "status": "imported",
       "slug": "fps-strike",
       "at": "2026-10-12"
+    },
+    "https://www.onlinegames.io/real-flight-simulator/": {
+      "status": "imported",
+      "slug": "real-flight-simulator",
+      "at": "2026-10-13"
+    },
+    "https://www.onlinegames.io/highway-traffic/": {
+      "status": "imported",
+      "slug": "highway-traffic",
+      "at": "2026-10-13"
+    },
+    "https://www.onlinegames.io/basket-hoop/": {
+      "status": "imported",
+      "slug": "basket-hoop",
+      "at": "2026-10-13"
+    },
+    "https://www.onlinegames.io/get-on-top/": {
+      "status": "imported",
+      "slug": "get-on-top",
+      "at": "2026-10-13"
+    },
+    "https://www.onlinegames.io/edys-car-simulator/": {
+      "status": "imported",
+      "slug": "edys-car-simulator",
+      "at": "2026-10-13"
     }
   }
 }

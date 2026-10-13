@@ -1671,5 +1671,547 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-real-flight-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/real-flight-simulator/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2023/unity2/real-flight-simulator/index.html",
+    "slug": "real-flight-simulator",
+    "name": "Real Flight Simulator",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Airplane",
+      "Flying",
+      "Simulator"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/real-flight-simulator-9e37df3f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/real-flight-simulator-9e37df3f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-13",
+    "publishedAt": "2026-10-13T03:21:31.664Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Fly prop planes and jets, manage throttle and controls, and practice takeoffs, cruising, and landings.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Real Flight Simulator free in your browser, fly prop planes or jets, manage real-style controls, and practice landings on varied runways.",
+      "about": "Real Flight Simulator is a 3D flying game where you take control of aircraft in realistic skies. You can choose from multiple planes, including small propeller aircraft and larger jets, then take off from a variety of runways. The goal is not just to point the plane forward. You manage pitch, roll, rudder, and throttle while learning how each aircraft reacts in the air. Speed, turning, and stall behavior can feel different from one plane to another, so every flight asks for steady control.\nA round can be a calm cruise above the clouds or a careful landing attempt on a short runway. The controls are built around real flight-style inputs, so quick, rough moves can make the plane unstable. Small adjustments help you climb, turn, level out, and line up for landing. That makes the game fun for players who enjoy patient skill games with a learning curve. Real Flight Simulator plays free in the browser with no download, and it is accessible on desktop and mobile devices.",
+      "highlights": [
+        "Fly small propeller planes and larger jets",
+        "Take off from a variety of runways",
+        "Aircraft differ in speed, turning, and stall behavior",
+        "Full pitch, roll, rudder, and throttle controls",
+        "Free browser play with no download needed"
+      ],
+      "goodFor": "Good for players who like realistic flying controls, careful steering, and learning by practice. It also fits anyone who wants a relaxed cruise or a tense landing challenge.",
+      "howToPlay": "Choose an aircraft, add throttle, and use pitch, roll, and rudder to take off and stay steady in the air. Your goal is to control the plane smoothly, cruise safely, and line up for clean landings, especially on shorter runways.",
+      "touchHint": "Use on-screen controls on mobile devices",
+      "keys": [
+        "W / Up Arrow: Pitch down (nose down)",
+        "S / Down Arrow: Pitch up (climb)",
+        "A / D: Roll left or right",
+        "Q / E: Rudder left or right",
+        "Shift: Increase throttle",
+        "Ctrl: Decrease throttle"
+      ],
+      "tips": [
+        "Use small pitch and roll inputs; overcorrecting can send the plane into a spin.",
+        "Increase throttle with Shift before takeoff so the aircraft can build speed.",
+        "Use Ctrl to lower throttle when setting up a careful runway landing.",
+        "Expect each aircraft to handle differently, especially in turns and near a stall."
+      ],
+      "faq": [
+        {
+          "q": "Is Real Flight Simulator free to play?",
+          "a": "Yes. Real Flight Simulator plays free in your browser with no download or installation needed."
+        },
+        {
+          "q": "Can I play Real Flight Simulator on a phone or computer?",
+          "a": "Yes. The game is accessible on desktop and mobile devices. On a computer, you can use the keyboard controls listed on this page."
+        },
+        {
+          "q": "What is the goal in Real Flight Simulator?",
+          "a": "The goal is to control the aircraft through takeoff, flight, and landing. You can fly a relaxed route above the clouds or challenge yourself with a precise landing on a short runway."
+        },
+        {
+          "q": "What planes can I fly in Real Flight Simulator?",
+          "a": "You can choose from multiple aircraft, including small propeller planes and larger jets. Each one can feel different in speed, turning, and stall behavior."
+        },
+        {
+          "q": "What are the basic controls in Real Flight Simulator?",
+          "a": "Use W or the Up Arrow to pitch the nose down, and S or the Down Arrow to climb. A and D roll the plane, Q and E control the rudder, Shift increases throttle, and Ctrl decreases throttle."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-highway-traffic",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/highway-traffic/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity/highway-traffic/index.html",
+    "slug": "highway-traffic",
+    "name": "Highway Traffic",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Driving",
+      "Traffic",
+      "Endless"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/highway-traffic-00dc69d8.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/highway-traffic-00dc69d8.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-13",
+    "publishedAt": "2026-10-13T03:22:37.527Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Dodge unpredictable highway traffic, survive as long as you can, score points, and unlock upgrades.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Highway Traffic free in your browser. Dodge cars that slow, speed up, or stop suddenly, earn points, unlock upgrades, and try four modes.",
+      "about": "Highway Traffic is a 3D driving game about staying alive on a busy highway. Cars around you can slow down, speed up, or stop with no warning, so the goal is to avoid crashes for as long as possible. Longer runs give you more points and help unlock upgrades. The game also includes a wide range of car models, car styles, and weather settings, including clear daylight, night driving with headlights, and rainy roads.\nA run starts simple: get moving, choose safe lanes, and react fast when traffic changes. You can accelerate, steer, use the handbrake, and boost, but speed is only useful if you still have room to avoid other vehicles. The fun comes from reading traffic before it traps you, then squeezing through without hitting anything. Highway Traffic has four game modes and plays free in your browser with no download or install needed.",
+      "highlights": [
+        "Busy highway traffic that can stop or change speed suddenly",
+        "Score more by surviving longer without crashing",
+        "Unlock upgrades as you earn points",
+        "Car models, styles, and weather settings to change the run",
+        "Four game modes for extra variety"
+      ],
+      "goodFor": "Highway Traffic is good for players who like fast driving games with quick reactions. It also fits anyone who enjoys endless runs where focus matters more than pure speed.",
+      "howToPlay": "Drive along the highway and avoid hitting other vehicles. The longer you survive, the more points you earn and the more upgrades you can unlock. Use boost only when you have space, and use the handbrake when you need sharper control.",
+      "touchHint": "Use keyboard controls to drive in the browser",
+      "keys": [
+        "W or Up Arrow: Accelerate",
+        "A/D or Left/Right Arrow: Steer",
+        "Space Bar: Handbrake",
+        "Left Shift or F: Boost"
+      ],
+      "tips": [
+        "Watch several cars ahead, not just the one in front of you, because traffic can stop suddenly.",
+        "Do not boost into packed lanes; save it for open road where you have time to react.",
+        "Use the handbrake before a tight dodge instead of waiting until you are already beside another car.",
+        "Rain and night driving can change how the road feels, so leave more space when visibility or grip feels harder."
+      ],
+      "faq": [
+        {
+          "q": "Is Highway Traffic free to play?",
+          "a": "Yes. Highway Traffic plays free in your browser with no download or install required."
+        },
+        {
+          "q": "Can I play Highway Traffic on a phone or computer?",
+          "a": "Highway Traffic runs in a browser. The listed controls use a keyboard, so a computer with a keyboard is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in Highway Traffic?",
+          "a": "Your goal is to drive through busy highway traffic without crashing. The longer you survive, the more points you earn."
+        },
+        {
+          "q": "What are the controls for Highway Traffic?",
+          "a": "Use W or the Up Arrow to accelerate. Steer with A/D or the Left/Right Arrow keys, use Space Bar for the handbrake, and use Left Shift or F for boost."
+        },
+        {
+          "q": "Does Highway Traffic have different cars or modes?",
+          "a": "Yes. The game includes a wide range of car models and styles, weather settings such as sunny, night, and rain, plus four game modes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-basket-hoop",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/basket-hoop/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/construct/311/basket-hoop/index-og.html",
+    "slug": "basket-hoop",
+    "name": "Basket Hoop",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Ball",
+      "Basketball",
+      "Endless",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/basket-hoop-c955e2d1.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/basket-hoop-c955e2d1.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-13",
+    "publishedAt": "2026-10-13T03:23:37.533Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Click or tap to pop the ball into shifting hoops and score as many baskets as you can before time runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Basket Hoop free in your browser. Click or tap to bounce the ball into shifting hoops, beat the 5-second timer, and unlock 27 balls in the shop.",
+      "about": "Basket Hoop is a one-button basketball skill game about timing, gravity, and clean shots. You control a bouncing ball on a basketball court and try to send it through the hoop. Each make moves the net to a new spot, so every shot asks for a slightly different angle. The default field gives you 5 seconds to score, and unlocked fields can add extra time. You can also visit the Ball Shop to spend in-game coins on 27 unlockable balls, including tennis, volleyball, and golf ball styles.\nA round is simple to start but tricky to master. Click or tap anywhere to make the ball jump, including while it is already in the air. The challenge is to match your taps to the ball’s arc before the timer runs out. Miss the window and you restart, then try to beat your personal best. Fast makes and streaks can boost your score, so clean rhythm matters. Basket Hoop plays free in the browser on computers and phones.",
+      "highlights": [
+        "One-button basketball shots with mouse or tap controls",
+        "5-second scoring timer on the default field",
+        "New hoop position after every successful basket",
+        "27 unlockable balls in the Ball Shop",
+        "Unlock 5 more fields with extra time"
+      ],
+      "goodFor": "Basket Hoop is good for players who like quick sports challenges with simple controls. It suits anyone who enjoys timing shots, chasing high scores, and improving one run at a time.",
+      "howToPlay": "Click or tap anywhere to make the ball jump toward the hoop. You can tap again in mid-air to adjust the path, then score before the timer runs out. Each basket moves the hoop and keeps the run going, so aim for streaks and a higher personal best.",
+      "touchHint": "Tap anywhere to make the ball jump",
+      "keys": [
+        "Mouse: Click anywhere to shoot the ball",
+        "Touch: Tap anywhere to shoot the ball"
+      ],
+      "tips": [
+        "Use small, steady taps instead of rushed taps when the hoop is close.",
+        "Watch the starting guide path and copy that arc for cleaner early shots.",
+        "Tap in mid-air to correct the angle instead of waiting for the ball to fall.",
+        "Try unlocked balls and fields to find a speed and time limit that fits you."
+      ],
+      "faq": [
+        {
+          "q": "Is Basket Hoop free to play?",
+          "a": "Yes. Basket Hoop is free to play in your browser."
+        },
+        {
+          "q": "Can I play Basket Hoop on a phone or computer?",
+          "a": "Yes. On a computer, click with the mouse to shoot the ball. On a phone, tap the screen to shoot."
+        },
+        {
+          "q": "What is the goal in Basket Hoop?",
+          "a": "Your goal is to score as many baskets as possible before time runs out. Each successful shot creates a new hoop position for the next attempt."
+        },
+        {
+          "q": "How much time do I have to score?",
+          "a": "The default field gives you 5 seconds to make a basket. You can unlock 5 more fields that add extra time."
+        },
+        {
+          "q": "What can I unlock in Basket Hoop?",
+          "a": "The Ball Shop has 27 unlockable balls bought with in-game coins. Different balls can have different speed and path behavior."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-get-on-top",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/get-on-top/",
+    "embedUrl": "https://www.onlinegames.io/games/2024/code/6/get-on-top/index.html",
+    "slug": "get-on-top",
+    "name": "Get On Top",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "2 Player",
+      "Action",
+      "Physics",
+      "Stickman"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/get-on-top-55175c2c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/get-on-top-55175c2c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-13",
+    "publishedAt": "2026-10-13T03:24:39.995Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Wrestle a stickman rival with wild physics and try to force their head into the ground before yours hits.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Get On Top free in your browser. Wrestle with ragdoll physics, face the built-in AI, or battle a friend and pin their head to win each round.",
+      "about": "Get On Top is a physics-based stickman wrestling game about balance, timing, and messy momentum. Two fighters lock together on a small mat and try to stay upright while pushing, lifting, flipping, and dragging each other around. The goal is simple: make the other fighter’s head touch the ground while protecting your own. Because the characters move like ragdolls, a match can swing fast from total control to a sudden fall.\nYou can play against the built-in AI in 1 Player mode, or share one keyboard with a friend in 2 Player mode. Each round is short and physical, with limbs flailing and weight shifting in odd ways. The fun comes from learning how the pushes, jumps, and lifts work together, then using that chaos better than your opponent. Get On Top plays free in the browser with no download or account needed, and it also supports mobile play with on-screen buttons.",
+      "highlights": [
+        "Physics-based stickman wrestling",
+        "1 Player mode against the built-in AI",
+        "2 Player mode on the same keyboard",
+        "Win by forcing the other head to the ground",
+        "Mobile support with on-screen buttons"
+      ],
+      "goodFor": "Get On Top is good for players who like quick local battles, simple controls, and funny physics. It is especially fun with a friend on the same keyboard.",
+      "howToPlay": "Control your stickman and fight for position while staying off your head. Push, lift, and jump to flip your opponent and make their head hit the ground first. If your own head touches down, you lose the exchange.",
+      "touchHint": "Use the on-screen directional buttons",
+      "keys": [
+        "A, D: Left player move / push",
+        "W: Left player jump / lift",
+        "Left and Right arrows: Right player move / push",
+        "Up arrow: Right player jump / lift",
+        "On-screen directional buttons: Mobile controls"
+      ],
+      "tips": [
+        "Keep your head higher than your opponent’s before you start pushing hard.",
+        "Use the jump or lift control to break out when your body is folded under the other player.",
+        "Change direction if momentum starts pulling your head toward the floor.",
+        "Against a friend, wait for them to overpush, then lift and roll them over."
+      ],
+      "faq": [
+        {
+          "q": "Is Get On Top free to play?",
+          "a": "Yes. You can play Get On Top free in your browser with no download or account needed."
+        },
+        {
+          "q": "Can I play Get On Top on a phone or computer?",
+          "a": "Yes. On a computer, two players can share the keyboard. On a phone, use the on-screen directional buttons."
+        },
+        {
+          "q": "What is the goal in Get On Top?",
+          "a": "Your goal is to force the other stickman’s head into the ground while keeping your own head safe."
+        },
+        {
+          "q": "Can I play Get On Top alone?",
+          "a": "Yes. The game has a 1 Player mode where you wrestle against the built-in AI."
+        },
+        {
+          "q": "What are the controls for 2 Player mode?",
+          "a": "The left player uses A and D to move or push, and W to jump or lift. The right player uses the left and right arrow keys to move or push, and the up arrow to jump or lift."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-edys-car-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/edys-car-simulator/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity/edys-car-simulator/index.html",
+    "slug": "edys-car-simulator",
+    "name": "Edys Car Simulator",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Driving",
+      "Crash",
+      "Simulator"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/edys-car-simulator-ed60ce12.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/edys-car-simulator-ed60ce12.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-13",
+    "publishedAt": "2026-10-13T03:25:44.399Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive five vehicles around an open city, test off-road hills, haul a heavy stone, and experiment with physics.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Edys Car Simulator free in your browser, drive five vehicles through an open city, test off-road hills, and haul a heavy stone with no download.",
+      "about": "Edys Car Simulator is a free browser driving simulator set in an open city. There is no fixed mission or race route, so you choose what to do next. Pick from five vehicles: two sports cars, two pickup trucks, and a bus. You can cruise through the streets, look around the city, swap camera angles, or head for a dedicated off-road test track with sandy hills and sharp drops. The game also includes a load test system where you move a heavy gray stone and try hauling it around town.\nA round is more like a driving sandbox than a race. You steer, brake, switch vehicles, reset if you flip over, and repair damage when needed. The fun comes from testing how each vehicle handles speed, bumps, weight, and crashes. Telemetry readouts let you watch vehicle data, while slow-motion helps you study big impacts or tricky drops. Because it runs free in the browser with no download, it is easy to open, test a few stunts, and keep experimenting.",
+      "highlights": [
+        "Open city with no fixed mission or race route",
+        "Five vehicles: two sports cars, two pickups, and a bus",
+        "Off-road test track with sandy hills and sharp drops",
+        "Load-testing system with a heavy gray stone",
+        "Detailed vehicle physics with telemetry and slow-motion"
+      ],
+      "goodFor": "Good for players who enjoy open driving, vehicle testing, and physics crashes. It also fits anyone who wants a relaxed car sandbox instead of a strict race.",
+      "howToPlay": "Choose a vehicle and drive around the open city, off-road track, or load-test area. There is no set win condition, so your goal is to cruise, test handling, haul the stone, and experiment with crashes, camera angles, telemetry, and slow-motion.",
+      "touchHint": "Use a keyboard for steering, handbrake, and cameras",
+      "keys": [
+        "WASD or Arrow Keys: Steer the vehicle",
+        "Spacebar: Handbrake",
+        "Enter: Reset vehicle if tilted",
+        "C: Change camera angle",
+        "Tab or Page Up / Page Down: Select vehicle",
+        "R: Repair the vehicle"
+      ],
+      "tips": [
+        "Try a pickup truck on the sandy off-road track before testing faster vehicles.",
+        "Use C when hauling the stone so you can find a camera angle that shows turns clearly.",
+        "Press Enter if the vehicle tilts over, then use R if it needs repair.",
+        "Turn on slow-motion before big drops or crashes to watch how the physics react."
+      ],
+      "faq": [
+        {
+          "q": "Is Edys Car Simulator free to play?",
+          "a": "Yes. Edys Car Simulator plays free in the browser with no download required."
+        },
+        {
+          "q": "Can I play Edys Car Simulator on a phone or computer?",
+          "a": "The game runs in a browser, and the listed controls use keyboard keys. For the controls shown here, a computer is the clear fit."
+        },
+        {
+          "q": "What is the goal in Edys Car Simulator?",
+          "a": "There is no fixed mission or forced route. You can cruise the city, test vehicles on the off-road track, haul the heavy stone, or experiment with crashes and physics."
+        },
+        {
+          "q": "How many vehicles are in Edys Car Simulator?",
+          "a": "There are five vehicles: two sports cars, two pickup trucks, and a bus. You can switch vehicles while playing."
+        },
+        {
+          "q": "What are the main controls in Edys Car Simulator?",
+          "a": "Use WASD or the Arrow Keys to steer, Spacebar for the handbrake, Enter to reset a tilted vehicle, and C to change the camera angle. Other keys let you switch vehicles, repair, use slow-motion, and show telemetry."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

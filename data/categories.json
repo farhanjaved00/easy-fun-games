@@ -289,5 +289,38 @@
       "Arcade games keep things simple: one clear goal, easy controls and a score to beat. Tap at the right moment, dodge what is coming, or keep a run going as long as you can. You can learn most of them in a few seconds.",
       "That simplicity is what makes them so replayable. Each attempt takes a minute or less, so it is easy to say just one more try. They are perfect for short breaks on a phone, and many get faster or trickier the longer you survive, so there is always a new best score to chase."
     ]
+  },
+  {
+    "slug": "simulator",
+    "name": "Simulator",
+    "emoji": "🕹️",
+    "colors": [
+      "#FF8A00",
+      "#FF3F6C"
+    ],
+    "intro": "Simulator games let you try jobs, vehicles, and real-world tasks with simple tools and clear goals. They are free in the browser, and small choices feel hands-on.",
+    "about": [
+      "Simulator games copy parts of real activities in a simple way. You might fly a plane, park a vehicle, run a shop, care for animals, or manage a busy workspace. Many focus on steady practice instead of fast action, so you can learn the steps and improve over time.",
+      "Most simulator games use the keyboard to move, steer, or change speed, while the mouse helps you look around, click buttons, or use tools. Players who enjoy building skills, solving small problems, and taking their time often like this category."
+    ],
+    "why": [
+      "Practice real tasks in a safe way",
+      "Set your own pace and goals",
+      "Small details make progress feel earned"
+    ],
+    "faq": [
+      {
+        "q": "Do simulator games need realistic controls?",
+        "a": "Not always. Many use simple controls, while still giving you a sense of how the activity works."
+      }
+    ],
+    "controls": [
+      "WASD or arrow keys: Move or steer",
+      "Mouse: Look, select, and use tools",
+      "Spacebar: Brake, boost, or action"
+    ],
+    "auto": true,
+    "createdAt": "2026-10-13",
+    "model": "gpt-5.5"
   }
 ]
