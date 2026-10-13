@@ -154,8 +154,9 @@
       list.map(function (g) { return '<a class="rowl" href="' + g.url + '"><span class="tile" style="display:block">' + imgTag(g) + '</span><span><b>' + esc(g.name) + '</b><span class="s">' + esc(g.catName) + '</span></span></a>'; }).join('') +
       '<a class="npall" href="/new/">See all new games →</a>';
     panel.hidden = false; bell.setAttribute('aria-expanded', 'true');
-    // Reset the count: everything up to now has been seen.
-    seen = new Date().toISOString(); lsSet('egf_seen', JSON.stringify(seen)); newGames = []; paintBell();
+    // Reset the count: remember the newest game seen (not the clock), so games published later always count.
+    if (latest.length && latest[0].at > seen) seen = latest[0].at;
+    lsSet('egf_seen', JSON.stringify(seen)); newGames = []; paintBell();
   };
   document.addEventListener('click', function (e) { if (panel && !e.target.closest('#newpanel') && !e.target.closest('#bell')) closePanel(); });
   addEventListener('keydown', function (e) { if (e.key === 'Escape') closePanel(); });

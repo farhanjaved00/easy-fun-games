@@ -137,7 +137,7 @@ ${site.indexing ? '' : '  X-Robots-Tag: noindex\n'}
   Cache-Control: public, max-age=604800
 
 /search-index.json
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0, must-revalidate
 `);
 
 const redirects = [
