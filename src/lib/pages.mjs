@@ -65,8 +65,9 @@ export function home(m) {
     desc: fitDesc('Play free online games on your phone or computer. Puzzle, racing, shooter, .io, 2 player and kids games. New games every day. No download.'),
     body, scripts: [],
     ld: [
-      { '@type': 'Organization', name: 'EasyGameFun', url: B + '/', logo: B + '/icons/icon-512.png', email: m.site.email, ...(Object.values(m.site.social || {}).some(Boolean) ? { sameAs: Object.values(m.site.social).filter(Boolean) } : {}) },
-      { '@type': 'WebSite', name: 'EasyGameFun', url: B + '/', potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: B + '/search/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' } },
+      { '@type': 'Organization', '@id': B + '/#org', name: 'EasyGameFun', alternateName: 'Easy Game Fun', url: B + '/', logo: { '@type': 'ImageObject', url: B + '/icons/icon-512.png', width: 512, height: 512 }, email: m.site.email, ...(Object.values(m.site.social || {}).some(Boolean) ? { sameAs: Object.values(m.site.social).filter(Boolean) } : {}) },
+      // name + alternateName tell Google which site name to show in results.
+      { '@type': 'WebSite', '@id': B + '/#website', name: 'EasyGameFun', alternateName: ['Easy Game Fun', 'easygamefun.com'], url: B + '/', inLanguage: 'en', publisher: { '@id': B + '/#org' }, potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: B + '/search/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' } },
       faqLD(HOME_FAQ), listLD(B, 'New games', m.newest.slice(0, 10))
     ]
   };
