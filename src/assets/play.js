@@ -42,13 +42,19 @@
     setTimeout(function () { var ov = $('#ov'); if (ov) ov.remove(); }, 8000);
     box.appendChild(f);
     started = true;
-    // While the game has focus, keep the page still. Keys the game does not use
-    // (Space, arrows) would otherwise scroll the page under the player.
-    var lockY = null;
+    // Phones: play full screen, so swipes for the game never fight with page scrolling.
+    if (phone()) doMax();
+    // Computers: while the game has focus, keys the game does not use (Space, arrows) would scroll
+    // the page under the player, so keep it still. Any scroll the visitor starts on the page releases it.
+    if (!fineMouse) return;
+    var lockY = null, release = function () { lockY = null; };
     addEventListener('blur', function () { setTimeout(function () { if (document.activeElement === f) lockY = scrollY; }, 0); });
-    addEventListener('focus', function () { lockY = null; });
+    addEventListener('focus', release);
+    ['wheel', 'pointerdown', 'touchstart', 'keydown'].forEach(function (ev) { addEventListener(ev, release, { passive: true }); });
     addEventListener('scroll', function () { if (lockY !== null && document.activeElement === f && Math.abs(scrollY - lockY) > 2) scrollTo(0, lockY); }, { passive: true });
   }
+  var fineMouse = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  var phone = function () { return matchMedia('(pointer: coarse)').matches && Math.min(innerWidth, innerHeight) < 600; };
 
   // Sample games (no partner embed yet): run the built-in demo mini-game.
   function startDemo() {
