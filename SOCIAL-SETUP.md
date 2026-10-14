@@ -49,6 +49,20 @@ Notes:
 - Your app can stay in **Development mode**: you are the app's admin and the Page's admin, so it may post to your own Page and Instagram.
 - If Instagram asks for **Page Publishing Authorization**, open the Page on Facebook and complete it (identity check).
 
+## Instagram without linking to the Page ("Instagram login")
+
+Use this if Meta says "Connecting an Instagram profile to your Page isn't available".
+
+1. Instagram must be a **Professional (Business)** account.
+2. developers.facebook.com > your app > **Use cases** > Instagram > **Customize** > **API setup with Instagram login**.
+3. Step 1: click **Add all required permissions**.
+4. Step 2 **Generate access tokens**: click **Add account**, log in to `@easygamefun`, allow. Then click **Generate token** next to the account and copy it.
+   (If it asks for a tester first: App roles > Roles > **Add people** > Instagram Tester > `easygamefun`, then accept it in Instagram: Settings > Website permissions > Apps and websites > Tester invites.)
+5. On your Mac run `node scripts/connect-instagram.mjs` and paste the token. It checks the account.
+6. Add GitHub secrets: `IG_LOGIN_TOKEN` (the token) and `IG_APP_SECRET` (the **Instagram app secret** on the same page).
+
+The token lasts 60 days; the daily run renews it every week by itself.
+
 ## Part 4: Pinterest
 
 1. Create a **business account** at **pinterest.com/business/create** with the name `EasyGameFun` and website `easygamefun.com`.

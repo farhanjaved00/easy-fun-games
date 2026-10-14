@@ -6,6 +6,7 @@
 // A platform is used only when its secrets are set:
 //   Facebook   FB_PAGE_ID + META_PAGE_TOKEN
 //   Instagram  IG_USER_ID + META_PAGE_TOKEN          (images must be JPEG; captions cannot contain links)
+//              or IG_LOGIN_TOKEN + IG_APP_SECRET     ("Instagram login": no Facebook Page link needed)
 //   Pinterest  PINTEREST_APP_ID + PINTEREST_APP_SECRET + PINTEREST_BOARD_ID + PINTEREST_REFRESH_TOKEN
 // data/social.json logs what was posted, so nothing is posted twice.
 import fs from 'node:fs';
@@ -19,12 +20,15 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
 const LOG_FILE = path.join(DATA, 'social.json');
 const PIN_STATE = path.join(DATA, 'sources/pinterest-token.json');
+const IG_STATE = path.join(DATA, 'sources/instagram-token.json');
 const SITE = JSON.parse(fs.readFileSync(path.join(DATA, 'site.json'), 'utf8'));
 const B = process.env.SOCIAL_SITE_BASE || SITE.baseUrl;
 const PER_RUN = SITE.autopost?.perRun || 3;
 // The *_BASE variables exist only for testing against fake servers.
 const GRAPH = `${process.env.META_GRAPH_BASE || 'https://graph.facebook.com'}/${process.env.META_GRAPH_VERSION || 'v26.0'}`;
 const PIN_API = process.env.PINTEREST_API_BASE || 'https://api.pinterest.com';
+const IG_API = `${process.env.IG_GRAPH_BASE || 'https://graph.instagram.com'}/${process.env.META_GRAPH_VERSION || 'v26.0'}`;
+const IG_REFRESH = `${process.env.IG_GRAPH_BASE || 'https://graph.instagram.com'}/refresh_access_token`;
 const env = process.env;
 const now = () => new Date().toISOString();
 const mode = process.argv[2];
@@ -35,7 +39,7 @@ const saveLog = () => fs.writeFileSync(LOG_FILE, JSON.stringify(log, null, 2) + 
 
 const PLATFORMS = {
   facebook: !!(env.FB_PAGE_ID && env.META_PAGE_TOKEN),
-  instagram: !!(env.IG_USER_ID && env.META_PAGE_TOKEN),
+  instagram: !!(env.IG_USER_ID && env.META_PAGE_TOKEN) || !!(env.IG_LOGIN_TOKEN && env.IG_APP_SECRET),
   pinterest: !!(env.PINTEREST_APP_ID && env.PINTEREST_APP_SECRET && env.PINTEREST_BOARD_ID && (env.PINTEREST_REFRESH_TOKEN || fs.existsSync(PIN_STATE)))
 };
 const enabled = Object.keys(PLATFORMS).filter(k => PLATFORMS[k]);
@@ -129,6 +133,7 @@ async function postFacebook(g, c, img) {
 }
 
 async function postInstagram(g, c, img) {
+  if (!(env.IG_USER_ID && env.META_PAGE_TOKEN)) return postInstagramLogin(g, c, img);
   const container = await graph(`/${env.IG_USER_ID}/media`, { image_url: img.square, caption: c.instagram, alt_text: c.altText });
   for (let i = 0; i < 12; i++) {
     const r = await fetch(`${GRAPH}/${container.id}?fields=status_code&access_token=${encodeURIComponent(env.META_PAGE_TOKEN)}`).then(r => r.json());
@@ -140,22 +145,60 @@ async function postInstagram(g, c, img) {
   return j.id;
 }
 
-// Pinterest refresh tokens rotate; the newest one is kept encrypted (with the app secret) in the repo.
-const pinKey = () => crypto.createHash('sha256').update(`${env.PINTEREST_APP_SECRET}:easygamefun`).digest();
-function loadPinRefresh() {
+// Tokens that rotate are kept encrypted (keyed by an app secret) in data/sources/, so the repo never holds them in plain text.
+const keyOf = secret => crypto.createHash('sha256').update(`${secret}:easygamefun`).digest();
+function loadSecret(file, secret) {
   try {
-    const s = JSON.parse(fs.readFileSync(PIN_STATE, 'utf8'));
-    const d = crypto.createDecipheriv('aes-256-gcm', pinKey(), Buffer.from(s.iv, 'base64'));
+    const s = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const d = crypto.createDecipheriv('aes-256-gcm', keyOf(secret), Buffer.from(s.iv, 'base64'));
     d.setAuthTag(Buffer.from(s.tag, 'base64'));
-    return Buffer.concat([d.update(Buffer.from(s.data, 'base64')), d.final()]).toString('utf8');
-  } catch { return env.PINTEREST_REFRESH_TOKEN; }
+    return { token: Buffer.concat([d.update(Buffer.from(s.data, 'base64')), d.final()]).toString('utf8'), savedAt: s.savedAt };
+  } catch { return null; }
 }
-function savePinRefresh(token) {
+function saveSecret(file, secret, token) {
   const iv = crypto.randomBytes(12);
-  const c = crypto.createCipheriv('aes-256-gcm', pinKey(), iv);
+  const c = crypto.createCipheriv('aes-256-gcm', keyOf(secret), iv);
   const data = Buffer.concat([c.update(token, 'utf8'), c.final()]);
-  fs.mkdirSync(path.dirname(PIN_STATE), { recursive: true });
-  fs.writeFileSync(PIN_STATE, JSON.stringify({ iv: iv.toString('base64'), tag: c.getAuthTag().toString('base64'), data: data.toString('base64'), savedAt: now() }, null, 2) + '\n');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, JSON.stringify({ iv: iv.toString('base64'), tag: c.getAuthTag().toString('base64'), data: data.toString('base64'), savedAt: now() }, null, 2) + '\n');
+}
+const loadPinRefresh = () => loadSecret(PIN_STATE, env.PINTEREST_APP_SECRET)?.token || env.PINTEREST_REFRESH_TOKEN;
+const savePinRefresh = token => saveSecret(PIN_STATE, env.PINTEREST_APP_SECRET, token);
+
+// Instagram login tokens last 60 days; each run renews it once a week and saves the new one.
+let igAuth = null;
+async function instagramAuth() {
+  if (igAuth) return igAuth;
+  const saved = loadSecret(IG_STATE, env.IG_APP_SECRET);
+  let token = saved?.token || env.IG_LOGIN_TOKEN;
+  const ageDays = saved ? (Date.now() - Date.parse(saved.savedAt)) / 864e5 : Infinity;
+  if (ageDays > 7) {
+    const r = await fetch(`${IG_REFRESH}?grant_type=ig_refresh_token&access_token=${encodeURIComponent(token)}`).then(r => r.json()).catch(() => ({}));
+    if (r.access_token) { token = r.access_token; saveSecret(IG_STATE, env.IG_APP_SECRET, token); }
+    else if (saved && env.IG_LOGIN_TOKEN && token !== env.IG_LOGIN_TOKEN) token = env.IG_LOGIN_TOKEN; // saved one is dead: try the secret
+  }
+  const me = await fetch(`${IG_API}/me?fields=user_id,username&access_token=${encodeURIComponent(token)}`).then(r => r.json()).catch(() => ({}));
+  if (!me.user_id) { const e = new Error(`Instagram login failed: ${me.error?.message || 'no account'}`); e.auth = true; throw e; }
+  igAuth = { token, id: me.user_id };
+  return igAuth;
+}
+async function igCall(pathname, params, auth) {
+  const res = await fetch(`${IG_API}${pathname}`, { method: 'POST', body: new URLSearchParams({ ...params, access_token: auth.token }) });
+  const j = await res.json().catch(() => ({}));
+  if (!res.ok || j.error) { const e = new Error(j.error?.message || `HTTP ${res.status}`); e.auth = res.status === 401 || j.error?.code === 190 || j.error?.code === 10 || j.error?.code === 200; throw e; }
+  return j;
+}
+async function postInstagramLogin(g, c, img) {
+  const auth = await instagramAuth();
+  const container = await igCall(`/${auth.id}/media`, { image_url: img.square, caption: c.instagram }, auth);
+  for (let i = 0; i < 12; i++) {
+    const r = await fetch(`${IG_API}/${container.id}?fields=status_code&access_token=${encodeURIComponent(auth.token)}`).then(r => r.json());
+    if (r.status_code === 'FINISHED') break;
+    if (r.status_code === 'ERROR' || r.status_code === 'EXPIRED') throw new Error(`Instagram could not process the image (${r.status_code})`);
+    await new Promise(res => setTimeout(res, 5000));
+  }
+  const j = await igCall(`/${auth.id}/media_publish`, { creation_id: container.id }, auth);
+  return j.id;
 }
 let pinAccess = null;
 async function pinterestToken() {
