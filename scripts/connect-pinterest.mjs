@@ -50,9 +50,14 @@ try {
     const pick = boards.length ? await ask('Board number to post to (or press Enter to create "Free Online Games"): ') : '';
     if (pick && boards[+pick - 1]) board = boards[+pick - 1];
     else {
-      const r = await fetch('https://api.pinterest.com/v5/boards', { method: 'POST', headers: { ...auth, 'Content-Type': 'application/json' }, body: JSON.stringify({ name: 'Free Online Games', description: 'Free browser games you can play instantly on phone, tablet and PC at easygamefun.com', privacy: 'PUBLIC' }) });
+      const r = await fetch('https://api.pinterest.com/v5/boards', { method: 'POST', headers: { ...auth, 'Content-Type': 'application/json' }, body: JSON.stringify({ name: 'Free Online Games', description: 'Free browser games you can play instantly on phone, tablet and PC. No download needed.', privacy: 'PUBLIC' }) });
       board = await r.json();
-      if (!board.id) throw new Error(board.message || 'Could not create the board');
+      if (!board.id) {
+        console.log(`\n   Could not create the board: ${board.message || r.status}`);
+        console.log('   Create a board called "Free Online Games" on pinterest.com yourself, then run this again.\n');
+        console.log(`   PINTEREST_REFRESH_TOKEN (save it now, it works without the board) = ${t.refresh_token}\n`);
+        throw new Error('No board yet');
+      }
       console.log('   Created the board "Free Online Games".');
     }
   }
