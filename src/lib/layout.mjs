@@ -97,6 +97,7 @@ ${p.keywords ? `<meta name="keywords" content="${esc(p.keywords)}">\n` : ''}<met
 <meta name="publisher" content="EasyGameFun">
 ${p.path === null ? '' : `<link rel="canonical" href="${esc(url)}">\n`}<meta name="theme-color" content="#0A0918" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F4F5FF" media="(prefers-color-scheme: light)">
+${p.path === '/' && site.verify?.pinterest ? `<meta name="p:domain_verify" content="${esc(site.verify.pinterest)}">\n` : ''}
 <meta property="og:site_name" content="EasyGameFun">
 <meta property="og:type" content="${p.ogType || 'website'}">
 <meta property="og:title" content="${esc(p.title)}">
