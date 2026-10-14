@@ -110,6 +110,31 @@
       "status": "imported",
       "slug": "edys-car-simulator",
       "at": "2026-10-13"
+    },
+    "https://www.onlinegames.io/dublix/": {
+      "status": "imported",
+      "slug": "dublix",
+      "at": "2026-10-14"
+    },
+    "https://www.onlinegames.io/crazy-strike-force/": {
+      "status": "imported",
+      "slug": "crazy-strike-force",
+      "at": "2026-10-14"
+    },
+    "https://www.onlinegames.io/police-chase-drifter/": {
+      "status": "imported",
+      "slug": "police-chase-drifter",
+      "at": "2026-10-14"
+    },
+    "https://www.onlinegames.io/checkout-frenzy/": {
+      "status": "imported",
+      "slug": "checkout-frenzy",
+      "at": "2026-10-14"
+    },
+    "https://www.onlinegames.io/drunken-duel/": {
+      "status": "imported",
+      "slug": "drunken-duel",
+      "at": "2026-10-14"
     }
   }
 }

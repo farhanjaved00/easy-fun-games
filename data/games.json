@@ -2213,5 +2213,541 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-dublix",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/dublix/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity4/dublix/game-og.html",
+    "slug": "dublix",
+    "name": "Dublix",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Multiplayer",
+      "Racing",
+      "Parkour",
+      "Music"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/dublix-aefcbd29.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/dublix-aefcbd29.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-14",
+    "publishedAt": "2026-10-14T03:20:58.633Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Explore Dublix with other players, earn coins in races, maze runs, parkour, and a music festival.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Dublix free in your browser and earn coins through the race track, maze, parkour course, and music festival with other players in a 3D world.",
+      "about": "Dublix is a free online multiplayer adventure set in a bright 3D world where you choose what to do next. Your main progress comes from earning coins in activities, then spending them to decorate your house and customize your character in the Wardrobe. The map includes a race track in the upper right corner, a maze reached through a portal, a multi-section parkour course, and a music festival on the shore at night.\nA play session is relaxed because you can wander, meet other players, and switch activities whenever you want. The race track is simple to start: find an open car, drive the course, and roll over coins to collect them. The maze is about testing turns until you find the exit, and you can leave it with the interact key if you get stuck. Parkour is trickier, with jumps and flags that let you continue from a reached section after a fall. It plays free in the browser, so you can focus on exploring and building up coins.",
+      "highlights": [
+        "Online multiplayer 3D world",
+        "Race track with collectible coins",
+        "Maze portal with an exit to find",
+        "Challenging parkour with flag checkpoints",
+        "Night music festival on the shore"
+      ],
+      "goodFor": "Dublix is good for players who like open multiplayer worlds with several small activities. It fits you if you want racing, maze exploring, parkour, and social spaces in one browser game.",
+      "howToPlay": "Move around the 3D world and choose an activity: race track, maze, parkour, or music festival. Earn coins by taking part in activities; on the race track, drive over coins to pick them up automatically. Spend coins on house decorations and character customization in the Wardrobe.",
+      "touchHint": "Use the keyboard to move, jump, run, and interact",
+      "keys": [
+        "WASD / Arrow keys: Move",
+        "Spacebar: Jump",
+        "Left Shift: Run",
+        "E: Interact"
+      ],
+      "tips": [
+        "Go to the upper right corner of the map to find the race track and start coin runs quickly.",
+        "On the race track, steer directly over coins because they are collected automatically when you drive through them.",
+        "In the maze, try turns in a steady pattern, and press E if you want to leave before finding the exit.",
+        "In parkour, focus on reaching each flag; after that, a fall lets you continue from that section."
+      ],
+      "faq": [
+        {
+          "q": "Is Dublix free to play?",
+          "a": "Yes. Dublix plays free in your browser."
+        },
+        {
+          "q": "Can I play Dublix on a phone or computer?",
+          "a": "Dublix plays in the browser, and its controls are keyboard controls. A computer keyboard is recommended because touch controls are not given."
+        },
+        {
+          "q": "What do you do in Dublix?",
+          "a": "You explore a multiplayer 3D world and choose activities such as the race track, maze, parkour course, and music festival. You can earn coins and use them for house decoration and character customization."
+        },
+        {
+          "q": "How do you earn coins in Dublix?",
+          "a": "Coins come from taking part in activities. On the race track, you collect them by driving over the coins along the course."
+        },
+        {
+          "q": "How does the parkour work in Dublix?",
+          "a": "The parkour has multiple sections and is meant to be challenging. Reach the flags as you go, because they let you continue from that section after falling."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-crazy-strike-force",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/crazy-strike-force/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity/crazy-strike-force/index.html",
+    "slug": "crazy-strike-force",
+    "name": "Crazy Strike Force",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "First Person Shooter",
+      "Battle Royale",
+      "Weapons",
+      "Action"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/crazy-strike-force-e167de06.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/crazy-strike-force-e167de06.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-14",
+    "publishedAt": "2026-10-14T03:22:12.385Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Customize a soldier, choose from 20+ weapons, and battle real players in fast first-person matches.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Crazy Strike Force free in your browser, customize your soldier, equip skills, and battle real online players with more than 20 weapons.",
+      "about": "Crazy Strike Force is a free online multiplayer first-person shooter built around fast battles against real players. You play as a customizable soldier and fight with a large armory of more than 20 weapons. The weapon list includes choices such as the Magnum, MP5K, M870, SC-AR, MGL, Tommy gun, M4A1, AWP, and Crossbow. You can also equip skills like Quickdraw ammo, Silence Walker, Samurai, UAV Ghost, and Sitrep to help your loadout fit the way you play.\nEach match rewards sharp aim, good movement, and smart positioning. You can host your own room and set details like the room name, player count, game mode, round timer, bot count, and map. That lets you make a quick free-for-all or a more planned squad shootout with friends. The game plays free in your browser on desktop, with no download or install needed.",
+      "highlights": [
+        "Online first-person battles against real players",
+        "More than 20 weapons, including rifles, shotguns, and a crossbow",
+        "Custom rooms with map, timer, bots, and player count settings",
+        "Skills such as UAV Ghost, Sitrep, Samurai, and Quickdraw ammo",
+        "Desktop browser play with no download needed"
+      ],
+      "goodFor": "Crazy Strike Force is for players who like fast shooting matches with many weapon choices. It also fits players who want to host custom rooms and shape battles with friends.",
+      "howToPlay": "Pick your soldier setup, enter a match, and use your weapons and skills to beat opposing players. Move carefully, aim before you fire, and use pickups, medkits, and weapon swaps to stay in the fight. In custom rooms, the host can set the mode, map, timer, bot count, and player count.",
+      "touchHint": "Use mouse and keyboard on desktop",
+      "keys": [
+        "WASD or Arrow Keys: Move",
+        "Left Click: Fire",
+        "Right Click: Aim",
+        "Space: Jump",
+        "Left Shift: Run",
+        "E or F: Interact or pick up weapon"
+      ],
+      "tips": [
+        "Aim down sights before taking longer shots, especially with precision weapons like the AWP or Crossbow.",
+        "Use running, crouching, sliding, and jumping to make yourself harder to hit during close fights.",
+        "Pick skills that match your plan, such as Quickdraw ammo for faster weapon pressure or UAV Ghost for stealthier play.",
+        "Host a custom room when you want a specific map, timer, bot count, or player limit instead of a standard match."
+      ],
+      "faq": [
+        {
+          "q": "Is Crazy Strike Force free to play?",
+          "a": "Yes. Crazy Strike Force is free to play in your browser with no download or install needed."
+        },
+        {
+          "q": "Can I play Crazy Strike Force on a phone or computer?",
+          "a": "The game is described for desktop browser play and uses mouse and keyboard controls. For the best control, play on a computer."
+        },
+        {
+          "q": "What is the goal in Crazy Strike Force?",
+          "a": "The goal is to win fast first-person shooting battles against real players. Good aim, movement, positioning, and smart weapon choices all matter."
+        },
+        {
+          "q": "How many weapons are in Crazy Strike Force?",
+          "a": "There are more than 20 weapons. The armory includes options like the Magnum, MP5K, M870, SC-AR, MGL, Tommy gun, M4A1, AWP, and Crossbow."
+        },
+        {
+          "q": "Can I make a custom room in Crazy Strike Force?",
+          "a": "Yes. You can host a room and set its name, player count, game mode, round timer, bot count, and map."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-police-chase-drifter",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/police-chase-drifter/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/3/police-chase-drifter/index.html",
+    "slug": "police-chase-drifter",
+    "name": "Police Chase Drifter",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Police"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/police-chase-drifter-e6932dd5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/police-chase-drifter-e6932dd5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-14",
+    "publishedAt": "2026-10-14T03:23:14.402Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Collect city cash, drift through tight turns, and upgrade your car while police try to stop your run.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Police Chase Drifter free in your browser. Collect city cash, follow arrows, drift tight corners, and upgrade your car to outrun police.",
+      "about": "Police Chase Drifter is a free browser driving game about staying ahead of the law in a busy city. Cash is scattered around the streets, and on-screen arrows point you toward the next payout. Your goal is to grab as much money as you can while a group of police cars tries to ram you off course. Between chases, you can use your earnings in the garage to buy and upgrade a ride that is faster and tougher.\nEach run is built around fast steering, sharp corner reading, and controlled drifting. The longer the chase lasts, the harder it becomes to keep the police away. Smart turns matter more than simply holding the gas. If you drift through a tight bend at the right time, chasing cars can crash into obstacles and drop out of the pursuit. Police Chase Drifter plays free in the browser with no download needed.",
+      "highlights": [
+        "Collect scattered cash across the city",
+        "Follow arrows to find the next money pickup",
+        "Police cars chase and try to ram you",
+        "Spend earnings in the garage on cars and upgrades",
+        "Drifting can make pursuers crash into obstacles"
+      ],
+      "goodFor": "Police Chase Drifter is good for players who like car games with quick decisions and skill-based turns. It is especially fun if you enjoy drifting under pressure while trying to earn upgrades.",
+      "howToPlay": "Drive through the city and follow the on-screen arrows to reach scattered cash. Avoid the police as long as you can, use drifts to take sharp corners, and spend earned money in the garage on better cars and upgrades.",
+      "touchHint": "Use mobile driving controls to steer, brake, and go",
+      "keys": [
+        "WASD / Arrow keys: Steer, accelerate, and brake"
+      ],
+      "tips": [
+        "Follow the arrows first so you do not waste time searching for cash.",
+        "Use tight corners to your advantage; police cars can hit obstacles while chasing you.",
+        "Do not hold the accelerator through every turn. Slow or brake before sharp corners so your drift stays controlled.",
+        "Spend cash in the garage when you can, because a faster and tougher car helps as chases get harder."
+      ],
+      "faq": [
+        {
+          "q": "Is Police Chase Drifter free to play?",
+          "a": "Yes. Police Chase Drifter is free to play in your browser with no download required."
+        },
+        {
+          "q": "Can I play Police Chase Drifter on a phone or computer?",
+          "a": "Yes. The game is browser-based and supports mobile play. On a computer, use WASD or the arrow keys to drive."
+        },
+        {
+          "q": "What is the goal in Police Chase Drifter?",
+          "a": "Collect cash around the city while police cars chase you. Use the on-screen arrows to find money, then spend your earnings in the garage on cars and upgrades."
+        },
+        {
+          "q": "How do I control the car in Police Chase Drifter?",
+          "a": "Use WASD or the arrow keys to steer, accelerate, and brake. The main skill is controlling your drift through corners instead of just driving straight at full speed."
+        },
+        {
+          "q": "How do I lose the police in Police Chase Drifter?",
+          "a": "Take tight turns and time your drifts so pursuing cars crash into obstacles. Keeping control through corners is the best way to make the chase easier."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-checkout-frenzy",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/checkout-frenzy/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity/checkout-frenzy/index-og.html",
+    "slug": "checkout-frenzy",
+    "name": "Checkout Frenzy",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Organizing",
+      "Simulator",
+      "Tycoon",
+      "3D"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/checkout-frenzy-2f74ec9b.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/checkout-frenzy-2f74ec9b.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-14",
+    "publishedAt": "2026-10-14T03:24:18.879Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Run a small store by ordering stock, setting prices, scanning groceries, and handling cash or card payments.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Checkout Frenzy free in your browser and run a busy store by stocking shelves, setting prices, scanning items, and giving correct change.",
+      "about": "Checkout Frenzy is a 3D store management game where you work as both cashier and shop owner. You begin with a register, a computer, and an empty store. From there, you order furniture such as shelves, fridges, and freezers, then bring product boxes inside and stock them in the right places. Chips and candy go on shelves, milk and eggs go in fridges, frozen foods go in freezers, and produce goes on grocery shelves. You can also set prices for each product and arrange the store layout.\nA round is busy because you are always choosing what to do next. You open the front door sign, serve customers at the register, scan each item, and handle card or cash payments. Card payments need the correct total on the POS, while cash payments require the right change. If prices are too high, customers may leave. As your store grows, you can hire a cashier or cleaner for one day, buy more floor space, and add more stock. Checkout Frenzy plays free in the browser.",
+      "highlights": [
+        "Order shelves, fridges, freezers, and products from the computer",
+        "Stock each product type in the correct store fixture",
+        "Set prices while watching market price and profit",
+        "Scan items and handle cash or card payments",
+        "Hire a cashier or cleaner for one day when the store gets busy"
+      ],
+      "goodFor": "Checkout Frenzy is good for players who like organizing, store management, and quick tasks under pressure. It works well if you enjoy building a small business step by step while still doing hands-on cashier work.",
+      "howToPlay": "Start by using the store computer to order furniture and products, then carry the boxes inside and stock the correct shelves. Set fair prices, flip the sign to Open, and check out customers by scanning items and handling their card or cash payments correctly. Earn money to expand the shop, hire help, and keep the store running smoothly.",
+      "touchHint": "Use WASD and mouse to run the store",
+      "keys": [
+        "WASD: Move around the store",
+        "Drag left click: Look around",
+        "Left Click: Pick up boxes, scan items, place goods, rotate furniture, and confirm purchases"
+      ],
+      "tips": [
+        "Put each item in the right fixture: dry goods on shelves, cold goods in fridges, and frozen foods in freezers.",
+        "Keep prices near the market price. Higher prices can raise profit, but customers may leave if they feel overcharged.",
+        "Rotate shelves before placing them so customers have clear paths through the store.",
+        "At the register, check the payment type first. Card payments need the exact total, and cash payments need correct change."
+      ],
+      "faq": [
+        {
+          "q": "Is Checkout Frenzy free to play?",
+          "a": "Yes. Checkout Frenzy is free to play in your browser."
+        },
+        {
+          "q": "Can I play Checkout Frenzy on a phone or computer?",
+          "a": "Checkout Frenzy plays in the browser. The listed controls use WASD and the mouse, so a computer is the clearest way to play."
+        },
+        {
+          "q": "What do you do in Checkout Frenzy?",
+          "a": "You run a small store from behind the counter and on the sales floor. You order furniture and products, stock shelves, set prices, scan groceries, and handle customer payments."
+        },
+        {
+          "q": "How do card and cash payments work?",
+          "a": "For card payments, enter the correct total on the POS. For cash payments, choose the right bills and coins to give exact change."
+        },
+        {
+          "q": "Can you hire workers in Checkout Frenzy?",
+          "a": "Yes. When you have enough money, you can use the computer to hire a cashier for checkouts or a cleaner to help keep the store tidy. Workers are hired for one day only."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-drunken-duel",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/drunken-duel/",
+    "embedUrl": "https://www.onlinegames.io/games/2024/code/2/drunken-duel/index.html",
+    "slug": "drunken-duel",
+    "name": "Drunken Duel",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "2 Player",
+      "Ragdoll",
+      "Physics",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/drunken-duel-d6a9d034.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/drunken-duel-d6a9d034.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-14",
+    "publishedAt": "2026-10-14T03:25:17.678Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Shoot with wobbly ragdolls in a silly duel where the first player to win five rounds takes the match.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Drunken Duel free in your browser, shoot with one-button ragdoll controls, and win five rounds against AI or a friend on the same device.",
+      "about": "Drunken Duel is a 2D ragdoll shooting battle about two unsteady stickman fighters trying to settle a table dispute with a duel. The goal is simple: knock down your opponent and win five rounds before they do. You can play against the computer or challenge a friend on the same device. Each player has only one shoot button, so the chaos comes from timing, physics, and the fighters’ swinging arms.\nEach round starts with both fighters wobbling around while their weapons point in changing directions. A normal shot lowers the other player’s health, while a headshot can win the round right away. Falling over does not end the round, because you can use recoil to push yourself back up. Shots can also break bottles and lamps, adding to the messy feel. Drunken Duel plays free in the browser, making it easy to start a quick match alone or with a friend.",
+      "highlights": [
+        "Play against AI or a friend on the same device",
+        "One-button shooting for each player",
+        "Ragdoll physics with swinging arms and weak balance",
+        "Headshots can win a round instantly",
+        "First player to win five rounds takes the match"
+      ],
+      "goodFor": "Good for players who like funny physics battles and quick same-device matches. It is especially fun with a friend because every shot can change the duel in a strange way.",
+      "howToPlay": "Choose AI or 2-player mode, then wait for your ragdoll’s arm to swing into a useful angle before shooting. Damage your opponent until their health bar is empty, or land a headshot to win the round at once. Win five rounds to take the game.",
+      "touchHint": "Tap the on-screen shoot button",
+      "keys": [
+        "W: Shoot for the left player",
+        "Up Arrow: Shoot for the right player"
+      ],
+      "tips": [
+        "Do not fire the instant the round starts; wait until your arm points near the opponent.",
+        "Aim for the head when the angle lines up, because one headshot can end the round.",
+        "Watch the health bars at the top so you know when to play safer or take a risk.",
+        "If you fall down, shoot downward to use recoil and push your fighter back up."
+      ],
+      "faq": [
+        {
+          "q": "Is Drunken Duel free to play?",
+          "a": "Yes. Drunken Duel is free to play in your browser."
+        },
+        {
+          "q": "Can I play Drunken Duel on a phone or computer?",
+          "a": "Yes. On a computer, the left player shoots with W and the right player shoots with the Up Arrow. On a phone or tablet, use the touchscreen buttons."
+        },
+        {
+          "q": "How do you win in Drunken Duel?",
+          "a": "Win five rounds before your opponent. You win a round by emptying the opponent’s health bar or landing a headshot."
+        },
+        {
+          "q": "Can two players play Drunken Duel together?",
+          "a": "Yes. Pick 2-player mode to play with a friend on the same device."
+        },
+        {
+          "q": "What happens if my fighter falls over?",
+          "a": "Falling down does not mean you lose. Try shooting downward so the recoil helps your ragdoll stand back up."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
