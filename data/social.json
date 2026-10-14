@@ -145,6 +145,11 @@
     "facebook": {
       "id": "1391730527349943_122104185033505504",
       "at": "2026-10-14T03:26:36.675Z"
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Apps with Trial access may not create Pins in production https://api.pinterest.com - use API Sandbox https://api-sandbox.pinterest.com instead.",
+      "at": "2026-10-14T15:02:00.951Z"
     }
   },
   "checkout-frenzy": {
