@@ -228,14 +228,20 @@ async function postPinterest(g, c, img) {
     body: JSON.stringify({ board_id: env.PINTEREST_BOARD_ID, title: c.pinterestTitle, description: c.pinterestDescription, link: `${B}/game/${g.slug}/`, alt_text: c.altText, media_source: { source_type: 'image_url', url: img.pin } })
   });
   const j = await res.json().catch(() => ({}));
-  if (!res.ok) { const e = new Error(j.message || `HTTP ${res.status}`); e.auth = res.status === 401 || res.status === 403; throw e; }
+  if (!res.ok) {
+    const e = new Error(j.message || `HTTP ${res.status}`);
+    // Until Pinterest approves Standard access, Pins cannot be created: wait quietly, nothing is counted as failed.
+    if (/trial access/i.test(e.message)) e.waiting = 'Pinterest is waiting for Standard access approval';
+    else e.auth = res.status === 401 || res.status === 403;
+    throw e;
+  }
   return j.id;
 }
 
 const POSTERS = { facebook: postFacebook, instagram: postInstagram, pinterest: postPinterest };
 
 /* ---------------- post ---------------- */
-const blocked = new Set();
+const blocked = new Set(), waiting = new Set();
 let posted = 0, failed = 0;
 for (const g of next) {
   const img = { square: `${B}/social/${g.slug}-sq.jpg`, pin: `${B}/social/${g.slug}-pin.jpg` };
@@ -250,6 +256,7 @@ for (const g of next) {
       posted++;
       console.log(`- ${g.slug}: posted to ${p} (${id})`);
     } catch (e) {
+      if (e.waiting) { waiting.add(p); blocked.add(p); console.log(`- ${p}: ${e.waiting}. Skipping it for now.`); continue; }
       failed++;
       const prev = log[g.slug][p] || {};
       log[g.slug][p] = { ...prev, fails: (prev.fails || 0) + 1, lastError: e.message.slice(0, 200), at: now() };
@@ -260,4 +267,4 @@ for (const g of next) {
   }
 }
 console.log(`Done: ${posted} post(s), ${failed} failure(s), ${Math.max(0, queue.length - next.length)} game(s) still waiting.`);
-if (blocked.size) process.exit(1); // login problems: make the run show as failed so you get an email
+if ([...blocked].some(p => !waiting.has(p))) process.exit(1); // login problems: make the run show as failed so you get an email
