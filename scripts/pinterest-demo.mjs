@@ -79,7 +79,11 @@ const code = await new Promise((resolve, reject) => {
     res.end('<body style="font:20px system-ui;padding:40px">Pinterest access granted. Back to the app...</body>');
     server.close();
     u.searchParams.get('state') === state ? resolve(u.searchParams.get('code')) : reject(new Error('State check failed'));
-  }).listen(8085, () => open(authUrl));
+  }).listen(8085, () => {
+    // DEMO_AUTH_URL_FILE: hand the sign-in link to a helper that opens it in a specific browser tab.
+    if (process.env.DEMO_AUTH_URL_FILE) fs.writeFileSync(process.env.DEMO_AUTH_URL_FILE, authUrl);
+    else open(authUrl);
+  });
 });
 const basic = 'Basic ' + Buffer.from(`${appId}:${appSecret}`).toString('base64');
 const tok = await fetch('https://api.pinterest.com/v5/oauth/token', {
