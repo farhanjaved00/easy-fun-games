@@ -26,6 +26,9 @@ console.log('this app creates one Pin for it on our own Pinterest board, linking
 console.log('Enter these BEFORE you start recording (the screen is cleared afterwards):');
 const appId = await ask('App ID: ');
 const appSecret = await ask('App secret key: ');
+// Trial apps create Pins only in the sandbox, which needs its own token:
+// app page > Generate Access Tokens > select "Sandbox" > Generate token.
+const sandboxToken = await ask('Sandbox token (press Enter to skip if you have Standard access): ');
 console.clear();
 await ask('Start your screen recording now (Cmd+Shift+5), then press Enter... ');
 console.clear();
@@ -63,8 +66,8 @@ const tok = await fetch('https://api.pinterest.com/v5/oauth/token', {
 }).then(r => r.json());
 if (!tok.access_token) { console.log('   Login failed:', tok.message); process.exit(1); }
 console.log('   Signed in. Access token received (kept private, never shown).');
-const auth = { Authorization: `Bearer ${tok.access_token}`, 'Content-Type': 'application/json' };
-const me = await fetch('https://api.pinterest.com/v5/user_account', { headers: auth }).then(r => r.json());
+const authProd = { Authorization: `Bearer ${tok.access_token}`, 'Content-Type': 'application/json' };
+const me = await fetch('https://api.pinterest.com/v5/user_account', { headers: authProd }).then(r => r.json());
 console.log(`   Connected account: @${me.username || 'easygamefun'}`);
 await pause(2000);
 
@@ -72,6 +75,7 @@ await pause(2000);
 const pinImage = `${SITE.baseUrl}/social/${g.slug}-pin.jpg`;
 const imageUrl = (await fetch(pinImage, { method: 'HEAD' })).ok ? pinImage : `${SITE.baseUrl}${g.thumb.url}`;
 async function boardAndPin(API, showSteps) {
+  const auth = API.includes('sandbox') ? { Authorization: `Bearer ${sandboxToken}`, 'Content-Type': 'application/json' } : authProd;
   if (showSteps) await step(3, 'The app finds our board "Free Online Games"');
   const boards = (await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || [];
   let board = boards.find(b => /free online games/i.test(b.name));
@@ -94,9 +98,11 @@ async function boardAndPin(API, showSteps) {
 let API = 'https://api.pinterest.com';
 let pin = await boardAndPin(API, true);
 if (!pin.id && /trial access/i.test(pin.message || '')) {
+  if (!sandboxToken) { console.log('   Our app has Trial access: run again with a Sandbox token to show the Pin.'); process.exit(1); }
   API = 'https://api-sandbox.pinterest.com';
   console.log('   Our app has Trial access, so this Pin is created in the Pinterest sandbox:');
   pin = await boardAndPin(API, false);
+  if (pin.id) console.log(`   Board (sandbox): Free Online Games`);
 }
 if (!pin.id) { console.log('   Pin failed:', pin.message); process.exit(1); }
 console.log(`   Pin created: ${pin.id}${API.includes('sandbox') ? ' (sandbox)' : ''}`);
