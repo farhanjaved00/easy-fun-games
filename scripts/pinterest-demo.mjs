@@ -38,7 +38,7 @@ const sandboxToken = pick('PINTEREST_SANDBOX_TOKEN') || await ask('Sandbox token
 console.clear();
 await ask('Press Enter to start. The screen recording starts and stops by itself... ');
 console.clear();
-// Record the whole screen to the Desktop; screencapture stops when it gets a key on stdin.
+// Record the whole screen to the Desktop; it is stopped (and saved) with Ctrl+C, sent below.
 const VIDEO = path.join(process.env.HOME, 'Desktop', 'pinterest-demo.mov');
 try { fs.unlinkSync(VIDEO); } catch {}
 const rec = spawn('screencapture', ['-v', '-x', VIDEO], { stdio: ['pipe', 'ignore', 'ignore'] });
@@ -49,7 +49,7 @@ if (!recording) console.log('(Automatic recording is not allowed here: record wi
 const stopRecording = async () => {
   if (!recording) return;
   await pause(4000);
-  rec.stdin.write('q\n');
+  rec.kill('SIGINT'); // screencapture saves the video when interrupted
   await new Promise(r => rec.on('exit', r));
   console.log(`\n\x1b[32mVideo saved: ${VIDEO}\x1b[0m`);
 };
