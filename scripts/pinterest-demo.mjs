@@ -79,7 +79,9 @@ async function boardAndPin(API, showSteps) {
   if (showSteps) await step(3, 'The app finds our board "Free Online Games"');
   const find = async () => ((await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || []).find(b => /free online games/i.test(b.name));
   let board = await find();
-  if (!board) board = await fetch(`${API}/v5/boards`, { method: 'POST', headers: auth, body: JSON.stringify({ name: 'Free Online Games', description: 'Free browser games you can play instantly on phone, tablet and PC.' }) }).then(r => r.json());
+  // The sandbox can hide boards it already has, so it gets a fresh, uniquely named one.
+  const name = API.includes('sandbox') ? `Free Online Games ${Date.now().toString(36)}` : 'Free Online Games';
+  if (!board || API.includes('sandbox')) board = await fetch(`${API}/v5/boards`, { method: 'POST', headers: auth, body: JSON.stringify({ name, description: 'Free browser games you can play instantly on phone, tablet and PC.' }) }).then(r => r.json());
   if (!board.id) { await pause(3000); board = await find() || board; }
   if (!board.id) return { message: `Could not make the board: ${board.message || 'unknown error'}` };
   if (showSteps) { console.log(`   Board: ${board.name} (${board.id})`); await pause(2000); }
