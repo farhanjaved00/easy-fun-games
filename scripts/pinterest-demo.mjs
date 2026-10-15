@@ -77,9 +77,12 @@ const imageUrl = (await fetch(pinImage, { method: 'HEAD' })).ok ? pinImage : `${
 async function boardAndPin(API, showSteps) {
   const auth = API.includes('sandbox') ? { Authorization: `Bearer ${sandboxToken}`, 'Content-Type': 'application/json' } : authProd;
   if (showSteps) await step(3, 'The app finds our board "Free Online Games"');
-  const boards = (await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || [];
+  const sandbox = API.includes('sandbox');
+  // The sandbox has its own boards: always make one there (it may list the real boards, which it cannot use).
+  const boards = sandbox ? [] : (await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || [];
   let board = boards.find(b => /free online games/i.test(b.name));
   if (!board) board = await fetch(`${API}/v5/boards`, { method: 'POST', headers: auth, body: JSON.stringify({ name: 'Free Online Games', description: 'Free browser games you can play instantly on phone, tablet and PC.' }) }).then(r => r.json());
+  if (!board.id) return { message: `Could not make the board: ${board.message || 'unknown error'}` };
   if (showSteps) { console.log(`   Board: ${board.name} (${board.id})`); await pause(2000); }
   const body = {
     board_id: board.id,
