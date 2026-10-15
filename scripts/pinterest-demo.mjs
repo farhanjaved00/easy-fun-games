@@ -77,11 +77,10 @@ const imageUrl = (await fetch(pinImage, { method: 'HEAD' })).ok ? pinImage : `${
 async function boardAndPin(API, showSteps) {
   const auth = API.includes('sandbox') ? { Authorization: `Bearer ${sandboxToken}`, 'Content-Type': 'application/json' } : authProd;
   if (showSteps) await step(3, 'The app finds our board "Free Online Games"');
-  const sandbox = API.includes('sandbox');
-  // The sandbox has its own boards: always make one there (it may list the real boards, which it cannot use).
-  const boards = sandbox ? [] : (await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || [];
-  let board = boards.find(b => /free online games/i.test(b.name));
+  const find = async () => ((await fetch(`${API}/v5/boards?page_size=50`, { headers: auth }).then(r => r.json())).items || []).find(b => /free online games/i.test(b.name));
+  let board = await find();
   if (!board) board = await fetch(`${API}/v5/boards`, { method: 'POST', headers: auth, body: JSON.stringify({ name: 'Free Online Games', description: 'Free browser games you can play instantly on phone, tablet and PC.' }) }).then(r => r.json());
+  if (!board.id) { await pause(3000); board = await find() || board; }
   if (!board.id) return { message: `Could not make the board: ${board.message || 'unknown error'}` };
   if (showSteps) { console.log(`   Board: ${board.name} (${board.id})`); await pause(2000); }
   const body = {
@@ -96,7 +95,11 @@ async function boardAndPin(API, showSteps) {
     await step(4, `The app creates one Pin for the new game "${g.name}"`);
     console.log(`   Title: ${body.title}\n   Link:  ${body.link}\n   Image: ${body.media_source.url}`);
   }
-  return fetch(`${API}/v5/pins`, { method: 'POST', headers: auth, body: JSON.stringify(body) }).then(r => r.json());
+  const create = () => fetch(`${API}/v5/pins`, { method: 'POST', headers: auth, body: JSON.stringify(body) }).then(r => r.json());
+  let pin = await create();
+  // A board that was just made can take a few seconds to be ready.
+  for (let i = 0; i < 3 && !pin.id && /board not found/i.test(pin.message || ''); i++) { await pause(4000); pin = await create(); }
+  return pin;
 }
 let API = 'https://api.pinterest.com';
 let pin = await boardAndPin(API, true);
