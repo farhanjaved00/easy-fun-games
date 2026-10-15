@@ -322,5 +322,38 @@
     "auto": true,
     "createdAt": "2026-10-13",
     "model": "gpt-5.5"
+  },
+  {
+    "slug": "idle",
+    "name": "Idle",
+    "emoji": "⏱️",
+    "colors": [
+      "#8B6CFF",
+      "#FF5CB8"
+    ],
+    "intro": "Idle games let you earn coins, points, or upgrades while you tap, wait, and plan. They are free in the browser and fun because progress keeps moving.",
+    "about": [
+      "Idle games are about steady growth and simple choices. You often start with one tap to earn coins, points, or items. Then you buy upgrades that help the game produce more on its own, even when you pause to think.",
+      "Most controls are easy: click, tap, or choose buttons from a menu. Players who enjoy calm goals, collecting, and small rewards like this style. It works well for short visits, since you can make a choice, upgrade, and come back later. Many games add new characters, themes, or effects as milestones are reached."
+    ],
+    "why": [
+      "Progress continues with little effort",
+      "Upgrades make each choice feel useful",
+      "Easy to play in short breaks"
+    ],
+    "faq": [
+      {
+        "q": "Do idle games keep going when I stop playing?",
+        "a": "Many idle games keep producing rewards for a while after you leave, but the rules vary. Check the game's upgrade or timer labels to see what continues."
+      }
+    ],
+    "controls": [
+      "Click or tap: Earn rewards",
+      "Menu buttons: Buy upgrades",
+      "Mouse or touch: Collect bonuses"
+    ],
+    "auto": true,
+    "createdAt": "2026-10-15",
+    "model": "gpt-5.5"
   }
 ]

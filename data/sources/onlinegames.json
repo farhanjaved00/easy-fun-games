@@ -135,6 +135,31 @@
       "status": "imported",
       "slug": "drunken-duel",
       "at": "2026-10-14"
+    },
+    "https://www.onlinegames.io/capybara-clicker-pro/": {
+      "status": "imported",
+      "slug": "capybara-clicker-pro",
+      "at": "2026-10-15"
+    },
+    "https://www.onlinegames.io/warstrike/": {
+      "status": "imported",
+      "slug": "warstrike",
+      "at": "2026-10-15"
+    },
+    "https://www.onlinegames.io/velocity-rush/": {
+      "status": "imported",
+      "slug": "velocity-rush",
+      "at": "2026-10-15"
+    },
+    "https://www.onlinegames.io/highway-racer-pro/": {
+      "status": "imported",
+      "slug": "highway-racer-pro",
+      "at": "2026-10-15"
+    },
+    "https://www.onlinegames.io/armedforces-io/": {
+      "status": "imported",
+      "slug": "armedforces-io",
+      "at": "2026-10-15"
     }
   }
 }

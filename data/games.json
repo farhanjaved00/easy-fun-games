@@ -2749,5 +2749,529 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-capybara-clicker-pro",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/capybara-clicker-pro/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/q2/capybara-clicker-pro/index.html",
+    "slug": "capybara-clicker-pro",
+    "name": "Capybara Clicker Pro",
+    "category": "idle",
+    "mature": false,
+    "tags": [
+      "Animal",
+      "Clicker",
+      "Cute",
+      "Endless"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/capybara-clicker-pro-baccbe74.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/capybara-clicker-pro-baccbe74.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-15",
+    "publishedAt": "2026-10-15T03:21:05.681Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Tap the cute capybara, earn coins, buy boosters, and unlock new characters and weather effects.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Capybara Clicker Pro free in your browser and tap the capybara to earn coins, buy boosters, unlock characters, and change the weather effects.",
+      "about": "Capybara Clicker Pro is a cute idle clicker game about earning Capybara coins. You tap the capybara to build your total, then spend those coins on boosters that raise your income from clicks or add coins every second. As your numbers grow, you can open the character menu with the t-shirt icon and unlock new looks, including Capycorn, Kapybaru, Capybored, Camobara, and Cosmic Capybara. You can also use the cloud icon to view weather choices such as rainy, snowy, sunny, and starry scenes.\nEach round is simple to start: click or tap, watch the coins rise, and decide which upgrade to buy next. The fun comes from turning small gains into bigger jumps with boosters such as Professional Clicker, Robot, Glitch Clicker, and Factory. Repeated clicking can also fill a pink bar in the lower left corner, which gives double coin earnings when full. Capybara Clicker Pro plays free in the browser.",
+      "highlights": [
+        "Tap the capybara to earn Capybara coins",
+        "Boost clicks and idle income with upgrades",
+        "Unlock cute capybara characters",
+        "Change the scene with unlockable weather",
+        "Fill the pink bar for double coin earnings"
+      ],
+      "goodFor": "Capybara Clicker Pro is good for players who like relaxed clicker games with steady progress. It is easy to play in short sessions, but the upgrades give you a reason to keep building your coin total.",
+      "howToPlay": "Click or tap the capybara to earn coins. Spend coins on boosters on the right side to increase coins per click or coins earned every second. Keep earning and upgrading to unlock more characters and weather options.",
+      "touchHint": "Tap the capybara to earn coins",
+      "keys": [
+        "Click or tap the capybara: Earn coins"
+      ],
+      "tips": [
+        "Buy boosters often, because they raise either click income or idle coins per second.",
+        "Use the t-shirt icon to check which capybara characters you have unlocked.",
+        "Open the cloud icon to view weather choices you can unlock as you progress.",
+        "When the pink bar appears, keep clicking until it fills to earn double coins."
+      ],
+      "faq": [
+        {
+          "q": "Is Capybara Clicker Pro free to play?",
+          "a": "Yes. Capybara Clicker Pro is free to play in your browser."
+        },
+        {
+          "q": "Can I play Capybara Clicker Pro on a phone or computer?",
+          "a": "Yes. The game supports tapping and mouse clicking, so you can play on a phone, tablet, or computer."
+        },
+        {
+          "q": "What is the goal in Capybara Clicker Pro?",
+          "a": "The goal is to earn as many Capybara coins as you can. You tap the capybara, buy boosters, and unlock new characters and weather effects."
+        },
+        {
+          "q": "What do boosters do in Capybara Clicker Pro?",
+          "a": "Boosters increase how many coins you earn per click or every second. Examples include Professional Clicker, Robot, Glitch Clicker, and Factory."
+        },
+        {
+          "q": "How do I unlock new capybara characters?",
+          "a": "Keep earning coins and progressing. You can view unlocked characters by using the t-shirt icon at the top of the game screen."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-warstrike",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/warstrike/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/unity3/warstrike/index-og.html",
+    "slug": "warstrike",
+    "name": "WarStrike",
+    "category": "shooter",
+    "mature": true,
+    "tags": [
+      "Action",
+      "Battle",
+      "First Person Shooter",
+      "Gun"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/warstrike-ec2fa81a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/warstrike-ec2fa81a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-15",
+    "publishedAt": "2026-10-15T03:22:10.877Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Play as an elite special soldier in a 3D first-person shooter with story missions and multiplayer battles.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play WarStrike free in your browser, a 3D first-person shooter with 24 story chapters, global threats, deadly viruses, and quick multiplayer battles.",
+      "about": "WarStrike is a 3D first-person shooter with gun combat, war themes, and mature violence. In the campaign, you play as an elite MI-6 Special Soldier sent into a critical mission. The story runs through 24 chapters and centers on global threats, deadly viruses, and the push for justice. Each chapter has its own scenario and mission duties, so the campaign is built around more than simple target practice. The focus is on military action, story progress, and dangerous missions in a serious setting.\nA round can be a story chapter or a quick multiplayer battle. In campaign play, you follow the mission, fight through hostile situations, and move the story forward chapter by chapter. In multiplayer, the pace is faster and gives you a shorter way to test the shooting action without starting a long campaign session. WarStrike is free to play in your browser, with intense gunfights and a serious military setting for older players.",
+      "highlights": [
+        "3D first-person shooter action",
+        "Campaign with 24 story chapters",
+        "Play as an elite MI-6 Special Soldier",
+        "Story about global threats and deadly viruses",
+        "Quick multiplayer battles"
+      ],
+      "goodFor": "WarStrike is for players who like serious first-person shooters with gun combat and mission-based action. It is not meant for young children because it includes mature shooting violence.",
+      "howToPlay": "Choose the campaign to work through story chapters, or enter quick multiplayer battles for faster fights. In campaign mode, complete the duties for each chapter to push the mission and story forward. In multiplayer, focus on winning gunfights and reacting quickly to enemy pressure.",
+      "touchHint": "Use mouse and keyboard; check in-game prompts",
+      "keys": [],
+      "tips": [
+        "Start with the campaign if you want to learn the mission flow before multiplayer battles.",
+        "Pay attention to each chapter’s scenario, since the duties can change from mission to mission.",
+        "In quick multiplayer battles, expect action right away and stay ready for close fights.",
+        "Follow the objective of the mission instead of only chasing every fight you see."
+      ],
+      "faq": [
+        {
+          "q": "Is WarStrike free to play?",
+          "a": "Yes. WarStrike is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play WarStrike on a phone or computer?",
+          "a": "WarStrike plays in a browser. For the best control in a first-person shooter, use a computer with mouse and keyboard if available."
+        },
+        {
+          "q": "What is the goal in WarStrike?",
+          "a": "In the campaign, your goal is to complete mission duties across 24 story chapters as an elite special soldier. The story deals with global threats, deadly viruses, and justice."
+        },
+        {
+          "q": "Does WarStrike have multiplayer?",
+          "a": "Yes. WarStrike includes quick multiplayer battles if you want a faster match instead of a longer campaign session."
+        },
+        {
+          "q": "How many chapters are in WarStrike?",
+          "a": "The campaign has 24 chapters. Each chapter has its own scenario and mission duties."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-velocity-rush",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/velocity-rush/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/velocity-rush/game.html",
+    "slug": "velocity-rush",
+    "name": "Velocity Rush",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Avoid",
+      "Ball",
+      "Parkour"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/velocity-rush-2dcf6921.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/velocity-rush-2dcf6921.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-15",
+    "publishedAt": "2026-10-15T03:23:25.825Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Steer a speeding golf ball through obstacle courses filled with gaps, traps, and spinning hazards.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Velocity Rush free in your browser and steer a speeding golf ball through 3D courses packed with gaps, traps, and spinning hazards at high speed.",
+      "about": "Velocity Rush is a free arcade game where you guide a fast-moving golf ball through 3D obstacle courses. This is not a quiet putting challenge. The ball rolls forward at high speed while each course throws hazards in your path. You need to steer around traps, jump over gaps, avoid spinning obstacles, and stay on narrow platforms as they appear ahead of you. The clean, minimal view keeps the camera close behind the ball so the next danger is easy to spot.\nEach run is built around quick timing and sharp reactions. The controls are easy to understand: move left or right, jump, hold jump for extra height, change the view when needed, and pause if you need a break. The tricky part is staying calm as the speed rises and the safe spaces get tighter. A short mistake can send the ball off the platform, so every turn and jump matters. Velocity Rush plays free in your browser with no download, and it works on both desktop and mobile devices.",
+      "highlights": [
+        "Fast golf ball rolling through 3D obstacle courses",
+        "Gaps, traps, spinning hazards, and narrow platforms",
+        "Simple movement with higher jumps when you hold the key",
+        "Close behind-the-ball camera for quick reactions",
+        "Playable free in the browser with no install"
+      ],
+      "goodFor": "Velocity Rush is good for players who like fast arcade challenges, obstacle dodging, and short skill-based runs. It fits anyone who enjoys simple controls with tight timing.",
+      "howToPlay": "Guide the ball forward through each obstacle course while avoiding gaps, traps, and spinning hazards. Move left or right to line up safe paths, then jump at the right moment to clear danger. Hold the jump key when you need extra height.",
+      "touchHint": "Use mobile controls to steer and jump",
+      "keys": [
+        "A or Left Arrow: Move left",
+        "D or Right Arrow: Move right",
+        "W, Up Arrow, or Spacebar: Jump",
+        "Hold W, Up Arrow, or Spacebar: Jump higher",
+        "C: Change view",
+        "ESC: Pause"
+      ],
+      "tips": [
+        "Use small left and right movements at high speed so you do not overcorrect on narrow platforms.",
+        "Hold the jump key for larger gaps, but tap it for smaller hazards so you land sooner.",
+        "Stay near the center of the path when you can; it gives you room to react to sudden traps.",
+        "Use C to change the view if you need a better angle on the next platform or hazard."
+      ],
+      "faq": [
+        {
+          "q": "Is Velocity Rush free to play?",
+          "a": "Yes. Velocity Rush is free to play in your browser, with no download or install required."
+        },
+        {
+          "q": "Can I play Velocity Rush on a phone or computer?",
+          "a": "Yes. The game works on both desktop and mobile devices, so you can play in a browser on either one."
+        },
+        {
+          "q": "What is the goal of Velocity Rush?",
+          "a": "Your goal is to guide the rolling golf ball through obstacle courses while avoiding gaps, traps, spinning hazards, and narrow platforms."
+        },
+        {
+          "q": "What are the controls for Velocity Rush?",
+          "a": "Use A or the Left Arrow to move left, and D or the Right Arrow to move right. Jump with W, the Up Arrow, or Spacebar, and hold the jump key to jump higher."
+        },
+        {
+          "q": "Can I change the camera view in Velocity Rush?",
+          "a": "Yes. Press C to change the view, which can help you read the path and line up the next move."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-highway-racer-pro",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/highway-racer-pro/",
+    "embedUrl": "https://www.onlinegames.io/games/2024/unity/highway-racer-pro/index.html",
+    "slug": "highway-racer-pro",
+    "name": "Highway Racer Pro",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Driving",
+      "Traffic",
+      "Endless"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/highway-racer-pro-d9012be6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/highway-racer-pro-d9012be6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-15",
+    "publishedAt": "2026-10-15T03:24:29.523Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive fast through heavy highway traffic, cut between cars, and avoid crashes in this 3D racer.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Highway Racer Pro free in your browser and drive fast through heavy 3D highway traffic, cutting between cars while avoiding crashes on every run",
+      "about": "Highway Racer Pro is a 3D driving game about pushing through busy road traffic at high speed. You drive on crowded highways where cars fill the lanes, and your goal is to keep moving forward while finding safe gaps. The game focuses on traffic driving, close passes, speed, and the risk of crashes when you get too bold. It is built for quick reactions, careful lane choices, and the thrill of squeezing through traffic without making contact.\nEach run is about reading the road ahead and choosing when to switch lanes or hold your line. Heavy traffic makes every move matter, because a gap can close fast and a small mistake can end the run. The fun comes from balancing speed with control: you want to move quickly, but you also need enough space to recover. It is a good fit for players who like fast car games with simple goals and skill-based driving. You can play Highway Racer Pro free in your browser on EasyGameFun.",
+      "highlights": [
+        "3D highway driving with heavy traffic",
+        "Fast car action built around close gaps",
+        "Crash risk when you push too hard",
+        "Endless-style traffic racing",
+        "Free to play in the browser"
+      ],
+      "goodFor": "Highway Racer Pro is good for players who enjoy fast driving, traffic dodging, and quick reaction challenges. It fits anyone who likes car games where every lane change matters.",
+      "howToPlay": "Drive through the highway traffic and keep your car moving as long as you can. Watch the cars ahead, cut through open spaces, and avoid crashes by choosing gaps early.",
+      "touchHint": "Check the in-game controls before driving",
+      "keys": [],
+      "tips": [
+        "Look farther down the road, not only at the car in front of you.",
+        "Do not force a lane change if the gap is already closing.",
+        "Stay steady when traffic gets dense so you have room to react.",
+        "Use close passes only when you can clearly return to a safe line."
+      ],
+      "faq": [
+        {
+          "q": "Is Highway Racer Pro free to play?",
+          "a": "Yes. You can play Highway Racer Pro for free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Highway Racer Pro on a phone or computer?",
+          "a": "Highway Racer Pro plays in the browser. Check the in-game control screen when it loads, since no fixed controls are listed here."
+        },
+        {
+          "q": "What is the goal in Highway Racer Pro?",
+          "a": "The goal is to drive through heavy highway traffic, move between cars, and avoid crashing while you keep going."
+        },
+        {
+          "q": "What kind of game is Highway Racer Pro?",
+          "a": "It is a 3D car racing and driving game focused on speed, traffic, close gaps, and crash avoidance."
+        },
+        {
+          "q": "Does Highway Racer Pro have crashes?",
+          "a": "Yes. Crashes are part of the challenge, so careful timing and smart lane choices matter."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-armedforces-io",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/armedforces-io/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/armedforces-io/index.html",
+    "slug": "armedforces-io",
+    "name": "ArmedForces.io",
+    "category": "io",
+    "mature": false,
+    "tags": [
+      "Action",
+      "Army",
+      "Battle",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/armedforces-io-dbd22777.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/armedforces-io-dbd22777.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-15",
+    "publishedAt": "2026-10-15T03:25:35.364Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Build a loadout, fight enemy forces on 3D maps, and survive team or everyone-for-themselves battles.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play ArmedForces.io free in your browser, build loadouts from eight weapons, and fight enemy forces across 3D maps with team modes or solo modes.",
+      "about": "ArmedForces.io is a 3D first-person shooter about fighting enemy forces across different maps. You enter battles with a custom loadout and choose from eight weapons. The game includes several mode choices, so you can play beside a team or try to survive when every rival is against you. Its focus is quick action, weapon choice, and staying alive in armed combat. The army theme, guns, armor, and battle setting make each match feel direct and tense without a long setup.\nEach round starts with your gear choices. Pick a weapon setup, move into the map, and react fast as opponents appear. The tricky part is deciding when to push forward, when to stay with teammates, and how to use your loadout well. As you progress, you can adjust your arsenal with items such as silencers or weapon sights. That gives you ways to shape how your weapon feels in battle. ArmedForces.io plays free in the browser, so you can start a match without installing anything.",
+      "highlights": [
+        "3D first-person shooting action",
+        "Various maps and multiple game mode choices",
+        "Team battles or everyone-against-everyone survival",
+        "Eight weapons for building your loadout",
+        "Silencers and weapon sights unlock as you progress"
+      ],
+      "goodFor": "ArmedForces.io is a good fit for players who like fast multiplayer shooting and loadout choices. It is also for players who enjoy team fights as well as battles where every rival is a threat.",
+      "howToPlay": "Choose your loadout from the available weapons, then enter a map and fight enemy forces. Survive by using your weapon well, staying aware of rivals, and working with your team when the mode allows it.",
+      "touchHint": "Use mouse and keyboard for browser play",
+      "keys": [],
+      "tips": [
+        "Set your loadout before the fight so you know which weapon you are relying on.",
+        "In team battles, stay close enough to teammates so enemies cannot isolate you easily.",
+        "When playing against everyone else, avoid rushing into the middle of every fight at once.",
+        "As new arsenal options appear, try sights or silencers to match how you prefer to shoot."
+      ],
+      "faq": [
+        {
+          "q": "Is ArmedForces.io free to play?",
+          "a": "Yes. ArmedForces.io is free to play in your browser."
+        },
+        {
+          "q": "Can I play ArmedForces.io on a phone or computer?",
+          "a": "You can play it on a computer in the browser. No phone-specific controls are listed here, so mouse and keyboard play is the clearest option."
+        },
+        {
+          "q": "What is the goal in ArmedForces.io?",
+          "a": "The goal is to fight enemy forces and survive the battle. Depending on the mode, you may be fighting with a team or against everyone else."
+        },
+        {
+          "q": "How many weapons are in ArmedForces.io?",
+          "a": "The game gives you eight weapons to build your loadout from. As you progress, you can customize your arsenal with items like silencers and weapon sights."
+        },
+        {
+          "q": "Does ArmedForces.io have different maps and modes?",
+          "a": "Yes. ArmedForces.io includes various maps and multiple game mode choices."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
