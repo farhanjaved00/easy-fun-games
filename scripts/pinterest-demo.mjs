@@ -23,12 +23,18 @@ const open = url => exec(`${process.platform === 'darwin' ? 'open' : 'xdg-open'}
 console.log('\n\x1b[1mEasyGameFun Poster: demo\x1b[0m');
 console.log('EasyGameFun (easygamefun.com) is a free browser games website. When we add a new game,');
 console.log('this app creates one Pin for it on our own Pinterest board, linking to the game page.\n');
-console.log('Enter these BEFORE you start recording (the screen is cleared afterwards):');
-const appId = await ask('App ID: ');
-const appSecret = await ask('App secret key: ');
+// Keys can be kept in the private file .env (never committed), so nothing is typed during the demo:
+//   PINTEREST_APP_ID=...  PINTEREST_APP_SECRET=...  PINTEREST_SANDBOX_TOKEN=...
+const envFile = {};
+try { for (const l of fs.readFileSync(path.join(ROOT, '.env'), 'utf8').split('\n')) { const m = l.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/); if (m) envFile[m[1]] = m[2]; } } catch {}
+const pick = k => process.env[k] || envFile[k] || '';
+const needAsk = !pick('PINTEREST_APP_ID') || !pick('PINTEREST_APP_SECRET');
+if (needAsk) console.log('Enter these BEFORE you start recording (the screen is cleared afterwards):');
+const appId = pick('PINTEREST_APP_ID') || await ask('App ID: ');
+const appSecret = pick('PINTEREST_APP_SECRET') || await ask('App secret key: ');
 // Trial apps create Pins only in the sandbox, which needs its own token:
 // app page > Generate Access Tokens > select "Sandbox" > Generate token.
-const sandboxToken = await ask('Sandbox token (press Enter to skip if you have Standard access): ');
+const sandboxToken = pick('PINTEREST_SANDBOX_TOKEN') || await ask('Sandbox token (press Enter to skip if you have Standard access): ');
 console.clear();
 await ask('Press Enter to start. The screen recording starts and stops by itself... ');
 console.clear();
