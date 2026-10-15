@@ -6,7 +6,7 @@ import http from 'node:http';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
-import { exec } from 'node:child_process';
+import { exec, spawn } from 'node:child_process';
 import readline from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
 
@@ -30,8 +30,23 @@ const appSecret = await ask('App secret key: ');
 // app page > Generate Access Tokens > select "Sandbox" > Generate token.
 const sandboxToken = await ask('Sandbox token (press Enter to skip if you have Standard access): ');
 console.clear();
-await ask('Start your screen recording now (Cmd+Shift+5), then press Enter... ');
+await ask('Press Enter to start. The screen recording starts and stops by itself... ');
 console.clear();
+// Record the whole screen to the Desktop; screencapture stops when it gets a key on stdin.
+const VIDEO = path.join(process.env.HOME, 'Desktop', 'pinterest-demo.mov');
+try { fs.unlinkSync(VIDEO); } catch {}
+const rec = spawn('screencapture', ['-v', '-x', VIDEO], { stdio: ['pipe', 'ignore', 'ignore'] });
+let recording = true;
+rec.on('exit', () => { recording = false; });
+await pause(2500);
+if (!recording) console.log('(Automatic recording is not allowed here: record with QuickTime instead.)');
+const stopRecording = async () => {
+  if (!recording) return;
+  await pause(4000);
+  rec.stdin.write('q\n');
+  await new Promise(r => rec.on('exit', r));
+  console.log(`\n\x1b[32mVideo saved: ${VIDEO}\x1b[0m`);
+};
 console.log('\n\x1b[1mEasyGameFun Poster: demo\x1b[0m');
 console.log('EasyGameFun (easygamefun.com) is a free browser games website. When we add a new game,');
 console.log('this app creates one Pin for it on our own Pinterest board, linking to the game page.');
@@ -49,6 +64,7 @@ await step(2, 'The site owner signs in with Pinterest (OAuth) and allows access'
 const state = crypto.randomBytes(8).toString('hex');
 const authUrl = `https://www.pinterest.com/oauth/?client_id=${encodeURIComponent(appId)}&redirect_uri=${encodeURIComponent(REDIRECT)}&response_type=code&scope=${SCOPES}&state=${state}`;
 console.log(`   Requested scopes: ${SCOPES.replace(/,/g, ', ')}`);
+console.log('\n   \x1b[1m\x1b[33m>>> In Chrome, click "Give access" <<<\x1b[0m');
 const code = await new Promise((resolve, reject) => {
   const server = http.createServer((req, res) => {
     const u = new URL(req.url, REDIRECT);
@@ -120,4 +136,5 @@ await step(5, 'Done');
 console.log('   Every day, each new game gets one Pin like this on our own board. The app only posts');
 console.log('   to our own business account; it does not read or post for other Pinterest users.\n');
 if (!API.includes('sandbox')) open(`https://www.pinterest.com/pin/${pin.id}/`);
+await stopRecording();
 rl.close();
