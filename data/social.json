@@ -296,6 +296,11 @@
     "instagram": {
       "id": "18151189555551189",
       "at": "2026-10-16T08:35:00.727Z"
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-16T11:19:43.130Z"
     }
   },
   "crazy-cattle-3d": {
@@ -313,6 +318,11 @@
     "instagram": {
       "id": "18156734800513835",
       "at": "2026-10-16T08:35:08.726Z"
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-16T11:19:43.967Z"
     }
   },
   "tile-match": {
@@ -379,6 +389,11 @@
     "instagram": {
       "id": "18141032338614281",
       "at": "2026-10-16T09:32:03.019Z"
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-16T11:19:42.445Z"
     }
   }
 }
