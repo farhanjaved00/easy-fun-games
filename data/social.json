@@ -249,6 +249,10 @@
     "facebook": {
       "id": "1391730527349943_122105145759505504",
       "at": "2026-10-15T03:26:56.239Z"
+    },
+    "instagram": {
+      "id": "18087491252302596",
+      "at": "2026-10-16T08:52:48.292Z"
     }
   },
   "highway-racer-pro": {
@@ -326,6 +330,38 @@
     "instagram": {
       "id": "17887554840485861",
       "at": "2026-10-16T08:35:21.285Z"
+    }
+  },
+  "basketball-io": {
+    "captions": {
+      "facebook": "Control one player in fast 3D basketball matches, steal the ball, and sprint in for slam dunks.\nPlay free: https://easygamefun.com/game/basketball-io/\n#freegames #browsergames",
+      "instagram": "🎮 Basketball io\nControl one player in fast 3D basketball matches, steal the ball, and sprint in for slam dunks.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #onlinegames #sportsgames",
+      "pinterestTitle": "Basketball io: Free Online Game",
+      "pinterestDescription": "Control one player in fast 3D basketball matches, steal the ball, and sprint in for slam dunks. Play Basketball io free in your browser on phone, tablet or PC at EasyGameFun. No download needed. #freegames #onlinegames #browsergames",
+      "altText": "Cover art for the game Basketball io"
+    },
+    "facebook": {
+      "fails": 1,
+      "lastError": "Missing or invalid image file",
+      "at": "2026-10-16T08:52:34.658Z"
+    },
+    "instagram": {
+      "fails": 1,
+      "lastError": "Only photo or video can be accepted as media type.",
+      "at": "2026-10-16T08:52:35.552Z"
+    }
+  },
+  "warstrike": {
+    "captions": {
+      "facebook": "Play as an elite special soldier in a 3D first-person shooter with story missions and multiplayer battles.\nPlay free: https://easygamefun.com/game/warstrike/\n#freegames #browsergames",
+      "instagram": "🎮 WarStrike\nPlay as an elite special soldier in a 3D first-person shooter with story missions and multiplayer battles.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #onlinegames #shootergames",
+      "pinterestTitle": "WarStrike: Free Online Game",
+      "pinterestDescription": "Play as an elite special soldier in a 3D first-person shooter with story missions and multiplayer battles. Play WarStrike free in your browser on phone, tablet or PC at EasyGameFun. No download needed. #freegames #onlinegames #browsergames",
+      "altText": "Cover art for the game WarStrike"
+    },
+    "facebook": {
+      "id": "1391730527349943_122106330999505504",
+      "at": "2026-10-16T08:52:57.449Z"
     }
   }
 }
