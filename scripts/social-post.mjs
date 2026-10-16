@@ -55,7 +55,12 @@ const done = (slug, p) => log[slug]?.[p]?.id || (log[slug]?.[p]?.fails || 0) >= 
 // its approval) never holds back the others.
 const newest = [...games].sort((a, b) => (b.publishedAt || b.addedAt).localeCompare(a.publishedAt || a.addedAt));
 const queue = newest.filter(g => enabled.some(p => !done(g.slug, p)));
-const plan = Object.fromEntries(enabled.map(p => [p, new Set(newest.filter(g => !done(g.slug, p)).slice(0, PER_RUN).map(g => g.slug))]));
+// At most PER_DAY posts per platform per day (Pakistan time), however many runs there are.
+const PER_DAY = SITE.autopost?.perDay || 3;
+const today = d => new Date(Date.parse(d) + 5 * 3600000).toISOString().slice(0, 10);
+const postedToday = p => Object.values(log).filter(e => e[p]?.id && today(e[p].at) === today(now())).length;
+const plan = Object.fromEntries(enabled.map(p => [p, new Set(newest.filter(g => !done(g.slug, p)).slice(0, Math.max(0, Math.min(PER_RUN, PER_DAY - postedToday(p)))).map(g => g.slug))]));
+for (const p of enabled) if (!plan[p].size && newest.some(g => !done(g.slug, p))) console.log(`${p}: daily limit of ${PER_DAY} posts reached, next posts tomorrow.`);
 const next = newest.filter(g => enabled.some(p => plan[p].has(g.slug)));
 
 /* ---------------- prepare: images for the next games ---------------- */
