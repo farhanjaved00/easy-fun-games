@@ -244,6 +244,9 @@ async function postPinterest(g, c, img) {
 const POSTERS = { facebook: postFacebook, instagram: postInstagram, pinterest: postPinterest };
 
 /* ---------------- post ---------------- */
+// New images were deployed moments ago; give Cloudflare a minute to have them everywhere,
+// or Facebook and Instagram may fetch a missing file ("invalid image").
+if (process.env.CI && next.length) { console.log('Waiting 60 seconds for the new images to be live everywhere...'); await new Promise(r => setTimeout(r, 60000)); }
 const blocked = new Set(), waiting = new Set();
 let posted = 0, failed = 0;
 for (const g of next) {
