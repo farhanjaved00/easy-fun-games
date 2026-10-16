@@ -3802,5 +3802,113 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-backflip-challenge",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/backflip-challenge/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/backflip-challenge/game.html",
+    "slug": "backflip-challenge",
+    "name": "Backflip Challenge",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Physics",
+      "Skill",
+      "Mobile",
+      "Mouse"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/backflip-challenge-6db96bea.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/backflip-challenge-6db96bea.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T09:29:35.025Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Time trampoline jumps, flip an elastic grandpa in mid-air, and land feet-first on the red target.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Backflip Challenge free in your browser. Time trampoline jumps, tuck in mid-air, and land feet-first on the red target in each level cleanly.",
+      "about": "Backflip Challenge is a one-player sports skill game about timing one hard trick. You guide an elastic-bodied grandpa as he jumps from a trampoline, flips through the air, and tries to land on a red point painted on the ground. The goal is not distance or speed. You need a clean feet-first landing. If he comes down too short, too long, or off balance, the attempt ends because his bones are fragile.\nEach round is built around simple hold-and-release control, but the physics make it tricky. Hold to build the jump, release to launch into the flip, then hold again in mid-air for the back tuck. The ragdoll motion is funny and a little chaotic, so small timing changes can make a big difference. The game uses cartoon-style 3D graphics, has dozens of levels that get harder, and plays free in your browser on desktop or mobile with no download.",
+      "highlights": [
+        "One-button hold and release backflip controls",
+        "Land feet-first on the red target",
+        "Physics ragdoll motion makes each jump chaotic",
+        "Dozens of levels that get harder",
+        "Plays in the browser on desktop and mobile"
+      ],
+      "goodFor": "Backflip Challenge is good for players who like short skill challenges with physics timing. It is also a fun pick if you enjoy simple controls that still take precision.",
+      "howToPlay": "Hold the button or screen to start the jump, then release to launch and flip. While in the air, hold again to tuck into the backflip. Win each attempt by landing feet-first on the red point without falling short, overshooting, or losing balance.",
+      "touchHint": "Touch and hold, then release to flip",
+      "keys": [
+        "Left mouse button: Tap and hold to jump",
+        "Release: Launch and flip",
+        "Left-click and hold: Back tuck in mid-air",
+        "Touchscreen: Touch and hold the screen"
+      ],
+      "tips": [
+        "Look at the red landing point before you release so you know where the feet need to end up.",
+        "Do not release too early if the jump looks short, because missing the target ends the attempt.",
+        "Use the mid-air tuck to finish the backflip, but stop holding once the body is close to upright.",
+        "Aim for a balanced feet-first landing, not just contact with the ground."
+      ],
+      "faq": [
+        {
+          "q": "Is Backflip Challenge free to play?",
+          "a": "Yes. Backflip Challenge is free to play in your browser with no download or install needed."
+        },
+        {
+          "q": "Can I play Backflip Challenge on my phone or computer?",
+          "a": "Yes. It runs in the browser on desktop and mobile. Use the mouse on a computer or touch and hold the screen on a phone."
+        },
+        {
+          "q": "What is the goal in Backflip Challenge?",
+          "a": "Your goal is to launch from the trampoline, complete a backflip, and land feet-first on the red point painted on the ground."
+        },
+        {
+          "q": "How do the controls work in Backflip Challenge?",
+          "a": "Hold the left mouse button or screen to jump, release to launch and flip, then hold again in mid-air to do the back tuck."
+        },
+        {
+          "q": "Does Backflip Challenge have levels?",
+          "a": "Yes. The game has dozens of levels, and they become trickier as you go."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

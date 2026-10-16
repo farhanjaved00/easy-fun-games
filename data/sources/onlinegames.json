@@ -185,6 +185,11 @@
       "status": "imported",
       "slug": "cube-worlds",
       "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/backflip-challenge/": {
+      "status": "imported",
+      "slug": "backflip-challenge",
+      "at": "2026-10-16"
     }
   }
 }
