@@ -298,9 +298,9 @@
       "at": "2026-10-16T08:35:00.727Z"
     },
     "pinterest": {
-      "fails": 1,
+      "fails": 2,
       "lastError": "Sorry! We blocked this link because it may lead to spam.",
-      "at": "2026-10-16T11:19:43.130Z"
+      "at": "2026-10-16T13:21:30.274Z"
     }
   },
   "crazy-cattle-3d": {
@@ -320,9 +320,9 @@
       "at": "2026-10-16T08:35:08.726Z"
     },
     "pinterest": {
-      "fails": 1,
+      "fails": 2,
       "lastError": "Sorry! We blocked this link because it may lead to spam.",
-      "at": "2026-10-16T11:19:43.967Z"
+      "at": "2026-10-16T13:21:30.901Z"
     }
   },
   "tile-match": {
@@ -391,9 +391,9 @@
       "at": "2026-10-16T09:32:03.019Z"
     },
     "pinterest": {
-      "fails": 1,
+      "fails": 2,
       "lastError": "Sorry! We blocked this link because it may lead to spam.",
-      "at": "2026-10-16T11:19:42.445Z"
+      "at": "2026-10-16T13:21:29.689Z"
     }
   }
 }
