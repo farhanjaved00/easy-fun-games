@@ -41,7 +41,7 @@
   "autopost": {
     "enabled": true,
     "perRun": 3,
-    "perDay": 5
+    "perDay": 3
   },
   "verify": {
     "pinterest": "9d297d2960ec9d81726cf77e13a90884"
