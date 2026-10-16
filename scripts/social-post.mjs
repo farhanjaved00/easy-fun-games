@@ -51,9 +51,12 @@ const games = readJson(path.join(DATA, 'games.json'), []).filter(g => g.status =
 const cats = Object.fromEntries(readJson(path.join(DATA, 'categories.json'), []).map(c => [c.slug, c]));
 const done = (slug, p) => log[slug]?.[p]?.id || (log[slug]?.[p]?.fails || 0) >= 3;
 // Newest games first; older games are posted gradually after the new ones.
-const queue = games.filter(g => enabled.some(p => !done(g.slug, p)))
-  .sort((a, b) => (b.publishedAt || b.addedAt).localeCompare(a.publishedAt || a.addedAt));
-const next = queue.slice(0, PER_RUN);
+// Each platform has its own queue, so a platform that is waiting (for example Pinterest before
+// its approval) never holds back the others.
+const newest = [...games].sort((a, b) => (b.publishedAt || b.addedAt).localeCompare(a.publishedAt || a.addedAt));
+const queue = newest.filter(g => enabled.some(p => !done(g.slug, p)));
+const plan = Object.fromEntries(enabled.map(p => [p, new Set(newest.filter(g => !done(g.slug, p)).slice(0, PER_RUN).map(g => g.slug))]));
+const next = newest.filter(g => enabled.some(p => plan[p].has(g.slug)));
 
 /* ---------------- prepare: images for the next games ---------------- */
 if (mode === 'prepare') {
@@ -249,7 +252,7 @@ for (const g of next) {
   if (!live) { console.log(`- ${g.slug}: image not live yet, will post after the next deploy`); continue; }
   const c = await captions(g);
   for (const p of enabled) {
-    if (done(g.slug, p) || blocked.has(p)) continue;
+    if (!plan[p].has(g.slug) || done(g.slug, p) || blocked.has(p)) continue;
     try {
       const id = await POSTERS[p](g, c, img);
       log[g.slug][p] = { id, at: now() };
