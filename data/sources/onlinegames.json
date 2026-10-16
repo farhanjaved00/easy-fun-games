@@ -160,6 +160,31 @@
       "status": "imported",
       "slug": "armedforces-io",
       "at": "2026-10-15"
+    },
+    "https://www.onlinegames.io/basketball-io/": {
+      "status": "imported",
+      "slug": "basketball-io",
+      "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/love-tester-story/": {
+      "status": "imported",
+      "slug": "love-tester-story",
+      "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/tile-match/": {
+      "status": "imported",
+      "slug": "tile-match",
+      "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/crazy-cattle-3d/": {
+      "status": "imported",
+      "slug": "crazy-cattle-3d",
+      "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/cube-worlds/": {
+      "status": "imported",
+      "slug": "cube-worlds",
+      "at": "2026-10-16"
     }
   }
 }

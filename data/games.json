@@ -3273,5 +3273,534 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-basketball-io",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/basketball-io/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity3/basketball-io/index.html",
+    "slug": "basketball-io",
+    "name": "Basketball io",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Basketball",
+      "3D",
+      "Arena",
+      "Arcade"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/basketball-io-3784a87e.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/basketball-io-3784a87e.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T03:20:42.500Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Control one player in fast 3D basketball matches, steal the ball, and sprint in for slam dunks.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Basketball io free in your browser, control one player in 3D matches, steal the ball, dunk from the free throw line, and unlock new skins.",
+      "about": "Basketball io is a free 3D basketball game with small-court matches and simple controls. You guide one player, chase the ball, dribble past opponents, and finish plays at the rim with slam dunks. Winning matches earns stars and diamonds, which you can use in the shop to unlock player skins such as pros, cheerleaders, skeletons, monsters, and basketball-playing bears. You can also unlock different balls, including a rainbow ball and a fireball tied to in-game challenges.\nEach match is quick to understand: move into space, grab the ball, avoid defenders, and cross the free throw line while holding the ball to dunk. Steals happen by running into the opposing player, so positioning matters on both offense and defense. The game includes several courts, from an indoor arena to street, beach, and forest courts, each with its own look. Basketball io plays free in the browser on desktop and mobile with no download needed.",
+      "highlights": [
+        "Fast 3D basketball on small courts",
+        "Steal by running into the opponent",
+        "Dunk after crossing the free throw line with the ball",
+        "Earn stars and diamonds to unlock skins",
+        "Indoor, street, beach, and forest courts"
+      ],
+      "goodFor": "Basketball io is good for players who want quick sports matches with easy movement and lots of dunks. It also suits players who like unlocking skins and balls through match wins and challenges.",
+      "howToPlay": "Move your player toward the ball, take possession, and head for the basket. Run past the free throw line while holding the ball to slam dunk, and run into an opponent to steal the ball back. Win matches to earn stars and diamonds for shop unlocks.",
+      "touchHint": "Use on-screen controls to move and dunk",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Run into opposing player: Steal the ball",
+        "Run past free throw line with ball: Slam dunk",
+        "Mouse cursor: Navigate menus",
+        "ESC: Pause"
+      ],
+      "tips": [
+        "Cut straight toward the free throw line once you have the ball so you can trigger a dunk quickly.",
+        "On defense, aim your run into the ball carrier instead of chasing the basket.",
+        "Use the small court to your advantage by turning early when the ball changes hands.",
+        "Keep stealing during matches if you want to work toward challenge-based ball unlocks."
+      ],
+      "faq": [
+        {
+          "q": "Is Basketball io free to play?",
+          "a": "Yes. Basketball io is free to play in your browser with no download needed."
+        },
+        {
+          "q": "Can I play Basketball io on a phone or computer?",
+          "a": "Yes. The game runs in the browser on desktop and mobile. On desktop, you can move with WASD or the Arrow keys and use the mouse for menus."
+        },
+        {
+          "q": "How do you dunk in Basketball io?",
+          "a": "Hold the ball and run past the free throw line. Your player will go in for a slam dunk when you reach the right spot."
+        },
+        {
+          "q": "How do you steal the ball in Basketball io?",
+          "a": "Run into the opposing player who has the ball. Good timing and angle help you take it back before they reach the basket."
+        },
+        {
+          "q": "What can you unlock in Basketball io?",
+          "a": "Winning matches earns stars and diamonds for the shop. You can unlock new player skins and different balls, including special balls tied to in-game challenges."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-love-tester-story",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/love-tester-story/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/construct/225/love-tester-story/index-og.html",
+    "slug": "love-tester-story",
+    "name": "Love Tester Story",
+    "category": "kids",
+    "mature": false,
+    "tags": [
+      "Girl",
+      "Love",
+      "Mobile",
+      "Story"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/love-tester-story-c10f2370.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/love-tester-story-c10f2370.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T03:21:40.219Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Enter names, test love matches, and guide Grace through choices in a playful high school romance story.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Love Tester Story free in your browser. Enter names for a love percentage, make choices for Grace, and try the Perfect Match challenge.",
+      "about": "Love Tester Story is a light, funny love game about crushes, choices, and playful predictions. You can type in your name and a crush’s name to get a love compatibility result shown as a percentage. The game also includes a story mode about Grace, a high school girl whose love life changes based on the decisions you make for her. Your choices can lead to multiple endings, so you can replay scenes and try different paths.\nThere are three main ways to play. In Story Mode, you choose what Grace does and see how her romance, friendships, and courage develop. In Perfect Match, the game gives you a random name, and you pick who seems like the right match. In Love Tester Mode, you enter two names and press the big heart to see the result. It is made for fun and giggles, not real predictions, and it plays free in the browser.",
+      "highlights": [
+        "Story mode with Grace and multiple endings",
+        "Love Tester Mode gives a percentage result",
+        "Perfect Match mode asks you to pair names",
+        "Mouse, tap, and keyboard controls",
+        "Made for fun, not real relationship advice"
+      ],
+      "goodFor": "Love Tester Story is good for players who enjoy cute romance themes, silly name tests, and choice-based stories. It is also a nice pick for quick play sessions on a computer or phone.",
+      "howToPlay": "Choose a mode, then follow the on-screen prompts. In Love Tester Mode, type two names and press the big heart to get a percentage result. In Story Mode, make choices for Grace and replay with different decisions to find other endings.",
+      "touchHint": "Tap choices and use the on-screen keyboard",
+      "keys": [
+        "Mouse: Navigate and choose options",
+        "Tap: Navigate on mobile",
+        "Keyboard: Type names"
+      ],
+      "tips": [
+        "In Story Mode, replay with different choices to uncover more endings.",
+        "Type both names before pressing the big heart in Love Tester Mode.",
+        "Use Perfect Match for quick laughs when you do not want a full story path.",
+        "Treat every percentage as a fun result, not a real prediction."
+      ],
+      "faq": [
+        {
+          "q": "Is Love Tester Story free to play?",
+          "a": "Yes. Love Tester Story is free to play in your browser."
+        },
+        {
+          "q": "Can I play Love Tester Story on a phone or computer?",
+          "a": "Yes. You can play with a mouse on a computer or tap on a mobile device. Use the keyboard or on-screen keyboard to type names."
+        },
+        {
+          "q": "What do you do in Love Tester Story?",
+          "a": "You can test two names for a love percentage, guide Grace through a high school romance story, or try to match a random name with the right partner."
+        },
+        {
+          "q": "Do choices matter in Story Mode?",
+          "a": "Yes. Your decisions for Grace change the path of the story and can reveal multiple endings."
+        },
+        {
+          "q": "Are the Love Tester results real?",
+          "a": "No. The results are for fun only and do not guarantee anything about real relationships."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-tile-match",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/tile-match/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity/tile-match/index-og.html",
+    "slug": "tile-match",
+    "name": "Tile Match",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Brain",
+      "Cozy",
+      "Logic",
+      "Mouse"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tile-match-ef9d3c3a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tile-match-ef9d3c3a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T03:22:32.013Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Pick layered tiles, match three of a kind, and clear each cozy puzzle before your six slots fill up.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tile Match free in your browser, match three colorful tiles, clear layered boards, and use six slots carefully across 1,200+ levels with no timer.",
+      "about": "Tile Match is a calm logic puzzle about clearing a board of stacked, colorful tiles. Each tile has a cute food-style design, and many tiles sit on top of others in layers. Your goal is to pick tiles and make groups of three matching kinds. When three identical tiles are collected, they disappear. The challenge comes from the holding area at the bottom, which has only six slots. If those slots fill with unmatched tiles, the level ends.\nA round starts with easy matches, then becomes more about planning. You need to uncover hidden tiles, avoid taking pieces too early, and keep enough slot space for future matches. There is no timer, so you can think through each move at your own pace. If you get stuck, boosters can add an extra slot, shuffle the board, show a hint, or undo your last move. With over 1,200 levels, new layouts keep the puzzles fresh. Tile Match plays free in your browser.",
+      "highlights": [
+        "Match three identical tiles to clear them",
+        "Six holding slots create a simple but smart challenge",
+        "Over 1,200 levels with changing layouts",
+        "No timer, so you can play at your own pace",
+        "Boosters include Extra Slot, Shuffle, Hint, and Undo"
+      ],
+      "goodFor": "Tile Match is good for players who like calm puzzles with a little strategy. It is also a nice choice when you want short, relaxed rounds without a timer.",
+      "howToPlay": "Choose tiles from the board and place them into the slots at the bottom. Three tiles of the same kind clear automatically, and your goal is to remove every tile from the board. If all six slots fill with unmatched tiles, the level is over.",
+      "touchHint": "Tap or click tiles to collect matches",
+      "keys": [],
+      "tips": [
+        "Clear tiles from upper layers early so more hidden tiles become available.",
+        "Do not take a tile just because it is open; make sure a third match is likely soon.",
+        "Keep at least one slot free when possible so you have room to fix a bad move.",
+        "Use Undo for a risky pick, and save Shuffle or Hint for boards with few visible matches."
+      ],
+      "faq": [
+        {
+          "q": "Is Tile Match free to play?",
+          "a": "Yes. Tile Match is free to play in your browser."
+        },
+        {
+          "q": "Can I play Tile Match on a phone or computer?",
+          "a": "Yes. You can play by clicking on a computer or tapping on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Tile Match?",
+          "a": "The goal is to clear the whole board by collecting three matching tiles at a time. You lose if the six holding slots fill with unmatched tiles."
+        },
+        {
+          "q": "Does Tile Match have a timer?",
+          "a": "No. There is no timer, so you can take your time and plan each move."
+        },
+        {
+          "q": "How many levels are in Tile Match?",
+          "a": "Tile Match has over 1,200 levels, with new patterns and layouts as you progress."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-crazy-cattle-3d",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/crazy-cattle-3d/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity3/crazy-cattle-3d/index-og.html",
+    "slug": "crazy-cattle-3d",
+    "name": "Crazy Cattle 3D",
+    "category": "action",
+    "mature": false,
+    "tags": [
+      "Action",
+      "Animal",
+      "Arena",
+      "Battle Royale"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/crazy-cattle-3d-8a81c20f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/crazy-cattle-3d-8a81c20f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T03:23:32.904Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Control a bouncy sheep in wild 3D arenas, ram rival sheep, dodge fences, and try to be the last one standing.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Crazy Cattle 3D free in your browser. Control a bouncy sheep, battle across Ireland, Sweden, and Egypt, dodge fences, and win trophies.",
+      "about": "Crazy Cattle 3D is a one-player action battle royale about a sheep that slides, bounces, and crashes through chaotic 3D arenas. Your goal is simple: stay alive while the rest of the herd gets knocked out. You start in Ireland, where green fields and wooden fences make every charge risky. Wins help unlock Sweden, a snowy map where ice makes turns harder, and Egypt, a sandy map with hidden fences and tougher corners. Each victory adds a shiny trophy to your trophy room.\nRounds are fast, silly, and harder to control than they first look. You move from a third-person view, try to line up hits on other sheep, and avoid fences or enemy bumps that can make your sheep explode. The fun comes from the loose physics: a good hit can send a sheep flying, but one bad slide can end your run. Crazy Cattle 3D plays free in the browser on desktop or laptop, with no download needed.",
+      "highlights": [
+        "One-player sheep battle royale action",
+        "Strange physics with sliding and bouncing movement",
+        "Three maps: Ireland, Sweden, and Egypt",
+        "Win rounds to add trophies to your room",
+        "Fences, ice, dunes, and hidden corners change each map"
+      ],
+      "goodFor": "Crazy Cattle 3D is good for players who like quick action rounds, silly physics, and last-one-standing challenges. It also suits players who enjoy learning tricky movement instead of memorizing long rules.",
+      "howToPlay": "Move your sheep around the arena and try to knock other sheep out while avoiding fences and hard hits. Watch the sheep counter to see how many opponents are left. Win by being the last sheep standing, then use victories to earn trophies and unlock more maps.",
+      "touchHint": "Use a keyboard on desktop or laptop",
+      "keys": [
+        "WASD: Move your sheep",
+        "Space: Restart",
+        "Esc: Pause and open menu"
+      ],
+      "tips": [
+        "Do not charge blindly near fences; one bad bounce can end the round.",
+        "Use the sheep counter to know when to play safe or push for knockouts.",
+        "On Sweden, start turning early because the ice makes you slide farther.",
+        "In Egypt, slow down near dunes and corners where hidden fences can surprise you."
+      ],
+      "faq": [
+        {
+          "q": "Is Crazy Cattle 3D free to play?",
+          "a": "Yes. Crazy Cattle 3D is free to play in your browser, and no download is needed."
+        },
+        {
+          "q": "Can I play Crazy Cattle 3D on a phone or computer?",
+          "a": "The game is made to run in a desktop or laptop browser. Keyboard controls are provided, but phone touch controls are not listed."
+        },
+        {
+          "q": "What is the goal in Crazy Cattle 3D?",
+          "a": "Your goal is to be the last sheep standing. Knock rival sheep around the arena while avoiding fences and hits that can make your sheep explode."
+        },
+        {
+          "q": "What maps are in Crazy Cattle 3D?",
+          "a": "There are three maps: Ireland, Sweden, and Egypt. Ireland is unlocked first, while Sweden and Egypt open after you win rounds."
+        },
+        {
+          "q": "What are the controls for Crazy Cattle 3D?",
+          "a": "Use WASD to move your sheep. Press Space to restart and Esc to pause or open the menu."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-cube-worlds",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/cube-worlds/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/html/cube-worlds/index-og.html",
+    "slug": "cube-worlds",
+    "name": "Cube Worlds",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Block",
+      "Crafting",
+      "Sandbox"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/cube-worlds-c320eabe.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/cube-worlds-c320eabe.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-16",
+    "publishedAt": "2026-10-16T03:24:38.080Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Shape a huge 3D block sandbox with over 250 blocks, from tunnels and castles to cities and treehouses.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Cube Worlds free in your browser and build in a huge 3D sandbox with over 250 blocks, from castles and tunnels to cities and treehouses.",
+      "about": "Cube Worlds is a 3D block sandbox where the whole point is to build, dig, and shape the world at your own pace. The map is huge, with terrain that keeps going, so you have plenty of room for big ideas. You can make castles, tunnels, pixel-style cities, or a dream treehouse. There is no survival pressure and no mobs chasing you, so the focus stays on building and exploring your own plans.\nYou get more than 250 block types to work with, including grass, stone, glass, lava, flowers, beds, torches, and rails. A round can be as short or as long as you want: pick a spot, place blocks, carve space, and keep adding details until the build feels right. The fun comes from the open-ended freedom and the challenge of turning a blank stretch of terrain into something you imagined. Cube Worlds plays free in the browser.",
+      "highlights": [
+        "Huge 3D sandbox map with endless-feeling terrain",
+        "Over 250 block types for building and decorating",
+        "No mobs or survival pressure while you build",
+        "Create castles, tunnels, cities, or treehouses",
+        "Free browser play with a relaxed pace"
+      ],
+      "goodFor": "Cube Worlds is good for players who like calm sandbox building without enemies or timers. It suits anyone who wants to make large block creations and experiment with many materials.",
+      "howToPlay": "Choose a place in the world, then build or dig to shape it into your idea. Use the large block set to create structures, paths, tunnels, and decorations. There is no enemy goal to beat, so progress is about making the world look the way you want.",
+      "touchHint": "Use your browser’s mouse and keyboard controls",
+      "keys": [],
+      "tips": [
+        "Plan the main shape first, then add details like glass, flowers, torches, or rails.",
+        "Use the huge terrain to spread out big builds instead of crowding everything into one spot.",
+        "Try mixing natural blocks like grass and stone with decorative blocks for clearer designs.",
+        "Because there is no survival pressure, take time to rebuild sections until they match your idea."
+      ],
+      "faq": [
+        {
+          "q": "Is Cube Worlds free to play?",
+          "a": "Yes. Cube Worlds is free to play in your browser."
+        },
+        {
+          "q": "Can I play Cube Worlds on a phone or computer?",
+          "a": "Cube Worlds plays in a browser. No specific phone controls are listed, so a computer with mouse and keyboard is the safest option."
+        },
+        {
+          "q": "What do you do in Cube Worlds?",
+          "a": "You build, dig, and shape a large 3D block world. You can create castles, tunnels, cities, treehouses, or any other block project you can plan."
+        },
+        {
+          "q": "Are there enemies or survival in Cube Worlds?",
+          "a": "No. The game has no mobs and no survival pressure, so you can focus on building at your own pace."
+        },
+        {
+          "q": "How many blocks are in Cube Worlds?",
+          "a": "Cube Worlds has over 250 different blocks, including grass, stone, glass, lava, flowers, beds, torches, and rails."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
