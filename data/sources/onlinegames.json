@@ -190,6 +190,31 @@
       "status": "imported",
       "slug": "backflip-challenge",
       "at": "2026-10-16"
+    },
+    "https://www.onlinegames.io/golf-bit/": {
+      "status": "imported",
+      "slug": "golf-bit",
+      "at": "2026-10-17"
+    },
+    "https://www.onlinegames.io/stunt-simulator-2/": {
+      "status": "imported",
+      "slug": "stunt-simulator-2",
+      "at": "2026-10-17"
+    },
+    "https://www.onlinegames.io/cat-simulator/": {
+      "status": "imported",
+      "slug": "cat-simulator",
+      "at": "2026-10-17"
+    },
+    "https://www.onlinegames.io/hero-rush-tower-defense/": {
+      "status": "imported",
+      "slug": "hero-rush-tower-defense",
+      "at": "2026-10-17"
+    },
+    "https://www.onlinegames.io/basketball-king/": {
+      "status": "imported",
+      "slug": "basketball-king",
+      "at": "2026-10-17"
     }
   }
 }

@@ -355,5 +355,38 @@
     "auto": true,
     "createdAt": "2026-10-15",
     "model": "gpt-5.5"
+  },
+  {
+    "slug": "strategy",
+    "name": "Strategy",
+    "emoji": "🧠",
+    "colors": [
+      "#1FD39A",
+      "#0B8F5F"
+    ],
+    "intro": "Strategy games ask you to plan, build, and make smart choices before time runs out. They are free in the browser and fun because every move can change the match.",
+    "about": [
+      "In strategy games, you manage a goal instead of just reacting fast. You may place defenses, gather resources, guide units, upgrade skills, or choose when to attack. Many games use waves, turns, maps, or paths, so you can watch patterns and adjust your plan.",
+      "Most controls are simple: click or tap to select, drag to place items, and use keys to move the camera or start the next round. Players who like planning, puzzles, tower defense, or careful teamwork often enjoy this category. It rewards patience, clear thinking, and trying a new plan after a loss."
+    ],
+    "why": [
+      "Smart choices feel rewarding",
+      "Many ways to solve each level",
+      "Good for patient, careful players"
+    ],
+    "faq": [
+      {
+        "q": "How do I get better at strategy games?",
+        "a": "Start by learning enemy patterns, costs, and upgrade choices. If you lose, change one part of your plan and try again."
+      }
+    ],
+    "controls": [
+      "Mouse: Select and place",
+      "Drag: Move the map or items",
+      "Spacebar: Start or speed up"
+    ],
+    "auto": true,
+    "createdAt": "2026-10-17",
+    "model": "gpt-5.5"
   }
 ]

@@ -3910,5 +3910,545 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-golf-bit",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/golf-bit/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/construct/328/golf-bit/game.html",
+    "slug": "golf-bit",
+    "name": "Golf Bit",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Ball",
+      "Physics",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/golf-bit-71e4976a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/golf-bit-71e4976a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T03:20:44.719Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Time one-button golf swings, sink the ball, earn coins, and unlock new courses from fairways to alien planets.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Golf Bit free in your browser. Time one swing with the green power zone, sink shots for coins, and unlock new courses including alien planets.",
+      "about": "Golf Bit is a simple 2D arcade golf game built around the best part of the sport: the swing. You do not manage clubs, par, or a full golf course. Instead, you line up a shot, watch a moving indicator on a power meter, and try to strike at the right moment. The goal is to send the ball into the hole, earn rewards, and keep leveling up through clean, well-timed hits.\nEach shot is quick, but the timing matters. The indicator sweeps across the meter, and the middle of the green zone gives the cleanest and longest hit. Successful shots can earn coins, which are used to unlock new courses, including unusual settings like alien planets. The fun comes from one precise input that is easy to learn and tricky to repeat. Golf Bit plays free in your browser, with mouse, keyboard, and mobile tap controls.",
+      "highlights": [
+        "One-button swing timing with a moving power meter",
+        "Green zone gives the cleanest, longest shot",
+        "Earn coins from successful shots",
+        "Unlock new courses, including alien planets",
+        "Play on computer or mobile in the browser"
+      ],
+      "goodFor": "Golf Bit is good for players who like quick sports games with simple controls. It fits short sessions, but the coin and course unlocks give you a reason to keep improving your timing.",
+      "howToPlay": "Aim your shot, then watch the indicator move across the power meter. Press the hit button when it lines up with the middle of the green zone for the cleanest and longest shot. Sink the ball in holes to earn rewards, level up, collect coins, and unlock more courses.",
+      "touchHint": "Tap the screen to hit the ball",
+      "keys": [
+        "Left Mouse Button: Hit the ball",
+        "Spacebar: Hit the ball",
+        "Tap screen: Hit the ball on mobile"
+      ],
+      "tips": [
+        "Wait for the indicator to reach the middle of the green zone, not just the edge.",
+        "Use the spacebar if clicking the mouse makes your timing feel less steady.",
+        "On mobile, keep your finger ready and tap once when the meter lines up.",
+        "Focus on successful shots to build coins toward new course unlocks."
+      ],
+      "faq": [
+        {
+          "q": "Is Golf Bit free to play?",
+          "a": "Yes. Golf Bit is free to play in your browser with no download needed."
+        },
+        {
+          "q": "Can I play Golf Bit on a phone or computer?",
+          "a": "Yes. On a computer, use the left mouse button or spacebar to hit the ball. On a phone or tablet, tap the screen."
+        },
+        {
+          "q": "What is the goal in Golf Bit?",
+          "a": "The goal is to time your swing, send the ball into the hole, and earn rewards. Successful shots help you level up and collect coins."
+        },
+        {
+          "q": "How do I get the longest shot in Golf Bit?",
+          "a": "Hit when the moving indicator lines up with the middle of the green zone on the power meter. That timing gives the cleanest and longest shot."
+        },
+        {
+          "q": "How do you unlock new courses in Golf Bit?",
+          "a": "Coins from successful shots can be used to unlock new courses. Some courses take you beyond a normal fairway, including alien planets."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-stunt-simulator-2",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/stunt-simulator-2/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/stunt-simulator-2/index.html",
+    "slug": "stunt-simulator-2",
+    "name": "Stunt Simulator 2",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Crash",
+      "Drift",
+      "Driving"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/stunt-simulator-2-7869d7f6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/stunt-simulator-2-7869d7f6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T03:21:44.796Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Choose from 10 cars, hit ramps, drift, flip, and crash for points across six 3D stunt maps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Stunt Simulator 2 free in your browser. Choose 10 cars, explore six 3D stunt maps, hit ramps, drift, flip, and use nitro for big points.",
+      "about": "Stunt Simulator 2 is a 3D driving game about car stunts, big jumps, and wild crashes. Pick one of six maps, then choose a vehicle and start driving. Some maps feel like open stunt fields with green backgrounds and lots of ramps. Another map has a futuristic look, one takes you onto mountain roads, and one lets you drive through city streets. The goal is not to beat other drivers. It is to use the map, the ramps, and your car’s power to make exciting moves and score points.\nThere are 10 vehicles to try: Compact, Muscle, Coupe, Sport, Super, Truck, Racer, Concept, APC, and Big Rig. Each run is about testing speed, drifting, using nitro, and finding good launch angles. Giant ramps send you high into the air for flips and barrel rolls. Fast rotating bars can also slam into your car and throw it hard, which can lead to big stunt points if you handle the impact well. Stunt Simulator 2 plays free in your browser.",
+      "highlights": [
+        "Six maps with ramps, roads, city streets, and mountains",
+        "10 vehicles, from Compact and Muscle to APC and Big Rig",
+        "Giant ramps for flips, jumps, and barrel rolls",
+        "Fast rotating bars can launch your car for points",
+        "Nitro and handbrake controls for speed and drifting"
+      ],
+      "goodFor": "Stunt Simulator 2 is good for players who enjoy open 3D driving, ramps, drifting, and crash-based stunts. It suits anyone who wants a freeform stunt playground instead of a race with laps.",
+      "howToPlay": "Choose a map, pick a car, and drive toward ramps, roads, and stunt objects. Use speed, nitro, and the handbrake to drift, jump, flip, or hit rotating bars for score points. Try different cars and maps to find the stunts you like most.",
+      "touchHint": "Use a keyboard to drive",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Spacebar: Handbrake",
+        "Left Shift: Nitro",
+        "Esc: Pause"
+      ],
+      "tips": [
+        "Line up with a ramp before using nitro so your car launches straight instead of spinning too early.",
+        "Use the handbrake before tight turns or stunt setups to start a controlled drift.",
+        "Hit rotating bars with enough speed to get launched, but expect your car to be thrown hard.",
+        "Try heavier vehicles like the Truck, APC, or Big Rig when you want bigger crashes and impacts."
+      ],
+      "faq": [
+        {
+          "q": "Is Stunt Simulator 2 free to play?",
+          "a": "Yes. Stunt Simulator 2 is free to play in your browser."
+        },
+        {
+          "q": "Can I play Stunt Simulator 2 on a phone or computer?",
+          "a": "The game plays in the browser. The listed controls use a keyboard, so a computer is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in Stunt Simulator 2?",
+          "a": "The goal is to drive freely, hit ramps, drift, flip, crash, and use rotating bars to earn stunt points."
+        },
+        {
+          "q": "How many maps are in Stunt Simulator 2?",
+          "a": "There are six maps. They include stunt fields, a futuristic setting, mountain roads, and city streets."
+        },
+        {
+          "q": "How many cars can I drive in Stunt Simulator 2?",
+          "a": "You can choose from 10 vehicles: Compact, Muscle, Coupe, Sport, Super, Truck, Racer, Concept, APC, and Big Rig."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-cat-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/cat-simulator/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity4/cat-simulator/index.html",
+    "slug": "cat-simulator",
+    "name": "Cat Simulator",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Animal",
+      "Cat",
+      "Adventure",
+      "Cozy"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/cat-simulator-ecd0bea7.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/cat-simulator-ecd0bea7.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T03:22:48.010Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Play as a cat, earn coins, unlock breeds, clear quests, run stunts, and customize your room.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Cat Simulator free in your browser. Choose from 13 cat breeds, earn coins, clear quests, run stunts, and decorate your cat room with hats and decor.",
+      "about": "Cat Simulator is a 3D animal game where you play as a cat and choose from different breeds. Your main progress comes from earning coins, leveling up, and unlocking more cats. There are 13 cat breeds, and each breed has its own mix of health, damage, and power. Coins can also be used to buy hats for your cat and decorate the room with items such as TVs, paintings, shelves, vases, and curtains.\nYou can pick from several modes on the opening screen. Cat Stunt sends you through parkour hurdles, Maga XP gives you a short coin rush, Career has quests, and Destruction lets you knock things down around the room. Maga Kill is a survival challenge against squirrels, tortoises, and spiders, while Pool Mini Game gives you 50 seconds to claw animals on the water while avoiding dangerous ones. Each mode asks for a different skill, and your rewards grow as the difficulty rises. Cat Simulator plays free in your browser.",
+      "highlights": [
+        "13 cat breeds with different stats",
+        "Modes for stunts, quests, survival, coins, and destruction",
+        "Earn coins to unlock breeds, hats, and room decor",
+        "Leveling raises both rewards and difficulty",
+        "Pool Mini Game has a 50-second challenge"
+      ],
+      "goodFor": "Great for players who want a playful cat sim with short challenges, parkour, quests, collecting, and room decorating. It also fits players who like unlocking animal breeds and trying different modes.",
+      "howToPlay": "Choose a game mode, then move your cat around to complete that mode’s goal. Collect coins, finish quests, jump over hurdles, knock down objects, or scratch enemies depending on the mode. Use coins to unlock more breeds, buy hats, and decorate your room.",
+      "touchHint": "Use the keyboard to move, jump, sprint, and claw",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Space: Jump",
+        "Shift: Gain speed",
+        "F: Attack with claws"
+      ],
+      "tips": [
+        "In Cat Stunt, build speed before bigger hurdles, then jump at the edge to clear them.",
+        "Use Maga XP when you want coins fast, because it gives you a short timed coin challenge.",
+        "Check each breed’s health, damage, and power before choosing it for survival or quests.",
+        "In Pool Mini Game, avoid lobsters, squirrels, and tortoises even when they are close."
+      ],
+      "faq": [
+        {
+          "q": "Is Cat Simulator free to play?",
+          "a": "Yes. Cat Simulator plays free in your browser."
+        },
+        {
+          "q": "Can I play Cat Simulator on a phone or computer?",
+          "a": "Cat Simulator is set up for computer play with keyboard controls. Use WASD or the arrow keys to move, Space to jump, Shift to gain speed, and F to claw attack."
+        },
+        {
+          "q": "What is the goal in Cat Simulator?",
+          "a": "The main goal is to earn coins, level up, and unlock more cat breeds. Each mode also has its own goal, such as clearing parkour, finishing quests, collecting coins, or surviving enemies."
+        },
+        {
+          "q": "How many cat breeds are in Cat Simulator?",
+          "a": "There are 13 cat breeds to choose from or unlock. Each breed has different health, damage, and power stats."
+        },
+        {
+          "q": "What game modes are in Cat Simulator?",
+          "a": "The modes include Cat Stunt, Maga XP, Career, Destruction, Maga Kill, and Pool Mini Game. They cover parkour, timed coin collecting, quests, knocking things down, survival, and a 50-second water challenge."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-hero-rush-tower-defense",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/hero-rush-tower-defense/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity/hero-rush-tower-defense/index.html",
+    "slug": "hero-rush-tower-defense",
+    "name": "Hero Rush Tower Defense",
+    "category": "strategy",
+    "mature": false,
+    "tags": [
+      "Tower Defense",
+      "Strategy",
+      "Hero",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/hero-rush-tower-defense-8f6c44d9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/hero-rush-tower-defense-8f6c44d9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T03:24:00.540Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Build towers, choose heroes, and stop land and flying enemies from breaking through your defenses.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Hero Rush Tower Defense free in your browser. Choose up to three heroes and build Archer, Infantry, Cannoneer, and Magic Dragon towers.",
+      "about": "Hero Rush Tower Defense is a 2D strategy defense game about protecting your land from attack waves. Each level takes place on a different map, and your job is to build towers on circular spots where they can stop the enemy path. You can use four tower types: Archer, Infantry, Cannoneer, and Magic Dragon. Some attack land enemies, some can hit flying enemies, and Infantry sends fighters to block foes on the ground.\nBefore a round starts, you choose up to three heroes from a roster of 12, then set the difficulty. Heroes have different abilities, and they fight beside your towers. Enemies include pirates, barbosas, and lupins, with more types unlocked as you progress. The challenge is picking strong tower spots, covering both air and land routes, and using abilities or boosters like Frost Gem and Meteor Call at the right time. You can play Hero Rush Tower Defense free in your browser.",
+      "highlights": [
+        "2D tower defense battles on different maps",
+        "Choose up to three heroes before each level",
+        "12 heroes with different abilities",
+        "Four tower types for land and air threats",
+        "Boosters include Frost Gem and Meteor Call"
+      ],
+      "goodFor": "Hero Rush Tower Defense is good for players who like planning defenses, choosing heroes, and reacting to enemy waves. It fits players who enjoy strategy with direct combat on each map.",
+      "howToPlay": "Choose a level, select up to three heroes, set the difficulty, then start defending the map. Click circular build spots to place towers, use heroes and abilities to support them, and stop land and flying enemies before they overrun your defense.",
+      "touchHint": "Mouse to build; WASD or arrows to move view",
+      "keys": [
+        "Mouse: Build towers and cast abilities",
+        "WASD: Move around the map",
+        "Arrow keys: Move around the map",
+        "Mouse wheel: Zoom in and out"
+      ],
+      "tips": [
+        "Build on circular spots that cover busy parts of the enemy route, not just the first open space.",
+        "Bring heroes whose abilities can help your towers during heavy attack waves.",
+        "Use Archer or Magic Dragon towers when flying enemies appear, since some towers focus on ground routes.",
+        "Save boosters such as Frost Gem or Meteor Call for moments when too many enemies push through at once."
+      ],
+      "faq": [
+        {
+          "q": "Is Hero Rush Tower Defense free to play?",
+          "a": "Yes. Hero Rush Tower Defense is free to play in your browser."
+        },
+        {
+          "q": "Can I play Hero Rush Tower Defense on a phone or computer?",
+          "a": "The listed controls use a mouse, keyboard, and mouse wheel, so it is built around computer play. Use the mouse to build and cast abilities, and WASD or the arrow keys to move the map view."
+        },
+        {
+          "q": "What is the goal in Hero Rush Tower Defense?",
+          "a": "Your goal is to defend your land from attack waves. Build and upgrade towers, use heroes, and stop enemies that travel by land or air."
+        },
+        {
+          "q": "How many heroes can I choose for a level?",
+          "a": "You can choose up to three heroes before starting a level. The game includes 12 different heroes with different abilities."
+        },
+        {
+          "q": "What tower types are in Hero Rush Tower Defense?",
+          "a": "The game includes Archer, Infantry, Cannoneer, and Magic Dragon towers. They are useful in different ways, including hitting land enemies, flying enemies, or blocking enemies on the route."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-basketball-king",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/basketball-king/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/construct/316/basketball-king/index-og.html",
+    "slug": "basketball-king",
+    "name": "Basketball King",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "2 Player",
+      "Arcade",
+      "Arena",
+      "Basketball"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/basketball-king-cd1657d8.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/basketball-king-cd1657d8.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T03:25:03.368Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Play fast arcade basketball with steals, pump fakes, dunks, special moves, and local two-player matches.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Basketball King free in your browser: run court, steal, pump fake, dunk, and use special moves in quick matches, tournaments, or local play.",
+      "about": "Basketball King is a fast 2D arcade basketball game where pickup ball becomes a wild court battle. You control a full player, not just a shot meter. Move around the arena, dribble past defenders, fake a shot, steal the ball, and finish with big dunks or a special ability. You can play a quick one-off match, work through a tournament bracket, or face another player in local multiplayer on the same keyboard.\nEach match is short, loud, and busy, with steals, blocks, dashes, and power moves changing the game quickly. The fun comes from timing: a pump fake can open space, a steal can flip possession, and a special move can turn a close play into a highlight dunk. Characters have their own styles and stats, so the game is easy to start but takes practice to master. Basketball King plays free in the browser with no download, and it also supports mobile touch controls.",
+      "highlights": [
+        "Quick Match for fast one-off games",
+        "Tournament mode with a full opponent bracket",
+        "Local multiplayer for two players on one keyboard",
+        "Pump fakes, steals, dunks, dashes, and special abilities",
+        "Mobile controls with joystick and on-screen buttons"
+      ],
+      "goodFor": "Basketball King is good for players who want quick sports action instead of a slow simulation. It also suits friends who want a same-keyboard two-player match.",
+      "howToPlay": "Move your player around the court, protect the ball, and look for space to shoot or dunk. On defense, time steals and blocks to win the ball back, then use dashes, pump fakes, and special abilities to create better scoring chances. Win by outplaying your opponent before the final buzzer.",
+      "touchHint": "Use the joystick to move and buttons to shoot",
+      "keys": [
+        "W/A/D or Arrow keys: Move",
+        "S or Down Arrow: Pump Fake",
+        "B or L: Shoot / Steal",
+        "V or K: Special Ability",
+        "Double-tap D or Left/Right Arrow: Dash"
+      ],
+      "tips": [
+        "Use a pump fake when a defender is close, then shoot or drive after they react.",
+        "Do not spam steal; wait until the ball handler is near you so you do not lose position.",
+        "Save your special ability for a clear lane or a key possession, not a rushed play.",
+        "In local multiplayer, learn both key sets so you know what your opponent can do next."
+      ],
+      "faq": [
+        {
+          "q": "Is Basketball King free to play?",
+          "a": "Yes. Basketball King is free to play in your browser with no download or install needed."
+        },
+        {
+          "q": "Can I play Basketball King on a phone or computer?",
+          "a": "Yes. It works on desktop with keyboard controls and on mobile with an on-screen joystick and buttons."
+        },
+        {
+          "q": "Does Basketball King have two-player mode?",
+          "a": "Yes. Local multiplayer lets two players go head-to-head on the same keyboard."
+        },
+        {
+          "q": "What modes are in Basketball King?",
+          "a": "You can play Quick Match for a fast game, Tournament mode to move through a bracket, or Local Multiplayer against another player."
+        },
+        {
+          "q": "What is the goal in Basketball King?",
+          "a": "Score more than your opponent by shooting, dunking, stealing the ball, and using special abilities at the right time."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
