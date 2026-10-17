@@ -240,6 +240,7 @@ async function postPinterest(g, c, img) {
     const e = new Error(j.message || `HTTP ${res.status}`);
     // Until Pinterest approves Standard access, Pins cannot be created: wait quietly, nothing is counted as failed.
     if (/trial access/i.test(e.message)) e.waiting = 'Pinterest is waiting for Standard access approval';
+    else if (/blocked this link/i.test(e.message)) e.waiting = 'Pinterest is blocking links to our site as possible spam (appeal pending)';
     else e.auth = res.status === 401 || res.status === 403;
     throw e;
   }
@@ -269,10 +270,11 @@ for (const g of next) {
     } catch (e) {
       if (e.waiting) { waiting.add(p); blocked.add(p); console.log(`- ${p}: ${e.waiting}. Skipping it for now.`); continue; }
       failed++;
+      // A login problem is not the game's fault: report it, but do not count it against the game.
+      if (e.auth) { blocked.add(p); console.log(`- ${g.slug}: ${p} failed: ${e.message}\n  ${p} login or permission problem: check its secrets. Skipping ${p} for this run.`); continue; }
       const prev = log[g.slug][p] || {};
       log[g.slug][p] = { ...prev, fails: (prev.fails || 0) + 1, lastError: e.message.slice(0, 200), at: now() };
       console.log(`- ${g.slug}: ${p} failed: ${e.message}`);
-      if (e.auth) { blocked.add(p); console.log(`  ${p} login or permission problem: check its secrets. Skipping ${p} for this run.`); }
     }
     saveLog();
   }
