@@ -98,18 +98,23 @@ for (const [name, items] of Object.entries(groups)) {
 }
 write('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${maps.map(f => `<sitemap><loc>${B}${f}</loc></sitemap>`).join('\n')}\n</sitemapindex>\n`);
 
+// ads.txt lets ad buyers confirm that EasyGameFun's ad space is sold by its own AdSense account.
+if (site.adsense?.client) write('/ads.txt', `google.com, ${site.adsense.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
 write('/robots.txt', `User-agent: *\nAllow: /\n${site.indexing ? `\nSitemap: ${B}/sitemap.xml\n` : ''}`);
 if (site.indexNowKey) write(`/${site.indexNowKey}.txt`, site.indexNowKey);
 
 /* ---------- Cloudflare Pages: _headers and _redirects ---------- */
 const bootHash = crypto.createHash('sha256').update(INLINE_BOOT).digest('base64');
+const ADS = !!site.adsense?.client;
+const ADS_HOSTS = 'https://pagead2.googlesyndication.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.gstatic.com https://*.googletagservices.com https://*.googleadservices.com https://*.adtrafficquality.google https://fundingchoicesmessages.google.com';
 const csp = [
   "default-src 'self'",
-  `script-src 'self' 'sha256-${bootHash}' https://static.cloudflareinsights.com`,
+  // Google AdSense loads its scripts and ad frames from these Google hosts (and Funding Choices for the consent message).
+  `script-src 'self' 'sha256-${bootHash}' https://static.cloudflareinsights.com${ADS ? ' ' + ADS_HOSTS : ''}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https:",
   "font-src 'self'",
-  "connect-src 'self' https://cloudflareinsights.com",
+  `connect-src 'self' https://cloudflareinsights.com${ADS ? ' ' + ADS_HOSTS : ''}`,
   'frame-src https:',
   "object-src 'none'",
   "base-uri 'self'",

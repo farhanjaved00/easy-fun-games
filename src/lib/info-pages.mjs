@@ -102,7 +102,8 @@ ${faqHTML(SITE_FAQ)}`
 <h2>Email</h2>
 <p>If you email us, we receive your email address and message and use them only to reply. We do not add you to any mailing list.</p>
 <h2>Advertising</h2>
-<p>We do not currently show our own ads. If we add advertising in the future, we will update this page first and ask for your consent where the law requires it.</p>
+<p>We show ads from Google AdSense to keep EasyGameFun free. Google and its partners may use cookies or similar technology to show ads, limit how often you see an ad, measure ad performance and, where allowed, show ads based on your visits to this and other websites. Where the law requires it, for example in the EU, the UK and Switzerland, you are asked for consent first and can change your choice at any time.</p>
+<p>Learn how Google uses information from sites that use its services at <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener">policies.google.com/technologies/partner-sites</a>. You can turn off personalized ads in <a href="https://adssettings.google.com" rel="nofollow noopener">Google's Ad Settings</a> or visit <a href="https://www.aboutads.info" rel="nofollow noopener">aboutads.info</a>.</p>
 <h2>Children</h2>
 <p>EasyGameFun is a general audience website. We do not knowingly collect personal information from children, and the site has no accounts, profiles or chat. Parents can find more information on our <a href="/parents/">page for parents</a>.</p>
 <h2>Your rights</h2>
@@ -114,10 +115,12 @@ ${faqHTML(SITE_FAQ)}`
     },
     {
       slug: 'cookies', crumb: 'Cookie policy', title: 'Cookie Policy | EasyGameFun',
-      desc: 'EasyGameFun does not set its own advertising or tracking cookies. Learn what is stored in your browser, what embedded partner games may use and how to clear it.',
+      desc: 'How EasyGameFun uses cookies and browser storage: Google AdSense ads, your saved games and settings, embedded partner games, and how to manage your choices.',
       html: `<h1>Cookie policy</h1>${updated}
-<h2>Our own cookies</h2>
-<p>EasyGameFun does not set its own advertising or tracking cookies. Our hosting provider, Cloudflare, may set strictly necessary security cookies to protect the site from bots and abuse.</p>
+<h2>Advertising cookies</h2>
+<p>We show ads from Google AdSense. Google and its partners may set cookies to show and measure ads and, where allowed, to personalize them. Where the law requires it, you are asked for consent first. Read more at <a href="https://policies.google.com/technologies/ads" rel="nofollow noopener">policies.google.com/technologies/ads</a>, and manage personalized ads in <a href="https://adssettings.google.com" rel="nofollow noopener">Google's Ad Settings</a>.</p>
+<h2>Security cookies</h2>
+<p>Our hosting provider, Cloudflare, may set strictly necessary security cookies to protect the site from bots and abuse.</p>
 <h2>Browser storage</h2>
 <p>We use your browser's local storage to remember your saved games, recently played games, theme choice and similar settings. This information stays on your device. See our <a href="/privacy/">privacy policy</a> for the full list.</p>
 <h2>Embedded games</h2>
@@ -125,7 +128,7 @@ ${faqHTML(SITE_FAQ)}`
 <h2>How to control cookies</h2>
 <p>You can block or delete cookies and site data in your browser settings. Blocking cookies for embedded games may stop some games from saving progress or loading.</p>
 <h2>Changes</h2>
-<p>If we add advertising or other services that use cookies, we will update this page first and ask for consent where required.</p>`
+<p>If we add other services that use cookies, we will update this page first and ask for consent where required.</p>`
     },
     {
       slug: 'terms', crumb: 'Terms of use', title: 'Terms of Use | EasyGameFun',

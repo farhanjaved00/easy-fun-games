@@ -46,5 +46,8 @@
   "verify": {
     "pinterest": "9d297d2960ec9d81726cf77e13a90884"
   },
-  "importSource": "onlinegames"
+  "importSource": "onlinegames",
+  "adsense": {
+    "client": "ca-pub-8178475200507023"
+  }
 }
