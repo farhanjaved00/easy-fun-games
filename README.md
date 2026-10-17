@@ -38,7 +38,7 @@ It also compares the game count with the live site and stops if more than 5% of 
 
 ## Daily game import
 
-`scripts/import-onlinegames.mjs` runs inside `deploy.yml` every day and imports 3 new games from
+`scripts/import-onlinegames.mjs` runs inside `deploy.yml` every day and imports 5 new games (source set by "importSource" in data/site.json: `gamedistribution` uses data/sources/gamedistribution-catalog.csv) from
 [onlinegames.io's embeddable list](https://www.onlinegames.io/t/embeddable-games-for-websites/). For each game it:
 
 1. Checks the game page carries the **Embeddable** tag (others are skipped), and skips games marked as mature content or named after other companies' trademarks.

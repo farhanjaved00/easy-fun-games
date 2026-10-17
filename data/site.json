@@ -45,5 +45,6 @@
   },
   "verify": {
     "pinterest": "9d297d2960ec9d81726cf77e13a90884"
-  }
+  },
+  "importSource": "gamedistribution"
 }

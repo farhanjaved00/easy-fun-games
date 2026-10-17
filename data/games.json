@@ -3,7 +3,7 @@
     "id": "og-stack-fire-ball",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/stack-fire-ball/",
-    "embedUrl": "https://www.onlinegames.io/games/2021/unity/stack-fire-ball/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/0ccc9c4304ad4c9788ac87ea179816f4/",
     "slug": "stack-fire-ball",
     "name": "Stack Fire Ball",
     "category": "arcade",
@@ -12,7 +12,7 @@
       "Skill",
       "Mobile"
     ],
-    "developer": "",
+    "developer": "JulGames",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -37,9 +37,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-11",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/stack-fire-ball/"
     },
     "addedAt": "2026-10-11",
     "status": "published",
@@ -95,7 +96,8 @@
         "Endless play with a score to beat"
       ],
       "goodFor": "Players who like quick one-button games and chasing a high score in short breaks."
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2021/unity/stack-fire-ball/index.html"
   },
   {
     "id": "og-drift-king",
@@ -1353,7 +1355,7 @@
     "id": "og-cs-online",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/cs-online/",
-    "embedUrl": "https://www.onlinegames.io/games/2023/unity2/cs-online/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/e8b30f50fe364d2389ef4668dac776f9/",
     "slug": "cs-online",
     "name": "CS Online",
     "category": "shooter",
@@ -1364,7 +1366,7 @@
       "First Person Shooter",
       "Shooting"
     ],
-    "developer": "",
+    "developer": "Online Games io",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -1389,9 +1391,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-12",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/cs-online/"
     },
     "addedAt": "2026-10-12",
     "status": "published",
@@ -1456,7 +1459,8 @@
         }
       ],
       "model": "gpt-5.5"
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2023/unity2/cs-online/index.html"
   },
   {
     "id": "og-escape-car",
@@ -1785,7 +1789,7 @@
     "id": "og-highway-traffic",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/highway-traffic/",
-    "embedUrl": "https://www.onlinegames.io/games/2022/unity/highway-traffic/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/7c151f5e29eb40a591edfe1823e1d0ea/",
     "slug": "highway-traffic",
     "name": "Highway Traffic",
     "category": "racing",
@@ -1796,7 +1800,7 @@
       "Traffic",
       "Endless"
     ],
-    "developer": "",
+    "developer": "JulGames",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -1821,9 +1825,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-13",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/highway-traffic/"
     },
     "addedAt": "2026-10-13",
     "publishedAt": "2026-10-13T03:22:37.527Z",
@@ -1887,7 +1892,8 @@
         }
       ],
       "model": "gpt-5.5"
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2022/unity/highway-traffic/index.html"
   },
   {
     "id": "og-basket-hoop",
@@ -2436,7 +2442,7 @@
     "id": "og-police-chase-drifter",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/police-chase-drifter/",
-    "embedUrl": "https://www.onlinegames.io/games/2021/3/police-chase-drifter/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/854f498c48134cbb9da539efabf1e7f2/",
     "slug": "police-chase-drifter",
     "name": "Police Chase Drifter",
     "category": "racing",
@@ -2447,7 +2453,7 @@
       "Driving",
       "Police"
     ],
-    "developer": "",
+    "developer": "Online Games io",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -2472,9 +2478,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-14",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/police-chase-drifter/"
     },
     "addedAt": "2026-10-14",
     "publishedAt": "2026-10-14T03:23:14.402Z",
@@ -2535,7 +2542,8 @@
         }
       ],
       "model": "gpt-5.5"
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2021/3/police-chase-drifter/index.html"
   },
   {
     "id": "og-checkout-frenzy",
@@ -2648,7 +2656,7 @@
     "id": "og-drunken-duel",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/drunken-duel/",
-    "embedUrl": "https://www.onlinegames.io/games/2024/code/2/drunken-duel/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/6e95d1e18de748788305de9303bd1a99/",
     "slug": "drunken-duel",
     "name": "Drunken Duel",
     "category": "2-player",
@@ -2659,7 +2667,7 @@
       "Physics",
       "Battle"
     ],
-    "developer": "",
+    "developer": "Hihoy",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -2684,9 +2692,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-14",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/drunken-duel/"
     },
     "addedAt": "2026-10-14",
     "publishedAt": "2026-10-14T03:25:17.678Z",
@@ -2748,7 +2757,8 @@
         }
       ],
       "model": "gpt-5.5"
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2024/code/2/drunken-duel/index.html"
   },
   {
     "id": "og-capybara-clicker-pro",
@@ -3175,7 +3185,7 @@
     "id": "og-armedforces-io",
     "source": "onlinegames.io",
     "sourceUrl": "https://www.onlinegames.io/armedforces-io/",
-    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/armedforces-io/index.html",
+    "embedUrl": "https://html5.gamedistribution.com/1a89ecde7c9743899852c1f532cb7972/",
     "slug": "armedforces-io",
     "name": "ArmedForces.io",
     "category": "io",
@@ -3186,7 +3196,7 @@
       "Battle",
       "Multiplayer"
     ],
-    "developer": "",
+    "developer": "JulGames",
     "orientation": "landscape",
     "input": [
       "keyboard",
@@ -3211,9 +3221,10 @@
       "#FF3F6C"
     ],
     "licence": {
-      "partner": "onlinegames.io",
-      "checkedAt": "2026-10-15",
-      "allowedEmbed": true
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true,
+      "gamePage": "https://gamedistribution.com/games/armedforces.io/"
     },
     "addedAt": "2026-10-15",
     "publishedAt": "2026-10-15T03:25:35.364Z",
@@ -3272,7 +3283,8 @@
         }
       ],
       "model": "gpt-5.5"
-    }
+    },
+    "previousEmbedUrl": "https://www.onlinegames.io/games/2021/unity3/armedforces-io/index.html"
   },
   {
     "id": "og-basketball-io",

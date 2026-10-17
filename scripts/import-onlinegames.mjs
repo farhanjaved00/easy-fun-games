@@ -1,8 +1,10 @@
-// Imports new embeddable games from onlinegames.io, writes original page text with OpenAI,
-// checks it, and adds the games to data/games.json.
+// Imports new games, writes original page text with OpenAI, checks it, and adds the games to data/games.json.
 //
-// onlinegames.io allows publishers to embed games tagged "Embeddable"
-// (https://www.onlinegames.io/t/embeddable-games-for-websites/). Games without that tag are skipped.
+// Sources (--source, or "importSource" in data/site.json):
+//   gamedistribution  games from data/sources/gamedistribution-catalog.csv (GameDistribution allows publishers
+//                     to embed its games); details come from each game's page on gamedistribution.com.
+//   onlinegames       onlinegames.io games tagged "Embeddable"
+//                     (https://www.onlinegames.io/t/embeddable-games-for-websites/). Other games are skipped.
 //
 // Usage:
 //   node scripts/import-onlinegames.mjs                 import 3 new games (needs OPENAI_API_KEY)
@@ -20,7 +22,6 @@ import { readCats, writeCats, checkNewCategory, writeCategory } from './lib/cate
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
-const STATE_FILE = path.join(DATA, 'sources/onlinegames.json');
 const THUMBS = path.join(ROOT, 'src/static/thumbs');
 const SITE = 'https://www.onlinegames.io';
 const LIST = `${SITE}/t/embeddable-games-for-websites/`;
@@ -29,6 +30,11 @@ const UA = 'EasyGameFunBot/1.0 (+https://easygamefun.com/contact/)';
 
 const args = process.argv.slice(2);
 const opt = name => { const i = args.indexOf('--' + name); return i < 0 ? null : (args[i + 1] && !args[i + 1].startsWith('--') ? args[i + 1] : true); };
+const SITE_CFG = JSON.parse(fs.readFileSync(path.join(DATA, 'site.json'), 'utf8'));
+const SOURCE = (opt('source') || SITE_CFG.importSource || 'onlinegames').replace(/\.io$/, '');
+const GD = SOURCE === 'gamedistribution';
+const STATE_FILE = path.join(DATA, GD ? 'sources/gamedistribution.json' : 'sources/onlinegames.json');
+const GD_CATALOG = path.join(DATA, 'sources/gamedistribution-catalog.csv');
 const COUNT = Math.max(0, Math.min(10, opt('count') === null ? 3 : +opt('count') || 0));
 const DRY = !!opt('dry-run');
 const DAILY = !!opt('daily'); // scheduled runs: only add what is missing to reach the daily count
@@ -106,15 +112,61 @@ async function readGame(url) {
   return { url, name, embedUrl: embed, image, tags, paragraphs, controls, headings, mature };
 }
 
+/* ---------------- GameDistribution ---------------- */
+// The catalog (slug, id, title, developer, genre) comes from the owner's GameDistribution export.
+function parseCSV(t) {
+  const rows = []; let r = [], f = '', q = false;
+  for (let i = 0; i < t.length; i++) {
+    const c = t[i];
+    if (q) { if (c === '"') { if (t[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true; else if (c === ',') { r.push(f); f = ''; }
+    else if (c === '\n') { r.push(f); rows.push(r); r = []; f = ''; } else if (c !== '\r') f += c;
+  }
+  if (f || r.length) { r.push(f); rows.push(r); }
+  return rows;
+}
+function listGD() {
+  const rows = parseCSV(fs.readFileSync(GD_CATALOG, 'utf8').replace(/^\uFEFF/, '')).slice(1).filter(r => r.length >= 4 && /^[0-9a-f]{32}$/.test(r[1]));
+  return rows.map(([slug, id, title, developer, genre]) => ({ url: `https://gamedistribution.com/games/${slug}/`, slug, id, title, developer, genre }));
+}
+const tagSlug = n => n.toLowerCase().replace(/^\./, '').replace(/^(\d)\s*players?$/, '$1-player').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const GD_MATURE = /\b(horror|blood|gore|gory|violent|violence|scary|zombie)\b/i;
+async function readGD(entry) {
+  const html = await get(entry.url);
+  if (!html) return { skip: 'page not found' };
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  const d = m && JSON.parse(m[1])?.props?.pageProps?.game;
+  if (!d) return { skip: 'no game data on the page' };
+  if (d.visible === false) return { skip: 'game is not visible on GameDistribution' };
+  if (d.https === false) return { skip: 'game does not run on https' };
+  const name = String(d.title || entry.title).trim();
+  if (!name) return { skip: 'no game name' };
+  const paragraphs = String(d.description || '').split(/\n+/).map(t => t.trim()).filter(t => t && !/^good luck!*$/i.test(t));
+  if (paragraphs.join(' ').length < 80) return { skip: 'too little information about the game' };
+  const controls = String(d.instruction || '').split(/\n+/).map(l => l.trim()).filter(Boolean)
+    .map(l => { const p = l.split(/\s+[-–—]{1,2}\s+|:\s+/); return p.length >= 2 ? [p[0], p.slice(1).join(' ')] : ['How to play', l]; }).slice(0, 8);
+  const tags = [...(d.categories || []), ...(d.tags || [])].map(n => ({ slug: tagSlug(n), name: n.replace(/^(\d)\s*players?$/i, '$1 Player').replace(/^\.IO$/i, '.io').replace(/^Match3$/i, 'Match-3') }));
+  const asset = (d.assets || []).map(a => a.name).sort((a, b) => /512x512/.test(b) - /512x512/.test(a) || /512x384/.test(b) - /512x384/.test(a))[0];
+  const mature = GD_MATURE.test([...(d.tags || []), ...(d.categories || [])].join(' '));
+  if (mature && RULES.skipMature) return { skip: 'marked as mature content' };
+  if (RULES.skipTrademarkNames && TRADEMARKS.test(name)) return { skip: `name uses another company's trademark (${name.match(TRADEMARKS)[0]})` };
+  return {
+    url: entry.url, name, embedUrl: `https://html5.gamedistribution.com/${d.md5 || entry.id}/`,
+    image: asset ? `https://img.gamedistribution.com/${asset}` : null, tags, paragraphs, controls, headings: [], mature,
+    developer: d.company || entry.developer || '', orientation: /portrait/i.test(d.mobileMode || '') ? 'portrait' : 'landscape',
+    touch: (d.mobile || []).length > 0 || /\b(tap|touch|swipe)\b/i.test(d.instruction || '')
+  };
+}
+
 /* ---------------- mapping to our site ---------------- */
 const CAT_RULES = [
-  ['io', ['io-games', 'io']], ['2-player', ['2-player', 'two-player']],
+  ['io', ['io-games', 'io', 'multiplayer-io']], ['2-player', ['2-player', 'two-player']],
   ['racing', ['racing', 'car', 'cars', 'driving', 'drift', 'bike', 'motorbike', 'parking', 'truck']],
   ['shooter', ['shooting', 'shooter', 'sniper', 'gun', 'fps', 'zombie']], ['sports', ['sports', 'football', 'soccer', 'basketball', 'golf', 'pool', 'billiards']],
-  ['puzzle', ['puzzle', 'match-3', 'logic', 'brain', 'word']], ['kids', ['kids', 'girl', 'cooking', 'dress-up']],
-  ['adventure', ['adventure', 'escape', 'platformer', 'rpg']], ['action', ['action', 'fighting', 'war', 'stickman']], ['arcade', ['arcade', 'clicker', 'casual', 'skill']]
+  ['puzzle', ['puzzle', 'match-3', 'logic', 'brain', 'word']], ['kids', ['kids', 'girl', 'girls', 'cooking', 'dress-up', 'educational']],
+  ['adventure', ['adventure', 'escape', 'platformer', 'rpg']], ['action', ['action', 'fighting', 'war', 'stickman']], ['arcade', ['arcade', 'clicker', 'casual', 'skill', 'hypercasual', 'merge', 'idle']]
 ];
-const SKIP_TAGS = new Set(['embeddable-games-for-websites', 'free', 'fun', 'funny', 'html5', 'unity', '1-player', '2d', '3d', 'online', 'best', 'new', 'popular', 'crazy', 'webgl', 'browser', 'no-download']);
+const SKIP_TAGS = new Set(['1player', '2players', 'casual', 'hypercasual', 'embeddable-games-for-websites', 'free', 'fun', 'funny', 'html5', 'unity', '1-player', '2d', '3d', 'online', 'best', 'new', 'popular', 'crazy', 'webgl', 'browser', 'no-download']);
 const categoryOf = tags => {
   const slugs = tags.map(t => t.slug);
   for (const [cat, keys] of CAT_RULES) if (keys.some(k => slugs.includes(k))) return cat;
@@ -309,7 +361,7 @@ const prewritten = CONTENT_IN ? readJson(CONTENT_IN, {}) : null;
 
 let TODO = COUNT;
 if (DAILY) {
-  const already = readJson(path.join(DATA, 'games.json'), []).filter(g => g.source === 'onlinegames.io' && g.addedAt === today).length;
+  const already = readJson(path.join(DATA, 'games.json'), []).filter(g => g.addedAt === today && /onlinegames|gamedistribution/.test(g.source || '')).length;
   TODO = Math.max(0, COUNT - already);
   console.log(`Daily target ${COUNT}, already added today ${already}, adding ${TODO} now.`);
 }
@@ -319,10 +371,15 @@ if (!FACTS_OUT && !DRY && !prewritten && !process.env.OPENAI_API_KEY) {
   process.exit(0);
 }
 
-console.log(`Reading ${LIST}`);
-const urls = await listEmbeddable();
-const fresh = urls.filter(u => !state.games[u] && !haveSlug.has(slugOf(u)));
-console.log(`${urls.length} games listed, ${fresh.length} not imported yet.`);
+// Games we already have under any source, by name, so the same game is never added twice.
+const normName = n => n.toLowerCase().replace(/\.io\b/g, 'io').replace(/[^a-z0-9]/g, '');
+const haveName = new Set(games.map(g => normName(g.name)));
+const catalog = GD ? listGD() : null;
+const urls = GD ? catalog.map(e => e.url) : (console.log(`Reading ${LIST}`), await listEmbeddable());
+const entryOf = GD ? new Map(catalog.map(e => [e.url, e])) : null;
+const fresh = urls.filter(u => !state.games[u] && !haveSlug.has(slugOf(u)) && !(GD && haveName.has(normName(entryOf.get(u).title))));
+console.log(`${SOURCE}: ${urls.length} games listed, ${fresh.length} not imported yet.`);
+let looked = 0;
 
 const facts = [];
 const added = [];
@@ -332,7 +389,8 @@ for (const url of fresh) {
   if (failures >= 3) { console.log('Stopping: 3 games failed in this run.'); break; }
   console.log(`- ${url}`);
   let g;
-  try { g = await readGame(url); } catch (e) { console.log(`  error: ${e.message}`); continue; }
+  if (++looked > 80) { console.log('Stopping: looked at 80 games in this run.'); break; }
+  try { g = GD ? await readGD(entryOf.get(url)) : await readGame(url); } catch (e) { console.log(`  error: ${e.message}`); continue; }
   if (g.skip) { console.log(`  skipped: ${g.skip}`); if (!DRY && !FACTS_OUT) state.games[url] = { status: 'skipped', reason: g.skip, at: today }; continue; }
   const slug = slugOf(url);
   const cat = categoryOf(g.tags);
@@ -361,17 +419,17 @@ for (const url of fresh) {
   if (!thumb) { console.log('  not imported: thumbnail could not be read'); state.games[url] = { status: 'failed', reason: 'thumbnail', at: today }; continue; }
 
   const record = {
-    id: 'og-' + slug, source: 'onlinegames.io', sourceUrl: url, embedUrl: g.embedUrl, slug, name: g.name,
+    id: (GD ? 'gd-' : 'og-') + slug, source: GD ? 'gamedistribution' : 'onlinegames.io', sourceUrl: url, embedUrl: g.embedUrl, slug, name: g.name,
     category: await chooseCategory(c, cat, g),
     mature: !!g.mature,
     tags: (c.tags && c.tags.length ? c.tags : tags).slice(0, 4),
-    developer: '', orientation: 'landscape',
+    developer: g.developer || '', orientation: g.orientation || 'landscape',
     input: g.controls.some(([k]) => /mouse|click/i.test(k)) ? ['mouse', 'keyboard', 'touch'] : ['keyboard', 'touch'],
     thumb, emoji: '🎮', colors: ['#6C4DFF', '#FF3F6C'],
-    licence: { partner: 'onlinegames.io', checkedAt: today, allowedEmbed: true },
+    licence: { partner: GD ? 'gamedistribution' : 'onlinegames.io', checkedAt: today, allowedEmbed: true },
     addedAt: today, publishedAt: new Date().toISOString(), status: 'published', featured: false, popularity: 0,
     description: c.description,
-    quality: { score: 80, checks: { embeddableTag: true, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
+    quality: { score: 80, checks: { embeddableTag: !GD, partnerCatalog: GD, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
     content: { metaDescription: c.metaDescription, about: c.about.join('\n'), highlights: c.highlights, goodFor: c.goodFor, howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
   };
   // Our own AI cover replaces the partner image; if it fails, the partner image stays and the daily cover step retries.
@@ -381,6 +439,7 @@ for (const url of fresh) {
   }
   games.push(record);
   haveSlug.add(slug);
+  haveName.add(normName(record.name));
   state.games[url] = { status: 'imported', slug, at: today };
   added.push(record);
   OUR_PAGES.push({ name: record.name, sh: shingles([record.content.about, ...record.content.highlights, record.content.goodFor, record.content.howToPlay, ...record.content.tips].join(' ').split(record.name).join(' ')) });
