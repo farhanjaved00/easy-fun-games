@@ -18,7 +18,7 @@ export function home(m) {
   // Every game appears at most once on the home page: each section takes games nobody above has shown.
   const used = new Set();
   const take = (list, n) => { const out = []; for (const g of list) { if (out.length >= n) break; if (!used.has(g.slug)) { used.add(g.slug); out.push(g); } } return out; };
-  const top = take([...m.games.filter(g => g.featured), ...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best], 6);
+  const top = take([...m.games.filter(g => g.featured), ...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best], 9);
   const popular = take(m.trending, 8);
   const fresh = take(m.newest, 6);
   const spot1 = spotGames(m, m.site.spotlights?.[0], take);
@@ -26,15 +26,8 @@ export function home(m) {
   // Everything not shown yet, best first (up to 48; the A to Z page has them all).
   const rest = take(m.best.length ? [...m.best, ...m.games] : m.games, 48);
 
-  const body = `<section class="hero" aria-labelledby="h1"><canvas id="hc" aria-hidden="true" data-emoji="${esc(m.games.slice(0, 30).map(g => g.emoji).join(' '))}"></canvas>
-<div><span class="eyebrow"><i class="live-dot"></i>${N} free games · new every day</span>
-<h1 id="h1">Play free online games <em>instantly</em></h1>
-<p class="lead">No download and no sign-up. Puzzle, racing, shooter, .io and 2 player games that run on your phone, tablet or computer.</p>
-<a class="hsearch" href="/search/" data-focus-search>${SEARCH_ICON}Search ${N} free games</a>
-<div class="cta-row"><a class="btn btn-mint" href="${top[0]?.url || '/trending/'}">▶ Start playing</a><button class="btn btn-ghost js-only" data-rnd>🎲 Surprise me</button></div>
-<ul class="trust"><li>100% free</li><li>No download</li><li>Works on mobile</li><li>New games daily</li></ul></div>
-<div class="hpicks"><span class="hp-h">⭐ Top picks today</span><div class="hgrid">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></div>
-</section>
+  const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Top free online games today</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
+<div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 ${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
 ${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGameFun.') : ''}
