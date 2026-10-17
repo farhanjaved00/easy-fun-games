@@ -395,5 +395,57 @@
       "lastError": "Sorry! We blocked this link because it may lead to spam.",
       "at": "2026-10-16T13:21:29.689Z"
     }
+  },
+  "basketball-king": {
+    "captions": {
+      "facebook": "Hit the court in Basketball King! 🏀 Play quick arcade matches, enter a tournament bracket, or challenge a friend in local two-player action.\nPlay free: https://easygamefun.com/game/basketball-king/\n#BasketballKing #BasketballGames #FreeGames",
+      "instagram": "Rule the court in Basketball King! 🏀\nSteal, dunk, dash, and use special moves in fast arcade basketball.\nPlay Quick Match, Tournament mode, or local two-player on one keyboard.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #basketballgame #sportsgames #arcadegame #twoplayergames #localmultiplayer #onlinegames #dunk",
+      "pinterestTitle": "Basketball King Free Online Game - Arcade Basketball Action",
+      "pinterestDescription": "Basketball King is a free online arcade basketball game with quick matches, tournament play, and local two-player action. Time steals, pump fakes, dunks, dashes, and special abilities to beat the buzzer. Play free in the browser on phone and PC. #BasketballGame #FreeOnlineGame #BrowserGames",
+      "altText": "Basketball King cover image with an arcade basketball sports theme."
+    },
+    "facebook": {
+      "fails": 1,
+      "lastError": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+      "at": "2026-10-17T03:27:19.058Z"
+    },
+    "instagram": {
+      "fails": 1,
+      "lastError": "Instagram login failed: Error validating access token: This Instagram account needs to complete a checkpoint before it can access this app. To recover access, log in to www.instagram.com and follow th",
+      "at": "2026-10-17T03:27:19.282Z"
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-17T03:27:20.547Z"
+    }
+  },
+  "hero-rush-tower-defense": {
+    "captions": {
+      "facebook": "Build towers, choose your heroes, and hold the line! Stop land and flying enemies before they break through your defenses. 🛡️\nPlay free: https://easygamefun.com/game/hero-rush-tower-defense/\n#TowerDefense #StrategyGame #HeroBattle",
+      "instagram": "Defend every path! 🛡️\nBuild towers for land and air threats. Choose up to three heroes and use abilities like Frost Gem and Meteor Call.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #towerdefense #strategygame #herogame #battle #defensegame #onlinegames #playfree",
+      "pinterestTitle": "Hero Rush Tower Defense Free Online Game",
+      "pinterestDescription": "Hero Rush Tower Defense is a free online strategy game where you build towers, choose up to three heroes, and stop land and flying enemies across different maps. Play free in your browser on phone and PC. #TowerDefense #StrategyGame #FreeGames",
+      "altText": "Hero Rush Tower Defense cover art with heroes, defensive towers, and enemies in a 2D tower defense battle."
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-17T03:27:28.573Z"
+    }
+  },
+  "cat-simulator": {
+    "captions": {
+      "facebook": "Be the cat and choose your own kind of chaos. Complete quests, run stunts, earn coins, unlock breeds, and decorate your room. 🐾\nPlay free: https://easygamefun.com/game/cat-simulator/\n#CatSimulator #FreeGames #BrowserGames",
+      "instagram": "Live your best cat life! 🐱\nPlay as a cat, clear quests, run stunts, and collect coins.\nUnlock breeds, hats, and room decor as you level up.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #catsimulator #catgames #animalgames #simulatorgames #cozygames #adventuregames #playfree",
+      "pinterestTitle": "Cat Simulator Free Online Game - Play as a Cat",
+      "pinterestDescription": "Cat Simulator is a free online cat game where you play as a cat, complete quests, run stunts, collect coins, and unlock breeds, hats, and room decor. Choose modes for coins, survival, destruction, quests, and more. Play free in your browser on phone and PC. #CatSimulator #FreeGames #BrowserGames",
+      "altText": "Cat Simulator cover art for a free browser game about playing as a cat, earning coins, unlocking breeds, and decorating a room."
+    },
+    "pinterest": {
+      "fails": 1,
+      "lastError": "Sorry! We blocked this link because it may lead to spam.",
+      "at": "2026-10-17T03:27:35.044Z"
+    }
   }
 }
