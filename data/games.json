@@ -4462,5 +4462,111 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gd-arrow-go",
+    "source": "gamedistribution",
+    "sourceUrl": "https://gamedistribution.com/games/arrow-go/",
+    "embedUrl": "https://html5.gamedistribution.com/f7be9dcb47e848178d99bffcaa396c68/",
+    "slug": "arrow-go",
+    "name": "Arrow Go",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Arrow",
+      "Block",
+      "Logic"
+    ],
+    "developer": "GameBerry Studio",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/arrow-go-187d6f09.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/arrow-go-187d6f09.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamedistribution",
+      "checkedAt": "2026-10-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-17",
+    "publishedAt": "2026-10-17T13:52:21.151Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Tap arrows in the right order, clear their paths, and remove every arrow from the board to finish each puzzle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": false,
+        "partnerCatalog": true,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Arrow Go free in your browser. Tap arrows in the right order, clear blocked paths, and remove every arrow from the board to finish each level.",
+      "about": "Arrow Go is a one-player logic puzzle about clearing a board full of arrows. Each arrow points in one direction, and that direction is the only way it can move. Your goal is simple to understand: remove every arrow from the board. The challenge comes from choosing the correct order, because an arrow cannot move if another arrow is blocking its path. It is easy to start, but the board asks you to think before each tap.\nEach level is built around careful untangling. You tap an arrow, check whether its path is open, then keep removing arrows until the board is empty. A rushed tap may do nothing if the arrow is blocked, so planning a few moves ahead helps a lot. The game has a calm, relaxing feel, but every move still matters because one cleared arrow can open the way for several others. Arrow Go plays free in your browser, with simple controls that focus on the puzzle instead of extra steps.",
+      "highlights": [
+        "Relaxing one-player logic puzzle",
+        "Arrows move only in the direction they point",
+        "Blocked arrows cannot move",
+        "Clear every arrow to complete the level",
+        "Order-based puzzles where planning matters"
+      ],
+      "goodFor": "Arrow Go is good for players who like calm logic puzzles with simple rules. It suits anyone who enjoys spotting the right order and clearing a board step by step.",
+      "howToPlay": "Tap an arrow to try to move it in the direction it points. If another arrow is in the way, it cannot move, so choose a different arrow first. Clear all arrows from the board to complete the level.",
+      "touchHint": "Tap an arrow to move it in its direction",
+      "keys": [
+        "Tap an arrow: Move it in the direction it points"
+      ],
+      "tips": [
+        "Look for arrows with a clear path first, since blocked arrows cannot move.",
+        "Check the direction of each arrow before tapping so you do not waste moves on a blocked path.",
+        "Remove outer or exposed arrows when they open space for arrows trapped behind them.",
+        "Before tapping, scan which arrows are blocking others and clear those blockers in order."
+      ],
+      "faq": [
+        {
+          "q": "Is Arrow Go free to play?",
+          "a": "Yes. Arrow Go plays free in your browser."
+        },
+        {
+          "q": "Can I play Arrow Go on a phone or computer?",
+          "a": "Arrow Go uses tap controls, so it is straightforward on a touchscreen. It also plays in a browser."
+        },
+        {
+          "q": "What is the goal in Arrow Go?",
+          "a": "The goal is to remove every arrow from the board. You complete a level when no arrows are left."
+        },
+        {
+          "q": "How do arrows move in Arrow Go?",
+          "a": "Each arrow moves only in the direction it points. If another arrow blocks that path, the arrow cannot move."
+        },
+        {
+          "q": "How do I solve Arrow Go puzzles?",
+          "a": "Find arrows that are not blocked, remove them, and use the new space to free other arrows. The correct order is the key to clearing the board."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

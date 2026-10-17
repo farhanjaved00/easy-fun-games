@@ -1,0 +1,10 @@
+{
+  "source": "https://www.onlinegames.io/t/embeddable-games-for-websites/",
+  "games": {
+    "https://gamedistribution.com/games/arrow-go/": {
+      "status": "imported",
+      "slug": "arrow-go",
+      "at": "2026-10-17"
+    }
+  }
+}
