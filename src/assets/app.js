@@ -175,7 +175,9 @@
     var rec = recent.map(function (s) { return d.bySlug[s]; }).filter(Boolean);
     if (!rec.length) return;
     var last = rec[0];
-    var sim = d.list.filter(function (x) { return x.slug !== last.slug && recent.indexOf(x.slug) < 0; }).sort(function (a, b) { return (b.cat === last.cat) - (a.cat === last.cat); }).slice(0, 8);
+    // Skip games already listed on this page, so nothing is shown twice.
+    var onPage = {}; $$('main a[href^="/game/"]').forEach(function (a) { if (!a.closest('#personal')) onPage[a.getAttribute('href').split('/')[2]] = 1; });
+    var sim = d.list.filter(function (x) { return x.slug !== last.slug && recent.indexOf(x.slug) < 0 && !onPage[x.slug]; }).sort(function (a, b) { return (b.cat === last.cat) - (a.cat === last.cat); }).slice(0, 8);
     personal.innerHTML = '<section class="sec" aria-labelledby="s-cont"><div class="sec-h"><h2 id="s-cont">Continue playing</h2></div><div class="hs">' + rec.slice(0, 8).map(EGF.tile).join('') + '</div></section>' +
       (sim.length ? '<section class="sec" aria-labelledby="s-byp"><div class="sec-h"><div><h2 id="s-byp">Because you played ' + esc(last.name) + '</h2><p class="sub">Picked for you based on your last game.</p></div><a href="/category/' + last.cat + '/">See all</a></div><div class="hs">' + sim.map(EGF.tile).join('') + '</div></section>' : '');
   });
@@ -188,18 +190,6 @@
     b.onclick = function () { selectTab(b); };
     b.onkeydown = function (e) { var k = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0; if (k) { var n = tabs[(i + k + tabs.length) % tabs.length]; selectTab(n); n.focus(); } };
   });
-
-  var fl = $('#fl');
-  if (fl) {
-    var feat = JSON.parse(fl.getAttribute('data-feat') || '[]'), dots = $$('#fdots button'), fi = 0, timer = null;
-    var show = function (n) {
-      fi = (n + feat.length) % feat.length; var f = feat[fi];
-      fl.href = f[0]; var im = $('img', fl); im.removeAttribute('srcset'); im.src = f[3]; $('#fl-n').textContent = f[1]; $('#fl-c').textContent = f[2];
-      dots.forEach(function (d, k) { d.classList.toggle('on', k === fi); });
-    };
-    if (!reduced && feat.length > 1) timer = setInterval(function () { if (!document.hidden) show(fi + 1); }, 6000);
-    dots.forEach(function (d, k) { d.onclick = function () { show(k); clearInterval(timer); }; });
-  }
 
   var hc = $('#hc');
   if (hc && !reduced && hc.getContext) (function () {

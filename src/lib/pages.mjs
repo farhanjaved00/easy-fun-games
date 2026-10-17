@@ -15,40 +15,34 @@ const SEARCH_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11"
 /* ---------------- home ---------------- */
 export function home(m) {
   const B = m.site.baseUrl, N = m.games.length;
-  const feat = [...m.games.filter(g => g.featured), ...m.games].filter((g, i, l) => l.indexOf(g) === i).slice(0, 4);
-  const picks = [...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best].filter((g, i, l) => l.indexOf(g) === i).slice(0, 8);
-  const featJson = esc(JSON.stringify(feat.map(g => [g.url, g.name, g.cat.name, g.thumb.url])));
-  const tabs = m.cats.filter(c => c.games.length);
-  const relax = m.tagBySlug.get('relaxing');
-  const season = m.seasonal && m.games.filter(g => g.tags.includes(m.seasonal.tag));
-  const az = m.az.slice(0, 32);
+  // Every game appears at most once on the home page: each section takes games nobody above has shown.
+  const used = new Set();
+  const take = (list, n) => { const out = []; for (const g of list) { if (out.length >= n) break; if (!used.has(g.slug)) { used.add(g.slug); out.push(g); } } return out; };
+  const top = take([...m.games.filter(g => g.featured), ...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best], 6);
+  const popular = take(m.trending, 8);
+  const fresh = take(m.newest, 6);
+  const spot1 = spotGames(m, m.site.spotlights?.[0], take);
+  const spot2 = spotGames(m, m.site.spotlights?.[1], take);
+  // Everything not shown yet, best first (up to 24; the A to Z page has them all).
+  const rest = take(m.best.length ? [...m.best, ...m.games] : m.games, 24);
 
   const body = `<section class="hero" aria-labelledby="h1"><canvas id="hc" aria-hidden="true" data-emoji="${esc(m.games.slice(0, 30).map(g => g.emoji).join(' '))}"></canvas>
 <div><span class="eyebrow"><i class="live-dot"></i>${N} free games · new every day</span>
 <h1 id="h1">Play free online games <em>instantly</em></h1>
 <p class="lead">No download and no sign-up. Puzzle, racing, shooter, .io and 2 player games that run on your phone, tablet or computer.</p>
 <a class="hsearch" href="/search/" data-focus-search>${SEARCH_ICON}Search ${N} free games</a>
-<div class="cta-row"><a class="btn btn-mint" href="/trending/">▶ Start playing</a><button class="btn btn-ghost js-only" data-rnd>🎲 Surprise me</button></div>
+<div class="cta-row"><a class="btn btn-mint" href="${top[0]?.url || '/trending/'}">▶ Start playing</a><button class="btn btn-ghost js-only" data-rnd>🎲 Surprise me</button></div>
 <ul class="trust"><li>100% free</li><li>No download</li><li>Works on mobile</li><li>New games daily</li></ul></div>
-<div><a class="fl" id="fl" href="${feat[0].url}" data-feat="${featJson}">${img(feat[0], '', true, BIG)}<span class="pill-live">FEATURED</span><span class="lb"><span><b id="fl-n">${esc(feat[0].name)}</b><small id="fl-c">${esc(feat[0].cat.name)}</small></span><span class="pb play-btn" style="min-height:40px;padding:0 16px;font-size:15px">Play ▶</span></span></a>
-<div class="fdots js-only" id="fdots" role="group" aria-label="Featured games">${feat.map((g, i) => `<button aria-label="Show ${esc(g.name)}"${i ? '' : ' class="on"'}></button>`).join('')}</div></div>
+<div class="hpicks"><span class="hp-h">⭐ Top picks today</span><div class="hgrid">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></div>
 </section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
-<section class="stats" aria-label="EasyGameFun in numbers"><div class="stat"><b>${N}</b><span>free games</span></div><div class="stat"><b>${m.cats.length}</b><span>categories</span></div><div class="stat"><b>${m.collections.length}</b><span>collections</span></div><div class="stat"><b>0</b><span>downloads needed</span></div></section>
-<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${m.trending.slice(0, 8).map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>
-<section class="sec" aria-labelledby="s-ed"><div class="sec-h"><div><h2 id="s-ed">Editor's picks</h2><p class="sub">Hand-picked games to start with today.</p></div><a href="/best/">See all</a></div><div class="bento">${picks.map((g, i) => tile(g, i === 0 ? 'xl' : i === 5 ? 'wd' : '')).join('')}</div></section>
+${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
+${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGameFun.') : ''}
 <div id="personal"></div>` +
-    wrow('New games', m.newest.slice(0, 6), '/new/', 'The latest games on EasyGameFun.') +
-    `<section class="sec" aria-labelledby="s-tab"><div class="sec-h"><h2 id="s-tab">Trending by category</h2><a href="/cats/">All categories</a></div><div class="tabs js-only" id="tabs" role="tablist" aria-label="Choose a category">${tabs.map((c, i) => `<button role="tab" id="tab-${c.slug}" aria-controls="tp-${c.slug}" aria-selected="${i ? 'false' : 'true'}"${i ? ' tabindex="-1"' : ' class="on"'}>${c.emoji} ${esc(c.name)}</button>`).join('')}</div>` +
-    tabs.map((c, i) => `<div class="hs" role="tabpanel" id="tp-${c.slug}" aria-labelledby="tab-${c.slug}"${i ? ' hidden' : ''}>${c.games.slice(0, 8).map(g => tile(g)).join('')}</div>`).join('') + `</section>` +
-    spot(m, m.site.spotlights?.[0]) +
-    `<section class="sec" aria-labelledby="s-hof"><div class="sec-h"><div><h2 id="s-hof">Best games of all time</h2><p class="sub">Ranked by our editors' score and how often each game is played.</p></div><a href="/best/">Full ranking</a></div>${hofBlock(m.best, 6)}</section>` +
-    collSection(m) + catCards(m) + spot(m, m.site.spotlights?.[1]) +
-    row('Top rated games', m.best.slice(0, 10), '/best/') +
-    `<section class="cta js-only"><div><h2>Can't decide what to play?</h2><p>Let us pick a random game for you. It takes one tap.</p></div><button class="play-btn" data-rnd>🎲 Surprise me</button></section>` +
-    (season && season.length >= 3 ? wrow(m.seasonal.title, season.slice(0, 6), m.collections.find(c => c.rule.tag === m.seasonal.tag)?.url || null, m.seasonal.sub) : '') +
-    (relax && relax.games.length >= 3 ? row('Relax and unwind', relax.games.slice(0, 8), m.collections.find(c => c.rule.tag === 'Relaxing')?.url || relax.url) : '') +
-    `<section class="sec" aria-labelledby="s-az"><div class="sec-h"><h2 id="s-az">All games A to Z</h2><a href="/games/">See all</a></div><div class="icons">${az.map(g => `<a class="ico" href="${g.url}"><span class="tile">${img(g)}</span><b>${esc(g.name)}</b></a>`).join('')}</div></section>
+    spot(m, m.site.spotlights?.[0], spot1) +
+    (rest.length ? `<section class="sec" aria-labelledby="s-more"><div class="sec-h"><div><h2 id="s-more">More games to play</h2><p class="sub">Even more free games, ready in one tap.</p></div><a href="/games/">All games A to Z</a></div><div class="tgrid">${rest.map(g => tile(g)).join('')}</div></section>` : '') +
+    collSection(m) + catCards(m) + spot(m, m.site.spotlights?.[1], spot2) +
+    `<section class="cta js-only"><div><h2>Can't decide what to play?</h2><p>Let us pick a random game for you. It takes one tap.</p></div><button class="play-btn" data-rnd>🎲 Surprise me</button></section>
 <section class="sec" aria-labelledby="s-why"><div class="sec-h"><h2 id="s-why">Why people play on EasyGameFun</h2></div><div class="why">
 <div><i aria-hidden="true">⚡</i><h3>Instant play</h3><p>Games load in seconds and start with one tap. Nothing to install.</p></div>
 <div><i aria-hidden="true">📱</i><h3>Made for every screen</h3><p>The same games work on phones, tablets and computers.</p></div>
@@ -73,10 +67,14 @@ export function home(m) {
   };
 }
 
-function spot(m, slug) {
+// Picks a spotlight category's best games (only ones not shown above).
+function spotGames(m, slug, take) {
   const c = m.catBySlug.get(slug);
-  if (!c || !c.games.length) return '';
-  const l = [...c.games].sort(m.sorters.byBest).slice(0, 4);
+  return c ? take([...c.games].sort(m.sorters.byBest), 4) : [];
+}
+function spot(m, slug, l) {
+  const c = m.catBySlug.get(slug);
+  if (!c || l.length < 2) return '';
   const more = l.length < 4 ? `<a class="tile more" href="${c.url}"><span>＋</span><b>More ${esc(c.name)}</b></a>` : '';
   return `<section class="spot" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="sp-${c.slug}"><div><span class="eyebrow">${c.emoji} Category spotlight</span><h2 id="sp-${c.slug}">${esc(gamesOf(c))}</h2><p>${esc(c.intro.split('. ')[0])}.</p><a class="btn btn-ghost" href="${c.url}">See all ${c.games.length} games →</a></div><div class="spot-r">${l.map(g => tile(g)).join('')}${more}</div></section>`;
 }
