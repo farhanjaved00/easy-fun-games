@@ -23,8 +23,8 @@ export function home(m) {
   const fresh = take(m.newest, 6);
   const spot1 = spotGames(m, m.site.spotlights?.[0], take);
   const spot2 = spotGames(m, m.site.spotlights?.[1], take);
-  // Everything not shown yet, best first (up to 24; the A to Z page has them all).
-  const rest = take(m.best.length ? [...m.best, ...m.games] : m.games, 24);
+  // Everything not shown yet, best first (up to 48; the A to Z page has them all).
+  const rest = take(m.best.length ? [...m.best, ...m.games] : m.games, 48);
 
   const body = `<section class="hero" aria-labelledby="h1"><canvas id="hc" aria-hidden="true" data-emoji="${esc(m.games.slice(0, 30).map(g => g.emoji).join(' '))}"></canvas>
 <div><span class="eyebrow"><i class="live-dot"></i>${N} free games · new every day</span>
