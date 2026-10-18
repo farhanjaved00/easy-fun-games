@@ -4563,5 +4563,550 @@
       "model": "gpt-5.5"
     },
     "holdReason": "GameDistribution blocks easygamefun.com until the publisher account is approved"
+  },
+  {
+    "id": "og-8-ball-pool-billiard",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/8-ball-pool-billiard/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity3/8-ball-pool-billiard/index.html",
+    "slug": "8-ball-pool-billiard",
+    "name": "8 Ball Pool Billiard",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Pool",
+      "Multiplayer",
+      "Mouse",
+      "Ball"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/8-ball-pool-billiard-3d3e15f2.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/8-ball-pool-billiard-3d3e15f2.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-18",
+    "publishedAt": "2026-10-18T03:21:26.697Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Aim the cue, pocket your assigned pool balls, and sink the black ball against AI or online players.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play 8 Ball Pool Billiard free in your browser, aim with the mouse, face AI or online players, clear your solids or stripes, and sink the black ball.",
+      "about": "8 Ball Pool Billiard is an online pool game where you play a full table match against an AI opponent or another online player. The player list appears on the right side of the screen, and the refresh button lets you choose a game to join. Once you press the red play button, the match begins and the game decides who breaks. Your goal is to pocket the first type of ball you claim, either solids or stripes, then finish by sinking the black ball.\nEach turn is about aim, shot power, and smart table control. You line up the cue, pull it back to set the strength, and release to send the cue ball forward. A thin guide line helps you plan more accurate shots, but blocked paths, crowded pockets, and the black ball rule make each move matter. You can also change your table, cue, avatar, and improve the target line length. It plays free in the browser.",
+      "highlights": [
+        "Play against AI opponents or online players",
+        "Refresh the player list to choose a game",
+        "Mouse aiming with pull-back shot power",
+        "Solids and stripes lead to the black ball",
+        "Customize the table, cue, avatar, and target line"
+      ],
+      "goodFor": "Great for players who enjoy pool, careful aiming, and turn-based matches. It also suits players who like mixing simple controls with strategy.",
+      "howToPlay": "Choose a match, press play, and take turns trying to pocket your assigned balls. Aim with the cue, pull back to set shot power, then release to shoot. Clear your balls first, then pocket the black ball to win, but do not sink it early.",
+      "touchHint": "Use the mouse to aim, pull back, and shoot",
+      "keys": [
+        "Mouse: Aim and move the cue",
+        "Left mouse button: Pull back and release to shoot"
+      ],
+      "tips": [
+        "Use the guide line to check your angle before you set shot power.",
+        "Start with open shots that have no blocking balls in front of the pocket.",
+        "Do not rush the black ball; pocketing it before clearing your group loses the game.",
+        "Leave balls in your opponent’s path when you can make their next shot harder."
+      ],
+      "faq": [
+        {
+          "q": "Is 8 Ball Pool Billiard free to play?",
+          "a": "Yes. 8 Ball Pool Billiard plays free in the browser."
+        },
+        {
+          "q": "Can I play 8 Ball Pool Billiard on a phone or computer?",
+          "a": "It is a browser game, and the listed controls use the mouse and left mouse button. A computer or any setup with pointer controls is the clearest way to play."
+        },
+        {
+          "q": "Can I play against real players?",
+          "a": "Yes. You can play against online players, and you can also choose an AI opponent."
+        },
+        {
+          "q": "How do I win in 8 Ball Pool Billiard?",
+          "a": "Pocket your assigned solids or stripes first. After those balls are cleared, sink the black ball in a pocket to win."
+        },
+        {
+          "q": "What happens if I pocket the cue ball or miss my balls?",
+          "a": "Your turn ends and your opponent gets to play. If the cue ball goes into a pocket, your opponent can place it where they want."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-car-football",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/car-football/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/construct/198/car-football/index.html",
+    "slug": "car-football",
+    "name": "Car Football",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "2 Player",
+      "Car",
+      "Ball",
+      "Arena"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/car-football-c9ea35ee.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/car-football-c9ea35ee.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-18",
+    "publishedAt": "2026-10-18T03:22:25.673Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive monster trucks in a two-player football arena, jump for the ball, and score before time runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Car Football free in your browser. Drive monster trucks, jump for the ball, score goals, earn coins, and unlock cars in two-minute matches.",
+      "about": "Car Football is a same-device 2-player sports car game where monster trucks replace players on the field. Your goal is simple: push, bump, and jump into the ball so it lands in your opponent’s goal zone. The game includes 30 levels, six listed cars, and five different environments you can choose from when playing with a friend. Two cars are available at the start, and the rest can be unlocked with coins earned from matches.\nEach match lasts two minutes, so every hit matters. You can move forward, reverse, and jump to reach the ball in the air or block your opponent’s route. Scoring earns 10 gold coins per goal, but you do not receive coins if you lose the match. The tricky part is controlling the vehicle’s speed and keeping your truck from flipping over while still taking strong shots. Car Football plays free in the browser.",
+      "highlights": [
+        "Same-device 2-player car football matches",
+        "Each match lasts two minutes",
+        "30 levels to achieve",
+        "Six cars listed, with two open at the start",
+        "Five environments for friend matches"
+      ],
+      "goodFor": "Car Football is good for players who like quick local 2-player matches with simple controls. It also fits players who enjoy car physics, ball control, and blocking an opponent in a small arena.",
+      "howToPlay": "Drive your car toward the ball and hit it into the opponent’s goal zone before the two-minute timer ends. Jump to meet high balls, slow the ball down, or block your rival’s shot. Score as many goals as you can to win and earn coins when you finish on top.",
+      "touchHint": "Use WAD and arrow keys on one keyboard",
+      "keys": [
+        "W / Up arrow: Jump",
+        "A / Left arrow: Move backward",
+        "D / Right arrow: Move forward"
+      ],
+      "tips": [
+        "Try not to flip your car, because time spent stuck gives your opponent an open chance to score.",
+        "Do not always hit the ball at full force; match your shot strength to the distance from the goal.",
+        "Jump into the ball when it is moving fast to slow it down and regain control.",
+        "Block your opponent’s path when they line up a shot, especially near your goal zone."
+      ],
+      "faq": [
+        {
+          "q": "Is Car Football free to play?",
+          "a": "Yes. Car Football is free to play in your browser."
+        },
+        {
+          "q": "Can I play Car Football on a phone or computer?",
+          "a": "The game is played with keyboard controls, so a computer is the clearest way to play. Two players can share the same keyboard on one device."
+        },
+        {
+          "q": "How do you win in Car Football?",
+          "a": "Score more goals than your opponent before the two-minute match ends. You do this by driving, jumping, and pushing the ball into the opponent’s goal zone."
+        },
+        {
+          "q": "How do you unlock more cars in Car Football?",
+          "a": "There are six cars listed, and two are available at the start. You unlock the others with gold coins earned by scoring goals in matches you win."
+        },
+        {
+          "q": "Can two players play Car Football together?",
+          "a": "Yes. Two players can play on the same device, with one using W, A, and D, and the other using the arrow keys."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-legendary-sniper",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/legendary-sniper/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/legendary-sniper/index.html",
+    "slug": "legendary-sniper",
+    "name": "Legendary Sniper",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Action",
+      "Army",
+      "Sniper",
+      "First Person Shooter"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/legendary-sniper-0d118d84.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/legendary-sniper-0d118d84.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-18",
+    "publishedAt": "2026-10-18T03:23:22.050Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Take rooftop positions, aim carefully, and clear sniper missions by hitting moving targets with limited ammo.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Legendary Sniper free in your browser. Take rooftop shots, manage limited ammo, and finish sniper missions with precise timing from above.",
+      "about": "Legendary Sniper is a 3D first-person shooting game about careful aim from high rooftops. You play as a skilled marksman following mission orders from your commander. Each level places enemies below you, and your job is to eliminate the targets with accurate shots. Ammo is limited, so every bullet matters. The first missions are easier, but later stages become messier as enemies move around and use cover. Clean headshots and smart target choices help you keep the mission under control.\nA round is focused and tense. Pick a level on the map, study the area from your rooftop view, aim down the sights, and fire when the shot is clean. The on-screen display helps you track ammo, health, kill count, and the current mission, so you always know what is left to do. The challenge comes from timing, target choice, and staying calm when shots are limited. Legendary Sniper plays free in the browser with no download required.",
+      "highlights": [
+        "Rooftop sniper missions across multiple levels",
+        "Limited ammo makes each shot important",
+        "Enemies move and take cover below you",
+        "HUD shows ammo, health, kills, and mission info",
+        "Simple mouse controls for aiming and shooting"
+      ],
+      "goodFor": "Legendary Sniper is good for players who enjoy slow, precise shooting instead of rushing. It suits anyone who likes mission-based action with careful timing and limited ammo.",
+      "howToPlay": "Click a level on the map to start a mission. Right-click to aim, line up your shot on the target, and left-click to shoot. Complete the objective while watching your ammo, health, and mission progress on the HUD.",
+      "touchHint": "Right-click to aim, left-click to shoot",
+      "keys": [
+        "Right Click: Aim",
+        "Left Click: Shoot",
+        "Click on Map: Select level"
+      ],
+      "tips": [
+        "Do not fire as soon as you see an enemy; wait until the target stops moving or leaves cover.",
+        "Check your remaining ammo before taking risky shots, since each level gives you a limited supply.",
+        "Use the rooftop view to scan the whole area before choosing your first target.",
+        "Watch the HUD during the mission so you know your health, ammo, kill count, and objective status."
+      ],
+      "faq": [
+        {
+          "q": "Is Legendary Sniper free to play?",
+          "a": "Yes. Legendary Sniper is free to play in your browser, and no download is required."
+        },
+        {
+          "q": "Can I play Legendary Sniper on a phone or computer?",
+          "a": "The given controls are mouse-based, so it is best suited for a computer. Use right click to aim and left click to shoot."
+        },
+        {
+          "q": "What is the goal in Legendary Sniper?",
+          "a": "Your goal is to complete sniper missions from rooftop positions. You need to eliminate the assigned targets while managing limited ammo."
+        },
+        {
+          "q": "How do I select a level in Legendary Sniper?",
+          "a": "Click on the map to choose a level. Missions start easier and become more difficult as enemies move and take cover more often."
+        },
+        {
+          "q": "What information does the HUD show?",
+          "a": "The HUD shows your remaining ammo, kill count, health, and current mission. Use it to plan shots and track your progress."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-motorbike-stunt-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/motorbike-stunt-simulator/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2021/unity/motorbike-stunt-simulator/index-og.html",
+    "slug": "motorbike-stunt-simulator",
+    "name": "Motorbike Stunt Simulator",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Bike",
+      "Driving",
+      "Racing",
+      "Stunt"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/motorbike-stunt-simulator-ff638306.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/motorbike-stunt-simulator-ff638306.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-18",
+    "publishedAt": "2026-10-18T03:24:24.337Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Ride stunt bikes through 3D arenas, hit ramps and loops, and score with flips, spins, and jumps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Motorbike Stunt Simulator free in your browser. Ride 8 bikes across 4 stunt arenas with ramps, loops, boost, and scoring tricks on big jumps.",
+      "about": "Motorbike Stunt Simulator is a free 3D motorcycle stunt game about control, speed, and clean landings. You ride across four stunt arenas filled with ramps, loops, obstacle courses, and big jumps. The goal is to push each bike as far as you can without crashing while building a stunt score through flips, spins, and long jumps. Eight motorbike models are available from the start, including a police motorcycle with lights.\nA run is simple to start but hard to master. Choose a bike, build speed, line up a ramp, then use boost and the handbrake when you need extra power or tighter control. Different bike models handle differently in the air, so switching bikes can change how a jump feels and how safely you land. Camera views, reset keys, and quick bike switching make it easy to test tricks again. Motorbike Stunt Simulator plays free in the browser with no download, which makes it good for short stunt sessions.",
+      "highlights": [
+        "Four 3D stunt arenas with ramps, loops, and obstacles",
+        "Eight bike models unlocked from the start",
+        "Stunt score from flips, spins, and jumps",
+        "Boost, handbrake, camera, and reset controls",
+        "Police motorcycle with working lights"
+      ],
+      "goodFor": "Great for players who like 3D bike driving, stunt runs, and testing wild jumps. It also suits quick sessions because you can reset and try a trick again fast.",
+      "howToPlay": "Pick a bike and drive through a stunt arena toward ramps, loops, and obstacle courses. Score by landing flips, spins, and jumps while avoiding crashes. Try different bike models to find handling that fits the trick you want to land.",
+      "touchHint": "Use the keyboard to drive and stunt",
+      "keys": [
+        "WASD / Arrow keys: Drive the bike",
+        "Spacebar: Handbrake",
+        "Shift: Activate boost",
+        "C: Switch camera views",
+        "R: Reset scene",
+        "Number keys 1–8: Switch bike model"
+      ],
+      "tips": [
+        "Line up straight before a ramp so your flip or spin starts cleanly.",
+        "Use boost before big jumps when you need more speed for a stunt.",
+        "Try several bike models because they handle differently in the air.",
+        "Use reset controls after a crash or bad setup so you can retry the trick quickly."
+      ],
+      "faq": [
+        {
+          "q": "Is Motorbike Stunt Simulator free to play?",
+          "a": "Yes. Motorbike Stunt Simulator plays free in the browser with no download needed."
+        },
+        {
+          "q": "Can I play Motorbike Stunt Simulator on a phone or computer?",
+          "a": "The listed controls use a keyboard, so it is best played on a computer or a browser setup with keyboard input."
+        },
+        {
+          "q": "What is the goal in Motorbike Stunt Simulator?",
+          "a": "The goal is to ride through stunt arenas, use ramps and loops, and build your stunt score with flips, spins, and jumps without crashing."
+        },
+        {
+          "q": "How many arenas and bikes are in Motorbike Stunt Simulator?",
+          "a": "The game has four stunt arenas and eight motorbike models unlocked from the start. One of the bikes is a police motorcycle with lights."
+        },
+        {
+          "q": "What are the main controls?",
+          "a": "Use WASD or the Arrow keys to drive, Spacebar for the handbrake, Shift for boost, C to change camera, and number keys 1–8 to switch bike models."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-mob-city",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/mob-city/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/mob-city/index.html",
+    "slug": "mob-city",
+    "name": "Mob City",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "3D",
+      "Action",
+      "Shooting",
+      "Missions"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/mob-city-8af1d9d5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/mob-city-8af1d9d5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-18",
+    "publishedAt": "2026-10-18T03:25:26.505Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Complete 30 city missions, fight outnumbering mafia crews, earn cash, and face the boss in a 3D shooter.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Mob City free in your browser, clear 30 3D shooting missions with guns and vehicles, earn cash for shop upgrades, and face the big boss.",
+      "about": "Mob City is a 3D shooting game about taking on a mafia gang across a mission-based city story. You fight alone against groups of bad guys, clear tasks, and unlock the next mission when the current one is done. There are 30 missions in all. The first mission sends you after 100 mafia men, and the story builds toward a final fight with the big boss. Your tools include guns, grenades, vehicles, heavy weapons, camera changes, and a shop where earned money can buy stronger options.\nA round is about staying alive while finishing the mission goal. Enemies often come in numbers, so you need to move carefully, watch the health bar, and use drops such as money and painkillers after fights. Vehicles can help, and nearby cars can also become dangerous if you blow them up too close to yourself. Cash from defeated enemies lets you buy upgrades such as unlimited ammo, a vehicle generator, and god mode. Mob City is fun because each unlocked mission gives you a new job to handle, and it plays free in the browser.",
+      "highlights": [
+        "30 missions with a big boss at the end",
+        "First mission challenges you to defeat 100 mafia men",
+        "Shop upgrades include unlimited ammo and god mode",
+        "Use vehicles, heavy weapons, grenades, and Hammer Time",
+        "Enemies can drop money and painkillers"
+      ],
+      "goodFor": "Mob City is for players who like mission-based 3D shooting and action fights against large groups. It also suits players who enjoy earning cash and buying stronger tools between missions.",
+      "howToPlay": "Complete the current mission objective to unlock the next mission. Aim, move, shoot, throw grenades, use vehicles when needed, and watch your health bar so you do not die. Defeat enemies to earn money and collect useful drops, then spend cash in the shop for stronger tools.",
+      "touchHint": "Use mouse to aim and keys to move",
+      "keys": [
+        "Mouse: Aim",
+        "WASD or Arrow keys: Move",
+        "Left Mouse Button or Z: Fire",
+        "Right Mouse Button or X: Throw grenade",
+        "Space or J: Jump",
+        "Enter: Enter vehicles"
+      ],
+      "tips": [
+        "Keep checking the lower-left health bar before pushing into another group.",
+        "Pick up money and painkillers from defeated enemies before moving on.",
+        "If a crowd forms, lure it near a vehicle, shoot the car, and back away.",
+        "Spend cash in the shop when missions feel hard; ammo and vehicle tools can change a fight."
+      ],
+      "faq": [
+        {
+          "q": "Is Mob City free to play?",
+          "a": "Yes. Mob City plays free in the browser."
+        },
+        {
+          "q": "Can I play Mob City on a phone or computer?",
+          "a": "Mob City runs in the browser. The listed controls use a mouse and keyboard, so a computer is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in Mob City?",
+          "a": "Your goal is to complete missions against the mafia gang. The story has 30 missions and ends with a big boss fight."
+        },
+        {
+          "q": "How do I use vehicles in Mob City?",
+          "a": "Press Enter to enter a vehicle. If you buy the vehicle generator, you can press a number key from 0 to 9 to spawn a vehicle, including a helicopter option."
+        },
+        {
+          "q": "What can I buy in the shop?",
+          "a": "The shop includes guns and tools that help you during missions. Listed upgrades include unlimited ammo, a vehicle generator, and god mode."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

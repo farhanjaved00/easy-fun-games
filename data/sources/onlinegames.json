@@ -215,6 +215,31 @@
       "status": "imported",
       "slug": "basketball-king",
       "at": "2026-10-17"
+    },
+    "https://www.onlinegames.io/8-ball-pool-billiard/": {
+      "status": "imported",
+      "slug": "8-ball-pool-billiard",
+      "at": "2026-10-18"
+    },
+    "https://www.onlinegames.io/car-football/": {
+      "status": "imported",
+      "slug": "car-football",
+      "at": "2026-10-18"
+    },
+    "https://www.onlinegames.io/legendary-sniper/": {
+      "status": "imported",
+      "slug": "legendary-sniper",
+      "at": "2026-10-18"
+    },
+    "https://www.onlinegames.io/motorbike-stunt-simulator/": {
+      "status": "imported",
+      "slug": "motorbike-stunt-simulator",
+      "at": "2026-10-18"
+    },
+    "https://www.onlinegames.io/mob-city/": {
+      "status": "imported",
+      "slug": "mob-city",
+      "at": "2026-10-18"
     }
   }
 }
