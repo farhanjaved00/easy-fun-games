@@ -418,5 +418,44 @@
       "pinterestDescription": "Play Arrow Go, a free online puzzle game where you tap arrows in the right order to clear their paths and remove every arrow from the board. Plan each move carefully, because blocked arrows cannot move. Play free in your browser on phone and PC. #ArrowGo #PuzzleGame #FreeGames",
       "altText": "Arrow Go cover image with colorful arrow puzzle pieces, showing a relaxing logic game about clearing arrows from the board."
     }
+  },
+  "mob-city": {
+    "captions": {
+      "facebook": "The city is packed with mafia crews, and every mission pushes harder. Complete 30 missions, grab cash and drops, and get ready for the boss. 💥\nPlay free: https://easygamefun.com/game/mob-city/\n#MobCity #ShooterGame #FreeGames",
+      "instagram": "Take back the city! 🎯\nBattle mafia crews through 30 city missions. Earn cash, collect drops, and gear up for the boss.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #MobCity #shooter #3Dgames #actiongame #shootinggame #missions #onlinegames",
+      "pinterestTitle": "Mob City Free Online Game - 3D Shooter Missions",
+      "pinterestDescription": "Mob City is a free online 3D shooter where you complete 30 city missions, battle outnumbering mafia crews, earn cash, and face a boss at the end. Aim, shoot, use vehicles, grenades, and upgrades as you play in your browser on phone and PC. #ShooterGame #3DGame #FreeGames",
+      "altText": "Mob City cover image for a 3D city shooter with mafia crews, missions, weapons, vehicles, cash drops, and a final boss fight."
+    },
+    "facebook": {
+      "id": "1391730527349943_122108045109505504",
+      "at": "2026-10-18T03:27:44.822Z"
+    }
+  },
+  "motorbike-stunt-simulator": {
+    "captions": {
+      "facebook": "Ride stunt bikes through 3D arenas built for big tricks. Hit ramps and loops, then score with flips, spins, and jumps. 🏍️\nPlay free: https://easygamefun.com/game/motorbike-stunt-simulator/\n#BikeGames #RacingGames #StuntGames",
+      "instagram": "Ready to send it? 🏍️\nRide stunt bikes through 3D arenas with ramps, loops, and obstacles. Land flips, spins, and jumps to build your stunt score.\nPlay free at easygamefun.com (link in bio)\n#easygamefun #browsergames #freegames #motorbikestunts #bikegames #racinggames #drivinggames #stuntgames #onlinegames #3dgames",
+      "pinterestTitle": "Motorbike Stunt Simulator Free Online Game",
+      "pinterestDescription": "Motorbike Stunt Simulator is a free online racing and stunt bike game you can play in your browser on phone and PC. Ride through 3D arenas with ramps, loops, and obstacles, then land flips, spins, and jumps to score. #BikeGames #RacingGames #StuntGames",
+      "altText": "A stunt motorbike rides through a 3D arena with ramps, loops, and obstacles for flips, spins, and jumps."
+    },
+    "facebook": {
+      "id": "1391730527349943_122108045385505504",
+      "at": "2026-10-18T03:27:58.169Z"
+    }
+  },
+  "legendary-sniper": {
+    "captions": {
+      "facebook": "Take the rooftop shot in Legendary Sniper! Aim carefully, manage limited ammo, and clear each mission as enemies move and take cover. 🎯\nPlay free: https://easygamefun.com/game/legendary-sniper/\n#LegendarySniper #SniperGame #FreeGames",
+      "instagram": "One shot can change the mission. 🎯\nTake rooftop positions and aim carefully in Legendary Sniper.\nManage limited ammo while targets move and take cover below.\nPlay free at easygamefun.com (link in bio)\n#LegendarySniper #snipergame #shootergame #actiongame #fps #armygame #easygamefun #browsergames #freegames #onlinegames",
+      "pinterestTitle": "Legendary Sniper Free Online Game",
+      "pinterestDescription": "Legendary Sniper is a free online shooter where you take rooftop positions, aim carefully, and clear sniper missions. Use simple mouse controls, manage limited ammo, and hit moving targets that take cover below you. Play free in your browser on phone and PC. #sniper #shootergame #freegames",
+      "altText": "Cover image for Legendary Sniper, a first-person shooter about rooftop sniper missions, careful aiming, moving targets, and limited ammo."
+    },
+    "facebook": {
+      "id": "1391730527349943_122108045637505504",
+      "at": "2026-10-18T03:28:10.398Z"
+    }
   }
 }
