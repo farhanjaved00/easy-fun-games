@@ -5108,5 +5108,549 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-cake-match-puzzle",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/cake-match-puzzle/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/unity3/cake-match-puzzle/index-og.html",
+    "slug": "cake-match-puzzle",
+    "name": "Cake Match Puzzle",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Brain",
+      "Cozy",
+      "Cute",
+      "Food"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/cake-match-puzzle-7d393fe7.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/cake-match-puzzle-7d393fe7.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-19",
+    "publishedAt": "2026-10-19T03:21:27.162Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Place cake slices on a 4x4 tray, merge six matching pieces, and clear full cakes before space runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Cake Match Puzzle free in your browser. Drag cake slices onto a 4x4 tray, merge six matching pieces, and clear cakes before it fills up.",
+      "about": "Cake Match Puzzle is a cozy food puzzle where you play as a bakery chef working on a 4x4 tray. Each move is about placing cake slices in smart spots so matching pieces can join together. When six slices of the same cake come together, they form a full cake. That cake then disappears and opens space for more slices. There are six cake types to complete, with colorful designs, toppings, decorations, and cake rewards tied to your progress.\nA round starts with dragging slices onto the tray and looking for the cleanest place to fit them. The challenge grows when space gets tight or when mixed plates bring slices from two different cakes. Completing cakes earns coins, which can unlock upgrades and extra cake looks. Boosters can help when you are stuck: the Hammer clears a slice, the Filler finishes an almost complete cake, and the Reroll changes your current slices. You can play Cake Match Puzzle free in your browser.",
+      "highlights": [
+        "4x4 tray for tight slice-placement puzzles",
+        "Six types of cakes to complete",
+        "Full cakes clear space when finished",
+        "Mixed plates can hold slices from two cakes",
+        "Hammer, Filler, and Reroll boosters"
+      ],
+      "goodFor": "Cake Match Puzzle is good for players who enjoy calm logic games with planning and a little luck. It also fits anyone who likes cute food themes and short puzzle rounds.",
+      "howToPlay": "Drag and drop cake slices onto the 4x4 tray. Match slices of the same cake until six pieces form a full cake, then it clears from the tray. Keep making cakes, earn coins, and avoid filling the tray completely.",
+      "touchHint": "Drag slices onto the tray",
+      "keys": [
+        "Mouse: Drag and drop slices"
+      ],
+      "tips": [
+        "Keep the center open when possible so larger or awkward plates have room to fit.",
+        "Clear mixed plates early because slices from two cakes can block clean merges later.",
+        "Use the Hammer only when one slice is stopping several good placements.",
+        "Save the Filler for a cake that is close to complete and taking up needed space."
+      ],
+      "faq": [
+        {
+          "q": "Is Cake Match Puzzle free to play?",
+          "a": "Yes. Cake Match Puzzle is free to play in your browser."
+        },
+        {
+          "q": "Can I play Cake Match Puzzle on a phone or computer?",
+          "a": "Yes. The game is HTML5 and has mobile support. On a computer, use your mouse to drag and drop slices."
+        },
+        {
+          "q": "What is the goal in Cake Match Puzzle?",
+          "a": "Your goal is to make as many full cakes as possible before the 4x4 tray fills up. Six matching slices complete one cake, and the full cake clears space."
+        },
+        {
+          "q": "What do coins do in Cake Match Puzzle?",
+          "a": "You earn more coins by completing more cakes. Coins can be used to unlock upgrades, toppings, decorations, and cake designs."
+        },
+        {
+          "q": "What boosters are in Cake Match Puzzle?",
+          "a": "The Hammer clears a slice, the Filler finishes a nearly complete cake, and the Reroll gives you a fresh set of current slices."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-crazy-drifter",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/crazy-drifter/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity3/crazy-drifter/index.html",
+    "slug": "crazy-drifter",
+    "name": "Crazy Drifter",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Stunt"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/crazy-drifter-393df4a5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/crazy-drifter-393df4a5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-19",
+    "publishedAt": "2026-10-19T03:22:30.274Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Slide through city streets, race in four modes, and tune your car for bigger drifts and faster laps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Crazy Drifter free in your browser, slide through traffic-filled city streets, try four race modes, and customize cars in the garage today.",
+      "about": "Crazy Drifter is a 3D racing simulator built around sliding through corners instead of simply holding the straightest line. You race on traffic-filled city streets where loose handling makes every turn a car-control test. The goal is to manage your drift, keep speed, and handle each mode’s challenge. Drift, Time Attack, Knockout, and Circuit modes give you different ways to race against the clock or other racers.\nA round is all about balance. Steer into corners, tap the handbrake to start a slide, then use boost when you have room to recover speed. Traffic and wide slides can turn a clean run into chaos fast, so small inputs matter. Between races, you can use earnings in the garage to buy new cars or customize your current car with paint, body kits, and exhaust changes. Crazy Drifter plays free in your browser with no download needed.",
+      "highlights": [
+        "Four modes: Drift, Time Attack, Knockout, and Circuit",
+        "Traffic-filled city streets with loose drift handling",
+        "Earn money between races for the garage",
+        "Buy new cars or customize paint, body kits, and exhaust",
+        "Keyboard controls for steering, boost, camera, and respawn"
+      ],
+      "goodFor": "Crazy Drifter is good for players who enjoy car control, sideways cornering, and fast racing challenges. It fits anyone who likes testing different modes instead of running the same race every time.",
+      "howToPlay": "Choose a race mode, then drive through the city while keeping your car under control through corners. Use the handbrake to start drifts, boost on open sections, and finish the mode’s objective against the clock or other racers. Spend race earnings in the garage on new cars or custom parts.",
+      "touchHint": "Use a keyboard for the full control set",
+      "keys": [
+        "WASD or Arrow keys: Steer",
+        "Spacebar: Handbrake",
+        "Left Shift: Boost",
+        "C: Change camera",
+        "R: Respawn"
+      ],
+      "tips": [
+        "Use the handbrake at corner entry, not after you are already too wide.",
+        "Save boost for straight sections or when your car is lined up after a drift.",
+        "Watch traffic before starting a big slide on city streets.",
+        "Try each mode, since Drift, Time Attack, Knockout, and Circuit test different skills."
+      ],
+      "faq": [
+        {
+          "q": "Is Crazy Drifter free to play?",
+          "a": "Yes. Crazy Drifter is free to play in your browser, and no download is needed."
+        },
+        {
+          "q": "Can I play Crazy Drifter on a phone or computer?",
+          "a": "Crazy Drifter is described as playing smoothly with a keyboard on desktop. For the listed controls, a computer keyboard is the best fit."
+        },
+        {
+          "q": "What is the goal in Crazy Drifter?",
+          "a": "The main goal is to control your car through drift-heavy races. Depending on the mode, you may race against time or against other racers."
+        },
+        {
+          "q": "What modes are in Crazy Drifter?",
+          "a": "The game includes Drift, Time Attack, Knockout, and Circuit. Each mode changes how you test your driving and car control."
+        },
+        {
+          "q": "Can I customize cars in Crazy Drifter?",
+          "a": "Yes. Between races, you can use earnings in the garage to buy new cars or customize your current car with paint, body kits, and exhaust changes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-army-combat",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/army-combat/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity/army-combat/index.html",
+    "slug": "army-combat",
+    "name": "Army Combat",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "3D",
+      "Army",
+      "Shooting",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/army-combat-db495d1f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/army-combat-db495d1f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-19",
+    "publishedAt": "2026-10-19T03:23:27.346Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Choose attack or defense in a 3D forest battle, use cover and weapons, and defeat trained soldiers.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Army Combat free in your browser, choose attack or defense, use forest cover, and fight trained soldiers with shotgun and sniper weapons.",
+      "about": "Army Combat is a 3D first-person shooter set in a large forested battlefield. You fight alone against trained soldiers who outnumber you, so every move matters. The goal is to survive, eliminate enemies, and raise your score by taking them down one by one. Before the fight starts, choose whether you want to attack or defend. The main menu also lets you adjust volume and mouse sensitivity before you head out with elite weapons.\nA round is about careful movement more than rushing forward. Trees, bushes, and army cars can be used as cover, and red arrows above soldiers help you track targets. In attack, the sniper rifle helps you hit enemies from far away. In defense, stay out of the whitish areas because they drain your life, and fight from the colored zones. Weapon choices range from a shotgun to a sniper rifle, so switch to what fits the moment. You can play Army Combat free in your browser.",
+      "highlights": [
+        "Choose attacker or defender before the battle",
+        "Large forest area with trees, bushes, and army cars",
+        "Weapon options from shotgun to sniper rifle",
+        "Red arrows help you locate enemy soldiers",
+        "Defense mode has dangerous whitish areas"
+      ],
+      "goodFor": "Army Combat is good for players who like solo 3D shooting games with careful movement and cover. It suits players who want action, but also want to think before each fight.",
+      "howToPlay": "Choose attacker or defender from the main menu, then move through the forest battlefield. Use cover, aim carefully, and eliminate trained soldiers to increase your score. In Defense mode, avoid whitish areas and stay in colored areas to protect your life.",
+      "touchHint": "Use mouse and keyboard for full control",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Left-click: Fire",
+        "Right-click: Aim",
+        "Spacebar: Jump",
+        "1-6 or scroll wheel: Switch weapons",
+        "Left Shift: Run"
+      ],
+      "tips": [
+        "Use the sniper rifle as an attacker to hit soldiers before they get close.",
+        "In Defense mode, leave whitish areas fast and fight from colored ground.",
+        "Hide behind trees, bushes, and army cars before you take a shot.",
+        "Watch the red arrows and pick off soldiers one at a time instead of rushing groups."
+      ],
+      "faq": [
+        {
+          "q": "Is Army Combat free to play?",
+          "a": "Yes. Army Combat is free to play in your browser."
+        },
+        {
+          "q": "Can I play Army Combat on a phone or computer?",
+          "a": "Army Combat uses keyboard and mouse controls, so it is best played on a computer. Phone touch controls are not listed."
+        },
+        {
+          "q": "What is the goal in Army Combat?",
+          "a": "Your goal is to survive on the battlefield and eliminate trained soldiers. The more enemies you take down, the higher your score gets."
+        },
+        {
+          "q": "What is the difference between attack and defense?",
+          "a": "You choose to be either the attacker or the defender before the battle. As an attacker, the sniper rifle is useful for long-range shots; in Defense mode, whitish areas can drain your life."
+        },
+        {
+          "q": "What controls do I use in Army Combat?",
+          "a": "Move with WASD or the arrow keys, fire with left-click, and aim with right-click. You can jump with Spacebar, run with Left Shift, and switch weapons with number keys 1-6 or the scroll wheel."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-highway-cars",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/highway-cars/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/construct/211/highway-cars/index.html",
+    "slug": "highway-cars",
+    "name": "Highway Cars",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Driving",
+      "Traffic",
+      "Drift"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/highway-cars-0a74f13c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/highway-cars-0a74f13c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-19",
+    "publishedAt": "2026-10-19T03:24:28.850Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Steer through 3D highway traffic, pass cars close for points, earn cash, and unlock new roads.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Highway Cars free in your browser. Steer through 3D highway traffic, earn cash from close passes, upgrade your car, and unlock new maps.",
+      "about": "Highway Cars is a 3D driving game about fast highway runs through busy traffic. Pick a car, choose a color style, and head onto the road. You start with two cars: a red sedan and a light blue hatchback. More cars can be unlocked with money earned while driving. You can also upgrade parts such as speed, brakes, engine, and other performance features from the customization section.\nEach run is built around clean dodging and close passes. The nearer you slip past other cars, the more points and currency you earn, but one crash ends the attempt. One-Way mode keeps traffic moving with you, while Two-Way mode adds oncoming cars for a harder challenge. Level Selection has 50 levels split into 5 sections, with environments such as desert, snowy, tropical, forest, and urban roads. Highway Cars plays free in your browser.",
+      "highlights": [
+        "3D highway driving with flowing traffic",
+        "One-Way, Two-Way, and Level Selection modes",
+        "50 levels split into 5 sections",
+        "Unlock snowy, tropical, forest, and urban maps",
+        "Upgrade speed, brakes, engine, and more"
+      ],
+      "goodFor": "Highway Cars is good for players who like fast driving, traffic dodging, and close-call scoring. It also fits players who enjoy unlocking cars, maps, and upgrades over time.",
+      "howToPlay": "Choose a car, pick a mode, and steer through highway traffic without crashing. Pass cars as closely as you can to score points and earn currency. Use that currency to unlock more cars, open new maps, and improve your car’s performance.",
+      "touchHint": "Use touch controls shown on your screen",
+      "keys": [
+        "WASD: Steer",
+        "Arrow keys: Steer",
+        "C: Change camera view"
+      ],
+      "tips": [
+        "Start in One-Way mode to learn the car, since all traffic moves in the same direction.",
+        "Close passes give better scores, but leave yourself space to recover before the next car.",
+        "In Two-Way mode, watch for oncoming traffic before trying to pass several cars at once.",
+        "Upgrade brakes as well as speed, because stopping power helps when traffic gets tight."
+      ],
+      "faq": [
+        {
+          "q": "Is Highway Cars free to play?",
+          "a": "Yes. Highway Cars is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Highway Cars on a phone or computer?",
+          "a": "Yes. Highway Cars is an HTML5 game listed for mobile play, and it also works on computers. On a computer, use WASD or the Arrow keys to steer and C to change the camera."
+        },
+        {
+          "q": "What is the goal in Highway Cars?",
+          "a": "The goal is to drive through highway traffic without crashing. You earn more points and currency by passing other cars closely."
+        },
+        {
+          "q": "How many levels are in Highway Cars?",
+          "a": "Level Selection mode has 50 levels. They are split into 5 sections, and each completed section moves you to a different environment."
+        },
+        {
+          "q": "What cars and maps can I unlock?",
+          "a": "You start with a red sedan and a light blue hatchback, while more cars unlock with earned currency. Maps include Snowy Highway, Tropical Highway, Forest Highway, and Urban Highway."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-fast-food-rush",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/fast-food-rush/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/unity/fast-food-rush/index-og.html",
+    "slug": "fast-food-rush",
+    "name": "Fast Food Rush",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Cooking",
+      "Food",
+      "Restaurant",
+      "Tycoon"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/fast-food-rush-97a8b248.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/fast-food-rush-97a8b248.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-19",
+    "publishedAt": "2026-10-19T03:25:27.242Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Run a fast-food restaurant, cook orders, hire staff, clean tables, and expand into new branches.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Fast Food Rush free in your browser. Run Burger Blitz, cook burgers, hire cashiers, clean tables, upgrade seats, and open new branches.",
+      "about": "Fast Food Rush is a restaurant management game where you build a small burger stand into a growing fast-food business. You start at Burger Blitz with 2,500 coins. Your first jobs are to unlock seating, add a counter, open the grill, and begin serving customers. As you earn coins, you can buy upgrades, hire help, and improve how fast your restaurant works. Later, you can open more branches, including a coffee shop and a donut place.\nEach round is a mix of active work and smart spending. You move around the restaurant, grill burgers, bring food to the counter, check out customers, and clear dirty tables so new guests can sit down. White upgrade markers show where to spend coins on better seating, faster grills, checkout tables, staff, and manager boosts. It gets tricky when customers, tables, and orders pile up at once. Fast Food Rush plays free in your browser.",
+      "highlights": [
+        "Start Burger Blitz with 2,500 coins",
+        "Unlock seating, counters, grills, and checkout tables",
+        "Hire cashiers and improve employee skills",
+        "Clean tables so new customers can sit down",
+        "Expand into coffee and donut branches"
+      ],
+      "goodFor": "Fast Food Rush is good for players who like cooking, upgrades, and business management. It fits anyone who enjoys busy tasks with steady progress and simple controls.",
+      "howToPlay": "Move your character around the restaurant to unlock stations, cook food, serve customers, collect coins, and clean tables. Spend coins on white upgrade markers to add seats, improve equipment, hire staff, and boost speed or profit. Keep customers moving through the restaurant to earn more and unlock new branches.",
+      "touchHint": "Tap and drag to move your character",
+      "keys": [
+        "WASD: Move your character",
+        "Arrow keys: Move your character",
+        "Drag mouse: Move your character",
+        "Mouse scroll: Zoom in or out"
+      ],
+      "tips": [
+        "Unlock seating first, then add the counter and grill so customers can start ordering.",
+        "Upgrade grill speed early so cooked burgers are ready before the counter backs up.",
+        "Hire cashiers when you can, because automated checkout frees you to cook and clean.",
+        "Clear dirty tables often, since messy tables stop new customers from sitting down."
+      ],
+      "faq": [
+        {
+          "q": "Is Fast Food Rush free to play?",
+          "a": "Yes. Fast Food Rush is free to play in your browser."
+        },
+        {
+          "q": "Can I play Fast Food Rush on a phone or computer?",
+          "a": "Yes. On a computer, use WASD, the arrow keys, or drag the mouse to move, and use the mouse wheel to zoom. On mobile, tap and drag to move your character."
+        },
+        {
+          "q": "What is the goal in Fast Food Rush?",
+          "a": "Your goal is to grow a small fast-food restaurant into a larger business. You earn coins by serving customers, then spend them on upgrades, staff, managers, and new branches."
+        },
+        {
+          "q": "How do I earn more coins in Fast Food Rush?",
+          "a": "Serve customers quickly, keep tables clean, and upgrade key areas like the grill, checkout table, seating, and employee skills. More seats and faster service help bring in more sales."
+        },
+        {
+          "q": "What branches can I unlock in Fast Food Rush?",
+          "a": "After building up the burger restaurant, you can open a coffee shop and then a donut place. Each branch adds new machines, upgrades, and tasks."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

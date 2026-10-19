@@ -240,6 +240,31 @@
       "status": "imported",
       "slug": "mob-city",
       "at": "2026-10-18"
+    },
+    "https://www.onlinegames.io/cake-match-puzzle/": {
+      "status": "imported",
+      "slug": "cake-match-puzzle",
+      "at": "2026-10-19"
+    },
+    "https://www.onlinegames.io/crazy-drifter/": {
+      "status": "imported",
+      "slug": "crazy-drifter",
+      "at": "2026-10-19"
+    },
+    "https://www.onlinegames.io/army-combat/": {
+      "status": "imported",
+      "slug": "army-combat",
+      "at": "2026-10-19"
+    },
+    "https://www.onlinegames.io/highway-cars/": {
+      "status": "imported",
+      "slug": "highway-cars",
+      "at": "2026-10-19"
+    },
+    "https://www.onlinegames.io/fast-food-rush/": {
+      "status": "imported",
+      "slug": "fast-food-rush",
+      "at": "2026-10-19"
     }
   }
 }
