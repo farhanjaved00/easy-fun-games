@@ -5652,5 +5652,548 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-crazy-ball-adventures",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/crazy-ball-adventures/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity2/crazy-ball-adventures/index.html",
+    "slug": "crazy-ball-adventures",
+    "name": "Crazy Ball Adventures",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Ball",
+      "Parkour",
+      "Running"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/crazy-ball-adventures-240e4b65.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/crazy-ball-adventures-240e4b65.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-20",
+    "publishedAt": "2026-10-20T03:21:35.295Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Guide a rolling ball across narrow sky tracks, dodge hazards, jump gaps, and collect stars on every level.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Crazy Ball Adventures free in your browser and roll through 30 sky-track levels with gaps, mines, moving walls, and three stars to collect.",
+      "about": "Crazy Ball Adventures is a free 3D arcade game where you control a rolling ball on narrow parkour tracks high above an endless sea. Your goal is to reach the finish line without falling into the water below. There are 30 challenging levels, and each track has three stars to collect if you want a full clear instead of just surviving. The setting stays tense because the path is thin, the drops are constant, and one rushed move can send the ball over the edge.\nEach run is about careful control and timing, not only speed. The ball has physics-based momentum, so charging ahead can make sharp bends, jumps, and narrow sections harder to handle. You will need to deal with gaps, mines, and huge moving walls while keeping the ball centered on the track. Use steady movement, jump when the route demands it, and trigger power-ups when they help. Crazy Ball Adventures plays free in your browser with keyboard controls on desktop, with no download or install needed.",
+      "highlights": [
+        "30 levels with rising challenge",
+        "Narrow parkour tracks above the sea",
+        "Gaps, sharp bends, mines, and moving walls",
+        "Three stars to collect on each level",
+        "Physics-based rolling ball control"
+      ],
+      "goodFor": "Crazy Ball Adventures is good for players who enjoy tense arcade runs, careful movement, and parkour-style tracks. It is a strong pick if you like short levels that reward patience more than raw speed.",
+      "howToPlay": "Roll the ball along the track and guide it to the finish line without falling into the sea. Avoid gaps, mines, sharp turns, and moving walls, and try to collect all three stars on each level for a full clear. Use jumps and power-ups when the track calls for them.",
+      "touchHint": "Use keyboard controls on desktop",
+      "keys": [
+        "WASD or Arrow keys: Move",
+        "Spacebar: Jump",
+        "Left Shift: Activate power-up"
+      ],
+      "tips": [
+        "Slow down before sharp bends so the ball does not slide off the narrow track.",
+        "Line up your approach before jumping gaps; jumping while angled can send you off course.",
+        "Watch the timing of huge moving walls before you commit to passing them.",
+        "Go for stars only when you can return safely to the main path afterward."
+      ],
+      "faq": [
+        {
+          "q": "Is Crazy Ball Adventures free to play?",
+          "a": "Yes. Crazy Ball Adventures is free to play in your browser with no download or install needed."
+        },
+        {
+          "q": "Can I play Crazy Ball Adventures on a phone or computer?",
+          "a": "The listed controls are keyboard controls, so it is made for desktop play. Use WASD or the Arrow keys to move, Spacebar to jump, and Left Shift to activate a power-up."
+        },
+        {
+          "q": "How many levels are in Crazy Ball Adventures?",
+          "a": "Crazy Ball Adventures has 30 challenging levels. Each one sends the ball across narrow tracks with hazards to avoid."
+        },
+        {
+          "q": "What is the goal in Crazy Ball Adventures?",
+          "a": "Your main goal is to reach the finish line without falling into the water. To fully clear a level, collect the three stars placed along the track."
+        },
+        {
+          "q": "What hazards do I need to avoid?",
+          "a": "You need to avoid gaps, sharp bends, mines, and huge moving walls. Falling off the edge into the sea ends your attempt."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-stickman-destruction",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/stickman-destruction/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity3/stickman-destruction/index.html",
+    "slug": "stickman-destruction",
+    "name": "Stickman Destruction",
+    "category": "action",
+    "mature": false,
+    "tags": [
+      "Crash",
+      "Destroy",
+      "Mobile",
+      "Physics"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/stickman-destruction-f648deab.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/stickman-destruction-f648deab.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-20",
+    "publishedAt": "2026-10-20T03:22:39.100Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Launch a ragdoll stickman down ramps, test poses and vehicles, and score points from wild crashes.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Stickman Destruction free in your browser. Launch a ragdoll stickman through 22 maps, unlock vehicles, and chase bigger crash scores now.",
+      "about": "Stickman Destruction is a ragdoll physics action game about sending a stickman down steep courses and scoring from the crash. Each run starts with a launch setup, then the stickman tumbles through ramps, stairs, drops, and obstacles. There are 22 map options, including Big Stairs and Free Slide, so each course changes the way the ragdoll falls, bounces, and hits the ground. Points from damage help you unlock more maps, extra jump poses, and a garage with 11 vehicles.\nA round is quick, but the setup matters. You choose a pose, pick a vehicle, set the launch speed, and see how much destruction the crash creates. Small changes can lead to very different results because the physics decide how the stickman flips and collides. You can also create or join a multiplayer room to compete for the highest destruction score. Stickman Destruction plays free in your browser with no download needed.",
+      "highlights": [
+        "22 maps with different ramps, drops, and obstacles",
+        "11 vehicles that change each launch and crash",
+        "Unlock maps, jump poses, and vehicles with points",
+        "Multiplayer rooms for destruction score contests",
+        "Ragdoll physics make every tumble play out differently"
+      ],
+      "goodFor": "Stickman Destruction is good for players who like fast physics experiments and funny crash setups. It also fits players who enjoy chasing a higher score by testing small changes.",
+      "howToPlay": "Choose a map, jump pose, vehicle, and any aid tools you want to try. Click and hold Start to set launch speed, then release Start to send the stickman down the course. Score by causing as much crash damage as possible and use earned points to unlock more options.",
+      "touchHint": "Tap and hold Start, then release to launch",
+      "keys": [
+        "Click and hold Start: Adjust launch speed",
+        "Release Start: Launch stickman",
+        "Next Pose / Prev Pose: Change jump pose",
+        "Vehicle icon: Select vehicle",
+        "Magnet / Vane Bamboo icon: Use aid tool"
+      ],
+      "tips": [
+        "Try different launch speeds on each map; a faster start is not always the best crash angle.",
+        "Change the jump pose before launching, because the body position affects flips and impacts.",
+        "Test vehicles on the same map to see which one creates the strongest collision path.",
+        "Return to earlier maps after unlocking new poses or vehicles for better score attempts."
+      ],
+      "faq": [
+        {
+          "q": "Is Stickman Destruction free to play?",
+          "a": "Yes. Stickman Destruction is free to play in your browser, and no download is required."
+        },
+        {
+          "q": "Can I play Stickman Destruction on a phone or computer?",
+          "a": "Yes. The game supports mobile play, and it also works in a browser on a computer. On touch screens, tap and hold Start, then release to launch."
+        },
+        {
+          "q": "What is the goal in Stickman Destruction?",
+          "a": "The goal is to launch the stickman down the course and score as much crash damage as possible. Better runs earn points that help unlock more content."
+        },
+        {
+          "q": "How many maps and vehicles are in Stickman Destruction?",
+          "a": "There are 22 map options and 11 vehicles. Maps change the layout, while vehicles change how the stickman launches and crashes."
+        },
+        {
+          "q": "Does Stickman Destruction have multiplayer?",
+          "a": "Yes. You can create or join a room and compete with other players to see who can score the most destruction."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-99-nights-in-the-forest",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/99-nights-in-the-forest/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/99-nights-in-the-forest-survival/game.html",
+    "slug": "99-nights-in-the-forest",
+    "name": "99 Nights in the Forest",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Crafting",
+      "Defense",
+      "Survival"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/99-nights-in-the-forest-ac7bf47a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/99-nights-in-the-forest-ac7bf47a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-20",
+    "publishedAt": "2026-10-20T03:23:56.817Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Survive 99 nights alone in a forest by gathering wood, crafting gear, and fighting werewolves after dark.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play 99 Nights in the Forest free in your browser. Gather wood, craft gear, keep the campfire lit, and survive werewolf threats alone each night.",
+      "about": "99 Nights in the Forest is a first-person survival adventure set in a deserted, blocky 3D forest. You wake up alone with one clear goal: stay alive for 99 nights. The forest gives you wood and other scattered materials, but it also brings danger after sunset. You begin with an axe, then chop, collect, and craft weapons or tools. You also need to handle hunger and keep warm by the campfire when night closes in.\nEach day is a chance to prepare before the next dark stretch. Gather supplies, craft what you can for defense, and get ready for werewolves that return at night. The simple cycle stays tense because you are not only surviving; there is also a rescue mission and recurring threats to push you forward. Movement is direct with WASD and mouse controls, so quick looking, grabbing, running, and attacking all matter. 99 Nights in the Forest plays free in the browser with no download or install needed.",
+      "highlights": [
+        "Survive 99 nights in a deserted forest",
+        "Day and night cycle with werewolves after dark",
+        "Chop wood, gather materials, and craft tools",
+        "Campfire helps you stay warm at night",
+        "First-person controls for running, jumping, and attacking"
+      ],
+      "goodFor": "Good for players who like survival adventures with crafting, nighttime danger, and a clear long-term goal. It suits you if you enjoy preparing by day and defending yourself after dark.",
+      "howToPlay": "Use the day to chop wood, gather scattered materials, craft tools or weapons, and manage hunger. When night comes, stay warm by the campfire and defend yourself from werewolves. The main goal is to survive all 99 nights while pushing through the rescue mission.",
+      "touchHint": "Use WASD and mouse to move and look",
+      "keys": [
+        "WASD: Move",
+        "Mouse: Look around",
+        "Spacebar: Jump",
+        "Left Shift: Run",
+        "Right Mouse Button: Attack",
+        "F: Grab"
+      ],
+      "tips": [
+        "Chop wood early in the day so you are not scrambling when night starts.",
+        "Keep the campfire in mind at sunset; its light helps you stay warm after dark.",
+        "Grab useful materials with F as you move so crafting does not wait until night.",
+        "Use the mouse to check around often, then attack with the right mouse button when needed."
+      ],
+      "faq": [
+        {
+          "q": "Is 99 Nights in the Forest free to play?",
+          "a": "Yes. 99 Nights in the Forest is free to play in the browser with no download or install needed."
+        },
+        {
+          "q": "Can I play 99 Nights in the Forest on a phone or computer?",
+          "a": "A computer is the clear fit because the controls use WASD, Spacebar, mouse buttons, and other keyboard keys. No touch controls are listed."
+        },
+        {
+          "q": "What is the goal in 99 Nights in the Forest?",
+          "a": "Your goal is to survive 99 nights in a deserted forest. You also deal with a rescue mission and recurring night threats."
+        },
+        {
+          "q": "What happens at night in 99 Nights in the Forest?",
+          "a": "Night brings werewolves and survival pressure. You need to defend yourself and stay warm by the campfire."
+        },
+        {
+          "q": "What do you start with in 99 Nights in the Forest?",
+          "a": "You start with an axe. Use it to chop wood, gather what you can, and begin crafting tools or weapons for defense."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-wasteland-shooters",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/wasteland-shooters/",
+    "embedUrl": "https://www.onlinegames.io/games/2021/unity2/wasteland-shooters/index.html",
+    "slug": "wasteland-shooters",
+    "name": "Wasteland Shooters",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Action",
+      "Battle",
+      "First Person Shooter",
+      "Gun"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/wasteland-shooters-e91978be.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/wasteland-shooters-e91978be.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-20",
+    "publishedAt": "2026-10-20T03:25:00.404Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Create or join wasteland FPS rooms, then battle players in Free-For-All or Team mode with nine weapons.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Wasteland Shooters free in your browser, create rooms, choose Free-For-All or Team mode, and fight on four wasteland maps with nine weapons.",
+      "about": "Wasteland Shooters is a free online multiplayer first-person shooter set in a ruined post-apocalyptic world. You can make your own room by choosing a name, setting the player limit, and picking Free-For-All or Team mode. You can also join a public match that is already running. Each match takes place on one of four wasteland maps, with nine weapons available, from a close-range knife to a rocket launcher.\nRounds are built around fast room-based battles. Move through the 3D map, fire with the mouse, reload when needed, jump over obstacles, and switch weapons to fit the fight. The fun comes from choosing how you want to play: host a private match with friends, join a public room, or keep improving your record. A stats screen tracks games played, wins, kills, and score, so every finished match adds to your progress. Wasteland Shooters plays free in your browser with no download.",
+      "highlights": [
+        "Create rooms with a name and player limit",
+        "Free-For-All and Team modes",
+        "Four ruined wasteland maps",
+        "Nine weapons, from knife to rocket launcher",
+        "Stats for games played, wins, kills, and score"
+      ],
+      "goodFor": "Wasteland Shooters is good for players who like multiplayer first-person shooting with quick room setup. It also suits anyone who wants public matches, private games with friends, and stats to improve over time.",
+      "howToPlay": "Create a room or join a public match, then choose Free-For-All or Team mode if you are hosting. Move around the wasteland map, fire at opponents, reload, jump, and switch weapons as needed. Finish matches to build your record of games played, wins, kills, and score.",
+      "touchHint": "Use mouse to fire and keys to move",
+      "keys": [
+        "WASD / Arrow keys: Move",
+        "Left mouse button: Fire",
+        "R: Reload",
+        "Space: Jump",
+        "Arrow keys: Switch weapon"
+      ],
+      "tips": [
+        "Set the player limit before hosting so the room size fits the match you want.",
+        "Pick Team mode for group battles or Free-For-All when you want every player to be an opponent.",
+        "Use the close-range knife only when you are near another player; switch weapons for longer fights.",
+        "Reload with R after a fight so you are ready before the next player appears."
+      ],
+      "faq": [
+        {
+          "q": "Is Wasteland Shooters free to play?",
+          "a": "Yes. Wasteland Shooters is free to play in your browser with no download required."
+        },
+        {
+          "q": "Can I play Wasteland Shooters on a computer?",
+          "a": "Yes. It runs in the browser on a computer and uses keyboard and mouse controls."
+        },
+        {
+          "q": "How do I start a match in Wasteland Shooters?",
+          "a": "You can join a public game already in progress or create your own room. When hosting, name the room, set the player limit, and choose Free-For-All or Team mode."
+        },
+        {
+          "q": "How many maps and weapons are in Wasteland Shooters?",
+          "a": "There are four wasteland maps and nine weapons. The weapons range from a close-range knife to a rocket launcher."
+        },
+        {
+          "q": "What stats does Wasteland Shooters track?",
+          "a": "The statistics screen tracks your games played, wins, kills, and score. Finishing matches adds to the record you can improve."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-age-of-battle",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/age-of-battle/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/unity/age-of-battle/game.html",
+    "slug": "age-of-battle",
+    "name": "Age Of Battle",
+    "category": "strategy",
+    "mature": false,
+    "tags": [
+      "Battle",
+      "Defense",
+      "Strategy",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/age-of-battle-7abfc6f2.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/age-of-battle-7abfc6f2.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-20",
+    "publishedAt": "2026-10-20T03:26:10.812Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Command Stone Age soldiers, deploy units, conquer caves, and grow stronger through smart strategy.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Age Of Battle free in your browser. Command primitive Stone Age soldiers, deploy units, conquer caves, and build strength with smart strategy.",
+      "about": "Age Of Battle is an online strategy game set in the Stone Age. You play as a commander who leads the most primitive soldiers of this early era. Your goal is to deploy units, conquer new caves, and gain strength as your side spreads. The setting is simple and ancient, but the choices are tactical. Good decisions can help you win quickly, while poor timing can slow your advance.\nA round is built around deciding when and where to send your units. Each move should help you take caves and build more strength for the next push. The fun comes from making clear, smart choices with limited early-era forces. It is easy to understand, but tricky because your plan matters from the start. Age Of Battle plays free in the browser, and it is listed for both mouse and mobile play, so you can command your Stone Age army on a computer or phone.",
+      "highlights": [
+        "Stone Age strategy battle setting",
+        "Command primitive soldiers",
+        "Deploy units to conquer caves",
+        "Gain strength by taking new caves",
+        "Playable with mouse or on mobile"
+      ],
+      "goodFor": "Age Of Battle is good for players who like simple strategy, defense-style battles, and short tactical decisions. It is a strong pick if you enjoy planning unit placement more than fast reflexes.",
+      "howToPlay": "Deploy your units as a commander and use them to take over caves. Each conquered cave helps you gain strength, so plan your moves and keep pressure on the battle. Win by using smart strategy to control more ground.",
+      "touchHint": "Tap like a mouse click to deploy units",
+      "keys": [],
+      "tips": [
+        "Do not send units without a plan; choose caves that help you gain strength.",
+        "Watch the flow of battle before deploying, then commit when a cave looks reachable.",
+        "Keep expanding when you have momentum so your strength continues to grow.",
+        "Use strategic moves early, because a good start can lead to a faster victory."
+      ],
+      "faq": [
+        {
+          "q": "Is Age Of Battle free to play?",
+          "a": "Yes. Age Of Battle is free to play in your browser."
+        },
+        {
+          "q": "Can I play Age Of Battle on a phone or computer?",
+          "a": "Yes. The game is listed for mobile play and mouse play, so you can play on a phone or on a computer browser."
+        },
+        {
+          "q": "What is the goal in Age Of Battle?",
+          "a": "Your goal is to deploy units, conquer new caves, and gain strength. Smart strategic moves can lead you to victory."
+        },
+        {
+          "q": "What kind of game is Age Of Battle?",
+          "a": "Age Of Battle is an online strategy battle game with defense elements. It takes place in the Stone Age and puts you in command of primitive soldiers."
+        },
+        {
+          "q": "What are the controls for Age Of Battle?",
+          "a": "No keyboard controls are listed. Use the mouse on a computer, or tap on mobile, to make your choices."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

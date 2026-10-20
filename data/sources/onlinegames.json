@@ -265,6 +265,31 @@
       "status": "imported",
       "slug": "fast-food-rush",
       "at": "2026-10-19"
+    },
+    "https://www.onlinegames.io/crazy-ball-adventures/": {
+      "status": "imported",
+      "slug": "crazy-ball-adventures",
+      "at": "2026-10-20"
+    },
+    "https://www.onlinegames.io/stickman-destruction/": {
+      "status": "imported",
+      "slug": "stickman-destruction",
+      "at": "2026-10-20"
+    },
+    "https://www.onlinegames.io/99-nights-in-the-forest/": {
+      "status": "imported",
+      "slug": "99-nights-in-the-forest",
+      "at": "2026-10-20"
+    },
+    "https://www.onlinegames.io/wasteland-shooters/": {
+      "status": "imported",
+      "slug": "wasteland-shooters",
+      "at": "2026-10-20"
+    },
+    "https://www.onlinegames.io/age-of-battle/": {
+      "status": "imported",
+      "slug": "age-of-battle",
+      "at": "2026-10-20"
     }
   }
 }
