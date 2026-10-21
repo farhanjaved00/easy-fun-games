@@ -6195,5 +6195,550 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-super-car-driving",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/super-car-driving/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2024/unity2/super-car-driving/index-og.html",
+    "slug": "super-car-driving",
+    "name": "Super Car Driving",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Parking"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/super-car-driving-abd08aef.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/super-car-driving-abd08aef.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T03:21:41.666Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive supercars in stunt, parking, and free roam modes while earning coins for upgrades and customization.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Super Car Driving free in your browser, choose 13 supercars, and try stunt challenges, parking levels, or city free roam with drifting and rewards.",
+      "about": "Super Car Driving is a 3D car game about fast driving, tight control, and stylish cars. You pick from 13 supercars, choose a mode, and take on driving tasks to earn coins. The game includes stunt challenges, precision parking, and a city free roam area with light traffic. You can also visit the garage to change your car’s look with colors, lights, textures, and spoilers.\nEach mode has a different feel. Stunt levels ask you to handle ramps, loops, and sharp twists across surreal tracks. Parking challenges send you through changing locations such as an airport, city street, and mall parking lot while red arrows guide you to the target spot. Free roam lets you drive around the city, try speed camera missions, or pick up passengers for rewards. Super Car Driving plays free in the browser, with keyboard controls and four camera views to help you drive your way.",
+      "highlights": [
+        "3 modes: stunt levels, parking challenges, and free roam",
+        "13 supercars to drive and unlock with coins",
+        "20 stunt challenges with ramps, loops, and twists",
+        "22 parking levels with changing maps and obstacles",
+        "Garage options for colors, lights, textures, and spoilers"
+      ],
+      "goodFor": "Super Car Driving is good for players who enjoy 3D driving with different goals. It fits both careful parking fans and players who want ramps, drifts, and open city driving.",
+      "howToPlay": "Choose a car, pick one of the three modes, and complete driving tasks to earn coins. Use the keyboard to steer, brake, drift with the handbrake, and switch camera views. Spend coins on more cars or garage customization.",
+      "touchHint": "Use a keyboard for driving controls",
+      "keys": [
+        "WASD or Arrow keys: Drive",
+        "Spacebar: Handbrake",
+        "C: Change camera view",
+        "B: Look back"
+      ],
+      "tips": [
+        "Switch camera views with C when a stunt, parking spot, or turn is hard to judge.",
+        "Use the handbrake for tighter drifts, but be gentle in parking levels where accuracy matters.",
+        "In parking challenges, follow the red arrows first, then slow down near obstacles and the marked spot.",
+        "Try free roam tasks to earn rewards, then use coins for new cars or garage upgrades."
+      ],
+      "faq": [
+        {
+          "q": "Is Super Car Driving free to play?",
+          "a": "Yes. Super Car Driving is free to play in your browser."
+        },
+        {
+          "q": "Can I play Super Car Driving on a phone or computer?",
+          "a": "The game plays in the browser, and the listed controls are for a computer keyboard. Use WASD or the arrow keys to drive."
+        },
+        {
+          "q": "What game modes are in Super Car Driving?",
+          "a": "There are three modes: stunt levels, parking challenges, and free roam. Each mode gives you a different way to drive and earn rewards."
+        },
+        {
+          "q": "How many cars and levels are there?",
+          "a": "You can choose from 13 supercars. The game includes 20 stunt challenges and 22 parking levels."
+        },
+        {
+          "q": "How do I earn coins in Super Car Driving?",
+          "a": "Complete tasks in the game to collect coins. Coins can be used to buy more agile cars and customize your car in the garage."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-mini-cars-racing",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/mini-cars-racing/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2021/unity/mini-cars-racing/index-og.html",
+    "slug": "mini-cars-racing",
+    "name": "Mini Cars Racing",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "2 Player",
+      "Arcade",
+      "Car",
+      "Driving"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/mini-cars-racing-3eeb4f60.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/mini-cars-racing-3eeb4f60.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T03:22:49.129Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Race mini cars solo or split-screen, chasing 3-lap wins or time records on wild, twisty tracks.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Mini Cars Racing free in your browser. Race solo or split-screen with 8 mini cars, 3 tracks, and Arcade or Time Trial modes on twisty courses.",
+      "about": "Mini Cars Racing is a playful 3D car racing game built around small, toy-like vehicles and tight tracks. You can play Solo against CPU cars or choose Versus for local split-screen racing on the same keyboard. Before the race, pick one of 8 colorful mini cars, then choose Arcade or Time Trial. The course list includes Bridge Madness with jumps and narrow bridges, Cactus County with desert turns, and Rock Island with cliffside roads and dangerous drops.\nEach run is quick to set up. In Arcade, you race three laps against opponents and try to reach the finish first. In Time Trial, there are no rivals, so the goal is to beat your own time. Easy, Medium, and Expert difficulty change how demanding the race feels, with Expert making steering harder. Traffic cones, floating ramps, sharp corners, and places where you can fall off the map keep each track tense. If you crash, drop, or get stuck, use respawn and keep racing. Mini Cars Racing plays free in the browser.",
+      "highlights": [
+        "Solo races against CPU cars",
+        "Local split-screen races on one keyboard",
+        "Arcade 3-lap races and solo Time Trial",
+        "8 colorful mini cars and 3 twisty tracks",
+        "Easy, Medium, and Expert difficulty settings"
+      ],
+      "goodFor": "Great for players who want short racing rounds, toy-car style tracks, and same-keyboard competition with a friend. Solo players can also chase faster Time Trial runs.",
+      "howToPlay": "Pick Solo or Versus, choose a car, select Arcade or Time Trial, then choose a track and difficulty. In Arcade, finish the 3-lap race ahead of opponents; in Time Trial, drive alone and try to beat your own record. Use respawn if you fall off the map or get stuck.",
+      "touchHint": "Use a keyboard for solo or same-device racing",
+      "keys": [
+        "Player 1 W/S: Accelerate / brake",
+        "Player 1 A/D: Steer left / right",
+        "Player 1 C: Respawn",
+        "Player 2 Arrow keys: Accelerate, brake, and steer",
+        "Player 2 Keypad 1: Respawn"
+      ],
+      "tips": [
+        "On Bridge Madness, line up early before narrow bridges and jumps so you do not fall off the course.",
+        "In Expert difficulty, brake sooner before sharp turns because steering is harder to control.",
+        "Use the respawn key right away if you are stuck in a corner or drop off the map.",
+        "In Time Trial, drive clean laps with fewer crashes instead of taking every risky ramp at full speed."
+      ],
+      "faq": [
+        {
+          "q": "Is Mini Cars Racing free to play?",
+          "a": "Yes. Mini Cars Racing is free to play in your browser."
+        },
+        {
+          "q": "Can I play Mini Cars Racing on a phone or computer?",
+          "a": "Mini Cars Racing plays in the browser, but the listed controls use a keyboard. A computer is the best fit, especially for same-device 2 player races."
+        },
+        {
+          "q": "Does Mini Cars Racing have 2 player mode?",
+          "a": "Yes. Versus mode lets two players race in split-screen on the same device and keyboard."
+        },
+        {
+          "q": "What are the modes in Mini Cars Racing?",
+          "a": "Arcade mode is a 3-lap race against opponents. Time Trial is a solo race where you try to beat your own record."
+        },
+        {
+          "q": "How many cars and tracks are in Mini Cars Racing?",
+          "a": "You can choose from 8 mini cars. There are 3 tracks: Bridge Madness, Cactus County, and Rock Island."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-drift-rider",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/drift-rider/",
+    "embedUrl": "https://www.onlinegames.io/games/2023/unity3/drift-rider/index.html",
+    "slug": "drift-rider",
+    "name": "Drift Rider",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Drift",
+      "Driving",
+      "Simulator"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/drift-rider-93a8250c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/drift-rider-93a8250c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T03:23:59.042Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Customize a 3D drift car, slide through five tracks, earn coins, and tune your ride for longer drifts.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Drift Rider free in your browser. Drift across five 3D tracks, earn coins from long slides, and tune parts, paint, and brake settings today.",
+      "about": "Drift Rider is a 3D driving game built around clean, controlled drifting. Your goal is to make long slides and earn coins while driving on five different racetracks. The routes include a highway, city streets, and a narrow intercity road with curves that ask for careful braking. Between runs, you can change how your car looks and drives through the main menu. The garage gives you plenty to adjust before you return to the road.\nA round is all about speed, timing, and control. Build up enough speed, hit the brake, and try to hold the drift without losing your line. Coins from drifting can go into parts, tuning, paint, or new cars. You can upgrade the turbocharger, engine, and rear wheels from Stock through stronger levels, adjust height, camber, brake balance, and brake pressure, then choose colors and glossy, matte, metallic, or chrome finishes. Drift Rider plays free in your browser.",
+      "highlights": [
+        "3D drifting on five distinct racetracks",
+        "Drive on highways, city streets, and narrow curved roads",
+        "Earn coins by making long drifts",
+        "Upgrade turbocharger, engine, and rear wheels",
+        "Tune height, camber, brake balance, and brake pressure"
+      ],
+      "goodFor": "Drift Rider is good for players who like car control, tuning, and chasing longer drifts. It is also a strong pick if you enjoy changing both the look and performance of a vehicle.",
+      "howToPlay": "Pick a car and track, build up speed, then brake to start a drift. Hold the slide as long as you can to earn coins, then spend them on parts, tuning, paint, or new cars. Better control and smart tuning help you stay in longer drifts on tighter roads.",
+      "touchHint": "Use keyboard controls to steer and drift",
+      "keys": [
+        "Arrow keys: Steer",
+        "WASD: Steer",
+        "Space: Brake",
+        "R: Reset vehicle",
+        "P: Enlarge screen",
+        "C: Switch camera view"
+      ],
+      "tips": [
+        "Brake after you have enough speed; braking too early makes it harder to start a strong drift.",
+        "Use the narrow intercity route to practice careful timing on curves, not just speed.",
+        "Upgrade performance parts when you want more power before focusing only on paint.",
+        "Try brake balance and brake pressure changes if your car enters drifts too sharply or too weakly."
+      ],
+      "faq": [
+        {
+          "q": "Is Drift Rider free to play?",
+          "a": "Yes. Drift Rider plays free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Drift Rider on a phone or computer?",
+          "a": "The listed controls use keyboard keys, so a computer is the clearest way to play. No touch controls are listed for this game."
+        },
+        {
+          "q": "What is the goal in Drift Rider?",
+          "a": "The goal is to make the longest drifts you can and earn coins. You can use those coins to customize, tune, and buy cars."
+        },
+        {
+          "q": "How many tracks are in Drift Rider?",
+          "a": "Drift Rider has five distinct racetracks. They include highway driving, city streets, and a narrow curved intercity route."
+        },
+        {
+          "q": "What can I customize in Drift Rider?",
+          "a": "You can upgrade parts such as the turbocharger, engine, and rear wheels. You can also adjust height, camber, brake settings, paint colors, wheel colors, and finishes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-geometry-vector",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/geometry-vector/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2026/construct/329/geometry-vector/game.html",
+    "slug": "geometry-vector",
+    "name": "Geometry Vector",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Avoid",
+      "Color",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/geometry-vector-a98c7a82.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/geometry-vector-a98c7a82.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T03:25:41.675Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Guide a tiny arrow through rhythm obstacle courses, avoid spikes and traps, and reach the portal.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Geometry Vector free in your browser and guide a small arrow through rhythm obstacle courses to reach the portal without hitting spikes.",
+      "about": "Geometry Vector is a free arcade skill game where you steer a small arrow icon through bright 2D obstacle courses. Each level sends you toward a portal at the finish, but one touch on a spike or trap ends the run. The goal is simple to understand and much harder to master, because the courses move fast and demand precise timing. Coins appear along the way, and collecting them lets you unlock new arrow designs as you keep moving into harder stages.\nThe controls use one input, so the game is easy to start but strict about timing. Click, press Spacebar, or tap to control the arrow while the course pushes you through fast hazards. What makes each run tricky is the need to react with the rhythm of the level while still watching for traps ahead. The challenge grows as you advance, with a clear rise in difficulty every 10 levels. Geometry Vector plays free in the browser on desktop and mobile, with no download needed.",
+      "highlights": [
+        "Fast 2D arcade obstacle courses",
+        "One-input controls with click, Spacebar, or tap",
+        "Reach the portal without touching spikes or traps",
+        "Collect coins to unlock new arrow designs",
+        "Difficulty rises, with bigger jumps every 10 levels"
+      ],
+      "goodFor": "Geometry Vector is good for players who enjoy quick arcade runs and timing challenges. It fits anyone who likes simple controls with tough obstacle patterns to learn.",
+      "howToPlay": "Control the arrow with the left mouse button, Spacebar, or a screen tap. Move through each course, avoid every spike and trap, and reach the portal to clear the level. Pick up coins when you can to unlock new arrow designs.",
+      "touchHint": "Tap the screen to control the arrow",
+      "keys": [
+        "Left Mouse Button: Control the arrow",
+        "Spacebar: Control the arrow",
+        "Tap: Control the arrow on mobile"
+      ],
+      "tips": [
+        "Focus on reaching the portal first; only go for coins when the path is safe.",
+        "Watch the rhythm of each section so you time your clicks, taps, or Spacebar presses cleanly.",
+        "Expect a sharper challenge after every 10 levels and slow down your reactions until you learn the new patterns.",
+        "Use the input that feels most steady to you, then stick with it so your timing stays consistent."
+      ],
+      "faq": [
+        {
+          "q": "Is Geometry Vector free to play?",
+          "a": "Yes. Geometry Vector is free to play in your browser, with no download needed."
+        },
+        {
+          "q": "Can I play Geometry Vector on a phone or computer?",
+          "a": "Yes. On a computer, use the left mouse button or Spacebar. On a phone or tablet, tap the screen."
+        },
+        {
+          "q": "What is the goal in Geometry Vector?",
+          "a": "Your goal is to guide the arrow to the portal at the end of each level. You must avoid spikes and traps along the way."
+        },
+        {
+          "q": "What do coins do in Geometry Vector?",
+          "a": "Coins can be collected during levels and used to unlock new arrow designs. They are a visual reward for getting farther."
+        },
+        {
+          "q": "Does Geometry Vector get harder?",
+          "a": "Yes. The levels become more difficult as you progress, with a noticeable increase in challenge every 10 levels."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-poop-clicker",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/poop-clicker/",
+    "embedUrl": "https://www.onlinegames.io/games/2024/construct/292/poop-clicker/index.html",
+    "slug": "poop-clicker",
+    "name": "Poop Clicker",
+    "category": "idle",
+    "mature": false,
+    "tags": [
+      "Clicker",
+      "Idle",
+      "Mobile",
+      "Mouse"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/poop-clicker-e1227b82.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/poop-clicker-e1227b82.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T03:27:02.377Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Click the poop, earn coins, buy boosters, and unlock funny skins in this odd idle plumber game.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Poop Clicker free in your browser. Click poop for coins, buy boosters in x1, x10, or x100 batches, and catch golden poops for big rewards.",
+      "about": "Poop Clicker is a funny idle clicker game where you work as a plumber with a very strange job. Your task is to click the poop on the screen, clean it up, and turn each click into coins. As your total grows, you can unlock achievements, new skins, and different poop cleaners. Progress also reveals silly poop characters, including Shiny, Doctor, Ugly, and Rainbow poop.\nA round is simple at first: click or tap, earn coins, then spend them on upgrades from the right side of the screen. You can buy one upgrade at a time or use the x1, x10, and x100 buttons when you can afford bigger batches. Some upgrades improve how much you earn per click, while others build idle income. A blue streak bar rewards fast consecutive clicking, and golden poops can appear for a big coin boost. Poop Clicker plays free in the browser.",
+      "highlights": [
+        "Click or tap the poop to earn coins",
+        "Buy upgrades in x1, x10, or x100 amounts",
+        "Use per-click boosters or automatic clickers",
+        "Keep a streak to fill the blue power bar",
+        "Catch golden poops for a large coin reward"
+      ],
+      "goodFor": "Poop Clicker is good for players who like simple idle games with quick progress. It also fits anyone who enjoys silly humor and upgrade choices.",
+      "howToPlay": "Click or tap the poop to earn coins, then spend those coins on boosters and clickers. Choose per-click upgrades if you want active clicking, or automatic clickers if you want idle income. Keep clicking in a streak and grab golden poops when they pass by for faster progress.",
+      "touchHint": "Tap the poop and upgrade buttons",
+      "keys": [
+        "Mouse: Click the poop to earn coins",
+        "Touch: Tap the poop to earn coins"
+      ],
+      "tips": [
+        "Keep the blue streak bar full by clicking steadily for stronger cleaning power.",
+        "Buy per-click boosters if you plan to keep clicking by hand.",
+        "Choose automatic clickers when you want coins to build with less clicking.",
+        "Watch the screen for golden poops and click them before they disappear."
+      ],
+      "faq": [
+        {
+          "q": "Is Poop Clicker free to play?",
+          "a": "Yes. Poop Clicker is free to play in your browser."
+        },
+        {
+          "q": "Can I play Poop Clicker on a phone or computer?",
+          "a": "Yes. You can play with mouse clicks on a computer or taps on a phone."
+        },
+        {
+          "q": "What is the goal of Poop Clicker?",
+          "a": "The goal is to earn coins by cleaning poop, then use those coins to buy boosters, clickers, skins, and cleaners."
+        },
+        {
+          "q": "What do upgrades do in Poop Clicker?",
+          "a": "Some upgrades increase the coins you earn from each click. Others create automatic income so your total can grow with less clicking."
+        },
+        {
+          "q": "What are golden poops in Poop Clicker?",
+          "a": "Golden poops can randomly pass across the screen. Click one when you see it to earn a large coin reward."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

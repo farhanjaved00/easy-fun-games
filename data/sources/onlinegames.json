@@ -290,6 +290,36 @@
       "status": "imported",
       "slug": "age-of-battle",
       "at": "2026-10-20"
+    },
+    "https://www.onlinegames.io/super-car-driving/": {
+      "status": "imported",
+      "slug": "super-car-driving",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/mini-cars-racing/": {
+      "status": "imported",
+      "slug": "mini-cars-racing",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/drift-rider/": {
+      "status": "imported",
+      "slug": "drift-rider",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/mahjong/": {
+      "status": "failed",
+      "reason": "content failed the quality checks 3 times",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/geometry-vector/": {
+      "status": "imported",
+      "slug": "geometry-vector",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/poop-clicker/": {
+      "status": "imported",
+      "slug": "poop-clicker",
+      "at": "2026-10-21"
     }
   }
 }
