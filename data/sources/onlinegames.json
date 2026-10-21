@@ -320,6 +320,16 @@
       "status": "imported",
       "slug": "poop-clicker",
       "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/pixelmon-town/": {
+      "status": "imported",
+      "slug": "pixelmon-town",
+      "at": "2026-10-21"
+    },
+    "https://www.onlinegames.io/taxi-simulator/": {
+      "status": "imported",
+      "slug": "taxi-simulator",
+      "at": "2026-10-21"
     }
   }
 }

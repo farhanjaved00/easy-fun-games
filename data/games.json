@@ -6740,5 +6740,218 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "og-pixelmon-town",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/pixelmon-town/",
+    "embedUrl": "https://cloud.onlinegames.io/games/2025/html/pixelmon-town/game.html",
+    "slug": "pixelmon-town",
+    "name": "Pixelmon Town",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Block",
+      "Pixel",
+      "Sandbox"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/pixelmon-town-3e6d96e6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/pixelmon-town-3e6d96e6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T07:45:16.103Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Build your own block world by digging, carving, and placing materials on Flatgrass or Vanilla maps.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Pixelmon Town free in your browser and build with stone, gold, and other blocks on Flatgrass or Vanilla maps as you dig, carve, and create.",
+      "about": "Pixelmon Town is a 3D pixel sandbox game where you make your own block world. You can choose between Flatgrass and Vanilla maps, then shape the land with blocks and materials. The goal is not to race a timer or beat enemies. It is to build what you want, from a castle to a cozy home, using many block types, including stone and gold.\nA round starts by picking a map and deciding what kind of place you want to create. You can dig into the ground, carve out spaces, break blocks, and place new ones to form walls, rooms, paths, towers, or any structure you imagine. Because the material options are unlimited, you can test ideas, remove parts that do not fit, and rebuild without worrying about running out. The fun comes from planning a build, changing the terrain, and using different materials to make it look right. Pixelmon Town plays free in the browser.",
+      "highlights": [
+        "3D pixel sandbox building",
+        "Flatgrass and Vanilla map choices",
+        "Dig, carve, break, and place blocks",
+        "Build castles, homes, or your own ideas",
+        "Materials include blocks like stone and gold"
+      ],
+      "goodFor": "Pixelmon Town is good for players who enjoy open-ended building and creative sandbox play. It fits anyone who wants a calm game with no fixed win condition.",
+      "howToPlay": "Choose either the Flatgrass or Vanilla map, then start shaping the world. Break blocks to clear space, dig or carve the terrain, and place blocks to build structures. There is no set finish line, so keep improving your world until it matches your idea.",
+      "touchHint": "Use the mouse to break and place blocks",
+      "keys": [],
+      "tips": [
+        "Pick your map before you start, since Flatgrass and Vanilla give you different places to build in.",
+        "Clear space first by digging or breaking blocks before you place walls and rooms.",
+        "Use unlimited materials to rough out the big shape of a build before adding details.",
+        "Mix blocks such as stone and gold to make key parts of your structure stand out."
+      ],
+      "faq": [
+        {
+          "q": "Is Pixelmon Town free to play?",
+          "a": "Yes. Pixelmon Town is a free online browser game."
+        },
+        {
+          "q": "Can I play Pixelmon Town on a phone or computer?",
+          "a": "Pixelmon Town plays in the browser. The listed input is mouse, so a computer with a mouse is the clearest way to play."
+        },
+        {
+          "q": "What is the goal of Pixelmon Town?",
+          "a": "The goal is to create your own block world. You can build homes, castles, or any structure you want instead of trying to beat a set level."
+        },
+        {
+          "q": "What maps can I choose in Pixelmon Town?",
+          "a": "You can choose Flatgrass or Vanilla before you start building."
+        },
+        {
+          "q": "What can I do with blocks in Pixelmon Town?",
+          "a": "You can dig, carve, break blocks, and build structures. The materials include different block types, such as stone and gold."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "og-taxi-simulator",
+    "source": "onlinegames.io",
+    "sourceUrl": "https://www.onlinegames.io/taxi-simulator/",
+    "embedUrl": "https://www.onlinegames.io/games/2022/unity/taxi-simulator/index.html",
+    "slug": "taxi-simulator",
+    "name": "Taxi Simulator",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Car",
+      "Driving",
+      "Simulator",
+      "Taxi"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/taxi-simulator-657666cf.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/taxi-simulator-657666cf.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "onlinegames.io",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T07:46:23.066Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 0,
+    "description": "Drive a yellow cab through New York City, pick up passengers, and park correctly at each destination.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "embeddableTag": true,
+        "partnerCatalog": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Taxi Simulator free in your browser and drive a yellow cab through city traffic, using the map to pick up and drop off riders at green rings.",
+      "about": "Taxi Simulator is a 3D driving game where you work as a yellow cab driver in New York City. Your job is to pick up customers from marked spots and take them to the places they want to go. A map in the upper right corner helps you find each stop. Red circles show pickup points, while green circles show drop-off points. The busy streets, city setting, and traffic make each trip feel active from start to finish.\nEach level starts with choosing a route and driving your cab into city traffic. Green road indicators guide you toward the passenger, then you must stop inside the moving green ring to pick them up. At the destination, you drop them off the same way and park the cab in the correct direction. Some levels ask you to serve more than one customer, so clean driving, careful turns, and steady stops matter. Taxi Simulator plays free in your browser.",
+      "highlights": [
+        "Drive a yellow cab through New York City streets",
+        "Use a map with red pickup and green drop-off circles",
+        "Stop inside green rings to pick up and drop off riders",
+        "Some levels include more than one customer",
+        "Change the camera view while driving"
+      ],
+      "goodFor": "Taxi Simulator is good for players who enjoy city driving, traffic challenges, and parking tasks. It suits anyone who likes clear objectives and quick taxi routes.",
+      "howToPlay": "Choose a level, then follow the map and green road indicators to the pickup spot. Stop in the green ring to collect the passenger, drive to the green drop-off circle, and park the taxi facing the right way. Finish the level by delivering every required customer.",
+      "touchHint": "Use WASD or arrow keys to drive",
+      "keys": [
+        "WASD: Steer the taxi",
+        "Arrow keys: Steer the taxi",
+        "Space: Handbrake",
+        "C: Change camera view"
+      ],
+      "tips": [
+        "Watch the upper-right map so you know whether you are heading to a red pickup circle or a green drop-off circle.",
+        "Slow down before the green ring, because you need to stop inside it to pick up or drop off a passenger.",
+        "Line up the cab before parking at the destination, since the taxi direction matters.",
+        "Use the camera change if traffic, turns, or parking angles are hard to judge from the current view."
+      ],
+      "faq": [
+        {
+          "q": "Is Taxi Simulator free to play?",
+          "a": "Yes. Taxi Simulator is free to play in your browser."
+        },
+        {
+          "q": "Can I play Taxi Simulator on a phone or computer?",
+          "a": "Taxi Simulator plays in the browser. The listed controls use a keyboard, so a computer with WASD, arrow keys, Space, and C is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in Taxi Simulator?",
+          "a": "Your goal is to pick up passengers and take them to their requested destinations. You also need to park the yellow cab correctly at the drop-off area."
+        },
+        {
+          "q": "How do I find passengers and destinations?",
+          "a": "Use the map in the upper right corner. Red circles mark pickup points, green circles mark drop-off points, and green road indicators guide you while driving."
+        },
+        {
+          "q": "Are there levels with more than one customer?",
+          "a": "Yes. Some levels require you to pick up and deliver multiple customers, so you need to complete each stop carefully."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
