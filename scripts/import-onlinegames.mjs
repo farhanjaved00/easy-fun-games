@@ -188,7 +188,8 @@ async function readGM(entry) {
     touch,
     opportunityScore: entry.opportunityScore,
     rank: entry.rank,
-    id: entry.id
+    id: entry.id,
+    mainKeyword: entry.mainKeyword || ''
   };
 }
 
@@ -365,7 +366,8 @@ Never say the game is "the best", "#1", "award-winning", "official" or "most pop
 If the facts say the game has mature content (violence, strong language), describe it plainly and never suggest it for young children.
 
 Return JSON with:
-- title: an original, clean, and catchy SEO game title (2 to 5 words, 10 to 45 characters, Title Case). Do not copy clunky keywords, spam, or broken phrases from the source title. Create a polished, distinctive title that players want to click and that ranks well on Google Search.
+- title: an original, clean, and catchy SEO game title (2 to 5 words, 10 to 45 characters, Title Case).
+  MANDATORY SEO KEYWORD RULE: If a target "mainKeyword" is provided in the facts (or if the game has a primary search theme/keyword like "brainrot", "sprunki", "tung tung", "escape"), you MUST retain that main search keyword in the rewritten title. Never omit or skip the target keyword, because ranking for that exact search demand is the primary objective. Rewrite the rest of the title to make it unique, fresh, and polished in Title Case.
 - description: one sentence, 90 to 140 characters, that says what you do in the game.
 - category: the single best category slug from the allowed list. Prefer an existing category whenever it reasonably fits.
 - newCategory: usually an empty string. Only if the game's main genre is clearly different from every allowed category and is a common game portal genre (for example Simulator, Horror, Cooking, Card, Board, Fighting, Strategy, Rhythm, Idle, Word), give that genre as a 1-2 word name without the word "games". In that case still fill category with the closest existing slug.
@@ -384,9 +386,23 @@ const BRANDS = /\b(Counter[- ]?Strike|CS:?GO|Valorant|Overwatch|Minecraft|Roblox
 const BANNED = /\b(million|billion|award|best game|#1|number one|official|guaranteed|world'?s? (best|top)|most popular)\b/i;
 const shingles = (s, n = 6) => { const w = s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean); const out = new Set(); for (let i = 0; i + n <= w.length; i++) out.add(w.slice(i, i + n).join(' ')); return out; };
 
+function hasMainKeyword(title, kw) {
+  if (!kw) return true;
+  const t = (title || '').toLowerCase();
+  const k = kw.toLowerCase().trim();
+  if (!k) return true;
+  if (t.includes(k)) return true;
+  const words = k.split(/\s+/).filter(Boolean);
+  if (words.length > 1 && words.every(w => t.includes(w))) return true;
+  if (k.endsWith('s') && t.includes(k.slice(0, -1))) return true;
+  if (!k.endsWith('s') && t.includes(k + 's')) return true;
+  return false;
+}
+
 function qualityProblems(c, facts) {
   const p = [];
   if (!c.title || c.title.trim().length < 5 || c.title.trim().length > 50) p.push('title must be between 5 and 50 characters');
+  if (facts.mainKeyword && !hasMainKeyword(c.title || '', facts.mainKeyword)) p.push(`title must include the target search keyword "${facts.mainKeyword}" for SEO ranking`);
   if (BANNED.test(c.title || '')) p.push(`title contains a banned claim: "${(c.title || '').match(BANNED)[0]}"`);
   if (OUR_NAMES.has(normName(c.title || ''))) p.push(`title "${c.title}" is already used on another game on our site`);
   const words = c.about.join(' ').split(/\s+/).length;
@@ -432,6 +448,7 @@ async function writeContent(facts, cat, tags) {
   const brief = {
     matureContent: !!facts.mature,
     name: facts.name,
+    mainKeyword: facts.mainKeyword || '',
     suggestedCategory: cat,
     allowedCategories: CATS,
     suggestedTags: tags,
@@ -441,7 +458,8 @@ async function writeContent(facts, cat, tags) {
     sourceHeadings: facts.headings,
     sourceText: facts.paragraphs.join('\n\n').slice(0, 6000)
   };
-  let input = `Write the EasyGameFun page for this game. Facts:\n${JSON.stringify(brief, null, 2)}`;
+  const kwNote = facts.mainKeyword ? ` Mandatory SEO Target Keyword: "${facts.mainKeyword}" (must be in the rewritten title).` : '';
+  let input = `Write the EasyGameFun page for this game.${kwNote} Facts:\n${JSON.stringify(brief, null, 2)}`;
   let previous;
   for (let attempt = 1; attempt <= 3; attempt++) {
     const res = await client.responses.parse({
@@ -628,6 +646,7 @@ for (const item of fresh) {
     slug,
     name: finalName,
     originalName: g.name !== finalName ? g.name : undefined,
+    mainKeyword: g.mainKeyword || undefined,
     category: await chooseCategory(c, cat, g),
     mature: !!g.mature,
     tags: (c.tags && c.tags.length ? c.tags : tags).slice(0, 4),
