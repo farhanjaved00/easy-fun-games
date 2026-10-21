@@ -11,7 +11,7 @@ Every page is pre-built HTML (fast, good for SEO). No server, no database, no de
 | `npm run check` | Checks `dist/`: one H1, unique titles and descriptions, canonicals, schema, broken links, sitemaps, file count, size budgets |
 | `npm test` | Build + check |
 | `npm run serve` | Preview `dist/` at http://localhost:8080 |
-| `npm run import -- --count 3` | Import new games from onlinegames.io with AI-written pages (needs `OPENAI_API_KEY`) |
+| `npm run import -- --count 5` | Import new games from GameMonetize (or sources) with AI-written pages (needs `OPENAI_API_KEY`) |
 | `node scripts/social-post.mjs prepare` / `post` | Make branded social images / post new games to Facebook, Instagram, Pinterest (setup: [SOCIAL-SETUP.md](SOCIAL-SETUP.md)) |
 | `node scripts/make-icons.mjs` | Re-render icons and the social image from `brand/` (needs Chrome; only when the logo changes) |
 
@@ -38,14 +38,13 @@ It also compares the game count with the live site and stops if more than 5% of 
 
 ## Daily game import
 
-`scripts/import-onlinegames.mjs` runs inside `deploy.yml` every day and imports 5 new games (source set by "importSource" in data/site.json: `gamedistribution` uses data/sources/gamedistribution-catalog.csv) from
-[onlinegames.io's embeddable list](https://www.onlinegames.io/t/embeddable-games-for-websites/). For each game it:
+`scripts/import-onlinegames.mjs` runs inside `deploy.yml` every day and imports 5 new games (source set by "importSource" in data/site.json: `gamemonetize` uses `GameMonetize_Sorted_By_Traffic_Opportunity.csv` sorted by traffic opportunity score). For each game it:
 
-1. Checks the game page carries the **Embeddable** tag (others are skipped), and skips games marked as mature content or named after other companies' trademarks.
-2. Reads the facts (name, embed URL, image, tags, description, controls) and saves the thumbnail in `src/static/thumbs/`.
+1. Reads the highest opportunity games from `GameMonetize_Sorted_By_Traffic_Opportunity.csv` (skips mature content or company trademarks if configured).
+2. Reads the facts (name, iframe embed URL, thumbnail, tags, category, description, controls) and saves the thumbnail in `src/static/thumbs/`.
 3. Asks OpenAI (`gpt-5.5`, change with `OPENAI_MODEL`) to write original page text from those facts only.
 4. Checks the text: lengths, no banned claims, and no more than 8% of 6-word phrases shared with the source. Up to 3 tries, then the game is skipped.
-5. Adds it to `data/games.json`. `data/sources/onlinegames.json` remembers what was imported or skipped.
+5. Adds it to `data/games.json`. `data/sources/gamemonetize.json` remembers what was imported or skipped.
 
 Needs the `OPENAI_API_KEY` repository secret; without it the import does nothing and the site still deploys.
 Run it by hand: Actions > Deploy > Run workflow, and set how many games to import.

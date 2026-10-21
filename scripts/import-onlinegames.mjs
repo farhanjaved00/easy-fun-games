@@ -1,14 +1,18 @@
 // Imports new games, writes original page text with OpenAI, checks it, and adds the games to data/games.json.
 //
 // Sources (--source, or "importSource" in data/site.json):
+//   gamemonetize      games from GameMonetize_Sorted_By_Traffic_Opportunity.csv sorted by traffic opportunity,
+//                     embedded via direct HTML5 iframe code.
 //   gamedistribution  games from data/sources/gamedistribution-catalog.csv (GameDistribution allows publishers
 //                     to embed its games); details come from each game's page on gamedistribution.com.
 //   onlinegames       onlinegames.io games tagged "Embeddable"
 //                     (https://www.onlinegames.io/t/embeddable-games-for-websites/). Other games are skipped.
 //
 // Usage:
-//   node scripts/import-onlinegames.mjs                 import 3 new games (needs OPENAI_API_KEY)
-//   node scripts/import-onlinegames.mjs --count 2
+//   node scripts/import-onlinegames.mjs                 import 5 new games (needs OPENAI_API_KEY)
+//   node scripts/import-onlinegames.mjs --count 5
+//   node scripts/import-onlinegames.mjs --daily         only add games missing to reach the daily target
+//   node scripts/import-onlinegames.mjs --source gamemonetize
 //   node scripts/import-onlinegames.mjs --facts out.json    only collect facts for the next games, no AI
 //   node scripts/import-onlinegames.mjs --content in.json   use prewritten content (keyed by slug) instead of AI
 //   node scripts/import-onlinegames.mjs --dry-run           show what would be imported
@@ -21,6 +25,9 @@ import { makeCover } from './lib/art.mjs';
 import { readCats, writeCats, checkNewCategory, writeCategory } from './lib/categories.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+if (typeof process.loadEnvFile === 'function') {
+  try { process.loadEnvFile(path.join(ROOT, '.env')); } catch {}
+}
 const DATA = path.join(ROOT, 'data');
 const THUMBS = path.join(ROOT, 'src/static/thumbs');
 const SITE = 'https://www.onlinegames.io';
@@ -31,11 +38,13 @@ const UA = 'EasyGameFunBot/1.0 (+https://easygamefun.com/contact/)';
 const args = process.argv.slice(2);
 const opt = name => { const i = args.indexOf('--' + name); return i < 0 ? null : (args[i + 1] && !args[i + 1].startsWith('--') ? args[i + 1] : true); };
 const SITE_CFG = JSON.parse(fs.readFileSync(path.join(DATA, 'site.json'), 'utf8'));
-const SOURCE = (opt('source') || SITE_CFG.importSource || 'onlinegames').replace(/\.io$/, '');
+const SOURCE = (opt('source') || SITE_CFG.importSource || 'gamemonetize').replace(/\.io$/, '');
+const GM = SOURCE === 'gamemonetize';
 const GD = SOURCE === 'gamedistribution';
-const STATE_FILE = path.join(DATA, GD ? 'sources/gamedistribution.json' : 'sources/onlinegames.json');
+const STATE_FILE = path.join(DATA, GM ? 'sources/gamemonetize.json' : GD ? 'sources/gamedistribution.json' : 'sources/onlinegames.json');
+const GM_CATALOG = path.join(ROOT, 'GameMonetize_Sorted_By_Traffic_Opportunity.csv');
 const GD_CATALOG = path.join(DATA, 'sources/gamedistribution-catalog.csv');
-const COUNT = Math.max(0, Math.min(10, opt('count') === null ? 3 : +opt('count') || 0));
+const COUNT = Math.max(0, Math.min(50, opt('count') === null ? 5 : +opt('count') || 0));
 const DRY = !!opt('dry-run');
 const DAILY = !!opt('daily'); // scheduled runs: only add what is missing to reach the daily count
 const FACTS_OUT = opt('facts');
@@ -67,6 +76,123 @@ const text = html => decode(html.replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi
 // Names using other companies' game trademarks are skipped (risk with Google and ad networks).
 const TRADEMARKS = /\b(GTA|Grand Theft|Minecraft|Roblox|Fortnite|Pok[eé]mon|Mario|Sonic|Among Us|Squid Game|FIFA|Call of Duty|PUBG|Free Fire|Subway Surfers|Angry Birds|Pac-?Man|Tetris|Zelda|Halo|Skibidi|Sprunki)\b/i;
 const NOT_GAMES = new Set(['about', 'all-tags', 'privacy-policy', 'game-developers', 'random', 'recently-played-games', 'contact', 'search', 'terms', 'tags', 'page']);
+
+/* ---------------- CSV Helper ---------------- */
+function parseCSV(t) {
+  const rows = []; let r = [], f = '', q = false;
+  for (let i = 0; i < t.length; i++) {
+    const c = t[i];
+    if (q) { if (c === '"') { if (t[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true; else if (c === ',') { r.push(f); f = ''; }
+    else if (c === '\n') { r.push(f); rows.push(r); r = []; f = ''; } else if (c !== '\r') f += c;
+  }
+  if (f || r.length) { r.push(f); rows.push(r); }
+  return rows;
+}
+
+const tagSlug = n => String(n || '').toLowerCase().replace(/^\./, '').replace(/^(\d)\s*players?$/, '$1-player').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const toSlug = s => String(s || '').toLowerCase().replace(/\.io\b/g, ' io').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+function parseControls(inst) {
+  const t = String(inst || '').trim();
+  if (!t) return [];
+  const lines = t.split(/\r?\n+/).map(l => l.trim()).filter(Boolean);
+  const out = [];
+  for (const l of lines) {
+    const p = l.split(/\s*[-–—:]\s+/);
+    if (p.length >= 2 && p[0].length < 35) {
+      out.push([p[0].trim(), p.slice(1).join(' - ').trim()]);
+    } else {
+      out.push(['Controls', l]);
+    }
+  }
+  return out.slice(0, 8);
+}
+
+/* ---------------- GameMonetize ---------------- */
+const GM_MATURE = /\b(horror|blood|gore|gory|violent|violence|scary|zombie|nsfw|erotic|sexy|nudity)\b/i;
+
+function listGM() {
+  if (!fs.existsSync(GM_CATALOG)) {
+    throw new Error(`GameMonetize CSV not found at ${GM_CATALOG}`);
+  }
+  const rows = parseCSV(fs.readFileSync(GM_CATALOG, 'utf8').replace(/^\uFEFF/, '')).slice(1);
+  return rows.filter(r => r.length >= 15 && r[6] && r[7]).map(r => {
+    const title = String(r[7] || '').trim();
+    const slug = toSlug(title);
+    const iframeCode = String(r[13] || '').trim();
+    const srcMatch = (iframeCode.match(/src=["']([^"']+)["']/i) || [])[1];
+    const gameUrl = String(r[12] || '').trim();
+    const embedUrl = srcMatch || gameUrl;
+    return {
+      rank: +r[0] || 0,
+      opportunityScore: +r[1] || 0,
+      searchDemandScore: +r[2] || 0,
+      competitionScore: +r[3] || 0,
+      mainKeyword: String(r[4] || '').trim(),
+      tier: String(r[5] || '').trim(),
+      id: String(r[6] || '').trim(),
+      title,
+      slug,
+      category: String(r[8] || '').trim(),
+      tagsString: String(r[9] || '').trim(),
+      width: +r[10] || 800,
+      height: +r[11] || 600,
+      gameUrl: gameUrl || embedUrl,
+      embedUrl,
+      thumbUrl: String(r[14] || '').trim(),
+      description: String(r[15] || '').trim(),
+      instructions: String(r[16] || '').trim()
+    };
+  });
+}
+
+async function readGM(entry) {
+  const name = entry.title;
+  if (!name) return { skip: 'no game name' };
+  if (!entry.embedUrl || !entry.embedUrl.startsWith('https://')) return { skip: 'no valid https embed URL' };
+
+  const paragraphs = entry.description.split(/\r?\n+/).map(t => t.trim()).filter(Boolean);
+  if (paragraphs.join(' ').length < 50) return { skip: 'too little information about the game' };
+
+  const mature = GM_MATURE.test([entry.title, entry.category, entry.tagsString, entry.description].join(' '));
+  if (mature && RULES.skipMature) return { skip: 'marked as mature content' };
+  if (RULES.skipTrademarkNames && TRADEMARKS.test(name)) return { skip: `name uses another company's trademark (${name.match(TRADEMARKS)[0]})` };
+
+  const rawTags = [
+    ...(entry.category ? [entry.category] : []),
+    ...(entry.tagsString ? entry.tagsString.split(',') : []),
+    ...(entry.mainKeyword ? [entry.mainKeyword] : [])
+  ].map(s => s.trim()).filter(Boolean);
+
+  const tags = [...new Map(rawTags.map(t => [tagSlug(t), { slug: tagSlug(t), name: t.replace(/^(\d)\s*players?$/i, '$1 Player').replace(/^\.IO$/i, '.io') }])).values()];
+  const controls = parseControls(entry.instructions);
+  const orientation = (entry.height > entry.width) ? 'portrait' : 'landscape';
+
+  const instCombined = (entry.instructions + ' ' + entry.tagsString).toLowerCase();
+  const touch = orientation === 'portrait' || /\b(tap|touch|swipe|mobile)\b/i.test(instCombined);
+
+  return {
+    url: entry.gameUrl || entry.embedUrl,
+    name,
+    embedUrl: entry.embedUrl,
+    image: entry.thumbUrl || null,
+    tags,
+    paragraphs,
+    controls,
+    instructions: entry.instructions,
+    headings: [],
+    mature,
+    developer: '',
+    orientation,
+    touch,
+    opportunityScore: entry.opportunityScore,
+    rank: entry.rank,
+    id: entry.id
+  };
+}
+
+/* ---------------- onlinegames.io ---------------- */
 async function listEmbeddable(maxPages = 15) {
   const urls = [];
   for (let p = 1; p <= maxPages; p++) {
@@ -113,23 +239,10 @@ async function readGame(url) {
 }
 
 /* ---------------- GameDistribution ---------------- */
-// The catalog (slug, id, title, developer, genre) comes from the owner's GameDistribution export.
-function parseCSV(t) {
-  const rows = []; let r = [], f = '', q = false;
-  for (let i = 0; i < t.length; i++) {
-    const c = t[i];
-    if (q) { if (c === '"') { if (t[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
-    else if (c === '"') q = true; else if (c === ',') { r.push(f); f = ''; }
-    else if (c === '\n') { r.push(f); rows.push(r); r = []; f = ''; } else if (c !== '\r') f += c;
-  }
-  if (f || r.length) { r.push(f); rows.push(r); }
-  return rows;
-}
 function listGD() {
   const rows = parseCSV(fs.readFileSync(GD_CATALOG, 'utf8').replace(/^\uFEFF/, '')).slice(1).filter(r => r.length >= 4 && /^[0-9a-f]{32}$/.test(r[1]));
   return rows.map(([slug, id, title, developer, genre]) => ({ url: `https://gamedistribution.com/games/${slug}/`, slug, id, title, developer, genre }));
 }
-const tagSlug = n => n.toLowerCase().replace(/^\./, '').replace(/^(\d)\s*players?$/, '$1-player').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const GD_MATURE = /\b(horror|blood|gore|gory|violent|violence|scary|zombie)\b/i;
 async function readGD(entry) {
   const html = await get(entry.url);
@@ -160,11 +273,16 @@ async function readGD(entry) {
 
 /* ---------------- mapping to our site ---------------- */
 const CAT_RULES = [
-  ['io', ['io-games', 'io', 'multiplayer-io']], ['2-player', ['2-player', 'two-player']],
-  ['racing', ['racing', 'car', 'cars', 'driving', 'drift', 'bike', 'motorbike', 'parking', 'truck']],
-  ['shooter', ['shooting', 'shooter', 'sniper', 'gun', 'fps', 'zombie']], ['sports', ['sports', 'football', 'soccer', 'basketball', 'golf', 'pool', 'billiards']],
-  ['puzzle', ['puzzle', 'match-3', 'logic', 'brain', 'word']], ['kids', ['kids', 'girl', 'girls', 'cooking', 'dress-up', 'educational']],
-  ['adventure', ['adventure', 'escape', 'platformer', 'rpg']], ['action', ['action', 'fighting', 'war', 'stickman']], ['arcade', ['arcade', 'clicker', 'casual', 'skill', 'hypercasual', 'merge', 'idle']]
+  ['io', ['io-games', 'io', 'multiplayer-io', 'multiplayer', 'snake', 'slither']],
+  ['2-player', ['2-player', 'two-player', '2-players']],
+  ['racing', ['racing', 'car', 'cars', 'driving', 'drift', 'bike', 'motorbike', 'parking', 'truck', 'jetski']],
+  ['shooter', ['shooting', 'shooter', 'sniper', 'gun', 'fps', 'zombie']],
+  ['sports', ['sports', 'football', 'soccer', 'basketball', 'golf', 'pool', 'billiards']],
+  ['puzzle', ['puzzle', 'match-3', 'logic', 'brain', 'word', 'sorting', 'sort', 'jigsaw', 'quiz', 'difference', 'hidden']],
+  ['kids', ['kids', 'girl', 'girls', 'cooking', 'dress-up', 'educational', 'coloring', 'baby-hazel']],
+  ['adventure', ['adventure', 'escape', 'platformer', 'rpg']],
+  ['action', ['action', 'fighting', 'war', 'stickman', 'battle']],
+  ['arcade', ['arcade', 'clicker', 'casual', 'skill', 'hypercasual', 'merge', 'idle', 'runner', 'running']]
 ];
 const SKIP_TAGS = new Set(['1player', '2players', 'casual', 'hypercasual', 'embeddable-games-for-websites', 'free', 'fun', 'funny', 'html5', 'unity', '1-player', '2d', '3d', 'online', 'best', 'new', 'popular', 'crazy', 'webgl', 'browser', 'no-download']);
 const categoryOf = tags => {
@@ -306,7 +424,18 @@ async function writeContent(facts, cat, tags) {
     client = new OpenAI();
   }
   const { zodTextFormat } = await import('openai/helpers/zod');
-  const brief = { matureContent: !!facts.mature, name: facts.name, suggestedCategory: cat, allowedCategories: CATS, suggestedTags: tags, sourceTags: facts.tags.map(t => t.name), controls: facts.controls, sourceHeadings: facts.headings, sourceText: facts.paragraphs.join('\n\n').slice(0, 6000) };
+  const brief = {
+    matureContent: !!facts.mature,
+    name: facts.name,
+    suggestedCategory: cat,
+    allowedCategories: CATS,
+    suggestedTags: tags,
+    sourceTags: facts.tags.map(t => t.name),
+    controls: facts.controls,
+    instructions: facts.instructions || '',
+    sourceHeadings: facts.headings,
+    sourceText: facts.paragraphs.join('\n\n').slice(0, 6000)
+  };
   let input = `Write the EasyGameFun page for this game. Facts:\n${JSON.stringify(brief, null, 2)}`;
   let previous;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -355,13 +484,13 @@ async function chooseCategory(c, fallback, g) {
 const games = readJson(path.join(DATA, 'games.json'), []);
 // Text of every page we already publish, for the uniqueness check.
 const OUR_PAGES = games.filter(g => g.content).map(g => ({ name: g.name, sh: shingles([g.content.about, ...(g.content.highlights || []), g.content.goodFor || '', g.content.howToPlay || '', ...(g.content.tips || [])].join(' ').split(g.name).join(' ')) }));
-const state = readJson(STATE_FILE, { source: LIST, games: {} });
+const state = readJson(STATE_FILE, { source: GM ? 'GameMonetize_Sorted_By_Traffic_Opportunity.csv' : GD ? GD_CATALOG : LIST, games: {} });
 const haveSlug = new Set(games.map(g => g.slug));
 const prewritten = CONTENT_IN ? readJson(CONTENT_IN, {}) : null;
 
 let TODO = COUNT;
 if (DAILY) {
-  const already = readJson(path.join(DATA, 'games.json'), []).filter(g => g.addedAt === today && /onlinegames|gamedistribution/.test(g.source || '')).length;
+  const already = readJson(path.join(DATA, 'games.json'), []).filter(g => g.addedAt === today && /onlinegames|gamedistribution|gamemonetize/.test(g.source || '')).length;
   TODO = Math.max(0, COUNT - already);
   console.log(`Daily target ${COUNT}, already added today ${already}, adding ${TODO} now.`);
 }
@@ -374,29 +503,83 @@ if (!FACTS_OUT && !DRY && !prewritten && !process.env.OPENAI_API_KEY) {
 // Games we already have under any source, by name, so the same game is never added twice.
 const normName = n => n.toLowerCase().replace(/\.io\b/g, 'io').replace(/[^a-z0-9]/g, '');
 const haveName = new Set(games.map(g => normName(g.name)));
-const catalog = GD ? listGD() : null;
-const urls = GD ? catalog.map(e => e.url) : (console.log(`Reading ${LIST}`), await listEmbeddable());
-const entryOf = GD ? new Map(catalog.map(e => [e.url, e])) : null;
-const fresh = urls.filter(u => !state.games[u] && !haveSlug.has(slugOf(u)) && !(GD && haveName.has(normName(entryOf.get(u).title))));
-console.log(`${SOURCE}: ${urls.length} games listed, ${fresh.length} not imported yet.`);
-let looked = 0;
 
+let fresh = [];
+let entryOfGD = null;
+if (GM) {
+  const catalog = listGM();
+  fresh = catalog.filter(e => {
+    if (state.games[e.id] || state.games[e.embedUrl] || state.games[e.gameUrl]) return false;
+    if (haveSlug.has(e.slug)) return false;
+    if (haveName.has(normName(e.title))) return false;
+    return true;
+  });
+  console.log(`${SOURCE}: ${catalog.length} games listed in CSV, ${fresh.length} not imported yet.`);
+} else if (GD) {
+  const catalog = listGD();
+  entryOfGD = new Map(catalog.map(e => [e.url, e]));
+  const urls = catalog.map(e => e.url);
+  fresh = urls.filter(u => !state.games[u] && !haveSlug.has(slugOf(u)) && !haveName.has(normName(entryOfGD.get(u).title)));
+  console.log(`${SOURCE}: ${urls.length} games listed, ${fresh.length} not imported yet.`);
+} else {
+  console.log(`Reading ${LIST}`);
+  const urls = await listEmbeddable();
+  fresh = urls.filter(u => !state.games[u] && !haveSlug.has(slugOf(u)));
+  console.log(`${SOURCE}: ${urls.length} games listed, ${fresh.length} not imported yet.`);
+}
+
+let looked = 0;
 const facts = [];
 const added = [];
 let failures = 0;
-for (const url of fresh) {
+
+for (const item of fresh) {
   if (added.length + facts.length >= TODO) break;
   if (failures >= 3) { console.log('Stopping: 3 games failed in this run.'); break; }
-  console.log(`- ${url}`);
-  let g;
   if (++looked > 80) { console.log('Stopping: looked at 80 games in this run.'); break; }
-  try { g = GD ? await readGD(entryOf.get(url)) : await readGame(url); } catch (e) { console.log(`  error: ${e.message}`); continue; }
-  if (g.skip) { console.log(`  skipped: ${g.skip}`); if (!DRY && !FACTS_OUT) state.games[url] = { status: 'skipped', reason: g.skip, at: today }; continue; }
-  const slug = slugOf(url);
+
+  let g;
+  let entryKey;
+  let slug;
+  if (GM) {
+    const entry = item;
+    entryKey = entry.id;
+    slug = entry.slug;
+    console.log(`- #${entry.rank} (opp ${entry.opportunityScore}): ${entry.title} [id: ${entry.id}]`);
+    try { g = await readGM(entry); } catch (e) { console.log(`  error: ${e.message}`); continue; }
+  } else {
+    const url = item;
+    entryKey = url;
+    slug = slugOf(url);
+    console.log(`- ${url}`);
+    try { g = GD ? await readGD(entryOfGD.get(url)) : await readGame(url); } catch (e) { console.log(`  error: ${e.message}`); continue; }
+  }
+
+  if (g.skip) {
+    console.log(`  skipped: ${g.skip}`);
+    if (!DRY && !FACTS_OUT) state.games[entryKey] = { status: 'skipped', reason: g.skip, at: today };
+    continue;
+  }
+
+  // Ensure unique slug
+  let finalSlug = slug;
+  let counter = 1;
+  while (haveSlug.has(finalSlug)) {
+    finalSlug = `${slug}-${counter++}`;
+  }
+  slug = finalSlug;
+
   const cat = categoryOf(g.tags);
   const tags = usefulTags(g.tags);
-  if (DRY) { console.log(`  would import "${g.name}" as ${cat} [${tags.join(', ')}]`); facts.push(g); continue; }
-  if (FACTS_OUT) { facts.push({ slug, suggestedCategory: cat, suggestedTags: tags, ...g }); continue; }
+  if (DRY) {
+    console.log(`  would import "${g.name}" as ${cat} [${tags.join(', ')}] embed: ${g.embedUrl}`);
+    facts.push(g);
+    continue;
+  }
+  if (FACTS_OUT) {
+    facts.push({ slug, suggestedCategory: cat, suggestedTags: tags, ...g });
+    continue;
+  }
 
   let c;
   try {
@@ -412,37 +595,91 @@ for (const url of fresh) {
     }
     console.log(`  not imported: ${e.message}`);
     failures++;
-    if (!e.status) state.games[url] = { status: 'failed', reason: e.message.slice(0, 200), at: today };
+    if (!e.status) state.games[entryKey] = { status: 'failed', reason: e.message.slice(0, 200), at: today };
     continue;
   }
+
   const thumb = await saveThumb(slug, g.image).catch(() => null);
-  if (!thumb) { console.log('  not imported: thumbnail could not be read'); state.games[url] = { status: 'failed', reason: 'thumbnail', at: today }; continue; }
+  if (!thumb) {
+    console.log('  not imported: thumbnail could not be read');
+    state.games[entryKey] = { status: 'failed', reason: 'thumbnail', at: today };
+    continue;
+  }
 
   const record = {
-    id: (GD ? 'gd-' : 'og-') + slug, source: GD ? 'gamedistribution' : 'onlinegames.io', sourceUrl: url, embedUrl: g.embedUrl, slug, name: g.name,
+    id: (GM ? 'gm-' : GD ? 'gd-' : 'og-') + slug,
+    source: GM ? 'gamemonetize' : GD ? 'gamedistribution' : 'onlinegames.io',
+    sourceUrl: g.url,
+    embedUrl: g.embedUrl,
+    slug,
+    name: g.name,
     category: await chooseCategory(c, cat, g),
     mature: !!g.mature,
     tags: (c.tags && c.tags.length ? c.tags : tags).slice(0, 4),
-    developer: g.developer || '', orientation: g.orientation || 'landscape',
-    input: g.controls.some(([k]) => /mouse|click/i.test(k)) ? ['mouse', 'keyboard', 'touch'] : ['keyboard', 'touch'],
-    thumb, emoji: '🎮', colors: ['#6C4DFF', '#FF3F6C'],
-    licence: { partner: GD ? 'gamedistribution' : 'onlinegames.io', checkedAt: today, allowedEmbed: true },
-    addedAt: today, publishedAt: new Date().toISOString(), status: 'published', featured: false, popularity: 0,
+    developer: g.developer || '',
+    orientation: g.orientation || 'landscape',
+    input: g.controls.some(([k, v]) => /mouse|click/i.test(k + ' ' + (v || '')))
+      ? ['mouse', 'keyboard', 'touch']
+      : ['keyboard', 'touch'],
+    thumb,
+    emoji: '🎮',
+    colors: ['#6C4DFF', '#FF3F6C'],
+    licence: {
+      partner: GM ? 'gamemonetize' : GD ? 'gamedistribution' : 'onlinegames.io',
+      checkedAt: today,
+      allowedEmbed: true
+    },
+    addedAt: today,
+    publishedAt: new Date().toISOString(),
+    status: 'published',
+    featured: false,
+    popularity: g.opportunityScore ? Math.round(g.opportunityScore) : 0,
     description: c.description,
-    quality: { score: 80, checks: { embeddableTag: !GD, partnerCatalog: GD, originalText: true, reviewed: prewritten ? 'manual' : 'ai' } },
-    content: { metaDescription: c.metaDescription, about: c.about.join('\n'), highlights: c.highlights, goodFor: c.goodFor, howToPlay: c.howToPlay, touchHint: c.touchHint, keys: c.keys, tips: c.tips, faq: c.faq, model: prewritten ? 'manual' : MODEL }
+    quality: {
+      score: 80,
+      checks: {
+        partnerCatalog: GM || GD,
+        embeddableTag: !GD && !GM,
+        originalText: true,
+        reviewed: prewritten ? 'manual' : 'ai'
+      }
+    },
+    content: {
+      metaDescription: c.metaDescription,
+      about: c.about.join('\n'),
+      highlights: c.highlights,
+      goodFor: c.goodFor,
+      howToPlay: c.howToPlay,
+      touchHint: c.touchHint,
+      keys: c.keys,
+      tips: c.tips,
+      faq: c.faq,
+      model: prewritten ? 'manual' : MODEL
+    }
   };
+
   // Our own AI cover replaces the partner image; if it fails, the partner image stays and the daily cover step retries.
   if (!prewritten) {
-    try { record.thumb = await makeCover(ROOT, record); console.log(`  cover: ${record.thumb.url}`); }
-    catch (e) { console.log(`  cover not made yet (${e.message}); keeping the partner image for now`); }
+    try {
+      record.thumb = await makeCover(ROOT, record);
+      console.log(`  cover: ${record.thumb.url}`);
+    } catch (e) {
+      console.log(`  cover not made yet (${e.message}); keeping the partner image for now`);
+    }
   }
+
   games.push(record);
   haveSlug.add(slug);
   haveName.add(normName(record.name));
-  state.games[url] = { status: 'imported', slug, at: today };
+  state.games[entryKey] = { status: 'imported', slug, at: today };
+  if (GM && g.embedUrl && g.embedUrl !== entryKey) {
+    state.games[g.embedUrl] = { status: 'imported', slug, at: today };
+  }
   added.push(record);
-  OUR_PAGES.push({ name: record.name, sh: shingles([record.content.about, ...record.content.highlights, record.content.goodFor, record.content.howToPlay, ...record.content.tips].join(' ').split(record.name).join(' ')) });
+  OUR_PAGES.push({
+    name: record.name,
+    sh: shingles([record.content.about, ...record.content.highlights, record.content.goodFor, record.content.howToPlay, ...record.content.tips].join(' ').split(record.name).join(' '))
+  });
   console.log(`  imported "${g.name}" → /game/${slug}/ (${record.category})`);
 }
 

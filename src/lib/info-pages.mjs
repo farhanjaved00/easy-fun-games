@@ -98,7 +98,7 @@ ${faqHTML(SITE_FAQ)}`
 <h2>Information collected when you visit</h2>
 <p>Our website is delivered by Cloudflare, a hosting and security provider. Like all web servers, it processes technical information such as your IP address, browser type and the pages you request, to deliver the site and protect it from abuse. We may use privacy-friendly website analytics that do not use cookies to see which pages are popular and how fast they load. This information is not used to identify you.</p>
 <h2>Embedded games from partners</h2>
-<p>Games are provided by game partners and load inside a frame on our pages only after you press Play. When a game loads, the partner and the game may collect information and may use cookies or show ads, under their own privacy policies. Current partners include onlinegames.io and GameDistribution.</p>
+<p>Games are provided by game partners and load inside a frame on our pages only after you press Play. When a game loads, the partner and the game may collect information and may use cookies or show ads, under their own privacy policies. Current partners include GameMonetize, onlinegames.io and GameDistribution.</p>
 <h2>Email</h2>
 <p>If you email us, we receive your email address and message and use them only to reply. We do not add you to any mailing list.</p>
 <h2>Advertising</h2>

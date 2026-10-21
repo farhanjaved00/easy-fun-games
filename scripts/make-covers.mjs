@@ -7,6 +7,9 @@ import { fileURLToPath } from 'node:url';
 import { makeCover } from './lib/art.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+if (typeof process.loadEnvFile === 'function') {
+  try { process.loadEnvFile(path.join(ROOT, '.env')); } catch {}
+}
 const file = path.join(ROOT, 'data/games.json');
 const args = process.argv.slice(2);
 const opt = n => { const i = args.indexOf('--' + n); return i < 0 ? null : args[i + 1]; };

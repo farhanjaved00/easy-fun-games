@@ -13,7 +13,8 @@
     "test": "node src/build.mjs && node scripts/check.mjs",
     "serve": "node scripts/serve.mjs",
     "indexnow": "node scripts/indexnow.mjs",
-    "import": "node scripts/import-onlinegames.mjs"
+    "import": "node scripts/import-onlinegames.mjs",
+    "import:gm": "node scripts/import-onlinegames.mjs --source gamemonetize"
   },
   "dependencies": {
     "openai": "7.32.0",

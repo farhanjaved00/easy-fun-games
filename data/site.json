@@ -40,13 +40,13 @@
   },
   "autopost": {
     "enabled": true,
-    "perRun": 3,
-    "perDay": 3
+    "perRun": 5,
+    "perDay": 5
   },
   "verify": {
     "pinterest": "9d297d2960ec9d81726cf77e13a90884"
   },
-  "importSource": "onlinegames",
+  "importSource": "gamemonetize",
   "adsense": {
     "client": "ca-pub-8178475200507023"
   }

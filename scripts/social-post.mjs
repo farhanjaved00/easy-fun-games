@@ -17,6 +17,9 @@ import { z } from 'zod';
 import { makeSocialImages } from './lib/social-images.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+if (typeof process.loadEnvFile === 'function') {
+  try { process.loadEnvFile(path.join(ROOT, '.env')); } catch {}
+}
 const DATA = path.join(ROOT, 'data');
 const LOG_FILE = path.join(DATA, 'social.json');
 const PIN_STATE = path.join(DATA, 'sources/pinterest-token.json');
