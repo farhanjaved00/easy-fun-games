@@ -7060,5 +7060,221 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-hidden-brainrot-letters",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/j7a7jmc8ndhmva7a65i9olwz65m8r07s/",
+    "embedUrl": "https://html5.gamemonetize.co/j7a7jmc8ndhmva7a65i9olwz65m8r07s/",
+    "slug": "hidden-brainrot-letters",
+    "name": "Hidden Brainrot Letters",
+    "originalName": "Quiz Find the Italian brainrot Letters",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Quiz",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/hidden-brainrot-letters-d64472f5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/hidden-brainrot-letters-d64472f5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T08:12:27.545Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 82,
+    "description": "Search wild Italian brainrot meme images, find hidden letters, and combine them to solve each word puzzle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Hidden Brainrot Letters free and search Italian brainrot images for hidden letters that spell the correct word in each puzzle before you finish.",
+      "about": "Hidden Brainrot Letters is a puzzle and word game built around strange Italian brainrot images. Each picture is packed with noisy visual jokes, and letters are tucked into the scene so they do not stand out at first. Your goal is simple: find every hidden letter, then use the letters you spotted to work out the correct word. It is a hidden-object style quiz where close looking matters more than speed.\nEach round is a careful search. You click or tap when you notice a letter blended into the image, then keep scanning until the word comes together. The fun is in the contrast between the silly pictures and the focused challenge of noticing small shapes. It is easy to start because the controls are only click or tap, but the letters can hide in busy parts of the art. Hidden Brainrot Letters plays free in your browser, so you can open it for a quick word puzzle whenever you want a light brain test.",
+      "highlights": [
+        "Hidden letters inside Italian brainrot images",
+        "Letters combine to form the correct word",
+        "Simple mouse click or tap controls",
+        "Word puzzle with a silly visual style"
+      ],
+      "goodFor": "Great for players who enjoy hidden-letter puzzles, visual searches, and simple quiz-style word challenges. It is easy to pick up but still asks you to look closely.",
+      "howToPlay": "Study each image and click or tap every letter you can spot. Use the hidden letters you find to piece together the correct word and finish the puzzle.",
+      "touchHint": "Tap hidden letters to select them",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Play on touch screens"
+      ],
+      "tips": [
+        "Scan the whole image once before clicking so you know where busy areas are.",
+        "Look around edges, shadows, and patterns where letters can blend into the art.",
+        "After finding a few letters, think about what word they could form.",
+        "If a section looks chaotic, slow down and search it shape by shape."
+      ],
+      "faq": [
+        {
+          "q": "Is Hidden Brainrot Letters free to play?",
+          "a": "Yes. Hidden Brainrot Letters is free to play in your browser."
+        },
+        {
+          "q": "Can I play Hidden Brainrot Letters on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Hidden Brainrot Letters?",
+          "a": "Your goal is to spot every hidden letter in each Italian brainrot image and use them to form the correct word."
+        },
+        {
+          "q": "What kind of game is Hidden Brainrot Letters?",
+          "a": "It is a puzzle and word quiz game with hidden letters inside busy, silly images."
+        },
+        {
+          "q": "How do the controls work?",
+          "a": "The controls are simple: click or tap to play and select what you find in the image."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-snake-arena",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/nipineo4jg3ceojn8zudt1a9s058ypac/",
+    "embedUrl": "https://html5.gamemonetize.co/nipineo4jg3ceojn8zudt1a9s058ypac/",
+    "slug": "brainrot-snake-arena",
+    "name": "Brainrot Snake Arena",
+    "originalName": "Italian Brainrot Tung Sahur Snake.io",
+    "category": "io",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Snake",
+      "Brainrot",
+      "Multiplayer"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-snake-arena-8a9717a6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-snake-arena-8a9717a6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T08:13:35.391Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 82,
+    "description": "Steer a meme-headed snake through a multiplayer arena, eat glowing orbs, and grow into a longer chaos parade.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Snake Arena free in your browser. Steer a meme-headed snake, eat glowing orbs, and grow longer in a chaotic multiplayer arena.",
+      "about": "Brainrot Snake Arena is a funny multiplayer snake game with a loud meme style. You start as a tiny snake in a busy arena, then try to grow bigger and longer by eating glowing orbs scattered around the play area. Your snake is not a plain serpent. Its animated head can feature wild Italian Brainrot meme characters such as Tung Tung Sahur, Brr Brr Patapim, Ballerina Cappucina, and Ralalero trALALA. The result is a silly, wriggling parade that keeps the classic snake idea easy to understand.\nEach round is simple to follow: move, collect orbs, and keep building a longer snake. The fun comes from the chaotic arena and the expressive meme heads leading your body around the screen. Because the controls are mouse only, it is easy to start, but staying focused while everything moves around you is the tricky part. You can play it free right in your browser.",
+      "highlights": [
+        "Multiplayer snake arena with chaotic meme energy",
+        "Grow longer by eating glowing orbs",
+        "Animated heads inspired by Italian Brainrot memes",
+        "Mouse-only controls for quick play",
+        "Start tiny and build a bigger snake"
+      ],
+      "goodFor": "This game is good for players who like fast arcade rounds, snake-style growth, and silly meme humor. It is easy to pick up because you only need the mouse.",
+      "howToPlay": "Move your snake around the arena with the mouse. Eat glowing orbs to grow bigger and longer. Keep collecting orbs to turn your tiny meme snake into a much larger one.",
+      "touchHint": "Use your mouse to guide the snake",
+      "keys": [
+        "Mouse: Move"
+      ],
+      "tips": [
+        "Move toward clusters of glowing orbs so your snake grows faster.",
+        "Keep your cursor close to your snake when you need small, careful turns.",
+        "Watch the busy arena and adjust early instead of making sharp last-second moves.",
+        "Use the simple mouse control to focus on orb paths, not buttons."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Snake Arena free to play?",
+          "a": "Yes. Brainrot Snake Arena is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Brainrot Snake Arena on a phone or computer?",
+          "a": "The given control is mouse only, so it is best suited for a computer with a mouse or trackpad."
+        },
+        {
+          "q": "What is the goal in Brainrot Snake Arena?",
+          "a": "The goal is to start small, eat glowing orbs around the arena, and grow your snake bigger and longer."
+        },
+        {
+          "q": "What are the controls for Brainrot Snake Arena?",
+          "a": "Use the mouse to guide your snake around the arena. No keyboard controls are listed."
+        },
+        {
+          "q": "What makes Brainrot Snake Arena different from a plain snake game?",
+          "a": "It uses animated Italian Brainrot meme heads, including Tung Tung Sahur and Brr Brr Patapim, for a sillier and more chaotic style."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
