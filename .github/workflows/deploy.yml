@@ -44,32 +44,32 @@ jobs:
           node-version: 22
 
       - name: Install packages
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]') || contains(toJson(github.event.commits), '[covers]')
         run: npm ci
 
       # Tests every game and lists problems in REVIEW.md. Report only: no page is changed.
       - name: Check game health
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]')
         continue-on-error: true
         run: node scripts/health-check.mjs
 
       # Runs daily, on manual runs, and on pushes whose commit message contains [import].
       - name: Import new games
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]')
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]')
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           COUNT="${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '' }}"
           if [ -z "$COUNT" ]; then
-            MSG="${{ github.event.head_commit.message }}"
-            MATCH=$(echo "$MSG" | grep -oE '\[import:([0-9]+)\]' | grep -oE '[0-9]+' || true)
+            MSG="${{ toJson(github.event.commits) }}"
+            MATCH=$(echo "$MSG" | grep -oE '\[import:([0-9]+)\]' | grep -oE '[0-9]+' | head -n 1 || true)
             COUNT="${MATCH:-5}"
           fi
           node scripts/import-onlinegames.mjs --count "$COUNT" ${{ (github.event_name == 'schedule' || inputs.daily) && '--daily' || '' }}
 
       # Replaces partner thumbnails with original AI covers, a few games per run.
       - name: Make AI covers
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]') || contains(toJson(github.event.commits), '[covers]')
         continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -77,7 +77,7 @@ jobs:
 
       # Branded images for the next games to post; they go live with this deploy.
       - name: Prepare social images
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]')
         continue-on-error: true
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
@@ -93,7 +93,7 @@ jobs:
 
       - name: Save game changes to the repo
         id: save
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[import]') || contains(github.event.head_commit.message, '[covers]')
+        if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]') || contains(toJson(github.event.commits), '[covers]')
         run: |
           git add data src/static/thumbs src/static/social REVIEW.md
           if git diff --cached --quiet; then echo "Nothing changed, so there is nothing to publish."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
