@@ -6953,5 +6953,112 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-italian-brainrot-tung-tung-sahur-anomaly",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/",
+    "embedUrl": "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/",
+    "slug": "italian-brainrot-tung-tung-sahur-anomaly",
+    "name": "Italian Brainrot Tung Tung Sahur Anomaly",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot",
+      "Chicken",
+      "Italian Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-tung-tung-sahur-anomaly-7c8966c9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-tung-tung-sahur-anomaly-7c8966c9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-21",
+    "publishedAt": "2026-10-21T07:54:00.323Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 82,
+    "description": "Find five odd details in surreal Italian-themed scenes full of quirky brainrot characters and visual jokes.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Tung Tung Sahur Anomaly free online and find five hidden differences in quirky Italian-themed artworks with mouse-only controls.",
+      "about": "Italian Brainrot Tung Tung Sahur Anomaly is a spot-the-difference puzzle game with a strange, funny style. Each illustration uses Italian-themed artwork, quirky characters, and meme-inspired visual humor. Your goal is simple: study the picture and find five hidden differences in each scene. The challenge comes from noticing small changes inside artwork that is already odd, busy, and unpredictable. That makes the game more than a plain search task, because the silly details can distract you while real clues hide in the picture.\nA round is played with the mouse only. Look across the image, compare details, and click the differences when you spot them. The unusual characters, chicken tag, and chaotic art make each search feel playful but also tricky, because your eyes can get pulled toward the jokes instead of the clues. It is a free browser game, so you can start playing right away and focus on careful looking, patient scanning, and spotting the five changes before moving on.",
+      "highlights": [
+        "Spot five hidden differences in each illustration",
+        "Quirky Italian-themed artwork",
+        "Meme-inspired brainrot humor",
+        "Mouse-only puzzle controls",
+        "Unpredictable, chaotic visual style"
+      ],
+      "goodFor": "This game is good for players who enjoy visual puzzles with weird humor. It fits short play sessions where you want to search carefully and laugh at odd details.",
+      "howToPlay": "Compare the artwork carefully and look for five differences in each illustration. Click a difference with the mouse when you find it, then keep searching until all five are found.",
+      "touchHint": "Use the mouse to click differences",
+      "keys": [
+        "Mouse: Click differences"
+      ],
+      "tips": [
+        "Scan one section at a time instead of jumping around the whole picture.",
+        "Check character faces, hands, and accessories first, since small changes can hide there.",
+        "Look past the weird jokes and compare shapes, colors, and missing objects.",
+        "If you feel stuck, move your eyes along the edges and background details."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Tung Tung Sahur Anomaly free to play?",
+          "a": "Yes. You can play Italian Brainrot Tung Tung Sahur Anomaly for free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Tung Tung Sahur Anomaly on a phone or computer?",
+          "a": "The game uses mouse-only controls, so it is clearest to play on a computer with a mouse or trackpad."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Tung Tung Sahur Anomaly?",
+          "a": "Your goal is to find five hidden differences in each Italian-themed illustration."
+        },
+        {
+          "q": "What controls does Italian Brainrot Tung Tung Sahur Anomaly use?",
+          "a": "It uses the mouse only. Move the pointer over a difference and click it."
+        },
+        {
+          "q": "Is Italian Brainrot Tung Tung Sahur Anomaly hard?",
+          "a": "It can be tricky because the scenes are chaotic and full of strange details. Careful scanning helps more than fast clicking."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

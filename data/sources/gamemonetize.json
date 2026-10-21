@@ -1,4 +1,15 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
-  "games": {}
+  "games": {
+    "67010": {
+      "status": "imported",
+      "slug": "italian-brainrot-tung-tung-sahur-anomaly",
+      "at": "2026-10-21"
+    },
+    "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/": {
+      "status": "imported",
+      "slug": "italian-brainrot-tung-tung-sahur-anomaly",
+      "at": "2026-10-21"
+    }
+  }
 }
