@@ -7274,5 +7274,545 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-water-sort-puzzle-italian-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/00e7bfbvq86f5uwgkkow9aiwbjcsfamn/",
+    "embedUrl": "https://html5.gamemonetize.co/00e7bfbvq86f5uwgkkow9aiwbjcsfamn/",
+    "slug": "water-sort-puzzle-italian-brainrot",
+    "name": "Water Sort Puzzle Italian Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot",
+      "Color Sorting",
+      "Water"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/water-sort-puzzle-italian-brainrot-2b4c01b5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/water-sort-puzzle-italian-brainrot-2b4c01b5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-22",
+    "publishedAt": "2026-10-22T03:24:31.967Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 78,
+    "description": "Sort colored liquids into matching bottles and unlock collectible Italian Brainrot images as you solve each puzzle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Water Sort Puzzle Italian Brainrot free in your browser. Sort colored liquids into single-color bottles and unlock collectible images today.",
+      "about": "Water Sort Puzzle Italian Brainrot is a casual color sorting puzzle about bottles, liquid, and logic. Your goal is to move the colored water around until every bottle holds only one color. As you solve puzzles, you unlock collectible Italian Brainrot images and build a gallery. The game has a calm pace, bright colors, and a simple rule set that makes it easy to start.\nEach round is about planning the next pour. You click bottles with the mouse, move liquid, and look for a cleaner layout after every choice. It feels relaxing because there is no rush in the given instructions, but it can still be tricky when several colors are mixed across many bottles. Smart pours help you separate colors and finish bottles one by one. You can play it free in your browser, and the mobile tag means it is also made for phone play.",
+      "highlights": [
+        "Sort colored water until each bottle has one color",
+        "Unlock collectible Italian Brainrot images",
+        "Build a gallery as you solve puzzles",
+        "Relaxing bottle sorting with bright colors",
+        "Playable in the browser and on mobile"
+      ],
+      "goodFor": "Good for players who enjoy quiet logic puzzles and color sorting. It also fits short play sessions because each move is simple and easy to understand.",
+      "howToPlay": "Click a bottle, then choose where to pour its colored liquid. Keep sorting until every bottle contains only one color, then continue unlocking collectible Italian Brainrot images.",
+      "touchHint": "Tap bottles to select and pour",
+      "keys": [
+        "Mouse: Select bottles and pour"
+      ],
+      "tips": [
+        "Try to finish one color at a time so the board gets easier to read.",
+        "Avoid pours that only make a bottle more mixed unless they open a better move next.",
+        "Keep bottles that are close to one color clean, and do not add a different color to them.",
+        "Look over all bottles before each pour so you do not block a useful color under another one."
+      ],
+      "faq": [
+        {
+          "q": "Is Water Sort Puzzle Italian Brainrot free to play?",
+          "a": "Yes. You can play Water Sort Puzzle Italian Brainrot free in your browser."
+        },
+        {
+          "q": "Can I play Water Sort Puzzle Italian Brainrot on a phone or computer?",
+          "a": "Yes. The game is an HTML5 puzzle with mobile support, and it also works with mouse controls on a computer."
+        },
+        {
+          "q": "What is the goal of Water Sort Puzzle Italian Brainrot?",
+          "a": "The goal is to sort the colored liquids so each bottle contains only one color. Solving puzzles unlocks collectible Italian Brainrot images."
+        },
+        {
+          "q": "How do I control Water Sort Puzzle Italian Brainrot?",
+          "a": "Use the mouse to play on a computer. Click bottles to select them and pour the colored liquid."
+        },
+        {
+          "q": "What do you unlock in Water Sort Puzzle Italian Brainrot?",
+          "a": "You unlock collectible Italian Brainrot images as you master the water sorting puzzles and build your gallery."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-drag-merge-puzzle",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/clpvf0sr3ckhol0fn48758ilg2zu898z/",
+    "embedUrl": "https://html5.gamemonetize.co/clpvf0sr3ckhol0fn48758ilg2zu898z/",
+    "slug": "italian-brainrot-drag-merge-puzzle",
+    "name": "Italian Brainrot Drag Merge Puzzle",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Brainrot",
+      "Brainrot Italian"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-drag-merge-puzzle-a46600a1.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-drag-merge-puzzle-a46600a1.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-22",
+    "publishedAt": "2026-10-22T03:25:36.965Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 78,
+    "description": "Restore shuffled brainrot pictures by dragging tiles, swapping spots, and merging correct neighbors into clusters.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Drag Merge Puzzle free and restore shuffled brainrot images in 3×3 to 6×6 grids, swapping pieces that merge into clusters.",
+      "about": "Italian Brainrot Drag Merge Puzzle is a jigsaw-style brain puzzle built around brainrot images. At the start of each level, one picture is chosen at random, split into a 3×3, 4×4, 5×5, or 6×6 grid, and shuffled. Your goal is to rebuild the full image by moving every piece back to the right place. You can also upload your own images to turn them into playable puzzles.\nYou play by dragging a piece onto another piece to swap their positions. The key twist is merging: when two neighboring pieces are correctly placed beside each other, they join into one cluster. That cluster can then be moved as a group, so the puzzle becomes about spotting matching edges and building useful blocks. Larger grids are trickier because there are more pieces to place. It plays free in the browser, with simple drag controls for quick puzzle sessions.",
+      "highlights": [
+        "Random image selected for each level",
+        "3×3, 4×4, 5×5, and 6×6 puzzle grids",
+        "Correct neighbors merge into movable clusters",
+        "Drag pieces or clusters to swap positions",
+        "Upload your own images to play"
+      ],
+      "goodFor": "Great for players who like jigsaw puzzles with a smart twist. It is also a good pick if you enjoy quick brainrot picture puzzles with simple drag controls.",
+      "howToPlay": "Look at the shuffled grid and drag one piece onto another to swap their positions. Place matching neighboring pieces next to each other so they merge into clusters, then move those clusters as one group. Finish by restoring the full picture.",
+      "touchHint": "Drag pieces with your finger to swap them",
+      "keys": [
+        "Drag: Swap pieces or clusters",
+        "Drag clusters: Move merged pieces together"
+      ],
+      "tips": [
+        "Start by looking for pieces that clearly share an edge, because correct neighbors will lock into a cluster.",
+        "Build small clusters first, then use them to move several correct pieces at once.",
+        "On larger grids, avoid random swaps; one move can send a useful cluster away from its spot.",
+        "If you upload your own image, choose one with clear shapes or colors so matching edges is easier."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Drag Merge Puzzle free to play?",
+          "a": "Yes. You can play Italian Brainrot Drag Merge Puzzle for free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Drag Merge Puzzle on a phone or computer?",
+          "a": "Yes. The game supports mobile play, and it also works in the browser on a computer. Use drag controls to swap pieces or clusters."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Drag Merge Puzzle?",
+          "a": "Your goal is to restore the shuffled picture by putting every piece back in the correct position."
+        },
+        {
+          "q": "How do pieces merge in Italian Brainrot Drag Merge Puzzle?",
+          "a": "When two neighboring pieces are placed correctly next to each other, they join into one movable cluster. You can then drag that cluster to swap it with another piece or group."
+        },
+        {
+          "q": "What puzzle sizes are in Italian Brainrot Drag Merge Puzzle?",
+          "a": "Images can be split into 3×3, 4×4, 5×5, or 6×6 grids before being shuffled."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-quiz-meme-mastery",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/m59916zelz3sgf09lcmemaw1n7d9q4fp/",
+    "embedUrl": "https://html5.gamemonetize.co/m59916zelz3sgf09lcmemaw1n7d9q4fp/",
+    "slug": "italian-brainrot-quiz-meme-mastery",
+    "name": "Italian Brainrot Quiz — Meme Mastery",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Quiz",
+      "Brainrot",
+      "Funny"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-quiz-meme-mastery-888a594f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-quiz-meme-mastery-888a594f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-22",
+    "publishedAt": "2026-10-22T03:26:55.116Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 78,
+    "description": "Answer fast meme questions, identify Italian brainrot characters, and keep going before the timer runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Quiz — Meme Mastery free and test brainrot meme knowledge, spot absurd characters, and beat the timer with quick quiz answers.",
+      "about": "Italian Brainrot Quiz — Meme Mastery is a 2D puzzle quiz about Italian brainrot meme chaos. Your goal is to pick the right answers, recognize strange meme characters, and prove how well you know names such as Tralalero Tralala and Tung Tung Tung Sahur. It is made for one player and focuses on fast recognition, funny clues, sahur references, and quick choices under pressure. The game keeps the setup simple, so the focus stays on the questions and the odd meme details you can remember.\nEach round asks you to interact with the quiz using the left mouse button. You read the prompt, choose an answer, and try to stay ahead of the timer. There is no movement control to learn; the challenge is reading quickly and trusting your meme memory. The fun comes from spotting familiar brainrot references before the countdown pushes you into a rushed guess. Since every choice is clicked directly, it is easy to start but tricky when the timer gets close. You can play it free in your browser on EasyGameFun.",
+      "highlights": [
+        "Single-player 2D quiz about Italian brainrot memes",
+        "Guess answers and characters before the timer ends",
+        "Includes Tralalero Tralala and Tung Tung Tung Sahur",
+        "Simple left mouse button interaction"
+      ],
+      "goodFor": "Great for players who enjoy meme quizzes, fast recognition, and funny brainrot references. It is also a good pick if you want a quick one-player puzzle with simple controls.",
+      "howToPlay": "Read each quiz prompt and click the answer you think is correct. Recognize the meme characters and references as fast as you can, because the timer keeps pressure on every choice.",
+      "touchHint": "Use the left mouse button to choose answers",
+      "keys": [
+        "Left mouse button: Interact"
+      ],
+      "tips": [
+        "Read the prompt first, then scan the answers so the timer does not force a blind click.",
+        "Pay attention to names like Tralalero Tralala and Tung Tung Tung Sahur when they appear.",
+        "If you recognize a brainrot reference, choose quickly instead of waiting until the timer is almost done.",
+        "Keep the cursor close to the answer area so each left click takes less time."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Quiz — Meme Mastery free to play?",
+          "a": "Yes. You can play it free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Italian Brainrot Quiz — Meme Mastery on a phone or computer?",
+          "a": "The listed control is the left mouse button, so a computer is the clearest way to play. It runs in the browser, so use a device where you can click answers accurately."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Quiz — Meme Mastery?",
+          "a": "The goal is to answer quiz questions, recognize Italian brainrot meme characters, and survive the timer."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "Use the left mouse button to interact with the quiz and choose answers."
+        },
+        {
+          "q": "Does Italian Brainrot Quiz — Meme Mastery have a timer?",
+          "a": "Yes. The timer adds pressure, so you need to read fast and pick the correct answer before time runs out."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-spot-the-differences",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/d4nnrrc7ax6uzukkrzqnt3zocwrnn3t2/",
+    "embedUrl": "https://html5.gamemonetize.co/d4nnrrc7ax6uzukkrzqnt3zocwrnn3t2/",
+    "slug": "italian-brainrot-spot-the-differences",
+    "name": "Italian Brainrot Spot the Differences",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Difference",
+      "Italian Brainrot",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-spot-the-differences-957e162f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-spot-the-differences-957e162f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-22",
+    "publishedAt": "2026-10-22T03:28:01.647Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 78,
+    "description": "Find seven differences in funny Italian brainrot pictures before time runs out and mistakes end the level.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Spot the Differences free and find seven hidden changes in each funny brainrot picture before the one-minute timer runs out.",
+      "about": "Italian Brainrot Spot the Differences is a browser puzzle game built around funny Italian brainrot pictures. Each stage shows two versions of a picture side by side. Your job is to inspect both images and pick out the small changes between them. There are 20 levels, and every level has seven differences to find. A one-minute timer keeps each round quick, so you need to look carefully while moving fast. The goal is clear: spot every change before the time is gone.\nA round is simple, but it punishes careless clicks. Click or tap where you think a difference is, then keep searching until all seven are found. You can fail if you make more than three mistakes, so guessing is risky. The fun comes from noticing tiny visual changes under time pressure while the silly brainrot art tries to distract you. Because each level uses the same clear rule set, it is easy to start but still tricky to finish cleanly. It plays free in the browser with mouse or touch controls.",
+      "highlights": [
+        "20 picture-puzzle levels",
+        "Seven differences to find in each level",
+        "One-minute timer for quick rounds",
+        "Fail after more than three wrong picks",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "This game is good for players who enjoy quick visual puzzles and funny brainrot pictures. It also fits anyone who likes careful searching under a timer.",
+      "howToPlay": "Compare the two pictures and click or tap every spot that looks different. Find all seven differences before the timer runs out. Avoid random clicks, because more than three mistakes will make you fail.",
+      "touchHint": "Tap the spot where you see a difference",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Select a difference"
+      ],
+      "tips": [
+        "Count your finds so you know how many of the seven differences are still missing.",
+        "Scan the pictures in sections, such as top to bottom, instead of jumping around randomly.",
+        "Do not guess on tiny details unless you are sure, because too many wrong picks can fail the level.",
+        "Use the timer wisely: mark obvious differences first, then spend the rest of the minute on harder spots."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Spot the Differences free to play?",
+          "a": "Yes. You can play Italian Brainrot Spot the Differences for free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Spot the Differences on a phone or computer?",
+          "a": "Yes. Use a mouse on a computer, or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Spot the Differences?",
+          "a": "The goal is to find seven differences between two pictures in each level before time runs out."
+        },
+        {
+          "q": "How many levels are in Italian Brainrot Spot the Differences?",
+          "a": "There are 20 levels, and each one has seven differences to spot."
+        },
+        {
+          "q": "What happens if I click the wrong place?",
+          "a": "Wrong picks count as mistakes. If you make more than three mistakes, you fail."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-tung-tung-quiz",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/0db98cckahpbgv76go90a494at5bxk27/",
+    "embedUrl": "https://html5.gamemonetize.co/0db98cckahpbgv76go90a494at5bxk27/",
+    "slug": "italian-brainrot-tung-tung-quiz",
+    "name": "Italian Brainrot tung Tung Quiz",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Quiz",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-tung-tung-quiz-d2e7e537.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-tung-tung-quiz-d2e7e537.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-22",
+    "publishedAt": "2026-10-22T03:29:14.394Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 78,
+    "description": "Match strange brainrot names to the correct character images in a quick, mouse-only quiz with four choices.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot tung Tung Quiz free and match names like Tung Tung Sahur to the right character image from 4 funny choices in your browser.",
+      "about": "Italian Brainrot tung Tung Quiz is a silly puzzle quiz about matching names to characters. Each question shows a strange brainrot name, such as Tung Tung Sahur, Brr Brr Aptapim, Talalere Tralala, or Balerina Cappucina. Your goal is to pick the character image that belongs with that name from four picture choices. The game keeps the setup simple, so the focus stays on reading the odd name and spotting the right picture.\nA round plays fast: read the name, scan the four images, and click the match with your mouse. The funny part is how strange the names and character designs are, while the tricky part is remembering which image goes with each chaotic name. There is no sound, so there are no audio hints or distractions. It is a quick browser quiz built around visual memory, name recognition, and brainrot humor, and you can play it free in the browser.",
+      "highlights": [
+        "Match each name to 1 of 4 character images",
+        "Names include Tung Tung Sahur and Brr Brr Aptapim",
+        "Mouse-only controls",
+        "No sound or extra distractions",
+        "Funny hand-crafted brainrot characters"
+      ],
+      "goodFor": "Good for players who enjoy meme-style quizzes, weird names, and fast matching puzzles. It is also a nice pick if you want a simple browser game with no complex controls.",
+      "howToPlay": "Read the brainrot name shown on the screen. Compare the four character pictures, then click the image that matches the name. The goal is to keep choosing the correct character for each name.",
+      "touchHint": "Click character pictures with the mouse",
+      "keys": [
+        "Mouse: Choose a character picture"
+      ],
+      "tips": [
+        "Read the full name before clicking, because several names are long and silly.",
+        "Use elimination if you are not sure; there are only four pictures to compare.",
+        "Pay attention to repeated names so you can recognize them faster next time.",
+        "Since there is no sound, focus on the text and images without waiting for audio clues."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot tung Tung Quiz free to play?",
+          "a": "Yes. Italian Brainrot tung Tung Quiz is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Italian Brainrot tung Tung Quiz on a phone or computer?",
+          "a": "The game plays in the browser and uses mouse-only controls. A computer with a mouse matches the listed controls."
+        },
+        {
+          "q": "What is the goal in Italian Brainrot tung Tung Quiz?",
+          "a": "Your goal is to match the brainrot name on screen with the correct character image. Each question gives you four picture choices."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot tung Tung Quiz?",
+          "a": "The controls are mouse only. Click the character picture you think matches the name."
+        },
+        {
+          "q": "Does Italian Brainrot tung Tung Quiz have sound?",
+          "a": "No. The game has no sound, so you can focus on reading names and choosing the matching picture."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
