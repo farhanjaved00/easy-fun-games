@@ -23,7 +23,7 @@ const exists = new Set(files.map(rel));
 if (files.length >= LIMITS.files) err('dist', `${files.length} files, Cloudflare Pages free limit is ${LIMITS.files}`);
 else if (files.length >= LIMITS.filesWarn) warn('dist', `${files.length} files, getting close to the ${LIMITS.files} limit`);
 for (const f of files) if (fs.statSync(f).size > LIMITS.fileBytes) err(rel(f), 'file is larger than 25 MiB');
-for (const f of ['/_headers', '/_redirects', '/robots.txt', '/sitemap.xml', '/404.html', '/favicon.ico', '/site.webmanifest']) if (!exists.has(f)) err(f, 'missing');
+for (const f of ['/_headers', '/_redirects', '/robots.txt', '/sitemap.xml', '/404.html', '/favicon.ico', '/site.webmanifest', '/ads.txt']) if (!exists.has(f)) err(f, 'missing');
 
 /* ---------- redirects (count as valid link targets) ---------- */
 const redirectRules = fs.readFileSync(path.join(DIST, '_redirects'), 'utf8').split('\n').filter(l => l.startsWith('/')).map(l => l.split(/\s+/)[0]);

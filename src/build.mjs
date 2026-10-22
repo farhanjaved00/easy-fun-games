@@ -98,8 +98,20 @@ for (const [name, items] of Object.entries(groups)) {
 }
 write('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${maps.map(f => `<sitemap><loc>${B}${f}</loc></sitemap>`).join('\n')}\n</sitemapindex>\n`);
 
-// ads.txt lets ad buyers confirm that EasyGameFun's ad space is sold by its own AdSense account.
-if (site.adsense?.client) write('/ads.txt', `google.com, ${site.adsense.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
+// ads.txt lets ad buyers confirm that EasyGameFun's ad space is sold by authorized sellers (AdSense, GameMonetize, etc.)
+const staticAdsPath = path.join(ROOT, 'src/static/ads.txt');
+const staticAds = fs.existsSync(staticAdsPath) ? fs.readFileSync(staticAdsPath, 'utf8').trim() : '';
+const adsenseLine = site.adsense?.client ? `google.com, ${site.adsense.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0` : '';
+const adsParts = [];
+if (adsenseLine && !staticAds.includes(site.adsense.client.replace(/^ca-/, ''))) {
+  adsParts.push(adsenseLine);
+}
+if (staticAds) {
+  adsParts.push(staticAds);
+}
+if (adsParts.length) {
+  write('/ads.txt', adsParts.join('\n\n') + '\n');
+}
 write('/robots.txt', `User-agent: *\nAllow: /\n${site.indexing ? `\nSitemap: ${B}/sitemap.xml\n` : ''}`);
 if (site.indexNowKey) write(`/${site.indexNowKey}.txt`, site.indexNowKey);
 
