@@ -7814,5 +7814,548 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-italian-brainrot-bomb-2player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/v8coxcrv90p3b04gvzj6hlt8njrhs6bp/",
+    "embedUrl": "https://html5.gamemonetize.co/v8coxcrv90p3b04gvzj6hlt8njrhs6bp/",
+    "slug": "italian-brainrot-bomb-2player",
+    "name": "Italian Brainrot Bomb 2Player",
+    "mainKeyword": "brainrot",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Platform",
+      "Brainrot Italian"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-bomb-2player-ab3404c8.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-bomb-2player-ab3404c8.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-23",
+    "publishedAt": "2026-10-23T03:21:37.585Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 77,
+    "description": "Take the dynamite from your rival in a 2-player space hangar chase and hold it when time runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Bomb 2Player free in your browser. Chase your rival in a space hangar and hold the dynamite when time runs out to win.",
+      "about": "Italian Brainrot Bomb 2Player is a 2D arcade platform game for two players. The match takes place in a space hangar where a dynamite bomb has been left behind. Your job is not to avoid the bomb. You need to grab it from the other player and keep it when the timer reaches zero. When time is up, the player holding the bomb wins because the bomb explodes.\nEach round is a fast chase. One player runs with the bomb while the other tries to catch up and take it back. The tricky part is timing your move, because it only matters who has the bomb at the final moment. Grab it too early and you may have to defend for longer. Wait too long and you may not reach your opponent in time. You can play Italian Brainrot Bomb 2Player free in the browser on both mobile and PC.",
+      "highlights": [
+        "2-player bomb chase in a space hangar",
+        "Win by holding the bomb when the timer ends",
+        "2D arcade platform action",
+        "Playable on mobile and PC"
+      ],
+      "goodFor": "This game is good for players who like quick local 2-player chases. It works well if you enjoy simple controls, fast turns, and last-second steals.",
+      "howToPlay": "Move around the hangar and take the dynamite bomb from your opponent. When the timer runs out, the player holding the bomb wins the round. If you have the bomb, run away and stop the other player from taking it back.",
+      "touchHint": "Use mobile controls to move and hold the bomb",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Do not forget that the bomb holder wins when time runs out.",
+        "If you have the bomb, create distance instead of running toward your opponent.",
+        "If your rival has the bomb, chase early so you are not forced into a last-second steal.",
+        "Choose WASD or Arrow keys before you start so each player has clear controls."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Bomb 2Player free to play?",
+          "a": "Yes. You can play Italian Brainrot Bomb 2Player free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Bomb 2Player on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in Italian Brainrot Bomb 2Player?",
+          "a": "The goal is to be the player holding the dynamite bomb when the timer reaches zero."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot Bomb 2Player?",
+          "a": "One player moves with WASD, and the other player moves with the Arrow keys."
+        },
+        {
+          "q": "How do you win a round?",
+          "a": "Take the bomb from your opponent and keep it until time runs out. The player holding the bomb at the end wins."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-3d-puzzle",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/h4j30ed88mnbzb5diu2k53vj96vbfcd5/",
+    "embedUrl": "https://html5.gamemonetize.co/h4j30ed88mnbzb5diu2k53vj96vbfcd5/",
+    "slug": "italian-brainrot-3d-puzzle",
+    "name": "Italian Brainrot 3D Puzzle",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "3D",
+      "Animal",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-3d-puzzle-549ebac9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-3d-puzzle-549ebac9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-23",
+    "publishedAt": "2026-10-23T03:22:43.163Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 77,
+    "description": "Build a brainrot-themed 3D jigsaw puzzle by clicking or tapping pieces and fitting the picture together.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot 3D Puzzle free in your browser and solve a brainrot-themed jigsaw with realistic 3D pieces using mouse clicks or taps on any device.",
+      "about": "Italian Brainrot 3D Puzzle is a browser puzzle game built around classic jigsaw play. The theme uses brainrot-style images, with animal and brain puzzle tags, shown through detailed 3D graphics. Each piece is made to look more lifelike than a flat picture, so the shapes and visual details matter as you work out where everything belongs. The goal is simple: study the pieces, choose carefully, and rebuild the full puzzle image.\nA round is calm but still needs focus. You use a mouse click or a tap to play, so it is easy to start on a computer, tablet, or phone. The challenge comes from reading the 3D details on each piece and matching them with the rest of the picture. It is fun for players who like jigsaw puzzles with a stranger, brainrot-themed look, and it plays free in the browser.",
+      "highlights": [
+        "Classic jigsaw puzzle style",
+        "Realistic 3D graphics",
+        "Brainrot-themed puzzle images",
+        "Animal and brain puzzle tags",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who enjoy jigsaw puzzles and want a simple brainrot-themed 3D twist. It also works well for short, quiet puzzle sessions.",
+      "howToPlay": "Click or tap to play and work through the puzzle pieces. Look at each piece’s shape and 3D details, then fit the image back together to complete the puzzle.",
+      "touchHint": "Tap puzzle pieces to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Use the 3D details on each piece to spot matching parts of the image.",
+        "Start with the most recognizable shapes or colors you can see.",
+        "Do not rush your clicks or taps; check the piece before choosing.",
+        "Compare nearby pieces for matching edges, patterns, and visual details."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot 3D Puzzle free to play?",
+          "a": "Yes. Italian Brainrot 3D Puzzle plays free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot 3D Puzzle on a phone or computer?",
+          "a": "Yes. The controls support mouse clicks and taps, so you can play on a computer, tablet, or phone."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot 3D Puzzle?",
+          "a": "The goal is to complete a jigsaw-style puzzle by fitting the pieces together and rebuilding the full image."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot 3D Puzzle?",
+          "a": "Use a mouse click or tap to play. No keyboard controls are listed."
+        },
+        {
+          "q": "What makes Italian Brainrot 3D Puzzle different from a flat jigsaw?",
+          "a": "It uses realistic 3D graphics, so the pieces have more visual depth and detail while you solve the puzzle."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-bridge-race-3d",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/e27ezlhh5edki5wv0aad96d8w3g1l1bf/",
+    "embedUrl": "https://html5.gamemonetize.co/e27ezlhh5edki5wv0aad96d8w3g1l1bf/",
+    "slug": "brainrot-bridge-race-3d",
+    "name": "Brainrot Bridge Race 3D",
+    "mainKeyword": "brainrot",
+    "category": "io",
+    "mature": false,
+    "tags": [
+      "Multiplayer",
+      "Battle",
+      "Brainrot",
+      "Racing"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-bridge-race-3d-ccb487f7.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-bridge-race-3d-ccb487f7.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-23",
+    "publishedAt": "2026-10-23T03:23:50.002Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 74,
+    "description": "Run through brainrot 3D courses, grab bananas, and evolve your form in a fast battle race.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Bridge Race 3D free in your browser. Race through brainrot-style 3D obstacle courses, collect bananas, and evolve your form as you run.",
+      "about": "Brainrot Bridge Race 3D is a 3D running race with a brainrot style and a battle feel. You sprint through funny obstacle courses while trying to gather as many bananas as you can. Bananas are not just for score. Collecting more of them helps you evolve your form, so every pickup matters as you race forward. The goal is simple to understand, but the race asks you to stay alert while you chase the next bunch of bananas.\nEach run is about balancing speed with smart choices. You want to move fast, but the obstacle courses can punish careless rushing. Look for safe banana paths, keep your rhythm, and decide when it is worth going for extra pickups. The simple click or tap control makes it easy to start, while the banana collecting gives you a clear reason to take risks. Brainrot Bridge Race 3D plays free in your browser.",
+      "highlights": [
+        "3D brainrot-style running and racing",
+        "Bananas help you evolve your form",
+        "Funny obstacle courses to sprint through",
+        "Multiplayer battle race feel",
+        "Simple mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who like fast running races with light strategy. It is also a good pick if you enjoy collecting items while dodging through obstacle courses.",
+      "howToPlay": "Click or tap to play, then race through the 3D obstacle course. Collect as many bananas as possible while keeping your speed, because more bananas help your form evolve.",
+      "touchHint": "Tap to play",
+      "keys": [
+        "Mouse click or tap: Play"
+      ],
+      "tips": [
+        "Choose banana paths that keep you moving instead of stopping your rhythm.",
+        "Do not rush blindly into obstacles; speed matters, but so does control.",
+        "Go for extra bananas when the path is clear, since they help you evolve.",
+        "Look ahead on the course so you can plan your next safe move early."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Bridge Race 3D free to play?",
+          "a": "Yes. Brainrot Bridge Race 3D is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Bridge Race 3D on a phone or computer?",
+          "a": "Yes. You can play with a mouse click on a computer or tap on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Brainrot Bridge Race 3D?",
+          "a": "Your goal is to sprint through obstacle courses and collect as many bananas as possible. Bananas help you evolve your form."
+        },
+        {
+          "q": "What do bananas do in Brainrot Bridge Race 3D?",
+          "a": "Bananas are the main item to collect. The more you collect, the more you can evolve your form."
+        },
+        {
+          "q": "What kind of game is Brainrot Bridge Race 3D?",
+          "a": "It is a 3D brainrot running and racing game with a multiplayer battle style and obstacle courses."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-mission-kill-italian-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/nb0lo74rxsor1etgta1c6md890erfct8/",
+    "embedUrl": "https://html5.gamemonetize.co/nb0lo74rxsor1etgta1c6md890erfct8/",
+    "slug": "mission-kill-italian-brainrot",
+    "name": "Mission Kill Italian Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "Action",
+      "Survival",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/mission-kill-italian-brainrot-4e0d4057.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/mission-kill-italian-brainrot-4e0d4057.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-23",
+    "publishedAt": "2026-10-23T03:24:56.474Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 73,
+    "description": "Move Tung Tung with WASD, shoot incoming brainrot enemies, open chests, and collect gold to clear levels.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Mission Kill Italian Brainrot free in your browser. Move with WASD, shoot brainrot enemies, open chests, collect gold, and clear levels.",
+      "about": "Mission Kill Italian Brainrot is a 2D shooting action game where you help Tung Tung fight through areas filled with Italian brainrot enemies. The goal is not just to survive. You need to remove every enemy, find every chest, open them, and collect the money inside. Enemies also drop money, and that money counts toward finishing the level. Between the attacks and the collecting, you can save up cash to buy different weapons for tougher fights ahead.\nA round is about staying alert while you clear the screen and check for missed rewards. Enemies are all around, and each level brings stronger ones, so rushing can leave you trapped or short on money. The game includes 4 different game modes and 4 difficulty levels, giving you several ways to test your shooting and movement. Mission Kill Italian Brainrot plays free in the browser with keyboard and mouse controls.",
+      "highlights": [
+        "Play as Tung Tung against Italian brainrot enemies",
+        "Defeat all enemies and collect all gold to advance",
+        "Open every chest to gather the money inside",
+        "4 game modes with 4 difficulty levels",
+        "Save money and buy different weapons"
+      ],
+      "goodFor": "This game is good for players who like fast 2D shooting, survival pressure, and clear level goals. It also fits players who enjoy collecting rewards after each fight.",
+      "howToPlay": "Use WASD to move and the mouse to shoot. Eliminate all enemies, open all chests, and collect the money or gold they contain or drop. When every enemy is gone and all gold is collected, you can move to the next level.",
+      "touchHint": "Use WASD to move and the mouse to shoot",
+      "keys": [
+        "WASD: Move",
+        "Mouse: Shoot"
+      ],
+      "tips": [
+        "Do not leave dropped money behind; you need all gold to complete the level.",
+        "Open every chest before trying to move on, since chest money is part of the goal.",
+        "Keep moving while shooting so incoming enemies have less chance to surround you.",
+        "Save collected money for different weapons before stronger enemies appear in later levels."
+      ],
+      "faq": [
+        {
+          "q": "Is Mission Kill Italian Brainrot free to play?",
+          "a": "Yes. Mission Kill Italian Brainrot is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Mission Kill Italian Brainrot on a phone or computer?",
+          "a": "The listed controls use WASD and the mouse, so it is made for keyboard and mouse play on a computer."
+        },
+        {
+          "q": "What is the goal in Mission Kill Italian Brainrot?",
+          "a": "You need to defeat all enemies, open all chests, and collect all gold or money in the level. After that, you can move to the next level."
+        },
+        {
+          "q": "What are the controls for Mission Kill Italian Brainrot?",
+          "a": "Use WASD to move Tung Tung. Use the mouse to shoot enemies."
+        },
+        {
+          "q": "Does Mission Kill Italian Brainrot have different modes?",
+          "a": "Yes. The game has 4 different game modes and 4 difficulty levels."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-survival-arena",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/lrvx72nbbm23sedsystwpoo2rwqwh647/",
+    "embedUrl": "https://html5.gamemonetize.co/lrvx72nbbm23sedsystwpoo2rwqwh647/",
+    "slug": "italian-brainrot-survival-arena",
+    "name": "Italian Brainrot Survival Arena",
+    "mainKeyword": "brainrot",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Arena",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-survival-arena-2a88084d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-survival-arena-2a88084d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-23",
+    "publishedAt": "2026-10-23T03:25:23.785Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 73,
+    "description": "Push your rival around a lava cave, avoid rockets, and try to survive more falls in this 2-player arena.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Survival Arena free in your browser. Push your rival into lava, dodge ceiling rockets, and survive the 2-player cave battle.",
+      "about": "Italian Brainrot Survival Arena is a 2-player arcade battle set inside a dangerous cave filled with lava. Trallero and Tung Tung Sahur face off in a small arena where every step can put a player in danger. The goal is simple: stay out of the lava, push your opponent into it, and watch for rockets dropping from the cave ceiling. A good move can knock your rival into trouble, but a bad move can leave you standing in the danger zone instead.\nEach match is built around movement, timing, and risky pushes. You can move with WASD or the Arrow keys, then use S or the Down Arrow to shove the other player. The tricky part is that pushing can also put you too close to the lava, and rockets can end the game if they hit you. This makes each round fast, tense, and easy to understand. Italian Brainrot Survival Arena plays free in the browser on both mobile and PC.",
+      "highlights": [
+        "2-player arena battle in a lava-filled cave",
+        "Play as Trallero and Tung Tung Sahur",
+        "Push your opponent toward the lava",
+        "Rocket missiles fall from the cave ceiling",
+        "Playable on both mobile and PC"
+      ],
+      "goodFor": "Good for players who like quick 2-player arena battles with simple controls. It is a fun pick if you enjoy timing pushes, dodging hazards, and trying to outlast a friend.",
+      "howToPlay": "Move around the cave arena and try to force the other player into the lava. Use the push button when your opponent is near danger, but stay alert for rockets falling from above. The player who falls into the lava the most or gets hit by a rocket loses.",
+      "touchHint": "Move and push using mobile touch controls",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move",
+        "S: Push",
+        "Down Arrow: Push"
+      ],
+      "tips": [
+        "Push when your opponent is between you and the lava, not when you are both near the edge.",
+        "Keep moving so falling rockets have less chance to hit you.",
+        "After a push, step back quickly so you do not slide or walk into the lava too.",
+        "Do not chase too hard near the lava; let your opponent make the risky move first."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Survival Arena free to play?",
+          "a": "Yes. Italian Brainrot Survival Arena is free to play in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Survival Arena on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in Italian Brainrot Survival Arena?",
+          "a": "Your goal is to survive longer than the other player. Push your opponent into the lava, avoid falling in yourself, and do not get hit by rockets."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot Survival Arena?",
+          "a": "Use WASD or the Arrow keys to move. Press S or the Down Arrow to push the other player."
+        },
+        {
+          "q": "What happens if a rocket hits you?",
+          "a": "If a rocket missile falling from the cave ceiling hits you, you lose the game."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
