@@ -8357,5 +8357,548 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-italian-brainrot-guess-who",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/trx33059msohwdlt2aefdwrhxth64478/",
+    "embedUrl": "https://html5.gamemonetize.co/trx33059msohwdlt2aefdwrhxth64478/",
+    "slug": "italian-brainrot-guess-who",
+    "name": "Italian Brainrot Guess Who",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Italian Brainrot",
+      "Guessing",
+      "Quiz"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-guess-who-5bc6f612.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-guess-who-5bc6f612.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-24"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-24",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-24",
+    "publishedAt": "2026-10-24T03:21:35.084Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 73,
+    "description": "Pick the right Italian Brainrot character in a multiple-choice quiz and collect points through each round.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Guess Who free in browser, choose a difficulty, answer multiple-choice brainrot questions, and collect points with clicks or taps.",
+      "about": "Italian Brainrot Guess Who is a quiz puzzle game about recognizing funny Italian Brainrot characters. You choose a difficulty, then answer multiple-choice questions to show how well you know the strange animal characters. The goal is simple: pick the correct character answer and collect points as you move through the quiz. It is built for one player and keeps the focus on quick reading, memory, and character knowledge.\nEach question gives you several answers, and you click or tap the choice you think is right. The fun comes from spotting the correct brainrot name before you second-guess yourself, especially when choices look or sound close. Difficulty selection lets you set the challenge before the quiz starts. Since correct answers give points, each round gives you a clear reason to stay sharp. Italian Brainrot Guess Who plays free in your browser, with simple controls that work on a computer or phone.",
+      "highlights": [
+        "Choose your difficulty before the quiz",
+        "Multiple-choice Italian Brainrot questions",
+        "Collect points as you answer",
+        "Mouse click or tap controls",
+        "One-player quiz puzzle"
+      ],
+      "goodFor": "This game is good for players who enjoy funny character quizzes and quick guessing challenges. It is especially fun if you already know some Italian Brainrot names and want to test your memory.",
+      "howToPlay": "Choose a difficulty, then read each multiple-choice question. Click or tap the answer you think is correct to collect points. Keep answering correctly to improve your score as you go through the quiz.",
+      "touchHint": "Tap an answer to choose it",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Choose an answer"
+      ],
+      "tips": [
+        "Pick a difficulty that matches how many Brainrot characters you already know.",
+        "Read every answer choice before you tap, because funny names can look similar.",
+        "Use names you recognize, such as Tralalero Tralala or Tung Tung Tung Sahur, as quick clues.",
+        "Focus on the exact character name, not just the first word, before you choose."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Guess Who free to play?",
+          "a": "Yes. You can play Italian Brainrot Guess Who free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Guess Who on a phone or computer?",
+          "a": "Yes. On a computer, use the mouse to click. On a phone or tablet, tap the answer you want."
+        },
+        {
+          "q": "What is the goal in Italian Brainrot Guess Who?",
+          "a": "The goal is to choose the correct Italian Brainrot character from multiple-choice answers and collect points."
+        },
+        {
+          "q": "Does Italian Brainrot Guess Who have difficulty choices?",
+          "a": "Yes. You choose a difficulty before testing your knowledge of the Brainrot characters."
+        },
+        {
+          "q": "What kind of game is Italian Brainrot Guess Who?",
+          "a": "It is a one-player quiz puzzle game focused on guessing Italian Brainrot characters."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-merge-fellas-italian-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/yrdoj2kllllbttzfo8d4542fnmgufugy/",
+    "embedUrl": "https://html5.gamemonetize.co/yrdoj2kllllbttzfo8d4542fnmgufugy/",
+    "slug": "merge-fellas-italian-brainrot",
+    "name": "Merge Fellas Italian Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Italian Brainrot",
+      "Matching",
+      "Arcade",
+      "Merge"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/merge-fellas-italian-brainrot-916a53bb.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/merge-fellas-italian-brainrot-916a53bb.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-24"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-24",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-24",
+    "publishedAt": "2026-10-24T03:22:33.093Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 73,
+    "description": "Drop and merge matching Italian Brainrot characters to make higher-value pets and chase a high score.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Merge Fellas Italian Brainrot free and merge matching meme characters into higher-value pets while chasing a high score in your browser.",
+      "about": "Merge Fellas Italian Brainrot is a casual merge game set in a funny Italian Brainrot meme world. Your goal is to combine identical characters and pets so they turn into higher-value ones. Each successful merge gives rewards and helps you build your score. The rules are simple, so you can start playing right away without learning a long control list. It is built around matching, dropping, and watching each merge create a better character.\nA round is all about placing characters where they can meet a match. Drop the same ones together, keep merging upward, and try to avoid wasting space with pieces that do not connect. The fun comes from the easy controls, the silly meme theme, HD graphics, and the push to beat your high score. It can feel like a puzzle because every drop affects your next merge. Merge Fellas Italian Brainrot plays free in your browser with mouse or touch controls.",
+      "highlights": [
+        "Merge identical characters into higher-value ones",
+        "Italian Brainrot meme world and funny pets",
+        "High-score focused arcade play",
+        "Simple mouse or touch controls",
+        "HD graphics with bright character art"
+      ],
+      "goodFor": "This game is good for players who like simple merge puzzles with a funny meme style. It also fits quick sessions because the goal is easy to understand: keep merging and raise your score.",
+      "howToPlay": "Use the mouse or touch controls to drop characters together. Merge identical characters to create higher-value ones, earn rewards with each successful merge, and aim for the highest score you can.",
+      "touchHint": "Tap to drop characters together",
+      "keys": [
+        "Mouse: Play",
+        "Touch: Play"
+      ],
+      "tips": [
+        "Place matching characters close together so they can merge as soon as possible.",
+        "Watch for identical pets before dropping a new one, so you do not block useful matches.",
+        "Focus on creating higher-value characters, since each merge helps your score grow.",
+        "Keep space open for future drops instead of spreading unmatched characters everywhere."
+      ],
+      "faq": [
+        {
+          "q": "Is Merge Fellas Italian Brainrot free to play?",
+          "a": "Yes. Merge Fellas Italian Brainrot is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Merge Fellas Italian Brainrot on a phone or computer?",
+          "a": "Yes. The game uses mouse or touch controls, so you can play on a computer or on a touch device."
+        },
+        {
+          "q": "What is the goal in Merge Fellas Italian Brainrot?",
+          "a": "The goal is to merge identical Italian Brainrot characters and pets into higher-value ones while earning points and chasing a high score."
+        },
+        {
+          "q": "How do the controls work?",
+          "a": "Use the mouse or touch to play. Drop characters together and merge the ones that match."
+        },
+        {
+          "q": "What makes Merge Fellas Italian Brainrot tricky?",
+          "a": "You need to place characters carefully so matching ones can connect. If you leave too many unmatched pieces apart, it becomes harder to keep merging."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-coloring-pages",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/lwqcwy33ifzsbqo23m0pjrc7eni4byly/",
+    "embedUrl": "https://html5.gamemonetize.co/lwqcwy33ifzsbqo23m0pjrc7eni4byly/",
+    "slug": "italian-brainrot-coloring-pages",
+    "name": "Italian Brainrot Coloring Pages",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Coloring",
+      "Kids",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-coloring-pages-c7b3d585.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-coloring-pages-c7b3d585.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-24"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-24",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-24",
+    "publishedAt": "2026-10-24T03:23:38.440Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 73,
+    "description": "Color 12 funny brainrot pictures with 15 bright pens, circle sizes, and a save option for your art.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Coloring Pages free in your browser and color 12 funny brainrot pictures with 15 bright felt-tip pen colors and save your art.",
+      "about": "Italian Brainrot Coloring Pages is a browser coloring game built around funny brainrot pictures. You get 12 different images that are waiting for color, plus a set of 15 bright felt-tip pens. The goal is simple: choose a picture, pick the colors you like, and fill the page until it looks finished. It is easy to understand, so you can focus on the colors, the picture details, and making each image look the way you want.\nA round plays out by clicking or tapping to choose tools and color the picture. The circles on the left come in different diameters, which makes the tool size part of your choice. Larger circles help cover open areas more quickly, while smaller circles are useful when you want better control around small parts. The fun comes from trying different color mixes and cleaning up each picture before you save it. Italian Brainrot Coloring Pages plays free in the browser.",
+      "highlights": [
+        "12 different pictures to color",
+        "15 bright felt-tip pen colors",
+        "Circle sizes with different diameters",
+        "Save your finished colored image",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who enjoy calm coloring games, funny brainrot pictures, and simple creative play. It is easy to start because the controls are just click or tap.",
+      "howToPlay": "Choose one of the 12 pictures, then select a bright felt-tip pen color and a circle size from the left. Click or tap the picture to add color, switch colors or sizes as needed, and save the image when you are happy with it.",
+      "touchHint": "Tap to choose colors and color the picture",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Use larger circles when you want to cover wide open areas faster.",
+        "Switch to smaller circles when coloring close to edges or tiny details.",
+        "Try all 15 pen colors before saving so the picture feels complete.",
+        "Save the image only after checking that no blank parts were missed."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Coloring Pages free to play?",
+          "a": "Yes. Italian Brainrot Coloring Pages plays free in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Coloring Pages on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "How many pictures are in Italian Brainrot Coloring Pages?",
+          "a": "There are 12 different pictures that you can color."
+        },
+        {
+          "q": "How many colors can I use?",
+          "a": "You have 15 bright felt-tip pen colors to choose from while coloring."
+        },
+        {
+          "q": "Can I save my finished coloring page?",
+          "a": "Yes. After you finish coloring an image, you can save the colored picture."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-nextbots-on-minecraft-squid-game-sprunki",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/8u0zvtdks1667tfcny5whvoctj812cvn/",
+    "embedUrl": "https://html5.gamemonetize.co/8u0zvtdks1667tfcny5whvoctj812cvn/",
+    "slug": "nextbots-on-minecraft-squid-game-sprunki",
+    "name": "Nextbots on Minecraft Squid Game Sprunki",
+    "mainKeyword": "sprunki",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Mineblock",
+      "Shooter",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/nextbots-on-minecraft-squid-game-sprunki-b3365d21.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/nextbots-on-minecraft-squid-game-sprunki-b3365d21.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-24"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-24",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-24",
+    "publishedAt": "2026-10-24T03:25:02.064Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 72,
+    "description": "Survive a block-style chase as Sprunki Nextbots, a doll, and masked guards try to trap you.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Nextbots on Minecraft Squid Game Sprunki free in your browser and survive mouse-only chases against the doll, masked guards, and Sprunki Nextbots.",
+      "about": "This is a block-style chase and survival game with AI-controlled Nextbots that follow, react, and pressure you while you try to stay alive. The setting uses chunky mineblock-style spaces and a tense game-show theme. You face Sprunki chaos along with a red-light green-light doll, masked guards, and a leader figure. Each threat can change how you move through the area. The focus is not on complex controls; it is on timing and awareness.\nA round is easy to start because the game is played with the mouse only, but the chase gets tricky when the Nextbots use different behaviors. The doll can punish movement at the wrong time, so stopping matters as much as running. Guards can close in and surround you with sharp positioning. The fun comes from reading the danger, choosing safe moments to move, and surviving the pressure for as long as you can. It plays free in the browser.",
+      "highlights": [
+        "AI-controlled Nextbots chase and react to you",
+        "Mouse-only controls make it easy to start",
+        "Sprunki chaos in a block-style setting",
+        "The doll can punish movement at the wrong time",
+        "Masked guards can close in around you"
+      ],
+      "goodFor": "Good for players who like chase survival, quick reactions, and simple controls. It also fits players who enjoy learning enemy behavior under pressure.",
+      "howToPlay": "Use the mouse to control the game and move through the survival area. Stay alive by avoiding the Nextbots and reacting to their special behaviors. Stop moving when the doll’s danger is active, and do not let guards surround you.",
+      "touchHint": "Use the mouse to move and react",
+      "keys": [
+        "Mouse: Play the game"
+      ],
+      "tips": [
+        "Watch a Nextbot for a moment before rushing past it, because each one can behave differently.",
+        "When the doll is a threat, stop moving instead of trying to squeeze out one more step.",
+        "Keep space between you and the guards so they cannot close in from several sides.",
+        "Use short, controlled mouse movements so you can stop quickly when danger changes."
+      ],
+      "faq": [
+        {
+          "q": "Is Nextbots on Minecraft Squid Game Sprunki free to play?",
+          "a": "Yes. You can play it free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Nextbots on Minecraft Squid Game Sprunki on a phone or computer?",
+          "a": "The listed control is mouse only, so a computer with a mouse is the clearest way to play. On any device, you need pointer-style control to move and react well."
+        },
+        {
+          "q": "What is the goal of the game?",
+          "a": "Your goal is to survive while AI-controlled Nextbots chase and pressure you. Learn how each threat behaves and avoid getting trapped."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "The game uses mouse-only controls. Use the mouse to play and react to the Nextbots."
+        },
+        {
+          "q": "What kinds of Nextbots appear?",
+          "a": "The game includes Nextbots based on a red-light green-light doll, masked guards, a leader figure, and Sprunki. Some punish movement at the wrong time, while others may try to surround you."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-clicker-game-3d",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/bwh4ra4pkrdkqkqzsxz52wfu1owtbb6l/",
+    "embedUrl": "https://html5.gamemonetize.co/bwh4ra4pkrdkqkqzsxz52wfu1owtbb6l/",
+    "slug": "brainrot-clicker-game-3d",
+    "name": "Brainrot Clicker Game 3D",
+    "mainKeyword": "brainrot",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Clicker",
+      "Brainrot",
+      "Italian Brainrot"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-clicker-game-3d-f4ca8511.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-clicker-game-3d-f4ca8511.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-24"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-24",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-24",
+    "publishedAt": "2026-10-24T03:26:02.519Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 72,
+    "description": "Tap absurd Italian brainrot creatures in 3D, earn points, and trigger wild cartoon animations.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Clicker Game 3D free in your browser and tap Italian brainrot creatures to earn points and trigger absurd animations with every click.",
+      "about": "Brainrot Clicker Game 3D is a browser clicker built around Italian brainrot meme chaos. The scene is filled with strange cartoon creatures and objects, including sharks in sneakers, flying chocolate blocks, and odd belly-bird monsters. Your goal is simple: keep tapping to collect points and set off silly 3D reactions. There is no complex setup to learn, so the focus stays on fast clicks and the strange cast waiting on screen.\nA round is all about speed. Click with the mouse or tap the screen, then keep going as the score rises and animations fire off. The fun comes from the mix of simple controls and absurd visuals, while the tricky part is keeping a fast pace without losing your rhythm. Brainrot Clicker Game 3D plays free in the browser, so you can start right away on a computer or a touch screen.",
+      "highlights": [
+        "Tap-only clicker controls",
+        "Italian brainrot creatures and objects",
+        "Earn points by tapping fast",
+        "Absurd 3D cartoon animations",
+        "Works with mouse clicks or screen taps"
+      ],
+      "goodFor": "Great for players who like fast clicker games with simple controls and strange cartoon humor. It is also a good pick when you want a quick browser game with no long setup.",
+      "howToPlay": "Click or tap the brainrot creatures as fast as you can to earn points. Each tap helps trigger cartoon animations, so keep a steady rhythm and push your point total higher.",
+      "touchHint": "Tap the screen as fast as you can",
+      "keys": [
+        "Mouse click: Tap to earn points",
+        "Tap: Tap to earn points"
+      ],
+      "tips": [
+        "Use short, quick clicks or taps instead of holding down, because the game responds to repeated inputs.",
+        "Keep a steady rhythm so you can tap fast without tiring out too quickly.",
+        "Watch the animations after your taps; they help show that your inputs are landing.",
+        "On a phone, hold the screen steady with one hand and tap with the other for cleaner inputs."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Clicker Game 3D free to play?",
+          "a": "Yes. Brainrot Clicker Game 3D plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Clicker Game 3D on a phone or computer?",
+          "a": "Yes. You can use a mouse click on a computer or tap the screen on a touch device."
+        },
+        {
+          "q": "What is the goal in Brainrot Clicker Game 3D?",
+          "a": "The goal is to tap as fast as possible to earn points and trigger absurd cartoon animations."
+        },
+        {
+          "q": "How do I control Brainrot Clicker Game 3D?",
+          "a": "Use the mouse to click, or tap the screen if you are playing on a touch device."
+        },
+        {
+          "q": "What kind of creatures are in the game?",
+          "a": "The game features Italian brainrot-style oddities, including sharks wearing sneakers, flying chocolate blocks, and belly-bird monsters."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

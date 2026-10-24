@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "61378": {
+      "status": "imported",
+      "slug": "nextbots-on-minecraft-squid-game-sprunki",
+      "at": "2026-10-24"
+    },
     "65186": {
       "status": "imported",
       "slug": "brainrot-snake-arena",
@@ -16,6 +21,11 @@
       "slug": "italian-brainrot-tung-tung-quiz",
       "at": "2026-10-22"
     },
+    "65995": {
+      "status": "imported",
+      "slug": "italian-brainrot-coloring-pages",
+      "at": "2026-10-24"
+    },
     "66290": {
       "status": "imported",
       "slug": "hidden-brainrot-letters",
@@ -26,10 +36,20 @@
       "slug": "italian-brainrot-spot-the-differences",
       "at": "2026-10-22"
     },
+    "66860": {
+      "status": "imported",
+      "slug": "merge-fellas-italian-brainrot",
+      "at": "2026-10-24"
+    },
     "67010": {
       "status": "imported",
       "slug": "italian-brainrot-tung-tung-sahur-anomaly",
       "at": "2026-10-21"
+    },
+    "69066": {
+      "status": "imported",
+      "slug": "italian-brainrot-guess-who",
+      "at": "2026-10-24"
     },
     "69485": {
       "status": "imported",
@@ -65,6 +85,11 @@
       "status": "imported",
       "slug": "water-sort-puzzle-italian-brainrot",
       "at": "2026-10-22"
+    },
+    "79420": {
+      "status": "imported",
+      "slug": "brainrot-clicker-game-3d",
+      "at": "2026-10-24"
     },
     "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/": {
       "status": "imported",
@@ -130,6 +155,31 @@
       "status": "imported",
       "slug": "italian-brainrot-survival-arena",
       "at": "2026-10-23"
+    },
+    "https://html5.gamemonetize.co/trx33059msohwdlt2aefdwrhxth64478/": {
+      "status": "imported",
+      "slug": "italian-brainrot-guess-who",
+      "at": "2026-10-24"
+    },
+    "https://html5.gamemonetize.co/yrdoj2kllllbttzfo8d4542fnmgufugy/": {
+      "status": "imported",
+      "slug": "merge-fellas-italian-brainrot",
+      "at": "2026-10-24"
+    },
+    "https://html5.gamemonetize.co/lwqcwy33ifzsbqo23m0pjrc7eni4byly/": {
+      "status": "imported",
+      "slug": "italian-brainrot-coloring-pages",
+      "at": "2026-10-24"
+    },
+    "https://html5.gamemonetize.co/8u0zvtdks1667tfcny5whvoctj812cvn/": {
+      "status": "imported",
+      "slug": "nextbots-on-minecraft-squid-game-sprunki",
+      "at": "2026-10-24"
+    },
+    "https://html5.gamemonetize.co/bwh4ra4pkrdkqkqzsxz52wfu1owtbb6l/": {
+      "status": "imported",
+      "slug": "brainrot-clicker-game-3d",
+      "at": "2026-10-24"
     }
   }
 }
