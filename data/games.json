@@ -8900,5 +8900,542 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-brainrot-mob-clash-3d",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/zuyfbfbzgk33arr72z3n89o33iaqtwfj/",
+    "embedUrl": "https://html5.gamemonetize.co/zuyfbfbzgk33arr72z3n89o33iaqtwfj/",
+    "slug": "brainrot-mob-clash-3d",
+    "name": "Brainrot Mob Clash 3D",
+    "mainKeyword": "brainrot",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Fighting",
+      "Obstacle",
+      "Racing"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-mob-clash-3d-5548420f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-mob-clash-3d-5548420f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-25"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-25",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-25",
+    "publishedAt": "2026-10-25T03:21:34.905Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 71,
+    "description": "Run through 3D obstacle courses, collect brainrot characters, merge your mob, and beat enemy armies.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Mob Clash 3D free in your browser. Run 3D obstacle courses, dodge spikes and saws, collect brainrot units, and clash with mobs.",
+      "about": "Brainrot Mob Clash 3D is a fast arcade racing and fighting game about building a strange stickman mob as you run. Each course is packed with 3D obstacles and dangerous traps, including spikes and spinning saws. Your goal is to gather brainrot characters, grow your numbers, merge matching units, and reach the enemy mob with enough power to win the clash. The run is simple to start, but every trap matters because losing units can make the final battle much harder.\nA round moves quickly from running to battling. You collect as many characters as you can, avoid hazards that can cut down your group, and use merging to turn matching stickmen into stronger units. The fun comes from balancing speed, survival, and army growth before the fight at the end of the course. Brainrot Mob Clash 3D plays free in the browser, with easy mouse click or tap controls for quick runs on computer or touch screens.",
+      "highlights": [
+        "3D obstacle courses with spikes and spinning saws",
+        "Collect brainrot characters to grow your mob",
+        "Merge matching stickmen into stronger units",
+        "Enemy mob battles at the end of runs",
+        "Simple mouse click or tap controls"
+      ],
+      "goodFor": "Brainrot Mob Clash 3D is good for players who like quick arcade runs with obstacles and crowd battles. It also fits anyone who enjoys simple controls and fast merge decisions.",
+      "howToPlay": "Click or tap to play, then run through the 3D course while collecting brainrot characters. Avoid spikes and spinning saws so your mob stays strong. Merge matching stickmen to make stronger units and defeat the enemy mob in battle.",
+      "touchHint": "Tap to play on a phone or tablet",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Collect brainrot characters before each clash so your mob has more numbers for the fight.",
+        "Avoid spikes and spinning saws first; a smaller mob is much weaker in the final battle.",
+        "Merge matching stickmen whenever you can to turn extra units into stronger fighters.",
+        "Watch the path ahead in the 3D course so traps do not surprise you at the last moment."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Mob Clash 3D free to play?",
+          "a": "Yes. Brainrot Mob Clash 3D is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Mob Clash 3D on a phone or computer?",
+          "a": "Yes. The controls are mouse click or tap, so you can play on a computer, phone, or tablet."
+        },
+        {
+          "q": "What is the goal in Brainrot Mob Clash 3D?",
+          "a": "Run through the obstacle course, collect brainrot characters, merge your units, and beat the enemy mob in battle."
+        },
+        {
+          "q": "What traps are in Brainrot Mob Clash 3D?",
+          "a": "The courses include dangerous traps such as spikes and spinning saws. Avoid them to keep your mob strong."
+        },
+        {
+          "q": "How do merging and collecting work?",
+          "a": "Collect brainrot characters as you run to increase your numbers. Merge matching stickmen to form more powerful units for the clash."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-battle-tung-tung-sahur-2player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/oqdhfw0lgqnslcbui0vpeyqao696j1m5/",
+    "embedUrl": "https://html5.gamemonetize.co/oqdhfw0lgqnslcbui0vpeyqao696j1m5/",
+    "slug": "battle-tung-tung-sahur-2player",
+    "name": "Battle Tung Tung Sahur 2Player",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Action",
+      "2 Player",
+      "Arcade",
+      "Tung Tung"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/battle-tung-tung-sahur-2player-4b811368.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/battle-tung-tung-sahur-2player-4b811368.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-25"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-25",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-25",
+    "publishedAt": "2026-10-25T03:22:42.984Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 71,
+    "description": "Fight your friend with sticks, reach the chest, and stay nearby for 20 seconds to win the tung tung battle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Battle Tung Tung Sahur 2Player free in your browser. Fight with sticks, control the chest, and stay near it for 20 seconds to win the match.",
+      "about": "Battle Tung Tung Sahur 2Player is a local two-player action game about a fast stick fight over one chest. Two teams face off in a 2D arena, and both players are trying to control the same goal area. The chest is the key to winning. Reach it, stay close, and keep your opponent from taking over. Each player can move and attack with a stick, so the match is about timing, pressure, and holding your ground.\nA round is simple to understand but tense to play. One player uses WASD and the S key, while the other uses the Arrow keys and the Down Arrow key. Move toward the chest, swing your stick to stop your friend, then protect your position long enough to build up the 20 seconds needed to win. It is fun because the lead can change quickly when one good hit breaks control of the chest. You can play Battle Tung Tung Sahur 2Player free in the browser.",
+      "highlights": [
+        "Local 2-player stick battle over a chest",
+        "Stay near the chest for 20 seconds to win",
+        "WASD and Arrow key controls for two players",
+        "2D action with quick back-and-forth fights",
+        "Mobile play is supported"
+      ],
+      "goodFor": "Great for players who want a quick local 2-player action match. It works well if you like simple controls, direct battles, and a clear win condition.",
+      "howToPlay": "Move to the chest and stay close to it to build your winning time. Hit your opponent with your stick to stop them from controlling the chest. The player who stays near the chest for 20 seconds wins the game.",
+      "touchHint": "Use the mobile controls to move and hit",
+      "keys": [
+        "WASD: Move",
+        "S: Hit with the stick",
+        "Arrow keys: Move",
+        "Down Arrow: Hit with the stick"
+      ],
+      "tips": [
+        "Go for the chest early, because time near it is the only way to win.",
+        "Use stick hits to break your opponent’s hold on the chest before they reach 20 seconds.",
+        "If your opponent is already at the chest, attack first instead of only standing nearby.",
+        "After you land a hit, move back to the chest quickly so your time keeps building."
+      ],
+      "faq": [
+        {
+          "q": "Is Battle Tung Tung Sahur 2Player free to play?",
+          "a": "Yes. You can play Battle Tung Tung Sahur 2Player free in your browser."
+        },
+        {
+          "q": "Can I play Battle Tung Tung Sahur 2Player on a phone or computer?",
+          "a": "Yes. The game supports mobile play, and it also works on a computer with keyboard controls."
+        },
+        {
+          "q": "How do you win in Battle Tung Tung Sahur 2Player?",
+          "a": "Stay near the chest for 20 seconds. Use your stick to stop the other player from taking control of the chest."
+        },
+        {
+          "q": "What are the controls for Battle Tung Tung Sahur 2Player?",
+          "a": "One player uses WASD to move and S to hit with the stick. The other player uses the Arrow keys to move and the Down Arrow key to hit."
+        },
+        {
+          "q": "Is Battle Tung Tung Sahur 2Player a 2-player game?",
+          "a": "Yes. It is built around two players fighting each other over the chest."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-squid-sprunki-shooter-game-2",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/wzm0gs2j1u7nkoe4tvydmnp159qrgiwx/",
+    "embedUrl": "https://html5.gamemonetize.co/wzm0gs2j1u7nkoe4tvydmnp159qrgiwx/",
+    "slug": "squid-sprunki-shooter-game-2",
+    "name": "Squid Sprunki Shooter Game 2",
+    "mainKeyword": "sprunki",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Sprunki",
+      "Shooter"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/squid-sprunki-shooter-game-2-9042df5d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/squid-sprunki-shooter-game-2-9042df5d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-25"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-25",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-25",
+    "publishedAt": "2026-10-25T03:23:46.087Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 71,
+    "description": "Play as Sprunki, use the mouse to aim, and shoot every squid soldier in this simple arcade shooter.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Squid Sprunki Shooter Game 2 free in your browser. Control Sprunki with the mouse and shoot every squid soldier in this arcade shooter.",
+      "about": "Squid Sprunki Shooter Game 2 is a browser shooter with a simple arcade setup. You play as Sprunki, and the main task is to shoot every squid soldier you see. There are no extra controls to learn from the instructions, because the game is listed as mouse only. That makes the action easy to understand: aim with the mouse, fire, and keep looking for the next soldier until the area is clear.\nA play session is built around quick target picking and steady pointer movement. The fun comes from its direct goal: there is always one job, and missing a soldier means you still have work to do. Because it uses only the mouse, the game is a good fit when you want a short, focused shooting challenge without a long setup. The simple control scheme also helps you stay focused after each shot, since your hand stays on one device. Squid Sprunki Shooter Game 2 plays free in the browser.",
+      "highlights": [
+        "Play as Sprunki",
+        "Shoot all squid soldiers",
+        "Mouse-only controls",
+        "Fast arcade shooter action"
+      ],
+      "goodFor": "This game is good for players who want a simple shooter with easy controls. It fits quick play sessions because the goal is direct and clear.",
+      "howToPlay": "Move the mouse to aim at the squid soldiers. Use the mouse to shoot them, and clear every soldier to complete the goal.",
+      "touchHint": "Use the mouse to aim and shoot",
+      "keys": [
+        "Mouse: Aim and shoot"
+      ],
+      "tips": [
+        "Aim at one soldier at a time so you do not lose track of your targets.",
+        "Move your mouse smoothly instead of jerking across the screen.",
+        "Check the whole play area so no squid soldier is left behind.",
+        "Keep your pointer near the action to reach the next target faster."
+      ],
+      "faq": [
+        {
+          "q": "Is Squid Sprunki Shooter Game 2 free to play?",
+          "a": "Yes. You can play Squid Sprunki Shooter Game 2 free in the browser."
+        },
+        {
+          "q": "Can I play Squid Sprunki Shooter Game 2 on a phone or computer?",
+          "a": "The given control is mouse only, so it is best played on a computer with a mouse."
+        },
+        {
+          "q": "What is the goal in Squid Sprunki Shooter Game 2?",
+          "a": "You play as Sprunki and try to shoot all squid soldiers."
+        },
+        {
+          "q": "What are the controls for Squid Sprunki Shooter Game 2?",
+          "a": "The game uses mouse-only controls. Move and use the mouse to aim and shoot."
+        },
+        {
+          "q": "Who do you play as in Squid Sprunki Shooter Game 2?",
+          "a": "You play as Sprunki."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-garden-merge-cats",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/jhm2y4ivz33e388lrmoh5csgea2v53zp/",
+    "embedUrl": "https://html5.gamemonetize.co/jhm2y4ivz33e388lrmoh5csgea2v53zp/",
+    "slug": "brainrot-garden-merge-cats",
+    "name": "Brainrot Garden. Merge Cats",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Cat",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-garden-merge-cats-0e19003e.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-garden-merge-cats-0e19003e.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-25"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-25",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-25",
+    "publishedAt": "2026-10-25T03:24:44.944Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 70,
+    "description": "Merge identical cats in a weird brainrot garden, clear plots, collect harvest, and avoid a full board.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Garden. Merge Cats free in your browser. Merge matching cats, clear garden plots, collect harvest, and unlock weird brainrot cat forms.",
+      "about": "Brainrot Garden. Merge Cats is a 2D puzzle game set in a strange garden where cats grow instead of vegetables. Your goal is to combine matching cats and see what odd new cat form appears next. Each merge can lead to a weirder creature, so the fun comes from discovering the full chain of brainrot cat forms. The garden starts as a playful puzzle space, but it becomes more chaotic the farther you go.\nA round is about making smart merges before the board becomes too crowded. You clear garden plots, collect harvest, and move forward as new cats appear. The tricky part is space: if the board fills up, the game ends. Simple rules make it easy to start, while the changing cat forms give you a reason to keep testing new combinations. You can play it free in your browser.",
+      "highlights": [
+        "Merge identical cats to create new forms",
+        "A strange garden where cats grow instead of vegetables",
+        "Clear plots and collect harvest to progress",
+        "Game over if the board gets full",
+        "Unlock all brainrot cat forms"
+      ],
+      "goodFor": "Good for players who like simple merge puzzles with silly surprises. It is also a nice pick if you enjoy games where board space matters.",
+      "howToPlay": "Merge identical cats to create a new cat form and keep the garden moving. Clear garden plots and collect harvest to progress. Do not let the board fill up, or the game is over.",
+      "touchHint": "Use your mouse to merge matching cats",
+      "keys": [],
+      "tips": [
+        "Merge matching cats early so the garden does not run out of space.",
+        "Keep an eye on the whole board, not just the newest cats that appear.",
+        "Clear garden plots and collect harvest whenever you can to keep moving forward.",
+        "Experiment with merges to discover every brainrot cat form."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Garden. Merge Cats free to play?",
+          "a": "Yes. You can play Brainrot Garden. Merge Cats for free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Garden. Merge Cats on a computer?",
+          "a": "Yes. The game runs in the browser on a computer, and the main task is to merge identical cats."
+        },
+        {
+          "q": "What is the goal of Brainrot Garden. Merge Cats?",
+          "a": "The goal is to merge matching cats, clear garden plots, collect harvest, and unlock all brainrot cat forms."
+        },
+        {
+          "q": "What happens if the board gets full?",
+          "a": "If the board fills up, the game is over. Try to make merges before space runs out."
+        },
+        {
+          "q": "What kind of game is Brainrot Garden. Merge Cats?",
+          "a": "It is a 2D puzzle game about merging cats in a strange garden."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-jet-ski-racing",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/q1rhn9oouokiujejarumihyal58tpbp0/",
+    "embedUrl": "https://html5.gamemonetize.co/q1rhn9oouokiujejarumihyal58tpbp0/",
+    "slug": "brainrot-jet-ski-racing",
+    "name": "Brainrot Jet Ski Racing",
+    "mainKeyword": "brainrot",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Racing",
+      "3D",
+      "Brainrot",
+      "Jet Ski"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-jet-ski-racing-b10e9f2d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-jet-ski-racing-b10e9f2d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-25"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-25",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-25",
+    "publishedAt": "2026-10-25T03:25:53.317Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 70,
+    "description": "Race Brainrot characters on jet skis, hit checkpoints, dodge obstacles, and chase first place on wild water tracks.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Jet Ski Racing free in your browser. Ride 3D jet skis with Brainrot characters, hit checkpoints, dodge obstacles, and chase first place.",
+      "about": "Brainrot Jet Ski Racing is a fast-paced 3D water racing game with meme-style Brainrot characters on jet skis. The race takes place on a chaotic water track filled with checkpoints, obstacles, waves, loud effects, and over-the-top visuals. Your goal is simple: keep moving fast, stay on course, and fight for first place before the other racers beat you to the finish. The Brainrot theme gives each race a silly, high-energy feel.\nEach run is about steering cleanly through the track while reacting to hazards in your path. Checkpoints help guide your route, but the water and obstacles can make straight racing tricky. Boost timing matters too, because using speed at the wrong moment can send you into trouble instead of ahead. The challenge is to handle the waves without losing your line. It plays free in the browser, so you can start a race quickly with just the keyboard controls.",
+      "highlights": [
+        "3D jet ski racing on a chaotic water track",
+        "Brainrot characters with meme-style visuals",
+        "Checkpoints guide your route through the race",
+        "Obstacles and waves make steering tricky",
+        "Boost timing helps you push for first place"
+      ],
+      "goodFor": "Good for players who like fast racing, silly meme style, and quick reaction challenges. It is also a fit if you enjoy steering through obstacles while trying to hold first place.",
+      "howToPlay": "Move your jet ski with WASD or the Arrow keys. Follow the checkpoints, avoid obstacles, handle the waves, and use speed well to reach first place. The cleaner your route, the easier it is to stay ahead.",
+      "touchHint": "Use WASD or Arrow keys on a computer",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Aim your turns before each checkpoint so you do not drift wide on the water.",
+        "Do not cut too close to obstacles; leave room to correct your steering.",
+        "Use boosts when the path ahead is clear, not right before a tight turn or hazard.",
+        "Watch the waves and steer smoothly instead of making sharp last-second moves."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Jet Ski Racing free to play?",
+          "a": "Yes. Brainrot Jet Ski Racing is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Jet Ski Racing on a phone or computer?",
+          "a": "The listed controls are WASD or Arrow keys, so a computer keyboard is the clearest way to play. Phone controls are not specified."
+        },
+        {
+          "q": "What is the goal in Brainrot Jet Ski Racing?",
+          "a": "Race across the water track, pass checkpoints, avoid obstacles, and try to finish in first place."
+        },
+        {
+          "q": "What are the controls for Brainrot Jet Ski Racing?",
+          "a": "Use WASD or the Arrow keys to move your jet ski."
+        },
+        {
+          "q": "Does Brainrot Jet Ski Racing have boosts?",
+          "a": "Yes. Boost timing is part of the race, and using speed on safer sections can help you stay ahead."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

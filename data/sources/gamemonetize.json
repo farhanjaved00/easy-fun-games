@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "60811": {
+      "status": "imported",
+      "slug": "squid-sprunki-shooter-game-2",
+      "at": "2026-10-25"
+    },
     "61378": {
       "status": "imported",
       "slug": "nextbots-on-minecraft-squid-game-sprunki",
@@ -20,6 +25,11 @@
       "status": "imported",
       "slug": "italian-brainrot-tung-tung-quiz",
       "at": "2026-10-22"
+    },
+    "65911": {
+      "status": "imported",
+      "slug": "battle-tung-tung-sahur-2player",
+      "at": "2026-10-25"
     },
     "65995": {
       "status": "imported",
@@ -61,10 +71,25 @@
       "slug": "italian-brainrot-bomb-2player",
       "at": "2026-10-23"
     },
+    "69726": {
+      "status": "imported",
+      "slug": "brainrot-jet-ski-racing",
+      "at": "2026-10-25"
+    },
     "69727": {
       "status": "imported",
       "slug": "mission-kill-italian-brainrot",
       "at": "2026-10-23"
+    },
+    "70920": {
+      "status": "imported",
+      "slug": "brainrot-garden-merge-cats",
+      "at": "2026-10-25"
+    },
+    "73380": {
+      "status": "imported",
+      "slug": "brainrot-mob-clash-3d",
+      "at": "2026-10-25"
     },
     "74347": {
       "status": "imported",
@@ -180,6 +205,31 @@
       "status": "imported",
       "slug": "brainrot-clicker-game-3d",
       "at": "2026-10-24"
+    },
+    "https://html5.gamemonetize.co/zuyfbfbzgk33arr72z3n89o33iaqtwfj/": {
+      "status": "imported",
+      "slug": "brainrot-mob-clash-3d",
+      "at": "2026-10-25"
+    },
+    "https://html5.gamemonetize.co/oqdhfw0lgqnslcbui0vpeyqao696j1m5/": {
+      "status": "imported",
+      "slug": "battle-tung-tung-sahur-2player",
+      "at": "2026-10-25"
+    },
+    "https://html5.gamemonetize.co/wzm0gs2j1u7nkoe4tvydmnp159qrgiwx/": {
+      "status": "imported",
+      "slug": "squid-sprunki-shooter-game-2",
+      "at": "2026-10-25"
+    },
+    "https://html5.gamemonetize.co/jhm2y4ivz33e388lrmoh5csgea2v53zp/": {
+      "status": "imported",
+      "slug": "brainrot-garden-merge-cats",
+      "at": "2026-10-25"
+    },
+    "https://html5.gamemonetize.co/q1rhn9oouokiujejarumihyal58tpbp0/": {
+      "status": "imported",
+      "slug": "brainrot-jet-ski-racing",
+      "at": "2026-10-25"
     }
   }
 }
