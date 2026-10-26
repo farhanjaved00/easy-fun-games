@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "59497": {
+      "status": "imported",
+      "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
+      "at": "2026-10-26"
+    },
     "60811": {
       "status": "imported",
       "slug": "squid-sprunki-shooter-game-2",
@@ -10,6 +15,11 @@
       "status": "imported",
       "slug": "nextbots-on-minecraft-squid-game-sprunki",
       "at": "2026-10-24"
+    },
+    "65050": {
+      "status": "imported",
+      "slug": "tung-tung-tung-sahur-jigsaw-puzzle",
+      "at": "2026-10-26"
     },
     "65186": {
       "status": "imported",
@@ -51,10 +61,20 @@
       "slug": "merge-fellas-italian-brainrot",
       "at": "2026-10-24"
     },
+    "66884": {
+      "status": "imported",
+      "slug": "chicken-jockey-shooting-tung-tung-sahur",
+      "at": "2026-10-26"
+    },
     "67010": {
       "status": "imported",
       "slug": "italian-brainrot-tung-tung-sahur-anomaly",
       "at": "2026-10-21"
+    },
+    "68195": {
+      "status": "imported",
+      "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
+      "at": "2026-10-26"
     },
     "69066": {
       "status": "imported",
@@ -100,6 +120,11 @@
       "status": "imported",
       "slug": "italian-brainrot-quiz-meme-mastery",
       "at": "2026-10-22"
+    },
+    "75422": {
+      "status": "imported",
+      "slug": "brainrot-world-hole-io",
+      "at": "2026-10-26"
     },
     "76112": {
       "status": "imported",
@@ -230,6 +255,31 @@
       "status": "imported",
       "slug": "brainrot-jet-ski-racing",
       "at": "2026-10-25"
+    },
+    "https://html5.gamemonetize.co/c3a4z7osw0f0ywsr1xo49dhed1knukin/": {
+      "status": "imported",
+      "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
+      "at": "2026-10-26"
+    },
+    "https://html5.gamemonetize.co/5jekjsbk5wqleu5n4k5sqxibpycywcth/": {
+      "status": "imported",
+      "slug": "chicken-jockey-shooting-tung-tung-sahur",
+      "at": "2026-10-26"
+    },
+    "https://html5.gamemonetize.co/gg6d0pz98lg5r5vryf5chlqh37ig92nu/": {
+      "status": "imported",
+      "slug": "tung-tung-tung-sahur-jigsaw-puzzle",
+      "at": "2026-10-26"
+    },
+    "https://html5.gamemonetize.co/1dws9womnudxsiqkh056yumex38z3x3v/": {
+      "status": "imported",
+      "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
+      "at": "2026-10-26"
+    },
+    "https://html5.gamemonetize.co/qbsw3x9auxgjncitdcgnat16aptkq4ns/": {
+      "status": "imported",
+      "slug": "brainrot-world-hole-io",
+      "at": "2026-10-26"
     }
   }
 }
