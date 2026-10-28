@@ -388,5 +388,38 @@
     "auto": true,
     "createdAt": "2026-10-17",
     "model": "gpt-5.5"
+  },
+  {
+    "slug": "rhythm",
+    "name": "Rhythm",
+    "emoji": "🎵",
+    "colors": [
+      "#FFB800",
+      "#FF6B3D"
+    ],
+    "intro": "Rhythm games ask you to press, tap, or hold notes in time with the beat. They are free in the browser and fun because each song tests your timing.",
+    "about": [
+      "Rhythm games turn music into quick actions. Notes, arrows, or prompts move toward a target, and you press the matching key when they line up. Some stages add long holds, sudden speed changes, or special moves that reward steady timing.",
+      "Players who enjoy music, pattern reading, and fast reactions usually like this category. You can play for a relaxed song, chase a cleaner score, or practice hard sections until the beat feels natural. Most games work with keyboard keys on a computer or taps on a phone or tablet."
+    ],
+    "why": [
+      "Songs make practice feel natural",
+      "Timing improves with each try",
+      "Easy to start, hard to master"
+    ],
+    "faq": [
+      {
+        "q": "How do I get better at rhythm games?",
+        "a": "Start on slower songs and focus on hitting notes in time, not on getting every note. Use the same controls each time so your hands learn the patterns."
+      }
+    ],
+    "controls": [
+      "Arrow keys: Hit notes",
+      "Spacebar: Special action",
+      "Tap: Match the beat"
+    ],
+    "auto": true,
+    "createdAt": "2026-10-28",
+    "model": "gpt-5.5"
   }
 ]

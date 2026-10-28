@@ -10521,5 +10521,543 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-squid-game-x-sprunki-anomaly",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/6f7m52oe6b4p6k97zxjowlkyln0gu4xv/",
+    "embedUrl": "https://html5.gamemonetize.co/6f7m52oe6b4p6k97zxjowlkyln0gu4xv/",
+    "slug": "squid-game-x-sprunki-anomaly",
+    "name": "Squid Game X Sprunki Anomaly",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Difference",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/squid-game-x-sprunki-anomaly-5bd334b0.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/squid-game-x-sprunki-anomaly-5bd334b0.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-28",
+    "publishedAt": "2026-10-28T03:21:54.701Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 69,
+    "description": "Find all 5 hidden anomalies in each scene by scanning Sprunki puzzle images and tapping what looks wrong.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Squid Game X Sprunki Anomaly free in your browser. Find 5 hidden anomalies in each Sprunki scene with simple mouse or tap controls and careful eyes.",
+      "about": "Squid Game X Sprunki Anomaly is a Sprunki puzzle game about spotting what does not belong. Each scene hides 5 anomalies, and your goal is to find every one of them. The play is simple to understand: look closely, notice the odd details, and select them with the mouse or a tap. It has an arcade feel, but the main challenge is careful observation. Because each scene has a set number of anomalies, you always know how many details are still missing.\nA round is all about slowing down and checking the whole scene instead of rushing your first guess. The tricky part is that every scene has 5 targets, so one or two may be easy while the last ones take more focus. Search corners, edges, repeated shapes, and small visual details until all anomalies are found. Squid Game X Sprunki Anomaly plays free in your browser and works with mouse or tap controls.",
+      "highlights": [
+        "Find 5 anomalies in each scene",
+        "Sprunki-themed spot-the-difference play",
+        "Mouse or tap controls",
+        "Arcade-style puzzle challenge"
+      ],
+      "goodFor": "Good for players who enjoy quick visual puzzles and hidden-detail challenges. It is a simple pick-up-and-play game for anyone who likes scanning scenes carefully.",
+      "howToPlay": "Look over the scene and search for anything that seems out of place. Click or tap each anomaly you find, and keep going until you have found all 5 in the scene.",
+      "touchHint": "Tap an anomaly when you spot it",
+      "keys": [
+        "Mouse: Select anomalies",
+        "Tap: Select anomalies"
+      ],
+      "tips": [
+        "Use the count as a guide: each scene has exactly 5 anomalies to find.",
+        "Check the corners and edges before focusing only on the center.",
+        "Look for small details that seem out of place in the Sprunki scene.",
+        "If you are stuck, scan the image in sections so you do not miss an area."
+      ],
+      "faq": [
+        {
+          "q": "Is Squid Game X Sprunki Anomaly free to play?",
+          "a": "Yes. You can play Squid Game X Sprunki Anomaly for free in your browser."
+        },
+        {
+          "q": "Can I play Squid Game X Sprunki Anomaly on a phone or computer?",
+          "a": "Yes. The controls are mouse or tap, so you can play with a computer mouse or by tapping on a touchscreen."
+        },
+        {
+          "q": "What is the goal in Squid Game X Sprunki Anomaly?",
+          "a": "Your goal is to find 5 anomalies in each scene. Select each odd detail you spot until all 5 are found."
+        },
+        {
+          "q": "How do I control Squid Game X Sprunki Anomaly?",
+          "a": "Use the mouse to click anomalies on a computer. On a phone or tablet, tap the anomaly on the screen."
+        },
+        {
+          "q": "What kind of game is Squid Game X Sprunki Anomaly?",
+          "a": "It is a puzzle game with arcade and difference-style play. The challenge is to spot anomalies in Sprunki scenes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-squid-game-sprunki-fnf-battle",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/9knw04w7p5xczfhgu0pplbv37ub86mok/",
+    "embedUrl": "https://html5.gamemonetize.co/9knw04w7p5xczfhgu0pplbv37ub86mok/",
+    "slug": "squid-game-sprunki-fnf-battle",
+    "name": "Squid Game Sprunki FNF Battle",
+    "mainKeyword": "sprunki",
+    "category": "rhythm",
+    "mature": false,
+    "tags": [
+      "Dancing",
+      "Sprunki",
+      "Hypercasual"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/squid-game-sprunki-fnf-battle-79816230.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/squid-game-sprunki-fnf-battle-79816230.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-28",
+    "publishedAt": "2026-10-28T03:23:20.527Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 69,
+    "description": "Press rhythm keys, use special attacks, and keep the Sprunki dance battle moving through two music themes.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Squid Game Sprunki FNF Battle free in your browser and use arrow keys, ZXCV, and 1234 special attacks in a Sprunki dance battle with two themes.",
+      "about": "Squid Game Sprunki FNF Battle is a browser rhythm arcade game built around a dance battle theme. The match puts the Squid Game side against Sprunki, with music drawn from two themes: the Mingle song and a Sprunki theme. Your job is to keep up with the input keys and stay ready to use special attacks when the battle calls for them. It is simple to start, but the mixed key layout makes focus important.\nA round is all about fast keyboard timing. You use the arrow keys and the Z, X, C, and V keys for the dance inputs, then use 1, 2, 3, and 4 for special attacks. The fun comes from watching the key pattern, hearing the beat, and moving your fingers quickly without losing your place. The tricky part is switching between normal inputs and special attack keys without breaking your rhythm. It plays free in the browser, so you can start a dance battle without installing anything.",
+      "highlights": [
+        "Dance battle between Squid Game and Sprunki",
+        "Two music themes, including the Mingle song",
+        "Arrow keys plus Z, X, C, and V controls",
+        "1, 2, 3, and 4 keys for special attacks"
+      ],
+      "goodFor": "Good for players who like rhythm games with quick key presses and music-based challenges. It also fits players who want a short browser arcade game with simple controls to learn.",
+      "howToPlay": "Follow the battle and press the matching dance input keys at the right time. Use the arrow keys plus Z, X, C, and V for regular inputs, and press 1, 2, 3, or 4 when you want to use a special attack.",
+      "touchHint": "Best played with a keyboard",
+      "keys": [
+        "Arrow keys: Dance inputs",
+        "Z/X/C/V: Dance inputs",
+        "1/2/3/4: Special attack"
+      ],
+      "tips": [
+        "Keep one hand near the arrow keys and the other near Z, X, C, and V so you do not have to hunt for inputs.",
+        "Use 1, 2, 3, and 4 for special attacks only, since the other listed keys handle the dance inputs.",
+        "Listen to the rhythm of each theme, especially when the key pattern speeds up or changes feel.",
+        "Do not move your hands too far after a special attack; return to the main dance keys right away."
+      ],
+      "faq": [
+        {
+          "q": "Is Squid Game Sprunki FNF Battle free to play?",
+          "a": "Yes. Squid Game Sprunki FNF Battle plays free in your browser."
+        },
+        {
+          "q": "Can I play Squid Game Sprunki FNF Battle on a phone or computer?",
+          "a": "The listed controls are keyboard keys, so a computer with a keyboard is the clearest way to play. Use the arrow keys, Z/X/C/V, and 1/2/3/4."
+        },
+        {
+          "q": "What is the goal in Squid Game Sprunki FNF Battle?",
+          "a": "The goal is to keep up in a dance battle by pressing the right keys and using special attacks when needed."
+        },
+        {
+          "q": "What are the controls for Squid Game Sprunki FNF Battle?",
+          "a": "Use the arrow keys and Z, X, C, and V for dance inputs. Use 1, 2, 3, and 4 for special attacks."
+        },
+        {
+          "q": "How many music themes are in Squid Game Sprunki FNF Battle?",
+          "a": "The game features two themes: the Mingle song theme and a Sprunki theme."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-incredibox-party-frozen-sprunki-beat",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/8f7hd3zniefid6o7yldcm33rrg2b9f33/",
+    "embedUrl": "https://html5.gamemonetize.co/8f7hd3zniefid6o7yldcm33rrg2b9f33/",
+    "slug": "incredibox-party-frozen-sprunki-beat",
+    "name": "Incredibox Party Frozen Sprunki Beat",
+    "mainKeyword": "sprunki",
+    "category": "rhythm",
+    "mature": true,
+    "tags": [
+      "Horror",
+      "Music",
+      "Rhythm",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/incredibox-party-frozen-sprunki-beat-e41a4856.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/incredibox-party-frozen-sprunki-beat-e41a4856.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-28",
+    "publishedAt": "2026-10-28T03:24:29.148Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 68,
+    "description": "Create eerie sprunki beats by mixing spooky sounds with chilling visual effects in a horror rhythm game.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Incredibox Party Frozen Sprunki Beat free and create eerie sprunki rhythms by mixing spooky sounds with chilling visual effects in your browser.",
+      "about": "Incredibox Party Frozen Sprunki Beat is a horror-themed music and rhythm game built around the sprunki style. You create eerie melodies by putting together spooky sounds and cold, unsettling visual effects. The focus is not racing through levels or fighting enemies. It is about making a creepy beat that feels rhythmic and strange. The theme uses horror imagery and chilling audio, so it is a better pick for players who are comfortable with scary moods.\nA round is simple to start. Click with the mouse, or tap on a touch screen, then try sound combinations until the mix has a beat you like. Each choice changes the melody and the feel of the scene, so the fun comes from experimenting with timing, layers, and mood. It can be tricky to keep the music from feeling too crowded, because every spooky sound adds to the rhythm. You can play it free in the browser with no download needed.",
+      "highlights": [
+        "Mix spooky sounds into eerie rhythms",
+        "Chilling visual effects match the horror mood",
+        "Simple mouse click or tap controls",
+        "Sprunki-style music creation",
+        "Plays free in the browser"
+      ],
+      "goodFor": "This game is for players who like rhythm games, creepy music, and experimenting with sound. Its horror tone makes it better for players who enjoy spooky themes, not young children.",
+      "howToPlay": "Click or tap to play and combine spooky sounds into an eerie melody. Keep trying different sound mixes until the beat has the rhythm and creepy mood you want.",
+      "touchHint": "Tap to add and mix sounds",
+      "keys": [
+        "Mouse: Click to play",
+        "Touch: Tap to play"
+      ],
+      "tips": [
+        "Start with a few sounds so you can hear the main rhythm clearly.",
+        "Add new spooky sounds slowly instead of filling the mix all at once.",
+        "Watch the chilling visual effects; they help show the mood of your beat.",
+        "If the melody feels too busy, focus on timing before adding more layers."
+      ],
+      "faq": [
+        {
+          "q": "Is Incredibox Party Frozen Sprunki Beat free to play?",
+          "a": "Yes. You can play Incredibox Party Frozen Sprunki Beat free in your browser."
+        },
+        {
+          "q": "Can I play Incredibox Party Frozen Sprunki Beat on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer, or tap on a touch screen."
+        },
+        {
+          "q": "What do you do in Incredibox Party Frozen Sprunki Beat?",
+          "a": "You create eerie sprunki rhythms by combining spooky sounds with chilling visual effects."
+        },
+        {
+          "q": "Is Incredibox Party Frozen Sprunki Beat scary?",
+          "a": "It has a horror theme with eerie sounds and unsettling visuals. It is better for players who are comfortable with creepy content."
+        },
+        {
+          "q": "What are the controls for Incredibox Party Frozen Sprunki Beat?",
+          "a": "The controls are simple: mouse click or tap to play."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-backroom-terrors-skibidi-toilet",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/59226sntevx96lz5odxzb8ged6isk8pn/",
+    "embedUrl": "https://html5.gamemonetize.co/59226sntevx96lz5odxzb8ged6isk8pn/",
+    "slug": "sprunki-backroom-terrors-skibidi-toilet",
+    "name": "Sprunki Backroom Terrors Skibidi Toilet",
+    "mainKeyword": "sprunki",
+    "category": "arcade",
+    "mature": true,
+    "tags": [
+      "Arcade",
+      "Horror",
+      "Skibidi",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-backroom-terrors-skibidi-toilet-9463c3df.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-backroom-terrors-skibidi-toilet-9463c3df.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-28",
+    "publishedAt": "2026-10-28T03:25:33.176Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 68,
+    "description": "Guide Sprunki through a creepy backroom, grab the coin, and escape the chasing Skibidi Toilet.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Backroom Terrors Skibidi Toilet free in your browser. Move with WASD, grab the coin, and escape a creepy backroom chase as Sprunki.",
+      "about": "Sprunki Backroom Terrors Skibidi Toilet is a creepy arcade horror game about a fast escape inside a backroom. You play as Sprunki, a small character trapped in an unsettling space with a Skibidi Toilet closing in. The goal is simple and tense: keep moving, find the coin, grab it, and get away before the chase catches up. The game uses a scary theme, so it is better for players who are comfortable with horror-style pressure.\nA round is built around quick movement with WASD. You do not need a long control list; the challenge comes from reading the space, choosing when to run for the coin, and staying out of danger while the backroom keeps the mood creepy. It is easy to start, but the chase makes every step feel urgent. You can play it free in the browser on EasyGameFun without installing anything.",
+      "highlights": [
+        "Play as Sprunki in a creepy backroom",
+        "Run from the chasing Skibidi Toilet",
+        "Grab the coin while staying on the move",
+        "Simple WASD movement controls",
+        "Arcade horror theme with tense pressure"
+      ],
+      "goodFor": "Good for players who like short arcade horror games with simple controls and a chase goal. The creepy theme makes it a better fit for players comfortable with scary games.",
+      "howToPlay": "Move Sprunki with WASD and explore the creepy backroom. Grab the coin, then focus on escaping from the Skibidi Toilet before the chase catches you.",
+      "touchHint": "Use WASD on a keyboard to move",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Keep moving, because stopping gives the chase more time to close in.",
+        "Do not rush straight at the coin if it pulls you toward danger.",
+        "Use short WASD taps to adjust your path instead of oversteering.",
+        "After grabbing the coin, switch your focus from collecting to escaping."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Backroom Terrors Skibidi Toilet free to play?",
+          "a": "Yes. You can play Sprunki Backroom Terrors Skibidi Toilet free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki Backroom Terrors Skibidi Toilet on a phone or computer?",
+          "a": "The given control is WASD, so it is made for keyboard play on a computer. If you are on a phone, controls may depend on your browser and device."
+        },
+        {
+          "q": "What is the goal in Sprunki Backroom Terrors Skibidi Toilet?",
+          "a": "You control Sprunki in a creepy backroom. Your goal is to grab the coin and escape from the Skibidi Toilet."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "Use WASD to move Sprunki. No other controls are listed for this game."
+        },
+        {
+          "q": "Is Sprunki Backroom Terrors Skibidi Toilet scary?",
+          "a": "Yes. It has a horror-style backroom setting and a tense chase, so it is not aimed at players who dislike scary themes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-click-to-hatch",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/84pbd1sr3mqpg1q0gwumcd8ebv42jtcv/",
+    "embedUrl": "https://html5.gamemonetize.co/84pbd1sr3mqpg1q0gwumcd8ebv42jtcv/",
+    "slug": "brainrot-click-to-hatch",
+    "name": "Brainrot Click to Hatch",
+    "mainKeyword": "brainrot",
+    "category": "idle",
+    "mature": false,
+    "tags": [
+      "Clicker",
+      "Idle",
+      "Italian Brainrot",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-click-to-hatch-82620f1a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-click-to-hatch-82620f1a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-28",
+    "publishedAt": "2026-10-28T03:26:38.091Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 68,
+    "description": "Click to hatch strange brainrot characters, earn coins, buy upgrades, and grow your odd collection.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Click to Hatch free in your browser. Click to hatch chaotic brainrot characters, earn coins, unlock upgrades, and reach Max Power forms.",
+      "about": "Brainrot Click to Hatch is a hypercasual clicker about hatching chaotic brainrot characters and building a strange collection. Each tap helps you unlock odd names such as Bombardero Cocodrilo, Tralalero Tralala, Lirali Liralira, and Chimpancini Bananini. The goal is simple: keep hatching, earn coins, unlock upgrades, and collect every brainrot you can. Characters can also reach Max Power forms through bigger transformations, giving your collection even more weird changes to chase.\nA round is built around quick clicks and steady progress. Use the in-game UI to hatch, collect coins, and choose upgrades that help you move faster. The fun comes from seeing what strange character appears next, watching forms change, and spotting special day and night backgrounds as your collection grows. Brainrot Click to Hatch plays free in your browser, so you can start clicking right away on computer or mobile.",
+      "highlights": [
+        "Click to hatch chaotic brainrot characters",
+        "Earn coins and unlock upgrades",
+        "Max Power forms with big transformations",
+        "Special day and night backgrounds",
+        "Characters include Bombardero Cocodrilo and Tralalero Tralala"
+      ],
+      "goodFor": "Great for players who like clicker and idle games with fast rewards and silly character collecting. It is also a good pick if you enjoy short sessions that still build steady progress.",
+      "howToPlay": "Click to hatch brainrot characters and earn coins as your collection grows. Use coins on upgrades to speed up progress, then keep unlocking characters and pushing them toward Max Power forms. Your main goal is to collect them all.",
+      "touchHint": "Tap the screen to hatch and use the UI",
+      "keys": [
+        "Left mouse button: Play and interact with the UI"
+      ],
+      "tips": [
+        "Spend coins on upgrades when they are available so each session moves faster.",
+        "Keep clicking after a new character appears to work toward stronger Max Power forms.",
+        "Use the UI often, since upgrades and collection progress are managed there.",
+        "Watch for day and night backgrounds as you continue growing the collection."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Click to Hatch free to play?",
+          "a": "Yes. Brainrot Click to Hatch is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Click to Hatch on a phone or computer?",
+          "a": "Yes. The game supports mobile play, and on a computer you can use the left mouse button to click and use the UI."
+        },
+        {
+          "q": "What is the goal in Brainrot Click to Hatch?",
+          "a": "The goal is to hatch brainrot characters, earn coins, unlock upgrades, and collect them all. You can also push characters into Max Power forms."
+        },
+        {
+          "q": "What characters can I unlock?",
+          "a": "The game includes characters such as Bombardero Cocodrilo, Tralalero Tralala, Lirali Liralira, and Chimpancini Bananini."
+        },
+        {
+          "q": "How do upgrades work in Brainrot Click to Hatch?",
+          "a": "You earn coins while playing, then use them to unlock upgrades. Upgrades help speed your progress through the collection."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

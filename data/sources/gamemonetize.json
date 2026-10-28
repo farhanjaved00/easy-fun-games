@@ -6,15 +6,35 @@
       "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
       "at": "2026-10-26"
     },
+    "60184": {
+      "status": "imported",
+      "slug": "sprunki-backroom-terrors-skibidi-toilet",
+      "at": "2026-10-28"
+    },
     "60811": {
       "status": "imported",
       "slug": "squid-sprunki-shooter-game-2",
       "at": "2026-10-25"
     },
+    "60900": {
+      "status": "imported",
+      "slug": "incredibox-party-frozen-sprunki-beat",
+      "at": "2026-10-28"
+    },
+    "60941": {
+      "status": "imported",
+      "slug": "squid-game-sprunki-fnf-battle",
+      "at": "2026-10-28"
+    },
     "60953": {
       "status": "imported",
       "slug": "squid-game-x-sprunki-tetris",
       "at": "2026-10-27"
+    },
+    "60984": {
+      "status": "imported",
+      "slug": "squid-game-x-sprunki-anomaly",
+      "at": "2026-10-28"
     },
     "61147": {
       "status": "imported",
@@ -125,6 +145,11 @@
       "status": "imported",
       "slug": "mission-kill-italian-brainrot",
       "at": "2026-10-23"
+    },
+    "70807": {
+      "status": "imported",
+      "slug": "brainrot-click-to-hatch",
+      "at": "2026-10-28"
     },
     "70920": {
       "status": "imported",
@@ -330,6 +355,31 @@
       "status": "imported",
       "slug": "squid-game-x-sprunki-tetris",
       "at": "2026-10-27"
+    },
+    "https://html5.gamemonetize.co/6f7m52oe6b4p6k97zxjowlkyln0gu4xv/": {
+      "status": "imported",
+      "slug": "squid-game-x-sprunki-anomaly",
+      "at": "2026-10-28"
+    },
+    "https://html5.gamemonetize.co/9knw04w7p5xczfhgu0pplbv37ub86mok/": {
+      "status": "imported",
+      "slug": "squid-game-sprunki-fnf-battle",
+      "at": "2026-10-28"
+    },
+    "https://html5.gamemonetize.co/8f7hd3zniefid6o7yldcm33rrg2b9f33/": {
+      "status": "imported",
+      "slug": "incredibox-party-frozen-sprunki-beat",
+      "at": "2026-10-28"
+    },
+    "https://html5.gamemonetize.co/59226sntevx96lz5odxzb8ged6isk8pn/": {
+      "status": "imported",
+      "slug": "sprunki-backroom-terrors-skibidi-toilet",
+      "at": "2026-10-28"
+    },
+    "https://html5.gamemonetize.co/84pbd1sr3mqpg1q0gwumcd8ebv42jtcv/": {
+      "status": "imported",
+      "slug": "brainrot-click-to-hatch",
+      "at": "2026-10-28"
     }
   }
 }
