@@ -11059,5 +11059,544 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-tung-sahur-italien-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/0khp6yxfvfzeyxc65krkzfio6l9ujwpw/",
+    "embedUrl": "https://html5.gamemonetize.co/0khp6yxfvfzeyxc65krkzfio6l9ujwpw/",
+    "slug": "tung-sahur-italien-brainrot",
+    "name": "Tung Sahur Italien Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "2048",
+      "Brainrot",
+      "Bomb"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-sahur-italien-brainrot-693dfe6a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-sahur-italien-brainrot-693dfe6a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-29"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-29",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-29",
+    "publishedAt": "2026-10-29T03:21:50.544Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 68,
+    "description": "Click or tap through a casual 2048 brainrot puzzle and try to unlock Tung Sahur and many wild animals.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Sahur Italien Brainrot free in your browser, a casual 2048 puzzle where clicks or taps help unlock brainrot animals like Tung Sahur.",
+      "about": "Tung Sahur Italien Brainrot is a casual 2048 puzzle built around the brainrot theme. The goal is to unlock the strange animal and character names tied to Italian and Indonesian brainrot, starting with Tung Tung Tung Sahur and continuing through names such as Tralalero Tralala, Bombardiro Crocodilo, Ballerina Cappuccina, Brr Brr Patapim, and more. It is simple to start, but the unlock goal gives each move a clear purpose.\nA round is controlled with one mouse click or one tap, so you can focus on the puzzle instead of learning lots of keys. Keep playing the 2048-style board and try to reach new unlocks without making careless moves. The fun comes from seeing which odd name appears next and trying to complete the whole set. Tung Sahur Italien Brainrot plays free in the browser, with controls that work on a computer or a touch screen. That makes it easy to pick up for a short puzzle break.",
+      "highlights": [
+        "Casual 2048 puzzle with a brainrot theme",
+        "Unlock Italian and Indonesian brainrot animals",
+        "Includes Tung Tung Tung Sahur and Tralalero Tralala",
+        "Simple mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who like casual puzzle games with strange unlocks and simple controls. It also fits quick play sessions because you only need a click or tap to play.",
+      "howToPlay": "Click or tap to make your move in the 2048 puzzle. Keep playing to unlock more brainrot animals and characters. The main goal is to unlock them all.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Pause before each click or tap so you do not waste moves in the 2048 puzzle.",
+        "Keep the unlock goal in mind; every new brainrot animal means progress.",
+        "Use a mouse on computer if you want steadier clicks, or tap on phone for quick play.",
+        "If you are rushing and missing unlocks, slow down and choose each move more carefully."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Sahur Italien Brainrot free to play?",
+          "a": "Yes. You can play Tung Sahur Italien Brainrot free in your browser."
+        },
+        {
+          "q": "Can I play Tung Sahur Italien Brainrot on a phone or computer?",
+          "a": "Yes. The controls are mouse click or tap, so it works with a computer mouse or a touch screen."
+        },
+        {
+          "q": "What is the goal in Tung Sahur Italien Brainrot?",
+          "a": "Your goal is to keep playing the casual 2048 puzzle and unlock all of the brainrot animals and characters."
+        },
+        {
+          "q": "What kind of game is Tung Sahur Italien Brainrot?",
+          "a": "It is a casual 2048 puzzle game with an Italian and Indonesian brainrot theme."
+        },
+        {
+          "q": "Which brainrot names are in the game?",
+          "a": "The game includes names such as Tung Tung Tung Sahur, Tralalero Tralala, Bombardiro Crocodilo, Ballerina Cappuccina, Brr Brr Patapim, and many more to unlock."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-snow-arena",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/kg8cugwnyq2diywtw761mv7jjdu6q6ty/",
+    "embedUrl": "https://html5.gamemonetize.co/kg8cugwnyq2diywtw761mv7jjdu6q6ty/",
+    "slug": "tung-tung-sahur-snow-arena",
+    "name": "Tung Tung Sahur Snow Arena",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Arena",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-snow-arena-5f00b44b.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-snow-arena-5f00b44b.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-29"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-29",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-29",
+    "publishedAt": "2026-10-29T03:22:58.057Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Push your friend across a snowy arena, dodge tower snowballs, and stay on the ice to avoid the icy water.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Snow Arena free in your browser. Dodge snowballs from side towers, push your friend, and avoid 10 falls into icy water.",
+      "about": "Tung Tung Sahur Snow Arena is a two-player arcade arena game set on a small sheet of ice surrounded by cold water. Powerful snowballs shoot in from towers on the left and right, so both players have to keep moving. Your goal is simple: stay on the ice longer than your friend. You can also shove the other player toward the edge and try to make them fall into the water.\nEach round is a tug-of-war between dodging hazards and making a smart push. If you focus only on the other player, a snowball from either side can knock your plan apart. If you only run from the snowballs, your friend may crowd you toward the water. The match ends when one player has fallen in 10 times, so every fall matters. The rules are quick to learn, but staying safe is hard. Tung Tung Sahur Snow Arena plays free in the browser on mobile and PC.",
+      "highlights": [
+        "Two-player snow arena battle",
+        "Snowballs fire from towers on both sides",
+        "Push your friend into the icy water",
+        "First player to fall 10 times loses",
+        "Playable on mobile and PC"
+      ],
+      "goodFor": "This game is good for players who like quick local battles with simple movement and constant danger. It works well when you want a short, funny contest with a friend.",
+      "howToPlay": "Move around the ice while snowballs fly in from the left and right. Push the other player toward the water, but do not get trapped near the edge yourself. The first player to fall into the water 10 times loses the match.",
+      "touchHint": "Move on mobile and stay on the ice",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Stay away from the water when snowballs are coming from both sides.",
+        "Push when your friend is already near an edge or distracted by a snowball.",
+        "Do not chase too far; one bad step can give your friend an easy shove.",
+        "If you have fewer falls, play safer and make the other player take risks."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Snow Arena free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Snow Arena free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Snow Arena on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Snow Arena?",
+          "a": "Stay on the ice while avoiding snowballs and pushing your friend into the water. The first player to fall into the water 10 times loses."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Snow Arena?",
+          "a": "Use WASD to move with one set of controls and the Arrow keys to move with the other."
+        },
+        {
+          "q": "Where do the snowballs come from?",
+          "a": "Snowballs are fired from towers on the left and right sides of the arena, so you need to watch both directions."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-tung-sahur-vs-zomby",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/gk506riqs5egpc7isi0moda8ltgwtnai/",
+    "embedUrl": "https://html5.gamemonetize.co/gk506riqs5egpc7isi0moda8ltgwtnai/",
+    "slug": "tung-tung-tung-sahur-vs-zomby",
+    "name": "Tung Tung Tung Sahur Vs Zomby",
+    "mainKeyword": "tung tung",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Physics",
+      "Italian Brainrot",
+      "Tung Tung"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-tung-sahur-vs-zomby-176e01d9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-tung-sahur-vs-zomby-176e01d9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-29"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-29",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-29",
+    "publishedAt": "2026-10-29T03:24:05.022Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Launch Tung Tung Tung Sahur with careful shots to smash obstacles, beat zombies, and rescue trapped meme heroes.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Tung Sahur Vs Zomby free in your browser. Launch Tung like a slingshot, smash obstacles, beat zombies, and rescue meme heroes.",
+      "about": "Tung Tung Tung Sahur Vs Zomby is a physics puzzle game about saving captured meme heroes from a silly zombie invasion. The Italian Brainrots are in danger, and Tung Tung Tung Sahur is the one hero left to help. Your goal is to launch Tung toward obstacles and zombies, break through the stage, and free every trapped character. The setup is simple and funny, but each shot asks you to think about angle, force, and what will happen after the first hit.\nEach level is built around careful aiming and smart rebounds. You play by clicking or tapping, then sending Tung forward like a slingshot shot. The fun comes from finding the right angle, using ricochets, and choosing which obstacle or zombie to hit first. Some shots are simple, while others need a plan before you launch. A clean hit can smash a path, bounce into another target, or turn a blocked rescue into a clear shot. Tung Tung Tung Sahur Vs Zomby plays free in the browser.",
+      "highlights": [
+        "Physics puzzle levels with slingshot-style shots",
+        "Zombies, obstacles, and trapped Brainrot characters",
+        "Ricochet shots reward careful aiming",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who enjoy physics puzzles with funny characters and quick shots. It is also a good pick if you like planning angles and rebounds before making a move.",
+      "howToPlay": "Click or tap to launch Tung Tung Tung Sahur toward the level. Use the shot to smash obstacles, defeat zombies, and rescue the trapped Brainrot characters. Clear the level by using smart angles and ricochets to reach the important targets.",
+      "touchHint": "Tap to aim and play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Look for ricochet paths before you launch; a rebound can reach targets a direct shot cannot.",
+        "Aim through weak-looking gaps in the obstacles to open a path toward zombies or trapped characters.",
+        "Try to hit obstacles in a way that also sends Tung toward another target afterward.",
+        "Think about the order of targets, since clearing one obstacle first can make the next shot easier."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Tung Sahur Vs Zomby free to play?",
+          "a": "Yes. You can play Tung Tung Tung Sahur Vs Zomby free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Tung Tung Tung Sahur Vs Zomby on a phone or computer?",
+          "a": "Yes. The controls use mouse click or tap, so you can play on a computer or on a touch screen."
+        },
+        {
+          "q": "What is the goal in Tung Tung Tung Sahur Vs Zomby?",
+          "a": "The goal is to launch Tung Tung Tung Sahur, defeat the zombies, break through obstacles, and rescue the trapped Brainrot characters."
+        },
+        {
+          "q": "How do the controls work?",
+          "a": "Use a mouse click or tap to play. The game is built around launching Tung like a slingshot and choosing the right angle."
+        },
+        {
+          "q": "Does Tung Tung Tung Sahur Vs Zomby have levels?",
+          "a": "Yes. It has challenging physics puzzle levels where you use precise shots, ricochets, and smart planning to clear the stage."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-tung-sahur-who-is",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/jmbtu0nkxitxjsq9ihsp641h9di5dku0/",
+    "embedUrl": "https://html5.gamemonetize.co/jmbtu0nkxitxjsq9ihsp641h9di5dku0/",
+    "slug": "tung-tung-tung-sahur-who-is",
+    "name": "Tung Tung Tung Sahur Who Is?",
+    "mainKeyword": "tung tung",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot",
+      "Italian Brainrot",
+      "Tung"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-tung-sahur-who-is-da462c99.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-tung-sahur-who-is-da462c99.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-29"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-29",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-29",
+    "publishedAt": "2026-10-29T03:25:21.798Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Answer bizarre meme quiz prompts and use nonsense logic to figure out who Tung Tung Tung Sahur is.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Tung Sahur Who Is? free in your browser and solve a surreal text quiz with glitched fonts, expressive visuals, and meme logic.",
+      "about": "Tung Tung Tung Sahur Who Is? is a surreal text quiz about meme chaos, odd visual jokes, and strange logic. Instead of testing normal trivia, it asks you to make sense of nonsense. The game uses expressive images, glitched-looking fonts, and absurd humor to create a brainrot-style puzzle where the question itself can feel like part of the joke. It is built without sound, so everything comes from what you read and see on the screen.\nEach round is about reading the prompt, looking at the visuals, and using the mouse to pick your way through the quiz. The tricky part is that normal knowledge may not help much. You need to watch the wording, the tone, and the strange logic behind each moment. A strange answer can be the right one if it fits the meme mood. The fun comes from spotting the pattern inside the chaos. You can play it free in your browser with mouse-only controls.",
+      "highlights": [
+        "Surreal text-based quiz built around meme logic",
+        "Mouse-only controls",
+        "No sound; focus on text and visuals",
+        "Glitched fonts and expressive visual humor",
+        "Absurd brainrot-style puzzle questions"
+      ],
+      "goodFor": "Good for players who like weird quizzes, meme humor, and puzzles that do not follow normal logic. It is a quick fit if you enjoy reading odd prompts and guessing the joke behind them.",
+      "howToPlay": "Read each quiz prompt and look closely at the visual style and wording. Use the mouse to choose your answer or move through the quiz. The goal is to follow the game’s strange internal logic rather than rely on standard trivia knowledge.",
+      "touchHint": "Use the mouse to choose answers",
+      "keys": [
+        "Mouse: Choose answers"
+      ],
+      "tips": [
+        "Read every prompt carefully; small wording changes may be part of the joke.",
+        "Do not treat it like a normal trivia quiz; look for absurd or meme-based logic.",
+        "Use the visuals and glitched text as clues when the question feels unclear.",
+        "Since there is no sound, focus on the screen and take your time with each choice."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Tung Sahur Who Is? free to play?",
+          "a": "Yes. You can play Tung Tung Tung Sahur Who Is? free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Tung Sahur Who Is? on a phone or computer?",
+          "a": "The controls are mouse only, so it is best suited for a computer or any setup that lets you use a mouse-style pointer."
+        },
+        {
+          "q": "What kind of game is Tung Tung Tung Sahur Who Is?",
+          "a": "It is a surreal, text-based puzzle quiz built around meme humor, nonsense logic, and expressive visuals."
+        },
+        {
+          "q": "Does Tung Tung Tung Sahur Who Is? have sound?",
+          "a": "No. The game is built without sound, so the experience centers on text, visuals, and glitched fonts."
+        },
+        {
+          "q": "How do you play Tung Tung Tung Sahur Who Is?",
+          "a": "Read the prompts, study the strange visuals, and use the mouse to choose answers. The challenge is understanding the game’s absurd logic."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-coloring-book",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/h2e94j0ksdtdwf12aw8zyh6umfq7wir1/",
+    "embedUrl": "https://html5.gamemonetize.co/h2e94j0ksdtdwf12aw8zyh6umfq7wir1/",
+    "slug": "tung-tung-sahur-coloring-book",
+    "name": "Tung Tung Sahur Coloring Book",
+    "mainKeyword": "tung tung",
+    "category": "kids",
+    "mature": false,
+    "tags": [
+      "Coloring",
+      "Drawing",
+      "Kids",
+      "Tung Tung"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-coloring-book-231433a9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-coloring-book-231433a9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-29"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-29",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-29",
+    "publishedAt": "2026-10-29T03:26:33.216Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Color surreal Tung Tung Sahur scenes with your mouse and give each bizarre character your own style.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Coloring Book free and color bizarre Tung Tung scenes with Tralalero Tralala and Bombardiro Crocodilo using simple mouse controls.",
+      "about": "Tung Tung Sahur Coloring Book is a funny, surreal coloring activity built around strange meme-style characters and odd scenes. You can color pages featuring Tung Tung Tung Sahur, Tralalero Tralala, Bombardiro Crocodilo, and other bizarre designs. The goal is simple: add your own color choices to each picture and turn every page into something that feels personal, silly, bright, or extra weird.\nA round is calm and creative because there is no racing or scoring in the given play details. Use the mouse to decide how each picture should look, then fill in the scene at your own pace. The fun comes from the unusual character designs and the freedom to make them neat, loud, dark, colorful, or totally unexpected. Players who enjoy quirky art can treat each page as a small drawing break and change the mood with color. It plays free in the browser, so you can start coloring without a long setup.",
+      "highlights": [
+        "Surreal coloring pages with Tung Tung Sahur themes",
+        "Absurd characters like Tralalero Tralala",
+        "Mouse controls for simple coloring",
+        "Creative play with funny, bizarre scenes"
+      ],
+      "goodFor": "This game is good for players who like relaxed art games, meme-style humor, and coloring without pressure. It also works well when you want a simple creative break.",
+      "howToPlay": "Use the mouse to color the picture on the screen. Choose colors that fit your style, then add them to the characters and scene until the page looks finished to you.",
+      "touchHint": "Use the mouse to choose and apply colors",
+      "keys": [
+        "Mouse: Color the picture"
+      ],
+      "tips": [
+        "Pick a main color theme before you start so the picture feels more complete.",
+        "Use bold colors on the main character to make it stand out from the background.",
+        "Try strange color choices; the surreal scenes fit unusual combinations well.",
+        "Work from large areas to small details so the page fills in cleanly."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Coloring Book free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Coloring Book for free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Coloring Book on a phone or computer?",
+          "a": "The listed control is mouse, so it is best suited for a computer or any setup where you can use mouse-style input."
+        },
+        {
+          "q": "What do you do in Tung Tung Sahur Coloring Book?",
+          "a": "You color surreal scenes inspired by Tung Tung Sahur and other bizarre characters. The aim is to give each page your own look with color."
+        },
+        {
+          "q": "What characters are in the coloring book?",
+          "a": "The game includes odd characters such as Tung Tung Tung Sahur, Tralalero Tralala, and Bombardiro Crocodilo."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Coloring Book?",
+          "a": "Use the mouse to interact with the coloring page and add colors to the scene."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
