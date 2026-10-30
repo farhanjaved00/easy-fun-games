@@ -991,3 +991,14 @@ html:not(.js) .js-only{display:none!important}
 .catrow.cv2 .hs .tile img{border-radius:0;box-shadow:none}
 .catrow.cv2 .hs .tile .nm{position:absolute;left:0;right:0;bottom:0;padding:34px 12px 10px;color:#fff;font-size:14px;background:linear-gradient(0deg,rgba(10,6,34,.92),rgba(10,6,34,0))}
 }
+
+/* Phones: sliders fade out at the edges to show there is more to swipe, and headers get room to breathe */
+@media(max-width:599px){
+.hs,.live,.wrow,.moods,.car-track{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 10px,#000 calc(100% - 34px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 10px,#000 calc(100% - 34px),transparent 100%)}
+.catrow{margin-bottom:24px}
+.cr-head{padding:12px 14px;gap:12px;margin-bottom:12px}
+.cr-ico{width:42px;height:42px;font-size:22px;border-radius:13px}
+.cr-txt h2{font-size:18px}
+.cr-btn{min-height:36px;padding:0 13px;font-size:12px}
+.hs .tile .nm,.grid .tile .nm{font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+}
