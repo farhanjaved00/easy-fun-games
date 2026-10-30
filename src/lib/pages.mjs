@@ -2,7 +2,7 @@
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
-import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, catCards, collSection, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
+import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, champSection, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
 const HOME_FAQ = [
   { q: 'Are the games on EasyGameFun free?', a: 'Yes. Every game is free to play in your browser. There is nothing to download and no account to create.' },
@@ -18,24 +18,24 @@ export function home(m) {
   // Every game appears at most once on the home page: each section takes games nobody above has shown.
   const used = new Set();
   const take = (list, n) => { const out = []; for (const g of list) { if (out.length >= n) break; if (!used.has(g.slug)) { used.add(g.slug); out.push(g); } } return out; };
-  const top = take([...m.games.filter(g => g.featured), ...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best], 9);
-  const popular = take(m.trending, 8);
-  const fresh = take(m.newest, 6);
-  const spot1 = spotPick(m, m.site.spotlights?.[0], used);
-  const spot2 = spotPick(m, m.site.spotlights?.[1], used);
-  // Everything not shown yet, best first (up to 48; the A to Z page has them all).
-  const rest = take(m.best, 48);
+  // The newest games fill the first view. 9 = one large tile (2x2) + 8 small ones, so the grid has no empty cell.
+  const top = take(m.newest, 9);
+  const popular = take(m.trending, 9);
 
-  const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Top free online games today</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
+  // One row per category, most played first. Games can appear here and in the sections above: a category row is a browse path, not a list of new games.
+  // Each row is themed with its category colours and emoji, and its first game is shown larger.
+  const catRows = m.cats.map((c, i) => `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div><div class="hs">${c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join('')}</div></section>`).join('');
+
+  const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Latest free online games</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
 <div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
-${catCards(m)}
-${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
-${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGameFun.') : ''}
-<div id="personal"></div>` +
-    spot(m, m.site.spotlights?.[0], spot1) +
-    (rest.length ? `<section class="sec" aria-labelledby="s-more"><div class="sec-h"><div><h2 id="s-more">More games to play</h2><p class="sub">Even more free games, ready in one tap.</p></div><a href="/games/">All games A to Z</a></div><div class="tgrid">${rest.map(g => tile(g)).join('')}</div></section>` : '') +
-    collSection(m) + spot(m, m.site.spotlights?.[1], spot2) +
+${moodSection(m)}
+${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map((g, i) => `<a class="lv${i === 0 ? ' first' : ''}" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, i === 0 ? '(min-width: 1000px) 540px, 92vw' : '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
+${champSection(m)}
+<div id="personal"></div>
+${catRows}
+<p class="allgames"><a href="/games/">Browse all ${N} games A to Z →</a></p>` +
+    collSection(m) +
     `<section class="cta js-only"><div><h2>Can't decide what to play?</h2><p>Let us pick a random game for you. It takes one tap.</p></div><button class="play-btn" data-rnd>🎲 Surprise me</button></section>
 <section class="sec" aria-labelledby="s-why"><div class="sec-h"><h2 id="s-why">Why people play on EasyGameFun</h2></div><div class="why">
 <div><i aria-hidden="true">⚡</i><h3>Instant play</h3><p>Games load in seconds and start with one tap. Nothing to install.</p></div>
@@ -61,22 +61,6 @@ ${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGame
   };
 }
 
-// Picks a spotlight category's best games (only ones not shown above). Games are marked as shown
-// only when the spotlight renders (it needs at least 2), so a skipped spotlight never hides games.
-function spotPick(m, slug, used) {
-  const c = m.catBySlug.get(slug);
-  if (!c) return [];
-  const picks = [...c.games].sort(m.sorters.byBest).filter(g => !used.has(g.slug)).slice(0, 4);
-  if (picks.length < 2) return [];
-  picks.forEach(g => used.add(g.slug));
-  return picks;
-}
-function spot(m, slug, l) {
-  const c = m.catBySlug.get(slug);
-  if (!c || l.length < 2) return '';
-  const more = l.length < 4 ? `<a class="tile more" href="${c.url}"><span>＋</span><b>More ${esc(c.name)}</b></a>` : '';
-  return `<section class="spot" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="sp-${c.slug}"><div><span class="eyebrow">${c.emoji} Category spotlight</span><h2 id="sp-${c.slug}">${esc(gamesOf(c))}</h2><p>${esc(c.intro.split('. ')[0])}.</p><a class="btn btn-ghost" href="${c.url}">See all ${c.games.length} games →</a></div><div class="spot-r">${l.map(g => tile(g)).join('')}${more}</div></section>`;
-}
 
 /* ---------------- categories ---------------- */
 export function catsIndex(m) {

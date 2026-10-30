@@ -57,15 +57,35 @@ export const hofBlock = (list, n) => {
     `<ol class="hofl">${list.slice(1, n).map((x, i) => { const c = cols[Math.min(i, 2)]; return `<li><a href="${x.url}"><span class="n" style="--c1:${c[0]};--c2:${c[1]}">${i + 2}</span><span class="tile" style="display:block">${img(x)}</span><span class="rt"><b>${esc(x.name)}</b><span>${esc(x.cat.name)} · ${esc(x.tags.slice(0, 2).join(', '))}</span></span><span class="go">Play ▶</span></a></li>`; }).join('')}</ol></div>`;
 };
 
-// Category banners with the category's top game as art, so each card shows real game art.
-export const catCards = m =>
-  `<section class="sec" aria-labelledby="s-cats"><div class="sec-h"><div><h2 id="s-cats">Browse by category</h2><p class="sub">Pick a style and start playing in one tap.</p></div><a href="/cats/">All categories</a></div><div class="catgrid">${m.cats.map(c => `<a class="catcard" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}">${img(c.games[0], 'bg', false, '(min-width: 700px) 25vw, 50vw')}<i aria-hidden="true">${c.emoji}</i><span class="cc-t"><b>${esc(c.name)}</b><span>${c.games.length} games</span></span></a>`).join('')}</div></section>`;
 
 export const collSection = m => !m.collections.length ? '' :
   `<section class="sec" id="collections" aria-labelledby="s-coll"><div class="sec-h"><div><h2 id="s-coll">Collections</h2><p class="sub">Hand-picked lists for every mood.</p></div></div><div class="collgrid">${m.collections.map(c => `<a class="coll" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}"><i aria-hidden="true">${c.emoji}</i><b>${esc(c.name)}</b><span class="cd2">${esc(c.short)}</span><small>${c.games.length} games</small></a>`).join('')}</div></section>`;
 
 export const relatedCats = (m, skip) =>
   `<section class="card" aria-labelledby="s-rc"><h2 id="s-rc">More categories to explore</h2><div class="chips" style="padding-bottom:0">${m.cats.filter(c => c.slug !== skip).map(c => `<a class="chip" href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}</div></section>`;
+
+// Moods group existing categories by how a visitor feels. A mood is shown only if at least one of its categories has games.
+const MOODS = [
+  { emoji: '⚡', title: 'Quick breaks', sub: 'Two minutes, one tap', slugs: ['arcade', 'idle', 'kids'] },
+  { emoji: '🧠', title: 'Think it through', sub: 'Puzzles and strategy', slugs: ['puzzle', 'strategy'] },
+  { emoji: '🏁', title: 'Need for speed', sub: 'Racing, shooting and driving', slugs: ['racing', 'shooter', 'simulator'] },
+  { emoji: '👯', title: 'Play with friends', sub: 'Two players and .io arenas', slugs: ['2-player', 'io'] },
+  { emoji: '💥', title: 'Action packed', sub: 'Adventure, sports and fights', slugs: ['action', 'adventure', 'sports'] }
+];
+export const moodSection = m => {
+  const moods = MOODS.map(md => ({ ...md, cats: md.slugs.map(s => m.catBySlug.get(s)).filter(c => c && c.games.length) })).filter(md => md.cats.length);
+  if (!moods.length) return '';
+  return `<section class="sec" aria-labelledby="s-mood"><div class="sec-h"><div><h2 id="s-mood">Pick your mood</h2><p class="sub">Not sure what to play? Start with how you feel.</p></div></div><div class="moods">${moods.map((md, i) => {
+    const lead = md.cats[0], picks = md.cats.flatMap(c => c.games).slice(0, 3);
+    return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px')).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span><span class="mood-cats">${md.cats.map(c => `${c.emoji} ${esc(c.name)}`).join(' · ')}</span></a>`;
+  }).join('')}</div></section>`;
+};
+
+// One top-rated game per category, each card in its category colours.
+export const champSection = m => {
+  const champs = m.cats.map(c => ({ c, g: [...c.games].sort(m.sorters.byBest)[0] }));
+  return `<section class="sec" aria-labelledby="s-champ"><div class="sec-h"><div><h2 id="s-champ">Category champions</h2><p class="sub">The top-rated game in every category.</p></div></div><div class="champs">${champs.map(({ c, g }) => `<a class="champ" href="${g.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}"><span class="champ-img">${img(g, '', false, '(min-width: 1000px) 240px, 45vw')}</span><span class="champ-b"><small>${c.emoji} ${esc(c.name)}</small><b>${esc(g.name)}</b></span></a>`).join('')}</div></section>`;
+};
 
 export const floaters = list => list.slice(0, 3).map(g => `<span class="fl2" aria-hidden="true">${g.emoji}</span>`).join('');
 
