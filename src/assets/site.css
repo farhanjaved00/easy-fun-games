@@ -967,3 +967,15 @@ html:not(.js) .js-only{display:none!important}
 .car-track.latest .tile:first-child .nm small{font-size:13px}
 .car-track.latest .tile:first-child .hot{font-size:13px;padding:5px 12px}
 }
+
+/* Phones: game names sit under the picture, like Poki and CrazyGames, so the art is not covered */
+@media(max-width:599px){
+.hs .tile,.grid .tile{aspect-ratio:auto!important;background:none;box-shadow:none;border-radius:0;overflow:visible}
+.hs .tile img,.grid .tile img{aspect-ratio:1;height:auto;border-radius:16px;box-shadow:0 10px 20px -12px rgba(10,6,34,.5)}
+.catrow.cv1 .hs .tile img{aspect-ratio:3/4}
+.catrow.cv2 .hs .tile img{aspect-ratio:16/10}
+.hs .tile .nm,.grid .tile .nm{position:static;background:none;padding:6px 2px 0;color:var(--ink);font-size:12px;line-height:1.25;font-weight:700}
+.hs .tile .nm small,.grid .tile .nm small{display:none}
+.hs .tile::before,.grid .tile::before{display:none}
+.hs .tile .hot,.grid .tile .hot{top:6px;left:6px;font-size:10px;padding:1px 7px}
+}
