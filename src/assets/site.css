@@ -957,3 +957,13 @@ html:not(.js) .js-only{display:none!important}
 .car-track.latest .tile .nm{font-size:14px;padding:44px 10px 10px}
 .car-track.latest .tile .nm small{font-size:11px}
 }
+
+/* Phones: rows snap to the 16px edge gutter so every slider starts at the same left space */
+@media(max-width:599px){
+.hs,.live,.wrow,.moods,.car-track{scroll-padding-inline:16px}
+.car-track.latest{gap:10px;padding-top:8px}
+.car-track.latest .tile:first-child{width:70vw;aspect-ratio:4/3;border-radius:22px;box-shadow:0 0 0 3px var(--mint),0 18px 34px -18px rgba(0,200,150,.6)}
+.car-track.latest .tile:first-child .nm{font-size:19px;padding:70px 14px 14px}
+.car-track.latest .tile:first-child .nm small{font-size:13px}
+.car-track.latest .tile:first-child .hot{font-size:13px;padding:5px 12px}
+}
