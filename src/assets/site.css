@@ -218,12 +218,16 @@ button.chip{font-family:inherit}
 /* categories */
 .catgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 @media(min-width:700px){.catgrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}}
-.catcard{position:relative;border-radius:22px;padding:16px 18px;color:#fff;min-height:116px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(135deg,var(--a),var(--b));transition:transform .18s,box-shadow .18s}
+.catcard{position:relative;border-radius:22px;min-height:150px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(135deg,var(--a),var(--b));isolation:isolate;transition:transform .18s,box-shadow .18s}
+.catcard img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;opacity:.8;transition:transform .5s}
+.catcard::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(10,6,34,.9) 0%,rgba(10,6,34,.2) 62%,rgba(10,6,34,0) 100%)}
 .catcard:hover{transform:translateY(-4px);box-shadow:var(--glow)}
-.catcard i{position:absolute;right:10px;top:4px;font-style:normal;font-size:60px;opacity:.92;line-height:1.2;transition:transform .3s}
-.catcard:hover i{transform:rotate(-8deg) scale(1.1)}
-.catcard b{font-family:var(--display);font-size:19px;line-height:1.1;text-shadow:0 2px 0 rgba(0,0,0,.16)}
-.catcard span{font-size:13px;opacity:.95;font-weight:600}
+.catcard:hover img.bg{transform:scale(1.06)}
+.catcard i{position:absolute;right:12px;top:10px;font-style:normal;font-size:28px;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
+.cc-t{display:flex;flex-direction:column;gap:2px;padding:14px 16px}
+.catcard b{font-family:var(--display);font-size:18px;line-height:1.1;text-shadow:0 2px 6px rgba(0,0,0,.35)}
+.cc-t>span{font-size:13px;opacity:.92;font-weight:600}
+@media(prefers-reduced-motion:reduce){.catcard:hover img.bg{transform:none}}
 
 /* ranking */
 .rank{counter-reset:r;display:grid;gap:10px}

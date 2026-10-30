@@ -57,8 +57,9 @@ export const hofBlock = (list, n) => {
     `<ol class="hofl">${list.slice(1, n).map((x, i) => { const c = cols[Math.min(i, 2)]; return `<li><a href="${x.url}"><span class="n" style="--c1:${c[0]};--c2:${c[1]}">${i + 2}</span><span class="tile" style="display:block">${img(x)}</span><span class="rt"><b>${esc(x.name)}</b><span>${esc(x.cat.name)} · ${esc(x.tags.slice(0, 2).join(', '))}</span></span><span class="go">Play ▶</span></a></li>`; }).join('')}</ol></div>`;
 };
 
+// Category banners with the category's top game as art, so each card shows real game art.
 export const catCards = m =>
-  `<section class="sec" aria-labelledby="s-cats"><div class="sec-h"><h2 id="s-cats">Browse by category</h2><a href="/cats/">All categories</a></div><div class="catgrid">${m.cats.map(c => `<a class="catcard" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}"><i aria-hidden="true">${c.emoji}</i><b>${esc(c.name)}</b><span>${c.games.length} games</span></a>`).join('')}</div></section>`;
+  `<section class="sec" aria-labelledby="s-cats"><div class="sec-h"><div><h2 id="s-cats">Browse by category</h2><p class="sub">Pick a style and start playing in one tap.</p></div><a href="/cats/">All categories</a></div><div class="catgrid">${m.cats.map(c => `<a class="catcard" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}">${img(c.games[0], 'bg', false, '(min-width: 700px) 25vw, 50vw')}<i aria-hidden="true">${c.emoji}</i><span class="cc-t"><b>${esc(c.name)}</b><span>${c.games.length} games</span></span></a>`).join('')}</div></section>`;
 
 export const collSection = m => !m.collections.length ? '' :
   `<section class="sec" id="collections" aria-labelledby="s-coll"><div class="sec-h"><div><h2 id="s-coll">Collections</h2><p class="sub">Hand-picked lists for every mood.</p></div></div><div class="collgrid">${m.collections.map(c => `<a class="coll" style="--a:${c.colors[0]};--b:${c.colors[1]}" href="${c.url}"><i aria-hidden="true">${c.emoji}</i><b>${esc(c.name)}</b><span class="cd2">${esc(c.short)}</span><small>${c.games.length} games</small></a>`).join('')}</div></section>`;

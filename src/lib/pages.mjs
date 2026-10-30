@@ -29,12 +29,13 @@ export function home(m) {
   const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Top free online games today</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
 <div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
+${catCards(m)}
 ${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map(g => `<a class="lv" href="${g.url}">${img(g, '', false, '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
 ${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGameFun.') : ''}
 <div id="personal"></div>` +
     spot(m, m.site.spotlights?.[0], spot1) +
     (rest.length ? `<section class="sec" aria-labelledby="s-more"><div class="sec-h"><div><h2 id="s-more">More games to play</h2><p class="sub">Even more free games, ready in one tap.</p></div><a href="/games/">All games A to Z</a></div><div class="tgrid">${rest.map(g => tile(g)).join('')}</div></section>` : '') +
-    collSection(m) + catCards(m) + spot(m, m.site.spotlights?.[1], spot2) +
+    collSection(m) + spot(m, m.site.spotlights?.[1], spot2) +
     `<section class="cta js-only"><div><h2>Can't decide what to play?</h2><p>Let us pick a random game for you. It takes one tap.</p></div><button class="play-btn" data-rnd>🎲 Surprise me</button></section>
 <section class="sec" aria-labelledby="s-why"><div class="sec-h"><h2 id="s-why">Why people play on EasyGameFun</h2></div><div class="why">
 <div><i aria-hidden="true">⚡</i><h3>Instant play</h3><p>Games load in seconds and start with one tap. Nothing to install.</p></div>
