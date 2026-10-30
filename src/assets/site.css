@@ -991,11 +991,11 @@ html:not(.js) .js-only{display:none!important}
 /* Phones: image-first cards. Game titles are hidden visually (screen readers still read them), the first game of each row becomes a wide featured card with a Play button. */
 @media(max-width:599px){
 .hs .tile .nm,.car-track.latest .tile .nm,.live .lv .lb b,.live .lv .lb small{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap}
-.catrow .hs .tile.wd{width:calc(var(--mcard) * 2 + 12px)!important;aspect-ratio:16/9!important;border-radius:20px}
-.catrow .hs .tile.wd img{aspect-ratio:16/9!important;border-radius:20px}
+.catrow .hs .tile.wd{width:var(--msmall)!important;aspect-ratio:1!important;border-radius:20px}
+.catrow .hs .tile.wd img{aspect-ratio:1!important;border-radius:20px}
 .catrow .hs .tile.wd::after{content:"▶ Play";position:absolute;right:10px;bottom:10px;z-index:2;background:var(--mint);color:#032B20;font:700 13px var(--display);padding:7px 14px;border-radius:999px;box-shadow:0 8px 18px -6px rgba(0,200,150,.6)}
-.car-track.latest .tile:first-child{width:calc(var(--mcard) * 2 + 12px)!important;aspect-ratio:16/9!important}
-.car-track.latest .tile:first-child img{aspect-ratio:16/9!important}
+.car-track.latest .tile:first-child{width:var(--msmall)!important;aspect-ratio:1!important}
+.car-track.latest .tile:first-child img{aspect-ratio:1!important}
 .live .lv .lb{padding:10px}
 .live .lv .pb{margin-top:auto}
 }
@@ -1028,10 +1028,5 @@ html:not(.js) .js-only{display:none!important}
 /* Phones: the spotlight banner shows only the picture and Play, no title or category text on the picture */
 @media(max-width:599px){.cs-cat{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}}
 
-/* Phones: the first two games in each slider are large, so two show in full at first look; the games after them are smaller and appear as you scroll */
-@media(max-width:599px){
-:root{--mbig:calc((100vw - 52px) / 2);--msmall:calc((100vw - 40px) / 3.6)}
-.catrow .hs .tile:nth-child(-n+2),.live .lv:nth-child(-n+2){width:var(--mbig)!important}
-.catrow .hs .tile.wd{width:calc(var(--mbig) * 2 + 12px)!important}
-.car-track.latest .tile:first-child{width:calc(var(--mbig) * 2 + 12px)!important}
-}
+/* Phones: every slider card is the same size: two full cards and a half */
+@media(max-width:599px){:root{--msmall:calc((100vw - 40px) / 2.5)}}
