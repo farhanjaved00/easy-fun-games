@@ -39,9 +39,6 @@ function sideHTML(m, key) {
     L('/best/', '🏆', 'Best of all time', 'best') + L('/games/', '🔤', 'All games A to Z', 'az') + L('/favs/', '❤️', 'Saved games', 'favs') +
     `<div class="sg"><span>Categories</span></div>` +
     m.cats.map(c => `<a class="sl${key === 'cat:' + c.slug ? ' on' : ''}" href="${c.url}" title="${esc(c.name)}"${key === 'cat:' + c.slug ? ' aria-current="page"' : ''}><span class="cb" style="background:linear-gradient(135deg,${c.colors[0]},${c.colors[1]})">${c.emoji}</span><span class="nm">${esc(c.name)}</span><em>${c.games.length}</em></a>`).join('') +
-    `<div class="sg"><span>Popular tags</span></div><div class="tagcloud">${m.tags.slice(0, 10).map(t => `<a${key === 'tag:' + t.slug ? ' class="on"' : ''} href="${t.url}">${esc(t.name)}</a>`).join('')}</div>` +
-    `<div class="js-recent" hidden><div class="sg"><span>Recently played</span></div><div class="recent"></div></div>` +
-    `<div class="sidecard js-only"><small>Feeling lucky?</small><b>Play a random game</b><button class="btn" data-rnd>🎲 Surprise me</button></div>` +
     socialHTML(m);
 }
 

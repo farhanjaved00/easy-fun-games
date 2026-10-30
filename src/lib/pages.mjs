@@ -18,8 +18,8 @@ export function home(m) {
   // Every game appears at most once on the home page: each section takes games nobody above has shown.
   const used = new Set();
   const take = (list, n) => { const out = []; for (const g of list) { if (out.length >= n) break; if (!used.has(g.slug)) { used.add(g.slug); out.push(g); } } return out; };
-  // The newest games fill the first view. 9 = one large tile (2x2) + 8 small ones, so the grid has no empty cell.
-  const top = take(m.newest, 9);
+  // The newest games fill the first view as a swipeable row.
+  const top = take(m.newest, 12);
   const popular = take(m.trending, 9);
 
   // One row per category, most played first. Games can appear here and in the sections above: a category row is a browse path, not a list of new games.
@@ -27,7 +27,7 @@ export function home(m) {
   const catRows = m.cats.map((c, i) => `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div>${carousel('hs', c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join(''))}</section>`).join('');
 
   const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Latest free online games</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
-<div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
+${carousel('latest', top.map((g, i) => tile(g, '', { eager: i < 3 })).join(''))}</section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 ${moodSection(m)}
 ${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div>${carousel('live', popular.map((g, i) => `<a class="lv" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, '(min-width: 700px) 260px, 70vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join(''))}</section>` : ''}

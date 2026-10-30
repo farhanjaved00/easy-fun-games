@@ -274,6 +274,15 @@ button.chip{font-family:inherit}
 @media(max-width:599px){.mood{width:70vw;min-height:172px;padding:16px}.mood-fan{top:16px;right:14px}.mood-fan img{width:62px;height:62px;border-radius:16px}.mood-t i{width:38px;height:38px;font-size:20px}.mood-t b{font-size:20px}.mood-t>span{font-size:13px}}
 @media(min-width:600px){.moods{margin:0;padding:4px 4px 12px}.mood{width:240px;max-width:none}}
 @media(min-width:1000px){.moods{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow:visible;gap:14px;padding:0}.mood{width:auto}}
+/* Latest games: a swipeable row of tall, bold cards with arrows on mouse screens */
+.car-track.latest{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -16px;padding:6px 16px 18px}
+.car-track.latest::-webkit-scrollbar{display:none}
+.car-track.latest .tile{flex:none;width:62vw;max-width:260px;aspect-ratio:4/5;border-radius:24px;scroll-snap-align:start;box-shadow:0 18px 34px -18px var(--a,#6C4DFF)}
+.car-track.latest .tile .nm{font-size:17px;line-height:1.2;padding:60px 16px 16px;background:linear-gradient(0deg,rgba(10,6,34,.94) 30%,rgba(10,6,34,0))}
+.car-track.latest .tile .nm small{display:block;margin-top:4px;font-size:12px;opacity:.9}
+.car-track.latest .tile .hot{top:12px;left:12px;padding:4px 11px;font-size:12px;box-shadow:0 6px 14px -4px rgba(255,63,108,.6)}
+@media(min-width:600px){.car-track.latest{margin:0;padding:6px 4px 18px;gap:16px}.car-track.latest .tile{width:232px}}
+@media(min-width:1000px){.car-track.latest .tile{width:250px}.car-track.latest .tile .nm{font-size:18px}}
 .allgames{text-align:center;margin:-10px 0 34px}
 .allgames a{color:var(--pri);font-weight:700;min-height:44px;display:inline-flex;align-items:center}
 /* Play badge appears over any game tile on hover (not for the "+ More" tile) */
@@ -926,21 +935,9 @@ html:not(.js) .js-only{display:none!important}
 
 .tgrid .tile.more{background:var(--surface2);border-color:var(--line);color:var(--ink)}
 
-/* Home top: games-first mosaic (replaces the text hero) */
+/* Home top: the newest games, shown as a swipeable row */
 .tops{margin:4px 0 22px}
 .tops-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin:0 0 14px}
 .tops h1{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.02em;line-height:1.15}
 .tops-s{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-weight:600;font-size:14px}
-.mosaic{display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:calc((100vw - 42px) / 2 * .66)}
-.mosaic .tile{aspect-ratio:auto;height:100%;border-radius:18px;transition:transform .22s,box-shadow .22s}
-.mosaic .tile:first-child{grid-column:span 2;grid-row:span 2}
-.mosaic .tile:first-child .nm{font-size:20px;padding:56px 16px 14px}
-.mosaic .tile:first-child .nm small{display:block;font-size:13px}
-.mosaic .tile:hover{transform:translateY(-4px);box-shadow:var(--glow)}
 /* light "reflection" sweeping across a card on hover */
-.mosaic .tile::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.38) 48%,transparent 62%);transform:translateX(-130%);transition:transform .8s ease}
-.mosaic .tile:hover::after{transform:translateX(130%)}
-@media(min-width:700px){.mosaic{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:150px;gap:14px}}
-@media(min-width:1100px){.mosaic{grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:160px;gap:16px}.mosaic .tile:first-child .nm{font-size:24px}}
-@media(min-width:1500px){.mosaic{grid-auto-rows:190px}}
-@media(prefers-reduced-motion:reduce){.mosaic .tile::after{display:none}.mosaic .tile:hover{transform:none}}

@@ -160,11 +160,6 @@
 
   /* ---------- recently played in sidebar + drawer ---------- */
   var recent = EGF.recent();
-  if (recent.length) EGF.index().then(function (d) {
-    var rec = recent.map(function (s) { return d.bySlug[s]; }).filter(Boolean).slice(0, 6);
-    if (!rec.length) return;
-    $$('.js-recent').forEach(function (box) { $('.recent', box).innerHTML = rec.map(function (g) { return '<a class="tile" href="' + g.url + '" aria-label="' + esc(g.name) + '">' + imgTag(g) + '</a>'; }).join(''); box.hidden = false; });
-  });
 
   /* ---------- home: personal rows, tabs, featured rotator, hero sky ---------- */
   var personal = $('#personal');
