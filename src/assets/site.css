@@ -1024,3 +1024,6 @@ html:not(.js) .js-only{display:none!important}
 @media(max-width:599px){
 .tile .nm,.cs-info b{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}
 }
+
+/* Phones: the spotlight banner shows only the picture and Play, no title or category text on the picture */
+@media(max-width:599px){.cs-cat{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}}
