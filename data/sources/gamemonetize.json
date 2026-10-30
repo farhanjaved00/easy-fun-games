@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "59486": {
+      "status": "imported",
+      "slug": "sprunki-castle-panic-skibidi-toilet",
+      "at": "2026-10-30"
+    },
     "59497": {
       "status": "imported",
       "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
@@ -96,6 +101,11 @@
       "slug": "hidden-brainrot-letters",
       "at": "2026-10-21"
     },
+    "66425": {
+      "status": "imported",
+      "slug": "italian-brainrot-hunter",
+      "at": "2026-10-30"
+    },
     "66841": {
       "status": "imported",
       "slug": "italian-brainrot-spot-the-differences",
@@ -111,6 +121,11 @@
       "slug": "chicken-jockey-shooting-tung-tung-sahur",
       "at": "2026-10-26"
     },
+    "66888": {
+      "status": "imported",
+      "slug": "chicken-jockey-tung-tung-sahur-fight",
+      "at": "2026-10-30"
+    },
     "66901": {
       "status": "imported",
       "slug": "tung-tung-tung-sahur-who-is",
@@ -121,6 +136,11 @@
       "slug": "italian-brainrot-tung-tung-sahur-anomaly",
       "at": "2026-10-21"
     },
+    "67879": {
+      "status": "imported",
+      "slug": "italian-brainrot-puzzle",
+      "at": "2026-10-30"
+    },
     "68195": {
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
@@ -130,6 +150,11 @@
       "status": "imported",
       "slug": "tung-sahur-italien-brainrot",
       "at": "2026-10-29"
+    },
+    "68787": {
+      "status": "imported",
+      "slug": "italian-brainrot-merge",
+      "at": "2026-10-30"
     },
     "69066": {
       "status": "imported",
@@ -430,6 +455,31 @@
       "status": "imported",
       "slug": "tung-tung-sahur-coloring-book",
       "at": "2026-10-29"
+    },
+    "https://html5.gamemonetize.co/qbu9r1t6we54pvix91sfnol5at7jbzvo/": {
+      "status": "imported",
+      "slug": "sprunki-castle-panic-skibidi-toilet",
+      "at": "2026-10-30"
+    },
+    "https://html5.gamemonetize.co/eoucplyzhq0f2j0ls9iszsist8c7gxac/": {
+      "status": "imported",
+      "slug": "italian-brainrot-merge",
+      "at": "2026-10-30"
+    },
+    "https://html5.gamemonetize.co/6jn2zmjsqtxy1e6dwju2346nhggg3h3h/": {
+      "status": "imported",
+      "slug": "italian-brainrot-puzzle",
+      "at": "2026-10-30"
+    },
+    "https://html5.gamemonetize.co/yqqs9m2b0siqkws56glxhf4erf6097ec/": {
+      "status": "imported",
+      "slug": "chicken-jockey-tung-tung-sahur-fight",
+      "at": "2026-10-30"
+    },
+    "https://html5.gamemonetize.co/y0b3cm6yjp3iwrha623to9pu2aii65h8/": {
+      "status": "imported",
+      "slug": "italian-brainrot-hunter",
+      "at": "2026-10-30"
     }
   }
 }
