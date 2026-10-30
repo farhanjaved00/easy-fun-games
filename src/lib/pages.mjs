@@ -2,7 +2,7 @@
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
-import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, champSection, carousel, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
+import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, carousel, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
 const HOME_FAQ = [
   { q: 'Are the games on EasyGameFun free?', a: 'Yes. Every game is free to play in your browser. There is nothing to download and no account to create.' },
@@ -31,7 +31,6 @@ export function home(m) {
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 ${moodSection(m)}
 ${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div>${carousel('live', popular.map((g, i) => `<a class="lv" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, '(min-width: 700px) 260px, 70vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join(''))}</section>` : ''}
-${champSection(m)}
 <div id="personal"></div>
 ${catRows}
 <p class="allgames"><a href="/games/">Browse all ${N} games A to Z →</a></p>` +

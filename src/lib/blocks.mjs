@@ -80,13 +80,6 @@ export const moodSection = m => {
     return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px')).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span><span class="mood-cats">${md.cats.map(c => `${c.emoji} ${esc(c.name)}`).join(' · ')}</span></a>`;
   }).join('')}</div></section>`;
 };
-
-// One top-rated game per category, each card in its category colours.
-export const champSection = m => {
-  const champs = m.cats.map(c => ({ c, g: [...c.games].sort(m.sorters.byBest)[0] }));
-  return `<section class="sec" aria-labelledby="s-champ"><div class="sec-h"><div><h2 id="s-champ">Category champions</h2><p class="sub">The top-rated game in every category.</p></div></div><div class="champs">${champs.map(({ c, g }) => `<a class="champ" href="${g.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}"><span class="champ-img">${img(g, '', false, '(min-width: 1000px) 240px, 45vw')}</span><span class="champ-b"><small>${c.emoji} ${esc(c.name)}</small><b>${esc(g.name)}</b></span></a>`).join('')}</div></section>`;
-};
-
 // A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
 export const carousel = (cls, inner) =>
   `<div class="car"><button class="car-btn car-prev" type="button" aria-label="Scroll left"><span aria-hidden="true">‹</span></button><div class="car-track ${cls}">${inner}</div><button class="car-btn car-next" type="button" aria-label="Scroll right"><span aria-hidden="true">›</span></button></div>`;
