@@ -77,7 +77,7 @@ export const moodSection = m => {
   if (!moods.length) return '';
   return `<section class="sec" aria-labelledby="s-mood"><div class="sec-h"><div><h2 id="s-mood">Pick your mood</h2><p class="sub">Not sure what to play? Start with how you feel.</p></div></div><div class="moods">${moods.map((md, i) => {
     const lead = md.cats[0], picks = md.cats.flatMap(c => c.games).slice(0, 3);
-    return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px')).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span><span class="mood-cats">${md.cats.map(c => `${c.emoji} ${esc(c.name)}`).join(' · ')}</span></a>`;
+    return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px')).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span></a>`;
   }).join('')}</div></section>`;
 };
 // A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
