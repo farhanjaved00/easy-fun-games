@@ -462,7 +462,8 @@ details p{margin:0 0 14px;color:var(--muted)}
 
 /* sidebar */
 .side{border-right:1px solid var(--line);margin-right:12px}
-@media(min-width:900px){.side{width:268px;padding:16px 14px 24px 16px}}
+/* Slimmer sidebar: 220px wide, tighter rows so the page gets more room */
+@media(min-width:900px){.side{width:220px;padding:14px 12px 24px 14px}.sl{font-size:14px;min-height:40px;padding:6px 9px;gap:9px}.sl .cb{width:26px;height:26px;font-size:14px;border-radius:9px}.sl.on::before{left:-14px}.sg{margin:16px 6px 6px}.sidecard{margin-top:16px;padding:14px}}
 .railtog{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:40px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:0 14px;font-weight:600;font-size:13px;color:var(--muted);margin-bottom:14px}
 .railtog:hover{border-color:var(--pri);color:var(--ink)}
 .railtog b{font-size:16px;transition:transform .2s}
