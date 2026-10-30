@@ -1,5 +1,5 @@
 // Reusable HTML blocks shared by the page templates.
-import { esc, slugify } from './util.mjs';
+import { esc, slugify, gamesOf } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 
 const badge = g => (g.featured ? '<span class="hot">Hot</span>' : g.isNew ? '<span class="hot newb">New</span>' : '');
@@ -81,6 +81,10 @@ export const moodSection = m => {
   }).join('')}</div></section>`;
 };
 // A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
+// A closing card for each category row: it links to the whole category, so short rows still look full.
+export const seeAllTile = c =>
+  `<a class="tile more cr-more" href="${c.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-label="See all: ${esc(gamesOf(c))}"><span aria-hidden="true">${c.emoji}</span><b>See all ${c.games.length}</b><small aria-hidden="true">→</small></a>`;
+
 export const carousel = (cls, inner) =>
   `<div class="car"><button class="car-btn car-prev" type="button" aria-label="Scroll left"><span aria-hidden="true">‹</span></button><div class="car-track ${cls}">${inner}</div><button class="car-btn car-next" type="button" aria-label="Scroll right"><span aria-hidden="true">›</span></button></div>`;
 

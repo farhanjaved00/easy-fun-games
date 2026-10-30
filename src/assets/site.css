@@ -1020,3 +1020,15 @@ html:not(.js) .js-only{display:none!important}
 .live .lv{aspect-ratio:1}
 .live .lv .lb b{font-size:13px}
 }
+
+/* See all card at the end of each category row: fills short rows and links to the whole category */
+.tile.cr-more{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;aspect-ratio:1!important;border:0;background:linear-gradient(150deg,var(--a),var(--b));box-shadow:var(--shadow);color:#fff;text-align:center;padding:12px}
+.tile.cr-more span{display:block;font-size:30px;line-height:1}
+.tile.cr-more b{font-family:var(--display);font-size:14px;line-height:1.15;text-shadow:0 2px 8px rgba(0,0,0,.2)}
+.tile.cr-more small{font-size:20px;font-weight:800;line-height:1}
+@media(max-width:599px){
+.catrow.cv3 .hs .tile{box-shadow:none;border-radius:16px}
+.tile.cr-more{padding:8px;height:var(--mcard)!important;box-sizing:border-box}
+.tile.cr-more span{font-size:24px}
+.tile.cr-more b{font-size:13px}
+}
