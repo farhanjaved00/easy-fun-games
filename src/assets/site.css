@@ -962,8 +962,8 @@ html:not(.js) .js-only{display:none!important}
 @media(max-width:599px){
 :root{--mcard:calc((100vw - 40px) / 2.5)}
 .car-track.latest{gap:12px}
-.hs .tile,.car-track.latest .tile,.live .lv,.catrow.cv1 .hs .tile,.catrow.cv2 .hs .tile,.catrow.cv3 .hs .tile{width:var(--mcard)!important;max-width:none!important;flex:none}
-.catrow .hs .tile:first-child,.car-track.latest .tile:first-child{width:var(--mcard)!important;aspect-ratio:auto}
+.hs .tile,.car-track.latest .tile,.live .lv,.catrow.cv1 .hs .tile,.catrow.cv2 .hs .tile,.catrow.cv3 .hs .tile{width:var(--msmall)!important;max-width:none!important;flex:none}
+.catrow .hs .tile:first-child,.car-track.latest .tile:first-child{width:var(--msmall)!important;aspect-ratio:auto}
 .hs .tile img,.car-track.latest .tile img,.catrow .hs .tile img{aspect-ratio:1!important;height:auto;border-radius:16px}
 .catrow.cv2 .hs .tile{position:relative;overflow:visible;border-radius:0}
 .catrow.cv2 .hs .tile .nm{position:static!important;background:none!important;color:var(--ink);padding:6px 2px 0!important;font-size:13px!important}
@@ -983,7 +983,7 @@ html:not(.js) .js-only{display:none!important}
 .tile.cr-more small{font-size:20px;font-weight:800;line-height:1}
 @media(max-width:599px){
 .catrow.cv3 .hs .tile{box-shadow:none;border-radius:16px}
-.tile.cr-more{padding:8px;height:var(--mcard)!important;box-sizing:border-box}
+.tile.cr-more{padding:8px;height:auto!important;box-sizing:border-box}
 .tile.cr-more span{font-size:24px}
 .tile.cr-more b{font-size:13px}
 }
@@ -1027,3 +1027,11 @@ html:not(.js) .js-only{display:none!important}
 
 /* Phones: the spotlight banner shows only the picture and Play, no title or category text on the picture */
 @media(max-width:599px){.cs-cat{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}}
+
+/* Phones: the first two games in each slider are large, so two show in full at first look; the games after them are smaller and appear as you scroll */
+@media(max-width:599px){
+:root{--mbig:calc((100vw - 52px) / 2);--msmall:calc((100vw - 40px) / 3.6)}
+.catrow .hs .tile:nth-child(-n+2),.live .lv:nth-child(-n+2){width:var(--mbig)!important}
+.catrow .hs .tile.wd{width:calc(var(--mbig) * 2 + 12px)!important}
+.car-track.latest .tile:first-child{width:calc(var(--mbig) * 2 + 12px)!important}
+}
