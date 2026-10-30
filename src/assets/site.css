@@ -226,6 +226,8 @@ button.chip{font-family:inherit}
 .cr-fl{position:absolute;right:-8px;bottom:-30px;font-size:120px;line-height:1;opacity:.18;transform:rotate(-14deg);pointer-events:none;z-index:-1}
 .catrow .hs{padding-top:4px}
 .catrow .hs .tile:first-child{width:200px}
+/* Phones: a slimmer banner that keeps the "See all" button on the same line */
+@media(max-width:599px){.cr-head{flex-wrap:nowrap;gap:10px;padding:14px;border-radius:20px}.cr-ico{width:42px;height:42px;font-size:22px;border-radius:14px}.cr-txt{flex:1 1 0;min-width:0}.cr-txt h2{font-size:19px}.cr-txt p{font-size:12px}.cr-btn{min-height:40px;padding:0 12px;font-size:13px;white-space:nowrap}.cr-fl{display:none}}
 .catrow .tile:hover{box-shadow:0 16px 36px -12px var(--a)}
 @media(min-width:600px){.catrow .hs .tile:first-child{width:280px}}
 /* Four row layouts, used in turn (cv0..cv3), so neighbouring rows never look alike */
@@ -253,9 +255,12 @@ button.chip{font-family:inherit}
 .catrow.cv3 .hs .tile{width:150px;border-radius:44px;box-shadow:0 0 0 3px var(--a),0 12px 26px -12px var(--a)}
 .catrow.cv3 .hs .tile:hover{box-shadow:0 0 0 3px var(--b),0 18px 34px -12px var(--b)}
 /* Mood picker: five cards, each with its own gradient and a fanned stack of game art */
-.moods{display:grid;grid-template-columns:1fr;gap:14px}
-@media(min-width:600px){.moods{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(min-width:1000px){.moods{grid-template-columns:repeat(5,minmax(0,1fr))}}
+/* Phones and tablets swipe the mood cards in one row; a wide screen shows all five at once */
+.moods{display:flex;overflow-x:auto;gap:12px;margin:0 -16px;padding:4px 16px 12px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.moods::-webkit-scrollbar{display:none}
+.mood{flex:none;width:72vw;max-width:270px;scroll-snap-align:start}
+@media(min-width:600px){.moods{margin:0;padding:4px 4px 12px}.mood{width:250px;max-width:none}}
+@media(min-width:1000px){.moods{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow:visible;gap:14px;padding:0}.mood{width:auto}}
 .mood{position:relative;display:flex;flex-direction:column;min-height:200px;padding:16px;border-radius:24px;color:#fff;overflow:hidden;isolation:isolate;background:linear-gradient(150deg,var(--a),var(--b));box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s}
 .mood:hover{transform:translateY(-4px);box-shadow:var(--glow)}
 .mood.mv1{background:radial-gradient(circle at 88% 12%,rgba(255,255,255,.4),transparent 46%),linear-gradient(150deg,var(--a),var(--b))}
