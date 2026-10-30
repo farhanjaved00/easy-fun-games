@@ -941,3 +941,19 @@ html:not(.js) .js-only{display:none!important}
 .tops h1{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.02em;line-height:1.15}
 .tops-s{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-weight:600;font-size:14px}
 /* light "reflection" sweeping across a card on hover */
+
+/* Phones: smaller game thumbnails so more games fit on screen */
+@media(max-width:599px){
+.hs .tile{width:112px}
+.catrow .hs .tile:first-child{width:124px}
+.catrow.cv1 .hs .tile{width:104px}
+.catrow.cv2 .hs .tile{width:150px}
+.catrow.cv3 .hs .tile{width:112px;border-radius:30px}
+.live .lv{width:44vw}
+.lv .lb{padding:24px 9px 8px}
+.lv .lb b{font-size:13px}
+.lv .lb small{font-size:11px}
+.car-track.latest .tile{width:36vw;aspect-ratio:1;border-radius:18px}
+.car-track.latest .tile .nm{font-size:14px;padding:44px 10px 10px}
+.car-track.latest .tile .nm small{font-size:11px}
+}
