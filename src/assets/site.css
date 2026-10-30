@@ -1032,3 +1032,15 @@ html:not(.js) .js-only{display:none!important}
 .tile.cr-more span{font-size:24px}
 .tile.cr-more b{font-size:13px}
 }
+
+/* Phones: image-first cards. Game titles are hidden visually (screen readers still read them), the first game of each row becomes a wide featured card with a Play button. */
+@media(max-width:599px){
+.hs .tile .nm,.car-track.latest .tile .nm,.live .lv .lb b,.live .lv .lb small{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap}
+.catrow .hs .tile.wd{width:calc(var(--mcard) * 2 + 12px)!important;aspect-ratio:16/9!important;border-radius:20px}
+.catrow .hs .tile.wd img{aspect-ratio:16/9!important;border-radius:20px}
+.catrow .hs .tile.wd::after{content:"▶ Play";position:absolute;right:10px;bottom:10px;z-index:2;background:var(--mint);color:#032B20;font:700 13px var(--display);padding:7px 14px;border-radius:999px;box-shadow:0 8px 18px -6px rgba(0,200,150,.6)}
+.car-track.latest .tile:first-child{width:calc(var(--mcard) * 2 + 12px)!important;aspect-ratio:16/9!important}
+.car-track.latest .tile:first-child img{aspect-ratio:16/9!important}
+.live .lv .lb{padding:10px}
+.live .lv .pb{margin-top:auto}
+}
