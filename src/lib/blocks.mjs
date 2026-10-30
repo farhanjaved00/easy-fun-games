@@ -81,6 +81,12 @@ export const moodSection = m => {
   }).join('')}</div></section>`;
 };
 // A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
+// Spotlight row: a wide featured game with a Play button, then a grid of the next six games with their names under them.
+export const spotRow = c => {
+  const g = c.games[0];
+  return `<section class="sec catrow cv2 cspot" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a></div><a class="cs-feat" href="${g.url}">${img(g, '', false, '(min-width: 700px) 720px, 100vw')}<span class="cs-info"><span class="cs-cat">${c.emoji} ${esc(c.name)}</span><b>${esc(g.name)}</b></span><span class="cs-play">▶ Play</span></a><div class="cs-grid">${c.games.slice(1, 7).map(x => tile(x)).join('')}</div></section>`;
+};
+
 // A closing card for each category row: it links to the whole category, so short rows still look full.
 export const seeAllTile = c =>
   `<a class="tile more cr-more" href="${c.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-label="See all: ${esc(gamesOf(c))}"><span aria-hidden="true">${c.emoji}</span><b>See all ${c.games.length}</b><small aria-hidden="true">→</small></a>`;

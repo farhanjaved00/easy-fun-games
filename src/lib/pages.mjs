@@ -2,7 +2,7 @@
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
-import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, carousel, seeAllTile, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
+import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, carousel, seeAllTile, spotRow, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
 const HOME_FAQ = [
   { q: 'Are the games on EasyGameFun free?', a: 'Yes. Every game is free to play in your browser. There is nothing to download and no account to create.' },
@@ -24,7 +24,7 @@ export function home(m) {
 
   // One row per category, most played first. Games can appear here and in the sections above: a category row is a browse path, not a list of new games.
   // Each row is themed with its category colours and emoji, and its first game is shown larger.
-  const catRows = m.cats.map((c, i) => `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div>${carousel('hs', c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join('') + seeAllTile(c))}</section>`).join('');
+  const catRows = m.cats.map((c, i) => (i % 4 === 2 && c.games.length >= 7) ? spotRow(c) : `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div>${carousel('hs', c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join('') + seeAllTile(c))}</section>`).join('');
 
   const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Latest free online games</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
 ${carousel('latest', top.map((g, i) => tile(g, '', { eager: i < 3 })).join(''))}</section>
