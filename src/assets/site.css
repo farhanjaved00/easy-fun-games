@@ -1016,3 +1016,11 @@ html:not(.js) .js-only{display:none!important}
 .cs-grid .tile .nm small{display:none}
 .cs-grid .tile::before{display:none}
 @media(min-width:700px){.cs-feat{aspect-ratio:3/1}.cs-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}.cs-grid .tile .nm{font-size:13px}}
+
+/* Phone-only and desktop-only sections: spotlight rows show on phones, normal category rows on desktop */
+@media(min-width:600px){.m-only{display:none!important}}
+@media(max-width:599px){.d-only{display:none!important}}
+/* Phones show no game titles: names stay in the page for screen readers */
+@media(max-width:599px){
+.tile .nm,.cs-info b{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}
+}
