@@ -21,10 +21,10 @@ export function home(m) {
   const top = take([...m.games.filter(g => g.featured), ...(m.site.editorPicks || []).map(s => m.bySlug.get(s)).filter(Boolean), ...m.best], 9);
   const popular = take(m.trending, 8);
   const fresh = take(m.newest, 6);
-  const spot1 = spotGames(m, m.site.spotlights?.[0], take);
-  const spot2 = spotGames(m, m.site.spotlights?.[1], take);
+  const spot1 = spotPick(m, m.site.spotlights?.[0], used);
+  const spot2 = spotPick(m, m.site.spotlights?.[1], used);
   // Everything not shown yet, best first (up to 48; the A to Z page has them all).
-  const rest = take(m.best.length ? [...m.best, ...m.games] : m.games, 48);
+  const rest = take(m.best, 48);
 
   const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Top free online games today</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
 <div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
@@ -60,10 +60,15 @@ ${fresh.length ? wrow('New games', fresh, '/new/', 'The latest games on EasyGame
   };
 }
 
-// Picks a spotlight category's best games (only ones not shown above).
-function spotGames(m, slug, take) {
+// Picks a spotlight category's best games (only ones not shown above). Games are marked as shown
+// only when the spotlight renders (it needs at least 2), so a skipped spotlight never hides games.
+function spotPick(m, slug, used) {
   const c = m.catBySlug.get(slug);
-  return c ? take([...c.games].sort(m.sorters.byBest), 4) : [];
+  if (!c) return [];
+  const picks = [...c.games].sort(m.sorters.byBest).filter(g => !used.has(g.slug)).slice(0, 4);
+  if (picks.length < 2) return [];
+  picks.forEach(g => used.add(g.slug));
+  return picks;
 }
 function spot(m, slug, l) {
   const c = m.catBySlug.get(slug);

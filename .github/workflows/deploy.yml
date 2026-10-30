@@ -58,10 +58,12 @@ jobs:
         if: github.event_name != 'push' || contains(toJson(github.event.commits), '[import]')
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Commit messages are untrusted input: pass them through env, never into the script text.
+          COMMITS: ${{ toJson(github.event.commits) }}
         run: |
           COUNT="${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.import_count) || '' }}"
           if [ -z "$COUNT" ]; then
-            MSG="${{ toJson(github.event.commits) }}"
+            MSG="$COMMITS"
             MATCH=$(echo "$MSG" | grep -oE '\[import:([0-9]+)\]' | grep -oE '[0-9]+' | head -n 1 || true)
             COUNT="${MATCH:-5}"
           fi

@@ -31,8 +31,14 @@ const write = (rel, content) => {
 
 /* ---------- assets with content hashes (cached forever) ---------- */
 const hash = s => crypto.createHash('sha256').update(s).digest('hex').slice(0, 10);
-const minCss = s => s.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}').trim();
-const minJs = s => s.replace(/^\s*\/\/.*$/gm, '').replace(/^\s+/gm, '').replace(/\n{2,}/g, '\n');
+// Quoted strings are matched first and copied unchanged, so spaces or "/*" inside a string survive.
+const minCss = s => s.replace(/("(?:[^"\\\n]|\\.)*"|'(?:[^'\\\n]|\\.)*')|\/\*[\s\S]*?\*\/|\s*([{};,>])\s*|\s+/g,
+  (m, str, punct) => str ?? punct ?? (m.startsWith('/*') ? '' : ' ')).trim();
+// Stripping indentation would change text inside a multi-line template literal, so refuse those instead.
+const minJs = s => {
+  if (/`[^`]*\n[^`]*`/.test(s)) throw new Error('minJs: a template literal spans several lines; keep it on one line');
+  return s.replace(/^\s*\/\/.*$/gm, '').replace(/^\s+/gm, '').replace(/\n{2,}/g, '\n');
+};
 const assets = {};
 for (const [key, file, min] of [['css', 'site.css', minCss], ['app', 'app.js', minJs], ['play', 'play.js', minJs], ['demo', 'demo.js', minJs]]) {
   const src = min(fs.readFileSync(path.join(ROOT, 'src/assets', file), 'utf8'));

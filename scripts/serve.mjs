@@ -12,7 +12,7 @@ const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 
 http.createServer((req, res) => {
   const url = decodeURIComponent(new URL(req.url, 'http://x').pathname);
   let f = path.join(DIST, url);
-  if (!f.startsWith(DIST)) { res.writeHead(400); return res.end(); }
+  if (f !== DIST && !f.startsWith(DIST + path.sep)) { res.writeHead(400); return res.end(); }
   if (fs.existsSync(f) && fs.statSync(f).isDirectory()) {
     if (!url.endsWith('/')) { res.writeHead(308, { Location: url + '/' }); return res.end(); }
     f = path.join(f, 'index.html');
@@ -21,4 +21,4 @@ http.createServer((req, res) => {
   if (!fs.existsSync(f)) { status = 404; f = path.join(DIST, '404.html'); }
   res.writeHead(status, { 'Content-Type': TYPES[path.extname(f)] || 'application/octet-stream' });
   fs.createReadStream(f).pipe(res);
-}).listen(PORT, () => console.log(`Serving dist/ on http://localhost:${PORT}`));
+}).listen(PORT, '127.0.0.1', () => console.log(`Serving dist/ on http://localhost:${PORT}`));
