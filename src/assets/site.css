@@ -1002,3 +1002,21 @@ html:not(.js) .js-only{display:none!important}
 .cr-btn{min-height:36px;padding:0 13px;font-size:12px}
 .hs .tile .nm,.grid .tile .nm{font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 }
+
+/* Phones: every slider uses the same card size. Two cards show in full and the third is cut in half, so swiping always reveals more. */
+@media(max-width:599px){
+:root{--mcard:calc((100vw - 40px) / 2.5)}
+.car-track.latest{gap:12px}
+.hs .tile,.car-track.latest .tile,.live .lv,.catrow.cv1 .hs .tile,.catrow.cv2 .hs .tile,.catrow.cv3 .hs .tile{width:var(--mcard)!important;max-width:none!important;flex:none}
+.catrow .hs .tile:first-child,.car-track.latest .tile:first-child{width:var(--mcard)!important;aspect-ratio:auto}
+.hs .tile img,.car-track.latest .tile img,.catrow .hs .tile img{aspect-ratio:1!important;height:auto;border-radius:16px}
+.catrow.cv2 .hs .tile{position:relative;overflow:visible;border-radius:0}
+.catrow.cv2 .hs .tile .nm{position:static!important;background:none!important;color:var(--ink);padding:6px 2px 0!important;font-size:13px!important}
+.car-track.latest .tile{aspect-ratio:auto;border-radius:0;box-shadow:none}
+.car-track.latest .tile img{border-radius:16px;box-shadow:0 10px 20px -12px rgba(10,6,34,.5)}
+.car-track.latest .tile .nm{font-size:13px;padding:0;background:none;position:static;color:var(--ink);margin-top:6px}
+.car-track.latest .tile .nm small{display:none}
+.car-track.latest .tile .hot{top:6px;left:6px}
+.live .lv{aspect-ratio:1}
+.live .lv .lb b{font-size:13px}
+}
