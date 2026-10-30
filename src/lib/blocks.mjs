@@ -87,6 +87,10 @@ export const champSection = m => {
   return `<section class="sec" aria-labelledby="s-champ"><div class="sec-h"><div><h2 id="s-champ">Category champions</h2><p class="sub">The top-rated game in every category.</p></div></div><div class="champs">${champs.map(({ c, g }) => `<a class="champ" href="${g.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}"><span class="champ-img">${img(g, '', false, '(min-width: 1000px) 240px, 45vw')}</span><span class="champ-b"><small>${c.emoji} ${esc(c.name)}</small><b>${esc(g.name)}</b></span></a>`).join('')}</div></section>`;
 };
 
+// A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
+export const carousel = (cls, inner) =>
+  `<div class="car"><button class="car-btn car-prev" type="button" aria-label="Scroll left"><span aria-hidden="true">‹</span></button><div class="car-track ${cls}">${inner}</div><button class="car-btn car-next" type="button" aria-label="Scroll right"><span aria-hidden="true">›</span></button></div>`;
+
 export const floaters = list => list.slice(0, 3).map(g => `<span class="fl2" aria-hidden="true">${g.emoji}</span>`).join('');
 
 // Structured data helpers

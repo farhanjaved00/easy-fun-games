@@ -196,13 +196,23 @@ button.chip{font-family:inherit}
 .live::-webkit-scrollbar{display:none}
 .lv{position:relative;flex:none;width:78vw;max-width:320px;scroll-snap-align:start;border-radius:22px;overflow:hidden;aspect-ratio:4/3;background:#171335;box-shadow:var(--shadow);display:block;color:#fff;transition:transform .18s,box-shadow .18s}
 .lv:hover{transform:translateY(-4px);box-shadow:var(--glow)}
-/* Bento layout: the #1 game is a large tile, the rest fill the grid around it */
-@media(min-width:700px){.live{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;margin:0;padding:0;gap:14px}.lv{width:auto;max-width:none}.lv.first{grid-column:span 2}}
-@media(min-width:1000px){.live{grid-template-columns:repeat(4,minmax(0,1fr))}.lv.first{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}.lv.first .lb b{font-size:24px}.lv.first .lb small{font-size:14px}}
+/* Popular: one compact row of cards on every screen, scrolled with the arrows */
+@media(min-width:700px){.live{margin:0;padding:4px 4px 14px;gap:16px}.lv{width:250px;max-width:none}}
 .lv .lrk{position:absolute;top:10px;left:10px;z-index:1;background:rgba(10,6,34,.7);backdrop-filter:blur(4px);color:#fff;font:800 12px var(--display);padding:3px 9px;border-radius:999px}
-.lv.first .lrk{background:var(--sun);color:#2B1D00;font-size:14px;padding:4px 12px}
-/* Small bento tiles are narrow: the title gets the full width and the Play pill is dropped (the hover badge still shows). */
-@media(min-width:1000px){.lv:not(.first) .pb{display:none}.lv:not(.first) .lb{padding:30px 12px 10px}}
+.lv .pb{display:none}
+@media(min-width:700px){.lv .lb{padding:30px 12px 10px}}
+
+/* Arrow buttons for every carousel row. They show on mouse screens; touch screens just swipe. */
+.car{position:relative}
+.car-btn{display:none;position:absolute;top:50%;z-index:4;transform:translateY(-50%);width:46px;height:46px;border:0;border-radius:50%;background:#fff;color:#1A1340;font-size:30px;line-height:1;align-items:center;justify-content:center;box-shadow:0 10px 24px -8px rgba(10,6,34,.45);cursor:pointer;transition:transform .18s,opacity .18s}
+.car-btn span{display:block;transform:translateY(-2px)}
+.car-btn:hover{transform:translateY(-50%) scale(1.08)}
+.car-btn:focus-visible{outline:3px solid var(--mint);outline-offset:3px}
+.car-btn:disabled{opacity:.3;cursor:default;transform:translateY(-50%)}
+.car-prev{left:-14px}
+.car-next{right:-14px}
+@media(min-width:700px) and (hover:hover){.js .car-btn{display:flex}}
+.car-track{scroll-behavior:smooth}
 /* Category rows: each one takes its category colours and emoji, so no two rows look alike */
 .catrow{margin-bottom:40px}
 .cr-head{position:relative;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:18px 20px;border-radius:24px;color:#fff;background:linear-gradient(120deg,var(--a),var(--b));box-shadow:var(--shadow);overflow:hidden;isolation:isolate;margin-bottom:16px}
@@ -277,8 +287,8 @@ button.chip{font-family:inherit}
 .allgames{text-align:center;margin:-10px 0 34px}
 .allgames a{color:var(--pri);font-weight:700;min-height:44px;display:inline-flex;align-items:center}
 /* Play badge appears over any game tile on hover (not for the "+ More" tile) */
-.tile:not(.more)::before{content:"▶";position:absolute;left:50%;top:50%;z-index:2;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:#032B20;font-size:18px;padding-left:4px;box-sizing:border-box;transform:translate(-50%,-50%) scale(.6);opacity:0;pointer-events:none;box-shadow:0 10px 26px rgba(0,200,150,.45);transition:opacity .18s,transform .18s}
-.tile:not(.more):hover::before{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.tile:not(.more)::before,.lv::before{content:"▶";position:absolute;left:50%;top:50%;z-index:2;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:#032B20;font-size:18px;padding-left:4px;box-sizing:border-box;transform:translate(-50%,-50%) scale(.6);opacity:0;pointer-events:none;box-shadow:0 10px 26px rgba(0,200,150,.45);transition:opacity .18s,transform .18s}
+.tile:not(.more):hover::before,.lv:hover::before{opacity:1;transform:translate(-50%,-50%) scale(1)}
 @media(prefers-reduced-motion:reduce){.tile:not(.more)::before{transition:none}}
 .lv canvas{position:absolute;inset:0;width:100%;height:100%}
 .lv .lb{position:absolute;left:0;right:0;bottom:0;padding:30px 14px 12px;background:linear-gradient(0deg,rgba(10,6,34,.9),transparent);display:flex;align-items:center;justify-content:space-between;gap:8px}

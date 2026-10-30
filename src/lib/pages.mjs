@@ -2,7 +2,7 @@
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
-import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, champSection, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
+import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, champSection, carousel, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
 const HOME_FAQ = [
   { q: 'Are the games on EasyGameFun free?', a: 'Yes. Every game is free to play in your browser. There is nothing to download and no account to create.' },
@@ -24,13 +24,13 @@ export function home(m) {
 
   // One row per category, most played first. Games can appear here and in the sections above: a category row is a browse path, not a list of new games.
   // Each row is themed with its category colours and emoji, and its first game is shown larger.
-  const catRows = m.cats.map((c, i) => `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div><div class="hs">${c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join('')}</div></section>`).join('');
+  const catRows = m.cats.map((c, i) => `<section class="sec catrow cv${i % 4}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a><span class="cr-fl" aria-hidden="true">${c.emoji}</span></div>${carousel('hs', c.games.slice(0, 12).map((g, i) => tile(g, i === 0 ? 'wd' : '')).join(''))}</section>`).join('');
 
   const body = `<section class="tops" aria-labelledby="h1"><div class="tops-h"><h1 id="h1">Latest free online games</h1><span class="tops-s"><i class="live-dot"></i>${N} free games · new every day · no download</span></div>
 <div class="mosaic">${top.map((g, i) => tile(g, '', { eager: i < 3 })).join('')}</div></section>
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 ${moodSection(m)}
-${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div><div class="live">${popular.map((g, i) => `<a class="lv${i === 0 ? ' first' : ''}" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, i === 0 ? '(min-width: 1000px) 540px, 92vw' : '(min-width: 700px) 320px, 78vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join('')}</div></section>` : ''}
+${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div>${carousel('live', popular.map((g, i) => `<a class="lv" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, '(min-width: 700px) 260px, 70vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join(''))}</section>` : ''}
 ${champSection(m)}
 <div id="personal"></div>
 ${catRows}

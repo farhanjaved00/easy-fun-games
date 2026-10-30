@@ -210,6 +210,19 @@
     });
   }
 
+  /* ---------- carousels: arrow buttons scroll their row, disabled at each end ---------- */
+  $$('.car').forEach(function (car) {
+    var track = $('.car-track', car), prev = $('.car-prev', car), next = $('.car-next', car);
+    if (!track) return;
+    var paint = function () { prev.disabled = track.scrollLeft <= 4; next.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - 4; };
+    var step = function (dir) { track.scrollBy({ left: dir * track.clientWidth * 0.8, behavior: reduced ? 'auto' : 'smooth' }); };
+    prev.onclick = function () { step(-1); };
+    next.onclick = function () { step(1); };
+    track.addEventListener('scroll', paint, { passive: true });
+    addEventListener('resize', paint);
+    paint();
+  });
+
   /* ---------- search page ---------- */
   var results = $('#results');
   if (results) {
