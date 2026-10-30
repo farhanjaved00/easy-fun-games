@@ -1030,3 +1030,9 @@ html:not(.js) .js-only{display:none!important}
 
 /* Phones: every slider card is the same size: two full cards and a half */
 @media(max-width:599px){:root{--msmall:calc((100vw - 40px) / 2.5)}}
+
+/* Phones: every slider picture has the same rounded corners, including the featured first game and wide category rows */
+@media(max-width:599px){
+.hs .tile img,.car-track.latest .tile img,.catrow.cv2 .hs .tile img,.catrow .hs .tile.wd img{border-radius:16px!important}
+.catrow.cv2 .hs .tile{border-radius:0}
+}
