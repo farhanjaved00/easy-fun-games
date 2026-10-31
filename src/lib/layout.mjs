@@ -45,7 +45,7 @@ function sideHTML(m, key) {
 
 function megaHTML(m) {
   return `<div class="mega-in"><div><h3>Browse by category</h3><div class="mega-cats">${m.cats.map(c => `<a class="mc" href="${c.url}"><i style="background:linear-gradient(135deg,${c.colors[0]},${c.colors[1]})">${c.emoji}</i><span><b>${esc(c.name)}</b><span>${c.games.length} games</span></span></a>`).join('')}</div></div>` +
-    `<div><h3>Most played right now</h3>${m.trending.slice(0, 3).map(g => `<a class="rowl" href="${g.url}"><span class="tile" style="display:block">${img(g)}</span><span><b>${esc(g.name)}</b><span class="s">${esc(g.cat.name)}</span></span></a>`).join('')}</div></div>`;
+    `<div><h3>Most played right now</h3>${m.trending.slice(0, 3).map(g => `<a class="rowl" href="${g.url}"><span class="tile" style="display:block">${img(g, '', false, '180px', true)}</span><span><b>${esc(g.name)}</b><span class="s">${esc(g.cat.name)}</span></span></a>`).join('')}</div></div>`;
 }
 
 function footHTML(m) {

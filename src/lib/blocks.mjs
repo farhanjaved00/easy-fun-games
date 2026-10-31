@@ -16,9 +16,9 @@ export const sortTile = (g, v = '') => tile(g, v, {
 });
 
 export const wcard = (g, rank) =>
-  `<a class="wcard" href="${g.url}"><span class="wt">${img(g)}${rank ? `<span class="rk">#${rank}</span>` : ''}</span><span class="wb"><span class="cs">${esc(g.cat.name)}</span><b>${esc(g.name)}</b><span class="wdsc">${esc(g.description)}</span><span class="wm">${esc(g.tags.slice(0, 3).join(' · '))}</span></span></a>`;
+  `<a class="wcard" href="${g.url}"><span class="wt">${img(g, '', false, '180px', true)}${rank ? `<span class="rk">#${rank}</span>` : ''}</span><span class="wb"><span class="cs">${esc(g.cat.name)}</span><b>${esc(g.name)}</b><span class="wdsc">${esc(g.description)}</span><span class="wm">${esc(g.tags.slice(0, 3).join(' · '))}</span></span></a>`;
 
-export const rowl = g => `<a class="rowl" href="${g.url}"><span class="tile" style="display:block">${img(g)}</span><span><b>${esc(g.name)}</b><span class="s">${esc(g.cat.name)} · ${esc(g.tags.slice(0, 2).join(', '))}</span></span></a>`;
+export const rowl = g => `<a class="rowl" href="${g.url}"><span class="tile" style="display:block">${img(g, '', false, '180px', true)}</span><span><b>${esc(g.name)}</b><span class="s">${esc(g.cat.name)} · ${esc(g.tags.slice(0, 2).join(', '))}</span></span></a>`;
 
 const secHead = (id, title, link, sub) =>
   `<div class="sec-h"><div><h2 id="${id}">${esc(title)}</h2>${sub ? `<p class="sub">${esc(sub)}</p>` : ''}</div>${link ? `<a href="${link}" aria-label="See all: ${esc(title)}">See all</a>` : ''}</div>`;
@@ -77,7 +77,7 @@ export const moodSection = m => {
   if (!moods.length) return '';
   return `<section class="sec" aria-labelledby="s-mood"><div class="sec-h"><div><h2 id="s-mood">Pick your mood</h2><p class="sub">Not sure what to play? Start with how you feel.</p></div></div><div class="moods">${moods.map((md, i) => {
     const lead = md.cats[0], picks = md.cats.flatMap(c => c.games).slice(0, 3);
-    return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px')).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span></a>`;
+    return `<a class="mood mv${i % 3}" href="${lead.url}" style="--a:${lead.colors[0]};--b:${lead.colors[1]}"><span class="mood-fan" aria-hidden="true">${picks.map(g => img(g, '', false, '120px', true)).join('')}</span><span class="mood-t"><i aria-hidden="true">${md.emoji}</i><b>${esc(md.title)}</b><span>${esc(md.sub)}</span></span></a>`;
   }).join('')}</div></section>`;
 };
 // A horizontal row with previous/next arrows. app.js scrolls the track; the arrows only show on mouse screens.
