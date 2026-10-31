@@ -274,6 +274,24 @@
     if (!q0) sq.focus({ preventScroll: true });
   }
 
+  /* ---------- 3D background: a perspective floor and tumbling shapes behind the page (phones get fewer shapes) ---------- */
+  if (!reduced) {
+    var scene = document.createElement('div');
+    scene.className = 'bg3d';
+    scene.setAttribute('aria-hidden', 'true');
+    scene.innerHTML = '<div class="bgfloor"></div>';
+    var palette = [['#6C4DFF', '#2F9BFF'], ['#00C896', '#2F9BFF'], ['#FF3F6C', '#FFB800'], ['#FFB800', '#FF3F6C'], ['#2F9BFF', '#6C4DFF']];
+    var count = matchMedia('(max-width:699px)').matches ? 7 : 16;
+    for (var i = 0; i < count; i++) {
+      var sh = document.createElement('i');
+      var c = palette[i % palette.length];
+      sh.className = 'bgs';
+      sh.style.cssText = '--x:' + (Math.random() * 96).toFixed(1) + '%;--y:' + (Math.random() * 90).toFixed(1) + '%;--s:' + (26 + Math.round(Math.random() * 70)) + 'px;--r:' + (i % 3 === 0 ? '50%' : (10 + (i % 4) * 4) + 'px') + ';--c1:' + c[0] + ';--c2:' + c[1] + ';--t:' + (14 + Math.random() * 14).toFixed(1) + 's;--dl:-' + (Math.random() * 20).toFixed(1) + 's';
+      scene.appendChild(sh);
+    }
+    document.body.insertBefore(scene, document.body.firstChild);
+  }
+
   /* ---------- card reveal: cards fade and rise in as they scroll into view ---------- */
   var cards = $$('.tile, .lv, .mt, .wcard, .coll, .mood');
   if (!reduced && 'IntersectionObserver' in window && cards.length) {

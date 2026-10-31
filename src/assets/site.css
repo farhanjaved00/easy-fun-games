@@ -1007,17 +1007,20 @@ html:not(.js) .js-only{display:none!important}
 @keyframes egf-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
 @media(prefers-reduced-motion:reduce){.tile .hot,.tile::after,.lv::after{animation:none;display:none}.rv,.rv:not(.in){transition:none;opacity:1;transform:none;filter:none}.tile:active,.lv:active,.mt:active{transform:none}}
 
-/* Gaming background: a slowly moving neon grid with two drifting colour glows, behind all content. Light and dark themes. */
-:root{--grid:rgba(108,77,255,.2);--glowa:rgba(0,200,150,.28);--glowb:rgba(255,63,108,.22)}
-:root[data-theme="dark"],:root:not([data-theme="light"]){--grid:rgba(139,108,255,.26)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--glowa:rgba(0,200,150,.14);--glowb:rgba(255,63,108,.12)}}
-:root[data-theme="dark"]{--glowa:rgba(0,200,150,.14);--glowb:rgba(255,63,108,.12)}
+/* 3D gaming background: a perspective neon floor, floating glowing shapes that tumble in depth, and two drifting colour glows. Fixed behind all content. Light and dark themes. */
+:root{--grid:rgba(108,77,255,.34);--glowa:rgba(0,200,150,.26);--glowb:rgba(255,63,108,.2)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--grid:rgba(139,108,255,.34);--glowa:rgba(0,200,150,.16);--glowb:rgba(255,63,108,.14)}}
+:root[data-theme="dark"]{--grid:rgba(139,108,255,.34);--glowa:rgba(0,200,150,.16);--glowb:rgba(255,63,108,.14)}
 body{position:relative;isolation:isolate}
-body::before{content:"";position:fixed;inset:-48px;z-index:-2;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:linear-gradient(to bottom,#000 0%,transparent 75%);mask-image:linear-gradient(to bottom,#000 0%,transparent 75%);animation:egf-grid 12s linear infinite}
-body::after{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background:radial-gradient(40vw 40vw at 12% 8%,var(--glowa),transparent 70%),radial-gradient(36vw 36vw at 92% 30%,var(--glowb),transparent 70%);animation:egf-drift 18s ease-in-out infinite alternate}
-@keyframes egf-grid{to{background-position:48px 48px}}
+body::after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;background:radial-gradient(40vw 40vw at 12% 8%,var(--glowa),transparent 70%),radial-gradient(36vw 36vw at 92% 30%,var(--glowb),transparent 70%);animation:egf-drift 18s ease-in-out infinite alternate}
 @keyframes egf-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(-3vw,4vh,0)}}
-@media(prefers-reduced-motion:reduce){body::before,body::after{animation:none}}
+.bg3d{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden;perspective:900px;perspective-origin:50% 40%}
+.bg3d .bgfloor{position:absolute;left:-60%;width:220%;bottom:-18%;height:80%;transform:rotateX(64deg);transform-origin:50% 100%;background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:64px 64px;-webkit-mask-image:linear-gradient(to top,#000 15%,transparent 80%);mask-image:linear-gradient(to top,#000 15%,transparent 80%);animation:egf-floor 3.2s linear infinite}
+@keyframes egf-floor{to{background-position:0 64px}}
+.bg3d .bgs{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);border-radius:var(--r);background:linear-gradient(135deg,var(--c1),var(--c2));box-shadow:0 0 34px -2px var(--c1);opacity:.78;transform-style:preserve-3d;animation:egf-tumble var(--t) ease-in-out infinite;animation-delay:var(--dl)}
+@keyframes egf-tumble{0%{transform:translate3d(0,0,0) rotateX(0) rotateY(0)}50%{transform:translate3d(18px,-34px,140px) rotateX(180deg) rotateY(100deg)}100%{transform:translate3d(0,0,0) rotateX(360deg) rotateY(360deg)}}
+@media(max-width:699px){.bg3d .bgfloor{height:60%}}
+@media(prefers-reduced-motion:reduce){body::after,.bg3d .bgfloor,.bg3d .bgs{animation:none}.bg3d{display:none}}
 
 /* Gaming card feel: a neon ring and a pop on hover, and cards "power on" as they arrive */
 .tile:not(.more):hover,.lv:hover{box-shadow:0 0 0 2px rgba(0,200,150,.85),0 0 26px -2px rgba(0,200,150,.55),0 16px 34px -14px rgba(108,77,255,.6)}
