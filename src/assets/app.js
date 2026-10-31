@@ -274,6 +274,23 @@
     if (!q0) sq.focus({ preventScroll: true });
   }
 
+  /* ---------- card reveal: cards fade and rise in as they scroll into view ---------- */
+  var cards = $$('.tile, .lv, .mt, .wcard, .coll, .mood');
+  if (!reduced && 'IntersectionObserver' in window && cards.length) {
+    var io = new IntersectionObserver(function (entries) {
+      var batch = entries.filter(function (en) { return en.isIntersecting; });
+      batch.forEach(function (en, i) {
+        var el = en.target;
+        io.unobserve(el);
+        el.style.transitionDelay = (i % 6) * 70 + 'ms';
+        el.classList.add('in');
+        // Once the entrance has played, drop the reveal classes so hover transitions stay snappy.
+        setTimeout(function () { el.classList.remove('rv', 'in'); el.style.transitionDelay = ''; }, 1000);
+      });
+    }, { rootMargin: '0px 0px -40px 0px', threshold: 0.12 });
+    cards.forEach(function (el) { el.classList.add('rv'); io.observe(el); });
+  }
+
   /* ---------- saved page ---------- */
   var favBox = $('#favlist');
   if (favBox) {
