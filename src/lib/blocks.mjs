@@ -92,7 +92,7 @@ export const mosaic = (title, list) => {
   const cards = [[], []];
   list.forEach((g, i) => cards[i % 2].push(g));
   const card = (g, k, col) => `<a class="mt ${k % 2 === col ? 'tall' : 'short'}" href="${g.url}" aria-label="${esc(g.name)}">${img(g, '', false, '50vw')}</a>`;
-  return `<section class="sec mosaic m-only" aria-labelledby="s-mos"><div class="sec-h"><div><h2 id="s-mos">${esc(title)}</h2></div></div><div class="mos">${cards.map((col, c) => `<div class="mc">${col.map((g, k) => card(g, k, c)).join('')}</div>`).join('')}</div></section>`;
+  return `<section class="sec mosaic m-only" aria-labelledby="s-mos"><div class="sec-h"><div><h2 id="s-mos">${esc(title)}</h2></div></div><div class="mos">${cards.map((col, c) => `<div class="mos-col">${col.map((g, k) => card(g, k, c)).join('')}</div>`).join('')}</div></section>`;
 };
 
 // A closing card for each category row: it links to the whole category, so short rows still look full.

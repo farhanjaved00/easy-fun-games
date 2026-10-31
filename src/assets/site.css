@@ -1039,7 +1039,7 @@ html:not(.js) .js-only{display:none!important}
 
 /* Phone mosaic: two columns of picture-only cards that alternate tall and square (phones only) */
 .mos{display:flex;gap:8px}
-.mc{flex:1;min-width:0}
+.mos-col{display:flex;flex-direction:column;flex:1;min-width:0}
 .mt{position:relative;display:block;border-radius:16px;overflow:hidden;background:#e9e6f5;margin-bottom:8px;box-shadow:0 8px 16px -10px rgba(10,6,34,.5)}
 .mt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .mt.tall{aspect-ratio:3/4}
