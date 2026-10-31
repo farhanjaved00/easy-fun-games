@@ -118,7 +118,7 @@ if (staticAds) {
 if (adsParts.length) {
   write('/ads.txt', adsParts.join('\n\n') + '\n');
 }
-write('/robots.txt', `User-agent: *\nAllow: /\n${site.indexing ? `\nSitemap: ${B}/sitemap.xml\n` : ''}`);
+write('/robots.txt', `User-agent: *\nAllow: /\n\n# AI assistants and AI search fetch pages when a user asks about them, so they are allowed too.\nUser-agent: ChatGPT-User\nUser-agent: OAI-SearchBot\nUser-agent: Claude-User\nUser-agent: Claude-SearchBot\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nAllow: /\n${site.indexing ? `\nSitemap: ${B}/sitemap.xml\n` : ''}`);
 if (site.indexNowKey) write(`/${site.indexNowKey}.txt`, site.indexNowKey);
 
 /* ---------- Cloudflare Pages: _headers and _redirects ---------- */
