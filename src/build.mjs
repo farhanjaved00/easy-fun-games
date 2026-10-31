@@ -168,6 +168,8 @@ const redirects = [
   '/cat/:slug /category/:slug/ 301',
   '/dmca /copyright/ 301',
   '/dmca/ /copyright/ 301',
+  '/privacy-policy /privacy/ 301',
+  '/privacy-policy/ /privacy/ 301',
   '/collections /cats/#collections 301',
   '/collections/ /cats/#collections 301',
   '# Removed games (data/removed.json)',
