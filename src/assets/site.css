@@ -1005,7 +1005,7 @@ html:not(.js) .js-only{display:none!important}
 .mt:hover img,.wcard:hover .wt img{transform:scale(1.06)}
 .tile .hot{animation:egf-pulse 2.4s ease-in-out infinite}
 @keyframes egf-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
-@media(prefers-reduced-motion:reduce){.tile .hot,.tile::after,.lv::after{animation:none;display:none}.rv,.rv:not(.in){transition:none;opacity:1;transform:none;filter:none}.tile:active,.lv:active,.mt:active{transform:none}}
+@media(prefers-reduced-motion:reduce){.tile .hot,.tile::after,.lv::after{animation:none;display:none}.rv,.rv:not(.in){transition:none;opacity:1;transform:none}.tile:active,.lv:active,.mt:active{transform:none}}
 
 /* 3D gaming background: a perspective neon floor, floating glowing shapes that tumble in depth, and two drifting colour glows. Fixed behind all content. Light and dark themes. */
 :root{--grid:rgba(108,77,255,.34);--glowa:rgba(0,200,150,.26);--glowb:rgba(255,63,108,.2)}
@@ -1015,8 +1015,8 @@ body{position:relative;isolation:isolate}
 body::after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;background:radial-gradient(40vw 40vw at 12% 8%,var(--glowa),transparent 70%),radial-gradient(36vw 36vw at 92% 30%,var(--glowb),transparent 70%);animation:egf-drift 18s ease-in-out infinite alternate}
 @keyframes egf-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(-3vw,4vh,0)}}
 .bg3d{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden;perspective:900px;perspective-origin:50% 40%}
-.bg3d .bgfloor{position:absolute;left:-60%;width:220%;bottom:-18%;height:80%;transform:rotateX(64deg);transform-origin:50% 100%;background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:64px 64px;-webkit-mask-image:linear-gradient(to top,#000 15%,transparent 80%);mask-image:linear-gradient(to top,#000 15%,transparent 80%);animation:egf-floor 3.2s linear infinite}
-@keyframes egf-floor{to{background-position:0 64px}}
+.bg3d .bgfloor{position:absolute;left:-60%;width:220%;bottom:-18%;height:80%;transform:rotateX(64deg);transform-origin:50% 100%;will-change:transform;background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:64px 64px;-webkit-mask-image:linear-gradient(to top,#000 15%,transparent 80%);mask-image:linear-gradient(to top,#000 15%,transparent 80%);animation:egf-floor 1.6s linear infinite}
+@keyframes egf-floor{to{transform:rotateX(64deg) translateY(64px)}}
 .bg3d .bgs{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);border-radius:var(--r);background:linear-gradient(135deg,var(--c1),var(--c2));box-shadow:0 0 34px -2px var(--c1);opacity:.78;transform-style:preserve-3d;animation:egf-tumble var(--t) ease-in-out infinite;animation-delay:var(--dl)}
 @keyframes egf-tumble{0%{transform:translate3d(0,0,0) rotateX(0) rotateY(0)}50%{transform:translate3d(18px,-34px,140px) rotateX(180deg) rotateY(100deg)}100%{transform:translate3d(0,0,0) rotateX(360deg) rotateY(360deg)}}
 @media(max-width:699px){.bg3d .bgfloor{height:60%}}
@@ -1026,6 +1026,6 @@ body::after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;bac
 .tile:not(.more):hover,.lv:hover{box-shadow:0 0 0 2px rgba(0,200,150,.85),0 0 26px -2px rgba(0,200,150,.55),0 16px 34px -14px rgba(108,77,255,.6)}
 .tile:not(.more):hover::before{animation:egf-pop .5s ease-out}
 @keyframes egf-pop{0%{transform:translate(-50%,-50%) scale(.4)}60%{transform:translate(-50%,-50%) scale(1.15)}100%{transform:translate(-50%,-50%) scale(1)}}
-.rv:not(.in){opacity:0;transform:translateY(22px) scale(.9);filter:saturate(0) brightness(1.5)}
-.rv{transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1),filter .55s ease}
+.rv:not(.in){opacity:0;transform:translateY(22px) scale(.9)}
+.rv{transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1)}
 @media(prefers-reduced-motion:reduce){.tile:not(.more):hover::before{animation:none}}
