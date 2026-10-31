@@ -87,6 +87,14 @@ export const spotRow = c => {
   return `<section class="sec catrow cv2 cspot m-only" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-labelledby="cr-${c.slug}-m"><div class="cr-head"><span class="cr-ico" aria-hidden="true">${c.emoji}</span><div class="cr-txt"><h2 id="cr-${c.slug}-m">${esc(gamesOf(c))}</h2><p>${c.games.length} free games · most played first</p></div><a class="cr-btn" href="${c.url}" aria-label="See all: ${esc(gamesOf(c))}">See all ${c.games.length} →</a></div><a class="cs-feat" href="${g.url}">${img(g, '', false, '(min-width: 700px) 720px, 100vw')}<span class="cs-info"><span class="cs-cat">${c.emoji} ${esc(c.name)}</span><b>${esc(g.name)}</b></span><span class="cs-play">▶ Play</span></a><div class="cs-grid">${c.games.slice(1, 7).map(x => tile(x)).join('')}</div></section>`;
 };
 
+// Phone mosaic: two columns of picture-only cards that alternate tall and square, like a short-video grid. Phones only.
+export const mosaic = (title, list) => {
+  const cards = [[], []];
+  list.forEach((g, i) => cards[i % 2].push(g));
+  const card = (g, k, col) => `<a class="mt ${k % 2 === col ? 'tall' : 'short'}" href="${g.url}" aria-label="${esc(g.name)}">${img(g, '', false, '50vw')}</a>`;
+  return `<section class="sec mosaic m-only" aria-labelledby="s-mos"><div class="sec-h"><div><h2 id="s-mos">${esc(title)}</h2></div></div><div class="mos">${cards.map((col, c) => `<div class="mc">${col.map((g, k) => card(g, k, c)).join('')}</div>`).join('')}</div></section>`;
+};
+
 // A closing card for each category row: it links to the whole category, so short rows still look full.
 export const seeAllTile = c =>
   `<a class="tile more cr-more" href="${c.url}" style="--a:${c.colors[0]};--b:${c.colors[1]}" aria-label="See all: ${esc(gamesOf(c))}"><span aria-hidden="true">${c.emoji}</span><b>See all ${c.games.length}</b><small aria-hidden="true">→</small></a>`;

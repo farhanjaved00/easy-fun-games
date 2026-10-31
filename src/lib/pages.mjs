@@ -2,7 +2,7 @@
 import { esc, chunk, fitDesc, fitTitle, fmtDate, gamesOf, gamesOfLower, GamesOf, shortCat } from './util.mjs';
 import { img, BIG } from './layout.mjs';
 import { HINT } from './data.mjs';
-import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, carousel, seeAllTile, spotRow, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
+import { tile, sortTile, wcard, rowl, row, wrow, crumbs, faqHTML, pager, hofBlock, collSection, moodSection, carousel, seeAllTile, spotRow, mosaic, relatedCats, floaters, crumbLD, faqLD, listLD } from './blocks.mjs';
 
 const HOME_FAQ = [
   { q: 'Are the games on EasyGameFun free?', a: 'Yes. Every game is free to play in your browser. There is nothing to download and no account to create.' },
@@ -21,6 +21,7 @@ export function home(m) {
   // The newest games fill the first view as a swipeable row.
   const top = take(m.newest, 12);
   const popular = take(m.trending, 9);
+  const mos = take(m.games, 8);
 
   // One row per category, most played first. Games can appear here and in the sections above: a category row is a browse path, not a list of new games.
   // Each row is themed with its category colours and emoji, and its first game is shown larger.
@@ -32,6 +33,7 @@ ${carousel('latest', top.map((g, i) => tile(g, '', { eager: i < 3 })).join(''))}
 <nav class="quick" aria-label="Browse categories">${m.cats.map(c => `<a href="${c.url}">${c.emoji} ${esc(c.name)}</a>`).join('')}<a href="/new/">🆕 New</a><a href="/trending/">🔥 Trending</a><a href="/best/">🏆 Best ever</a></nav>
 ${moodSection(m)}
 ${popular.length ? `<section class="sec" aria-labelledby="s-live"><div class="sec-h"><div><h2 id="s-live">Popular right now</h2><p class="sub">The most played games this week. Tap any card to play.</p></div><a href="/trending/">See all</a></div>${carousel('live', popular.map((g, i) => `<a class="lv" href="${g.url}"><span class="lrk" aria-hidden="true">#${i + 1}</span>${img(g, '', false, '(min-width: 700px) 260px, 70vw')}<span class="lb"><span><b>${esc(g.name)}</b><small>${esc(g.cat.name)}</small></span><span class="pb">Play ▶</span></span></a>`).join(''))}</section>` : ''}
+${mos.length >= 4 ? mosaic('More games to play', mos) : ''}
 <div id="personal"></div>
 ${catRows}
 <p class="allgames"><a href="/games/">Browse all ${N} games A to Z →</a></p>` +
