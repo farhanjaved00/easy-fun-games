@@ -12138,5 +12138,547 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-italian-brainrot-candy",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/2cn100spis7wdmmk99cwt4gpgjjmddj6/",
+    "embedUrl": "https://html5.gamemonetize.co/2cn100spis7wdmmk99cwt4gpgjjmddj6/",
+    "slug": "italian-brainrot-candy",
+    "name": "Italian Brainrot Candy",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot",
+      "Candy",
+      "Match-3"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-candy-3ef4a2ab.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-candy-3ef4a2ab.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-31"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-31",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-31",
+    "publishedAt": "2026-10-31T03:21:46.288Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Match identical candy blocks in Italian Brainrot Candy to gain seconds and keep the timer from hitting zero.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Candy free in your browser. Match identical candy blocks to earn one extra second per match and keep the timer running.",
+      "about": "Italian Brainrot Candy is a timed puzzle game built around quick matches and a ticking clock. Your mission is to find candy blocks that are the same and match them before time runs out. Every successful match gives you one extra second, so the timer is always part of the challenge. The goal is to keep the round going as long as you can by making steady, accurate matches. If the clock reaches zero, the game ends.\nA round is fast, simple, and easy to understand. You click or tap to play, scan the board for identical blocks, and choose matches quickly enough to stay ahead of the timer. What makes it tricky is the pressure: each move can save you, but hesitation lets the clock slip away. It is a good pick when you want a short puzzle challenge with clear rules and constant action. Italian Brainrot Candy plays free in the browser, with no complex controls to learn.",
+      "highlights": [
+        "Match identical blocks to earn extra time",
+        "Each successful match adds one second",
+        "Run out of time and the round ends",
+        "Simple mouse click or tap controls",
+        "Candy-themed brainrot puzzle play"
+      ],
+      "goodFor": "Italian Brainrot Candy is good for players who like quick puzzle rounds and timed matching challenges. It suits anyone who enjoys spotting patterns fast while the clock is ticking.",
+      "howToPlay": "Click or tap identical blocks to match them. Every successful match adds one second to the timer, helping you stay in the round longer. Keep matching before time runs out, because zero time means game over.",
+      "touchHint": "Tap matching blocks to play",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Play on touch screens"
+      ],
+      "tips": [
+        "Find the easiest identical blocks first so you can add time right away.",
+        "Keep making matches instead of waiting for a perfect move; each match gives one second.",
+        "Watch the timer after every match so you know when to speed up.",
+        "Scan nearby blocks in groups to spot identical pieces faster."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Candy free to play?",
+          "a": "Yes. Italian Brainrot Candy is free to play in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Candy on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer, or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Candy?",
+          "a": "The goal is to match identical blocks and keep the timer from reaching zero. Each match gives you one extra second."
+        },
+        {
+          "q": "What happens when time runs out?",
+          "a": "When the timer reaches zero, the round ends and it is game over."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot Candy?",
+          "a": "The controls are simple: click with the mouse or tap the screen to play."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-hangman",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/sobqjvkty29son7ydz6w63m8g3ws6zmz/",
+    "embedUrl": "https://html5.gamemonetize.co/sobqjvkty29son7ydz6w63m8g3ws6zmz/",
+    "slug": "italian-brainrot-hangman",
+    "name": "Italian Brainrot Hangman",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Brainrot",
+      "Hangman",
+      "Memory",
+      "Clicker"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-hangman-fcb95f64.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-hangman-fcb95f64.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-31"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-31",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-31",
+    "publishedAt": "2026-10-31T03:22:43.250Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Guess the right letters to reveal Italian brainrot characters before the classic hangman puzzle catches you.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Hangman free online. Guess letters to reveal Italian brainrot characters in a classic hangman puzzle using click or tap controls.",
+      "about": "Italian Brainrot Hangman is a word puzzle about guessing Italian brainrot character names one letter at a time. The game features characters such as tung tung tung sahur, tralaleo tralala, and more. Your job is to work out which character is hidden in each Hangman puzzle by choosing letters and using the clues you uncover. It is simple to start, but each wrong guess adds pressure as the hangman gets closer to being completed.\nA round plays like classic Hangman. Click or tap a letter, check whether it belongs in the hidden answer, then use the revealed letters to make smarter guesses. The fun comes from mixing memory with letter logic: you need to remember the strange character names while also avoiding random guesses. Italian Brainrot Hangman plays free in the browser, so you can start a puzzle right away on a computer or with taps on a phone.",
+      "highlights": [
+        "Classic Hangman puzzles with Italian brainrot names",
+        "Guess characters by choosing letters",
+        "Includes tung tung tung sahur and tralaleo tralala",
+        "Click or tap controls",
+        "Free browser play"
+      ],
+      "goodFor": "Italian Brainrot Hangman is good for players who like word puzzles, memory games, and quick guessing challenges. It is also a fun pick if you know the brainrot character names and want to test yourself.",
+      "howToPlay": "Choose letters to fill in the hidden character name. Correct letters reveal part of the answer, while wrong letters move the hangman closer to being completed. Win by guessing the full Italian brainrot character before you run out of chances.",
+      "touchHint": "Tap letters to make guesses",
+      "keys": [
+        "Click: Choose letters",
+        "Tap: Choose letters"
+      ],
+      "tips": [
+        "Start with common letters so you can reveal useful parts of the name early.",
+        "Use any revealed letters to narrow down which brainrot character it could be.",
+        "Think of the character names shown in the game, such as tung tung tung sahur and tralaleo tralala.",
+        "Avoid tapping random letters too fast, because wrong guesses push the hangman closer to completion."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Hangman free to play?",
+          "a": "Yes. Italian Brainrot Hangman is free to play in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Hangman on a phone or computer?",
+          "a": "Yes. You can click letters on a computer or tap letters on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Italian Brainrot Hangman?",
+          "a": "The goal is to guess the hidden Italian brainrot character by choosing letters. You need to solve the name before the hangman is completed."
+        },
+        {
+          "q": "What characters are in Italian Brainrot Hangman?",
+          "a": "The game includes Italian brainrot characters such as tung tung tung sahur, tralaleo tralala, and more."
+        },
+        {
+          "q": "What are the controls for Italian Brainrot Hangman?",
+          "a": "Click or tap the letters to make guesses and solve the Hangman puzzle."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-italian-brainrot-jigsaw",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/iqe59vreso052ox8usa4ihjc486e1p7h/",
+    "embedUrl": "https://html5.gamemonetize.co/iqe59vreso052ox8usa4ihjc486e1p7h/",
+    "slug": "italian-brainrot-jigsaw",
+    "name": "Italian Brainrot Jigsaw",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Jigsaw",
+      "Kids",
+      "Skill"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/italian-brainrot-jigsaw-9d3775b0.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/italian-brainrot-jigsaw-9d3775b0.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-31"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-31",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-31",
+    "publishedAt": "2026-10-31T03:23:46.286Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Pick a meme picture, choose a piece count, and rebuild each funny brainrot jigsaw as fast as you can.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Italian Brainrot Jigsaw free in your browser. Choose from 15 meme pictures, pick 16, 36, 64, or 100 pieces, and finish each puzzle fast.",
+      "about": "Italian Brainrot Jigsaw is a funny puzzle game built around meme character pictures. You choose from 15 different images, then pick how many pieces you want in your jigsaw. The four size options are 16, 36, 64, and 100 pieces, so you can start small or make the puzzle much harder. The goal is simple: rebuild the full picture and try to finish in the shortest time you can.\nEach round begins with a picture choice and a piece-count choice. Smaller puzzles are good for quick play, while 64 and 100 pieces ask for more focus because the image is split into many more parts. The fun comes from spotting colors, shapes, and character details, then fitting the image back together piece by piece. Italian Brainrot Jigsaw plays free in the browser and uses simple mouse clicks or taps, so it is easy to start on a computer or touch screen.",
+      "highlights": [
+        "15 meme character images to solve",
+        "Four puzzle sizes: 16, 36, 64, and 100 pieces",
+        "Simple mouse click or tap controls",
+        "Try to complete each jigsaw as fast as possible",
+        "Funny brainrot puzzle theme"
+      ],
+      "goodFor": "Good for players who like light puzzle challenges and funny meme images. It also suits anyone who wants a quick jigsaw or a harder 100-piece round.",
+      "howToPlay": "Choose one of the 15 pictures, then select a puzzle size: 16, 36, 64, or 100 pieces. Use mouse clicks or taps to play and put the image back together. Complete the jigsaw in the shortest time possible.",
+      "touchHint": "Tap pieces to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Start with 16 pieces if you want to learn the picture before trying harder modes.",
+        "Choose an image with details you can remember, such as clear colors or character parts.",
+        "Look for corners and straight edges first to build a helpful frame.",
+        "On 64 or 100 pieces, work on one color area or character detail at a time."
+      ],
+      "faq": [
+        {
+          "q": "Is Italian Brainrot Jigsaw free to play?",
+          "a": "Yes. Italian Brainrot Jigsaw is free to play in your browser."
+        },
+        {
+          "q": "Can I play Italian Brainrot Jigsaw on a phone or computer?",
+          "a": "Yes. The controls are mouse click or tap, so you can play on a computer or on a touch screen."
+        },
+        {
+          "q": "How many pictures are in Italian Brainrot Jigsaw?",
+          "a": "There are 15 images to choose from, each using funny meme character artwork."
+        },
+        {
+          "q": "What puzzle sizes can I choose?",
+          "a": "You can play with 16, 36, 64, or 100 pieces. Smaller puzzles are quicker, while 100 pieces gives the hardest challenge."
+        },
+        {
+          "q": "What is the goal of Italian Brainrot Jigsaw?",
+          "a": "Pick a picture, complete the jigsaw, and try to finish it in the shortest time possible."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-escape-incredibox-2025",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/mev1cmxyqm5qhwqx3o7n492uogheg5mu/",
+    "embedUrl": "https://html5.gamemonetize.co/mev1cmxyqm5qhwqx3o7n492uogheg5mu/",
+    "slug": "sprunki-escape-incredibox-2025",
+    "name": "Sprunki Escape Incredibox 2025",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": true,
+    "tags": [
+      "Puzzle",
+      "Horror",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-escape-incredibox-2025-324899af.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-escape-incredibox-2025-324899af.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-31"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-31",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-31",
+    "publishedAt": "2026-10-31T03:24:56.841Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Search a dark Sprunki nightmare, collect every item, and escape before the terror catches up.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Escape Incredibox 2025 free in your browser. Move with WADS, grab items with Space, and escape the Sprunki nightmare after finding every item.",
+      "about": "Sprunki Escape Incredibox 2025 is a horror puzzle game about getting out of a nightmare ruled by Sprunki. Your goal is simple but tense: find all the required items before you can escape. The setting is built around terror, danger, and a never-ending nightmare mood. Because the game uses mature horror content, it is not made for young children. It is a better fit for players who want a darker escape challenge with pressure from the start.\nEach round is about careful searching and quick item pickup. Move through the area with WADS, watch out for the Sprunki threat, and press Space when you reach an item. The tricky part is that escaping is not enough on its own; you must find every item first. That makes each search important and keeps the tension high as you decide where to go next. Sprunki Escape Incredibox 2025 plays free in the browser with simple keyboard controls.",
+      "highlights": [
+        "Horror puzzle built around Sprunki terror",
+        "Find every item before you escape",
+        "Nightmare theme with mature horror content",
+        "Keyboard controls for moving and grabbing items"
+      ],
+      "goodFor": "This game is for players who like tense escape puzzles with a scary theme. It fits best if you enjoy searching for items while staying alert under pressure.",
+      "howToPlay": "Move through the nightmare area and search for every item needed to escape. Grab items with Space, then keep looking until you have found them all. Your goal is to escape while avoiding the Sprunki terror.",
+      "touchHint": "Use WADS to move and Space to grab",
+      "keys": [
+        "WADS: Move",
+        "Space: Grab item"
+      ],
+      "tips": [
+        "Do not rush straight to the escape; you need all items first.",
+        "Press Space when you reach an item so you do not miss the pickup.",
+        "Search each area fully before moving on to avoid backtracking later.",
+        "Keep moving when the Sprunki threat is near instead of stopping to look around."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Escape Incredibox 2025 free to play?",
+          "a": "Yes. You can play Sprunki Escape Incredibox 2025 free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Escape Incredibox 2025 on a phone or computer?",
+          "a": "It plays in the browser. The listed controls are keyboard controls, with WADS to move and Space to grab items, so a computer keyboard is the clear setup."
+        },
+        {
+          "q": "What is the goal in Sprunki Escape Incredibox 2025?",
+          "a": "Your goal is to find all items before you escape the Sprunki nightmare. You need to collect everything required before heading out."
+        },
+        {
+          "q": "What are the controls for Sprunki Escape Incredibox 2025?",
+          "a": "Use WADS to move. Press Space to grab an item."
+        },
+        {
+          "q": "Is Sprunki Escape Incredibox 2025 scary?",
+          "a": "Yes. The game uses horror, terror, and nightmare themes, with mature content that is not meant for young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-huggy-mix-sprunki-music-box",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ux6olppc9bzt99yfoz8bn5ufwmibh5sh/",
+    "embedUrl": "https://html5.gamemonetize.co/ux6olppc9bzt99yfoz8bn5ufwmibh5sh/",
+    "slug": "huggy-mix-sprunki-music-box",
+    "name": "Huggy Mix Sprunki Music Box",
+    "mainKeyword": "sprunki",
+    "category": "rhythm",
+    "mature": false,
+    "tags": [
+      "Music",
+      "Rhythm",
+      "Sprunki",
+      "Hypercasual"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/huggy-mix-sprunki-music-box-4450eec9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/huggy-mix-sprunki-music-box-4450eec9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-10-31"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-10-31",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-10-31",
+    "publishedAt": "2026-10-31T03:25:56.038Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Tap to the beat, try three modes, and build your own tunes in Huggy Mix Sprunki Music Box.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Huggy Mix Sprunki Music Box free in your browser. Tap to the beat, try health, ice, and bad man modes, and create unique sprunki tunes.",
+      "about": "Huggy Mix Sprunki Music Box is a casual music and rhythm game built around quick taps and playful sound. The goal is simple: follow the beat, tap with the music, and shape a tune that feels like your own. The game has a bright, energetic feel and a sprunki style. You can choose from three modes: health, ice, and bad man. Each one gives you a different way to play with the music while keeping the controls easy.\nEach play session starts with a mouse click or a tap. Pick a mode, listen to the rhythm, and tap along as the music moves. The fun comes from staying with the beat while also trying to make a tune that matches your style. It is easy to start, but clean timing matters if you want the music to feel smooth. Huggy Mix Sprunki Music Box plays free in your browser, so you can start a quick music session without extra setup.",
+      "highlights": [
+        "Music and rhythm gameplay with simple tapping",
+        "Three modes: health, ice, and bad man",
+        "Create unique tunes that match your style",
+        "Mouse click or tap controls",
+        "Free browser play with quick sessions"
+      ],
+      "goodFor": "Huggy Mix Sprunki Music Box is good for players who enjoy music games, simple controls, and quick casual play. It is also a nice pick if you like experimenting with rhythm and making your own tunes.",
+      "howToPlay": "Choose one of the three modes, then click or tap to play along with the music. Follow the beat and use your timing to build a tune that feels smooth and personal.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Play on touchscreen"
+      ],
+      "tips": [
+        "Start with one mode and get used to its rhythm before switching to another.",
+        "Listen for the beat first, then tap instead of clicking at random.",
+        "Use short, steady taps to keep the tune feeling clean.",
+        "Try all three modes to find the sound and pace you enjoy most."
+      ],
+      "faq": [
+        {
+          "q": "Is Huggy Mix Sprunki Music Box free to play?",
+          "a": "Yes. Huggy Mix Sprunki Music Box is free to play in your browser."
+        },
+        {
+          "q": "Can I play Huggy Mix Sprunki Music Box on a phone or computer?",
+          "a": "Yes. You can play with a mouse click on a computer or tap on a touchscreen."
+        },
+        {
+          "q": "What is the goal of Huggy Mix Sprunki Music Box?",
+          "a": "The goal is to follow the beat, tap along with the music, and create a tune that reflects your style."
+        },
+        {
+          "q": "What modes are in Huggy Mix Sprunki Music Box?",
+          "a": "The game has three modes: health, ice, and bad man."
+        },
+        {
+          "q": "What are the controls for Huggy Mix Sprunki Music Box?",
+          "a": "Use a mouse click or tap to play. The controls are simple and built around timing with the music."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

@@ -11,6 +11,11 @@
       "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
       "at": "2026-10-26"
     },
+    "60069": {
+      "status": "imported",
+      "slug": "sprunki-escape-incredibox-2025",
+      "at": "2026-10-31"
+    },
     "60184": {
       "status": "imported",
       "slug": "sprunki-backroom-terrors-skibidi-toilet",
@@ -40,6 +45,11 @@
       "status": "imported",
       "slug": "squid-game-x-sprunki-anomaly",
       "at": "2026-10-28"
+    },
+    "61033": {
+      "status": "imported",
+      "slug": "huggy-mix-sprunki-music-box",
+      "at": "2026-10-31"
     },
     "61147": {
       "status": "imported",
@@ -76,6 +86,11 @@
       "slug": "tung-tung-sahur-coloring-book",
       "at": "2026-10-29"
     },
+    "65432": {
+      "status": "imported",
+      "slug": "italian-brainrot-jigsaw",
+      "at": "2026-10-31"
+    },
     "65846": {
       "status": "imported",
       "slug": "italian-brainrot-3d-puzzle",
@@ -91,10 +106,20 @@
       "slug": "battle-tung-tung-sahur-2player",
       "at": "2026-10-25"
     },
+    "65921": {
+      "status": "imported",
+      "slug": "italian-brainrot-hangman",
+      "at": "2026-10-31"
+    },
     "65995": {
       "status": "imported",
       "slug": "italian-brainrot-coloring-pages",
       "at": "2026-10-24"
+    },
+    "66241": {
+      "status": "imported",
+      "slug": "italian-brainrot-candy",
+      "at": "2026-10-31"
     },
     "66290": {
       "status": "imported",
@@ -480,6 +505,31 @@
       "status": "imported",
       "slug": "italian-brainrot-hunter",
       "at": "2026-10-30"
+    },
+    "https://html5.gamemonetize.co/2cn100spis7wdmmk99cwt4gpgjjmddj6/": {
+      "status": "imported",
+      "slug": "italian-brainrot-candy",
+      "at": "2026-10-31"
+    },
+    "https://html5.gamemonetize.co/sobqjvkty29son7ydz6w63m8g3ws6zmz/": {
+      "status": "imported",
+      "slug": "italian-brainrot-hangman",
+      "at": "2026-10-31"
+    },
+    "https://html5.gamemonetize.co/iqe59vreso052ox8usa4ihjc486e1p7h/": {
+      "status": "imported",
+      "slug": "italian-brainrot-jigsaw",
+      "at": "2026-10-31"
+    },
+    "https://html5.gamemonetize.co/mev1cmxyqm5qhwqx3o7n492uogheg5mu/": {
+      "status": "imported",
+      "slug": "sprunki-escape-incredibox-2025",
+      "at": "2026-10-31"
+    },
+    "https://html5.gamemonetize.co/ux6olppc9bzt99yfoz8bn5ufwmibh5sh/": {
+      "status": "imported",
+      "slug": "huggy-mix-sprunki-music-box",
+      "at": "2026-10-31"
     }
   }
 }
