@@ -6,7 +6,7 @@ const badge = g => (g.featured ? '<span class="hot">Hot</span>' : g.isNew ? '<sp
 
 // Game tile. v: '' | 'big' | 'xl' | 'wd'. attrs adds data-* used by client-side sorting.
 export const tile = (g, v = '', { eager = false, attrs = '' } = {}) =>
-  `<a class="tile${v ? ' ' + v : ''}" href="${g.url}"${attrs}>${img(g, '', eager, v === 'xl' || v === 'big' ? '(min-width: 700px) 360px, 92vw' : v === 'wd' ? '(min-width: 700px) 360px, 92vw' : '(min-width: 600px) 170px, 136px')}` +
+  `<a class="tile${v ? ' ' + v : ''}" href="${g.url}"${attrs}>${img(g, '', eager, v === 'xl' || v === 'big' ? '(min-width: 700px) 360px, 92vw' : v === 'wd' ? '(min-width: 700px) 360px, 92vw' : '(min-width: 600px) 170px, 136px', v === '')}` +
   `${v === 'xl' ? '<span class="xl-badge">⭐ Editor\'s pick</span>' : badge(g)}` +
   `<span class="nm">${esc(g.name)}<small>${esc(g.cat.name)}</small>${v === 'xl' ? `<span class="xd">${esc(g.description)}</span><span class="xb">▶ Play now</span>` : ''}</span></a>`;
 
@@ -91,7 +91,7 @@ export const spotRow = c => {
 export const mosaic = (title, list) => {
   const cards = [[], []];
   list.forEach((g, i) => cards[i % 2].push(g));
-  const card = (g, k, col) => `<a class="mt ${k % 2 === col ? 'tall' : 'short'}" href="${g.url}" aria-label="${esc(g.name)}">${img(g, '', false, '50vw')}</a>`;
+  const card = (g, k, col) => `<a class="mt ${k % 2 === col ? 'tall' : 'short'}" href="${g.url}" aria-label="${esc(g.name)}">${img(g, '', false, '50vw', true)}</a>`;
   return `<section class="sec mosaic m-only" aria-labelledby="s-mos"><div class="sec-h"><div><h2 id="s-mos">${esc(title)}</h2></div></div><div class="mos">${cards.map((col, c) => `<div class="mos-col">${col.map((g, k) => card(g, k, c)).join('')}</div>`).join('')}</div></section>`;
 };
 

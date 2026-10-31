@@ -10,9 +10,10 @@ const SEARCH_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11"
 
 // sizes: how wide the image is shown. Small tiles get the 320px copy; big images can pick the original.
 export const BIG = '(min-width: 900px) 520px, 92vw';
-export const img = (g, cls = '', eager = false, sizes = '180px') => {
+// single: use only the small copy (tiles and the phone mosaic never need the full-size image).
+export const img = (g, cls = '', eager = false, sizes = '180px', single = false) => {
   const t = g.thumb, sm = t.small;
-  const src = sm ? `src="${esc(sm.url)}" srcset="${esc(sm.url)} ${sm.width}w, ${esc(t.url)} ${t.width}w" sizes="${sizes}"` : `src="${esc(t.url)}"`;
+  const src = sm && single ? `src="${esc(sm.url)}"` : sm ? `src="${esc(sm.url)}" srcset="${esc(sm.url)} ${sm.width}w, ${esc(t.url)} ${t.width}w" sizes="${sizes}"` : `src="${esc(t.url)}"`;
   const w = sm ? sm.width : t.width, h = sm ? sm.height : t.height;
   return `<img${cls ? ` class="${cls}"` : ''} ${src} alt="" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
 };
