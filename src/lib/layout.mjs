@@ -94,7 +94,7 @@ ${p.keywords ? `<meta name="keywords" content="${esc(p.keywords)}">\n` : ''}<met
 <meta name="publisher" content="EasyGameFun">
 ${p.path === null ? '' : `<link rel="canonical" href="${esc(url)}">\n`}<meta name="theme-color" content="#0A0918" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F4F5FF" media="(prefers-color-scheme: light)">
-${site.adsense?.client ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(site.adsense.client)}" crossorigin="anonymous"></script>\n` : ''}${p.path === '/' && site.verify?.pinterest ? `<meta name="p:domain_verify" content="${esc(site.verify.pinterest)}">\n` : ''}
+${p.path === '/' && site.verify?.pinterest ? `<meta name="p:domain_verify" content="${esc(site.verify.pinterest)}">\n` : ''}
 <meta property="og:site_name" content="EasyGameFun">
 <meta property="og:type" content="${p.ogType || 'website'}">
 <meta property="og:title" content="${esc(p.title)}">
@@ -110,7 +110,7 @@ ${p.path === null ? '' : `<meta property="og:url" content="${esc(url)}">\n`}<met
 <script>${INLINE_BOOT}</script>
 <script src="${assets.app}" defer></script>
 ${(p.scripts || []).map(s => `<script src="${s}" defer></script>`).join('\n')}${ld.length ? `<script type="application/ld+json">${ldJson(ld.length === 1 ? ld[0] : ld)}</script>\n` : ''}</head>
-<body${p.bodyAttrs ? ' ' + p.bodyAttrs : ''}>
+<body${p.bodyAttrs ? ' ' + p.bodyAttrs : ''}${site.adsense?.client ? ` data-adsense="${esc(site.adsense.client)}"` : ''}>
 <a class="skip" href="#view">Skip to main content</a>
 <div id="bar" aria-hidden="true"></div>
 ${site.indexing ? '' : '<div class="preview">Preview site. The games shown are samples while we get ready to launch.</div>\n'}${m.promo ? `<div class="promo" id="promo"><span>${esc(m.promo.text)} <a href="${esc(m.promo.link)}">${esc(m.promo.linkText)}</a></span><button class="js-only" id="promoX" aria-label="Dismiss announcement">✕</button></div>\n` : ''}<header class="top"><div class="top-in">

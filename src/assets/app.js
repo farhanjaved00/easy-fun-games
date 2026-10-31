@@ -309,6 +309,17 @@
     cards.forEach(function (el) { el.classList.add('rv'); io.observe(el); });
   }
 
+  /* ---------- ads: load the ad script only after the page has finished loading, so it never competes with the content ---------- */
+  window.addEventListener('load', function () {
+    var client = document.body.getAttribute('data-adsense');
+    if (!client) return;
+    var s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+    document.head.appendChild(s);
+  });
+
   /* ---------- saved page ---------- */
   var favBox = $('#favlist');
   if (favBox) {
