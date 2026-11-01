@@ -21,6 +21,16 @@
       "slug": "sprunki-backroom-terrors-skibidi-toilet",
       "at": "2026-10-28"
     },
+    "60420": {
+      "status": "imported",
+      "slug": "sprunki-jigsaw-puzzle-for-kids",
+      "at": "2026-11-01"
+    },
+    "60804": {
+      "status": "imported",
+      "slug": "squid-sprunki-mingle-game-2",
+      "at": "2026-11-01"
+    },
     "60811": {
       "status": "imported",
       "slug": "squid-sprunki-shooter-game-2",
@@ -100,6 +110,11 @@
       "status": "imported",
       "slug": "italian-brainrot-tung-tung-quiz",
       "at": "2026-10-22"
+    },
+    "65885": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-zombie",
+      "at": "2026-11-01"
     },
     "65911": {
       "status": "imported",
@@ -231,6 +246,11 @@
       "slug": "brainrot-mob-clash-3d",
       "at": "2026-10-25"
     },
+    "73687": {
+      "status": "imported",
+      "slug": "obby-99-nights-escape-1-speed",
+      "at": "2026-11-01"
+    },
     "74347": {
       "status": "imported",
       "slug": "brainrot-bridge-race-3d",
@@ -265,6 +285,11 @@
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-zomby",
       "at": "2026-10-29"
+    },
+    "86558": {
+      "status": "imported",
+      "slug": "brainrot-mega-parkour",
+      "at": "2026-11-01"
     },
     "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/": {
       "status": "imported",
@@ -530,6 +555,31 @@
       "status": "imported",
       "slug": "huggy-mix-sprunki-music-box",
       "at": "2026-10-31"
+    },
+    "https://html5.gamemonetize.co/fmh7edobnjho9ogrs11102mtqn96kq5m/": {
+      "status": "imported",
+      "slug": "sprunki-jigsaw-puzzle-for-kids",
+      "at": "2026-11-01"
+    },
+    "https://html5.gamemonetize.co/k1eahl1b9wxc6vqzxloqtvfzh5ai9csw/": {
+      "status": "imported",
+      "slug": "obby-99-nights-escape-1-speed",
+      "at": "2026-11-01"
+    },
+    "https://html5.gamemonetize.co/r9yx8ulb0fn1r6orzjwafrgclw9as23o/": {
+      "status": "imported",
+      "slug": "brainrot-mega-parkour",
+      "at": "2026-11-01"
+    },
+    "https://html5.gamemonetize.co/9e0dmqixqwds3g3y1vpuxjwaseq7yetu/": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-zombie",
+      "at": "2026-11-01"
+    },
+    "https://html5.gamemonetize.co/5pkjuxddhqw9165ijnvbv3klqd5nehwp/": {
+      "status": "imported",
+      "slug": "squid-sprunki-mingle-game-2",
+      "at": "2026-11-01"
     }
   }
 }

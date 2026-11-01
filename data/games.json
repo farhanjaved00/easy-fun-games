@@ -12680,5 +12680,552 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-jigsaw-puzzle-for-kids",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/fmh7edobnjho9ogrs11102mtqn96kq5m/",
+    "embedUrl": "https://html5.gamemonetize.co/fmh7edobnjho9ogrs11102mtqn96kq5m/",
+    "slug": "sprunki-jigsaw-puzzle-for-kids",
+    "name": "Sprunki Jigsaw Puzzle for Kids",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Cartoon",
+      "Jigsaw",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-jigsaw-puzzle-for-kids-8e87cee4.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-jigsaw-puzzle-for-kids-8e87cee4.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-01"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-01",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-01",
+    "publishedAt": "2026-11-01T03:21:47.810Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 67,
+    "description": "Solve Sprunki jigsaw puzzles by fitting cartoon character and scene pieces together at your own difficulty.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Jigsaw Puzzle for Kids free in your browser. Fit cartoon Sprunki character and scene pieces with adjustable difficulty for puzzle challenge.",
+      "about": "Sprunki Jigsaw Puzzle for Kids is a cartoon jigsaw game built around the quirky Sprunki world. Each puzzle shows colorful characters or scenes, and your goal is to put the picture back together piece by piece. Adjustable difficulty lets you make the puzzle easier or more challenging, so it works well for a relaxed break, a family puzzle session, or a brain exercise. The game is meant for kids, families, and puzzle fans who enjoy unique cartoon art.\nA round is simple to start: use a mouse click or tap to play, then look for pieces that belong together and rebuild the image. The fun comes from spotting shapes, colors, and character details as the puzzle changes with the difficulty you choose. It is easy to learn, but harder settings ask for more patience and careful looking. You can play it free in the browser at home or on the go.",
+      "highlights": [
+        "Cartoon jigsaw puzzles with Sprunki characters and scenes",
+        "Adjustable difficulty for easier or tougher puzzles",
+        "Mouse clicks and taps are both supported",
+        "Brain-teasing play focused on problem solving"
+      ],
+      "goodFor": "It suits players who enjoy calm jigsaw puzzles, cartoon scenes, and choosing their own challenge level. Families can also use it for a simple shared puzzle break.",
+      "howToPlay": "Pick a Sprunki jigsaw and set a difficulty that feels right. Click or tap pieces and fit them together until the cartoon character or scene is complete. Finish the full picture to complete the puzzle.",
+      "touchHint": "Tap the puzzle pieces to play",
+      "keys": [
+        "Mouse: Click to play",
+        "Touchscreen: Tap to play"
+      ],
+      "tips": [
+        "Start with an easier difficulty if you want to learn the picture before trying a tougher version.",
+        "Use character details and bright colors to find pieces that likely belong in the same area.",
+        "Build small groups of matching pieces first, then connect those groups into the full scene.",
+        "If a puzzle feels too slow, lower the difficulty and come back to the harder setting later."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Jigsaw Puzzle for Kids free to play?",
+          "a": "Yes. You can play Sprunki Jigsaw Puzzle for Kids free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Jigsaw Puzzle for Kids on a phone or computer?",
+          "a": "Yes. Use taps on a phone or other touchscreen, or click with a mouse on a computer."
+        },
+        {
+          "q": "What is the goal of Sprunki Jigsaw Puzzle for Kids?",
+          "a": "The goal is to complete each Sprunki cartoon picture by fitting the jigsaw pieces together."
+        },
+        {
+          "q": "Does Sprunki Jigsaw Puzzle for Kids have difficulty levels?",
+          "a": "Yes. The game has adjustable difficulty, so you can choose an easier or more challenging puzzle."
+        },
+        {
+          "q": "What controls do I need?",
+          "a": "You only need a mouse click or a tap to play."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-obby-99-nights-escape-1-speed",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/k1eahl1b9wxc6vqzxloqtvfzh5ai9csw/",
+    "embedUrl": "https://html5.gamemonetize.co/k1eahl1b9wxc6vqzxloqtvfzh5ai9csw/",
+    "slug": "obby-99-nights-escape-1-speed",
+    "name": "Obby: 99 Nights Escape +1 Speed",
+    "mainKeyword": "obby",
+    "category": "adventure",
+    "mature": true,
+    "tags": [
+      "Obby",
+      "Survival",
+      "Horror",
+      "Timing"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-99-nights-escape-1-speed-b722d237.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-99-nights-escape-1-speed-b722d237.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-01"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-01",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-01",
+    "publishedAt": "2026-11-01T03:22:52.035Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 66,
+    "description": "Run, jump, and upgrade your speed to survive 99 dangerous nights in a trap-filled forest obby.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby: 99 Nights Escape +1 Speed free in your browser and survive 99 dangerous nights with speed upgrades, traps, deer, and disappearing bridges.",
+      "about": "Obby: 99 Nights Escape +1 Speed is a horror-themed adventure obby set in a dangerous forest. Your goal is to live through all 99 nights and escape as each night adds more pressure. The forest throws different challenges at you, including raging deer, disappearing bridges, confusing labyrinths, traps, obstacles, and other surprises. You can improve your hero by upgrading speed and energy, collecting power-ups, training at special stations, and opening new areas.\nA round is about moving carefully, jumping at the right time, and reacting before enemies catch you or the path falls away. The challenge grows because enemies become faster and smarter as the nights continue, so upgrades matter as much as clean movement. It is fun if you like tense platform runs with chase moments and tricky paths. You can play it free in the browser on a computer or phone.",
+      "highlights": [
+        "Survive through 99 nights in a dangerous forest",
+        "Upgrade speed and energy to handle harder stages",
+        "Escape raging deer and smarter enemies",
+        "Cross disappearing bridges and maze-like paths",
+        "Collect power-ups and train at special stations"
+      ],
+      "goodFor": "Good for players who enjoy tense obby runs, timed jumps, and survival challenges. The horror theme and chase danger make it better for players who are comfortable with scary moments.",
+      "howToPlay": "Move through each night, jump over gaps, avoid traps, and keep away from enemies. Collect power-ups, use training stations, and upgrade speed and energy so you can survive harder nights. Win by making it through all 99 nights and escaping the forest.",
+      "touchHint": "Use on-screen buttons; drag to move the camera",
+      "keys": [
+        "WASD: Move",
+        "Mouse: Control camera",
+        "Space: Jump",
+        "On-screen buttons: Move on mobile",
+        "Drag: Control camera on mobile"
+      ],
+      "tips": [
+        "Upgrade speed and energy before pushing deeper into harder nights.",
+        "Look ahead with the camera before stepping onto disappearing bridges.",
+        "Grab power-ups when the path is clear, not while an enemy is right behind you.",
+        "In labyrinths, keep the camera steady and watch for traps, obstacles, and dead ends."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby: 99 Nights Escape +1 Speed free to play?",
+          "a": "Yes. You can play it free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Obby: 99 Nights Escape +1 Speed on a phone or computer?",
+          "a": "Yes. On computer, use WASD to move, the mouse for the camera, and Space to jump. On mobile, use the on-screen buttons and drag anywhere to control the camera."
+        },
+        {
+          "q": "What is the goal in Obby: 99 Nights Escape +1 Speed?",
+          "a": "The goal is to survive all 99 nights and escape the dangerous forest. Each night becomes harder as enemies get faster and smarter."
+        },
+        {
+          "q": "What upgrades are in the game?",
+          "a": "You can upgrade your hero’s speed and energy. You can also collect power-ups and train at special stations to improve your chances."
+        },
+        {
+          "q": "What kinds of obstacles are in the forest?",
+          "a": "You will face raging deer, disappearing bridges, confusing labyrinths, traps, obstacles, and forest surprises."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-mega-parkour",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/r9yx8ulb0fn1r6orzjwafrgclw9as23o/",
+    "embedUrl": "https://html5.gamemonetize.co/r9yx8ulb0fn1r6orzjwafrgclw9as23o/",
+    "slug": "brainrot-mega-parkour",
+    "name": "Brainrot Mega Parkour",
+    "mainKeyword": "brainrot",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "2 Player",
+      "Brainrot Italian",
+      "Platform"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-mega-parkour-56716900.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-mega-parkour-56716900.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-01"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-01",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-01",
+    "publishedAt": "2026-11-01T03:23:56.017Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 66,
+    "description": "Run, jump, and double jump through 40 wild brainrot parkour levels solo or with a friend.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Mega Parkour free in your browser and clear 40 handcrafted parkour levels with traps, lava chases, double jumps, and 2-player controls.",
+      "about": "Brainrot Mega Parkour is a fast platform adventure built around timing, movement, and quick reactions. You guide funny brainrot characters through 40 handcrafted parkour levels, either alone or with a second player on the same device. The game includes four intense modes, each with a different kind of pressure: climb an endless tower, cross trap-filled platforms, escape a rolling lava ball, or stay ahead of a rising lava flood.\nEach run is about reading the next obstacle, choosing when to sprint, and using jumps well. The double jump gives you a second chance in the air, but poor timing can still send you into danger. The fun comes from the speed and the variety of hazards, especially when two players are trying to survive side by side. Brainrot Mega Parkour plays free in the browser, with keyboard controls on computer and on-screen buttons on mobile.",
+      "highlights": [
+        "40 handcrafted parkour levels",
+        "Four modes with different hazards",
+        "Solo play or 2-player local play",
+        "Sprint, jump, and double jump controls",
+        "Mobile on-screen buttons"
+      ],
+      "goodFor": "Good for players who like fast platform challenges, trap courses, and quick restarts. It also fits friends who want a same-device 2-player parkour game.",
+      "howToPlay": "Move through each parkour level while avoiding traps, lava hazards, and falls. Use sprint for speed, jump to clear gaps, and double jump when you need extra height or a midair correction. Clear the course or survive the mode’s hazard to keep going.",
+      "touchHint": "Use the on-screen buttons to move, sprint, and jump",
+      "keys": [
+        "WASD: Move (Player 1)",
+        "Shift: Sprint (Player 1)",
+        "Space: Jump / double jump (Player 1)",
+        "Arrow keys: Move (Player 2)",
+        "K: Sprint (Player 2)",
+        "L: Jump / double jump (Player 2)"
+      ],
+      "tips": [
+        "Use sprint before wide gaps, but slow down when a platform is full of traps.",
+        "Save the double jump until you know your first jump will not reach safely.",
+        "In lava flood or lava ball sections, keep moving and avoid stopping to line up too long.",
+        "In 2-player runs, give each other space so one player’s mistake does not block the other."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Mega Parkour free to play?",
+          "a": "Yes. Brainrot Mega Parkour plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Mega Parkour on a phone or computer?",
+          "a": "Yes. On a computer, use the keyboard controls. On mobile, use the on-screen buttons."
+        },
+        {
+          "q": "How many levels are in Brainrot Mega Parkour?",
+          "a": "Brainrot Mega Parkour has 40 handcrafted parkour levels."
+        },
+        {
+          "q": "Does Brainrot Mega Parkour have 2-player controls?",
+          "a": "Yes. Player 1 uses WASD, Shift, and Space. Player 2 uses the arrow keys, K, and L."
+        },
+        {
+          "q": "What modes are in Brainrot Mega Parkour?",
+          "a": "The game includes four modes: an endless tower climb, trap platform runs, a rolling lava ball escape, and a lava flood survival challenge."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-zombie",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/9e0dmqixqwds3g3y1vpuxjwaseq7yetu/",
+    "embedUrl": "https://html5.gamemonetize.co/9e0dmqixqwds3g3y1vpuxjwaseq7yetu/",
+    "slug": "tung-tung-sahur-zombie",
+    "name": "Tung Tung Sahur Zombie",
+    "mainKeyword": "tung tung",
+    "category": "shooter",
+    "mature": true,
+    "tags": [
+      "Shooting",
+      "Arcade",
+      "Sahur",
+      "Zombie"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-zombie-85480b51.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-zombie-85480b51.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-01"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-01",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-01",
+    "publishedAt": "2026-11-01T03:24:54.470Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 66,
+    "description": "Shoot every zombie with direct shots and ricochets in a fast tung tung arcade challenge using careful aim.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Zombie free in your browser. Shoot all zombies with direct bullet hits and rebounds in a fast arcade challenge using careful aim.",
+      "about": "Tung Tung Sahur Zombie is an arcade shooter with a Sahur theme and a zombie target challenge. Your goal is simple: destroy every zombie as fast as you can. Bullets can take out zombies with clean direct hits, but the game also lets shots rebound, so aiming is not only about pointing straight at the target. The game includes shooting violence against zombies, so it is better for players who are comfortable with that kind of action.\nEach round is about reading the shot, clicking or tapping at the right moment, and using both straight bullets and bounced bullets to finish the job. The tricky part is choosing the angle that reaches a zombie quickly, especially when a rebound can do what a direct shot cannot. It is quick to understand, but careful aim matters if you want faster clears. Tung Tung Sahur Zombie plays free in the browser.",
+      "highlights": [
+        "Arcade shooter with a Sahur theme",
+        "Destroy all zombies as fast as possible",
+        "Use direct bullet hits and rebound shots",
+        "Mouse click or tap controls",
+        "Zombie shooting violence"
+      ],
+      "goodFor": "Good for players who like short arcade shooting challenges with simple controls. It is also a fit if you enjoy aiming shots and using ricochets to clear targets.",
+      "howToPlay": "Click or tap to fire at the zombies. Use direct hits when the path is clear, and use rebound shots when an angled bullet can reach a target. Clear all zombies as fast as possible.",
+      "touchHint": "Tap to shoot and aim your shot",
+      "keys": [
+        "Mouse click: Play / shoot",
+        "Tap: Play / shoot"
+      ],
+      "tips": [
+        "Look for the easiest direct shot first before trying a rebound.",
+        "Use rebound shots when a straight shot does not line up well.",
+        "Take a moment to set the angle, because one smart shot can save time.",
+        "If you miss, change the angle instead of repeating the same shot."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Zombie free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Zombie free in the browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Zombie on a phone or computer?",
+          "a": "Yes. The controls support mouse click or tap, so you can play on a computer or a touch screen."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Zombie?",
+          "a": "The goal is to destroy all the zombies as fast as possible using your bullets."
+        },
+        {
+          "q": "How do rebound shots work in Tung Tung Sahur Zombie?",
+          "a": "Bullets can hit zombies directly or reach them after a rebound. Use the bounce when a straight shot is not the best angle."
+        },
+        {
+          "q": "Does Tung Tung Sahur Zombie have mature content?",
+          "a": "Yes. The game is about shooting and destroying zombies, so it contains zombie violence."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-squid-sprunki-mingle-game-2",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/5pkjuxddhqw9165ijnvbv3klqd5nehwp/",
+    "embedUrl": "https://html5.gamemonetize.co/5pkjuxddhqw9165ijnvbv3klqd5nehwp/",
+    "slug": "squid-sprunki-mingle-game-2",
+    "name": "Squid Sprunki Mingle Game 2",
+    "mainKeyword": "sprunki",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Shooting",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/squid-sprunki-mingle-game-2-efda0732.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/squid-sprunki-mingle-game-2-efda0732.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-01"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-01",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-01",
+    "publishedAt": "2026-11-01T03:25:58.197Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 66,
+    "description": "Use the mouse to shoot every Sprunki and masked soldier as they move around the carousel in this arcade shooter.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Squid Sprunki Mingle Game 2 free in your browser. Use the mouse to aim and shoot Sprunki and masked soldiers around the carousel as they move.",
+      "about": "Squid Sprunki Mingle Game 2 is a simple action shooter built around one clear task: clear the carousel. Sprunki characters and masked soldiers move around the spinning play area, and your job is to shoot them all. The setting is compact, so the action stays focused on watching the crowd, finding each target, and clicking at the right time. There are no complex controls to learn, which makes the goal easy to understand right away.\nEach round is about aim, timing, and attention. The targets mingle around the carousel, so they can be harder to follow when they pass close together or move across your view. That simple setup is what makes the game tricky: you need to spot every Sprunki and soldier, choose clean shots, and keep scanning the whole circle until none are left. It plays free in the browser, and the mouse-only control style keeps the round fast and direct.",
+      "highlights": [
+        "Mouse-only shooting controls",
+        "Sprunki and masked soldier targets",
+        "Carousel setting with moving targets",
+        "Arcade action with a clear goal"
+      ],
+      "goodFor": "This game is a good fit for players who like quick arcade shooting with simple controls. It works best if you enjoy tracking moving targets and clearing them one by one.",
+      "howToPlay": "Move the mouse to aim at Sprunki characters and masked soldiers around the carousel. Click to shoot, and keep going until every target has been cleared.",
+      "touchHint": "Use a mouse to aim and shoot",
+      "keys": [
+        "Mouse: Aim and shoot"
+      ],
+      "tips": [
+        "Watch the carousel movement before clicking so you do not lose track of targets.",
+        "Clear targets one at a time instead of jumping randomly across the carousel.",
+        "Aim when a target is easier to see and not mixed into a tight group.",
+        "Scan the full circle so you do not miss a Sprunki or soldier near the edge."
+      ],
+      "faq": [
+        {
+          "q": "Is Squid Sprunki Mingle Game 2 free to play?",
+          "a": "Yes. Squid Sprunki Mingle Game 2 is free to play in your browser."
+        },
+        {
+          "q": "Can I play Squid Sprunki Mingle Game 2 on a phone or computer?",
+          "a": "The controls are mouse only, so a computer with a mouse is the best way to play. If your device can use mouse input in the browser, it should fit the controls."
+        },
+        {
+          "q": "What is the goal in Squid Sprunki Mingle Game 2?",
+          "a": "Your goal is to shoot all Sprunki characters and masked soldiers around the carousel."
+        },
+        {
+          "q": "What are the controls for Squid Sprunki Mingle Game 2?",
+          "a": "The game uses mouse-only controls. Use the mouse to aim and click to shoot."
+        },
+        {
+          "q": "What kind of game is Squid Sprunki Mingle Game 2?",
+          "a": "It is an arcade action shooter focused on clearing moving targets in a carousel scene."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
