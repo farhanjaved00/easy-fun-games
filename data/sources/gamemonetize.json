@@ -26,6 +26,11 @@
       "slug": "sprunki-jigsaw-puzzle-for-kids",
       "at": "2026-11-01"
     },
+    "60538": {
+      "status": "imported",
+      "slug": "squid-sprunki-slither-game-2",
+      "at": "2026-11-02"
+    },
     "60804": {
       "status": "imported",
       "slug": "squid-sprunki-mingle-game-2",
@@ -80,6 +85,11 @@
       "status": "imported",
       "slug": "when-sprunki-meet-squid-game",
       "at": "2026-10-27"
+    },
+    "63812": {
+      "status": "imported",
+      "slug": "sprunki-lava-escape-2player",
+      "at": "2026-11-02"
     },
     "65050": {
       "status": "imported",
@@ -231,6 +241,11 @@
       "slug": "mission-kill-italian-brainrot",
       "at": "2026-10-23"
     },
+    "69734": {
+      "status": "imported",
+      "slug": "brainrot-a-difference-challenge",
+      "at": "2026-11-02"
+    },
     "70807": {
       "status": "imported",
       "slug": "brainrot-click-to-hatch",
@@ -245,6 +260,11 @@
       "status": "imported",
       "slug": "brainrot-mob-clash-3d",
       "at": "2026-10-25"
+    },
+    "73593": {
+      "status": "imported",
+      "slug": "brainrot-sudoku",
+      "at": "2026-11-02"
     },
     "73687": {
       "status": "imported",
@@ -285,6 +305,11 @@
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-zomby",
       "at": "2026-10-29"
+    },
+    "86550": {
+      "status": "imported",
+      "slug": "sniper-for-brainrot",
+      "at": "2026-11-02"
     },
     "86558": {
       "status": "imported",
@@ -580,6 +605,31 @@
       "status": "imported",
       "slug": "squid-sprunki-mingle-game-2",
       "at": "2026-11-01"
+    },
+    "https://html5.gamemonetize.co/d3f35m0wn72drd61ymsl5l45w6a7s32e/": {
+      "status": "imported",
+      "slug": "squid-sprunki-slither-game-2",
+      "at": "2026-11-02"
+    },
+    "https://html5.gamemonetize.co/3rhhry4fhz3xu10bpj2w5drqgbq0c55f/": {
+      "status": "imported",
+      "slug": "brainrot-a-difference-challenge",
+      "at": "2026-11-02"
+    },
+    "https://html5.gamemonetize.co/nm9f14h5afstuwu8l4tywu40cita6cs0/": {
+      "status": "imported",
+      "slug": "sprunki-lava-escape-2player",
+      "at": "2026-11-02"
+    },
+    "https://html5.gamemonetize.co/j53hlgv0yydix86dgma96jh7kr2evypk/": {
+      "status": "imported",
+      "slug": "sniper-for-brainrot",
+      "at": "2026-11-02"
+    },
+    "https://html5.gamemonetize.co/lfc6qibeu2mqgn8zzjyee01ldhfpo0qu/": {
+      "status": "imported",
+      "slug": "brainrot-sudoku",
+      "at": "2026-11-02"
     }
   }
 }
