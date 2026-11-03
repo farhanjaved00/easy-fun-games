@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "48443": {
+      "status": "imported",
+      "slug": "nooby-and-obby-2-player",
+      "at": "2026-11-03"
+    },
     "59486": {
       "status": "imported",
       "slug": "sprunki-castle-panic-skibidi-toilet",
@@ -25,6 +30,11 @@
       "status": "imported",
       "slug": "sprunki-jigsaw-puzzle-for-kids",
       "at": "2026-11-01"
+    },
+    "60450": {
+      "status": "imported",
+      "slug": "sprunki-music-scary-beat-box",
+      "at": "2026-11-03"
     },
     "60538": {
       "status": "imported",
@@ -201,6 +211,11 @@
       "slug": "tung-sahur-italien-brainrot",
       "at": "2026-10-29"
     },
+    "68620": {
+      "status": "imported",
+      "slug": "brainrot-merge",
+      "at": "2026-11-03"
+    },
     "68787": {
       "status": "imported",
       "slug": "italian-brainrot-merge",
@@ -256,6 +271,11 @@
       "slug": "brainrot-garden-merge-cats",
       "at": "2026-10-25"
     },
+    "71799": {
+      "status": "imported",
+      "slug": "merge-brainrot",
+      "at": "2026-11-03"
+    },
     "73380": {
       "status": "imported",
       "slug": "brainrot-mob-clash-3d",
@@ -270,6 +290,11 @@
       "status": "imported",
       "slug": "obby-99-nights-escape-1-speed",
       "at": "2026-11-01"
+    },
+    "73807": {
+      "status": "imported",
+      "slug": "brainrot-shooter",
+      "at": "2026-11-03"
     },
     "74347": {
       "status": "imported",
@@ -630,6 +655,31 @@
       "status": "imported",
       "slug": "brainrot-sudoku",
       "at": "2026-11-02"
+    },
+    "https://html5.gamemonetize.co/l8xgrcjf37q82eol0yfzm5bc78sexlw5/": {
+      "status": "imported",
+      "slug": "brainrot-shooter",
+      "at": "2026-11-03"
+    },
+    "https://html5.gamemonetize.co/awoagqomglta3ln14o8y60e1trv7x7uf/": {
+      "status": "imported",
+      "slug": "merge-brainrot",
+      "at": "2026-11-03"
+    },
+    "https://html5.gamemonetize.co/j00jvss4g2nby7optz97bp2xtj1wy6nu/": {
+      "status": "imported",
+      "slug": "brainrot-merge",
+      "at": "2026-11-03"
+    },
+    "https://html5.gamemonetize.co/fh679gkxwr0ze7zbmoy5ilwl9p7q93ws/": {
+      "status": "imported",
+      "slug": "sprunki-music-scary-beat-box",
+      "at": "2026-11-03"
+    },
+    "https://html5.gamemonetize.co/7o2r1nnkrca24oc9h932i15zjomny6ts/": {
+      "status": "imported",
+      "slug": "nooby-and-obby-2-player",
+      "at": "2026-11-03"
     }
   }
 }

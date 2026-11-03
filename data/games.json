@@ -13771,5 +13771,550 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-brainrot-shooter",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/l8xgrcjf37q82eol0yfzm5bc78sexlw5/",
+    "embedUrl": "https://html5.gamemonetize.co/l8xgrcjf37q82eol0yfzm5bc78sexlw5/",
+    "slug": "brainrot-shooter",
+    "name": "Brainrot Shooter",
+    "mainKeyword": "brainrot",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "FPS",
+      "3D",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-shooter-72565271.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-shooter-72565271.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-03"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-03",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-03",
+    "publishedAt": "2026-11-03T03:20:55.410Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Move through a 3D brainrot shooter, aim with the mouse, switch guns, and attack brainrot characters.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Shooter free in your browser. Move with WASD, aim in 3D with the mouse, and switch weapons with Q or E as you attack brainrot characters.",
+      "about": "Brainrot Shooter is a 3D first-person shooting game built around fast brainrot action. You play from a first-person view, walk through the game with standard keyboard movement, and use guns to attack brainrot characters. The game focuses on quick aim, weapon switching, and staying in control while the action keeps moving. It uses a brainrot theme with characters such as Tralalero Tralala and Tung Tung Tung Sahur named in the game tags.\nA round is about moving, looking around, and firing at the right moment. On desktop, you walk with WASD, aim by moving the mouse, and swap weapons with Q or E. On mobile, the game uses on-screen controls, so you can play without a keyboard. The tricky part is keeping your view steady while you move and choosing when to change weapons. Brainrot Shooter plays free in the browser, with no download needed.",
+      "highlights": [
+        "3D first-person shooter action",
+        "Brainrot theme and characters",
+        "Multiple guns to use",
+        "Desktop and mobile controls",
+        "Weapon switching with Q or E"
+      ],
+      "goodFor": "Brainrot Shooter is good for players who like quick 3D shooting and simple controls. It also fits anyone who wants a fast browser game with a brainrot theme.",
+      "howToPlay": "Move through the 3D space, look around, and shoot the brainrot characters you face. Use Q or E to switch weapons when you want a different gun. The goal is to show strong aim and control while attacking the brainrot targets.",
+      "touchHint": "Use the on-screen controls to move, aim, and shoot",
+      "keys": [
+        "WASD: Walk",
+        "Mouse: Look and aim",
+        "Q or E: Switch weapons",
+        "On-screen controls: Play on mobile"
+      ],
+      "tips": [
+        "Keep moving with WASD while you aim so you are not stuck in one spot.",
+        "Use the mouse to turn often; in a 3D shooter, targets can appear outside your first view.",
+        "Switch weapons with Q or E when your current gun does not feel right for the moment.",
+        "On mobile, learn where the on-screen buttons are before the action gets busy."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Shooter free to play?",
+          "a": "Yes. Brainrot Shooter plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Shooter on a phone or computer?",
+          "a": "Yes. On desktop, use WASD, the mouse, and Q or E. On mobile, use the on-screen controls."
+        },
+        {
+          "q": "What is the goal in Brainrot Shooter?",
+          "a": "Move through the 3D shooter view and attack the brainrot characters with your guns. The game is about aim, movement, and weapon control."
+        },
+        {
+          "q": "What are the controls for Brainrot Shooter?",
+          "a": "Use WASD to walk, move the mouse to look and aim, and press Q or E to switch weapons. Mobile play uses on-screen controls."
+        },
+        {
+          "q": "Does Brainrot Shooter have multiple weapons?",
+          "a": "Yes. The game features lots of guns, and you can switch weapons with Q or E on desktop."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-merge-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/awoagqomglta3ln14o8y60e1trv7x7uf/",
+    "embedUrl": "https://html5.gamemonetize.co/awoagqomglta3ln14o8y60e1trv7x7uf/",
+    "slug": "merge-brainrot",
+    "name": "Merge Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Brainrot",
+      "Brainrot Italian",
+      "Brainrot Sahuuur"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/merge-brainrot-e30cc8ec.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/merge-brainrot-e30cc8ec.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-03"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-03",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-03",
+    "publishedAt": "2026-11-03T03:21:59.931Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Merge brainrot bits into higher tiers, trigger combos, and chase wild score spikes in quick rounds.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Merge Brainrot free in your browser. Fuse brainrot bits into higher tiers, trigger combos, use upgrades, and chase absurd score spikes anytime.",
+      "about": "Merge Brainrot is a quick merge-puzzle arcade game built around meme-style brainrot pieces. Your goal is simple: click or tap to fuse bits into higher tiers, keep them evolving, and push your score upward. The game uses a fast loop of merging, upgrading, and repeating, so it is easy to understand right away. Brainrot Italian and Brainrot Sahuuur themes give it a silly, chaotic style without making the rules hard to follow.\nEach round is made for short play sessions, but the score chase can pull you into longer runs. Combos can create sudden score jumps, and upgrades give you more reasons to keep merging instead of stopping after one good move. The tricky part is choosing merges that help you build higher tiers instead of only making small gains. You can play Merge Brainrot free in your browser with a mouse on computer or taps on a phone or tablet.",
+      "highlights": [
+        "Fast merge-puzzle arcade play",
+        "Fuse brainrot bits into higher tiers",
+        "Combos can lead to big score spikes",
+        "Upgrades keep the loop moving",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "Merge Brainrot is good for players who like quick arcade rounds, simple controls, and score chasing. It also fits players who enjoy merge games with upgrades and combo moments.",
+      "howToPlay": "Click or tap to play, merge matching brainrot bits, and evolve them into higher tiers. Keep merging to build combos, unlock upgrades, and raise your score as much as you can.",
+      "touchHint": "Tap brainrot pieces to merge and upgrade",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Look for merges that can lead into another merge right after, since combos can boost your score fast.",
+        "Focus on creating higher-tier brainrot pieces instead of only making the easiest small merge.",
+        "Use upgrades to keep your run moving and support bigger score gains.",
+        "For short sessions, aim for clean, fast merges; for score runs, slow down and plan combo chances."
+      ],
+      "faq": [
+        {
+          "q": "Is Merge Brainrot free to play?",
+          "a": "Yes. Merge Brainrot is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Merge Brainrot on a phone or computer?",
+          "a": "Yes. You can play with mouse clicks on a computer or taps on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Merge Brainrot?",
+          "a": "The goal is to merge brainrot bits into higher tiers, build combos, use upgrades, and chase the highest score you can."
+        },
+        {
+          "q": "What are the controls for Merge Brainrot?",
+          "a": "Use a mouse click or tap to play. The game is built around simple one-action controls."
+        },
+        {
+          "q": "What makes Merge Brainrot tricky?",
+          "a": "The challenge is picking merges that help you evolve pieces and create combo score spikes, not just taking the first small merge you see."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-merge",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/j00jvss4g2nby7optz97bp2xtj1wy6nu/",
+    "embedUrl": "https://html5.gamemonetize.co/j00jvss4g2nby7optz97bp2xtj1wy6nu/",
+    "slug": "brainrot-merge",
+    "name": "Brainrot Merge",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Animal",
+      "Brainrot",
+      "Matching"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-merge-2fee76f5.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-merge-2fee76f5.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-03"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-03",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-03",
+    "publishedAt": "2026-11-03T03:23:01.529Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Drop strange brainrot creatures, match identical ones, and merge them into higher-scoring forms.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Merge free in your browser. Drop odd creatures like Tun-Tun-Tun Sahur and merge matching forms for higher points as they bounce and roll.",
+      "about": "Brainrot Merge is a one-player puzzle about dropping odd animal-like brainrot creatures into a play area and making them evolve. You place creatures such as Tun-Tun-Tun Sahur, Chimpanzini-Bananini, and Spioniro-Golubiro, then try to bring matching ones together. The goal is simple: create higher-level forms and earn more points with each upgrade. Its silly creature names and clear matching rules make it easy to understand right away.\nEach round is built around drag, drop, and watch. Move left or right to choose the drop spot, then let the creature fall and react to the physics. The pieces can bounce and roll, so a good idea can still shift in a funny way. When identical creatures touch, they merge into a new form; the higher the level, the better the score. The challenge is keeping space open while setting up the next match. It plays free in the browser whenever you want a quick brain break.",
+      "highlights": [
+        "Drop brainrot creatures into a physics puzzle area",
+        "Identical creatures merge when they touch",
+        "Merged creatures evolve into new forms",
+        "Higher-level creatures earn more points",
+        "Features Tun-Tun-Tun Sahur and other strange creatures"
+      ],
+      "goodFor": "Brainrot Merge is good for players who like simple matching puzzles with funny physics. It fits quick play sessions because the goal is easy to learn and each drop matters.",
+      "howToPlay": "Drag left or right to line up the drop, then release the creature into the play area. Make identical creatures touch so they merge into a new form. Keep building higher-level merges, because higher levels give more points.",
+      "touchHint": "Drag left or right to aim each drop",
+      "keys": [
+        "Drag left or right: Choose where to drop the creature"
+      ],
+      "tips": [
+        "Try to drop identical creatures close together so they can touch and merge fast.",
+        "Remember that creatures can bounce and roll after they land, so leave room for movement.",
+        "Build toward higher-level forms whenever you can, since they are worth more points.",
+        "Use small left-right adjustments before each drop instead of releasing too quickly."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Merge free to play?",
+          "a": "Yes. Brainrot Merge is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Merge on a phone or computer?",
+          "a": "Yes. The game uses drag controls, so you can aim with touch on a phone or with a mouse or trackpad on a computer."
+        },
+        {
+          "q": "How do you score points in Brainrot Merge?",
+          "a": "You earn more points by merging creatures into higher-level forms. The higher the level, the more points you get."
+        },
+        {
+          "q": "What happens when two identical creatures touch?",
+          "a": "They merge into a new evolved form. Keep placing matching creatures together to continue the chain."
+        },
+        {
+          "q": "What creatures are in Brainrot Merge?",
+          "a": "The game includes strange brainrot creatures such as Tun-Tun-Tun Sahur, Chimpanzini-Bananini, and Spioniro-Golubiro."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-music-scary-beat-box",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/fh679gkxwr0ze7zbmoy5ilwl9p7q93ws/",
+    "embedUrl": "https://html5.gamemonetize.co/fh679gkxwr0ze7zbmoy5ilwl9p7q93ws/",
+    "slug": "sprunki-music-scary-beat-box",
+    "name": "Sprunki Music Scary Beat Box",
+    "mainKeyword": "sprunki",
+    "category": "rhythm",
+    "mature": true,
+    "tags": [
+      "Arcade",
+      "Horror",
+      "Music",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-music-scary-beat-box-caefd2ac.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-music-scary-beat-box-caefd2ac.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-03"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-03",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-03",
+    "publishedAt": "2026-11-03T03:24:01.575Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Drag characters through four scary music modes and play rhythm, monster, joker, and beat challenges.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Music Scary Beat Box free in your browser, drag characters through scary music challenges in Rhythm, Monster, Joker, and Beat modes.",
+      "about": "Sprunki Music Scary Beat Box is a browser rhythm game with a scary music theme. You move characters around the screen and try four different modes: Rhythm, Monster, Joker, and Beat. Each mode changes the musical challenge, so the focus is on testing different sounds, movements, and reactions rather than following one repeated pattern. The horror style is meant to feel spooky and playful, but the scary theme makes it better for players who are comfortable with creepy content.\nA play session is simple to start: click or tap, then drag a character around to make the mode play out. The fun comes from noticing how each mode feels different and switching your timing to match the music or motion on screen. It is easy to understand, but the changing modes can keep you alert because Rhythm, Monster, Joker, and Beat do not ask for the same response. You can play it free in the browser with a mouse or a touch screen.",
+      "highlights": [
+        "Four modes: Rhythm, Monster, Joker, and Beat",
+        "Scary music theme with playful horror style",
+        "Drag characters to create different sounds and movements",
+        "Simple mouse click or tap controls"
+      ],
+      "goodFor": "Good for players who like rhythm games with a spooky arcade feel and simple drag controls. Because it has a horror theme, it is better for players who are comfortable with scary content.",
+      "howToPlay": "Click or tap to begin, then drag the character around the screen. Try the Rhythm, Monster, Joker, and Beat modes and pay attention to how each one changes the music or movement. The goal is to explore the different musical challenges and react to each mode’s feel.",
+      "touchHint": "Tap and drag characters to play",
+      "keys": [
+        "Mouse: Click or drag to play",
+        "Tap: Play on touch screens"
+      ],
+      "tips": [
+        "Try all four modes before settling into one, since each has a different rhythm challenge.",
+        "Drag the character slowly at first so you can notice how the music or movement changes.",
+        "Use short drags when a mode feels busy, then adjust once you understand its pattern.",
+        "If the horror theme feels distracting, focus on the beat and the character movement instead."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Music Scary Beat Box free to play?",
+          "a": "Yes. You can play Sprunki Music Scary Beat Box free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki Music Scary Beat Box on a phone or computer?",
+          "a": "Yes. On a computer, use the mouse to click and drag. On a phone or tablet, tap and drag on the screen."
+        },
+        {
+          "q": "What modes are in Sprunki Music Scary Beat Box?",
+          "a": "The game has four modes: Rhythm, Monster, Joker, and Beat. Each one gives you a different music-based challenge."
+        },
+        {
+          "q": "How do I control Sprunki Music Scary Beat Box?",
+          "a": "Use a mouse click or tap to play. Drag the character around to interact with the music and movement in each mode."
+        },
+        {
+          "q": "Is Sprunki Music Scary Beat Box scary?",
+          "a": "Yes, it has a horror theme and a scary music style. Players who do not like creepy content may want to skip it, and it is not aimed at very young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-nooby-and-obby-2-player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/7o2r1nnkrca24oc9h932i15zjomny6ts/",
+    "embedUrl": "https://html5.gamemonetize.co/7o2r1nnkrca24oc9h932i15zjomny6ts/",
+    "slug": "nooby-and-obby-2-player",
+    "name": "Nooby And Obby 2 Player",
+    "mainKeyword": "obby",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "2 Player",
+      "3D",
+      "Arcade"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/nooby-and-obby-2-player-ad6c524e.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/nooby-and-obby-2-player-ad6c524e.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-03"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-03",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-03",
+    "publishedAt": "2026-11-03T03:25:00.041Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Guide two clumsy siblings through 3D obby courses, jumping past red blocks to reach the finish.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Nooby And Obby 2 Player free in your browser. Guide two clumsy siblings through obby courses, avoid red blocks, and use 2-player controls.",
+      "about": "Nooby And Obby 2 Player is a 3D obby adventure about two clumsy siblings trying to finish tricky parkour courses. One player controls Noob, and the other controls Noob Baby. The goal is simple: move, jump, and help both characters get through the course without touching the red blocks. It is made for two players, but the controls are split on one keyboard, so each character has a separate movement and jump setup.\nEach course is about timing your jumps and keeping both siblings safe. The funny part is that both characters are unskilled, so small mistakes can send you into danger. You need to watch the red blocks, line up jumps, and make sure both players reach the end. It is easy to understand, but the parkour can get tense when both players are moving at once. You can play it free in your browser, and mobile control is available too.",
+      "highlights": [
+        "2-player obby adventure with separate controls",
+        "Play as Noob and Noob Baby",
+        "Jump through 3D parkour courses",
+        "Avoid red blocks to stay in the run",
+        "Mobile control is available"
+      ],
+      "goodFor": "This game is good for players who like shared-screen 2-player challenges and simple parkour goals. It works well when you want quick, funny teamwork with a friend.",
+      "howToPlay": "Move each character through the course and jump over gaps and hazards. Do not touch the red blocks, and help both siblings reach the finish safely.",
+      "touchHint": "Use the on-screen mobile controls",
+      "keys": [
+        "WASD: Move Noob",
+        "Space: Jump with Noob",
+        "Arrow keys: Move Noob Baby",
+        "P: Jump with Noob Baby"
+      ],
+      "tips": [
+        "Let one player move first when a section looks narrow, so the other can follow safely.",
+        "Keep your eyes on the red blocks before jumping, not just on the landing spot.",
+        "Use short, controlled jumps when you need to land on small safe areas.",
+        "Talk with your teammate before moving through tricky parts so you do not block each other."
+      ],
+      "faq": [
+        {
+          "q": "Is Nooby And Obby 2 Player free to play?",
+          "a": "Yes. You can play Nooby And Obby 2 Player free in your browser."
+        },
+        {
+          "q": "Can I play Nooby And Obby 2 Player on a phone or computer?",
+          "a": "Yes. The game supports mobile control, and it also works with keyboard controls on a computer."
+        },
+        {
+          "q": "What is the goal in Nooby And Obby 2 Player?",
+          "a": "Guide Noob and Noob Baby through the obby courses. Avoid the red blocks and get through the course safely."
+        },
+        {
+          "q": "What are the controls for Nooby And Obby 2 Player?",
+          "a": "Noob uses WASD to move and Space to jump. Noob Baby uses the Arrow keys to move and P to jump."
+        },
+        {
+          "q": "Is Nooby And Obby 2 Player a two-player game?",
+          "a": "Yes. It is built around two characters with separate controls, so two players can share the same keyboard."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
