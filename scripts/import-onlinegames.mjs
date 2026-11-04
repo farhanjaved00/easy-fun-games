@@ -10,7 +10,7 @@
 //
 // Usage:
 //   node scripts/import-onlinegames.mjs                 import 5 new games (needs OPENAI_API_KEY)
-//   node scripts/import-onlinegames.mjs --count 5
+//   node scripts/import-onlinegames.mjs --count 2
 //   node scripts/import-onlinegames.mjs --daily         only add games missing to reach the daily target
 //   node scripts/import-onlinegames.mjs --source gamemonetize
 //   node scripts/import-onlinegames.mjs --facts out.json    only collect facts for the next games, no AI
@@ -44,7 +44,7 @@ const GD = SOURCE === 'gamedistribution';
 const STATE_FILE = path.join(DATA, GM ? 'sources/gamemonetize.json' : GD ? 'sources/gamedistribution.json' : 'sources/onlinegames.json');
 const GM_CATALOG = path.join(ROOT, 'GameMonetize_Sorted_By_Traffic_Opportunity.csv');
 const GD_CATALOG = path.join(DATA, 'sources/gamedistribution-catalog.csv');
-const COUNT = Math.max(0, Math.min(50, opt('count') === null ? 5 : +opt('count') || 0));
+const COUNT = Math.max(0, Math.min(50, opt('count') === null ? 2 : +opt('count') || 0));
 const DRY = !!opt('dry-run');
 const DAILY = !!opt('daily'); // scheduled runs: only add what is missing to reach the daily count
 const FACTS_OUT = opt('facts');

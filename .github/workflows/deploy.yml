@@ -65,7 +65,7 @@ jobs:
           if [ -z "$COUNT" ]; then
             MSG="$COMMITS"
             MATCH=$(echo "$MSG" | grep -oE '\[import:([0-9]+)\]' | grep -oE '[0-9]+' | head -n 1 || true)
-            COUNT="${MATCH:-5}"
+            COUNT="${MATCH:-2}"
           fi
           node scripts/import-onlinegames.mjs --count "$COUNT" ${{ (github.event_name == 'schedule' || inputs.daily) && '--daily' || '' }}
 

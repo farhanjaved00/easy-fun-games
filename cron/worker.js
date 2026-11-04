@@ -18,7 +18,7 @@ async function startDailyRun(env, cron) {
       'User-Agent': 'easygamefun-daily-timer',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ ref: 'main', inputs: { import_count: '5', daily: true } })
+    body: JSON.stringify({ ref: 'main', inputs: { import_count: '2', daily: true } })
   });
   if (res.status !== 204) throw new Error(`GitHub answered ${res.status}: ${(await res.text()).slice(0, 300)}`);
   console.log(`Daily run started (${cron})`);
