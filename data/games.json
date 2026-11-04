@@ -14316,5 +14316,546 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-spot-the-5-differences",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/cydjkcepawgg8uaabj22wsm3o6v52syq/",
+    "embedUrl": "https://html5.gamemonetize.co/cydjkcepawgg8uaabj22wsm3o6v52syq/",
+    "slug": "sprunki-spot-the-5-differences",
+    "name": "Sprunki Spot the 5 Differences",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Sprunki",
+      "Difference",
+      "Brain",
+      "Puzzle"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-spot-the-5-differences-da828617.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-spot-the-5-differences-da828617.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-04"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-04",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-04",
+    "publishedAt": "2026-11-04T03:21:16.012Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 65,
+    "description": "Find five hidden changes in each Sprunki picture level, using hints or extra time when you get stuck.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Spot the 5 Differences free in your browser. Find 5 hidden changes in each Sprunki level, use hints, and add extra time when stuck.",
+      "about": "Sprunki Spot the 5 Differences is a browser puzzle game built around a playful Sprunki theme. Each level shows a pair of pictures, and your goal is to find the 5 small changes between them. The rules are simple, but the challenge comes from noticing tiny details before time becomes a problem. If a level is giving you trouble, Sprunki hints can reveal a difference, and you can also add extra time to keep the round going.\nA round is easy to start: look across both images, compare matching areas, and click with the mouse when you spot something that does not match. It is fun because every level asks you to slow down, focus, and check details that are easy to miss at first glance. The hint and extra-time options help when you are close but stuck. You can play Sprunki Spot the 5 Differences free in your browser.",
+      "highlights": [
+        "Find 5 differences in each level",
+        "Playful Sprunki picture theme",
+        "Hints can uncover a hidden difference",
+        "Extra time can help you stay in the level",
+        "Simple mouse controls"
+      ],
+      "goodFor": "Good for players who enjoy calm brain puzzles and visual detail challenges. It is also a nice pick for quick rounds because the goal is clear right away.",
+      "howToPlay": "Compare the two Sprunki images and look for 5 things that are different. Use the mouse to select a difference when you find one, and clear all 5 to win the level. If you are stuck, use a hint or add extra time.",
+      "touchHint": "Use the mouse to click differences",
+      "keys": [
+        "Mouse: Play and select differences"
+      ],
+      "tips": [
+        "Scan the pictures in small sections instead of looking everywhere at once.",
+        "Compare the same area on both images before moving to the next spot.",
+        "Save hints for differences you cannot find after checking the whole picture.",
+        "Use extra time when you have found some differences but need longer to finish."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Spot the 5 Differences free to play?",
+          "a": "Yes. You can play Sprunki Spot the 5 Differences free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Spot the 5 Differences on a phone or computer?",
+          "a": "It is an HTML5 browser game, and the listed control is mouse to play. A computer with a mouse is the clearly supported way to play."
+        },
+        {
+          "q": "What is the goal in Sprunki Spot the 5 Differences?",
+          "a": "Your goal is to find 5 differences in each level. Click each difference you notice to complete the level."
+        },
+        {
+          "q": "What do hints do in Sprunki Spot the 5 Differences?",
+          "a": "Hints can help uncover a difference when you are stuck. You can also add extra time to stay in the level longer."
+        },
+        {
+          "q": "What are the controls for Sprunki Spot the 5 Differences?",
+          "a": "Use the mouse to play. Click the parts of the pictures where you see a difference."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-obby-climb-up-and-slide-down-on-minecarts",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/0uwm8whz3pn4yq9nz4a62ya7ztns9typ/",
+    "embedUrl": "https://html5.gamemonetize.co/0uwm8whz3pn4yq9nz4a62ya7ztns9typ/",
+    "slug": "obby-climb-up-and-slide-down-on-minecarts",
+    "name": "Obby: Climb Up and Slide Down on Minecarts",
+    "mainKeyword": "obby",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Obby",
+      "Minecarts",
+      "Arcade",
+      "Adventure"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-climb-up-and-slide-down-on-minecarts.png",
+      "width": 512,
+      "height": 384,
+      "small": {
+        "url": "/thumbs/sm/obby-climb-up-and-slide-down-on-minecarts.webp",
+        "width": 320,
+        "height": 320
+      }
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-04",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-04",
+    "publishedAt": "2026-11-04T03:22:15.057Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Climb steep cart tracks, collect money, upgrade minecarts, unlock zones, and chase a higher score.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby: Climb Up and Slide Down on Minecarts free in your browser, climb cart tracks, collect money, upgrade rides, unlock zones, and raise pets.",
+      "about": "Obby: Climb Up and Slide Down on Minecarts is an obby-style cart climbing game about pushing farther with every attempt. You ride upward on minecart tracks, collect money, and try to reach higher scores. The track gets tougher the higher you go, but the rewards also grow. Money can be used to buy a new cart, helping you improve your ride as you unlock new zones and explore different locations.\nEach run is built around progress. Move your character, control the camera, climb as far as you can, then use your earnings to get stronger for the next try. Pets can join you on the journey, and you can collect different ones, level them up, and use their abilities to finish levels faster. It is fun for players who like short upgrade runs, simple movement, and the challenge of beating their own score or competing with friends. You can play it free in the browser.",
+      "highlights": [
+        "Climb upward on minecart tracks",
+        "Earn money each run and buy new carts",
+        "Unlock new zones and different locations",
+        "Collect and level up helpful pets",
+        "Compete with friends for the best score"
+      ],
+      "goodFor": "Good for players who like obby challenges with upgrades and repeat runs. It also fits anyone who enjoys chasing higher scores and improving after each attempt.",
+      "howToPlay": "Move through the track and climb as high as you can while collecting money. Spend your earnings on new carts, unlock zones, and level up pets to complete levels faster and push your score higher.",
+      "touchHint": "Use on-screen controls and drag to move the camera",
+      "keys": [
+        "WASD: Move",
+        "Mouse: Control camera",
+        "On-screen controls: Move",
+        "Drag screen: Control camera"
+      ],
+      "tips": [
+        "Use the camera often so you can see the next part of the track before you move.",
+        "Spend money on carts when you can, since better rides help your next climb.",
+        "Keep climbing higher for bigger rewards, but be ready for the track to get harder.",
+        "Level up pets and use their abilities to clear levels faster."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby: Climb Up and Slide Down on Minecarts free to play?",
+          "a": "Yes. You can play it free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Obby: Climb Up and Slide Down on Minecarts on a phone or computer?",
+          "a": "Yes. On computer, use WASD to move and the mouse to control the camera. On mobile, use the on-screen controls and drag anywhere on the screen to move the camera."
+        },
+        {
+          "q": "What is the goal in Obby: Climb Up and Slide Down on Minecarts?",
+          "a": "The goal is to climb higher on the cart track, collect money, improve your ride, unlock zones, and aim for a better score."
+        },
+        {
+          "q": "What can I do with the money I collect?",
+          "a": "Money earned during runs can be spent on a brand-new cart, which helps you make more progress on later attempts."
+        },
+        {
+          "q": "Do pets do anything in Obby: Climb Up and Slide Down on Minecarts?",
+          "a": "Yes. Pets can accompany you, be collected, and be leveled up. Their abilities help you complete levels faster and more efficiently."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-obby-fly-the-farthest-in-an-airplane",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ovdr2vq8pjxr02lszsp6vr4mgjm5b4yp/",
+    "embedUrl": "https://html5.gamemonetize.co/ovdr2vq8pjxr02lszsp6vr4mgjm5b4yp/",
+    "slug": "obby-fly-the-farthest-in-an-airplane",
+    "name": "Obby: Fly the Farthest in an Airplane",
+    "mainKeyword": "obby",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Air",
+      "Aircraft",
+      "Obby"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-fly-the-farthest-in-an-airplane.jpg",
+      "width": 512,
+      "height": 384,
+      "small": {
+        "url": "/thumbs/sm/obby-fly-the-farthest-in-an-airplane.webp",
+        "width": 320,
+        "height": 320
+      }
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-04",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-04",
+    "publishedAt": "2026-11-04T03:22:44.264Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Collect energy, upgrade your airplane, unlock trails and new areas, and fly farther in this aviation obby.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby: Fly the Farthest in an Airplane free in your browser. Collect energy, buy new planes, unlock trails and fly farther with rebirth points.",
+      "about": "Obby: Fly the Farthest in an Airplane is a casual aviation adventure where your goal is to make each flight go as far as possible. You collect energy and speed, earn flight points, and use them to buy new airplane models and aerial trails. Pets can give bonuses, while rebirth points help you become stronger and unlock more locations. The game mixes simple obby movement with flight progress, so every run can move you closer to a better plane or a new area.\nEach round is about moving, jumping, collecting, taking flight, and turning your progress into upgrades. The tricky part is choosing when to focus on collecting and when to push for distance, because new planes, trails, pets, and rebirth points all help in different ways. Leaderboards and competitions give you extra goals if you want to compare your flights with other pilots. You can play it free in the browser on computer or mobile.",
+      "highlights": [
+        "Buy new airplane models with flight points",
+        "Collect energy and speed to fly farther",
+        "Unlock aerial trails with unique effects",
+        "Use rebirth points to open new locations",
+        "Leaderboards and competitions for pilots"
+      ],
+      "goodFor": "Good for players who like simple flying progress games with collecting, upgrades, and new areas to unlock. It is also a good pick if you enjoy casual obby movement with a clear distance goal.",
+      "howToPlay": "Move around to collect energy and speed, then take flights to go as far as you can and earn victories. Use flight points to buy new planes and aerial trails, and use rebirth points to unlock new locations and get stronger.",
+      "touchHint": "Use the virtual joystick to move",
+      "keys": [
+        "WASD: Move",
+        "Spacebar: Jump",
+        "Virtual joystick: Move on mobile"
+      ],
+      "tips": [
+        "Collect energy and speed before taking a flight so each attempt has more potential distance.",
+        "Spend flight points on new planes when your current plane stops helping you reach farther.",
+        "Save rebirth points for new locations, since areas require them to unlock.",
+        "Check leaderboards and competitions to see what distance goals other pilots are reaching."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby: Fly the Farthest in an Airplane free to play?",
+          "a": "Yes. You can play it free in your browser."
+        },
+        {
+          "q": "Can I play Obby: Fly the Farthest in an Airplane on a phone or computer?",
+          "a": "Yes. On computer, use WASD to move and Spacebar to jump. On mobile, use the virtual joystick to move."
+        },
+        {
+          "q": "What is the goal in Obby: Fly the Farthest in an Airplane?",
+          "a": "The goal is to fly as far as possible. You collect energy, earn flight points, buy better planes, unlock aerial trails, and work toward new areas."
+        },
+        {
+          "q": "What do rebirth points do?",
+          "a": "Rebirth points help you unlock new locations and become stronger. Some areas require rebirth points before you can enter them."
+        },
+        {
+          "q": "Can you get new planes and trails?",
+          "a": "Yes. You can use flight points to purchase new airplane models and aerial trails with unique effects."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-obby-dig-to-the-center-of-the-earth",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/tqe2zu6lsyq77pth6j9qifmtw1k68dun/",
+    "embedUrl": "https://html5.gamemonetize.co/tqe2zu6lsyq77pth6j9qifmtw1k68dun/",
+    "slug": "obby-dig-to-the-center-of-the-earth",
+    "name": "Obby: Dig to the center of the Earth",
+    "mainKeyword": "obby",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "3D",
+      "Action",
+      "Animal",
+      "Obby"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-dig-to-the-center-of-the-earth.jpg",
+      "width": 512,
+      "height": 384,
+      "small": {
+        "url": "/thumbs/sm/obby-dig-to-the-center-of-the-earth.webp",
+        "width": 320,
+        "height": 320
+      }
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-04",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-04",
+    "publishedAt": "2026-11-04T03:23:13.011Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Break blocks with your drill, upgrade your gear, hatch pets, and dig down through stronger earth layers.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby: Dig to the center of the Earth free in your browser. Break blocks, upgrade your drill, hatch pets, and push through stronger layers.",
+      "about": "Obby: Dig to the center of the Earth is a 3D digging adventure where your goal is to break through the ground and keep moving downward. You start with a drill and smash blocks to open the way into deeper layers of earth. The farther you go, the tougher the layers become, so raw digging is not enough for long. You collect currency, improve your equipment, unlock stronger tools, and work toward reaching the bottom.\nEach run is about making progress, earning more, and using upgrades at the right time. Pets are a key part of that progress because they give loot bonuses and help you dig faster. The fun comes from pushing into a layer that feels too strong, then upgrading until you can break through it. You can also compete with other players on the leaderboard to see who digs the fastest and hardest. It plays free in your browser, with controls for both computer and mobile devices.",
+      "highlights": [
+        "Dig straight down through stronger earth layers",
+        "Upgrade your drill and unlock better tools",
+        "Hatch pets for loot bonuses and faster digging",
+        "Collect currency to improve your equipment",
+        "Compete with other players on the leaderboard"
+      ],
+      "goodFor": "Great for players who like simple 3D action, steady upgrades, and progress you can feel. It also fits anyone who enjoys pet bonuses and leaderboard goals.",
+      "howToPlay": "Break blocks with your drill to open a path downward. Collect currency, upgrade your drill and tools, and hatch pets so you can clear stronger layers faster. Keep digging toward the bottom and try to climb the leaderboard.",
+      "touchHint": "Use joystick, jump button, and sensor camera",
+      "keys": [
+        "WASD: Move character",
+        "Right mouse button: Rotate camera",
+        "Left mouse button: Gain power and interact",
+        "Mobile joystick: Move character",
+        "Mobile button: Jump",
+        "Mobile sensor: Rotate camera"
+      ],
+      "tips": [
+        "Upgrade your drill when a new layer starts taking too long to break.",
+        "Hatch pets early, because their loot bonuses help you earn upgrades faster.",
+        "Keep your camera aimed at the blocks you want to break before interacting.",
+        "Use stronger tools as soon as you unlock them to keep your digging speed up."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby: Dig to the center of the Earth free to play?",
+          "a": "Yes. You can play it for free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Obby: Dig to the center of the Earth on a phone or computer?",
+          "a": "Yes. On computer, use WASD to move, the right mouse button to rotate the camera, and the left mouse button to gain power and interact. On mobile, use the joystick, jump button, and sensor camera controls."
+        },
+        {
+          "q": "What is the goal in Obby: Dig to the center of the Earth?",
+          "a": "The goal is to dig downward by breaking blocks, pass through stronger earth layers, and reach the bottom."
+        },
+        {
+          "q": "How do pets help in Obby: Dig to the center of the Earth?",
+          "a": "Pets give loot bonuses and help speed up your progress, so hatching them can make digging and upgrading easier."
+        },
+        {
+          "q": "Why should I upgrade my drill and tools?",
+          "a": "Each deeper layer gets stronger. Upgrades give you the power needed to keep breaking blocks and continue moving down."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-tung-tung-sahur",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/iivhncl1ihn5xpk7h1xnqwovwkutrgxl/",
+    "embedUrl": "https://html5.gamemonetize.co/iivhncl1ihn5xpk7h1xnqwovwkutrgxl/",
+    "slug": "tung-tung-tung-tung-sahur",
+    "name": "Tung Tung Tung Tung Sahur",
+    "mainKeyword": "tung tung",
+    "category": "adventure",
+    "mature": true,
+    "tags": [
+      "Adventure",
+      "3D",
+      "Horror",
+      "Ghost"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-tung-tung-sahur.png",
+      "width": 512,
+      "height": 384,
+      "small": {
+        "url": "/thumbs/sm/tung-tung-tung-tung-sahur.webp",
+        "width": 320,
+        "height": 320
+      }
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-04",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-04",
+    "publishedAt": "2026-11-04T03:23:57.227Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Search a haunted forest for lost souls, hide in wooden huts, and escape before Tung Sahur catches you.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Tung Tung Sahur free in your browser. Search a dark 3D forest, collect lost souls, and hide in wooden huts to survive each run.",
+      "about": "Tung Tung Tung Tung Sahur is a 3D horror adventure set in a dark, eerie forest haunted by the mysterious Tung Sahur. Your goal is to find and collect every lost soul scattered through the woods, then escape before the hunter catches you. The forest is meant to feel unsafe, and Tung Sahur can appear without warning to chase you down. Because it uses horror tension, sudden danger, and a frightening enemy, this game is not meant for young children.\nEach round is a careful search through the woods. You move through the forest, look around for lost souls, run when danger gets close, and press the interact key to pick up items. The main challenge is deciding when to keep exploring and when to hide inside a wooden hut until it is safe to leave. You need to stay alert, use hiding spots well, and return to the search after each scare. It plays free in the browser, with controls for both computer and mobile play.",
+      "highlights": [
+        "Dark 3D forest haunted by Tung Sahur",
+        "Collect all lost souls to escape",
+        "Hide in wooden huts when the hunter appears",
+        "PC and mobile controls for moving and looking around"
+      ],
+      "goodFor": "Good for players who like tense 3D horror adventures with searching, running, and hiding. It is best for players who want a spooky chase, not a calm exploration game.",
+      "howToPlay": "Explore the dark forest and collect all the lost souls scattered through the woods. Watch for Tung Sahur, because it can appear suddenly and chase you. Hide inside wooden huts until it is safe, then keep searching until you can escape.",
+      "touchHint": "Use the joystick to move and drag to look around",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move",
+        "Mouse: Look around",
+        "Shift: Run while moving",
+        "E: Pick up items",
+        "ESC: Unlock the cursor"
+      ],
+      "tips": [
+        "Keep a wooden hut in mind while searching so you know where to hide when Tung Sahur appears.",
+        "Look around often while moving; the lost souls are scattered across the forest.",
+        "Run when crossing open areas or when Tung Sahur shows up, then head for a hut.",
+        "On PC, use ESC to unlock the cursor if you need to regain mouse control."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Tung Tung Sahur free to play?",
+          "a": "Yes. You can play Tung Tung Tung Tung Sahur free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Tung Tung Sahur on a phone or computer?",
+          "a": "Yes. On computer, use WASD or the arrow keys to move, the mouse to look, Shift to run, and E to pick up items. On mobile, use the joystick to move and drag your finger to look around."
+        },
+        {
+          "q": "What is the goal in Tung Tung Tung Tung Sahur?",
+          "a": "Your goal is to collect all the lost souls in the dark forest and escape before Tung Sahur catches you."
+        },
+        {
+          "q": "How do I survive Tung Sahur?",
+          "a": "When Tung Sahur appears, get inside a wooden hut and hide until it is safe. Then leave the hut and continue searching for lost souls."
+        },
+        {
+          "q": "Is Tung Tung Tung Tung Sahur a scary game?",
+          "a": "Yes. It is a horror adventure in an eerie forest with a hunter that can appear suddenly, so it may feel intense and is not meant for young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

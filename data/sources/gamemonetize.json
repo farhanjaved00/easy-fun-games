@@ -51,6 +51,11 @@
       "slug": "squid-sprunki-shooter-game-2",
       "at": "2026-10-25"
     },
+    "60844": {
+      "status": "imported",
+      "slug": "sprunki-spot-the-5-differences",
+      "at": "2026-11-04"
+    },
     "60900": {
       "status": "imported",
       "slug": "incredibox-party-frozen-sprunki-beat",
@@ -226,6 +231,11 @@
       "slug": "italian-brainrot-guess-who",
       "at": "2026-10-24"
     },
+    "69068": {
+      "status": "imported",
+      "slug": "tung-tung-tung-tung-sahur",
+      "at": "2026-11-04"
+    },
     "69442": {
       "status": "imported",
       "slug": "brainrot-tung-sahur-battle",
@@ -271,6 +281,16 @@
       "slug": "brainrot-garden-merge-cats",
       "at": "2026-10-25"
     },
+    "70979": {
+      "status": "imported",
+      "slug": "obby-dig-to-the-center-of-the-earth",
+      "at": "2026-11-04"
+    },
+    "71759": {
+      "status": "imported",
+      "slug": "obby-fly-the-farthest-in-an-airplane",
+      "at": "2026-11-04"
+    },
     "71799": {
       "status": "imported",
       "slug": "merge-brainrot",
@@ -310,6 +330,11 @@
       "status": "imported",
       "slug": "brainrot-world-hole-io",
       "at": "2026-10-26"
+    },
+    "75432": {
+      "status": "imported",
+      "slug": "obby-climb-up-and-slide-down-on-minecarts",
+      "at": "2026-11-04"
     },
     "76112": {
       "status": "imported",
@@ -680,6 +705,31 @@
       "status": "imported",
       "slug": "nooby-and-obby-2-player",
       "at": "2026-11-03"
+    },
+    "https://html5.gamemonetize.co/cydjkcepawgg8uaabj22wsm3o6v52syq/": {
+      "status": "imported",
+      "slug": "sprunki-spot-the-5-differences",
+      "at": "2026-11-04"
+    },
+    "https://html5.gamemonetize.co/0uwm8whz3pn4yq9nz4a62ya7ztns9typ/": {
+      "status": "imported",
+      "slug": "obby-climb-up-and-slide-down-on-minecarts",
+      "at": "2026-11-04"
+    },
+    "https://html5.gamemonetize.co/ovdr2vq8pjxr02lszsp6vr4mgjm5b4yp/": {
+      "status": "imported",
+      "slug": "obby-fly-the-farthest-in-an-airplane",
+      "at": "2026-11-04"
+    },
+    "https://html5.gamemonetize.co/tqe2zu6lsyq77pth6j9qifmtw1k68dun/": {
+      "status": "imported",
+      "slug": "obby-dig-to-the-center-of-the-earth",
+      "at": "2026-11-04"
+    },
+    "https://html5.gamemonetize.co/iivhncl1ihn5xpk7h1xnqwovwkutrgxl/": {
+      "status": "imported",
+      "slug": "tung-tung-tung-tung-sahur",
+      "at": "2026-11-04"
     }
   }
 }
