@@ -44,7 +44,9 @@ export function fitDesc(text) {
 // Page titles under 60 characters. `tail` (like ": Page 2") is always kept so titles stay unique.
 export function fitTitle(main, tail = '', suffix = ' | EasyGameFun') {
   const short = main.split(':')[0];
-  for (const t of [main + tail + suffix, short + tail + suffix, main + tail, short + tail]) if (t.length <= 60) return t;
+  // Keep the full name (cut with an ellipsis if needed) before falling back to the part before the colon, so similar names stay unique.
+  const room = 60 - tail.length - suffix.length - 1;
+  for (const t of [main + tail + suffix, main + tail, main.slice(0, room).trimEnd() + '…' + tail + suffix, short + tail + suffix, short + tail]) if (t.length <= 60) return t;
   return short.slice(0, 59 - tail.length).trimEnd() + '…' + tail;
 }
 
