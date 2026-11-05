@@ -14449,14 +14449,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/obby-climb-up-and-slide-down-on-minecarts.png",
+      "url": "/thumbs/obby-climb-up-and-slide-down-on-minecarts-abd98214.webp",
       "width": 512,
-      "height": 384,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/obby-climb-up-and-slide-down-on-minecarts.webp",
+        "url": "/thumbs/sm/obby-climb-up-and-slide-down-on-minecarts-abd98214.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-11-05"
     },
     "emoji": "🎮",
     "colors": [
@@ -14556,14 +14559,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/obby-fly-the-farthest-in-an-airplane.jpg",
+      "url": "/thumbs/obby-fly-the-farthest-in-an-airplane-92351784.webp",
       "width": 512,
-      "height": 384,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/obby-fly-the-farthest-in-an-airplane.webp",
+        "url": "/thumbs/sm/obby-fly-the-farthest-in-an-airplane-92351784.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-11-05"
     },
     "emoji": "🎮",
     "colors": [
@@ -14663,14 +14669,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/obby-dig-to-the-center-of-the-earth.jpg",
+      "url": "/thumbs/obby-dig-to-the-center-of-the-earth-660b60d9.webp",
       "width": 512,
-      "height": 384,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/obby-dig-to-the-center-of-the-earth.webp",
+        "url": "/thumbs/sm/obby-dig-to-the-center-of-the-earth-660b60d9.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-11-05"
     },
     "emoji": "🎮",
     "colors": [
@@ -14773,14 +14782,17 @@
       "touch"
     ],
     "thumb": {
-      "url": "/thumbs/tung-tung-tung-tung-sahur.png",
+      "url": "/thumbs/tung-tung-tung-tung-sahur-e8801a2b.webp",
       "width": 512,
-      "height": 384,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
       "small": {
-        "url": "/thumbs/sm/tung-tung-tung-tung-sahur.webp",
+        "url": "/thumbs/sm/tung-tung-tung-tung-sahur-e8801a2b.webp",
         "width": 320,
         "height": 320
-      }
+      },
+      "madeAt": "2026-11-05"
     },
     "emoji": "🎮",
     "colors": [
@@ -14853,6 +14865,224 @@
         {
           "q": "Is Tung Tung Tung Tung Sahur a scary game?",
           "a": "Yes. It is a horror adventure in an eerie forest with a hunter that can appear suddenly, so it may feel intense and is not meant for young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-bank-boom-tung-tung-sahur",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/48kgynv9m53l0aukny9c1ql383thrcjq/",
+    "embedUrl": "https://html5.gamemonetize.co/48kgynv9m53l0aukny9c1ql383thrcjq/",
+    "slug": "bank-boom-tung-tung-sahur",
+    "name": "Bank Boom Tung Tung Sahur",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Action",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/bank-boom-tung-tung-sahur-32259b39.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/bank-boom-tung-tung-sahur-32259b39.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-05"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-05",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-05",
+    "publishedAt": "2026-11-05T08:37:09.588Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Race a friend to the bank vault, swing your club, and stand on the safe for 20 seconds to win.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Bank Boom Tung Tung Sahur free in your browser, race a friend to the vault, swing a club, and stand on the safe for 20 seconds to win first.",
+      "about": "Bank Boom Tung Tung Sahur is a fast 2-player arcade action game about a short bank vault race. You and a friend move around a 2D bank scene, both trying to reach the vault before the other player can secure it. The main goal is simple: stand on the vault for 20 seconds. The first player to finish opening it wins the match. The tung tung theme keeps the action quick, silly, and easy to understand.\nEach round is a mix of racing, blocking, and survival. Moving well matters, but so does timing your club swing. A hit slows your friend down, giving you a chance to take the vault or protect your spot. The tricky part is choosing when to fight and when to stay on the safe, because chasing too much can waste the seconds you need. Bank Boom Tung Tung Sahur plays free in the browser on both PC and mobile.",
+      "highlights": [
+        "2-player bank vault race",
+        "Stand on the vault for 20 seconds to win",
+        "Swing a club to slow the other player",
+        "Move with WASD or Arrow keys",
+        "Playable on PC and mobile"
+      ],
+      "goodFor": "Good for players who want a quick head-to-head arcade match with simple controls. It is especially fun if you like racing a friend while also trying to block their win.",
+      "howToPlay": "Move to the vault and stay on it for 20 seconds to open it. The first player to complete the vault timer wins. Swing the club to slow your friend and buy time for your own vault attempt.",
+      "touchHint": "Use mobile controls to move and swing",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move",
+        "S: Swing the club",
+        "Down Arrow: Swing the club"
+      ],
+      "tips": [
+        "Get to the vault early so your 20-second timer can start as soon as possible.",
+        "Use the club when your friend is about to take the vault, not when they are far away.",
+        "If you have the vault position, focus on staying there instead of chasing your friend.",
+        "Pick either WASD or Arrow keys before the match starts so your movement feels natural."
+      ],
+      "faq": [
+        {
+          "q": "Is Bank Boom Tung Tung Sahur free to play?",
+          "a": "Yes. Bank Boom Tung Tung Sahur plays free in your browser."
+        },
+        {
+          "q": "Can I play Bank Boom Tung Tung Sahur on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "How do you win in Bank Boom Tung Tung Sahur?",
+          "a": "Stand on the vault for 20 seconds to open it. The first player to do this wins the game."
+        },
+        {
+          "q": "What are the controls in Bank Boom Tung Tung Sahur?",
+          "a": "Move with WASD or the Arrow keys. Press S or the Down Arrow to swing the club."
+        },
+        {
+          "q": "What does the club do?",
+          "a": "The club lets you hit your friend to slow them down. Use it to stop their vault attempt or make space for your own."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-hidden-bedug",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/9eori9foq5jjk6lkaaet6foiboz62mcz/",
+    "embedUrl": "https://html5.gamemonetize.co/9eori9foq5jjk6lkaaet6foiboz62mcz/",
+    "slug": "tung-tung-sahur-hidden-bedug",
+    "name": "Tung Tung Sahur Hidden Bedug",
+    "mainKeyword": "tung tung",
+    "category": "puzzle",
+    "mature": true,
+    "tags": [
+      "Puzzle",
+      "Hidden Object",
+      "Horror",
+      "Tung Tung"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-hidden-bedug-e51ed100.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-hidden-bedug-e51ed100.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-05"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-05",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-05",
+    "publishedAt": "2026-11-05T08:38:20.013Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Search sahur-themed pictures for 10 hidden bedug drums in each tricky Tung Tung puzzle scene.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Hidden Bedug free in your browser and spot all 10 hidden bedug drums in colorful sahur-themed puzzle scenes with mouse-only controls.",
+      "about": "Tung Tung Sahur Hidden Bedug is a 2D hidden-object puzzle set in colorful sahur-themed artwork inspired by Ramadan traditions. Your target is the bedug, a traditional Indonesian drum. In each level, 10 bedug are disguised among lively Tung Tung pictures, so the main job is to look closely and pick them out one by one. The game is tagged with horror and marked for mature content, so it is better suited to older players rather than young children.\nA round is simple to start: study the picture, move your mouse over anything that looks like a hidden drum, and click when you are sure. The challenge comes from camouflage. The drums can blend into busy colors, repeated shapes, and the festive art, and the difficulty rises from level to level. You can play at a calm pace, or treat it like a race against time for a harder run. Tung Tung Sahur Hidden Bedug plays free in the browser with mouse-only controls.",
+      "highlights": [
+        "Find 10 hidden bedug in every level",
+        "Colorful sahur-themed 2D artwork",
+        "Bedug camouflaged among lively Tung Tung pictures",
+        "Difficulty increases from level to level",
+        "Mouse-only hidden-object play"
+      ],
+      "goodFor": "This game is for players who enjoy hidden-object puzzles and careful visual searches. Since it is marked for mature content and has a horror tag, it is not aimed at young children.",
+      "howToPlay": "Look over each sahur-themed picture and click the bedug drums hidden in the artwork. Find all 10 bedug in the level to complete the search, with later levels becoming harder. If you want an extra challenge, try treating each scene like a timed run.",
+      "touchHint": "Use the mouse to click hidden bedug",
+      "keys": [
+        "Mouse: Select hidden bedug"
+      ],
+      "tips": [
+        "Keep count as you play; each level has exactly 10 bedug to find.",
+        "Check busy Tung Tung picture areas where drum shapes can blend into the art.",
+        "Scan corners, edges, and small gaps before deciding a scene is clear.",
+        "Pause before each click and make sure the shape really looks like a bedug."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Hidden Bedug free to play?",
+          "a": "Yes. Tung Tung Sahur Hidden Bedug plays free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Hidden Bedug on a phone or computer?",
+          "a": "The listed control is mouse only, so a computer with a mouse or trackpad is the clearest way to play. Phone play is not listed in the controls."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Hidden Bedug?",
+          "a": "Your goal is to find all 10 hidden bedug drums in each level. They are camouflaged inside sahur-themed Tung Tung pictures."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Hidden Bedug?",
+          "a": "The game uses mouse-only controls. Move the pointer over the picture and click when you find a hidden bedug."
+        },
+        {
+          "q": "Does Tung Tung Sahur Hidden Bedug get harder?",
+          "a": "Yes. The difficulty increases from level to level, with the bedug hidden more trickily in the artwork."
         }
       ],
       "model": "gpt-5.5"
