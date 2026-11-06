@@ -15087,5 +15087,222 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-tung-tung-sahur-midnight-terror",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/nq7mv4sj548uw49f356xdfl7wi92y0ql/",
+    "embedUrl": "https://html5.gamemonetize.co/nq7mv4sj548uw49f356xdfl7wi92y0ql/",
+    "slug": "tung-tung-sahur-midnight-terror",
+    "name": "Tung Tung Sahur Midnight Terror",
+    "mainKeyword": "tung tung",
+    "category": "adventure",
+    "mature": true,
+    "tags": [
+      "Adventure",
+      "Horror",
+      "Stealth",
+      "Survival"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-midnight-terror-32a2da68.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-midnight-terror-32a2da68.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-06"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-06",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-06",
+    "publishedAt": "2026-11-06T03:21:43.344Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Collect 10 instant noodle packs in a haunted house and escape before dawn in this tense horror adventure.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Midnight Terror free in your browser. Search the haunted house, collect 10 noodle packs, unlock the exit, and escape before dawn.",
+      "about": "Tung Tung Sahur Midnight Terror is a horror-comedy survival adventure set in a small forgotten town during Ramadan nights. You play as a villager trapped inside an abandoned, crumbling house filled with strange forces. Each night is marked by the eerie cry of “Tung Tung Sahur,” but this wake-up call is part of the danger. Your goal is clear: find 10 packs of instant noodles hidden around the haunted property. Once you have them all, you can unlock the exit and escape before dawn.\nA round is about searching rooms, grabbing items, and staying alert because you are not alone in the house. The challenge comes from moving through a tense space while a roaming threat keeps pressure on every search. Running can help when danger gets close, but you still need to stop and collect every noodle pack to finish the escape. It plays free in the browser and uses simple keyboard controls, making it easy to start but tense to complete. The game has horror themes, so it is not meant for very young players.",
+      "highlights": [
+        "Find 10 instant noodle packs to unlock the exit",
+        "Explore an abandoned house before dawn",
+        "Horror-comedy survival with an eerie Ramadan setting",
+        "Use stealth and movement to avoid a roaming threat",
+        "Simple keyboard controls for moving, running, and grabbing"
+      ],
+      "goodFor": "This game is good for players who like tense exploration, simple survival goals, and horror with a strange comedy twist. It suits players who enjoy searching under pressure instead of fast action only.",
+      "howToPlay": "Move through the haunted house and search for all 10 instant noodle packs. Grab each pack you find, avoid the roaming danger, and unlock the exit once the full set is collected. Escape before dawn to complete the mission.",
+      "touchHint": "Keyboard: WASD, Shift, and Space",
+      "keys": [
+        "WASD: Move",
+        "Shift: Run",
+        "Space: Grab item"
+      ],
+      "tips": [
+        "Count your noodle packs so you know how many are left before heading for the exit.",
+        "Search each area carefully before moving on, since all 10 packs are needed to escape.",
+        "Use Shift to run when the roaming threat gets close, then return to searching once you are safe.",
+        "Listen and watch for signs of danger before entering open areas or tight rooms."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Midnight Terror free to play?",
+          "a": "Yes. Tung Tung Sahur Midnight Terror plays free in the browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Midnight Terror on a phone or computer?",
+          "a": "The game plays in the browser, and the listed controls use a keyboard. A computer is the best fit because you need WASD, Shift, and Space."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Midnight Terror?",
+          "a": "You need to collect 10 packs of instant noodles hidden around the haunted house. After that, you can unlock the exit and escape before dawn."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Midnight Terror?",
+          "a": "Use WASD to move, Shift to run, and Space to grab items. These controls cover the main actions needed to search and escape."
+        },
+        {
+          "q": "Is Tung Tung Sahur Midnight Terror scary?",
+          "a": "Yes. It has horror themes, a haunted house setting, and a roaming threat. It is not made for very young players."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-hugli-wugli-vs-tung-tung-sahur",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/p5bhtgvycsyp72kvjav36mdr3enkd8oj/",
+    "embedUrl": "https://html5.gamemonetize.co/p5bhtgvycsyp72kvjav36mdr3enkd8oj/",
+    "slug": "hugli-wugli-vs-tung-tung-sahur",
+    "name": "Hugli Wugli vs Tung Tung Sahur",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Adventure",
+      "Huggy"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/hugli-wugli-vs-tung-tung-sahur-892e82d0.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/hugli-wugli-vs-tung-tung-sahur-892e82d0.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-06"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-06",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-06",
+    "publishedAt": "2026-11-06T03:22:46.692Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Move the Hugli Wugli brothers through a dungeon, grab coins and keys, and avoid Tung Tung Sahur.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Hugli Wugli vs Tung Tung Sahur free in your browser. Move with WASD and arrows, collect coins and keys, and escape the dungeon door safely.",
+      "about": "Hugli Wugli vs Tung Tung Sahur is a 2D arcade adventure about helping the Hugli Wugli brothers escape a dungeon. Tung Tung Sahur is chasing them, so every move needs care. Your job is to guide the brothers through the stage, collect every coin, find the red key and the blue key, and reach the dungeon door safely. The goal is easy to understand, but the chase adds pressure as you search each area for the items needed to leave.\nA round is a mix of teamwork, timing, and route planning. Move through the dungeon with WASD and the Arrow keys, stay away from Tung Tung Sahur, and make sure the needed keys are picked up before heading for the exit. It is simple to start, but tricky when you must collect coins while avoiding danger. Good routes matter because missing coins or keys can force you back into risky spots. You can play it free in the browser on both mobile and PC.",
+      "highlights": [
+        "2D dungeon escape adventure",
+        "Play with WASD and Arrow keys",
+        "Collect all coins before leaving",
+        "Find both the red key and blue key",
+        "Playable on mobile and PC"
+      ],
+      "goodFor": "This game is a good fit for players who like 2-player arcade challenges with simple movement and clear goals. It is also fun for players who enjoy collecting items while avoiding a chasing enemy.",
+      "howToPlay": "Move the Hugli Wugli brothers through the dungeon and avoid Tung Tung Sahur. Collect all the coins, pick up the red and blue keys, then guide the brothers to the door to escape.",
+      "touchHint": "Use the mobile controls to move",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Collect the coins as you go so you do not need to backtrack near Tung Tung Sahur.",
+        "Do not rush straight to the door; you need the red and blue keys first.",
+        "Keep both players moving with a plan so one brother does not get trapped.",
+        "Watch Tung Tung Sahur’s position before entering tight dungeon paths."
+      ],
+      "faq": [
+        {
+          "q": "Is Hugli Wugli vs Tung Tung Sahur free to play?",
+          "a": "Yes. You can play Hugli Wugli vs Tung Tung Sahur free in your browser."
+        },
+        {
+          "q": "Can I play Hugli Wugli vs Tung Tung Sahur on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in Hugli Wugli vs Tung Tung Sahur?",
+          "a": "Help the Hugli Wugli brothers escape the dungeon. Collect all coins, find the red and blue keys, and reach the door while avoiding Tung Tung Sahur."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "Use WASD and the Arrow keys to move. These controls let you guide the characters through the dungeon."
+        },
+        {
+          "q": "What keys do I need to escape?",
+          "a": "You need to find the red key and the blue key. After collecting them and the coins, head to the dungeon door."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
