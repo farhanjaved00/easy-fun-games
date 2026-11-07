@@ -181,6 +181,11 @@
       "slug": "italian-brainrot-hunter",
       "at": "2026-10-30"
     },
+    "66537": {
+      "status": "imported",
+      "slug": "ninja-brainrot-slice",
+      "at": "2026-11-07"
+    },
     "66834": {
       "status": "imported",
       "slug": "hugli-wugli-vs-tung-tung-sahur",
@@ -335,6 +340,11 @@
       "status": "imported",
       "slug": "brainrot-shooter",
       "at": "2026-11-03"
+    },
+    "74174": {
+      "status": "imported",
+      "slug": "brainrot-clicker",
+      "at": "2026-11-07"
     },
     "74347": {
       "status": "imported",
@@ -770,6 +780,16 @@
       "status": "imported",
       "slug": "hugli-wugli-vs-tung-tung-sahur",
       "at": "2026-11-06"
+    },
+    "https://html5.gamemonetize.co/d5znapsqor09pu1la49pjm0jc0m2d94r/": {
+      "status": "imported",
+      "slug": "brainrot-clicker",
+      "at": "2026-11-07"
+    },
+    "https://html5.gamemonetize.co/u4de0ujrkwm1adabvp9plp6vx1wx3z8e/": {
+      "status": "imported",
+      "slug": "ninja-brainrot-slice",
+      "at": "2026-11-07"
     }
   }
 }

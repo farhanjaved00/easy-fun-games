@@ -15304,5 +15304,222 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-brainrot-clicker",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/d5znapsqor09pu1la49pjm0jc0m2d94r/",
+    "embedUrl": "https://html5.gamemonetize.co/d5znapsqor09pu1la49pjm0jc0m2d94r/",
+    "slug": "brainrot-clicker",
+    "name": "Brainrot Clicker",
+    "mainKeyword": "brainrot",
+    "category": "idle",
+    "mature": false,
+    "tags": [
+      "Brainrot",
+      "Clicker",
+      "Cartoon",
+      "Hypercasual"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-clicker-f4a3babc.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-clicker-f4a3babc.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-07"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-07",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-07",
+    "publishedAt": "2026-11-07T03:21:50.593Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Tap fast to collect coins, level up your clicks, reborn, and unlock new brainrot worlds.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Clicker free in your browser. Tap fast to collect coins, upgrade clicks, enjoy brainrot music, and reborn into new worlds and locations.",
+      "about": "Brainrot Clicker is a casual idle clicker built around brainrot characters, cartoon style, and strange music. Your main job is simple: tap or click to collect coins. Faster tapping means more coins. As you build up your coin total, you can level up your clicks, purchase upgrades, and work toward being reborn. Rebirth opens new worlds and unique locations with cool bloggers, giving you another reason to keep building your coin total.\nEach round is about finding a good rhythm between tapping, spending coins, and saving enough for the next reborn step. The fun comes from the quick feedback: every click adds to your total, and every upgrade helps your progress feel faster. It is easy to start, but the choice of when to upgrade and when to push for a new world gives it a simple strategy loop. Brainrot Clicker plays free in your browser, so you can start with one click and keep going as long as you want.",
+      "highlights": [
+        "Tap or click to collect coins",
+        "Faster clicking earns more coins",
+        "Level up your clicks with upgrades",
+        "Reborn to discover new worlds",
+        "Brainrot music and cartoon style"
+      ],
+      "goodFor": "Brainrot Clicker is good for players who like simple clicker games with fast progress. It also suits anyone who enjoys brainrot characters, music, and quick browser play.",
+      "howToPlay": "Tap or click the screen to collect coins. Spend coins on upgrades and click levels to improve your progress. Save enough coins to reborn and unlock new worlds and locations.",
+      "touchHint": "Tap the screen quickly to collect coins",
+      "keys": [
+        "Tap/Click: Collect coins"
+      ],
+      "tips": [
+        "Tap in short fast bursts when you want to build coins quickly.",
+        "Do not let coins sit unused for too long if an upgrade can help your progress.",
+        "Watch your coin total before reborn so you know when a new world is within reach.",
+        "After each reborn, focus on rebuilding coins with upgraded clicks."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Clicker free to play?",
+          "a": "Yes. Brainrot Clicker is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Brainrot Clicker on a phone or computer?",
+          "a": "Yes. The game uses tapping or clicking, so you can play on a phone, tablet, or computer browser."
+        },
+        {
+          "q": "What is the goal of Brainrot Clicker?",
+          "a": "The goal is to collect coins by tapping, level up your clicks, buy upgrades, and reborn to unlock new worlds."
+        },
+        {
+          "q": "How do I get more coins in Brainrot Clicker?",
+          "a": "Tap or click faster to earn more coins. You can also use your coins to level up your clicks and buy upgrades."
+        },
+        {
+          "q": "What does reborn do in Brainrot Clicker?",
+          "a": "Reborn lets you discover new worlds and unique locations after you collect enough coins."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-ninja-brainrot-slice",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/u4de0ujrkwm1adabvp9plp6vx1wx3z8e/",
+    "embedUrl": "https://html5.gamemonetize.co/u4de0ujrkwm1adabvp9plp6vx1wx3z8e/",
+    "slug": "ninja-brainrot-slice",
+    "name": "Ninja brainrot Slice",
+    "mainKeyword": "brainrot",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Brainrot",
+      "Ninja",
+      "Bomb"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/ninja-brainrot-slice-97da633c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/ninja-brainrot-slice-97da633c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-07"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-07",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-07",
+    "publishedAt": "2026-11-07T03:22:48.041Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 64,
+    "description": "Slice flying brainrot heads as a quick ninja, build combos, and avoid bombs in an endless arcade run.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Ninja brainrot Slice free in your browser. Slash brainrot heads, build combos, and avoid bombs in an endless arcade ninja challenge run.",
+      "about": "Ninja brainrot Slice is an endless arcade slicing game about speed, timing, and clean reactions. Instead of fruit, brainrot character heads fly across the screen, including Tung Tung, Sahur, Crocodilo, and Tralala. Your goal is simple: cut as many heads as you can, make combo slices, and keep your run alive for as long as possible. The ninja theme keeps the action focused on fast slashes and quick choices.\nEach round gets tense because bombs can appear with the targets. Slice a bomb and the run ends, so every swipe needs control, not just speed. The fun comes from spotting safe cuts, hitting several heads in one move, and trying to climb the leaderboard with a better score. It is fast, silly, and easy to start, and you can play it free in the browser with a mouse click or a tap.",
+      "highlights": [
+        "Endless arcade slicing challenge",
+        "Brainrot heads replace fruit targets",
+        "Bombs end your run if you slice them",
+        "Combos reward fast, clean cuts",
+        "Leaderboard scoring for high-score runs"
+      ],
+      "goodFor": "This game is good for players who like quick arcade rounds and reaction tests. It also fits anyone who enjoys chasing a higher score through combos and careful timing.",
+      "howToPlay": "Click, tap, or swipe across the flying brainrot heads to slice them before they leave the screen. Try to cut several heads in one move to build combos and raise your score. Avoid bombs completely, because one wrong slice ends the run.",
+      "touchHint": "Tap or swipe to slice; avoid bombs",
+      "keys": [
+        "Mouse click: Slice",
+        "Tap: Slice"
+      ],
+      "tips": [
+        "Do not chase every head if a bomb is close to your slash path.",
+        "Wait for two or more heads to line up, then cut through them for a combo.",
+        "Use short, controlled slices near bombs instead of long risky swipes.",
+        "Keep your eyes ahead of the flying targets so you can spot bombs early."
+      ],
+      "faq": [
+        {
+          "q": "Is Ninja brainrot Slice free to play?",
+          "a": "Yes. Ninja brainrot Slice is free to play in your browser."
+        },
+        {
+          "q": "Can I play Ninja brainrot Slice on a phone or computer?",
+          "a": "Yes. On a computer, use the mouse. On a phone or tablet, tap or swipe on the screen to play."
+        },
+        {
+          "q": "What is the goal in Ninja brainrot Slice?",
+          "a": "The goal is to slice brainrot heads, build combos, and score as high as you can in an endless run."
+        },
+        {
+          "q": "What happens if I slice a bomb?",
+          "a": "Your run ends as soon as you cut a bomb. Avoid bombs even when they appear near good targets."
+        },
+        {
+          "q": "Which brainrot characters appear in the game?",
+          "a": "The game includes flying heads for Tung Tung, Sahur, Crocodilo, and Tralala."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
