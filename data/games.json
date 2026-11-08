@@ -15521,5 +15521,220 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-tung-tung-sahur-funny-face",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/3obnes4rseady52wfy5wyxt50o1y2fej/",
+    "embedUrl": "https://html5.gamemonetize.co/3obnes4rseady52wfy5wyxt50o1y2fej/",
+    "slug": "tung-tung-sahur-funny-face",
+    "name": "Tung Tung Sahur Funny Face",
+    "mainKeyword": "tung tung",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Drawing",
+      "Tung Tung",
+      "Funny Face"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-funny-face-9be97f57.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-funny-face-9be97f57.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-08"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-08",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-08",
+    "publishedAt": "2026-11-08T03:21:43.618Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Stretch, twist, and mash the wooden sahur drummer’s face into silly expressions with only the mouse.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Funny Face free and use mouse-only controls to stretch, twist, and mash the wooden sahur drummer into goofy expressions.",
+      "about": "Tung Tung Sahur Funny Face is a silly single-player game about reshaping a wooden sahur drummer’s face. The goal is simple: use the mouse to stretch, twist, and mash his face into the funniest look you can make. You can create wide-eyed shock, squishy smiles, and other goofy expressions by changing the shape of the face directly. There is no complex setup to learn, so you can start testing funny ideas right away.\nA round is all about experimenting with the face and seeing what reaction you can create. Move the mouse over the wooden face, pull features in different directions, twist the shape, and keep adjusting until the expression looks right to you. The fun comes from pushing the face into strange shapes while still making a clear, silly reaction. Try a huge surprised look, then switch to a squashed smile and compare the results. Tung Tung Sahur Funny Face plays free in the browser, with mouse-only controls on computer and Android support listed for mobile play.",
+      "highlights": [
+        "Stretch, twist, and mash a wooden face",
+        "Make wide-eyed shocks and squishy smiles",
+        "Mouse-only controls",
+        "Single-player funny face gameplay",
+        "Free browser play"
+      ],
+      "goodFor": "This game is good for players who like quick, silly creative games. It is easy to start because everything uses the mouse.",
+      "howToPlay": "Use the mouse to pull, stretch, twist, and mash the sahur drummer’s wooden face. Keep changing the shape until you create a goofy expression, such as a shocked look or a squishy smile.",
+      "touchHint": "Drag on the face to stretch and squish it",
+      "keys": [
+        "Mouse: Stretch, twist, and mash the face"
+      ],
+      "tips": [
+        "Work on one part of the face at a time so the expression stays clear.",
+        "Use big pulls for wide-eyed shock and softer drags for squishy smiles.",
+        "Try twisting after stretching to make the face look more surprised or silly.",
+        "Because the game is mouse-only, keep your cursor on the face while shaping it."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Funny Face free to play?",
+          "a": "Yes. Tung Tung Sahur Funny Face plays free in the browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Funny Face on a phone or computer?",
+          "a": "Yes. The game lists Android support for mobile play, and on a computer it uses mouse-only controls."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Funny Face?",
+          "a": "The goal is to reshape the wooden sahur drummer’s face into funny expressions. You can make shocked faces, squishy smiles, and other silly looks."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Funny Face?",
+          "a": "The controls are mouse only. Use the mouse to stretch, twist, and mash the face."
+        },
+        {
+          "q": "Is Tung Tung Sahur Funny Face a single-player game?",
+          "a": "Yes. It is listed as a 1 player game."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-big-stick",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/9jyvy6gaxir8hdl1rp6ha8l73p7b1o9c/",
+    "embedUrl": "https://html5.gamemonetize.co/9jyvy6gaxir8hdl1rp6ha8l73p7b1o9c/",
+    "slug": "tung-tung-sahur-big-stick",
+    "name": "Tung Tung Sahur Big Stick",
+    "mainKeyword": "tung tung",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Adventure",
+      "Tung Tung",
+      "Tung Tung Tung Sahur"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-big-stick-aea080fc.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-big-stick-aea080fc.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-08"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-08",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-08",
+    "publishedAt": "2026-11-08T03:22:43.538Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Guide Tung Tung Sahur through city traps, collect coins, and reach the mighty stick safely at the end.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Big Stick free and guide Tung Tung through city obstacles, collect Tung Tung coins, and reach the mighty stick safely today.",
+      "about": "Tung Tung Sahur Big Stick is a single-player adventure game set in a city full of obstacles and traps. Your job is to help Tung Tung Sahur reach his favorite and most powerful stick at the end of the level. Along the way, you collect Tung Tung coins and try to stay safe until the finish. The game also includes a shop with 4 different costumes, including looks such as a superhero and a ninja.\nEach round is about careful movement. Use the WASD keys to move through the city, jump past obstacles, avoid traps, and keep heading toward the mighty stick. The challenge comes from collecting all the Tung Tung coins while still reaching the end safely. It is simple to start, but you need good timing and steady control to finish cleanly. You can play it free in your browser.",
+      "highlights": [
+        "City adventure with Tung Tung Sahur",
+        "Collect Tung Tung coins before the finish",
+        "Avoid traps and obstacles on the way",
+        "Reach the mighty stick safely",
+        "Shop with 4 different costumes"
+      ],
+      "goodFor": "This game is good for players who like short arcade adventures with simple controls. It fits anyone who enjoys collecting coins, avoiding traps, and reaching a clear goal.",
+      "howToPlay": "Move Tung Tung Sahur through the city and collect all the Tung Tung coins you can. Avoid traps, get past obstacles, and reach the end of the level safely to claim the mighty stick.",
+      "touchHint": "Use WASD on a keyboard to move",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Do not rush into traps; slow down when the path ahead looks crowded.",
+        "Collect coins as you go so you do not need to backtrack near danger.",
+        "Focus on reaching the end safely before taking risky coin paths.",
+        "Use the costumes from the shop if you want a different look while playing."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Big Stick free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Big Stick free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Big Stick on a phone or computer?",
+          "a": "The given controls use the WASD keys, so it is made for play on a computer with a keyboard."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Big Stick?",
+          "a": "Help Tung Tung Sahur get through the city, collect Tung Tung coins, avoid traps, and reach the mighty stick safely."
+        },
+        {
+          "q": "How do I control Tung Tung Sahur?",
+          "a": "Use the WASD keys to move through the level."
+        },
+        {
+          "q": "Are there costumes in Tung Tung Sahur Big Stick?",
+          "a": "Yes. The shop has 4 different costumes, including superhero and ninja looks."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
