@@ -1029,3 +1029,18 @@ body::after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;bac
 .rv:not(.in){opacity:0;transform:translateY(22px) scale(.9)}
 .rv{transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1)}
 @media(prefers-reduced-motion:reduce){.tile:not(.more):hover::before{animation:none}}
+/* phones: calmer top bar and search page (final pass) */
+@media(max-width:899px){
+  :root{--hh:60px}
+  .top{background:color-mix(in srgb,var(--bg) 94%,transparent);box-shadow:0 6px 18px -14px rgba(0,0,0,.6)}
+  .top-in{padding-top:8px;padding-bottom:8px}
+  .top-in>.icon-btn{width:40px;height:40px;border-radius:13px;background:var(--surface);border:1px solid var(--line)}
+  #bell .badge{top:-6px;right:-6px;min-width:18px;height:18px;font-size:10px}
+  .shead{font-size:clamp(22px,6.4vw,28px);margin:6px 0 10px}
+  .sform input{height:48px;border-radius:14px;font-size:15px}
+  .sform>svg{top:14px}
+  .sfilters{gap:8px}
+  .sfilters .chip{min-height:36px;padding:0 14px}
+  .sfilters::-webkit-scrollbar{display:none}
+  .sfilters{scrollbar-width:none}
+}
