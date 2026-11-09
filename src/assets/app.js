@@ -221,7 +221,7 @@
   /* ---------- search page ---------- */
   var results = $('#results');
   if (results) {
-    var sq = $('#sq'), clr = $('#sclear'), filters = $('#sfilters'), explore = $('#sexplore'), count = $('#scount');
+    var sq = $('#sq'), clr = $('#sclear'), filters = $('#sfilters'), explore = $('#sexplore'), scount = $('#scount');
     var q0 = new URLSearchParams(location.search).get('q') || '', catFilter = '', timer = null;
     sq.value = q0; if (qi) qi.value = q0;
     var chip = function (href, label, extra) { return '<a class="chip" href="' + href + '">' + label + (extra ? '<small>' + extra + '</small>' : '') + '</a>'; };
@@ -241,7 +241,7 @@
         var q = sq.value.trim();
         clr.hidden = !q;
         if (!q) {
-          catFilter = ''; filters.hidden = true; count.textContent = '';
+          catFilter = ''; filters.hidden = true; scount.textContent = '';
           explore.innerHTML = exploreHTML(d);
           results.innerHTML = '<div class="grid">' + d.list.slice(0, 96).map(EGF.tile).join('') + '</div>';
           return;
@@ -256,7 +256,7 @@
         filters.hidden = keys.length < 2;
         filters.innerHTML = '<button type="button" class="chip' + (catFilter ? '' : ' on') + '" data-cf="">All<small>' + all.length + '</small></button>' + keys.map(function (k) { var c = d.cats[k] || [k, '']; return '<button type="button" class="chip' + (catFilter === k ? ' on' : '') + '" data-cf="' + k + '">' + c[1] + ' ' + esc(c[0]) + '<small>' + byCat[k] + '</small></button>'; }).join('');
         var l = catFilter ? all.filter(function (g) { return g.cat === catFilter; }) : all;
-        count.textContent = all.length ? l.length + ' game' + (l.length === 1 ? '' : 's') + ' for “' + q + '”' : '';
+        scount.textContent = all.length ? l.length + ' game' + (l.length === 1 ? '' : 's') + ' for “' + q + '”' : '';
         results.innerHTML = l.length ? '<div class="grid">' + l.slice(0, 96).map(EGF.tile).join('') + '</div>' :
           '<div class="empty snone"><b>No games found for “' + esc(q) + '”</b><p>Check the spelling or try a shorter word.</p></div><section class="sx"><h2>Try one of these</h2><div class="sxchips">' + Object.keys(d.cats).map(function (k) { return chip('/category/' + k + '/', d.cats[k][1] + ' ' + esc(d.cats[k][0])); }).join('') + '</div></section>';
       });
