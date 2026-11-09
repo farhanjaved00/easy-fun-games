@@ -81,6 +81,11 @@
       "slug": "huggy-mix-sprunki-music-box",
       "at": "2026-10-31"
     },
+    "61099": {
+      "status": "imported",
+      "slug": "squid-game-sprunki-hide",
+      "at": "2026-11-09"
+    },
     "61147": {
       "status": "imported",
       "slug": "squid-game-sprunki-escaped-backrooms",
@@ -90,6 +95,11 @@
       "status": "imported",
       "slug": "sprunki-in-squid-game-chamber",
       "at": "2026-10-27"
+    },
+    "61270": {
+      "status": "imported",
+      "slug": "sprunki-sniper-squid-game",
+      "at": "2026-11-09"
     },
     "61378": {
       "status": "imported",
@@ -810,6 +820,16 @@
       "status": "imported",
       "slug": "tung-tung-sahur-big-stick",
       "at": "2026-11-08"
+    },
+    "https://html5.gamemonetize.co/yi9sxfualiyp82aasu36jg043nruy1q9/": {
+      "status": "imported",
+      "slug": "sprunki-sniper-squid-game",
+      "at": "2026-11-09"
+    },
+    "https://html5.gamemonetize.co/4gcbt7d62cigcnq1512kqpze5qsnkl8k/": {
+      "status": "imported",
+      "slug": "squid-game-sprunki-hide",
+      "at": "2026-11-09"
     }
   }
 }

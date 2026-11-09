@@ -15736,5 +15736,219 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-sniper-squid-game",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/yi9sxfualiyp82aasu36jg043nruy1q9/",
+    "embedUrl": "https://html5.gamemonetize.co/yi9sxfualiyp82aasu36jg043nruy1q9/",
+    "slug": "sprunki-sniper-squid-game",
+    "name": "Sprunki Sniper Squid Game",
+    "mainKeyword": "sprunki",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "Sniper",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-sniper-squid-game-995e339e.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-sniper-squid-game-995e339e.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-09"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-09",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-09",
+    "publishedAt": "2026-11-09T03:21:39.478Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Time each move with the sound, stay still when needed, and avoid the sniper as a Sprunki.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Sniper Squid Game free in your browser. Listen for the sound to stop, time each move, and avoid being marked by the sniper in each round.",
+      "about": "Sprunki Sniper Squid Game is a tense shooting game about timing, sound, and staying safe. Each character is a Sprunki, and the sniper is the main danger. Your goal is to avoid being marked and eliminated by moving only at the right moment. The game uses a simple control style, so the challenge comes from patience, timing, and careful reactions instead of complex buttons. Every move matters because acting too soon can put a Sprunki in danger.\nA round is built around listening and reacting. You must stay still, wait for the sound to stop, and choose your movement carefully so you do not become the sniper’s target. The pressure comes from knowing that a bad move can get a Sprunki eliminated. Sprunki Sniper Squid Game plays free in the browser, with mouse clicks on a computer or taps on a phone or tablet.",
+      "highlights": [
+        "Sound-based timing challenge",
+        "Sprunki characters marked by a sniper",
+        "Simple mouse click or tap controls",
+        "Playable free in the browser"
+      ],
+      "goodFor": "This game is good for players who like tense shooting games with simple controls. It fits anyone who enjoys timing challenges where waiting can be just as important as moving.",
+      "howToPlay": "Watch and listen during each round. Stay still when needed, wait for the sound to stop, then move with care so the sniper does not target you. Use a mouse click or tap to play.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Do not rush your move; wait for the sound cue before acting.",
+        "Treat stillness as part of the strategy, not as a pause.",
+        "Make each tap or click deliberate so you do not move at the wrong time.",
+        "Focus on the sound first, then decide when it is safe to move."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Sniper Squid Game free to play?",
+          "a": "Yes. Sprunki Sniper Squid Game is free to play in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Sniper Squid Game on a phone or computer?",
+          "a": "Yes. On a computer, use a mouse click to play. On a phone or tablet, tap the screen."
+        },
+        {
+          "q": "What is the goal in Sprunki Sniper Squid Game?",
+          "a": "The goal is to avoid becoming the sniper’s target. Stay still when needed, listen for the sound to stop, and time your movement carefully."
+        },
+        {
+          "q": "What are the controls for Sprunki Sniper Squid Game?",
+          "a": "The controls are simple: mouse click or tap to play. The main challenge is timing your action correctly."
+        },
+        {
+          "q": "Is Sprunki Sniper Squid Game violent?",
+          "a": "The game includes a sniper and characters being marked for elimination. It is not listed as mature content, but the theme is about shooting and elimination."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-squid-game-sprunki-hide",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/4gcbt7d62cigcnq1512kqpze5qsnkl8k/",
+    "embedUrl": "https://html5.gamemonetize.co/4gcbt7d62cigcnq1512kqpze5qsnkl8k/",
+    "slug": "squid-game-sprunki-hide",
+    "name": "Squid Game Sprunki Hide",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Sprunki",
+      "Hidden Object"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/squid-game-sprunki-hide-e20a45b7.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/squid-game-sprunki-hide-e20a45b7.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-09"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-09",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-09",
+    "publishedAt": "2026-11-09T03:22:39.611Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Search each scene, click or tap to reveal the fishy squid hidden by sprunki before time runs out.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Squid Game Sprunki Hide free in your browser. Click or tap to reveal every fishy squid hidden around the sprunki scene before time runs out.",
+      "about": "Squid Game Sprunki Hide is a simple hidden-object puzzle built around a strange sprunki scene where something has been tucked out of sight. Your goal is to spot the fishy squid scattered around the play area and reveal them before the clock reaches zero. The challenge is not about speed alone. You need to scan the screen carefully, notice odd shapes, and decide where to click or tap before the timer puts too much pressure on you.\nA round plays out as a timed search. Look over the full scene, choose a suspicious spot, then use a mouse click or tap to check it. Each correct find brings you closer to clearing the hidden squid before time runs out. The pressure of the timer makes even a simple search feel tense, especially when the last few squid are easy to miss. You can play it free in your browser with no extra controls to learn.",
+      "highlights": [
+        "Timed hidden-object puzzle",
+        "Find fishy squid scattered around the scene",
+        "Simple mouse click or tap controls",
+        "Sprunki-themed hiding challenge"
+      ],
+      "goodFor": "Good for players who like quick visual puzzles and timed searches. It is easy to start because you only need to click or tap suspicious spots.",
+      "howToPlay": "Search the scene for the fishy squid that are hidden around the play area. Click or tap a spot to reveal what is there, and find every squid before time runs out.",
+      "touchHint": "Tap suspicious spots to reveal hidden squid",
+      "keys": [
+        "Mouse click: Reveal a hidden spot",
+        "Tap: Reveal a hidden spot"
+      ],
+      "tips": [
+        "Scan the edges and corners first, since hidden objects are easy to overlook there.",
+        "Do not tap randomly too fast; take a moment to check shapes that look out of place.",
+        "When the timer feels tight, sweep the screen in rows so you do not keep checking the same area.",
+        "Save a little time for the last hidden squid, which may be the easiest one to miss."
+      ],
+      "faq": [
+        {
+          "q": "Is Squid Game Sprunki Hide free to play?",
+          "a": "Yes. Squid Game Sprunki Hide is free to play in your browser."
+        },
+        {
+          "q": "Can I play Squid Game Sprunki Hide on a phone or computer?",
+          "a": "Yes. You can play with a mouse click on a computer or tap on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Squid Game Sprunki Hide?",
+          "a": "The goal is to reveal the fishy squid scattered around the scene before time runs out."
+        },
+        {
+          "q": "What are the controls for Squid Game Sprunki Hide?",
+          "a": "Use a mouse click or tap to play. Click or tap the places where you think something is hidden."
+        },
+        {
+          "q": "Is Squid Game Sprunki Hide a puzzle game?",
+          "a": "Yes. It is a timed hidden-object puzzle where careful looking matters."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
