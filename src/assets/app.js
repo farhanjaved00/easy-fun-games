@@ -306,7 +306,8 @@
         setTimeout(function () { el.classList.remove('rv', 'in'); el.style.transitionDelay = ''; }, 1000);
       });
     }, { rootMargin: '0px 0px -40px 0px', threshold: 0.12 });
-    cards.forEach(function (el) { el.classList.add('rv'); io.observe(el); });
+    // Cards already on screen stay visible at once: hiding them would delay the largest image (LCP) on desktop.
+    cards.forEach(function (el) { if (el.getBoundingClientRect().top < innerHeight) return; el.classList.add('rv'); io.observe(el); });
   }
 
   /* ---------- ads: load the ad script only after the first real interaction (tap, click, key or scroll), so it never competes with the content ---------- */
