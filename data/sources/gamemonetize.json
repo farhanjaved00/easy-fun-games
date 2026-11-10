@@ -6,6 +6,11 @@
       "slug": "nooby-and-obby-2-player",
       "at": "2026-11-03"
     },
+    "51807": {
+      "status": "imported",
+      "slug": "skibidi-toilet-parkour-run-2024",
+      "at": "2026-11-10"
+    },
     "59486": {
       "status": "imported",
       "slug": "sprunki-castle-panic-skibidi-toilet",
@@ -405,6 +410,11 @@
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-zomby",
       "at": "2026-10-29"
+    },
+    "83485": {
+      "status": "imported",
+      "slug": "obby-rainbow-parkour-two-player",
+      "at": "2026-11-10"
     },
     "86550": {
       "status": "imported",
@@ -830,6 +840,16 @@
       "status": "imported",
       "slug": "squid-game-sprunki-hide",
       "at": "2026-11-09"
+    },
+    "https://html5.gamemonetize.co/wlg8fzsavfopmlr2edv6corkpabm8u20/": {
+      "status": "imported",
+      "slug": "skibidi-toilet-parkour-run-2024",
+      "at": "2026-11-10"
+    },
+    "https://html5.gamemonetize.co/028jiue9mmiuwc0bk73kq2dvnjjryfmd/": {
+      "status": "imported",
+      "slug": "obby-rainbow-parkour-two-player",
+      "at": "2026-11-10"
     }
   }
 }

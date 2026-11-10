@@ -15950,5 +15950,224 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-skibidi-toilet-parkour-run-2024",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/wlg8fzsavfopmlr2edv6corkpabm8u20/",
+    "embedUrl": "https://html5.gamemonetize.co/wlg8fzsavfopmlr2edv6corkpabm8u20/",
+    "slug": "skibidi-toilet-parkour-run-2024",
+    "name": "Skibidi Toilet Parkour run 2024",
+    "mainKeyword": "skibidi",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "3D",
+      "Arcade",
+      "Jumping",
+      "Running"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/skibidi-toilet-parkour-run-2024-b20edd1d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/skibidi-toilet-parkour-run-2024-b20edd1d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-10"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-10",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-10",
+    "publishedAt": "2026-11-10T03:21:46.541Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Dash from toilet to toilet, flipping, jumping, and vaulting past obstacles to set new parkour records.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Skibidi Toilet Parkour run 2024 free in your browser. Jump from toilet to toilet, vault obstacles, flip, and chase new records with quick swipes.",
+      "about": "Skibidi Toilet Parkour run 2024 is a 3D arcade running game built around quick parkour moves. You guide a toilet through a strange obstacle course where each jump sends you from one toilet to the next. The goal is simple: keep moving, clear the obstacles, and push for a better record. Expect flips, jumps, falls, and vaults as the course tests your timing and keeps each attempt focused on the next landing.\nA round is all about reading the next gap, clicking or swiping at the right moment, and landing cleanly so the run can continue. The fun comes from the simple control and the fast chain of moves, but the timing can get tricky when obstacles and toilets line up close together. Skibidi Toilet Parkour run 2024 plays free in the browser, so you can start a run quickly, miss a move, and try again for a longer record.",
+      "highlights": [
+        "3D arcade parkour running",
+        "Jump from toilet to toilet",
+        "Flip, fall, and vault over obstacles",
+        "Simple click-and-swipe control",
+        "Try to set new records"
+      ],
+      "goodFor": "Good for players who like quick arcade runs with simple controls and timing-based jumps. It is a good pick if you enjoy chasing a better record each attempt.",
+      "howToPlay": "Click and swipe to make your toilet runner move through the parkour course. Jump, flip, and vault past obstacles while landing on the next toilet. Keep the run going as long as you can to set a new record.",
+      "touchHint": "Tap and swipe to jump through the course",
+      "keys": [
+        "Mouse: Click and swipe"
+      ],
+      "tips": [
+        "Look ahead before each jump so you know where the next toilet is.",
+        "Swipe with steady timing instead of rushing every move.",
+        "Clear the obstacle first, then focus on landing on the next toilet.",
+        "If a section feels crowded, wait for a clear moment before you swipe."
+      ],
+      "faq": [
+        {
+          "q": "Is Skibidi Toilet Parkour run 2024 free to play?",
+          "a": "Yes. You can play Skibidi Toilet Parkour run 2024 for free in your browser."
+        },
+        {
+          "q": "Can I play Skibidi Toilet Parkour run 2024 on a phone or computer?",
+          "a": "Yes. The controls use click and swipe, so you can play with a mouse on a computer or tap and swipe on a phone."
+        },
+        {
+          "q": "What is the goal in Skibidi Toilet Parkour run 2024?",
+          "a": "Your goal is to keep the parkour run going by moving from toilet to toilet, clearing obstacles, and setting a new record."
+        },
+        {
+          "q": "How do I control Skibidi Toilet Parkour run 2024?",
+          "a": "Use mouse click and swipe to play. On touch screens, tap and swipe to guide the jumps and vaults."
+        },
+        {
+          "q": "What kind of game is Skibidi Toilet Parkour run 2024?",
+          "a": "It is a 3D arcade running game with parkour-style jumping, flipping, falling, and vaulting over obstacles."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-obby-rainbow-parkour-two-player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/028jiue9mmiuwc0bk73kq2dvnjjryfmd/",
+    "embedUrl": "https://html5.gamemonetize.co/028jiue9mmiuwc0bk73kq2dvnjjryfmd/",
+    "slug": "obby-rainbow-parkour-two-player",
+    "name": "Obby Rainbow Parkour Two Player",
+    "mainKeyword": "obby",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "2 Player",
+      "Obby"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-rainbow-parkour-two-player-df5dad71.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-rainbow-parkour-two-player-df5dad71.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-10"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-10",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-10",
+    "publishedAt": "2026-11-10T03:22:51.314Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Run, jump, sprint, and shove through rainbow obby courses alone or with a friend to reach each finish line.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby Rainbow Parkour Two Player free in your browser. Run, jump, sprint, and shove through bright obby courses to reach the finish line.",
+      "about": "Obby Rainbow Parkour Two Player is a colorful parkour adventure about running, jumping, and staying in control on bright rainbow obstacle courses. You can play by yourself or share the keyboard with a friend. The goal is simple: move through each level, avoid tricky hazards, make clean jumps, and reach the finish line. The obby setup keeps the focus on movement, timing, and careful landings.\nEach run is about choosing the right speed for the next platform. You need to line up jumps, use sprint when you need extra speed, and avoid rushing into obstacles that can stop your progress. In two-player play, both players can move through the course together, which makes tight jumps and crowded spots more chaotic. The shove action adds another small twist when you play side by side. Obby Rainbow Parkour Two Player plays free in the browser, so you can start a quick solo run or try to finish the courses with a friend on the same computer.",
+      "highlights": [
+        "Colorful rainbow parkour courses",
+        "Play alone or with a friend",
+        "Precise jumps and tricky obstacles",
+        "Sprint and shove actions",
+        "Reach the finish line in each level"
+      ],
+      "goodFor": "This game is good for players who like obby parkour, quick obstacle courses, and local two-player challenges. It is especially fun if you enjoy timing jumps and trying again after a missed move.",
+      "howToPlay": "Move through the rainbow course and jump over gaps or obstacles. Use sprint when you need more speed, and use shove carefully in two-player play. To clear a level, reach the finish line without getting stopped by the tricky sections.",
+      "touchHint": "Use the keyboard controls to run and jump",
+      "keys": [
+        "WASD: Move Player 1",
+        "Space: Jump Player 1",
+        "Shift: Sprint",
+        "Q: Shove Player 1",
+        "Arrow keys: Move Player 2",
+        "L: Jump Player 2"
+      ],
+      "tips": [
+        "Line up your character before each jump so you do not drift off the platform.",
+        "Use sprint for longer gaps, but slow down before tight or precise jumps.",
+        "In two-player runs, let one player handle narrow sections first to avoid blocking each other.",
+        "Use shove carefully near obstacles so you do not push your friend into a bad spot."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby Rainbow Parkour Two Player free to play?",
+          "a": "Yes. Obby Rainbow Parkour Two Player is free to play in your browser."
+        },
+        {
+          "q": "Can I play Obby Rainbow Parkour Two Player on a phone or computer?",
+          "a": "The given controls are keyboard controls, so it is best played on a computer. Two players can share the keyboard using separate movement and jump keys."
+        },
+        {
+          "q": "Can I play Obby Rainbow Parkour Two Player alone?",
+          "a": "Yes. You can play solo, or you can team up with a friend for two-player parkour."
+        },
+        {
+          "q": "What is the goal in Obby Rainbow Parkour Two Player?",
+          "a": "Your goal is to run through the colorful obstacle course, avoid tricky parts, make precise jumps, and reach the finish line."
+        },
+        {
+          "q": "What are the controls for two players?",
+          "a": "Player 1 uses WASD to move, Space to jump, Shift to sprint, and Q to shove. Player 2 uses the Arrow keys to move and L to jump."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
