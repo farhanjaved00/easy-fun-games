@@ -11,6 +11,11 @@
       "slug": "skibidi-toilet-parkour-run-2024",
       "at": "2026-11-10"
     },
+    "54279": {
+      "status": "imported",
+      "slug": "obby-vs-bacon-rainbow-parkour",
+      "at": "2026-11-11"
+    },
     "59486": {
       "status": "imported",
       "slug": "sprunki-castle-panic-skibidi-toilet",
@@ -285,6 +290,11 @@
       "status": "imported",
       "slug": "brainrot-tung-sahur-battle",
       "at": "2026-10-27"
+    },
+    "69462": {
+      "status": "imported",
+      "slug": "trallero-tung-tung-chicken",
+      "at": "2026-11-11"
     },
     "69466": {
       "status": "imported",
@@ -850,6 +860,16 @@
       "status": "imported",
       "slug": "obby-rainbow-parkour-two-player",
       "at": "2026-11-10"
+    },
+    "https://html5.gamemonetize.co/sam4qcppls4g4k4koe21p4lq9dpvs4sy/": {
+      "status": "imported",
+      "slug": "obby-vs-bacon-rainbow-parkour",
+      "at": "2026-11-11"
+    },
+    "https://html5.gamemonetize.co/tuj68izy7ybfqtdj42aeuvm4pmrz5c32/": {
+      "status": "imported",
+      "slug": "trallero-tung-tung-chicken",
+      "at": "2026-11-11"
     }
   }
 }

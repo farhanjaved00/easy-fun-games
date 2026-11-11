@@ -16169,5 +16169,221 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-obby-vs-bacon-rainbow-parkour",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/sam4qcppls4g4k4koe21p4lq9dpvs4sy/",
+    "embedUrl": "https://html5.gamemonetize.co/sam4qcppls4g4k4koe21p4lq9dpvs4sy/",
+    "slug": "obby-vs-bacon-rainbow-parkour",
+    "name": "Obby vs Bacon Rainbow Parkour",
+    "mainKeyword": "obby",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "2 Player",
+      "Action",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-vs-bacon-rainbow-parkour-63a99211.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-vs-bacon-rainbow-parkour-63a99211.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-11"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-11",
+    "publishedAt": "2026-11-11T03:21:40.943Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Team up in this 2-player obby, collect every coin, dodge traps, and reach the finish flag together.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby vs Bacon Rainbow Parkour free in your browser. Team up, collect every coin, avoid spikes and falling balls, and reach the finish flag.",
+      "about": "Obby vs Bacon Rainbow Parkour is a 2-player obstacle course game where two friends work through colorful parkour stages together. One player controls the Yellow character, and the other controls the Grey character. The goal is not only to reach the end, but to do it as a team. Each course has coins to collect, a flag at the finish, and hazards that can stop your run. Enemies are placed around the course, spikes block careless moves, and falling balls can drop from above.\nA round is about moving carefully, watching the course, and helping both players survive to the flag. You need to collect all the coins on the stage, then get both friends to the finish flag to unlock the next level. The challenge comes from doing everything together: one player may clear a section fast, but the level only counts when both arrive. It plays free in the browser, with keyboard controls on a computer and touch controls on mobile.",
+      "highlights": [
+        "2-player parkour built for teamwork",
+        "Yellow player uses WASD controls",
+        "Grey player uses the arrow keys",
+        "Collect every coin before finishing",
+        "Avoid enemies, spikes, and falling balls"
+      ],
+      "goodFor": "This game is good for players who like co-op obstacle courses and shared goals. It works well when two players want quick teamwork challenges on the same screen.",
+      "howToPlay": "Move both players through the course while collecting every coin. Avoid enemies, spikes, and falling balls, then bring both players to the finish flag. You can move to the next level only when both friends reach the flag together.",
+      "touchHint": "Use the on-screen touch controls to move",
+      "keys": [
+        "WASD: Move Yellow player",
+        "Arrow keys: Move Grey player"
+      ],
+      "tips": [
+        "Do not leave the slower player behind; both must reach the flag to finish.",
+        "Collect coins as you pass them so you do not need to cross hazards again.",
+        "Pause before areas with falling balls and move when the path is clear.",
+        "Watch spikes and enemies first, then choose the safest route to the flag."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby vs Bacon Rainbow Parkour free to play?",
+          "a": "Yes. You can play Obby vs Bacon Rainbow Parkour for free in your browser."
+        },
+        {
+          "q": "Can I play Obby vs Bacon Rainbow Parkour on a phone or computer?",
+          "a": "Yes. On a computer, the Yellow player uses WASD and the Grey player uses the arrow keys. On mobile, touch controls are available."
+        },
+        {
+          "q": "What is the goal in Obby vs Bacon Rainbow Parkour?",
+          "a": "Collect all the coins on the course and get both players to the finish flag. When both friends reach the flag, you can move to the next level."
+        },
+        {
+          "q": "What should I avoid in the game?",
+          "a": "Watch out for enemies, spikes, and balls that fall from the sky. These hazards make some courses harder to complete."
+        },
+        {
+          "q": "Is Obby vs Bacon Rainbow Parkour a 2-player game?",
+          "a": "Yes. It is made for two players, with separate controls for the Yellow and Grey characters."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-trallero-tung-tung-chicken",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/tuj68izy7ybfqtdj42aeuvm4pmrz5c32/",
+    "embedUrl": "https://html5.gamemonetize.co/tuj68izy7ybfqtdj42aeuvm4pmrz5c32/",
+    "slug": "trallero-tung-tung-chicken",
+    "name": "Trallero Tung Tung Chicken",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Arena",
+      "Battle"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/trallero-tung-tung-chicken-5bc98e59.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/trallero-tung-tung-chicken-5bc98e59.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-11"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-11",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-11",
+    "publishedAt": "2026-11-11T03:23:01.120Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Race a friend as Trallero or Tung Sahur, break crates, and carry 10 chickens to the coop first.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Trallero Tung Tung Chicken free and race a friend to gather 10 chickens, break wooden crates, and bring them back to the coop before they do.",
+      "about": "Trallero Tung Tung Chicken is a two-player arcade arena game about a fast farm race. You choose one of two farmer characters, Trallero or Tung Sahur, then try to outpace your friend around the field. The setting is a light farm area with chickens to grab and a coop used as the scoring point. The goal is simple and clear: catch chickens, carry them to the coop, and be the first player to deliver 10 chickens.\nEach round is a chase for loose chickens and hidden chances inside wooden crates. If a crate blocks a chicken, jump on it three times to break it open, then grab the chicken and hurry back to the coop. The race feels tricky because both players are going for the same target, so quick trips and smart crate choices matter. A single slow return can let your rival catch up. It plays free in the browser on mobile and PC.",
+      "highlights": [
+        "Two-player farm race with Trallero and Tung Sahur",
+        "First player to deliver 10 chickens wins",
+        "Wooden crates break after three jumps",
+        "Playable on mobile and PC",
+        "Simple 2D arena action"
+      ],
+      "goodFor": "Good for players who enjoy head-to-head arcade races with clear goals. It is easy to understand, but crate timing and fast returns make each round competitive.",
+      "howToPlay": "Choose Trallero or Tung Sahur, then move around the arena to collect chickens. Bring chickens to the coop, and be the first player to deliver 10 to win. Jump on wooden crates three times to break them and reach the chicken inside.",
+      "touchHint": "Use the mobile controls to move",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Break a crate only if you can finish all three jumps quickly, then grab the chicken right away.",
+        "Do not wander with chickens for too long; head back to the coop to build your count.",
+        "Watch which crates your friend is breaking so you can decide whether to race there or choose another target.",
+        "After you collect a chicken, take the shortest safe route back to the coop to save time."
+      ],
+      "faq": [
+        {
+          "q": "Is Trallero Tung Tung Chicken free to play?",
+          "a": "Yes. Trallero Tung Tung Chicken plays free in your browser."
+        },
+        {
+          "q": "Can I play Trallero Tung Tung Chicken on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in Trallero Tung Tung Chicken?",
+          "a": "You need to collect chickens and bring them to the coop. The first player to deliver 10 chickens wins the game."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "Use WASD and the Arrow keys to move. The game is made for two players racing against each other."
+        },
+        {
+          "q": "How do I break wooden crates?",
+          "a": "Jump on a wooden crate three times. When it breaks, you can grab the chicken and take it to the coop."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
