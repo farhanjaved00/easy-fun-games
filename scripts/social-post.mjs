@@ -45,7 +45,9 @@ const PLATFORMS = {
   instagram: !!(env.IG_USER_ID && env.META_PAGE_TOKEN) || !!(env.IG_LOGIN_TOKEN && env.IG_APP_SECRET),
   pinterest: !!(env.PINTEREST_APP_ID && env.PINTEREST_APP_SECRET && env.PINTEREST_BOARD_ID && (env.PINTEREST_REFRESH_TOKEN || fs.existsSync(PIN_STATE)))
 };
-const enabled = Object.keys(PLATFORMS).filter(k => PLATFORMS[k]);
+// Instagram and Pinterest posting is paused (their logins need new tokens). Remove a name here to turn it back on.
+const PAUSED = new Set(['instagram', 'pinterest']);
+const enabled = Object.keys(PLATFORMS).filter(k => PLATFORMS[k] && !PAUSED.has(k));
 if (SITE.autopost?.enabled === false) { console.log('Auto-posting is turned off in data/site.json.'); process.exit(0); }
 if (!enabled.length) { console.log('No social accounts are connected yet (no secrets set), nothing to do.'); process.exit(0); }
 console.log(`Connected: ${enabled.join(', ')}`);
