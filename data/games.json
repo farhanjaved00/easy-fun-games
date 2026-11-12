@@ -16599,5 +16599,114 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-obby-iq-escape-from-the-laboratory",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/9bo3b0dd43bfdu66e24xv0wauholkx20/",
+    "embedUrl": "https://html5.gamemonetize.co/9bo3b0dd43bfdu66e24xv0wauholkx20/",
+    "slug": "obby-iq-escape-from-the-laboratory",
+    "name": "Obby: IQ Escape from the Laboratory",
+    "mainKeyword": "obby",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Escape",
+      "Jumping",
+      "Logic",
+      "Arcade"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-iq-escape-from-the-laboratory-a5b55685.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-iq-escape-from-the-laboratory-a5b55685.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-12",
+    "publishedAt": "2026-11-12T15:07:13.802Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Escape a strange 3D lab by solving logic tests, dodging traps, and clearing obby parkour challenges.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby: IQ Escape from the Laboratory free in your browser, solve logic tests, dodge traps, and jump through a strange 3D lab full of puzzles.",
+      "about": "Obby: IQ Escape from the Laboratory is a 3D escape game set inside a strange laboratory. Your goal is to get out, but the lab is not just a path of jumps. Each level mixes parkour with puzzles, traps, and odd challenges that ask you to pay attention and think before you move. You may need to solve IQ-style tasks, use logic, and spot the trick hidden in the room.\nA round is about reading the challenge, moving through the lab, and finding the right way forward. Some parts test timing and jumping skill, while others ask you to push, build, destroy, or interact with objects to clear the path. The fun comes from not knowing what the next room will ask you to do. It plays free in the browser, with phone controls listed for movement, jumping, and interactions.",
+      "highlights": [
+        "3D laboratory escape with obby-style challenges",
+        "Logic tests mixed with jumping and timing",
+        "Traps and surprises around many corners",
+        "Push, build, jump, destroy, and interact to progress",
+        "Phone controls with joystick, jump, and action buttons"
+      ],
+      "goodFor": "Good for players who like obstacle courses with puzzles instead of only running and jumping. It also fits anyone who enjoys escape challenges that reward logic and careful attention.",
+      "howToPlay": "Move through each laboratory level and look for the action that opens the way forward. Jump over hazards, avoid traps, and solve logic tasks by using the right objects or interactions. Clear the challenge in front of you to keep escaping through the lab.",
+      "touchHint": "Use the left joystick and right jump button",
+      "keys": [
+        "Virtual joystick: Move",
+        "Jump button: Jump",
+        "Interaction button: Use when needed"
+      ],
+      "tips": [
+        "Look around before jumping; many rooms are logic tests, not just speed tests.",
+        "Try interacting with unusual objects when the path is blocked.",
+        "Use short, controlled jumps near traps instead of rushing forward.",
+        "If a challenge has push, build, or destroy mechanics, think about the order before acting."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby: IQ Escape from the Laboratory free to play?",
+          "a": "Yes. You can play Obby: IQ Escape from the Laboratory for free in your browser."
+        },
+        {
+          "q": "Can I play Obby: IQ Escape from the Laboratory on a phone or computer?",
+          "a": "Yes, it plays in the browser. On a phone, move with the virtual joystick on the left, jump with the button on the right, and use the extra interaction button when needed."
+        },
+        {
+          "q": "What is the goal in Obby: IQ Escape from the Laboratory?",
+          "a": "Your goal is to escape the laboratory. To do that, you clear levels with jumps, traps, puzzles, and logic-based challenges."
+        },
+        {
+          "q": "Is this game only about jumping?",
+          "a": "No. Jumping is important, but the game also includes IQ-style tasks, object interactions, pushing, building, and destroying."
+        },
+        {
+          "q": "What makes the laboratory tricky?",
+          "a": "The lab has unexpected traps, unusual challenges, and puzzles that need attention. Some rooms reward thinking more than fast movement."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
