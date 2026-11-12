@@ -16385,5 +16385,219 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-tung-tung-sahur-reassembled",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/71vi8ce3ncqkn3bx7kaodzdc2siats69/",
+    "embedUrl": "https://html5.gamemonetize.co/71vi8ce3ncqkn3bx7kaodzdc2siats69/",
+    "slug": "tung-tung-sahur-reassembled",
+    "name": "Tung Tung Sahur Reassembled",
+    "mainKeyword": "tung tung",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot",
+      "Slicing",
+      "Sliding"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-reassembled-c705ec28.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-reassembled-c705ec28.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-12",
+    "publishedAt": "2026-11-12T03:21:44.761Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Slide scrambled tiles to rebuild odd tung tung portraits of a wooden hero, ballerina, and shark jogger.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Reassembled free and slide scrambled tiles to rebuild tung tung portraits with a wooden hero, ballerina, and shark jogger.",
+      "about": "Tung Tung Sahur Reassembled is a mouse-only sliding tile puzzle built around strange, funny portrait images. Your goal is to put each scrambled picture back together piece by piece. The portraits feature Tung Tung, a wooden hero, plus Ballerina Cappucina and a sneaker-wearing Shark Jogger. Each image starts broken into tiles, so you need to read the shapes, colors, and character details to find where every piece belongs. The simple idea makes the puzzle easy to start, while the mixed-up artwork gives you plenty to study.\nA round is simple to understand: slide the mixed tiles until the full portrait looks right again. The challenge comes from seeing how one move changes the space around other tiles. It is fun when a face, costume, or shark detail suddenly lines up and the whole picture starts to make sense. Since the controls use only the mouse, you can focus on the image instead of button combos. You can play Tung Tung Sahur Reassembled free in your browser whenever you want a short, visual brain teaser.",
+      "highlights": [
+        "Mouse-only sliding tile puzzle",
+        "Rebuild scrambled tung tung character portraits",
+        "Features Tung Tung, Ballerina Cappucina, and Shark Jogger",
+        "Funny brainrot style with odd character images"
+      ],
+      "goodFor": "This game is good for players who like visual puzzles and silly character art. It suits quick play sessions because the goal is clear right away: fix the scrambled picture.",
+      "howToPlay": "Use the mouse to slide tiles around the board. Keep moving pieces until the scrambled image is reassembled into the correct portrait. You win by restoring the picture so the character looks complete again.",
+      "touchHint": "Use a mouse or trackpad to slide the tiles",
+      "keys": [
+        "Mouse: Slide tiles"
+      ],
+      "tips": [
+        "Start by finding obvious character parts, such as faces, shoes, or the shark shape.",
+        "Build one area of the portrait first instead of moving every tile at random.",
+        "Watch how each slide affects nearby tiles before making the next move.",
+        "Use clear color changes and edges in the image to judge where pieces belong."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Reassembled free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Reassembled free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Reassembled on a phone or computer?",
+          "a": "The game uses mouse-only controls, so a computer with a mouse or trackpad is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in Tung Tung Sahur Reassembled?",
+          "a": "Your goal is to slide the scrambled tiles until the character portrait is put back together."
+        },
+        {
+          "q": "Which characters are in the puzzles?",
+          "a": "The portraits include Tung Tung, Ballerina Cappucina, and a sneaker-wearing Shark Jogger."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Reassembled?",
+          "a": "Use the mouse only. Click and slide tiles to move them into better positions."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-tung-tung-sahur-supermarket",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/wtv21hm84crp7qcztjsvkl5tuxa1uwzk/",
+    "embedUrl": "https://html5.gamemonetize.co/wtv21hm84crp7qcztjsvkl5tuxa1uwzk/",
+    "slug": "tung-tung-sahur-supermarket",
+    "name": "Tung Tung Sahur Supermarket",
+    "mainKeyword": "tung tung",
+    "category": "simulator",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Simulation",
+      "Brainrot Italian",
+      "Supermarket"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/tung-tung-sahur-supermarket-707b9ade.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/tung-tung-sahur-supermarket-707b9ade.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-12"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-12",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-12",
+    "publishedAt": "2026-11-12T03:23:11.082Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Run Tung Tung Sahur’s busy supermarket by cleaning messes, scanning items, and restocking shelves.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Tung Tung Sahur Supermarket free and run a busy store: clean floors, scan item barcodes, serve shoppers, and restock shelves from storage.",
+      "about": "Tung Tung Sahur Supermarket is a light supermarket simulator where Tung Tung Sahur works as the cashier in a busy store. Italian brainrot characters come in to shop, and your job is to keep the place running smoothly. The store can get messy, customers can wait, and shelves can run low. You need to clean the floor, handle the cash register, scan each product barcode, and track what leaves the store.\nA round is all about switching tasks at the right time. Move through the store, grab a broom from the storage room when the floor needs cleaning, then rinse it in the water bucket after sweeping. At the register, scan purchased items and place them in the shopping basket so customers can move on. When shelves start to empty, spend the money you have earned to restock from storage. It plays free in the browser on both mobile and PC.",
+      "highlights": [
+        "Work as the cashier in Tung Tung Sahur’s supermarket",
+        "Clean messy floors with a broom from the storage room",
+        "Rinse the broom in the water bucket after sweeping",
+        "Scan every item barcode and place items in the basket",
+        "Use earned money to restock shelves from storage"
+      ],
+      "goodFor": "Good for players who like simple job simulators with quick task switching. It is also a nice pick if you enjoy arcade-style store management without a long setup.",
+      "howToPlay": "Move around the supermarket and respond to whatever needs attention. Clean the floor with a broom, rinse it after sweeping, scan each customer’s items, place them in the basket, and restock shelves when they run low. Keep customers from waiting too long and keep the store tidy.",
+      "touchHint": "Play on mobile using the in-game controls",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Clean the floor as soon as it gets messy so the store stays spotless.",
+        "After sweeping, rinse the broom in the water bucket before going back to other jobs.",
+        "Scan every barcode before placing purchased items in the shopping basket.",
+        "Watch the shelves and use earned money to restock from the storage room when they get low."
+      ],
+      "faq": [
+        {
+          "q": "Is Tung Tung Sahur Supermarket free to play?",
+          "a": "Yes. You can play Tung Tung Sahur Supermarket for free in your browser."
+        },
+        {
+          "q": "Can I play Tung Tung Sahur Supermarket on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What do you do in Tung Tung Sahur Supermarket?",
+          "a": "You run a busy supermarket. You clean the floor, scan customer items, place purchases in the basket, and restock shelves from the storage room."
+        },
+        {
+          "q": "What are the controls for Tung Tung Sahur Supermarket?",
+          "a": "On PC, use the WASD keys to move. Other actions include grabbing the broom, rinsing it, scanning barcodes, and placing items in the basket."
+        },
+        {
+          "q": "How do you restock shelves?",
+          "a": "When shelves start to empty, use the money you earned to restock them from the storage room."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

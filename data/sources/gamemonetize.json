@@ -256,6 +256,11 @@
       "slug": "italian-brainrot-puzzle",
       "at": "2026-10-30"
     },
+    "67969": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-supermarket",
+      "at": "2026-11-12"
+    },
     "68195": {
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
@@ -265,6 +270,11 @@
       "status": "imported",
       "slug": "tung-sahur-italien-brainrot",
       "at": "2026-10-29"
+    },
+    "68516": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-reassembled",
+      "at": "2026-11-12"
     },
     "68620": {
       "status": "imported",
@@ -870,6 +880,16 @@
       "status": "imported",
       "slug": "trallero-tung-tung-chicken",
       "at": "2026-11-11"
+    },
+    "https://html5.gamemonetize.co/71vi8ce3ncqkn3bx7kaodzdc2siats69/": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-reassembled",
+      "at": "2026-11-12"
+    },
+    "https://html5.gamemonetize.co/wtv21hm84crp7qcztjsvkl5tuxa1uwzk/": {
+      "status": "imported",
+      "slug": "tung-tung-sahur-supermarket",
+      "at": "2026-11-12"
     }
   }
 }
