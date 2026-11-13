@@ -251,6 +251,11 @@
       "slug": "bank-boom-tung-tung-sahur",
       "at": "2026-11-05"
     },
+    "67183": {
+      "status": "imported",
+      "slug": "la-casa-de-tung-tung-sahur",
+      "at": "2026-11-13"
+    },
     "67879": {
       "status": "imported",
       "slug": "italian-brainrot-puzzle",
@@ -436,6 +441,11 @@
       "slug": "tung-tung-tung-sahur-vs-zomby",
       "at": "2026-10-29"
     },
+    "81196": {
+      "status": "imported",
+      "slug": "brainrot-castle-siege",
+      "at": "2026-11-13"
+    },
     "83485": {
       "status": "imported",
       "slug": "obby-rainbow-parkour-two-player",
@@ -450,6 +460,11 @@
       "status": "imported",
       "slug": "brainrot-mega-parkour",
       "at": "2026-11-01"
+    },
+    "86615": {
+      "status": "imported",
+      "slug": "brainrot-crush",
+      "at": "2026-11-13"
     },
     "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/": {
       "status": "imported",
@@ -900,6 +915,21 @@
       "status": "imported",
       "slug": "obby-iq-escape-from-the-laboratory",
       "at": "2026-11-12"
+    },
+    "https://html5.gamemonetize.co/2i1bs67w2y0ltciqn0d364wh7rzm411k/": {
+      "status": "imported",
+      "slug": "la-casa-de-tung-tung-sahur",
+      "at": "2026-11-13"
+    },
+    "https://html5.gamemonetize.co/mqobw8qyrsumkji3anzq1fc7lhwpz8nm/": {
+      "status": "imported",
+      "slug": "brainrot-crush",
+      "at": "2026-11-13"
+    },
+    "https://html5.gamemonetize.co/je8bmdpe3b7vebfbe4dt4p07rchrcwnc/": {
+      "status": "imported",
+      "slug": "brainrot-castle-siege",
+      "at": "2026-11-13"
     }
   }
 }

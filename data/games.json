@@ -16708,5 +16708,333 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-la-casa-de-tung-tung-sahur",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/2i1bs67w2y0ltciqn0d364wh7rzm411k/",
+    "embedUrl": "https://html5.gamemonetize.co/2i1bs67w2y0ltciqn0d364wh7rzm411k/",
+    "slug": "la-casa-de-tung-tung-sahur",
+    "name": "La Casa de Tung Tung Sahur",
+    "mainKeyword": "tung tung",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "2 Player",
+      "Action",
+      "Attack"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/la-casa-de-tung-tung-sahur-cc8a17f9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/la-casa-de-tung-tung-sahur-cc8a17f9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-13",
+    "publishedAt": "2026-11-13T03:21:45.577Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Help the Tung Tung Sahur brothers grab every coin, find the keys, and open the bank vault together.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play La Casa de Tung Tung Sahur free and help the brothers collect every coin, find red and blue keys, then open the vault on PC or mobile too.",
+      "about": "La Casa de Tung Tung Sahur is a 2D adventure game about the Tung Tung Sahur brothers and their bank plan. You guide them through the bank, collect all the money, find the red and blue keys, and reach the big vault. The goal is clear and direct: grab the coins, get the keys, then open the vault so the brothers can finish the job.\nA round is built around movement, searching, and teamwork. You can play alone or with a friend, using WASD and the Arrow keys to move the brothers around the bank. In 2-player play, one player can use WASD while the other uses the Arrow keys, which helps you cover more of the bank. It is fun because every coin and key matters, and it gets tricky if you rush to the vault too early. La Casa de Tung Tung Sahur plays free in the browser on both mobile and PC.",
+      "highlights": [
+        "Play alone or together with a friend",
+        "Collect every coin inside the bank",
+        "Find the keys needed for the vault",
+        "Open the big bank vault to finish",
+        "Playable on mobile and PC"
+      ],
+      "goodFor": "This game is good for players who like short 2-player adventures with a clear collect-and-unlock goal. It also fits players who enjoy simple movement controls and teamwork.",
+      "howToPlay": "Move through the bank and collect all the coins you can find. Search for the keys, then use them to open the big vault and complete the job. In 2-player play, work together so both brothers help clear the bank faster.",
+      "touchHint": "Move with the mobile controls",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Collect the coins before heading for the vault, since the goal is to empty the bank.",
+        "Split up in 2-player mode so one player can search with WASD while the other uses the Arrow keys.",
+        "Do not ignore the keys; the vault cannot be opened until you find the required keys.",
+        "Sweep the bank carefully so you do not miss coins before trying to finish."
+      ],
+      "faq": [
+        {
+          "q": "Is La Casa de Tung Tung Sahur free to play?",
+          "a": "Yes. You can play La Casa de Tung Tung Sahur free in your browser."
+        },
+        {
+          "q": "Can I play La Casa de Tung Tung Sahur on a phone or computer?",
+          "a": "Yes. The game is playable on both mobile and PC."
+        },
+        {
+          "q": "What is the goal in La Casa de Tung Tung Sahur?",
+          "a": "Help the Tung Tung Sahur brothers collect all the money in the bank, find the keys, and open the big vault."
+        },
+        {
+          "q": "Can two players play La Casa de Tung Tung Sahur together?",
+          "a": "Yes. You can play with a friend and help the brothers complete the bank objective together."
+        },
+        {
+          "q": "What are the controls for La Casa de Tung Tung Sahur?",
+          "a": "Use WASD to move and use the Arrow keys to move. These controls make it easy for two players to share one keyboard."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-crush",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/mqobw8qyrsumkji3anzq1fc7lhwpz8nm/",
+    "embedUrl": "https://html5.gamemonetize.co/mqobw8qyrsumkji3anzq1fc7lhwpz8nm/",
+    "slug": "brainrot-crush",
+    "name": "Brainrot Crush",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brainrot Italian",
+      "Match-3",
+      "Logic"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-crush-c29c68b4.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-crush-c29c68b4.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-13",
+    "publishedAt": "2026-11-13T03:22:49.271Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Swap colorful meme gems, make match-3 combos, and use wild bonuses to crush 15 puzzle levels.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Crush free in your browser, swap 6 colorful character gems, trigger 3 special bonuses, and clear 15 match-3 puzzle levels with carnival art.",
+      "about": "Brainrot Crush is a colorful match-3 puzzle game built around Italian meme style and bright carnival visuals. You play with 6 different character gems and try to match them across 15 levels. The goal is simple: swap pieces, form matches, build combos, and use bonus powers to push through each puzzle. Its brainrot theme gives the board a silly look, while the logic stays clear and easy to understand.\nEach round is about spotting the best swap before you click or tap. Matching gems can create bigger chains, and the 3 special bonuses add extra power when the board gets tight. Bonuses include Bombardiro Crocodilo, Frigo Camello, and Tung Tung Tung Sahur. With 3 game modes, fast mouse or tap controls, and levels that challenge your pattern spotting, Brainrot Crush is easy to start and plays free in your browser.",
+      "highlights": [
+        "Match-3 puzzle play with colorful character gems",
+        "6 unique meme-style gems to swap and match",
+        "3 bonuses: Bombardiro Crocodilo, Frigo Camello, and Tung Tung Tung Sahur",
+        "15 levels with rising puzzle pressure",
+        "3 game modes and bright carnival-style art"
+      ],
+      "goodFor": "Brainrot Crush is good for players who like match-3 puzzles, quick swaps, and colorful meme humor. It also fits players who enjoy simple controls with combo-focused logic.",
+      "howToPlay": "Click or tap a gem to swap it with a nearby gem and make matches. Create combos to clear more gems, then use special bonuses when they can help you finish the level. Keep matching your way through all 15 levels.",
+      "touchHint": "Tap gems to swap and match",
+      "keys": [
+        "Mouse click or tap: Play"
+      ],
+      "tips": [
+        "Look for swaps that make more than one match at the same time.",
+        "Save special bonuses for crowded boards or moments when few good swaps are visible.",
+        "Watch the full board before moving; a lower match can set up a better combo above it.",
+        "Learn the 6 gem designs so you can spot matches faster."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Crush free to play?",
+          "a": "Yes. Brainrot Crush is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Crush on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Brainrot Crush?",
+          "a": "Swap gems to make match-3 combos and use bonuses to crush each level. The game has 15 levels to complete."
+        },
+        {
+          "q": "How many gems and bonuses are in Brainrot Crush?",
+          "a": "The game features 6 character gems and 3 special bonuses: Bombardiro Crocodilo, Frigo Camello, and Tung Tung Tung Sahur."
+        },
+        {
+          "q": "Does Brainrot Crush have different modes?",
+          "a": "Yes. Brainrot Crush includes 3 game modes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-castle-siege",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/je8bmdpe3b7vebfbe4dt4p07rchrcwnc/",
+    "embedUrl": "https://html5.gamemonetize.co/je8bmdpe3b7vebfbe4dt4p07rchrcwnc/",
+    "slug": "brainrot-castle-siege",
+    "name": "Brainrot: Castle Siege!",
+    "mainKeyword": "brainrot",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "3D",
+      "Arcade",
+      "Weapons"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-castle-siege-0d6eb4bb.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-castle-siege-0d6eb4bb.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-13"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-13",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-13",
+    "publishedAt": "2026-11-13T03:24:06.441Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Defend your castle from wild Brainrots with fast weapons, skins, and 25 chaotic shooting levels.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot: Castle Siege! free in your browser. Defend your castle from Brainrots across 25 levels with weapons, 24 skins, and fast shooting.",
+      "about": "Brainrot: Castle Siege! is a first-person shooting game about protecting a castle from a strange Brainrot assault. Odd, rhythmic creatures rush the gates and try to turn your fortress into rubble. You fight back with weapons, strengthen your defense, and keep the castle standing. The game has 25 levels, with maps that shift from peaceful clearings to fiery volcanoes, so each fight gives you a new place to watch and defend.\nEach round is fast and chaotic, but the job is clear: look around the battlefield, shoot the Brainrots, and swap weapons when the pressure changes. Explosive, rapid-fire, and trickier weapon styles let you handle groups in different ways. You can also change the look of the action with 24 skins. The challenge comes from busy hordes, a castle under attack, and maps that keep the pace moving. Brainrot: Castle Siege! plays free in the browser on computer or mobile, using mouse or touch controls.",
+      "highlights": [
+        "Defend your castle from Brainrot hordes",
+        "25 levels set across different maps",
+        "Weapons include explosive and rapid-fire styles",
+        "24 skins to change the battle look",
+        "Playable on computer and mobile"
+      ],
+      "goodFor": "Good for players who like quick first-person shooting, funny enemies, and castle defense pressure. It is also a solid pick if you enjoy short, chaotic arcade levels.",
+      "howToPlay": "Aim around your castle and shoot the Brainrots before they wreck your defenses. Switch weapons when the horde gets too close or when a different weapon style fits the fight better. Clear each level by holding the line against the attack.",
+      "touchHint": "Swipe to look around, then tap the fire button",
+      "keys": [
+        "Left mouse button: Shoot the Brainrots",
+        "Hold right mouse button: Look around the battlefield",
+        "Mouse wheel: Switch weapons",
+        "Swipe: Look around on mobile",
+        "Fire button: Shoot on mobile"
+      ],
+      "tips": [
+        "Keep turning to check every side of the castle, not just the area in front of you.",
+        "Use explosive weapons when enemies bunch up near the gates.",
+        "Switch to rapid-fire weapons when Brainrots keep rushing in a steady stream.",
+        "Do not wait for the castle to start cracking before changing your aim or weapon."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot: Castle Siege! free to play?",
+          "a": "Yes. Brainrot: Castle Siege! is free to play in your browser."
+        },
+        {
+          "q": "Can I play Brainrot: Castle Siege! on a phone or computer?",
+          "a": "Yes. On computer, use the mouse to aim, shoot, and switch weapons. On mobile, swipe to look around and use the fire button to shoot."
+        },
+        {
+          "q": "What is the goal in Brainrot: Castle Siege!?",
+          "a": "The goal is to defend your castle from Brainrots that are storming the gates. Shoot them back and hold the line through each level."
+        },
+        {
+          "q": "How many levels are in Brainrot: Castle Siege!?",
+          "a": "The game has 25 levels. The maps include places such as peaceful clearings and fiery volcano areas."
+        },
+        {
+          "q": "Does Brainrot: Castle Siege! have different weapons and skins?",
+          "a": "Yes. Weapons include explosive, rapid-fire, and trickier styles. The game also includes 24 skins to change the look of battles."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
