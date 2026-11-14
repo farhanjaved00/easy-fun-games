@@ -17036,5 +17036,332 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-brainrot-hidden-stars",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/valc1kedi8vlsu1ffikb9hc5dgw7l7ga/",
+    "embedUrl": "https://html5.gamemonetize.co/valc1kedi8vlsu1ffikb9hc5dgw7l7ga/",
+    "slug": "brainrot-hidden-stars",
+    "name": "Brainrot Hidden Stars",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Animal",
+      "Brainrot",
+      "Hidden"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-hidden-stars-8031ac6c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-hidden-stars-8031ac6c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-14",
+    "publishedAt": "2026-11-14T03:21:29.368Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Find 12 hidden stars in each brainrot image before time runs out, but avoid costly wrong clicks.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Hidden Stars free and search 12 timed levels for hidden stars in each picture while avoiding wrong clicks that cut 5 seconds from the clock.",
+      "about": "Brainrot Hidden Stars is a hidden object puzzle game where you search funny brainrot pictures for tiny stars. The goal is simple: find every star shown in the image before the timer reaches zero. Each level has 12 hidden stars, and there are 12 levels in total. The pictures include animal-themed brainrot scenes and characters such as Tralalero Tralala and Tung Tung Tung Sahur.\nA round is all about careful looking and fast clicking. Scan the full image, spot a star, then click or tap it to collect it. The tricky part is that the clock is always running. If you click the wrong place several times, the game removes an extra 5 seconds, so guessing can make the level harder. It plays free in the browser, with simple mouse or tap controls that make it easy to start right away.",
+      "highlights": [
+        "12 levels to clear",
+        "12 hidden stars in every level",
+        "Timed searches keep each level tense",
+        "Wrong clicks can remove 5 extra seconds",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "This game is good for players who enjoy hidden object puzzles and careful visual searches. It is also a good fit if you like quick levels with a timer.",
+      "howToPlay": "Look closely at the picture and find all 12 hidden stars in the level. Click or tap each star before time runs out to clear the stage. Avoid random clicks, because several wrong clicks take 5 seconds off the timer.",
+      "touchHint": "Tap hidden stars to collect them",
+      "keys": [
+        "Mouse click: Select a hidden star",
+        "Tap: Select a hidden star"
+      ],
+      "tips": [
+        "Start by scanning the edges and corners, where small stars can be easy to miss.",
+        "Do not spam clicks across the picture, because several misses cost 5 seconds.",
+        "After finding a star, move to a new section so you do not keep checking the same area.",
+        "Use the timer as a guide: if time is low, slow down enough to avoid penalty clicks."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Hidden Stars free to play?",
+          "a": "Yes. Brainrot Hidden Stars plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Hidden Stars on a phone or computer?",
+          "a": "Yes. You can play with mouse clicks on a computer or taps on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Brainrot Hidden Stars?",
+          "a": "Your goal is to find all 12 hidden stars in each picture before the timer runs out."
+        },
+        {
+          "q": "How many levels are in Brainrot Hidden Stars?",
+          "a": "There are 12 levels in total, and each level contains 12 hidden stars."
+        },
+        {
+          "q": "What happens if I click the wrong place?",
+          "a": "Wrong clicks are risky. If you click in the wrong place several times, the game removes an extra 5 seconds from the timer."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-fix-da-brainrot",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/5r766tdtqlienvk0z6umtdt2k8dk79my/",
+    "embedUrl": "https://html5.gamemonetize.co/5r766tdtqlienvk0z6umtdt2k8dk79my/",
+    "slug": "fix-da-brainrot",
+    "name": "Fix Da Brainrot",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Jigsaw",
+      "Italian Brainrot"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/fix-da-brainrot-8dff168f.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/fix-da-brainrot-8dff168f.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-14",
+    "publishedAt": "2026-11-14T03:22:24.912Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Drag torn-paper pieces into place to rebuild quirky brainrot jigsaw pictures in 16- or 32-piece puzzles.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Fix Da Brainrot free and solve quirky torn-paper jigsaw puzzles with 16 or 32 pieces as you drag each piece into the right spot to finish the picture.",
+      "about": "Fix Da Brainrot is a jigsaw puzzle game with a silly brainrot style and pieces shaped like torn paper. Your goal is to repair the picture by moving every piece into its correct spot. You can choose a 16-piece puzzle when you want a faster, easier challenge, or pick 32 pieces when you want a tougher brain teaser. Each choice keeps the same simple idea: study the torn shapes, find what lines up, and rebuild the image piece by piece.\nEach round starts with scattered pieces waiting to be placed. Drag a piece, drop it where it seems to belong, and keep adjusting until the torn parts line up and the full image starts to appear. The fun comes from spotting tiny edges, colors, and shapes while the picture slowly comes together. It can be quick when the match is clear, but tricky when several pieces look close. Fix Da Brainrot plays free in the browser, so you can start solving without a download.",
+      "highlights": [
+        "Torn-paper jigsaw pieces",
+        "Choose 16 pieces for a quick puzzle",
+        "Choose 32 pieces for a harder challenge",
+        "Drag-and-drop puzzle controls",
+        "Free browser play"
+      ],
+      "goodFor": "Fix Da Brainrot is good for players who like simple jigsaw puzzles with a funny brainrot look. It also fits quick breaks because you can choose the smaller 16-piece challenge.",
+      "howToPlay": "Pick a 16-piece or 32-piece puzzle, then drag each torn piece toward the place where it fits. Use the piece shapes and the picture details to line everything up. You finish by putting all pieces in the correct positions and completing the image.",
+      "touchHint": "Drag pieces with your finger or touchpad",
+      "keys": [
+        "Mouse: Drag and drop pieces",
+        "Touchpad: Drag and drop pieces"
+      ],
+      "tips": [
+        "Start with corner and edge-like torn shapes to build a clear frame.",
+        "Use the 16-piece option first to learn the picture style before trying 32 pieces.",
+        "Look for matching colors and torn edges instead of moving pieces at random.",
+        "If a piece almost fits, adjust nearby pieces too; the problem may be the neighbor."
+      ],
+      "faq": [
+        {
+          "q": "Is Fix Da Brainrot free to play?",
+          "a": "Yes. Fix Da Brainrot is free to play in your browser."
+        },
+        {
+          "q": "Can I play Fix Da Brainrot on a phone or computer?",
+          "a": "Yes. The game supports mobile play, and it also works on a computer with a mouse or touchpad."
+        },
+        {
+          "q": "What is the goal in Fix Da Brainrot?",
+          "a": "The goal is to drag the torn jigsaw pieces into the right positions and rebuild the full brainrot picture."
+        },
+        {
+          "q": "How many pieces are in Fix Da Brainrot?",
+          "a": "You can choose between 16 pieces for an easier puzzle or 32 pieces for a harder challenge."
+        },
+        {
+          "q": "What are the controls for Fix Da Brainrot?",
+          "a": "Use a mouse or touchpad to drag and drop each piece where it belongs."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-clicker-game",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ncqiptu7hxaj72x3ijlmp83kl9pbd7c4/",
+    "embedUrl": "https://html5.gamemonetize.co/ncqiptu7hxaj72x3ijlmp83kl9pbd7c4/",
+    "slug": "brainrot-clicker-game",
+    "name": "Brainrot Clicker Game",
+    "mainKeyword": "brainrot",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Clicker",
+      "Arcade",
+      "Click",
+      "Brainrot"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-clicker-game-a9355682.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-clicker-game-a9355682.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-14"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-14",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-14",
+    "publishedAt": "2026-11-14T03:23:20.506Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Tap odd brainrot characters as fast as you can to score points, trigger animations, and unlock silly chaos.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Clicker Game free in your browser and tap odd brainrot characters with quick taps to score points and trigger silly animations.",
+      "about": "Brainrot Clicker Game is a silly HTML5 clicker arcade game built around fast tapping and weird cartoon characters. The cast includes sharks wearing shoes, chocolate blocks holding bats, birds with bellies, and other absurd brainrot figures. Your goal is simple: click or tap the characters to gain points, set off animations, and push the screen toward more chaotic effects. The game uses a colorful 2D cartoon style, so every tap feels playful and goofy.\nA round is all about speed and focus. You keep clicking or tapping as quickly as you can, watch the reactions, and try to build up points while the strange animations keep the screen busy. The tricky part is staying fast while the effects try to pull your attention away. Brainrot Clicker Game plays free in your browser with no download needed, making it easy to start a quick tapping session on a computer or phone.",
+      "highlights": [
+        "Simple click or tap controls",
+        "Meme-style brainrot characters",
+        "Colorful 2D cartoon look",
+        "Animations and silly effects as you play",
+        "Runs in the browser with no download"
+      ],
+      "goodFor": "Good for players who like quick arcade games, silly characters, and fast clicking. It is easy to start and works well for short play sessions.",
+      "howToPlay": "Click or tap the brainrot characters to earn points. Keep tapping quickly to trigger animations and unlock more chaotic effects. The main goal is to score as much as you can with fast, steady taps.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Keep your cursor or finger near the active character so each click lands quickly.",
+        "Use short, steady taps instead of slow presses to build points faster.",
+        "Do not stop when animations play if you are trying to raise your score.",
+        "On a phone, hold the device steady so your tapping stays accurate."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Clicker Game free to play?",
+          "a": "Yes. Brainrot Clicker Game is free to play in your browser, and no download is needed."
+        },
+        {
+          "q": "Can I play Brainrot Clicker Game on a phone or computer?",
+          "a": "Yes. You can play with mouse clicks on a computer or taps on a phone."
+        },
+        {
+          "q": "What is the goal in Brainrot Clicker Game?",
+          "a": "The goal is to tap the strange brainrot characters to earn points, trigger animations, and unlock chaotic effects."
+        },
+        {
+          "q": "What are the controls for Brainrot Clicker Game?",
+          "a": "Use a mouse click or tap the screen to play. The controls are simple and focus on fast clicking."
+        },
+        {
+          "q": "What kinds of characters are in Brainrot Clicker Game?",
+          "a": "The game features absurd cartoon characters such as sharks with shoes, chocolate blocks with bats, and birds with bellies."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
