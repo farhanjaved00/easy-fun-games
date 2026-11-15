@@ -17363,5 +17363,329 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-baby-sprunki-incredibox-coloring",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ykscm0jd5lq8muvzkkgukcn6alif8t8p/",
+    "embedUrl": "https://html5.gamemonetize.co/ykscm0jd5lq8muvzkkgukcn6alif8t8p/",
+    "slug": "baby-sprunki-incredibox-coloring",
+    "name": "Baby Sprunki incredibox Coloring",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Coloring",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/baby-sprunki-incredibox-coloring-135e1aec.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/baby-sprunki-incredibox-coloring-135e1aec.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-15",
+    "publishedAt": "2026-11-15T03:21:43.178Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Color Baby Sprunki templates, draw on blank canvases, and use brushes, colors, and effects to make art.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Baby Sprunki incredibox Coloring free in your browser. Color Baby Sprunki templates or blank canvases with brush sizes, colors, and effects.",
+      "about": "Baby Sprunki incredibox Coloring is a browser coloring and drawing game built around Baby Sprunki art. You can pick ready-made templates or start on a blank canvas. The goal is simple: make a picture you like by choosing colors, changing brush sizes, and adding effects. It is a calm creative game for players who want to color, draw, and design their own artwork at their own pace.\nEach session is easy to start. Click or tap to play, choose what you want to work on, then build your picture step by step. The fun comes from trying color combinations, switching brush sizes for small or wide areas, and using effects to give the artwork a different look. You can use templates when you want a guide, or a blank canvas when you want more freedom. You can play it free in the browser, so it is simple to open and use when you want a relaxed creative break.",
+      "highlights": [
+        "Baby Sprunki coloring and drawing theme",
+        "Templates and blank canvases to choose from",
+        "Vibrant color palette for custom artwork",
+        "Different brush sizes for details or large areas",
+        "Effects that change the look of your design"
+      ],
+      "goodFor": "Good for players who enjoy relaxing art games and simple creative tools. It fits anyone who wants to color templates or make their own drawing without a complex goal.",
+      "howToPlay": "Choose a template or a blank canvas, then pick colors, brush sizes, and effects. Click or tap on the canvas to color and draw. Keep changing tools until your artwork looks the way you want.",
+      "touchHint": "Tap the screen to color and draw",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Play on touch screens"
+      ],
+      "tips": [
+        "Use smaller brush sizes when you want cleaner edges or tiny details.",
+        "Switch to a larger brush size when filling wide empty spaces.",
+        "Try a few colors on the same template before settling on a final look.",
+        "Start on a blank canvas when you want full control over the design."
+      ],
+      "faq": [
+        {
+          "q": "Is Baby Sprunki incredibox Coloring free to play?",
+          "a": "Yes. You can play Baby Sprunki incredibox Coloring free in your browser."
+        },
+        {
+          "q": "Can I play Baby Sprunki incredibox Coloring on a phone or computer?",
+          "a": "Yes. The controls use mouse click or tap, so it works for computer play and touch-screen play."
+        },
+        {
+          "q": "What do you do in Baby Sprunki incredibox Coloring?",
+          "a": "You color Baby Sprunki templates, draw on blank canvases, choose colors, change brush sizes, and add effects to your artwork."
+        },
+        {
+          "q": "Does Baby Sprunki incredibox Coloring have blank canvases?",
+          "a": "Yes. The game includes both templates and blank canvases, so you can color a set picture or create your own design."
+        },
+        {
+          "q": "What are the controls for Baby Sprunki incredibox Coloring?",
+          "a": "Use a mouse click or tap to play. Pick your tools, then click or tap on the canvas to color and draw."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-2d-obby-rainbow-parkour",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/8wwrrndwm7bxm55lixawal4bsx50f48d/",
+    "embedUrl": "https://html5.gamemonetize.co/8wwrrndwm7bxm55lixawal4bsx50f48d/",
+    "slug": "2d-obby-rainbow-parkour",
+    "name": "2D Obby Rainbow Parkour",
+    "mainKeyword": "obby",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Platform",
+      "Obby",
+      "1 Player"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/2d-obby-rainbow-parkour-f1552f8a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/2d-obby-rainbow-parkour-f1552f8a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-15",
+    "publishedAt": "2026-11-15T03:22:39.080Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Run, jump, double jump, collect coins, and reach the end of a tricky rainbow obby without falling.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play 2D Obby Rainbow Parkour free in your browser. Jump and double jump through a rainbow obby, collect coins, and reach the end safely without falling.",
+      "about": "2D Obby Rainbow Parkour is a one-player arcade platform game built around a bright rainbow obstacle course. Your goal is simple to understand but hard to finish: stay on the course, collect the coins, and make it safely to the end. Falling is the main danger, so every jump matters. The course is described as difficult, with tough parts that can stop a run even when you are playing well, so steady control is important from the first move to the final stretch.\nEach round is about careful movement, clean jumps, and knowing when to use your double jump. You use WASD to move, then press W to jump and press it again for extra height or distance when a gap needs more reach. The fun comes from learning where to slow down, when to commit to a jump, and how to keep control while aiming for every coin. 2D Obby Rainbow Parkour plays free in the browser.",
+      "highlights": [
+        "Rainbow obstacle course with falling hazards",
+        "Collect coins while trying to finish the level",
+        "Jump and double jump with the W key",
+        "Single-player arcade platform challenge"
+      ],
+      "goodFor": "Good for players who enjoy obby courses, platform jumps, and short skill-based attempts. It suits anyone who likes learning a tricky route and improving each run.",
+      "howToPlay": "Move through the rainbow course and try not to fall. Collect all the coins you can, use jump and double jump to cross gaps, and reach the end of the level safely.",
+      "touchHint": "Use a keyboard: WASD to move, W to jump",
+      "keys": [
+        "WASD: Move",
+        "W: Jump",
+        "W twice: Double jump"
+      ],
+      "tips": [
+        "Use the double jump only when a normal jump will not reach the next platform.",
+        "Stay near the center of each platform so small movement mistakes do not make you fall.",
+        "Slow down before tougher parts instead of rushing into a jump you cannot line up.",
+        "Go for coins when the landing is safe, then refocus on reaching the end."
+      ],
+      "faq": [
+        {
+          "q": "Is 2D Obby Rainbow Parkour free to play?",
+          "a": "Yes. 2D Obby Rainbow Parkour is free to play in your browser."
+        },
+        {
+          "q": "Can I play 2D Obby Rainbow Parkour on a phone or computer?",
+          "a": "The game uses WASD and W keyboard controls, so a computer with a keyboard is the clearest way to play."
+        },
+        {
+          "q": "What is the goal in 2D Obby Rainbow Parkour?",
+          "a": "The goal is to get through the rainbow obby without falling, collect coins, and reach the end of the level safely."
+        },
+        {
+          "q": "How do I double jump in 2D Obby Rainbow Parkour?",
+          "a": "Press W to jump, then press W again while in the air to double jump."
+        },
+        {
+          "q": "Is 2D Obby Rainbow Parkour hard?",
+          "a": "Yes, the course is meant to be difficult. Some parts may take several tries, even if you are playing carefully."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-incredibox-slide-puzzle",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/fh6w9sknku51noi4b6lw5ibtw2a3mvl5/",
+    "embedUrl": "https://html5.gamemonetize.co/fh6w9sknku51noi4b6lw5ibtw2a3mvl5/",
+    "slug": "sprunki-incredibox-slide-puzzle",
+    "name": "Sprunki Incredibox Slide Puzzle",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "HTML5",
+      "Jigsaw",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-incredibox-slide-puzzle-ba3c1313.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-incredibox-slide-puzzle-ba3c1313.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-15"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-15",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-15",
+    "publishedAt": "2026-11-15T03:23:39.771Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Rebuild three Sprunki picture puzzles by sliding tiles into place in 3x3, 4x4, or 5x5 mode.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Incredibox Slide Puzzle free in your browser. Slide tiles to solve 3 Sprunki images in 3x3, 4x4, or 5x5 modes with simple mouse controls.",
+      "about": "Sprunki Incredibox Slide Puzzle is a picture-based slide puzzle with three Sprunki-themed images to fix. Each picture is cut into a square grid, and your goal is to move the mixed tiles back into the correct order. You can choose one of three grid sizes before you play: 3x3 for a lighter puzzle, 4x4 for a bigger challenge, or 5x5 when you want the most pieces. The theme stays on the same set of Sprunki pictures, so the difficulty mainly comes from the grid size you pick.\nA round is simple to understand but can get tricky as the grid grows. Use the mouse to select tiles and keep adjusting the layout until the image looks right again. The smaller 3x3 mode is good for learning the picture, while 4x4 and 5x5 ask you to plan more moves. It plays free in the browser, and the mobile tag means it is made for quick puzzle play on supported phones too.",
+      "highlights": [
+        "Three Sprunki-themed images",
+        "3x3, 4x4, and 5x5 puzzle modes",
+        "Classic sliding-tile jigsaw play",
+        "Mouse controls",
+        "Mobile-friendly HTML5 format"
+      ],
+      "goodFor": "This game is good for players who like picture puzzles and short thinking challenges. Pick a small grid for an easier solve or a larger grid when you want more tiles to manage.",
+      "howToPlay": "Choose one of the three Sprunki images, then choose 3x3, 4x4, or 5x5. Use the mouse to move tiles around the grid until the picture is rebuilt. A puzzle is complete when the image is back in the correct order.",
+      "touchHint": "Tap tiles to play on mobile",
+      "keys": [
+        "Mouse: Play the puzzle"
+      ],
+      "tips": [
+        "Start with 3x3 to learn the picture before trying 4x4 or 5x5.",
+        "Use the full image as your guide, then match colors and shapes tile by tile.",
+        "Choose 5x5 only when you want a longer puzzle with more pieces to arrange.",
+        "In larger grids, check how each move changes nearby tiles before clicking again."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Incredibox Slide Puzzle free to play?",
+          "a": "Yes. You can play it free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki Incredibox Slide Puzzle on a phone or computer?",
+          "a": "Yes. The game is tagged for mobile and HTML5 play, and it also supports mouse controls on a computer."
+        },
+        {
+          "q": "How many images are in Sprunki Incredibox Slide Puzzle?",
+          "a": "There are three Sprunki-themed images to solve as slide puzzles."
+        },
+        {
+          "q": "What puzzle sizes can I choose?",
+          "a": "You can play in 3x3, 4x4, or 5x5 mode. The bigger grids have more tiles to arrange."
+        },
+        {
+          "q": "What are the controls?",
+          "a": "Use the mouse to play. Select tiles and keep moving them until the picture is restored."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

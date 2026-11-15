@@ -121,6 +121,16 @@
       "slug": "when-sprunki-meet-squid-game",
       "at": "2026-10-27"
     },
+    "62408": {
+      "status": "imported",
+      "slug": "sprunki-incredibox-slide-puzzle",
+      "at": "2026-11-15"
+    },
+    "63551": {
+      "status": "imported",
+      "slug": "2d-obby-rainbow-parkour",
+      "at": "2026-11-15"
+    },
     "63812": {
       "status": "imported",
       "slug": "sprunki-lava-escape-2player",
@@ -275,6 +285,11 @@
       "status": "imported",
       "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
       "at": "2026-10-26"
+    },
+    "68250": {
+      "status": "imported",
+      "slug": "baby-sprunki-incredibox-coloring",
+      "at": "2026-11-15"
     },
     "68311": {
       "status": "imported",
@@ -960,6 +975,21 @@
       "status": "imported",
       "slug": "brainrot-clicker-game",
       "at": "2026-11-14"
+    },
+    "https://html5.gamemonetize.co/ykscm0jd5lq8muvzkkgukcn6alif8t8p/": {
+      "status": "imported",
+      "slug": "baby-sprunki-incredibox-coloring",
+      "at": "2026-11-15"
+    },
+    "https://html5.gamemonetize.co/8wwrrndwm7bxm55lixawal4bsx50f48d/": {
+      "status": "imported",
+      "slug": "2d-obby-rainbow-parkour",
+      "at": "2026-11-15"
+    },
+    "https://html5.gamemonetize.co/fh6w9sknku51noi4b6lw5ibtw2a3mvl5/": {
+      "status": "imported",
+      "slug": "sprunki-incredibox-slide-puzzle",
+      "at": "2026-11-15"
     }
   }
 }
