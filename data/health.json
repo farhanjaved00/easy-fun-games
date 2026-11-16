@@ -444,11 +444,8 @@
     "lastCheck": "2026-11-16"
   },
   "italian-brainrot-hunter": {
-    "lastOk": "2026-11-15",
-    "lastCheck": "2026-11-16",
-    "problem": "unreachable (fetch failed)",
-    "since": "2026-11-16",
-    "suggestion": null
+    "lastOk": "2026-11-16",
+    "lastCheck": "2026-11-16"
   },
   "italian-brainrot-candy": {
     "lastOk": "2026-11-16",
@@ -651,6 +648,18 @@
     "lastCheck": "2026-11-16"
   },
   "sprunki-incredibox-slide-puzzle": {
+    "lastOk": "2026-11-16",
+    "lastCheck": "2026-11-16"
+  },
+  "sprunki-money-stack-incredibox": {
+    "lastOk": "2026-11-16",
+    "lastCheck": "2026-11-16"
+  },
+  "sprunki-x-granny-incredibox": {
+    "lastOk": "2026-11-16",
+    "lastCheck": "2026-11-16"
+  },
+  "sprunki-draw-save-incredibox": {
     "lastOk": "2026-11-16",
     "lastCheck": "2026-11-16"
   }
