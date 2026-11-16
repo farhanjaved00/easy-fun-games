@@ -17687,5 +17687,326 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-money-stack-incredibox",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/pqdll0sasgbsf0o31ifz1mxflgl76ygr/",
+    "embedUrl": "https://html5.gamemonetize.co/pqdll0sasgbsf0o31ifz1mxflgl76ygr/",
+    "slug": "sprunki-money-stack-incredibox",
+    "name": "Sprunki Money Stack Incredibox",
+    "mainKeyword": "sprunki",
+    "category": "io",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Adventure",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-money-stack-incredibox-7eb6b035.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-money-stack-incredibox-7eb6b035.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-16",
+    "publishedAt": "2026-11-16T03:21:55.621Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Tap through a sprunki money run, collect cash, multiply it, and spend it on a new house and upgrades.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Money Stack Incredibox free in your browser. Tap to collect money, multiply your stack, buy a new house, and unlock life upgrades.",
+      "about": "Sprunki Money Stack Incredibox is a simple tap-to-play game about helping Sprunki gather as much money as possible. Your goal is to collect money, multiply your total, and use what you earn to buy a new house. The game also lets you spend money on upgrades that improve Sprunki’s life, so each collection run feeds into the next purchase goal. Everything is built around one clear idea: make the money stack bigger before you spend it.\nA round is easy to understand: tap to play, grab the money you can, and look for chances to grow the amount through multipliers. The tricky part is making each run count, because better totals give you more to put toward the house and life upgrades. The controls stay simple, so you can focus on collecting, multiplying, and deciding when to spend. It plays free in the browser, with one-touch controls that make it quick to start on a phone, tablet, or computer.",
+      "highlights": [
+        "Tap-to-play controls",
+        "Collect as much money as possible",
+        "Use multipliers to grow your cash total",
+        "Buy a new house for Sprunki",
+        "Spend earnings on life upgrades"
+      ],
+      "goodFor": "This game is good for players who like simple tap controls, money collecting, and upgrade goals. It is easy to start and works well for short browser play sessions.",
+      "howToPlay": "Tap to play and collect money as it appears. Try to multiply your money total, then spend your earnings on a new house and upgrades for Sprunki’s life.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Tap: Play"
+      ],
+      "tips": [
+        "Collect as much money as you can before spending, so each upgrade goal is easier to reach.",
+        "Pay attention to multipliers, since they help turn your collected money into a larger total.",
+        "Do not ignore small money pickups; they still add to the stack you can multiply.",
+        "Use your earnings on the house and upgrades when you have built up enough money."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Money Stack Incredibox free to play?",
+          "a": "Yes. Sprunki Money Stack Incredibox plays free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Money Stack Incredibox on a phone or computer?",
+          "a": "Yes. The game uses tap controls, so it works naturally on a phone or tablet. You can also play in a browser on a computer."
+        },
+        {
+          "q": "What is the goal of Sprunki Money Stack Incredibox?",
+          "a": "The goal is to help Sprunki collect as much money as possible, multiply it, and use it to buy a new house and upgrades."
+        },
+        {
+          "q": "How do you control Sprunki Money Stack Incredibox?",
+          "a": "Tap to play. The game is built around simple one-touch controls."
+        },
+        {
+          "q": "What can you buy with the money?",
+          "a": "You can use the money to buy a new house and upgrades for Sprunki’s life."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-x-granny-incredibox",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/xrnlbtqkkuwgl1nqhsklj1xkeui77e5o/",
+    "embedUrl": "https://html5.gamemonetize.co/xrnlbtqkkuwgl1nqhsklj1xkeui77e5o/",
+    "slug": "sprunki-x-granny-incredibox",
+    "name": "Sprunki X Granny Incredibox",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Adventure",
+      "Granny",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-x-granny-incredibox-c43f5315.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-x-granny-incredibox-c43f5315.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-16",
+    "publishedAt": "2026-11-16T03:22:57.072Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Tap through a Sprunki and Granny crossover puzzle adventure with simple controls and quick browser play.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki X Granny Incredibox free in your browser. Tap through a Sprunki and Granny puzzle adventure with simple controls and quick play.",
+      "about": "Sprunki X Granny Incredibox is a puzzle adventure game built around a crossover between Sprunki and Granny. The theme brings both names together in one simple browser game, with the main action handled by tapping. It is made for players who want an easy game to start, without learning a long control list or setting up anything first. The focus is on quick reactions to what you see on screen, plus the strange mix of Sprunki style and Granny atmosphere.\nA round is based on watching the screen, tapping to play, and paying attention to what changes after each tap. The fun comes from the unusual mix of Sprunki and Granny in a puzzle-style setting, where small clues and reactions can matter. Because the controls are simple, it works well for short sessions and for players who prefer point-and-tap play. You can play it free in your browser on EasyGameFun, whether you are trying it for a few minutes or staying to figure out each next step.",
+      "highlights": [
+        "Sprunki and Granny crossover theme",
+        "Puzzle adventure style",
+        "Tap-to-play controls",
+        "Free browser play"
+      ],
+      "goodFor": "Good for players who like simple puzzle adventures with one-touch controls. It is also a good pick if you enjoy Sprunki-themed games and want a quick browser session.",
+      "howToPlay": "Tap the screen to play and watch what happens after each action. Use the changes on screen to decide your next tap and keep moving through the puzzle adventure.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Tap: Play"
+      ],
+      "tips": [
+        "Tap once, then wait a moment so you can see what changed on the screen.",
+        "Pay attention to both Sprunki and Granny details, since the game is built around that crossover.",
+        "Do not cover the center of the screen with your hand while tapping on a phone.",
+        "If you feel stuck, slow down and look for a new reaction after each tap."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki X Granny Incredibox free to play?",
+          "a": "Yes. You can play Sprunki X Granny Incredibox for free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki X Granny Incredibox on a phone or computer?",
+          "a": "Yes. The listed control is tap to play, so it works naturally on a phone or tablet. On a computer, use your mouse or trackpad to click like a tap."
+        },
+        {
+          "q": "What kind of game is Sprunki X Granny Incredibox?",
+          "a": "It is a puzzle adventure game with a Sprunki and Granny crossover theme."
+        },
+        {
+          "q": "How do you control Sprunki X Granny Incredibox?",
+          "a": "The control is simple: tap to play. Watch the screen after each tap to decide what to do next."
+        },
+        {
+          "q": "Is Sprunki X Granny Incredibox scary or mature?",
+          "a": "No mature content is listed for this game. It uses a Granny crossover theme, but no violent or adult content is described."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-draw-save-incredibox",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/pi4kmi9x4gkcuznd2g3hdwoxscch58m2/",
+    "embedUrl": "https://html5.gamemonetize.co/pi4kmi9x4gkcuznd2g3hdwoxscch58m2/",
+    "slug": "sprunki-draw-save-incredibox",
+    "name": "Sprunki Draw Save Incredibox",
+    "mainKeyword": "sprunki",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Draw",
+      "Drawing",
+      "Physics"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-draw-save-incredibox-3fca85c6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-draw-save-incredibox-3fca85c6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-16"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-16",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-16",
+    "publishedAt": "2026-11-16T03:24:08.140Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 63,
+    "description": "Draw protective lines around Sprunki to keep him safe from danger in a simple browser puzzle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Draw Save Incredibox free in your browser. Draw a protective line around Sprunki and keep him safe from lurking danger in each puzzle.",
+      "about": "Sprunki Draw Save Incredibox is a drawing puzzle about protecting Sprunki from danger. Each scene asks you to look at the risky situation, then sketch a line around him so he can stay safe. The idea is easy to understand, but it still asks you to think before you draw. Use your imagination, choose a smart shape, and place the line where it can block the danger that is lurking nearby.\nA round is quick and focused. You click with the mouse or tap on a touch screen, then draw a line where it can shield Sprunki. The tricky part is reading the danger first instead of drawing at random. A small change in the line can make the protection work better, so the game rewards careful shapes and creative thinking. You can play it free in the browser, with no setup needed.",
+      "highlights": [
+        "Draw a line around Sprunki to protect him",
+        "Mouse click or tap controls",
+        "Danger-focused save puzzles",
+        "Creative line shapes solve the situations"
+      ],
+      "goodFor": "This game is good for players who like simple puzzle ideas with creative answers. It is also a nice pick if you enjoy drawing solutions instead of only pressing buttons.",
+      "howToPlay": "Look at the danger first, then click or tap to draw a line around Sprunki. Place the line so it protects him from the risky situation and keeps him safe.",
+      "touchHint": "Tap and draw a line around Sprunki",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Draw around Sprunki, not only near the danger, so the line acts like protection.",
+        "Check where the danger is before you start drawing your line.",
+        "Use simple shapes first, then change the shape if Sprunki is still exposed.",
+        "Think about the open sides around Sprunki and cover the side closest to danger."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Draw Save Incredibox free to play?",
+          "a": "Yes. You can play Sprunki Draw Save Incredibox for free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Draw Save Incredibox on a phone or computer?",
+          "a": "Yes. The controls support mouse click or tap, so you can play on a computer or a touch screen."
+        },
+        {
+          "q": "What is the goal in Sprunki Draw Save Incredibox?",
+          "a": "Your goal is to save Sprunki from danger. Draw a line around him so he can avoid the risky situation."
+        },
+        {
+          "q": "How do the controls work?",
+          "a": "Use a mouse click or tap to play. Draw your line in the place where it can protect Sprunki."
+        },
+        {
+          "q": "What kind of game is Sprunki Draw Save Incredibox?",
+          "a": "It is a drawing puzzle game. You solve each danger situation by making a protective line."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

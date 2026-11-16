@@ -16,6 +16,11 @@
       "slug": "obby-vs-bacon-rainbow-parkour",
       "at": "2026-11-11"
     },
+    "54630": {
+      "status": "imported",
+      "slug": "sprunki-x-granny-incredibox",
+      "at": "2026-11-16"
+    },
     "59486": {
       "status": "imported",
       "slug": "sprunki-castle-panic-skibidi-toilet",
@@ -30,6 +35,16 @@
       "status": "imported",
       "slug": "sprunki-escape-incredibox-2025",
       "at": "2026-10-31"
+    },
+    "60101": {
+      "status": "imported",
+      "slug": "sprunki-draw-save-incredibox",
+      "at": "2026-11-16"
+    },
+    "60129": {
+      "status": "imported",
+      "slug": "sprunki-money-stack-incredibox",
+      "at": "2026-11-16"
     },
     "60184": {
       "status": "imported",
@@ -990,6 +1005,21 @@
       "status": "imported",
       "slug": "sprunki-incredibox-slide-puzzle",
       "at": "2026-11-15"
+    },
+    "https://html5.gamemonetize.co/pqdll0sasgbsf0o31ifz1mxflgl76ygr/": {
+      "status": "imported",
+      "slug": "sprunki-money-stack-incredibox",
+      "at": "2026-11-16"
+    },
+    "https://html5.gamemonetize.co/xrnlbtqkkuwgl1nqhsklj1xkeui77e5o/": {
+      "status": "imported",
+      "slug": "sprunki-x-granny-incredibox",
+      "at": "2026-11-16"
+    },
+    "https://html5.gamemonetize.co/pi4kmi9x4gkcuznd2g3hdwoxscch58m2/": {
+      "status": "imported",
+      "slug": "sprunki-draw-save-incredibox",
+      "at": "2026-11-16"
     }
   }
 }
