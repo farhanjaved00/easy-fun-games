@@ -491,6 +491,11 @@
       "slug": "brainrot-castle-siege",
       "at": "2026-11-13"
     },
+    "81940": {
+      "status": "imported",
+      "slug": "brainrot-box-champion",
+      "at": "2026-11-17"
+    },
     "83485": {
       "status": "imported",
       "slug": "obby-rainbow-parkour-two-player",
@@ -501,6 +506,11 @@
       "slug": "sniper-for-brainrot",
       "at": "2026-11-02"
     },
+    "86551": {
+      "status": "imported",
+      "slug": "collect-brainrot-arena",
+      "at": "2026-11-17"
+    },
     "86558": {
       "status": "imported",
       "slug": "brainrot-mega-parkour",
@@ -510,6 +520,11 @@
       "status": "imported",
       "slug": "brainrot-crush",
       "at": "2026-11-13"
+    },
+    "88424": {
+      "status": "imported",
+      "slug": "mega-noob-sky-obby-50-stages",
+      "at": "2026-11-17"
     },
     "https://html5.gamemonetize.co/ip30a04rfm7785u7pjhcgz5nnwtths9s/": {
       "status": "imported",
@@ -1020,6 +1035,21 @@
       "status": "imported",
       "slug": "sprunki-draw-save-incredibox",
       "at": "2026-11-16"
+    },
+    "https://html5.gamemonetize.co/ms442gjva934142xlu33vu50lwseyryb/": {
+      "status": "imported",
+      "slug": "mega-noob-sky-obby-50-stages",
+      "at": "2026-11-17"
+    },
+    "https://html5.gamemonetize.co/3d46x6qf4gjpq9nn4u1wntkd2a35uor8/": {
+      "status": "imported",
+      "slug": "collect-brainrot-arena",
+      "at": "2026-11-17"
+    },
+    "https://html5.gamemonetize.co/4qxnpwobjsf32o2n60aepryrr1cgixs3/": {
+      "status": "imported",
+      "slug": "brainrot-box-champion",
+      "at": "2026-11-17"
     }
   }
 }

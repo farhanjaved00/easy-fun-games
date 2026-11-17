@@ -18008,5 +18008,343 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-mega-noob-sky-obby-50-stages",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/ms442gjva934142xlu33vu50lwseyryb/",
+    "embedUrl": "https://html5.gamemonetize.co/ms442gjva934142xlu33vu50lwseyryb/",
+    "slug": "mega-noob-sky-obby-50-stages",
+    "name": "Mega Noob Sky Obby: 50 Stages",
+    "mainKeyword": "obby",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "3D",
+      "Obstacle",
+      "Mobile"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/mega-noob-sky-obby-50-stages-f9c85426.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/mega-noob-sky-obby-50-stages-f9c85426.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-17",
+    "publishedAt": "2026-11-17T03:21:31.150Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Guide your Noob through 50 sky obby stages with jumps, checkpoints, moving obstacles, and balance challenges.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Mega Noob Sky Obby: 50 Stages free in your browser and guide your Noob through 50 sky parkour stages with checkpoints and moving obstacles.",
+      "about": "Mega Noob Sky Obby: 50 Stages is a 3D parkour adventure set high in a bright sky course. You guide your Noob across 50 different stages packed with moving obstacles, winding spirals, and huge balancing spheres. The goal is to reach the end of each section, touch checkpoints, and keep pushing forward through harder platforming challenges. Completing challenges can unlock the Golden Noob Character.\nEach round is about careful movement, clean jumps, and smart camera control. Checkpoints save your spot along the path, so a fall does not always send you back to the very start. Some stages test timing, while others ask you to balance on narrow or round surfaces. If one stage stops you for too long, you can use the Skip Stage feature. Mega Noob Sky Obby: 50 Stages plays free in the browser, with keyboard controls on PC and touch controls on mobile.",
+      "highlights": [
+        "50 unique sky parkour stages",
+        "Moving obstacles, spirals, and giant spheres",
+        "Checkpoints save progress along the path",
+        "Skip Stage feature for very hard sections",
+        "Unlock the Golden Noob Character"
+      ],
+      "goodFor": "This game is a good fit for players who enjoy 3D obstacle courses, jumping challenges, and steady progress through many short stages. It also suits players who like both PC controls and mobile touch play.",
+      "howToPlay": "Move your character through each sky stage, jump across gaps, and avoid falling from obstacles. Touch checkpoints as you go so your progress is saved, then finish stages to move closer to the end and unlock the Golden Noob Character.",
+      "touchHint": "Use left joystick, jump button, and swipe to look",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move",
+        "Space: Jump",
+        "Mouse: Rotate camera",
+        "R: Reset game progress"
+      ],
+      "tips": [
+        "Touch every checkpoint you reach before trying the next risky jump.",
+        "Rotate the camera before spirals so you can see the next safe platform.",
+        "Slow down on giant spheres; small movements help you stay balanced.",
+        "Use Skip Stage only after learning the obstacle, so you save it for the hardest parts."
+      ],
+      "faq": [
+        {
+          "q": "Is Mega Noob Sky Obby: 50 Stages free to play?",
+          "a": "Yes. You can play Mega Noob Sky Obby: 50 Stages free in the browser."
+        },
+        {
+          "q": "Can I play Mega Noob Sky Obby: 50 Stages on a phone or computer?",
+          "a": "Yes. It supports touch controls on mobile and keyboard plus mouse controls on PC."
+        },
+        {
+          "q": "How many stages are in Mega Noob Sky Obby: 50 Stages?",
+          "a": "The game has 50 unique sky parkour stages with obstacles, spirals, and balancing sections."
+        },
+        {
+          "q": "What is the goal in Mega Noob Sky Obby: 50 Stages?",
+          "a": "Guide your Noob through the sky obstacle course, reach checkpoints, clear stages, and complete challenges to unlock the Golden Noob Character."
+        },
+        {
+          "q": "What should I do if a stage is too hard?",
+          "a": "You can keep trying from checkpoints, or use the Skip Stage feature when you are stuck on a very hard section."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-collect-brainrot-arena",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/3d46x6qf4gjpq9nn4u1wntkd2a35uor8/",
+    "embedUrl": "https://html5.gamemonetize.co/3d46x6qf4gjpq9nn4u1wntkd2a35uor8/",
+    "slug": "collect-brainrot-arena",
+    "name": "Collect Brainrot Arena",
+    "mainKeyword": "brainrot",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Action",
+      "2 Player",
+      "Brainrot",
+      "Collecting"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/collect-brainrot-arena-a1ebf3b2.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/collect-brainrot-arena-a1ebf3b2.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-17",
+    "publishedAt": "2026-11-17T03:22:31.652Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Collect Lucky Blocks, unlock Brainrots, upgrade your finds, and steal from rivals in a chaotic 2-player arena.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Collect Brainrot Arena free in your browser: open Lucky Blocks, unlock rare Brainrots, steal from rivals, and protect your base in a chaotic arena.",
+      "about": "Collect Brainrot Arena is a chaotic action collecting game for players who like quick fights and sneaky steals. You enter an arena filled with Lucky Blocks, then try to turn their surprises into rare Brainrots. Your goal is to build a stronger collection, upgrade Brainrots, and keep your base safe while rivals search for a chance to take your most valuable finds.\nA round is built around fast choices. Move out, gather Lucky Blocks, buy or steal when the moment is right, then react if another player comes for your base. Luck matters because each block can surprise you, but timing and strategy matter too. Hits, sprints, and jumps give each chase a messy, exciting feel, especially with two players sharing the same arena. It plays free in the browser, with keyboard controls for both players and touch controls for mobile. The fun comes from deciding when to risk one more block and when to defend.",
+      "highlights": [
+        "Open Lucky Blocks for surprise Brainrots",
+        "Steal from rivals and guard your own base",
+        "Upgrade Brainrots to strengthen your collection",
+        "Two-player controls on the same keyboard",
+        "Touch controls supported on mobile"
+      ],
+      "goodFor": "This game is good for players who enjoy collecting, stealing, and quick arena action. It is especially fun if you want a local 2-player game with lots of sudden turnarounds.",
+      "howToPlay": "Enter the arena, collect Lucky Blocks, and use them to get Brainrots for your collection. Buy, steal, hit, sprint, and upgrade at the right time while protecting your base from rival thieves. Build the strongest collection you can and stop other players from taking your best Brainrots.",
+      "touchHint": "Use the on-screen touch controls",
+      "keys": [
+        "WASD / Arrow keys: Move",
+        "Space / L: Jump",
+        "E / O: Buy or steal",
+        "F or Left Mouse Button / K: Hit",
+        "Left Shift / J: Sprint",
+        "Q / U: Upgrade Brainrot"
+      ],
+      "tips": [
+        "Do not chase every Lucky Block if your base is open to a steal.",
+        "Use sprint when you need to escape with a steal or return to defend fast.",
+        "Upgrade valuable Brainrots early so your collection becomes harder to beat.",
+        "Hit rivals when they approach your base instead of waiting until they steal."
+      ],
+      "faq": [
+        {
+          "q": "Is Collect Brainrot Arena free to play?",
+          "a": "Yes. Collect Brainrot Arena is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Collect Brainrot Arena on a phone or computer?",
+          "a": "Yes. You can play on a computer with keyboard controls, and the game also supports touch controls on mobile."
+        },
+        {
+          "q": "What is the goal in Collect Brainrot Arena?",
+          "a": "Collect Lucky Blocks, unlock rare Brainrots, upgrade your collection, and protect your base from rival thieves."
+        },
+        {
+          "q": "Does Collect Brainrot Arena have 2-player controls?",
+          "a": "Yes. Player 1 uses WASD, Space, E, F or Left Mouse Button, Left Shift, and Q. Player 2 uses Arrow Keys, L, O, K, J, and U."
+        },
+        {
+          "q": "What do Lucky Blocks do in Collect Brainrot Arena?",
+          "a": "Lucky Blocks can give surprise results, including valuable Brainrots. Opening them is a key part of building your collection."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-box-champion",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/4qxnpwobjsf32o2n60aepryrr1cgixs3/",
+    "embedUrl": "https://html5.gamemonetize.co/4qxnpwobjsf32o2n60aepryrr1cgixs3/",
+    "slug": "brainrot-box-champion",
+    "name": "Brainrot: Box Champion!",
+    "mainKeyword": "brainrot",
+    "category": "sports",
+    "mature": false,
+    "tags": [
+      "Sports",
+      "Boxing",
+      "Brainrot",
+      "Ragdoll"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-box-champion-c5892511.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-box-champion-c5892511.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-17"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-17",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-17",
+    "publishedAt": "2026-11-17T03:23:39.995Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Move, dodge, and punch through 6 wild boxing levels, upgrade your fighter, and chase the Champion Cup.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot: Box Champion! free in your browser, punch through 6 boxing levels, upgrade Strength and Health, and face Gigachad for the Champion Cup.",
+      "about": "Brainrot: Box Champion! is a 3D boxing game built around fast punches, dodges, and funny brainrot-style opponents. You move through 6 levels of boxing chaos, starting with easier fights and pushing toward the final match. The goal is to beat every enemy, reach Gigachad, and win the Champion Cup. Along the way you face 5 unique opponents, including Sad Sahur, Angry Sahur, and Fit Sahur. Each fight has a loud, crunchy punch feel, so every clean hit feels clear and satisfying.\nEach round is simple to understand: move into position, avoid getting caught, and land punches until the enemy goes down. Wins let you upgrade Strength and Health, so each victory helps you hit harder or survive longer in tougher levels. The challenge rises from Very Easy to Impossible, making timing and movement more important as you go. You need to watch your target, keep moving, and choose when to close the distance. Brainrot: Box Champion! plays free in the browser on computer or mobile, with controls made for both.",
+      "highlights": [
+        "3D boxing with movement, dodging, and punching",
+        "6 difficulty levels from Very Easy to Impossible",
+        "5 enemies, including Sad Sahur and Angry Sahur",
+        "Upgrade Strength and Health after wins",
+        "Final goal: defeat Gigachad for the Champion Cup"
+      ],
+      "goodFor": "This game is good for players who want quick 3D boxing rounds with funny enemies and simple controls. It also fits players who like upgrading after each win and taking on harder fights step by step.",
+      "howToPlay": "Move around the arena, watch your opponent, and punch when you are close enough to land a hit. Win fights to upgrade Strength and Health, then keep clearing levels until you face Gigachad and earn the Champion Cup.",
+      "touchHint": "Use the joystick, swipe to look, tap PUNCH",
+      "keys": [
+        "WASD: Move",
+        "Left Click: Punch",
+        "Hold Right Click: Look",
+        "Tab: Pause",
+        "Mobile Joystick: Walk",
+        "PUNCH Button: Punch"
+      ],
+      "tips": [
+        "Use movement before attacking so you do not stand still in front of an enemy.",
+        "Upgrade Health if tougher opponents are ending your run too quickly.",
+        "Upgrade Strength when you want shorter fights and stronger punches.",
+        "Hold right click on PC or swipe on mobile to keep the enemy in view while you move."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot: Box Champion! free to play?",
+          "a": "Yes. Brainrot: Box Champion! plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot: Box Champion! on a phone or computer?",
+          "a": "Yes. On PC you use WASD, mouse buttons, and Tab. On mobile you use the joystick to walk, swipe to look, and tap the PUNCH button."
+        },
+        {
+          "q": "What is the goal in Brainrot: Box Champion!?",
+          "a": "Your goal is to win through 6 levels, defeat Gigachad, and claim the Champion Cup."
+        },
+        {
+          "q": "How many enemies are in Brainrot: Box Champion!?",
+          "a": "There are 5 unique enemies, including Sad Sahur, Angry Sahur, Fit Sahur, and Gigachad."
+        },
+        {
+          "q": "What upgrades can I get?",
+          "a": "After wins, you can upgrade Strength and Health. Strength helps your punches, while Health helps you last longer in harder fights."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
