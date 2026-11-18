@@ -18346,5 +18346,331 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-horror-ban-ban-1-2-player-parkour",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/m9rmolvne3a31grtkcbwj0s6b123aq8v/",
+    "embedUrl": "https://html5.gamemonetize.co/m9rmolvne3a31grtkcbwj0s6b123aq8v/",
+    "slug": "horror-ban-ban-1-2-player-parkour",
+    "name": "Horror Ban Ban 1 2 Player Parkour",
+    "mainKeyword": "parkour",
+    "category": "2-player",
+    "mature": true,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Adventure",
+      "Parkour"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/horror-ban-ban-1-2-player-parkour-f019b758.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/horror-ban-ban-1-2-player-parkour-f019b758.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-18",
+    "publishedAt": "2026-11-18T03:21:46.336Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Guide two siblings through a haunted house, collect remotes, dodge sharp traps, and reach the door.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Horror Ban Ban 1 2 Player Parkour free in your browser. Find red and blue remotes, avoid thorns and sharp knives, and escape the haunted house.",
+      "about": "Horror Ban Ban 1 2 Player Parkour is a spooky 2D parkour adventure about two siblings trying to leave a haunted house. You choose one of the siblings and work on escaping together. The house is unsafe, with thorns and sharp knives placed along the way. Each sibling has specific items to gather, and the main task is to find the red and blue remotes that unlock the exit door.\nEach round is built around careful movement, safe jumps, and watching the path before you move. Search the house, collect what your sibling needs, grab both remotes, and get to the door without hitting the traps. The fun comes from coordinating the escape while the hazards make every step risky. Because of the scary theme and knife hazards, it is better for players who are comfortable with horror scenes. It plays free in the browser on desktop and mobile, so you can try the parkour challenge without installing anything.",
+      "highlights": [
+        "2D horror parkour inside a haunted house",
+        "Two siblings with specific items to collect",
+        "Red and blue remotes unlock the exit door",
+        "Thorns and sharp knives block safe paths",
+        "Playable on desktop and mobile"
+      ],
+      "goodFor": "Good for players who like spooky 2D parkour, escape goals, and two-character challenges. The horror theme and knife hazards make it better for players who are comfortable with tense scenes.",
+      "howToPlay": "Move and jump through the haunted house while collecting the items your sibling needs. Find the red and blue remotes to unlock the door, then reach it safely. Avoid thorns and sharp knives, because the escape depends on careful movement.",
+      "touchHint": "Use touch controls to move and jump",
+      "keys": [
+        "WASD: Move and jump"
+      ],
+      "tips": [
+        "Look ahead before each jump so you do not land on thorns or knives.",
+        "Collect the red and blue remotes before heading for the exit door.",
+        "Keep track of which sibling needs which items so you do not miss anything.",
+        "Do not rush near sharp traps; small, controlled moves are safer."
+      ],
+      "faq": [
+        {
+          "q": "Is Horror Ban Ban 1 2 Player Parkour free to play?",
+          "a": "Yes. You can play Horror Ban Ban 1 2 Player Parkour free in your browser."
+        },
+        {
+          "q": "Can I play Horror Ban Ban 1 2 Player Parkour on a phone or computer?",
+          "a": "Yes. The game supports both mobile and desktop play."
+        },
+        {
+          "q": "What is the goal in Horror Ban Ban 1 2 Player Parkour?",
+          "a": "The goal is to help the siblings escape the haunted house. Find the red and blue remotes, unlock the door, and reach it safely."
+        },
+        {
+          "q": "What are the controls for Horror Ban Ban 1 2 Player Parkour?",
+          "a": "Use the WASD keys to move and jump on desktop. Mobile play is also supported."
+        },
+        {
+          "q": "Is Horror Ban Ban 1 2 Player Parkour scary?",
+          "a": "Yes. It has a horror setting with thorns and sharp knives, so it is better for players who are comfortable with spooky scenes."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-rage-stickman-incredibox",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/m8x6penzlmav9y79ypzlw9i10usli9ld/",
+    "embedUrl": "https://html5.gamemonetize.co/m8x6penzlmav9y79ypzlw9i10usli9ld/",
+    "slug": "sprunki-rage-stickman-incredibox",
+    "name": "Sprunki Rage Stickman Incredibox",
+    "mainKeyword": "sprunki",
+    "category": "action",
+    "mature": false,
+    "tags": [
+      "Stickman",
+      "Action",
+      "Arcade",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-rage-stickman-incredibox-8e716609.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-rage-stickman-incredibox-8e716609.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-18",
+    "publishedAt": "2026-11-18T03:22:44.283Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Fight through a city as a Sprunki stickman hero, using jumps, attacks, defense, weapons, robots, and helicopters.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Rage Stickman Incredibox free in your browser and fight city enemies with stickman attacks, defense, weapons, robots, and helicopters.",
+      "about": "Sprunki Rage Stickman Incredibox is a stickman action beat ’em up set in a city under attack. Unknown enemies appear, and the Sprunki hero fights back with fast moves, hard hits, and simple keyboard controls. The game focuses on physical movement, stunts, and close-range combat. You can attack, defend, jump, and move around the fight while using a wide set of weapons, plus helicopters and robots that can wipe out enemies in a big way.\nEach round is about staying alive while clearing enemies before they overwhelm you. The challenge comes from timing your attacks, using defense at the right moment, and keeping your position under control as the fight gets rough. The controls are easy to learn, but the action is meant to feel intense and unforgiving. You can play Sprunki Rage Stickman Incredibox free in your browser with no download needed.",
+      "highlights": [
+        "Stickman beat ’em up action in a city setting",
+        "Simple controls for movement, jumps, attacks, and defense",
+        "Weapons, helicopters, and robots help clear enemies",
+        "Physics-based stunts and hard-hitting combat",
+        "Fast arcade fights against unknown enemies"
+      ],
+      "goodFor": "This game is a good pick for players who like stickman action, quick fights, and tough arcade combat. It suits players who enjoy learning simple controls and using timing to survive.",
+      "howToPlay": "Move through the city fight and stop the enemies that appear. Jump, attack with Z or X, and defend with C when enemies press in. Win by fighting off opponents and using your tools well enough to stay in control.",
+      "touchHint": "Use keyboard: Arrows, Space, Z, X, and C",
+      "keys": [
+        "Arrow keys: Move",
+        "Space: Jump",
+        "Z: Attack",
+        "X: Attack",
+        "C: Defend"
+      ],
+      "tips": [
+        "Keep moving with the Arrow keys so enemies have a harder time surrounding you.",
+        "Use Space to jump out of tight spots before you start attacking again.",
+        "Defend with C when enemies are close and you do not have room to move.",
+        "Use Z and X for attacks, then back away or defend instead of standing still after each hit."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Rage Stickman Incredibox free to play?",
+          "a": "Yes. You can play Sprunki Rage Stickman Incredibox free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Rage Stickman Incredibox on a phone or computer?",
+          "a": "The listed controls are keyboard controls, so a computer is the clearest way to play. Use the Arrow keys, Space, Z, X, and C."
+        },
+        {
+          "q": "What is the goal in Sprunki Rage Stickman Incredibox?",
+          "a": "Your goal is to fight off unknown enemies in the city as the Sprunki stickman hero. Use movement, attacks, defense, weapons, robots, and helicopters to survive the battle."
+        },
+        {
+          "q": "What are the controls for Sprunki Rage Stickman Incredibox?",
+          "a": "Use the Arrow keys to move, Space to jump, Z and X to attack, and C to defend."
+        },
+        {
+          "q": "Does Sprunki Rage Stickman Incredibox have combat?",
+          "a": "Yes. It is an action beat ’em up with stickman fighting, weapons, and enemies, but no mature content is listed."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-incredibox-only-up",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/qmsuou4uvl1bcgzokpb44gm5pgg4hyhd/",
+    "embedUrl": "https://html5.gamemonetize.co/qmsuou4uvl1bcgzokpb44gm5pgg4hyhd/",
+    "slug": "sprunki-incredibox-only-up",
+    "name": "Sprunki Incredibox Only Up",
+    "mainKeyword": "sprunki",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "OnlyUp",
+      "Physics",
+      "Platform"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-incredibox-only-up-931f65a1.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-incredibox-only-up-931f65a1.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-18"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-18",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-18",
+    "publishedAt": "2026-11-18T03:23:54.917Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Guide Sprunki upward through a rusty vertical maze, jumping across surreal objects high above the ground.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Incredibox Only Up free in your browser and guide Sprunki through a rusty vertical maze of sky-high pipeline objects with WASD jumps.",
+      "about": "Sprunki Incredibox Only Up is a vertical adventure platform game set in an old, rusty neighborhood. Sprunki starts on the ground, surrounded by worn structures, and looks up to see strange pipeline-like objects far above him in the sky. He wants to find out what they are, so the whole goal is to climb higher and higher through a surreal maze of surfaces.\nEach run is about careful movement, patient jumping, and recovering from mistakes. You move across platforms and odd objects, aim for the next safe spot, and keep climbing toward the unknown ending. A missed jump can send Sprunki dropping a long way, but he is not hurt by even huge falls. That makes the challenge less about survival and more about keeping progress. The fun comes from judging distance, reading the strange shapes above you, and staying calm when the route gets risky. You can play it free in the browser.",
+      "highlights": [
+        "Vertical climb through a rusty neighborhood",
+        "Surreal pipeline-like objects in the sky",
+        "Physics platforming with big falls",
+        "Sprunki survives drops from huge heights",
+        "Simple WASD and Space controls"
+      ],
+      "goodFor": "Good for players who enjoy vertical platform challenges and slow, careful climbing. It is also a nice pick if you like games where one missed jump can change the whole run.",
+      "howToPlay": "Move Sprunki with WASD and press Space to jump. Climb from surface to surface, aiming for higher objects in the sky. Keep going upward and recover when you fall, because the goal is to reach what waits at the end of the vertical maze.",
+      "touchHint": "Use keyboard: WASD and Space",
+      "keys": [
+        "WASD: Move",
+        "Space: Jump"
+      ],
+      "tips": [
+        "Line up each jump before pressing Space, especially when the next surface is small.",
+        "Climb one stable surface at a time instead of rushing through the maze.",
+        "If you fall, stay calm; Sprunki is not hurt, so start climbing again.",
+        "Use the rusty structures below as reference points to remember your route."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Incredibox Only Up free to play?",
+          "a": "Yes. You can play Sprunki Incredibox Only Up for free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Incredibox Only Up on a phone or computer?",
+          "a": "The listed controls use a keyboard: WASD to move and Space to jump. A computer or device with a keyboard is the best fit."
+        },
+        {
+          "q": "What is the goal in Sprunki Incredibox Only Up?",
+          "a": "The goal is to guide Sprunki upward through a vertical maze of strange objects and find out what is waiting at the end."
+        },
+        {
+          "q": "What are the controls for Sprunki Incredibox Only Up?",
+          "a": "Use WASD to move Sprunki and press Space to jump."
+        },
+        {
+          "q": "Does Sprunki get hurt when he falls?",
+          "a": "No. Sprunki can fall from very high places without being hurt, but you may lose progress and need to climb back up."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

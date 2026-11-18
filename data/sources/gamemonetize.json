@@ -21,6 +21,11 @@
       "slug": "sprunki-x-granny-incredibox",
       "at": "2026-11-16"
     },
+    "58099": {
+      "status": "imported",
+      "slug": "horror-ban-ban-1-2-player-parkour",
+      "at": "2026-11-18"
+    },
     "59486": {
       "status": "imported",
       "slug": "sprunki-castle-panic-skibidi-toilet",
@@ -30,6 +35,11 @@
       "status": "imported",
       "slug": "sprunki-in-backrooms-christmas-skibidi-terrors",
       "at": "2026-10-26"
+    },
+    "59499": {
+      "status": "imported",
+      "slug": "sprunki-incredibox-only-up",
+      "at": "2026-11-18"
     },
     "60069": {
       "status": "imported",
@@ -45,6 +55,11 @@
       "status": "imported",
       "slug": "sprunki-money-stack-incredibox",
       "at": "2026-11-16"
+    },
+    "60154": {
+      "status": "imported",
+      "slug": "sprunki-rage-stickman-incredibox",
+      "at": "2026-11-18"
     },
     "60184": {
       "status": "imported",
@@ -1050,6 +1065,21 @@
       "status": "imported",
       "slug": "brainrot-box-champion",
       "at": "2026-11-17"
+    },
+    "https://html5.gamemonetize.co/m9rmolvne3a31grtkcbwj0s6b123aq8v/": {
+      "status": "imported",
+      "slug": "horror-ban-ban-1-2-player-parkour",
+      "at": "2026-11-18"
+    },
+    "https://html5.gamemonetize.co/m8x6penzlmav9y79ypzlw9i10usli9ld/": {
+      "status": "imported",
+      "slug": "sprunki-rage-stickman-incredibox",
+      "at": "2026-11-18"
+    },
+    "https://html5.gamemonetize.co/qmsuou4uvl1bcgzokpb44gm5pgg4hyhd/": {
+      "status": "imported",
+      "slug": "sprunki-incredibox-only-up",
+      "at": "2026-11-18"
     }
   }
 }
