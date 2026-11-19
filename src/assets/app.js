@@ -4,6 +4,18 @@
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var root = document.documentElement;
+  /* ---------- Google Analytics (GA4): loads after the page, so it never slows the first paint ---------- */
+  var GA_ID = 'G-B9LMJY5XXQ';
+  window.addEventListener('load', function () {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID);
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+  });
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var wide = function () { return matchMedia('(min-width:900px)').matches; };
   var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };

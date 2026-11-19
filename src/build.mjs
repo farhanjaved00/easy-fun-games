@@ -128,11 +128,11 @@ const ADS_HOSTS = 'https://pagead2.googlesyndication.com https://*.googlesyndica
 const csp = [
   "default-src 'self'",
   // Google AdSense loads its scripts and ad frames from these Google hosts (and Funding Choices for the consent message).
-  `script-src 'self' 'sha256-${bootHash}' https://static.cloudflareinsights.com${ADS ? ' ' + ADS_HOSTS : ''}`,
+  `script-src 'self' 'sha256-${bootHash}' https://static.cloudflareinsights.com https://www.googletagmanager.com${ADS ? ' ' + ADS_HOSTS : ''}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https:",
   "font-src 'self'",
-  `connect-src 'self' https://cloudflareinsights.com${ADS ? ' ' + ADS_HOSTS : ''}`,
+  `connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com${ADS ? ' ' + ADS_HOSTS : ''}`,
   'frame-src https:',
   "object-src 'none'",
   "base-uri 'self'",
