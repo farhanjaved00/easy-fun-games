@@ -18672,5 +18672,329 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-skibidi-toilet-jigsaw-puzzle-2",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/12nysmbkkltwq6w2uvmeb77k4oi8b9cw/",
+    "embedUrl": "https://html5.gamemonetize.co/12nysmbkkltwq6w2uvmeb77k4oi8b9cw/",
+    "slug": "skibidi-toilet-jigsaw-puzzle-2",
+    "name": "Skibidi Toilet Jigsaw Puzzle 2",
+    "mainKeyword": "skibidi",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Jigsaw",
+      "Kids"
+    ],
+    "developer": "",
+    "orientation": "portrait",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/skibidi-toilet-jigsaw-puzzle-2-f9ae32c6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/skibidi-toilet-jigsaw-puzzle-2-f9ae32c6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-19",
+    "publishedAt": "2026-11-19T03:21:42.940Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 62,
+    "description": "Drag jigsaw pieces into place to complete funny Skibidi-themed pictures in a simple browser puzzle.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Skibidi Toilet Jigsaw Puzzle 2 free and drag pieces into place to complete funny skibidi-themed jigsaw pictures in your browser with mouse or touch.",
+      "about": "Skibidi Toilet Jigsaw Puzzle 2 is a funny online jigsaw puzzle game built around skibidi-themed pictures. Your goal is simple: move the puzzle pieces into the right spots until the full image is complete. The game uses easy drag controls, so you can play with a mouse on a computer or with your finger on a touch screen. It is made for casual puzzle play, with a light and silly theme. The rules are easy to understand, which makes it quick to start even if you only want a short puzzle session.\nA round is about looking closely at the picture details, dragging pieces into place, and matching them until the jigsaw is solved. The gameplay starts easy, but the challenge gradually increases, so later puzzles ask for more focus. Clear background images give you clues as you match shapes and picture parts. It is also replayable, which makes it good for short breaks or relaxed practice. You can play it free in the browser without learning complex rules.",
+      "highlights": [
+        "Funny Skibidi-themed jigsaw pictures",
+        "Mouse and touch dragging controls",
+        "Easy rules with gradually increasing challenge",
+        "Replayable puzzles for casual practice",
+        "Free browser play"
+      ],
+      "goodFor": "This game is good for players who enjoy casual jigsaw puzzles with a funny theme. It also works well for quick puzzle breaks because the controls are simple and easy to understand.",
+      "howToPlay": "Drag each jigsaw piece around the screen and place it where it belongs. Finish the full picture to complete the puzzle. As you keep playing, the puzzles gradually become more challenging and can be replayed.",
+      "touchHint": "Drag pieces with your finger or mouse",
+      "keys": [
+        "Mouse: Drag puzzle pieces",
+        "Finger: Drag puzzle pieces on touch screens"
+      ],
+      "tips": [
+        "Start with pieces that show clear colors or funny picture details so you can place them faster.",
+        "Use the edges of the image to help line up pieces before filling the middle.",
+        "If a piece does not fit, move it aside and come back to it after placing more obvious pieces.",
+        "Replay earlier puzzles when the challenge increases to get used to the pictures and dragging controls."
+      ],
+      "faq": [
+        {
+          "q": "Is Skibidi Toilet Jigsaw Puzzle 2 free to play?",
+          "a": "Yes. You can play Skibidi Toilet Jigsaw Puzzle 2 free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Skibidi Toilet Jigsaw Puzzle 2 on a phone or computer?",
+          "a": "Yes. Use a mouse on a computer or drag pieces with your finger on a touch screen."
+        },
+        {
+          "q": "What is the goal in Skibidi Toilet Jigsaw Puzzle 2?",
+          "a": "The goal is to drag the jigsaw pieces into the correct places and complete the full skibidi-themed picture."
+        },
+        {
+          "q": "Does Skibidi Toilet Jigsaw Puzzle 2 get harder?",
+          "a": "Yes. The puzzles are described as gradually increasing in challenge, so later play can take more focus."
+        },
+        {
+          "q": "What kind of game is Skibidi Toilet Jigsaw Puzzle 2?",
+          "a": "It is a casual jigsaw puzzle game with funny skibidi-themed background images and simple drag controls."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-baby-phase-3",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/g2ylmi3xudpxpm1r84txzkj548g46y0u/",
+    "embedUrl": "https://html5.gamemonetize.co/g2ylmi3xudpxpm1r84txzkj548g46y0u/",
+    "slug": "sprunki-baby-phase-3",
+    "name": "Sprunki baby PHASE 3",
+    "mainKeyword": "sprunki",
+    "category": "rhythm",
+    "mature": false,
+    "tags": [
+      "Clicker",
+      "Baby",
+      "Music",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-baby-phase-3-d17ead61.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-baby-phase-3-d17ead61.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-19",
+    "publishedAt": "2026-11-19T03:22:52.244Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Click and drag baby Sprunki characters in a playful music scene with soft designs and cute animations.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki baby PHASE 3 free in your browser with click-and-drag controls, baby Sprunki characters, music, and playful animations in a soft scene.",
+      "about": "Sprunki baby PHASE 3 is a light Sprunki music game with a baby-themed look. The Sprunki characters appear as cute baby versions, giving the game a softer and more family-friendly style. The focus is simple play: interact with the baby cast, enjoy the music theme, and watch gentle designs and lively animations in a playful Sprunki universe. It is made for players who want a calmer take on Sprunki, with charm coming from the character changes rather than complex rules.\nA round is built around one easy control: click and drag. Pick up a baby Sprunki character, move it with the cursor, and watch how the baby-style presentation reacts on screen. The tricky part is not speed or combat; it is learning how the drag control feels and noticing the small animated details. The simple setup makes it quick to start, relaxed to replay, and easy to understand. Sprunki baby PHASE 3 plays free in the browser, with no long control list to learn.",
+      "highlights": [
+        "Baby versions of Sprunki characters",
+        "Music-themed Sprunki play",
+        "Click-and-drag control",
+        "Soft, family-friendly style",
+        "Baby-themed designs and animations"
+      ],
+      "goodFor": "Good for players who want a gentle Sprunki game with cute baby designs, music, and very simple controls. It also suits players who prefer relaxed browser play over fast action.",
+      "howToPlay": "Click and drag to interact with the baby Sprunki characters. Try moving characters and watching their baby-themed animations while enjoying the music-focused style.",
+      "touchHint": "Use the mouse to click and drag",
+      "keys": [
+        "Mouse: Click and drag"
+      ],
+      "tips": [
+        "Drag one character at a time so you can focus on each baby-style animation.",
+        "Use slow, steady drags for better control than quick movements.",
+        "If a drag does not work, release the mouse button and start again from the character.",
+        "Look for the small animation changes after you move a baby Sprunki character."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki baby PHASE 3 free to play?",
+          "a": "Yes. You can play Sprunki baby PHASE 3 free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki baby PHASE 3 on a phone or computer?",
+          "a": "It is a browser game. On a computer, use the mouse to click and drag; on a touch screen, use the same drag motion if your browser supports it."
+        },
+        {
+          "q": "What do you do in Sprunki baby PHASE 3?",
+          "a": "You interact with baby versions of Sprunki characters. The game focuses on a soft baby-themed style, music, and playful animations."
+        },
+        {
+          "q": "What are the controls for Sprunki baby PHASE 3?",
+          "a": "The control is click and drag. Use the mouse to drag the characters on the screen."
+        },
+        {
+          "q": "Is Sprunki baby PHASE 3 family-friendly?",
+          "a": "Yes. The game has a softer, family-friendly vibe with baby-themed designs and cute animations."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-horror-version-dark",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/m7jq7ijmk3ra8i2jjy1nm9te3vekdow1/",
+    "embedUrl": "https://html5.gamemonetize.co/m7jq7ijmk3ra8i2jjy1nm9te3vekdow1/",
+    "slug": "sprunki-horror-version-dark",
+    "name": "Sprunki Horror Version Dark",
+    "mainKeyword": "sprunki",
+    "category": "adventure",
+    "mature": true,
+    "tags": [
+      "Arcade",
+      "Adventure",
+      "2 Player",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-horror-version-dark-559ed209.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-horror-version-dark-559ed209.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-19"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-19",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-19",
+    "publishedAt": "2026-11-19T03:24:00.991Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Guide Sprunki through a dark, trap-filled forest and reach the portal without stopping or hitting hazards.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Horror Version Dark free and guide Sprunki through a dark forest of thorns and traps to reach the portal safely with WASD or touch controls.",
+      "about": "Sprunki Horror Version Dark is a tense arcade adventure set in a ruined Sprunki world. The familiar cartoon-style characters are surrounded by darkness, blood, and scattered danger, turning the world into a hostile escape route. Your goal is simple and clear: get out by reaching the portal. The dark forest is full of thorns and frightening traps, so each step matters. Because of the horror theme and bloody visuals, it is not made for young children.\nA round is about moving carefully without losing momentum. On a computer, use WASD to guide Sprunki; on mobile, use the touch controls. You are always trying to read the dark path, avoid hazards, and stay focused on the portal instead of wandering through danger. The fun comes from that simple pressure: keep moving, but do not rush into thorns or traps. It plays free in the browser, so you can start a quick escape run right away.",
+      "highlights": [
+        "Dark Sprunki world with horror visuals",
+        "Escape goal: reach the portal safely",
+        "Thorns and traps throughout the forest",
+        "WASD controls plus mobile touch controls",
+        "2D pixel cartoon style"
+      ],
+      "goodFor": "Good for players who like tense 2D escape games with simple movement and dark hazards. The horror theme and bloody visuals make it better for older players, not young children.",
+      "howToPlay": "Move through the dark forest and keep heading for the portal. Avoid thorns and frightening traps on the way, because your goal is to reach the portal safely and escape the dark world.",
+      "touchHint": "Use the on-screen touch controls to move",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Keep your focus on the portal route instead of exploring the dark forest at random.",
+        "Do not stop for long; the game’s challenge is built around moving toward escape.",
+        "Slow down near thorns and traps so you can adjust your path before hitting them.",
+        "Use small WASD taps when hazards are close, instead of holding a direction too long."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Horror Version Dark free to play?",
+          "a": "Yes. You can play Sprunki Horror Version Dark free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Horror Version Dark on a phone or computer?",
+          "a": "Yes. On a computer, move with the WASD keys. On a phone or tablet, use the mobile touch controls."
+        },
+        {
+          "q": "What is the goal in Sprunki Horror Version Dark?",
+          "a": "Your goal is to escape the dark world by reaching the portal safely. The forest is filled with thorns and frightening traps, so you need to move carefully."
+        },
+        {
+          "q": "What are the controls for Sprunki Horror Version Dark?",
+          "a": "Use WASD to move on a keyboard. Mobile touch controls are also available."
+        },
+        {
+          "q": "Is Sprunki Horror Version Dark scary?",
+          "a": "Yes. It has a dark forest setting, blood, and horror-style traps. It is not made for young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

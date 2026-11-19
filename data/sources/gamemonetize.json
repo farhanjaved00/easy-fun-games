@@ -1,6 +1,11 @@
 {
   "source": "GameMonetize_Sorted_By_Traffic_Opportunity.csv",
   "games": {
+    "47500": {
+      "status": "imported",
+      "slug": "skibidi-toilet-jigsaw-puzzle-2",
+      "at": "2026-11-19"
+    },
     "48443": {
       "status": "imported",
       "slug": "nooby-and-obby-2-player",
@@ -65,6 +70,11 @@
       "status": "imported",
       "slug": "sprunki-backroom-terrors-skibidi-toilet",
       "at": "2026-10-28"
+    },
+    "60305": {
+      "status": "imported",
+      "slug": "sprunki-baby-phase-3",
+      "at": "2026-11-19"
     },
     "60420": {
       "status": "imported",
@@ -165,6 +175,11 @@
       "status": "imported",
       "slug": "sprunki-lava-escape-2player",
       "at": "2026-11-02"
+    },
+    "64187": {
+      "status": "imported",
+      "slug": "sprunki-horror-version-dark",
+      "at": "2026-11-19"
     },
     "64630": {
       "status": "imported",
@@ -1080,6 +1095,21 @@
       "status": "imported",
       "slug": "sprunki-incredibox-only-up",
       "at": "2026-11-18"
+    },
+    "https://html5.gamemonetize.co/12nysmbkkltwq6w2uvmeb77k4oi8b9cw/": {
+      "status": "imported",
+      "slug": "skibidi-toilet-jigsaw-puzzle-2",
+      "at": "2026-11-19"
+    },
+    "https://html5.gamemonetize.co/g2ylmi3xudpxpm1r84txzkj548g46y0u/": {
+      "status": "imported",
+      "slug": "sprunki-baby-phase-3",
+      "at": "2026-11-19"
+    },
+    "https://html5.gamemonetize.co/m7jq7ijmk3ra8i2jjy1nm9te3vekdow1/": {
+      "status": "imported",
+      "slug": "sprunki-horror-version-dark",
+      "at": "2026-11-19"
     }
   }
 }
