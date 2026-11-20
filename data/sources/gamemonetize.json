@@ -71,6 +71,11 @@
       "slug": "sprunki-backroom-terrors-skibidi-toilet",
       "at": "2026-10-28"
     },
+    "60238": {
+      "status": "imported",
+      "slug": "sprunki-island-survival-shooting",
+      "at": "2026-11-20"
+    },
     "60305": {
       "status": "imported",
       "slug": "sprunki-baby-phase-3",
@@ -80,6 +85,16 @@
       "status": "imported",
       "slug": "sprunki-jigsaw-puzzle-for-kids",
       "at": "2026-11-01"
+    },
+    "60424": {
+      "status": "imported",
+      "slug": "sprunki-run-endless-racing",
+      "at": "2026-11-20"
+    },
+    "60447": {
+      "status": "imported",
+      "slug": "sprunki-stunt-driving-simulator",
+      "at": "2026-11-20"
     },
     "60450": {
       "status": "imported",
@@ -1110,6 +1125,21 @@
       "status": "imported",
       "slug": "sprunki-horror-version-dark",
       "at": "2026-11-19"
+    },
+    "https://html5.gamemonetize.co/6nvu8e2h596u5tc5cnmta1ac30n8iwej/": {
+      "status": "imported",
+      "slug": "sprunki-run-endless-racing",
+      "at": "2026-11-20"
+    },
+    "https://html5.gamemonetize.co/qzbk40gtpgfgcrs26gcyttwz2e7olurv/": {
+      "status": "imported",
+      "slug": "sprunki-stunt-driving-simulator",
+      "at": "2026-11-20"
+    },
+    "https://html5.gamemonetize.co/7liinqcjnowez1fprit93jaisys36v9c/": {
+      "status": "imported",
+      "slug": "sprunki-island-survival-shooting",
+      "at": "2026-11-20"
     }
   }
 }

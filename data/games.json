@@ -18996,5 +18996,329 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-run-endless-racing",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/6nvu8e2h596u5tc5cnmta1ac30n8iwej/",
+    "embedUrl": "https://html5.gamemonetize.co/6nvu8e2h596u5tc5cnmta1ac30n8iwej/",
+    "slug": "sprunki-run-endless-racing",
+    "name": "Sprunki Run: Endless Racing",
+    "mainKeyword": "sprunki",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Running",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-run-endless-racing-f10024e3.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-run-endless-racing-f10024e3.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-20",
+    "publishedAt": "2026-11-20T03:21:50.682Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Race as Sprunki through colorful endless worlds, dodging obstacles and collecting coins for upgrades.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Run: Endless Racing free in your browser. Dodge obstacles, collect coins for upgrades, and race through colorful endless worlds.",
+      "about": "Sprunki Run: Endless Racing is a fast arcade runner where Sprunki races through bright, colorful worlds. The goal is simple: keep moving, avoid obstacles, and see how far you can go. Coins appear along the way, and collecting them lets you unlock upgrades. The game is built around quick reactions, so every run asks you to stay alert, watch the path, and make fast choices before trouble reaches you.\nEach round starts right away with a click or tap. You guide the run, dodge hazards, and grab coins whenever it is safe. The fun comes from balancing risk and reward: coins help with upgrades, but moving toward them can put you closer to obstacles. Crashing cuts the run short, so distance matters as much as collecting. It is easy to start, but the speed and endless format make long runs tricky. Sprunki Run: Endless Racing plays free in the browser, with simple controls for both mouse and touch play.",
+      "highlights": [
+        "Endless running and racing action",
+        "Colorful worlds to race through",
+        "Obstacles that test your reflexes",
+        "Coins to collect for upgrades",
+        "Mouse click or tap controls"
+      ],
+      "goodFor": "This game is good for players who like fast arcade runs with simple controls. It fits quick play sessions where you want to beat your last distance and collect more coins.",
+      "howToPlay": "Click with the mouse or tap the screen to start playing. Keep Sprunki moving, dodge obstacles, and collect coins along the route. Your goal is to travel as far as you can and use coins to unlock upgrades.",
+      "touchHint": "Tap the screen to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Do not chase every coin if an obstacle is in the way; staying alive matters more.",
+        "Keep your eyes ahead so you can react before obstacles reach Sprunki.",
+        "Collect coins during safer moments so you can work toward upgrades over time.",
+        "Start each run focused right away, because the game begins with a click or tap."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Run: Endless Racing free to play?",
+          "a": "Yes. Sprunki Run: Endless Racing plays free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Run: Endless Racing on a phone or computer?",
+          "a": "Yes. You can use a mouse click on a computer or tap the screen on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Sprunki Run: Endless Racing?",
+          "a": "The goal is to race as far as possible while dodging obstacles. You can also collect coins during the run."
+        },
+        {
+          "q": "How do you unlock upgrades?",
+          "a": "Collect coins while you play. The coins are used to unlock upgrades."
+        },
+        {
+          "q": "What are the controls for Sprunki Run: Endless Racing?",
+          "a": "Use a mouse click or tap to play. The controls are simple, so the challenge comes from timing and quick reactions."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-stunt-driving-simulator",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/qzbk40gtpgfgcrs26gcyttwz2e7olurv/",
+    "embedUrl": "https://html5.gamemonetize.co/qzbk40gtpgfgcrs26gcyttwz2e7olurv/",
+    "slug": "sprunki-stunt-driving-simulator",
+    "name": "Sprunki Stunt Driving Simulator",
+    "mainKeyword": "sprunki",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Racing",
+      "Drift",
+      "Driving",
+      "Simulation"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-stunt-driving-simulator-2709840a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-stunt-driving-simulator-2709840a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-20",
+    "publishedAt": "2026-11-20T03:23:20.796Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Drive luxury cars with Orange Sprunki, drift through challenging tracks, and test your stunt control.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Stunt Driving Simulator free and drive luxury cars with Orange Sprunki on challenging tracks made for racing, drifting, and stunts.",
+      "about": "Sprunki Stunt Driving Simulator is a single-player driving game about racing, drifting, and stunt-style car control. You enter a high-speed world of luxury cars, challenging tracks, and the unexpected Orange Sprunki, who joins the action. The goal is to move through each track, manage your speed, and show steady control while the setting leaves room for roleplay-style driving moments.\nEach run is built around simple movement and careful choices. Use WASD to move, then balance speed with clean steering when the road gets tricky. The fun comes from pushing fast enough to feel the rush, but not so fast that you lose the car before a turn. Drifts can help on tight parts, but they need timing and space. As you learn the track, you can focus less on basic movement and more on smoother lines through every challenge. Because it plays free in the browser, you can start a short driving session without installing anything.",
+      "highlights": [
+        "Single-player stunt driving with Orange Sprunki",
+        "Luxury cars in a high-speed racing setting",
+        "Challenging tracks built for control and drifting",
+        "Simple WASD movement controls",
+        "Roleplay-style driving adventures"
+      ],
+      "goodFor": "This game is a good fit for players who enjoy racing, drifting, and testing car control on tricky tracks. It is also fun if you like simple controls with room to improve.",
+      "howToPlay": "Use WASD to move your car through the track. Keep control while driving fast, drift when the route gets tight, and try to handle each challenging section cleanly.",
+      "touchHint": "Use WASD on a keyboard to drive",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Tap A and D instead of holding them too long when the track turns sharply.",
+        "Ease off forward movement before tight sections so the car is easier to control.",
+        "Set up your drift before the turn, not after the car is already wide.",
+        "Focus on staying on the track first, then add more speed once you know the route."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Stunt Driving Simulator free to play?",
+          "a": "Yes. Sprunki Stunt Driving Simulator plays free in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Stunt Driving Simulator on a phone or computer?",
+          "a": "The listed controls use WASD, so it is best played on a computer or any device with a keyboard."
+        },
+        {
+          "q": "What is the goal in Sprunki Stunt Driving Simulator?",
+          "a": "The goal is to drive through challenging tracks, control your speed, and test your racing and drifting skills with Orange Sprunki."
+        },
+        {
+          "q": "What are the controls for Sprunki Stunt Driving Simulator?",
+          "a": "Use WASD to move the car. These controls handle the core driving movement."
+        },
+        {
+          "q": "Does Sprunki Stunt Driving Simulator have drifting?",
+          "a": "Yes. Drifting is part of the driving experience, especially when you are handling speed on challenging tracks."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-island-survival-shooting",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/7liinqcjnowez1fprit93jaisys36v9c/",
+    "embedUrl": "https://html5.gamemonetize.co/7liinqcjnowez1fprit93jaisys36v9c/",
+    "slug": "sprunki-island-survival-shooting",
+    "name": "Sprunki Island Survival Shooting",
+    "mainKeyword": "sprunki",
+    "category": "shooter",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "First Person Shooter",
+      "Survival",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-island-survival-shooting-4e10ae54.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-island-survival-shooting-4e10ae54.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-20"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-20",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-20",
+    "publishedAt": "2026-11-20T03:24:23.437Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Fight off invading Sprunki on a stranded island using two guns and quick shooting to survive the attack.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Island Survival Shooting free in your browser. Use two guns to survive a stranded island attack from invading Sprunki on all sides.",
+      "about": "Sprunki Island Survival Shooting is a first-person survival shooter set on an island where you are stranded and under attack. The Sprunki are invading, and they are determined to destroy you. Your job is to defend yourself and stop them before they overwhelm you. You are armed with two guns, so the game is all about fast reactions, steady shooting, and smart choices under pressure.\nEach round is easy to understand right away. Click or tap to play, use your guns, and eliminate the Sprunki as they press the attack. The challenge comes from the feeling of being trapped in one dangerous place while enemies keep pushing toward you. You need to think quickly, focus on the biggest threat, and keep fighting back as long as you can. Sprunki Island Survival Shooting plays free in your browser with simple click or tap controls.",
+      "highlights": [
+        "First-person Sprunki survival shooting",
+        "Stranded island setting",
+        "Fight back with two guns",
+        "Click or tap controls",
+        "Free browser play"
+      ],
+      "goodFor": "This game is good for players who like simple survival shooters with quick action. It fits anyone who wants a fast browser game about reacting quickly and holding off attackers.",
+      "howToPlay": "Start the game with a mouse click or tap. Use your guns to shoot the Sprunki and stop them before they overwhelm you. Keep eliminating enemies to survive the island attack.",
+      "touchHint": "Tap to play",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Shoot early so the Sprunki do not have time to overwhelm you.",
+        "Stay focused on survival first; every missed moment gives the attack more pressure.",
+        "Use the fact that you have two guns to keep fighting back instead of hesitating.",
+        "Watch for the closest Sprunki first, since they are the most urgent threat."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Island Survival Shooting free to play?",
+          "a": "Yes. Sprunki Island Survival Shooting is free to play in your browser."
+        },
+        {
+          "q": "Can I play Sprunki Island Survival Shooting on a phone or computer?",
+          "a": "Yes. The controls support mouse click or tap, so you can play on a computer or a touch device."
+        },
+        {
+          "q": "What is the goal in Sprunki Island Survival Shooting?",
+          "a": "Your goal is to survive on the island by eliminating the attacking Sprunki before they overwhelm you."
+        },
+        {
+          "q": "What weapons do you use in Sprunki Island Survival Shooting?",
+          "a": "You fight back with two guns while the Sprunki attack the island."
+        },
+        {
+          "q": "Is Sprunki Island Survival Shooting a first-person shooter?",
+          "a": "Yes. It is a first-person shooting game with a survival focus."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
