@@ -56,6 +56,11 @@
       "slug": "sprunki-draw-save-incredibox",
       "at": "2026-11-16"
     },
+    "60106": {
+      "status": "imported",
+      "slug": "sprunki-theft-auto-2025",
+      "at": "2026-11-21"
+    },
     "60129": {
       "status": "imported",
       "slug": "sprunki-money-stack-incredibox",
@@ -510,6 +515,11 @@
       "status": "imported",
       "slug": "obby-climb-up-and-slide-down-on-minecarts",
       "at": "2026-11-04"
+    },
+    "75742": {
+      "status": "imported",
+      "slug": "brainrot-evolution-arena",
+      "at": "2026-11-21"
     },
     "76112": {
       "status": "imported",
@@ -1140,6 +1150,16 @@
       "status": "imported",
       "slug": "sprunki-island-survival-shooting",
       "at": "2026-11-20"
+    },
+    "https://html5.gamemonetize.co/c9ie6hqaolwvty4mucn55mo80foldzgf/": {
+      "status": "imported",
+      "slug": "sprunki-theft-auto-2025",
+      "at": "2026-11-21"
+    },
+    "https://html5.gamemonetize.co/cumcmfbhvmb3yvzxrwygcayr5pjy0b52/": {
+      "status": "imported",
+      "slug": "brainrot-evolution-arena",
+      "at": "2026-11-21"
     }
   }
 }

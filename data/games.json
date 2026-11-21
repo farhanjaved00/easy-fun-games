@@ -19320,5 +19320,220 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-theft-auto-2025",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/c9ie6hqaolwvty4mucn55mo80foldzgf/",
+    "embedUrl": "https://html5.gamemonetize.co/c9ie6hqaolwvty4mucn55mo80foldzgf/",
+    "slug": "sprunki-theft-auto-2025",
+    "name": "Sprunki Theft Auto 2025",
+    "mainKeyword": "sprunki",
+    "category": "adventure",
+    "mature": false,
+    "tags": [
+      "Adventure",
+      "Car",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-theft-auto-2025-061e022c.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-theft-auto-2025-061e022c.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-21",
+    "publishedAt": "2026-11-21T03:21:47.815Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Explore Sprunki city, move, jump, fly, and chase a huge fortune in a free-form urban adventure.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Theft Auto 2025 free in your browser, explore Sprunki city, fly with F, jump with Space, and chase a huge fortune toward billionaire status.",
+      "about": "Sprunki Theft Auto 2025 is a city adventure where you start a new life in the city of Sprunki. The goal is simple: do whatever it takes to build a huge fortune and work your way toward billionaire status. The world is open and loose, with no law holding Sprunki back, so you are free to move through the city, make your own choices, and stay ready when trouble comes your way.\nA round is built around exploring, moving fast, and using your movement tools at the right time. WASD handles movement, Space lets you jump, and F lets you fly, which gives you more ways to get around the city. The fun comes from the freedom to chase riches your own way, while the tricky part is staying alert because you may need to defend yourself at any moment. Sprunki Theft Auto 2025 plays free in your browser with no download needed.",
+      "highlights": [
+        "Open city setting called Sprunki",
+        "Goal of building a huge fortune",
+        "Move, jump, and fly through the city",
+        "Free-form play where you choose what to do",
+        "Stay ready to defend yourself"
+      ],
+      "goodFor": "This game is good for players who like open city adventures with simple movement and lots of freedom. It also fits players who enjoy chasing a big money goal while exploring at their own pace.",
+      "howToPlay": "Move through the city of Sprunki and look for ways to grow your fortune. Use WASD to move, Space to jump, and F to fly when you need a better route or a quick escape. Keep moving and stay ready to defend yourself as you work toward becoming a billionaire.",
+      "touchHint": "Keyboard controls are recommended",
+      "keys": [
+        "WASD: Move",
+        "F: Fly",
+        "Space: Jump"
+      ],
+      "tips": [
+        "Use flying when a direct path on foot is too slow or blocked.",
+        "Jump before changing direction if you get stuck near an obstacle.",
+        "Keep moving through the city instead of standing still when danger is close.",
+        "Use the freedom of the city to choose safer routes while chasing money."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Theft Auto 2025 free to play?",
+          "a": "Yes. Sprunki Theft Auto 2025 is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki Theft Auto 2025 on a phone or computer?",
+          "a": "The listed controls are keyboard controls, so a computer is the clearest way to play. Use WASD, F, and Space to control your character."
+        },
+        {
+          "q": "What is the goal in Sprunki Theft Auto 2025?",
+          "a": "Your goal is to explore the city of Sprunki, gather a huge fortune, and work toward becoming a billionaire."
+        },
+        {
+          "q": "What are the controls for Sprunki Theft Auto 2025?",
+          "a": "Use WASD to move, F to fly, and Space to jump."
+        },
+        {
+          "q": "What makes Sprunki Theft Auto 2025 tricky?",
+          "a": "The city has no law for Sprunki, so you need to stay alert and be ready to defend yourself while chasing riches."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-evolution-arena",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/cumcmfbhvmb3yvzxrwygcayr5pjy0b52/",
+    "embedUrl": "https://html5.gamemonetize.co/cumcmfbhvmb3yvzxrwygcayr5pjy0b52/",
+    "slug": "brainrot-evolution-arena",
+    "name": "Brainrot Evolution Arena",
+    "mainKeyword": "brainrot",
+    "category": "io",
+    "mature": false,
+    "tags": [
+      ".Io",
+      "3D",
+      "Arena",
+      "Evolution"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-evolution-arena-12540036.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-evolution-arena-12540036.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-21"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-21",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-21",
+    "publishedAt": "2026-11-21T03:22:55.236Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Guide an Italian Brainrot creature, eat food, level up, and outlast stronger rivals in a 3D arena.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Evolution Arena free in your browser. Move with WASD or joystick, eat food, level up, and avoid stronger Brainrot creatures in the arena.",
+      "about": "Brainrot Evolution Arena is a 3D arena game about growth, movement, and survival. You control an Italian Brainrot creature in a fast-paced space filled with food and rival Brainrot creatures. The goal is simple: eat food to gain experience, reach higher levels, and become bigger. Each level makes your creature stronger, faster, and more chaotic, so staying ahead matters. The action is easy to understand right away because there are no complex attack buttons or long rules to learn.\nA round is all about positioning. You can instantly eat weaker Brainrot creatures, but stronger ones are a serious danger, so you need to move smartly and choose your path carefully. Chase food when you are small, look for weaker rivals when you have the level advantage, and back away when a bigger threat gets close. Your timing, route choice, and awareness decide how long you last. Sessions are short, active, and easy to restart, and the game plays free in the browser on computer or mobile.",
+      "highlights": [
+        "Fast 3D arena with constant movement",
+        "Eat food to gain experience and level up",
+        "Stronger creatures can eat weaker ones instantly",
+        "No complex attacks, just movement and positioning",
+        "Playable with WASD or a mobile joystick"
+      ],
+      "goodFor": "Brainrot Evolution Arena is good for players who like quick arena rounds with simple rules. It works well if you enjoy eat-and-grow action where every move can change who is safe and who is in danger.",
+      "howToPlay": "Move around the arena and collect food to gain experience. Level up to grow stronger, then eat weaker Brainrot creatures while avoiding any creature that is stronger than you. Survive as long as possible by keeping your level advantage and picking safe routes.",
+      "touchHint": "Use the on-screen joystick to move",
+      "keys": [
+        "WASD: Move"
+      ],
+      "tips": [
+        "Collect nearby food early so you can level up before chasing rivals.",
+        "Do not rush toward a larger Brainrot creature; turn away and find safer food.",
+        "Use movement to stay near weaker creatures only when you have the level advantage.",
+        "Keep space around you so you have a clear escape route when stronger enemies approach."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Evolution Arena free to play?",
+          "a": "Yes. Brainrot Evolution Arena plays free in the browser."
+        },
+        {
+          "q": "Can I play Brainrot Evolution Arena on a phone or computer?",
+          "a": "Yes. On computer, use WASD to move. On mobile, use the on-screen joystick."
+        },
+        {
+          "q": "What is the goal in Brainrot Evolution Arena?",
+          "a": "Eat food, gain experience, level up, and survive as long as possible. Once you are stronger, you can eat weaker Brainrot creatures instantly."
+        },
+        {
+          "q": "Are there attacks in Brainrot Evolution Arena?",
+          "a": "There are no complex attacks. The game is based on movement, positioning, and having a higher level than nearby enemies."
+        },
+        {
+          "q": "How do I get stronger in Brainrot Evolution Arena?",
+          "a": "Eat food to gain experience and reach new levels. As you evolve, your Brainrot creature becomes bigger, stronger, and faster."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
