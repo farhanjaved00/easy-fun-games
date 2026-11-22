@@ -271,6 +271,16 @@
       "slug": "brainrot-clicker-game",
       "at": "2026-11-14"
     },
+    "66136": {
+      "status": "imported",
+      "slug": "brainrot-rescue",
+      "at": "2026-11-22"
+    },
+    "66160": {
+      "status": "imported",
+      "slug": "brainrot-sahuuur",
+      "at": "2026-11-22"
+    },
     "66241": {
       "status": "imported",
       "slug": "italian-brainrot-candy",
@@ -1160,6 +1170,16 @@
       "status": "imported",
       "slug": "brainrot-evolution-arena",
       "at": "2026-11-21"
+    },
+    "https://html5.gamemonetize.co/cazmjngq89ugket09cniyx7qj16g90ls/": {
+      "status": "imported",
+      "slug": "brainrot-rescue",
+      "at": "2026-11-22"
+    },
+    "https://html5.gamemonetize.co/q0qj0vfjbglx8j7ubf2539xjj0wghnt3/": {
+      "status": "imported",
+      "slug": "brainrot-sahuuur",
+      "at": "2026-11-22"
     }
   }
 }

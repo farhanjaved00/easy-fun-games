@@ -19535,5 +19535,221 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-brainrot-rescue",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/cazmjngq89ugket09cniyx7qj16g90ls/",
+    "embedUrl": "https://html5.gamemonetize.co/cazmjngq89ugket09cniyx7qj16g90ls/",
+    "slug": "brainrot-rescue",
+    "name": "Brainrot Rescue",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Rescue",
+      "Sahur"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-rescue-4db5474a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-rescue-4db5474a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-22",
+    "publishedAt": "2026-11-22T03:21:33.192Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Pull pins in the right order to help Brainrot Claus recover gifts while avoiding lava, ice, and snowmen.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot Rescue free and help Brainrot Claus pull pins in order, avoid lava and icy traps, collect stolen gifts, and clear 30 levels safely.",
+      "about": "Brainrot Rescue is a festive pin-pulling puzzle game about getting stolen gifts back. Brainrot Claus has to move through tricky stages guarded by mischievous snowmen. Your goal is to pull the correct pins so he can reach the presents, stay safe, and deal with enemies. Each level is built around hazards like hot lava and icy traps, so one wrong move can block the rescue or put Brainrot Claus in danger.\nA round is all about reading the layout before you act. You choose which pin to pull first, then watch how the path changes. The fun comes from finding the right order: lava may need to be kept away, icy traps may need to be avoided, and snowmen may stand between you and the gifts. There are 30 challenging levels, and the game plays free in your browser with a mouse click or a tap.",
+      "highlights": [
+        "Pin-pulling puzzle gameplay",
+        "Help Brainrot Claus recover stolen gifts",
+        "Avoid hot lava and icy traps",
+        "Defeat mischievous snowmen",
+        "30 challenging levels"
+      ],
+      "goodFor": "Brainrot Rescue is good for players who like short puzzle levels with clear goals. It is especially fun if you enjoy figuring out the safest order before making a move.",
+      "howToPlay": "Look at the full level, then pull pins to create a safe path for Brainrot Claus. Collect the gifts, avoid hazards such as lava and icy traps, and defeat snowmen when the level requires it. Clear the stage by recovering the gifts safely.",
+      "touchHint": "Tap pins to pull them in the right order",
+      "keys": [
+        "Mouse: Click to play",
+        "Tap: Play on touch screens"
+      ],
+      "tips": [
+        "Check where the lava will flow before pulling any pin.",
+        "Do not rush the first move; the order of pins is the main puzzle.",
+        "Keep icy traps away from Brainrot Claus whenever the layout allows it.",
+        "If a snowman blocks the path, look for a pin order that handles the enemy before the gifts."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot Rescue free to play?",
+          "a": "Yes. Brainrot Rescue plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot Rescue on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer, or tap on a phone or tablet."
+        },
+        {
+          "q": "What is the goal in Brainrot Rescue?",
+          "a": "Your goal is to help Brainrot Claus recover stolen gifts. You do this by pulling pins in the right order and keeping him safe from hazards."
+        },
+        {
+          "q": "How many levels are in Brainrot Rescue?",
+          "a": "Brainrot Rescue has 30 challenging levels."
+        },
+        {
+          "q": "What hazards are in Brainrot Rescue?",
+          "a": "Levels include hot lava, icy traps, and mischievous snowmen. You need to plan pin pulls so Brainrot Claus can get past them safely."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-brainrot-sahuuur",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/q0qj0vfjbglx8j7ubf2539xjj0wghnt3/",
+    "embedUrl": "https://html5.gamemonetize.co/q0qj0vfjbglx8j7ubf2539xjj0wghnt3/",
+    "slug": "brainrot-sahuuur",
+    "name": "Brainrot sahuuur",
+    "mainKeyword": "brainrot",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Puzzle",
+      "Brain",
+      "Quiz",
+      "Tung Tung Tung Sahur"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/brainrot-sahuuur-e358affb.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/brainrot-sahuuur-e358affb.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-22"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-22",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-22",
+    "publishedAt": "2026-11-22T03:22:34.359Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Answer absurd meme quiz questions, pick hilarious choices, and test your true brainrot level.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Brainrot sahuuur free in your browser and face an absurd meme quiz with illogical questions, viral sounds, cursed images, and a final test.",
+      "about": "Brainrot sahuuur is a weird meme quiz built around nonsense, chaotic Italian memes, and the Tung Tung Tung Sahur style of humor. The goal is not to solve normal trivia. Instead, you click through questions that are meant to feel wrong, silly, and confusing. Expect dumb choices, strange jokes, viral meme sounds, and cursed images that make each prompt feel more unhinged than the last.\nEach round is simple: read the question, look at the answers, and click the choice that seems to match the joke. The tricky part is that the quiz does not follow ordinary logic. Sometimes the funniest or most brainrot answer may be the one that fits the mood best. Keep going to reach the final test, where the game measures your true brainrot level. Brainrot sahuuur plays free in the browser, with no extra controls to learn.",
+      "highlights": [
+        "Absurd meme quiz with intentionally illogical questions",
+        "Viral meme sounds and cursed images",
+        "Funny answer choices that ignore normal logic",
+        "Final test that measures your brainrot level"
+      ],
+      "goodFor": "Brainrot sahuuur is good for players who like silly quiz games, meme humor, and quick choices. It is best when you want something strange, fast, and not too serious.",
+      "howToPlay": "Read each absurd question and click the answer you think fits the joke. The quiz is built around nonsense, so do not expect normal trivia rules. Keep answering until you reach the final brainrot test.",
+      "touchHint": "Click an answer with the mouse",
+      "keys": [
+        "Mouse click: Choose an answer"
+      ],
+      "tips": [
+        "Do not treat the quiz like normal trivia; the questions are meant to be illogical.",
+        "Look at the cursed images and meme sounds for clues about the joke.",
+        "Read all answer choices before clicking, because the silliest one may fit best.",
+        "Stay with the quiz until the final test to see your brainrot level."
+      ],
+      "faq": [
+        {
+          "q": "Is Brainrot sahuuur free to play?",
+          "a": "Yes. Brainrot sahuuur plays free in your browser."
+        },
+        {
+          "q": "Can I play Brainrot sahuuur on a phone or computer?",
+          "a": "The game uses mouse clicks, so it is made for simple browser play on a computer. If your device supports tapping like a click, you can try selecting answers that way."
+        },
+        {
+          "q": "What is the goal of Brainrot sahuuur?",
+          "a": "The goal is to answer a series of absurd meme quiz questions and reach the final test that measures your brainrot level."
+        },
+        {
+          "q": "How do I control Brainrot sahuuur?",
+          "a": "Use a mouse click to choose an answer. There are no other controls listed."
+        },
+        {
+          "q": "Are the questions supposed to make sense?",
+          "a": "No. The quiz is built around chaotic memes, nonsense questions, cursed images, and funny answers that defy normal logic."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
