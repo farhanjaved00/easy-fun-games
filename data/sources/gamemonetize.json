@@ -6,6 +6,11 @@
       "slug": "skibidi-toilet-jigsaw-puzzle-2",
       "at": "2026-11-19"
     },
+    "47860": {
+      "status": "imported",
+      "slug": "skibidi-toilet-moto-bike-racing-2",
+      "at": "2026-11-23"
+    },
     "48443": {
       "status": "imported",
       "slug": "nooby-and-obby-2-player",
@@ -565,6 +570,11 @@
       "status": "imported",
       "slug": "obby-rainbow-parkour-two-player",
       "at": "2026-11-10"
+    },
+    "86069": {
+      "status": "imported",
+      "slug": "car-smash-obby-3d",
+      "at": "2026-11-23"
     },
     "86550": {
       "status": "imported",
@@ -1180,6 +1190,16 @@
       "status": "imported",
       "slug": "brainrot-sahuuur",
       "at": "2026-11-22"
+    },
+    "https://html5.gamemonetize.co/efm1mpr3r8svpj6jmmxo6sf62vnupcsd/": {
+      "status": "imported",
+      "slug": "skibidi-toilet-moto-bike-racing-2",
+      "at": "2026-11-23"
+    },
+    "https://html5.gamemonetize.co/akpoe15y02690iqssyoqm6dpotmcpuxl/": {
+      "status": "imported",
+      "slug": "car-smash-obby-3d",
+      "at": "2026-11-23"
     }
   }
 }

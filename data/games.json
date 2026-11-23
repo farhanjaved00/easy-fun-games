@@ -19751,5 +19751,225 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-skibidi-toilet-moto-bike-racing-2",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/efm1mpr3r8svpj6jmmxo6sf62vnupcsd/",
+    "embedUrl": "https://html5.gamemonetize.co/efm1mpr3r8svpj6jmmxo6sf62vnupcsd/",
+    "slug": "skibidi-toilet-moto-bike-racing-2",
+    "name": "Skibidi Toilet Moto Bike Racing 2",
+    "mainKeyword": "skibidi",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Sports",
+      "Arcade",
+      "Bike",
+      "Skibidi"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/skibidi-toilet-moto-bike-racing-2-a977d31d.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/skibidi-toilet-moto-bike-racing-2-a977d31d.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-23",
+    "publishedAt": "2026-11-23T03:21:54.809Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Ride a Skibidi Toilet racing bike, steer through harder drag-style races, and handle reckless toilet vehicles.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Skibidi Toilet Moto Bike Racing 2 free in your browser and steer a drag-style toilet bike with Arrow keys or WASD in harder sequel races.",
+      "about": "Skibidi Toilet Moto Bike Racing 2 is a racing game about riding a strange toilet-based bike with a Skibidi Toilet theme. It focuses on drag-style bike racing with modified toilet vehicles. This sequel is described as harder, so the main goal is to control the reckless ride and keep it moving smoothly. You can play several types of toilet racers, with a large collection of drag toilet vehicles to try. The game has an arcade sports feel, with the bike theme mixed into an unusual toilet racer setup.\nEach run is simple to start but tricky to handle. Use the Arrow keys or WASD to move, then react quickly as the toilet bike pushes through the racing challenge. The fun comes from the odd vehicle style and the need to stay in control while the difficulty rises. The controls are easy to learn, but the reckless racing style rewards careful steering. Skibidi Toilet Moto Bike Racing 2 plays free in your browser on EasyGameFun, with no setup needed to start racing.",
+      "highlights": [
+        "Harder sequel with tougher racing control",
+        "Drag-style toilet bike racing",
+        "Several toilet vehicle types to ride",
+        "Large collection of drag toilet racers",
+        "Move with Arrow keys or WASD"
+      ],
+      "goodFor": "This game is good for players who like odd arcade racing and bike games with simple controls. It also fits players who enjoy skill-based steering challenges.",
+      "howToPlay": "Choose a toilet racer, start moving, and steer the drag-style bike with the Arrow keys or WASD. The goal is to keep control of the reckless vehicle through the harder racing challenge and make clean movements without overcorrecting.",
+      "touchHint": "Use Arrow keys or WASD on a keyboard",
+      "keys": [
+        "Arrow keys: Move",
+        "WASD: Move"
+      ],
+      "tips": [
+        "Use short steering taps instead of holding a direction for too long.",
+        "Try both Arrow keys and WASD, then stick with the setup that feels steadier.",
+        "Learn one toilet vehicle first before switching to other types.",
+        "Make small corrections early so the reckless bike stays easier to control."
+      ],
+      "faq": [
+        {
+          "q": "Is Skibidi Toilet Moto Bike Racing 2 free to play?",
+          "a": "Yes. You can play Skibidi Toilet Moto Bike Racing 2 free in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Skibidi Toilet Moto Bike Racing 2 on a phone or computer?",
+          "a": "The listed controls are keyboard controls, so a computer or laptop is the clearest way to play. Use the Arrow keys or WASD to move."
+        },
+        {
+          "q": "How do you control the bike?",
+          "a": "Use the Arrow keys or WASD to move the toilet racing vehicle. Small inputs can help because the ride is meant to feel reckless."
+        },
+        {
+          "q": "What is the goal of Skibidi Toilet Moto Bike Racing 2?",
+          "a": "Your goal is to ride a drag-style Skibidi Toilet vehicle and keep it under control through the racing challenge. This sequel is harder, so steady movement matters."
+        },
+        {
+          "q": "Are there different vehicles in the game?",
+          "a": "Yes. The game includes several types of toilet vehicles and a large collection of drag toilet racers to play."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-car-smash-obby-3d",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/akpoe15y02690iqssyoqm6dpotmcpuxl/",
+    "embedUrl": "https://html5.gamemonetize.co/akpoe15y02690iqssyoqm6dpotmcpuxl/",
+    "slug": "car-smash-obby-3d",
+    "name": "CAR SMASH OBBY 3D",
+    "mainKeyword": "obby",
+    "category": "racing",
+    "mature": false,
+    "tags": [
+      "Racing",
+      "Driving",
+      "Destruction",
+      "Obby"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/car-smash-obby-3d-94ab7d44.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/car-smash-obby-3d-94ab7d44.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-23"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-23",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-23",
+    "publishedAt": "2026-11-23T03:22:59.547Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Drive a breakable car through 36 obby courses, smash barriers, dodge traps, and reach the finish.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play CAR SMASH OBBY 3D free in your browser. Smash barriers, dodge giant traps, and clear 36 car obby courses across six colorful worlds with boost.",
+      "about": "CAR SMASH OBBY 3D is a driving obby where your car can break apart as you push through colorful obstacle courses. The goal is to reach the finish line across 36 courses set in six bright worlds. Each route throws in barriers to smash, gaps to jump, and giant hazards like swinging hammers, crushers, and rollers. You earn coins as you play, collect 10 vehicles, and upgrade impact power, speed, armor, grip, and suspension.\nEach attempt starts fast because the car accelerates on its own. You steer, brake when needed, and use boost to hit barriers harder or clear dangerous sections. Checkpoints and quick retries keep mistakes from ending the fun for long, but timing still matters when traps move across the road. It is fun because the same run can turn into a stunt, a crash, or a clean finish in seconds. CAR SMASH OBBY 3D plays free in your browser on desktop or mobile, with support for 10 languages.",
+      "highlights": [
+        "36 obstacle courses across six colorful worlds",
+        "Cars can fall apart after big impacts",
+        "Swinging hammers, crushers, rollers, gaps, and barriers",
+        "10 vehicles to collect with earned coins",
+        "Upgrade impact power, speed, armor, grip, and suspension"
+      ],
+      "goodFor": "Players who like driving challenges, stunts, and physics crashes will enjoy it. It is also good for short runs because checkpoints and quick retries keep attempts moving.",
+      "howToPlay": "Your car accelerates automatically, so focus on steering, braking, and boosting at the right time. Reach the finish line on each obstacle course while smashing barriers, avoiding giant traps, and using checkpoints after mistakes. Earn coins as you play, then spend them on vehicles and upgrades.",
+      "touchHint": "Hold right-side arrows; tap lightning to boost",
+      "keys": [
+        "A / D: Steer",
+        "Left / Right arrows: Steer",
+        "W / Up / Space: Boost",
+        "S / Down: Brake",
+        "R: Go to checkpoint",
+        "Escape: Pause"
+      ],
+      "tips": [
+        "Use boost when hitting barriers to make stronger impacts.",
+        "Brake before crushers, hammers, and rollers so you can time the opening.",
+        "Aim straight before jumping gaps; turning in the air can make landings harder.",
+        "Upgrade grip and suspension if you are struggling to stay stable after bumps."
+      ],
+      "faq": [
+        {
+          "q": "Is CAR SMASH OBBY 3D free to play?",
+          "a": "Yes. CAR SMASH OBBY 3D is free to play in your browser."
+        },
+        {
+          "q": "Can I play CAR SMASH OBBY 3D on a phone or computer?",
+          "a": "Yes. It works on desktop and mobile. On mobile, hold the right-side arrows to steer and use the lightning button above them to boost."
+        },
+        {
+          "q": "What is the goal in CAR SMASH OBBY 3D?",
+          "a": "The goal is to reach the finish line on obstacle courses filled with smashable barriers, gaps, and moving traps."
+        },
+        {
+          "q": "How many courses are in CAR SMASH OBBY 3D?",
+          "a": "There are 36 obstacle courses across six colorful worlds."
+        },
+        {
+          "q": "What can I unlock or upgrade?",
+          "a": "You can earn coins, collect 10 vehicles, and upgrade impact power, speed, armor, grip, and suspension."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]
