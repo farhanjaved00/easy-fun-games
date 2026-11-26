@@ -19971,5 +19971,218 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-obby-ride-a-bike-for-brainrots",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/767p1nh6hva73evt8bra8rqg5bm5a5b7/",
+    "embedUrl": "https://html5.gamemonetize.co/767p1nh6hva73evt8bra8rqg5bm5a5b7/",
+    "slug": "obby-ride-a-bike-for-brainrots",
+    "name": "Obby Ride a Bike For Brainrots",
+    "mainKeyword": "obby",
+    "category": "arcade",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "Obby",
+      "Brainrot",
+      "Animal"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-ride-a-bike-for-brainrots-e7596bb6.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-ride-a-bike-for-brainrots-e7596bb6.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-26"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-26",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-26",
+    "publishedAt": "2026-11-26T13:21:08.618Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Ride a bike through tricky obby courses, avoid the void, collect Brainrots, and upgrade your base.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby Ride a Bike For Brainrots free in your browser. Ride tricky obby stages, collect and merge Brainrots, and upgrade your base without falling.",
+      "about": "Obby Ride a Bike For Brainrots is an arcade obby game about riding a bike through obstacle courses without losing balance. Each stage is packed with tricky jumps and hazards, and the biggest danger is falling into the void after one bad move. Along the way, you collect Brainrots, merge them, and use them to help your progress grow faster. You can also search for secret creatures as you keep moving through the course.\nYour goal is to keep riding, clear the obby stages, and improve between runs. Upgrades matter because you can improve your bike and your base, unlock more slots, and build up your income. The fun comes from balancing speed with control: rushing can help you move fast, but a small mistake can end the attempt. Obby Ride a Bike For Brainrots plays free in the browser, so you can start riding right away and keep trying for a cleaner run.",
+      "highlights": [
+        "Bike riding through tricky obby stages",
+        "One mistake can drop you into the void",
+        "Collect and merge Brainrots",
+        "Upgrade your bike and base",
+        "Unlock more base slots as you progress"
+      ],
+      "goodFor": "This game is a good pick for players who like arcade obby challenges with quick mistakes and steady upgrades. It also fits players who enjoy collecting, merging, and building progress between rides.",
+      "howToPlay": "Ride your bike through each obby course while keeping your balance and avoiding falls. Collect Brainrots, merge them, and use your progress to upgrade your bike and base. Keep improving so you can get farther and conquer more obby stages.",
+      "touchHint": "Use the in-game controls to ride and balance",
+      "keys": [],
+      "tips": [
+        "Put balance before speed on tricky jumps, because one mistake can send you into the void.",
+        "Collect Brainrots whenever you safely can, since they help boost your income.",
+        "Merge Brainrots to grow your progress faster instead of only collecting more.",
+        "Upgrade your base to open more slots, then use those slots to build stronger progress."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby Ride a Bike For Brainrots free to play?",
+          "a": "Yes. Obby Ride a Bike For Brainrots is free to play in your browser."
+        },
+        {
+          "q": "Can I play Obby Ride a Bike For Brainrots on a phone or computer?",
+          "a": "You can play it in a browser. The available facts only list general riding and obstacle gameplay, so use the controls shown in the game on your device."
+        },
+        {
+          "q": "What is the goal in Obby Ride a Bike For Brainrots?",
+          "a": "The goal is to ride through obby obstacle stages, avoid falling into the void, collect Brainrots, and keep upgrading so you can progress farther."
+        },
+        {
+          "q": "What do Brainrots do in the game?",
+          "a": "Brainrots help boost your income and speed up progress. You can also merge them as part of building stronger progress."
+        },
+        {
+          "q": "What can you upgrade in Obby Ride a Bike For Brainrots?",
+          "a": "You can upgrade your bike and your base. Base upgrades can unlock more slots, which helps you grow stronger over time."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-skateboard-obby-2-player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/1q8gtpd9hk04ry75punqmrvkgn78tmus/",
+    "embedUrl": "https://html5.gamemonetize.co/1q8gtpd9hk04ry75punqmrvkgn78tmus/",
+    "slug": "skateboard-obby-2-player",
+    "name": "Skateboard Obby 2 Player",
+    "mainKeyword": "obby",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Adventure",
+      "Skateboard"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/skateboard-obby-2-player-3e847af2.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/skateboard-obby-2-player-3e847af2.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-26"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-26",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-26",
+    "publishedAt": "2026-11-26T13:22:10.423Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Team up on skateboards, collect coins, avoid high-altitude obstacles, and reach the finish together.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Skateboard Obby 2 Player free in your browser. Team up on skateboards, collect every coin, dodge obstacles, and reach the high finish safely.",
+      "about": "Skateboard Obby 2 Player is a 2D obby adventure for two players on one device. The Yellow player and the Grey player ride through a tricky world of skateboards, narrow paths, and obstacles. Your shared goal is simple: collect all the coins and get both friends to the finish line. The course is set high up, so one bad move can send a player falling off the route.\nA round is about staying together while each player handles their own controls. One player uses WASD and the other uses the arrow keys, so you can sit at the same keyboard and help each other spot dangers. The challenge comes from timing movements, avoiding objects on the path, and keeping control while skating near edges. It is easy to understand, but it can get tense when both players need to move cleanly. You can play it free in the browser, and mobile touch controls are available too.",
+      "highlights": [
+        "Two-player obby adventure on skateboards",
+        "Yellow player uses WASD; Grey player uses arrows",
+        "Collect every coin before reaching the finish",
+        "High-altitude paths where falling is a real risk",
+        "Mobile touch controls are available"
+      ],
+      "goodFor": "Great for players who like teamwork, simple controls, and tricky obstacle paths. It is also a good pick if you want a shared keyboard game with quick co-op challenges.",
+      "howToPlay": "Move the Yellow player with WASD and the Grey player with the arrow keys. Collect all the coins, avoid obstacles on the path, and guide both players safely to the finish line.",
+      "touchHint": "Use the on-screen touch controls",
+      "keys": [
+        "WASD: Move the Yellow player",
+        "Arrow keys: Move the Grey player"
+      ],
+      "tips": [
+        "Do not rush near edges; high paths make falling easy.",
+        "Have one player move first through tight spots, then let the other follow.",
+        "Collect coins as you pass them so you do not need to backtrack through danger.",
+        "Call out obstacles before both players reach them, especially when moving together."
+      ],
+      "faq": [
+        {
+          "q": "Is Skateboard Obby 2 Player free to play?",
+          "a": "Yes. You can play Skateboard Obby 2 Player free in your browser."
+        },
+        {
+          "q": "Can I play Skateboard Obby 2 Player on a phone or computer?",
+          "a": "Yes. It supports keyboard play on a computer, and mobile touch controls are available for phone play."
+        },
+        {
+          "q": "What is the goal in Skateboard Obby 2 Player?",
+          "a": "Collect all the coins and get both players to the finish line while avoiding obstacles and falls."
+        },
+        {
+          "q": "What are the controls for Skateboard Obby 2 Player?",
+          "a": "The Yellow player moves with WASD. The Grey player moves with the arrow keys."
+        },
+        {
+          "q": "Is Skateboard Obby 2 Player a two-player game?",
+          "a": "Yes. Two players can play together on the same device, each using their own controls."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

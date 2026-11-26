@@ -31,6 +31,11 @@
       "slug": "sprunki-x-granny-incredibox",
       "at": "2026-11-16"
     },
+    "57199": {
+      "status": "imported",
+      "slug": "skateboard-obby-2-player",
+      "at": "2026-11-26"
+    },
     "58099": {
       "status": "imported",
       "slug": "horror-ban-ban-1-2-player-parkour",
@@ -545,6 +550,11 @@
       "status": "imported",
       "slug": "water-sort-puzzle-italian-brainrot",
       "at": "2026-10-22"
+    },
+    "79314": {
+      "status": "imported",
+      "slug": "obby-ride-a-bike-for-brainrots",
+      "at": "2026-11-26"
     },
     "79420": {
       "status": "imported",
@@ -1200,6 +1210,16 @@
       "status": "imported",
       "slug": "car-smash-obby-3d",
       "at": "2026-11-23"
+    },
+    "https://html5.gamemonetize.co/767p1nh6hva73evt8bra8rqg5bm5a5b7/": {
+      "status": "imported",
+      "slug": "obby-ride-a-bike-for-brainrots",
+      "at": "2026-11-26"
+    },
+    "https://html5.gamemonetize.co/1q8gtpd9hk04ry75punqmrvkgn78tmus/": {
+      "status": "imported",
+      "slug": "skateboard-obby-2-player",
+      "at": "2026-11-26"
     }
   }
 }
