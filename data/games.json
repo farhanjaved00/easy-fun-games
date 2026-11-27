@@ -20184,5 +20184,222 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-obby-and-noob-barry-prison",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/1w46epju6l9hih6gf6rwg8hlq1787wui/",
+    "embedUrl": "https://html5.gamemonetize.co/1w46epju6l9hih6gf6rwg8hlq1787wui/",
+    "slug": "obby-and-noob-barry-prison",
+    "name": "Obby and Noob Barry Prison",
+    "mainKeyword": "obby",
+    "category": "2-player",
+    "mature": true,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Action",
+      "Obby"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/obby-and-noob-barry-prison-33352757.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/obby-and-noob-barry-prison-33352757.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-27"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-27",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-27",
+    "publishedAt": "2026-11-27T03:21:35.354Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Guide Obby and Noob through a scary prison, collect three keys, avoid Barry, and unlock the escape door.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Obby and Noob Barry Prison free in your browser. Collect 3 keys, avoid dangerous Barry, and unlock the prison door to escape with simple controls.",
+      "about": "Obby and Noob Barry Prison is a 2D pixel-style obby adventure about escaping a scary prison. You help Obby and Noob get out while Barry, a dangerous cop, patrols the place. The main task is simple: find three keys, use them to open the prison door, and make it out before Barry catches you. The theme is tense and prison-focused, with a scary setting and the threat of being thrown in jail if you get caught.\nEach run is about movement, timing, and staying aware of Barry. You move with WASD, the arrow keys, or mobile touch controls, then search the prison for keys while keeping enough space between you and the guard. It is easy to understand, but the chase pressure makes every route feel risky, especially when the door is still locked. You can play it free in the browser, so it is quick to start on a computer or phone.",
+      "highlights": [
+        "Escape a scary prison as Obby and Noob",
+        "Collect 3 keys to open the prison door",
+        "Avoid Barry, the dangerous cop",
+        "2D pixel-style obby action",
+        "WASD, arrow keys, and mobile touch controls"
+      ],
+      "goodFor": "Good for players who like tense escape challenges, obby movement, and quick arcade goals. The prison theme is scary, so it is not aimed at young children.",
+      "howToPlay": "Move through the prison and search for the three keys. Stay away from Barry, because if he catches you, he will throw you in jail. Once you have all three keys, unlock the prison door and escape.",
+      "touchHint": "Use touch controls to move and collect keys",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move",
+        "Mobile touch: Move"
+      ],
+      "tips": [
+        "Find all 3 keys before spending time at the prison door.",
+        "Keep distance from Barry, even if it means taking a longer route.",
+        "Use one control style you are comfortable with before the chase gets close.",
+        "Watch Barry’s position before moving into open areas of the prison."
+      ],
+      "faq": [
+        {
+          "q": "Is Obby and Noob Barry Prison free to play?",
+          "a": "Yes. You can play Obby and Noob Barry Prison free in your browser."
+        },
+        {
+          "q": "Can I play Obby and Noob Barry Prison on a phone or computer?",
+          "a": "Yes. The game supports WASD, arrow keys, and mobile touch controls, so it works on a computer or a phone."
+        },
+        {
+          "q": "What is the goal in Obby and Noob Barry Prison?",
+          "a": "You need to help Obby and Noob escape the prison. Collect 3 keys, unlock the prison door, and get out while avoiding Barry."
+        },
+        {
+          "q": "Who is Barry in Obby and Noob Barry Prison?",
+          "a": "Barry is a dangerous cop in the prison. If he catches you, he will throw you in jail."
+        },
+        {
+          "q": "Is Obby and Noob Barry Prison scary?",
+          "a": "It has a scary prison setting and a dangerous guard chasing the characters. Because of that tense theme, it is not meant for young children."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-sprunki-happy-easter-2player",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/oob75i4ksvub445ck5q3adkw0piwsu0l/",
+    "embedUrl": "https://html5.gamemonetize.co/oob75i4ksvub445ck5q3adkw0piwsu0l/",
+    "slug": "sprunki-happy-easter-2player",
+    "name": "Sprunki Happy Easter 2Player",
+    "mainKeyword": "sprunki",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Easter",
+      "Pixel"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-happy-easter-2player-229aad8a.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-happy-easter-2player-229aad8a.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-27"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-27",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-27",
+    "publishedAt": "2026-11-27T03:22:35.270Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Race a friend in a pixel Easter contest where you grab eggs from a balloon and deliver 20 to the chest.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki Happy Easter 2Player free in your browser and race a friend to take eggs from the balloon, deliver them, and reach 20 first to win.",
+      "about": "Sprunki Happy Easter 2Player is a local two-player arcade game with a bright pixel Easter theme. The Sprunki brothers are racing against each other to collect Easter eggs faster than the other player. Each egg comes from the balloon, and it must be carried back to the chest to count. The match is a direct contest on the same device, so every trip between the balloon and the chest matters. The first player to collect 20 eggs wins the round.\nA round is simple to understand, but it can get tense fast because both players are chasing the same goal at the same time. You need to move quickly, take an egg, return it to the chest, and repeat without wasting steps. One player uses WASD, while the other uses the Arrow keys, and mobile touch control is also available. It is a good pick for siblings or friends who want a quick head-to-head challenge, and it plays free in the browser.",
+      "highlights": [
+        "Local 2-player Easter egg race",
+        "Pixel-style arcade action",
+        "Grab eggs from the balloon",
+        "Deliver eggs to the chest to score",
+        "First player to 20 eggs wins"
+      ],
+      "goodFor": "Good for two players who want a fast, simple contest on the same device. It is especially fun for friends or siblings who like quick arcade races.",
+      "howToPlay": "Move your Sprunki character to the balloon, take an egg, then carry it to the chest. Keep repeating the route as fast as you can. The player who delivers 20 eggs first wins.",
+      "touchHint": "Use touch controls to move on mobile",
+      "keys": [
+        "WASD: Move Player 1",
+        "Arrow keys: Move Player 2"
+      ],
+      "tips": [
+        "Plan the shortest path between the balloon and the chest before you start moving.",
+        "Do not wander after grabbing an egg; head straight back to the chest so it counts.",
+        "Watch your opponent’s route and avoid crossing into their path when it slows you down.",
+        "Keep a steady rhythm: balloon, chest, balloon, chest until you reach 20 eggs."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki Happy Easter 2Player free to play?",
+          "a": "Yes. Sprunki Happy Easter 2Player plays free in the browser."
+        },
+        {
+          "q": "Can I play Sprunki Happy Easter 2Player on a phone or computer?",
+          "a": "Yes. You can play with keyboard controls on a computer, and mobile touch control is available on a phone."
+        },
+        {
+          "q": "What is the goal in Sprunki Happy Easter 2Player?",
+          "a": "The goal is to take eggs from the balloon and deliver them to the chest. The first player to collect 20 eggs wins."
+        },
+        {
+          "q": "What are the controls for Sprunki Happy Easter 2Player?",
+          "a": "One player moves with the WASD keys. The other player moves with the Arrow keys."
+        },
+        {
+          "q": "Is Sprunki Happy Easter 2Player a single-player game?",
+          "a": "The game is built around a two-player race between the Sprunki brothers. It is made for playing against a friend or sibling."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

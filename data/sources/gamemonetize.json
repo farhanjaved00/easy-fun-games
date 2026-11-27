@@ -31,6 +31,11 @@
       "slug": "sprunki-x-granny-incredibox",
       "at": "2026-11-16"
     },
+    "54890": {
+      "status": "imported",
+      "slug": "obby-and-noob-barry-prison",
+      "at": "2026-11-27"
+    },
     "57199": {
       "status": "imported",
       "slug": "skateboard-obby-2-player",
@@ -215,6 +220,11 @@
       "status": "imported",
       "slug": "tung-tung-sahur-midnight-terror",
       "at": "2026-11-06"
+    },
+    "64891": {
+      "status": "imported",
+      "slug": "sprunki-happy-easter-2player",
+      "at": "2026-11-27"
     },
     "64995": {
       "status": "imported",
@@ -1220,6 +1230,16 @@
       "status": "imported",
       "slug": "skateboard-obby-2-player",
       "at": "2026-11-26"
+    },
+    "https://html5.gamemonetize.co/1w46epju6l9hih6gf6rwg8hlq1787wui/": {
+      "status": "imported",
+      "slug": "obby-and-noob-barry-prison",
+      "at": "2026-11-27"
+    },
+    "https://html5.gamemonetize.co/oob75i4ksvub445ck5q3adkw0piwsu0l/": {
+      "status": "imported",
+      "slug": "sprunki-happy-easter-2player",
+      "at": "2026-11-27"
     }
   }
 }
