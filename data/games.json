@@ -20401,5 +20401,222 @@
       ],
       "model": "gpt-5.5"
     }
+  },
+  {
+    "id": "gm-sprunki-456-squid-cookie",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/yv9zfw3upjb12a2hmnll9m49c57poyir/",
+    "embedUrl": "https://html5.gamemonetize.co/yv9zfw3upjb12a2hmnll9m49c57poyir/",
+    "slug": "sprunki-456-squid-cookie",
+    "name": "Sprunki 456 Squid Cookie",
+    "mainKeyword": "sprunki",
+    "category": "2-player",
+    "mature": false,
+    "tags": [
+      "Arcade",
+      "2 Player",
+      "Adventure",
+      "Sprunki"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/sprunki-456-squid-cookie-5afe7c39.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/sprunki-456-squid-cookie-5afe7c39.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-28",
+    "publishedAt": "2026-11-28T03:21:37.508Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 61,
+    "description": "Guide the turquoise and red brothers through the forest, collect cookies, find the key, and reach the register.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play Sprunki 456 Squid Cookie free in your browser, collect cookies, find the golden key, use double jumps, throw cookies, and reach the register fast.",
+      "about": "Sprunki 456 Squid Cookie is a 2D arcade adventure about two brothers in a forest full of Sprunki trouble. The turquoise brother and the red-suited brother need to make it through the area and reach the cash register as quickly as they can. Along the way, they collect cookies, look for the golden key, and deal with Sprunki brothers blocking the route.\nEach run is about moving carefully, jumping at the right time, and clearing the path before heading to the finish. WASD and the Arrow keys control movement, so two players can share one keyboard or one player can handle both sides. Double jump helps you cross gaps and reach tricky spots. Cookies are not just pickups, either: you can throw them at Sprunki brothers to defeat them. Sprunki 456 Squid Cookie plays free in the browser with no download needed.",
+      "highlights": [
+        "2D forest adventure with turquoise and red-suited brothers",
+        "WASD and Arrow key movement for shared keyboard play",
+        "Double jump is enabled for harder jumps",
+        "Collect cookies, find the golden key, and reach the register",
+        "Throw cookies to defeat Sprunki brothers"
+      ],
+      "goodFor": "This game is a good fit for players who like short arcade adventures with two-character movement. It is also fun if you enjoy collecting items while avoiding or defeating enemies.",
+      "howToPlay": "Move through the forest, collect the cookies, and find the golden key. Use double jumps to reach difficult spots, throw cookies at Sprunki brothers when they block you, and get to the cash register as fast as possible.",
+      "touchHint": "Use WASD and Arrow keys on keyboard",
+      "keys": [
+        "WASD: Move",
+        "Arrow keys: Move"
+      ],
+      "tips": [
+        "Use the double jump before wide gaps or tall ledges, not after you start falling too low.",
+        "Check side paths for cookies and the golden key before rushing to the cash register.",
+        "If a Sprunki brother blocks the route, use a cookie throw instead of trying to run through it.",
+        "When sharing the keyboard, give each player space so WASD and Arrow key moves do not get mixed up."
+      ],
+      "faq": [
+        {
+          "q": "Is Sprunki 456 Squid Cookie free to play?",
+          "a": "Yes. Sprunki 456 Squid Cookie is free to play in your browser on EasyGameFun."
+        },
+        {
+          "q": "Can I play Sprunki 456 Squid Cookie on a phone or computer?",
+          "a": "The given controls are keyboard controls, so a computer is the best fit. Use WASD and the Arrow keys to move."
+        },
+        {
+          "q": "What is the goal in Sprunki 456 Squid Cookie?",
+          "a": "Help the turquoise and red-suited brothers collect cookies, find the golden key, and reach the cash register. Try to get there as quickly as possible."
+        },
+        {
+          "q": "What are the controls for Sprunki 456 Squid Cookie?",
+          "a": "Use WASD and the Arrow keys to move. Double jump is enabled, which helps with higher platforms and longer gaps."
+        },
+        {
+          "q": "Can you defeat the Sprunki brothers?",
+          "a": "Yes. You can throw cookies at the Sprunki brothers to defeat them when they get in the way."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
+  },
+  {
+    "id": "gm-2048-shoot-merge-number-3d",
+    "source": "gamemonetize",
+    "sourceUrl": "https://html5.gamemonetize.co/a5n46az8ma9tlaqre5wzz0yn0rqv354l/",
+    "embedUrl": "https://html5.gamemonetize.co/a5n46az8ma9tlaqre5wzz0yn0rqv354l/",
+    "slug": "2048-shoot-merge-number-3d",
+    "name": "2048 Shoot Merge Number 3D",
+    "mainKeyword": "merge",
+    "category": "puzzle",
+    "mature": false,
+    "tags": [
+      "Shooting",
+      "2048",
+      "Blocky",
+      "Geometry"
+    ],
+    "developer": "",
+    "orientation": "landscape",
+    "input": [
+      "mouse",
+      "keyboard",
+      "touch"
+    ],
+    "thumb": {
+      "url": "/thumbs/2048-shoot-merge-number-3d-3c39bec9.webp",
+      "width": 512,
+      "height": 512,
+      "source": "ai",
+      "model": "gpt-image-2",
+      "small": {
+        "url": "/thumbs/sm/2048-shoot-merge-number-3d-3c39bec9.webp",
+        "width": 320,
+        "height": 320
+      },
+      "madeAt": "2026-11-28"
+    },
+    "emoji": "🎮",
+    "colors": [
+      "#6C4DFF",
+      "#FF3F6C"
+    ],
+    "licence": {
+      "partner": "gamemonetize",
+      "checkedAt": "2026-11-28",
+      "allowedEmbed": true
+    },
+    "addedAt": "2026-11-28",
+    "publishedAt": "2026-11-28T03:22:50.647Z",
+    "status": "published",
+    "featured": false,
+    "popularity": 60,
+    "description": "Aim and shoot numbered 3D blocks, merge matching values, and chase 2048 without filling the board.",
+    "quality": {
+      "score": 80,
+      "checks": {
+        "partnerCatalog": true,
+        "embeddableTag": false,
+        "originalText": true,
+        "reviewed": "ai"
+      }
+    },
+    "content": {
+      "metaDescription": "Play 2048 Shoot Merge Number 3D free and shoot numbered 3D blocks, merge matching values, clear space, and chase 2048 in endless mode for high scores.",
+      "about": "2048 Shoot Merge Number 3D is a number puzzle with shooting controls and a clean 3D block look. Your goal is to aim numbered blocks into matching numbers so they combine upward: 2 becomes 4, 4 becomes 8, and the chain keeps climbing toward 2048 and beyond. Each merge boosts your score and opens more room on the board, so every shot matters. The blocky geometry and clear numbers make the puzzle easy to read at a glance.\nA round is easy to start because it uses one-click or one-tap play, but it gets tricky when blocks begin to crowd the space. You need to choose shots that create merges instead of filling the board with unmatched numbers. The smooth animations make each upgrade easy to follow, while the endless mode keeps the high-score chase going. It plays free in the browser for quick breaks, logic practice, or relaxed score runs, with simple controls that let you focus on planning the next merge.",
+      "highlights": [
+        "Shoot numbered blocks and merge matching values",
+        "Number chain builds from 2 to 2048 and beyond",
+        "Endless mode focused on high scores",
+        "One-click or one-tap controls",
+        "Crisp 3D visuals with smooth animations"
+      ],
+      "goodFor": "This game is good for players who enjoy number puzzles with quick, simple controls. It also suits anyone who likes score chasing and careful space management.",
+      "howToPlay": "Click or tap to aim and shoot numbered blocks onto the board. Match blocks with the same number to merge them into a higher value, boost your score, and keep space clear. The goal is to reach 2048 and continue as far as you can in endless mode.",
+      "touchHint": "Tap to aim and shoot numbered blocks",
+      "keys": [
+        "Mouse click: Play",
+        "Tap: Play"
+      ],
+      "tips": [
+        "Aim for matching numbers first so each shot helps clear space.",
+        "Try to build one value chain at a time, such as 2 to 4 to 8.",
+        "Do not fill the board with scattered unmatched numbers.",
+        "Watch the board space before each shot so you do not block future merges."
+      ],
+      "faq": [
+        {
+          "q": "Is 2048 Shoot Merge Number 3D free to play?",
+          "a": "Yes. You can play 2048 Shoot Merge Number 3D free in your browser."
+        },
+        {
+          "q": "Can I play 2048 Shoot Merge Number 3D on a phone or computer?",
+          "a": "Yes. Use a mouse click on a computer or tap on a phone or tablet to play."
+        },
+        {
+          "q": "What is the goal in 2048 Shoot Merge Number 3D?",
+          "a": "Shoot numbered blocks into matching numbers to merge them upward. Try to reach 2048 and keep going for a higher score."
+        },
+        {
+          "q": "How do merges work?",
+          "a": "Blocks with the same number combine into the next value. For example, 2 merges into 4, then 4 can merge into 8."
+        },
+        {
+          "q": "Does 2048 Shoot Merge Number 3D have endless mode?",
+          "a": "Yes. Endless mode lets you keep playing as you chase 2048 and higher scores."
+        }
+      ],
+      "model": "gpt-5.5"
+    }
   }
 ]

@@ -216,6 +216,11 @@
       "slug": "sprunki-horror-version-dark",
       "at": "2026-11-19"
     },
+    "64413": {
+      "status": "imported",
+      "slug": "sprunki-456-squid-cookie",
+      "at": "2026-11-28"
+    },
     "64630": {
       "status": "imported",
       "slug": "tung-tung-sahur-midnight-terror",
@@ -515,6 +520,11 @@
       "status": "imported",
       "slug": "brainrot-shooter",
       "at": "2026-11-03"
+    },
+    "74084": {
+      "status": "imported",
+      "slug": "2048-shoot-merge-number-3d",
+      "at": "2026-11-28"
     },
     "74174": {
       "status": "imported",
@@ -1240,6 +1250,16 @@
       "status": "imported",
       "slug": "sprunki-happy-easter-2player",
       "at": "2026-11-27"
+    },
+    "https://html5.gamemonetize.co/yv9zfw3upjb12a2hmnll9m49c57poyir/": {
+      "status": "imported",
+      "slug": "sprunki-456-squid-cookie",
+      "at": "2026-11-28"
+    },
+    "https://html5.gamemonetize.co/a5n46az8ma9tlaqre5wzz0yn0rqv354l/": {
+      "status": "imported",
+      "slug": "2048-shoot-merge-number-3d",
+      "at": "2026-11-28"
     }
   }
 }
